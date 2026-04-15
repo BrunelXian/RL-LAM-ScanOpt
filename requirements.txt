@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+pillow
+gymnasium
+stable-baselines3
+sb3-contrib
+torch
+streamlit
+opencv-python
