@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -12,6 +14,10 @@ matplotlib.use("Agg")
 from matplotlib import animation
 import matplotlib.pyplot as plt
 import numpy as np
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 
 def _prepare_output_path(path: str | Path) -> Path:
@@ -194,3 +200,25 @@ def save_scan_path_gif(
     )
     anim.save(output_path, writer=animation.PillowWriter(fps=8))
     plt.close(fig)
+
+
+def main() -> None:
+    """Regenerate training curves and evaluation visualisations from saved outputs."""
+    training_history_path = PROJECT_ROOT / "assets" / "models" / "training_history_maskable_ppo_twi.json"
+    training_curves_path = PROJECT_ROOT / "assets" / "figures" / "training_curves_maskable_ppo.png"
+
+    if training_history_path.exists():
+        with training_history_path.open("r", encoding="utf-8") as file:
+            training_history = json.load(file)
+        save_training_curves_figure(training_history, training_curves_path)
+        print(f"Saved training curves to: {training_curves_path}")
+    else:
+        print(f"Training history not found: {training_history_path}")
+
+    from rl.eval_policy import main as eval_main
+
+    eval_main()
+
+
+if __name__ == "__main__":
+    main()

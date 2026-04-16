@@ -1,4 +1,4 @@
-"""Evaluate a trained Maskable PPO policy on the default TWI planning task."""
+"""Evaluate a trained Maskable PPO policy on the default TWI letter scan task."""
 
 from __future__ import annotations
 
@@ -31,6 +31,12 @@ MODEL_PATH = PROJECT_ROOT / "assets" / "models" / "maskable_ppo_twi.zip"
 FIGURE_DIR = PROJECT_ROOT / "assets" / "figures"
 TRAINING_HISTORY_PATH = PROJECT_ROOT / "assets" / "models" / "training_history_maskable_ppo_twi.json"
 SUMMARY_PATH = PROJECT_ROOT / "training_results.md"
+ORDER_MAP_PATH = FIGURE_DIR / "order_map_rl_maskable_ppo.png"
+THERMAL_MAP_PATH = FIGURE_DIR / "thermal_map_rl_maskable_ppo.png"
+METRICS_COMPARISON_PATH = FIGURE_DIR / "metrics_comparison_with_rl.png"
+THERMAL_GRID_PATH = FIGURE_DIR / "thermal_map_comparison_grid.png"
+ORDER_GRID_PATH = FIGURE_DIR / "order_map_comparison_grid.png"
+SCAN_GIF_PATH = FIGURE_DIR / "scan_path_rl_maskable_ppo.gif"
 
 
 def _mask_fn(env: object) -> object:
@@ -47,27 +53,13 @@ def make_env() -> object:
         grid_size=GRID_SIZE,
         text=TEXT,
         canvas_size=CANVAS_SIZE,
-        max_steps=max(int(planning_mask.sum()) * 2, 1),
     )
     return ActionMasker(env, _mask_fn)
 
 
-def main() -> None:
-    """Load a saved model, run one masked evaluation episode, and save figures."""
-    try:
-        from sb3_contrib import MaskablePPO
-        from sb3_contrib.common.maskable.utils import get_action_masks
-    except ImportError as exc:
-        raise ImportError(
-            "Maskable PPO dependencies are missing. Install torch and sb3-contrib first."
-        ) from exc
-
-    if not MODEL_PATH.exists():
-        raise FileNotFoundError(f"Model file not found: {MODEL_PATH}")
-
-    FIGURE_DIR.mkdir(parents=True, exist_ok=True)
-    env = make_env()
-    model = MaskablePPO.load(str(MODEL_PATH))
+def evaluate_masked_policy_once(model: object, env: object) -> dict:
+    """Run one masked evaluation episode and return a rollout-style result."""
+    from sb3_contrib.common.maskable.utils import get_action_masks
 
     obs, _ = env.reset(seed=42)
     terminated = False
@@ -80,22 +72,41 @@ def main() -> None:
 
     actions = list(env.unwrapped.executed_actions)
     mask = env.unwrapped.target_mask.copy()
-    rl_result = run_plan(mask=mask, actions=actions, record_history=True, history_stride=8)
+    return run_plan(mask=mask, actions=actions, record_history=True, history_stride=8)
+
+
+def main() -> None:
+    """Load a saved model, run one masked evaluation episode, and save figures."""
+    try:
+        from sb3_contrib import MaskablePPO
+    except ImportError as exc:
+        raise ImportError(
+            "Maskable PPO dependencies are missing. Install torch and sb3-contrib first."
+        ) from exc
+
+    if not MODEL_PATH.exists():
+        raise FileNotFoundError(f"Model file not found: {MODEL_PATH}")
+
+    FIGURE_DIR.mkdir(parents=True, exist_ok=True)
+    env = make_env()
+    model = MaskablePPO.load(str(MODEL_PATH))
+    rl_result = evaluate_masked_policy_once(model=model, env=env)
+    mask = rl_result["target_mask"]
 
     save_order_map_figure(
         rl_result["order_map"],
-        FIGURE_DIR / "order_map_rl_maskable_ppo.png",
+        ORDER_MAP_PATH,
         title="RL Maskable PPO Order Map",
     )
     save_thermal_map_figure(
         rl_result["final_thermal"],
-        FIGURE_DIR / "thermal_map_rl_maskable_ppo.png",
+        THERMAL_MAP_PATH,
         title="RL Maskable PPO Final Thermal Field",
     )
     save_scan_path_gif(
         target_mask=mask,
         scanned_history=rl_result["scanned_history"],
-        path=FIGURE_DIR / "scan_path_rl_maskable_ppo.gif",
+        path=SCAN_GIF_PATH,
         title="RL Maskable PPO Scan Path",
     )
 
@@ -105,10 +116,10 @@ def main() -> None:
         "greedy_cool_first": run_plan(mask=mask, actions=plan_greedy_cool_first(mask)),
         "rl_maskable_ppo": rl_result,
     }
-    save_metrics_bar_chart(comparison_results, FIGURE_DIR / "metrics_comparison_with_rl.png")
+    save_metrics_bar_chart(comparison_results, METRICS_COMPARISON_PATH)
     save_comparison_grid(
         comparison_results,
-        FIGURE_DIR / "thermal_map_comparison_grid.png",
+        THERMAL_GRID_PATH,
         field_key="final_thermal",
         title="Thermal Map Comparison",
         cmap="magma",
@@ -116,7 +127,7 @@ def main() -> None:
     )
     save_comparison_grid(
         comparison_results,
-        FIGURE_DIR / "order_map_comparison_grid.png",
+        ORDER_GRID_PATH,
         field_key="order_map",
         title="Scan Order Comparison",
         cmap="inferno",
@@ -184,9 +195,10 @@ def main() -> None:
             "",
             "The current Maskable PPO model reaches full coverage on the `TWI` letter mask and "
             "is compared against raster, random, and greedy cool-first baselines using the "
-            "same lightweight thermal proxy. The updated reward mixes coverage, global thermal "
-            "variance penalties, local temperature-difference penalties, hotspot-distribution "
-            "penalties, and invalid-action penalties while leaving path jumps unconstrained.",
+            "same lightweight thermal proxy. The updated stripe-based environment chooses the "
+            "next legal vertical stripe inside the letter mask, then applies sequential thermal "
+            "updates over the cells in that stripe. The reward mixes coverage, thermal variance "
+            "penalties, hotspot penalties, temperature-difference bonuses, and invalid-action penalties.",
             "",
             "Current limitations:",
             "- This is still a proxy thermal environment rather than a calibrated physical model.",

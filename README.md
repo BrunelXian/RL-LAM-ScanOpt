@@ -1,81 +1,119 @@
 # RL-LAM-ScanOpt
 
-Minimal research/demo project for **reinforcement learning-based scan path optimisation inside letter-shaped regions** such as `TWI`.
+**RL-LAM-ScanOpt** is a lightweight research/demo project for **reinforcement learning-based scan path optimisation inside letter-shaped regions** such as `TWI`.
 
-The scan region is the **interior of the letters themselves**. The project explores whether RL can find scan orders that reduce thermal non-uniformity, hotspot concentration, and stress-related proxy risk compared with simple baselines.
+Instead of treating the scan area as a full rectangular plate, this project uses the **interior of the letters themselves** as the legal scan region. The core question is simple:
 
-> This repository is intentionally a lightweight proxy-model demo.
-> It does **not** implement FEM, exact melt-pool physics, or exact residual stress prediction.
+> Can we learn a scan order that produces a more uniform thermal field and fewer concentrated hotspots than simple handcrafted baselines?
 
-## Overview
+This repository is intentionally designed as a **fast, interpretable, engineering-friendly demo**. It does **not** attempt to be a calibrated process simulator.
 
-In laser-based additive manufacturing, the order in which regions are scanned can change how heat accumulates over time. RL-LAM-ScanOpt turns that idea into a compact optimisation problem:
+## Why This Project Exists
 
-- generate a target mask for a letter geometry such as `TWI`
-- restrict valid scan actions to cells inside that letter region
-- update a lightweight thermal field after each scan action
-- train an RL policy to choose scan order under thermal-quality objectives
-- compare RL against raster, random, and heuristic baselines
+In laser-based additive manufacturing, scan order matters. Even with a simplified thermal proxy, the order in which the beam visits different parts of a geometry can change:
 
-The emphasis is on **fast iteration**, **clear visuals**, and **modular design**, not high-fidelity process simulation.
+- how heat accumulates
+- how evenly temperature is distributed
+- how strongly hotspots cluster
+- how large stress-related proxy risk may become
 
-## Project Goal
+RL-LAM-ScanOpt turns that intuition into a compact optimisation problem that is easy to visualise, easy to extend, and fast enough to iterate on.
 
-Use RL to optimise scan paths so that temperature distribution inside a letter-shaped scan region stays as uniform as possible, hotspots are reduced, and residual-stress-related risk proxies are improved.
+## What Is Implemented Today
 
-## Core Modules
+The current repository already supports an end-to-end demo pipeline:
 
-| Module | Purpose |
-| --- | --- |
-| `core/geometry.py` | Generate text masks and convert them into coarse legal scan grids |
-| `core/thermal.py` | Apply Gaussian heat-source deposits plus diffusion/cooling proxy updates |
-| `core/planners/` | Provide raster, random, and greedy baseline planners |
-| `core/rollout.py` | Execute scan plans and collect thermal fields, order maps, and metrics |
-| `rl/env_scan.py` | Define the masked Gymnasium environment for scan planning |
-| `rl/train_maskable_ppo.py` | Train a `MaskablePPO` policy and save model/training curves |
-| `rl/eval_policy.py` | Run masked inference, compare RL with baselines, and export reports |
+- high-resolution text mask generation for targets such as `TWI`
+- downsampling to a coarse `64x64` decision grid
+- lightweight Gaussian heat-source plus diffusion/cooling proxy simulation
+- baseline planners:
+  - raster
+  - random
+  - greedy cool-first
+- a **stripe-based** masked RL environment
+- `MaskablePPO` training and evaluation
+- exported figures:
+  - target masks
+  - scan order maps
+  - thermal maps
+  - training curves
+  - scan GIFs
+  - comparison figures
 
-## State Representation
+In the current RL setup, the agent chooses the **next legal vertical stripe segment inside the letter region**, not an arbitrary out-of-mask cell.
 
-The RL observation uses a channel-first tensor for CNN compatibility:
+## Project Scope
 
-- `target_mask`: binary mask of the target letter region
-- `scanned_mask`: binary mask of already scanned cells
-- `thermal_field`: current thermal proxy field
+Included:
 
-Only cells **inside the letter shape** are valid scan actions.
+- letter-shaped scan regions such as `TWI`
+- stripe-based or cell-wise scan-order reasoning on a coarse grid
+- lightweight thermal proxy updates
+- RL and baseline comparison
+- visualisation-first experimentation
 
-## Reward Design
+Explicitly out of scope:
 
-The reward is based on simplified thermal-quality indicators:
+- FEM
+- exact melt-pool simulation
+- exact residual stress prediction
+- calibrated temperature prediction
+- production-ready process planning
 
-- bonus for valid coverage progress
+## Core Idea
+
+The repository separates the problem into a few small, understandable parts:
+
+1. **Geometry**
+   Generate a text mask and turn it into a legal scan region.
+
+2. **Thermal Proxy**
+   Apply a Gaussian-like heat deposit, then diffuse and cool the field after each scan step.
+
+3. **Planner / Policy**
+   Choose the next scan action, either from a baseline heuristic or from an RL policy.
+
+4. **Metrics**
+   Compare final thermal variance, peak temperature, mean temperature, coverage, and visual scan structure.
+
+5. **Visual Outputs**
+   Turn the result into order maps, thermal maps, GIFs, and comparison charts that are easy to explain.
+
+## Current RL Formulation
+
+### Observation
+
+The policy observes a channel-first tensor:
+
+- `target_mask`
+- `scanned_mask`
+- `thermal_field`
+
+This is designed to be CNN-friendly.
+
+### Action Space
+
+The current environment is **stripe-based**:
+
+- the letter region is split into legal **vertical stripe segments**
+- each action selects the **next stripe**
+- stripes are constrained to stay inside the target letter geometry
+- invalid stripe selections are masked out
+
+### Reward
+
+The reward is a simple thermal-quality proxy, built to encourage useful behaviour without pretending to be a physical truth model.
+
+It includes:
+
+- coverage progress
 - penalty for high thermal variance
-- penalty for large local temperature differences
-- penalty for concentrated hotspots / poor hotspot distribution
-- penalty for invalid actions
+- penalty for high peak temperature
+- local temperature-difference shaping
+- hotspot-dispersion shaping
+- invalid-action penalty
 
-The current environment does **not** add a jump-path penalty, so the policy is free to explore non-local moves if they help the thermal objective.
-
-## Thermal Model
-
-The thermal model is deliberately simple and fast:
-
-- local **Gaussian heat source** at the active scan cell
-- lightweight **diffusion** using smoothing
-- global **cooling/decay** after each step
-
-This is a proxy thermal field for planning experiments, not a calibrated physical simulation.
-
-## Current Workflow
-
-1. Generate a high-resolution text mask for a target such as `TWI`
-2. Downsample it to a `64x64` scan grid
-3. Restrict legal actions to cells inside the letter geometry
-4. Run baselines and RL in the same masked environment
-5. Export scan-order maps, thermal maps, training curves, GIF animation, and markdown summaries
-
-## Repository Layout
+## Repository Structure
 
 ```text
 app/
@@ -90,9 +128,24 @@ scripts/
 tests/
 ```
 
-## Quick Start
+### Important Files
 
-### Windows setup
+| Path | Purpose |
+| --- | --- |
+| `core/geometry.py` | Text masks, coarse grids, stripe generation |
+| `core/thermal.py` | Gaussian heat input and diffusion/cooling proxy |
+| `core/rollout.py` | Executes scan sequences and records outputs |
+| `core/viz.py` | Figures, comparison plots, GIF generation |
+| `core/planners/` | Raster, random, and greedy baselines |
+| `rl/env_scan.py` | Masked Gymnasium environment for stripe-based scan planning |
+| `rl/train_maskable_ppo.py` | Train `MaskablePPO` on the stripe environment |
+| `rl/eval_policy.py` | Evaluate RL against baselines and export visuals |
+| `scripts/run_baselines.py` | Run the baseline planners |
+| `scripts/search_top_sequences.py` | Large-scale candidate search for strong scan orders |
+
+## How To Run
+
+### 1. Install dependencies
 
 ```powershell
 python -m venv .venv
@@ -100,47 +153,110 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### Typical commands
+If you already have a CUDA-ready Python environment, you can use that instead.
+
+### 2. Generate baseline results
 
 ```powershell
 python scripts\run_baselines.py
-python rl\train_maskable_ppo.py
+```
+
+### 3. Train the stripe-based RL policy
+
+```powershell
+python rl\train_maskable_ppo.py --timesteps 100000
+```
+
+Useful CLI options:
+
+- `--timesteps`
+- `--device`
+- `--save-path`
+- `--log-interval`
+
+Example:
+
+```powershell
+python rl\train_maskable_ppo.py --timesteps 100000 --device cuda --save-path assets/models/maskable_ppo_twi_stripe.zip
+```
+
+### 4. Evaluate the trained model
+
+```powershell
 python rl\eval_policy.py
 ```
 
-## Outputs
+## Generated Outputs
 
 The project can generate:
 
-- target-mask figures
-- scan-order maps
-- thermal maps
-- RL training curves
-- RL scan-path GIF animation
-- metric comparison charts
-- markdown evaluation summary
+- target mask images
+- scan-order heatmaps
+- final thermal maps
+- RL scan-path GIFs
+- baseline vs RL comparison figures
+- training curves
+- markdown summary reports
 
-## Scope and Limitations
+Typical output locations:
 
-Included:
+- `assets/figures/`
+- `assets/models/`
+- `training_results.md`
 
-- letter-shaped scan regions such as `TWI`
-- coarse grid planning
-- Gaussian heat-source proxy
-- diffusion/cooling proxy updates
-- Maskable PPO training and evaluation
+## Recent Progress In This Repository
 
-Explicitly out of scope:
+This repository has recently been upgraded from a simple cell-wise masked demo into a **stripe-based scan planning setup**:
 
-- FEM
-- exact residual stress prediction
-- exact thermal calibration
-- production-ready process simulation
+- the geometry module now supports legal stripe segmentation inside letter masks
+- the RL environment now acts on stripe segments rather than arbitrary grid cells
+- training is driven by `MaskablePPO`
+- evaluation exports order maps, thermal maps, comparison grids, and GIF animations
+- the training script now supports CLI control for practical experimentation
+
+That means the repo is no longer just a concept scaffold; it is now a runnable demonstration platform.
+
+## How To Judge Whether A Run Is Useful
+
+The most practical evaluation questions are:
+
+1. Does the RL scan order look more like a deliberate process strategy than a noisy jump pattern?
+2. Is the final thermal map more uniform than raster?
+3. Are thermal variance and peak temperature improving relative to at least one baseline?
+4. Are the figures and GIFs clear enough to explain the result to a non-ML audience?
+
+For this project, **explainability and comparison quality** are as important as raw optimisation performance.
+
+## Limitations
+
+Please read this repository as a **planning demo**, not as a validated manufacturing model.
+
+- The thermal field is a proxy field.
+- Stress-related outputs are qualitative or relative proxies.
+- Results should be interpreted comparatively, not as absolute process guarantees.
+- A policy that looks good here still requires more serious physics before any real manufacturing claim.
 
 ## Disclaimer
 
-This repository uses **proxy models** for thermal behaviour and stress-related risk.
+This repository uses simplified proxy models for thermal behaviour and stress-related risk.
 
-- Temperatures are simplified indicators rather than calibrated physical temperatures.
-- Stress-related outputs are qualitative or relative proxies, not exact residual stress predictions.
-- Results should be interpreted as scan-planning demonstrations rather than validated manufacturing guarantees.
+- It does **not** predict exact physical temperature.
+- It does **not** predict exact residual stress.
+- It does **not** replace calibrated process simulation.
+
+Its value is in showing how scan-sequence optimisation can be framed, trained, visualised, and compared in a compact, modular system.
+
+## Next Logical Extensions
+
+If we continue this work, the highest-value next steps are:
+
+1. Evaluate the new stripe-based model against baselines with the latest trained checkpoint.
+2. Improve reward tuning so RL can more consistently beat raster and heuristic strategies.
+3. Add multiple geometries instead of training only on one fixed `TWI` mask.
+4. Build a small interface layer to let users compare scan strategies interactively.
+
+---
+
+If you are reading this repo on GitHub, the shortest summary is:
+
+**RL-LAM-ScanOpt is a modular demo for learning better scan orders inside letter-shaped additive manufacturing regions using a lightweight thermal proxy and strong visual outputs.**
