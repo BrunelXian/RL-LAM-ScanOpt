@@ -8,6 +8,132 @@ Instead of treating the scan area as a full rectangular plate, this project uses
 
 This repository is intentionally designed as a **fast, interpretable, engineering-friendly demo**. It does **not** attempt to be a calibrated process simulator.
 
+## Latest Validation Round
+
+The latest work in this repository focused on one narrow question:
+
+> Is PPO still failing mainly because the action representation is too coarse for thermal credit assignment?
+
+To answer that cleanly, the project went through three controlled validation steps without touching the thermal proxy or reward weights:
+
+1. **Segment-count sweep (`4 / 6 / 8`)**
+   - `segments_per_stripe = 6` remained the best trade-off.
+   - It improved locality relative to the original stripe setup while keeping thermal signal strength and baseline ranking sensible.
+2. **Strict PPO smoke test in `segment=6`**
+   - PPO no longer collapsed into the severe early clustering seen in the old stripe setting.
+   - However, it still failed the strict thermal and reward margins against `random_segment6`.
+   - Current verdict: **NO-GO for scaling PPO**.
+3. **Variable-length action experiment**
+   - A new representation was added where one action selects:
+     - `stripe_id`
+     - `start_cell`
+     - `length` in `[2, 8]`
+   - This was tested with baselines and diagnostics only.
+   - Result: it preserved planner discrimination, but it did **not** clearly improve thermal attribution and is **not** yet a better PPO candidate than fixed `segment=6`.
+
+### Current Gate Decision
+
+- Best action granularity tested so far: **fixed `segment=6`**
+- Latest PPO gate result: **NO-GO**
+- Recommended next step: **revisit action representation before larger PPO training**
+
+### Key Numeric Takeaways
+
+#### Segment-count sweep
+
+| Setting | Action Locality (mean cells/action) | Thermal Share | Distance-aware Early Adjacency |
+| --- | ---: | ---: | ---: |
+| stripe | 15.89 | 0.253 | n/a |
+| segment=4 | 3.97 | 0.263 | 0.030 |
+| segment=6 | 2.67 | 0.262 | 0.010 |
+| segment=8 | 2.14 | 0.255 | 0.065 |
+
+Interpretation:
+
+- `segment=4` is better than stripe, but still a bit coarse.
+- `segment=8` is finer, but starts to fragment the task and worsens the early clustering proxy.
+- `segment=6` is the best balance of locality, thermal signal, and stable baseline structure.
+
+#### Strict PPO smoke test (`segment=6`)
+
+| Policy | Total Reward | Coverage | Invalid Rate | Reheat | Peak | Early Adjacency |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| `ppo_segment6` | 172.617 | 1.000 | 0.000% | -8.611 | -122.641 | 0.061 |
+| `random_segment6` | 171.503 | 1.000 | 0.000% | -9.583 | -122.567 | 0.061 |
+| `distance_aware_cool_first_segment6` | 200.047 | 1.000 | 0.000% | -8.894 | -119.771 | 0.010 |
+
+Strict gate result:
+
+- `coverage = 1.0`: **pass**
+- `invalid < 1%`: **pass**
+- `early adjacency < 0.5`: **pass**
+- `total reward >= random + 15%`: **fail**
+- `reheat >= 20% better than random`: **fail**
+- `peak >= 20% better than random`: **fail**
+
+This means PPO is no longer obviously collapsed, but it is still too close to `random_segment6` and not yet showing a strong thermo-aware advantage.
+
+#### Variable-length action experiment
+
+| Environment | Action Format | Action Count | Mean Cells/Action | Range |
+| --- | --- | ---: | ---: | ---: |
+| fixed `segment=6` | `(stripe_id, segment_index)` | 336 | 2.67 | 1..4 |
+| variable-length | `(stripe_id, start_cell, length[2..8])` | 6230 | 4.25 | 1..8 |
+
+Diagnostics summary:
+
+- thermal share changed from `0.261` to `0.258`
+- coverage+completion share changed from `0.668` to `0.672`
+- distance-aware early adjacency worsened from `0.010` to `0.184`
+
+Interpretation:
+
+- the new variable-length representation did **not** strengthen the thermal learning signal
+- it made the action catalog much larger
+- and it made the best thermo-aware baseline look less locally structured in the early phase
+
+So this representation is useful as a diagnostic experiment, but it is **not** yet the next PPO candidate.
+
+### Current Defects / Open Issues
+
+The current repository is strong as a diagnostic platform, but there are still important limitations:
+
+1. **PPO still does not clearly beat `random_segment6`**
+   - the latest smoke test only improved total reward by about `0.6%`
+   - reheat improvement vs random was only about `10.1%`
+   - peak did not improve meaningfully vs random
+2. **Credit assignment is improved, but not solved**
+   - `segment=6` reduced the old collapse problem
+   - PPO still does not move convincingly toward the `distance_aware_cool_first` behavior
+3. **Variable-length actions are not yet a clean solution**
+   - they increase catalog size a lot
+   - and do not make the thermal signal more dominant
+4. **The project is still a proxy-model demo**
+   - no FEM
+   - no calibrated melt-pool model
+   - no exact residual-stress prediction
+
+### Useful Output Files
+
+Recent outputs referenced above are saved locally in:
+
+- `assets/models/segment_count_sweep_verdict.txt`
+- `assets/models/action_granularity_sweep_comparison.csv`
+- `assets/models/ppo_smoke_segment6_verdict.txt`
+- `assets/models/ppo_vs_baselines_segment6.csv`
+- `assets/models/action_space_comparison_variable_segment.csv`
+- `assets/models/variable_segment_diagnostics_summary.txt`
+
+Recent figures include:
+
+- `assets/figures/maskable_ppo_smoke_segment6_training_curve.png`
+- `assets/figures/ppo_smoke_segment6_reward_breakdown.png`
+- `assets/figures/ppo_smoke_segment6_heatmap_comparison.png`
+- `assets/figures/ppo_smoke_segment6_scan_order_comparison.png`
+- `assets/figures/baseline_reward_breakdown_variable_segment.png`
+- `assets/figures/baseline_heatmap_comparison_variable_segment.png`
+- `assets/figures/baseline_scan_order_comparison_variable_segment.png`
+
 ## Why This Project Exists
 
 In laser-based additive manufacturing, scan order matters. Even with a simplified thermal proxy, the order in which the beam visits different parts of a geometry can change:
@@ -31,7 +157,10 @@ The current repository already supports an end-to-end demo pipeline:
   - random
   - greedy cool-first
 - a **stripe-based** masked RL environment
+- a **fixed segment-based** masked RL environment
+- a **variable-length segment** diagnostic environment
 - `MaskablePPO` training and evaluation
+- reward-breakdown diagnostics and planner-level CSV outputs
 - exported figures:
   - target masks
   - scan order maps
@@ -50,6 +179,8 @@ The repository is now beyond the scaffold stage and already supports real experi
 - the geometry pipeline supports text masks and legal stripe segmentation
 - the thermal proxy pipeline is active
 - the stripe-based RL environment is implemented
+- the fixed `segment=6` action environment is implemented and validated
+- a variable-length action environment has been added for diagnostics
 - `MaskablePPO` training is implemented with CLI control
 - evaluation and visualisation scripts exist and export figures/GIFs
 - a `100000`-timestep stripe-based training run has already been completed locally

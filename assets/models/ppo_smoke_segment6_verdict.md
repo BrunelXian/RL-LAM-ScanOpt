@@ -1,0 +1,14 @@
+# PPO Smoke Segment6 Verdict
+
+1. Did PPO pass all required criteria? NO
+2. Failed criteria: reheat_vs_random, peak_vs_random, total_reward_vs_random
+3. PPO coverage ratio: 1.000
+4. PPO invalid action rate: 0.000%
+5. PPO early adjacency ratio: 0.061
+6. PPO reheat improvement vs random: 10.1%
+7. PPO peak improvement vs random: -0.1%
+8. PPO total reward improvement vs random: 0.6%
+9. PPO scan order looks less random and partially more structured, but it is still not close to the distance-aware heuristic.
+10. Credit assignment is now sufficient only if PPO clears the thermal and reward margins; it does not if those margins fail.
+
+NO-GO: do NOT scale PPO, revisit representation

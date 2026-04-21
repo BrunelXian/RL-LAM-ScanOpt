@@ -1,0 +1,5 @@
+1. Best overall trade-off: segment=6.
+2. Thermal signal comparison: stripe=0.253, 4=0.263, 6=0.262, 8=0.255.
+3. Early clustering comparison (distance-aware): 4=0.030, 6=0.010, 8=0.065.
+4. Next PPO smoke test should use segment=6.
+Single next action: run the next PPO smoke test with this segment count.

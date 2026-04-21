@@ -1,0 +1,9 @@
+# Variable Segment Diagnostics Summary
+
+- Thermal share: fixed_segment6=0.261, variable_length=0.258
+- Coverage+completion share: fixed_segment6=0.668, variable_length=0.672
+- Random early adjacency: fixed_segment6=0.061, variable_length=0.040
+- Distance-aware early adjacency: fixed_segment6=0.010, variable_length=0.184
+- Distance-aware cumulative early reheat: fixed_segment6=-1.824, variable_length=-2.698
+- Baseline top planner in variable environment: distance_aware_cool_first
+- Interpretation: the new representation is better only if thermal share does not weaken and distance-aware/cool-first remain clearly structured relative to random.

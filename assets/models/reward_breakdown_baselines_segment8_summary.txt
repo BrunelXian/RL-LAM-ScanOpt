@@ -1,0 +1,2 @@
+Segment 8 baseline summary
+- Ranking by total reward: distance_aware_cool_first (255.473), greedy (230.476), cool_first (229.835), random (218.106), checkerboard (211.522), raster (124.441)

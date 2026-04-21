@@ -1,0 +1,9 @@
+- PPO total reward: 172.617
+- Random total reward: 171.503
+- Distance-aware total reward: 200.047
+- PPO early adjacency ratio: 0.061 (random=0.061, distance-aware=0.010)
+- PPO cumulative early reheat: -2.213 (random=-2.336, distance-aware=-1.824)
+- PPO early peak heat: 0.413 (random=0.483, distance-aware=0.480)
+- Reheat improvement vs random: 10.1%
+- Peak improvement vs random: -0.1%
+- Total reward improvement vs random: 0.6%
