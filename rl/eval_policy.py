@@ -27,16 +27,16 @@ from rl.env_scan import ScanPlanningEnv, build_twi_mask
 TEXT = "TWI"
 GRID_SIZE = 64
 CANVAS_SIZE = 1024
-MODEL_PATH = PROJECT_ROOT / "assets" / "models" / "maskable_ppo_twi.zip"
+MODEL_PATH = PROJECT_ROOT / "assets" / "models" / "maskable_ppo_twi_stripe.zip"
 FIGURE_DIR = PROJECT_ROOT / "assets" / "figures"
-TRAINING_HISTORY_PATH = PROJECT_ROOT / "assets" / "models" / "training_history_maskable_ppo_twi.json"
-SUMMARY_PATH = PROJECT_ROOT / "training_results.md"
-ORDER_MAP_PATH = FIGURE_DIR / "order_map_rl_maskable_ppo.png"
-THERMAL_MAP_PATH = FIGURE_DIR / "thermal_map_rl_maskable_ppo.png"
-METRICS_COMPARISON_PATH = FIGURE_DIR / "metrics_comparison_with_rl.png"
-THERMAL_GRID_PATH = FIGURE_DIR / "thermal_map_comparison_grid.png"
-ORDER_GRID_PATH = FIGURE_DIR / "order_map_comparison_grid.png"
-SCAN_GIF_PATH = FIGURE_DIR / "scan_path_rl_maskable_ppo.gif"
+TRAINING_HISTORY_PATH = PROJECT_ROOT / "assets" / "models" / "maskable_ppo_twi_stripe_history.json"
+SUMMARY_PATH = PROJECT_ROOT / "training_results_stripe.md"
+ORDER_MAP_PATH = FIGURE_DIR / "order_map_rl_maskable_ppo_stripe.png"
+THERMAL_MAP_PATH = FIGURE_DIR / "thermal_map_rl_maskable_ppo_stripe.png"
+METRICS_COMPARISON_PATH = FIGURE_DIR / "metrics_comparison_with_rl_stripe.png"
+THERMAL_GRID_PATH = FIGURE_DIR / "thermal_map_comparison_grid_stripe.png"
+ORDER_GRID_PATH = FIGURE_DIR / "order_map_comparison_grid_stripe.png"
+SCAN_GIF_PATH = FIGURE_DIR / "scan_path_rl_maskable_ppo_stripe.gif"
 
 
 def _mask_fn(env: object) -> object:
@@ -96,18 +96,18 @@ def main() -> None:
     save_order_map_figure(
         rl_result["order_map"],
         ORDER_MAP_PATH,
-        title="RL Maskable PPO Order Map",
+        title="RL Maskable PPO Stripe Order Map",
     )
     save_thermal_map_figure(
         rl_result["final_thermal"],
         THERMAL_MAP_PATH,
-        title="RL Maskable PPO Final Thermal Field",
+        title="RL Maskable PPO Stripe Final Thermal Field",
     )
     save_scan_path_gif(
         target_mask=mask,
         scanned_history=rl_result["scanned_history"],
         path=SCAN_GIF_PATH,
-        title="RL Maskable PPO Scan Path",
+        title="RL Maskable PPO Stripe Scan Path",
     )
 
     comparison_results = {
@@ -135,7 +135,7 @@ def main() -> None:
     )
 
     metrics = rl_result["metrics"]
-    print("RL Maskable PPO evaluation summary")
+    print("RL Maskable PPO Stripe evaluation summary")
     print(
         f"- coverage={metrics['coverage_ratio']:.3f}, "
         f"mean={metrics['thermal_mean']:.3f}, "
@@ -179,17 +179,17 @@ def main() -> None:
             "## Graphical Comparison",
             "",
             "### Scan Paths",
-            "![Scan Order Comparison](assets/figures/order_map_comparison_grid.png)",
+            "![Scan Order Comparison](assets/figures/order_map_comparison_grid_stripe.png)",
             "",
             "### Thermal Maps",
-            "![Thermal Map Comparison](assets/figures/thermal_map_comparison_grid.png)",
+            "![Thermal Map Comparison](assets/figures/thermal_map_comparison_grid_stripe.png)",
             "",
             "### RL Scan Animation",
-            "![RL Scan Path GIF](assets/figures/scan_path_rl_maskable_ppo.gif)",
+            "![RL Scan Path GIF](assets/figures/scan_path_rl_maskable_ppo_stripe.gif)",
             "",
             "## Training Curves",
             "",
-            "![Training Curves](assets/figures/training_curves_maskable_ppo.png)",
+            "![Training Curves](assets/figures/maskable_ppo_twi_stripe_training_curves.png)",
             "",
             "## Discussion",
             "",

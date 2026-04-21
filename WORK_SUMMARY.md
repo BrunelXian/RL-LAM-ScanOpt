@@ -221,7 +221,31 @@ From the recorded local history snapshot:
 
 This confirms that the stripe-based pipeline can complete a full training run and save outputs correctly.
 
-## 11. Current Strengths
+## 11. Latest Official Stripe Evaluation
+
+The latest evaluation was run against the newest stripe checkpoint and exported a full result set:
+
+- `assets/figures/order_map_rl_maskable_ppo_stripe.png`
+- `assets/figures/thermal_map_rl_maskable_ppo_stripe.png`
+- `assets/figures/scan_path_rl_maskable_ppo_stripe.gif`
+- `assets/figures/order_map_comparison_grid_stripe.png`
+- `assets/figures/thermal_map_comparison_grid_stripe.png`
+- `assets/figures/metrics_comparison_with_rl_stripe.png`
+- `training_results_stripe.md`
+
+Latest comparison snapshot:
+
+- raster: `peak=0.555`, `variance=0.001`
+- random: `peak=0.292`, `variance=0.000`
+- greedy_cool_first: `peak=0.326`, `variance=0.000`
+- rl_maskable_ppo_stripe: `peak=0.512`, `variance=0.001`
+
+Interpretation:
+
+- the stripe-based RL run is already stronger than raster
+- it is not yet stronger than the best handcrafted baselines
+- the bottleneck is now reward tuning / training quality, not missing infrastructure
+## 12. Current Strengths
 
 The repository is now strong in the following ways:
 
@@ -233,7 +257,7 @@ The repository is now strong in the following ways:
 - strong visual output potential
 - practical demo value for explanation and presentation
 
-## 12. Current Gaps / Follow-Up Work
+## 13. Current Gaps / Follow-Up Work
 
 The main gaps are now mostly on the experiment side rather than on the scaffolding side.
 
@@ -245,7 +269,7 @@ Still worth doing next:
 4. Train on more than one geometry to reduce overfitting to a single `TWI` mask.
 5. Clean up local experiment artifacts and decide which generated figures/models should be versioned.
 
-## 13. Overall Conclusion
+## 14. Overall Conclusion
 
 This project is no longer just an idea or folder scaffold.
 

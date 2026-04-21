@@ -62,6 +62,51 @@ Latest local training artifacts:
 
 At the moment, the repository is strongest as a **working experimental demo platform**, not yet as a polished benchmark suite.
 
+## Latest Stripe Evaluation
+
+The latest official local evaluation was run using the stripe-based checkpoint:
+
+- model: `assets/models/maskable_ppo_twi_stripe.zip`
+- summary: `training_results_stripe.md`
+
+Current comparison snapshot:
+
+| Planner | Coverage | Thermal Mean | Thermal Peak | Thermal Variance | Steps |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| raster | 1.000 | 0.006 | 0.555 | 0.001 | 890 |
+| random | 1.000 | 0.006 | 0.292 | 0.000 | 890 |
+| greedy_cool_first | 1.000 | 0.006 | 0.326 | 0.000 | 890 |
+| rl_maskable_ppo_stripe | 1.000 | 0.006 | 0.512 | 0.001 | 890 |
+
+Takeaway:
+
+- the stripe-based RL model reaches full coverage
+- it clearly improves over `raster`
+- it is still behind `random` and `greedy_cool_first` on this simplified proxy task
+- the project is now in the phase where reward tuning and evaluation quality matter more than scaffolding
+
+### Latest Visuals
+
+#### RL Stripe Order Map
+
+![RL Stripe Order Map](assets/figures/order_map_rl_maskable_ppo_stripe.png)
+
+#### RL Stripe Thermal Map
+
+![RL Stripe Thermal Map](assets/figures/thermal_map_rl_maskable_ppo_stripe.png)
+
+#### RL Stripe Scan GIF
+
+![RL Stripe Scan GIF](assets/figures/scan_path_rl_maskable_ppo_stripe.gif)
+
+#### RL vs Baselines
+
+![Stripe Scan Order Comparison](assets/figures/order_map_comparison_grid_stripe.png)
+
+![Stripe Thermal Comparison](assets/figures/thermal_map_comparison_grid_stripe.png)
+
+![Stripe Training Curves](assets/figures/maskable_ppo_twi_stripe_training_curves.png)
+
 ## Project Scope
 
 Included:
@@ -223,6 +268,7 @@ Typical output locations:
 - `assets/figures/`
 - `assets/models/`
 - `training_results.md`
+- `training_results_stripe.md`
 - `WORK_SUMMARY.md`
 
 ## Recent Progress In This Repository
@@ -284,10 +330,10 @@ Its value is in showing how scan-sequence optimisation can be framed, trained, v
 
 If we continue this work, the highest-value next steps are:
 
-1. Evaluate the new stripe-based model against baselines with the latest trained checkpoint.
-2. Improve reward tuning so RL can more consistently beat raster and heuristic strategies.
-3. Add multiple geometries instead of training only on one fixed `TWI` mask.
-4. Build a small interface layer to let users compare scan strategies interactively.
+1. Improve reward tuning so RL can more consistently beat raster and heuristic strategies.
+2. Add multiple geometries instead of training only on one fixed `TWI` mask.
+3. Build a small interface layer to let users compare scan strategies interactively.
+4. Add cleaner experiment/version tracking for multiple RL runs and result sets.
 
 ---
 
