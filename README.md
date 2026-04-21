@@ -42,6 +42,26 @@ The current repository already supports an end-to-end demo pipeline:
 
 In the current RL setup, the agent chooses the **next legal vertical stripe segment inside the letter region**, not an arbitrary out-of-mask cell.
 
+## Current Status
+
+The repository is now beyond the scaffold stage and already supports real experimentation:
+
+- Phase 1 baseline simulation is implemented and runnable
+- the geometry pipeline supports text masks and legal stripe segmentation
+- the thermal proxy pipeline is active
+- the stripe-based RL environment is implemented
+- `MaskablePPO` training is implemented with CLI control
+- evaluation and visualisation scripts exist and export figures/GIFs
+- a `100000`-timestep stripe-based training run has already been completed locally
+
+Latest local training artifacts:
+
+- model: `assets/models/maskable_ppo_twi_stripe.zip`
+- history: `assets/models/maskable_ppo_twi_stripe_history.json`
+- curves: `assets/figures/maskable_ppo_twi_stripe_training_curves.png`
+
+At the moment, the repository is strongest as a **working experimental demo platform**, not yet as a polished benchmark suite.
+
 ## Project Scope
 
 Included:
@@ -203,6 +223,7 @@ Typical output locations:
 - `assets/figures/`
 - `assets/models/`
 - `training_results.md`
+- `WORK_SUMMARY.md`
 
 ## Recent Progress In This Repository
 
@@ -215,6 +236,19 @@ This repository has recently been upgraded from a simple cell-wise masked demo i
 - the training script now supports CLI control for practical experimentation
 
 That means the repo is no longer just a concept scaffold; it is now a runnable demonstration platform.
+
+## Practical Notes
+
+- Training is launched through `rl/train_maskable_ppo.py`
+- the training script now supports CLI control for faster iteration
+- the evaluation script still compares RL against raster, random, and greedy baselines
+- the search script can also perform large-scale candidate-sequence search outside the RL loop
+
+If you want to continue from the current state, the most useful next command is:
+
+```powershell
+python rl\train_maskable_ppo.py --timesteps 100000
+```
 
 ## How To Judge Whether A Run Is Useful
 
