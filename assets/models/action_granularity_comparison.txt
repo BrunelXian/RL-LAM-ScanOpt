@@ -1,0 +1,9 @@
+- Stripe affected cells per action: mean=15.89, min=4, max=24
+- Segment affected cells per action: mean=2.67, min=1, max=4
+- Reward signal share, stripe: coverage+completion=0.689, thermal=0.250, jump=0.061
+- Reward signal share, segment: coverage+completion=0.669, thermal=0.261, jump=0.070
+- Stripe random early adjacency=0.188, early reheat=-0.330
+- Segment random early adjacency=0.061, early reheat=-2.336
+- Stripe distance-aware early adjacency=0.000, early reheat=-0.547
+- Segment distance-aware early adjacency=0.010, early reheat=-1.824
+- Segment baseline ranking: distance_aware_cool_first (200.047), cool_first (181.159), greedy (179.247), random (171.503), checkerboard (167.611), raster (104.295)

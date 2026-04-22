@@ -1,0 +1,2 @@
+Local-window baseline summary
+- Ranking by total reward: distance_aware_cool_first (233.914), cool_first (228.234), greedy (219.942), checkerboard (216.215), random (201.764), raster (201.042)

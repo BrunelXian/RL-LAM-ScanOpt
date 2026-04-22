@@ -1,0 +1,41 @@
+{
+  "selected_variant": "variant_1",
+  "reward_weights": {
+    "coverage": 1.0,
+    "invalid": 5.0,
+    "peak": 0.8,
+    "variance": 1.0,
+    "reheat": 1.44,
+    "jump": 0.44999999999999996,
+    "completion_bonus": 8.0
+  },
+  "variants": {
+    "variant_0": {
+      "coverage": 1.0,
+      "invalid": 5.0,
+      "peak": 0.8,
+      "variance": 1.0,
+      "reheat": 1.2,
+      "jump": 0.3,
+      "completion_bonus": 8.0
+    },
+    "variant_1": {
+      "coverage": 1.0,
+      "invalid": 5.0,
+      "peak": 0.8,
+      "variance": 1.0,
+      "reheat": 1.44,
+      "jump": 0.44999999999999996,
+      "completion_bonus": 8.0
+    },
+    "variant_2": {
+      "coverage": 1.0,
+      "invalid": 5.0,
+      "peak": 0.8,
+      "variance": 1.0,
+      "reheat": 1.5,
+      "jump": 0.6,
+      "completion_bonus": 8.0
+    }
+  }
+}

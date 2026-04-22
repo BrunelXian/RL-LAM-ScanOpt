@@ -1,0 +1,6 @@
+1. Segment actions significantly reduce average affected cells per action: 15.89 -> 2.67.
+2. Thermal signal does become relatively stronger compared with coverage/completion: stripe thermal=0.250, segment thermal=0.261.
+3. Action granularity does become more attributable/local under the current proxy.
+4. Baseline behavior in the segment formulation remains sensible.
+5. Segment-based environment appears to reduce the original stripe mismatch problem.
+YES: segment-based granularity clearly improves credit assignment and is worth using for the next PPO smoke test

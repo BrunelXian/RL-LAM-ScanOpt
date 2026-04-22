@@ -1,0 +1,10 @@
+1. Is this new local primitive more local than fixed segment-6? YES
+2. Is thermal signal share stronger or at least not weaker than fixed segment-6? NO
+3. Does it preserve sensible baseline ranking? YES
+4. Does distance_aware_cool_first remain low-clustering and structured? NO
+5. Is this genuinely a better PPO candidate than fixed segment-6? NO
+
+Most important quantitative improvement: action catalog size 336 -> 1769 with locality mean 2.67 -> 1.92.
+Most important remaining weakness: thermal share 0.261 -> 0.227 and distance-aware early adjacency 0.010 -> 0.124.
+
+NO-GO: local primitive does not improve the representation enough; patch-based action should be deprioritized

@@ -1,0 +1,6 @@
+- Segment6 locality mean=2.67, local-window locality mean=2.83
+- Segment6 thermal share=0.261, local-window thermal share=0.240
+- Segment6 action catalog size=336, local-window action catalog size=1780
+- Segment6 distance-aware early adjacency=0.010, local-window distance-aware early adjacency=0.027
+- Segment6 distance-aware cumulative early reheat=-1.824, local-window distance-aware cumulative early reheat=-2.656
+- Local-window ranking top=distance_aware_cool_first, bottom=raster

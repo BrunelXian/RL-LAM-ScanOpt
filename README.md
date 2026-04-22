@@ -10,51 +10,142 @@ This repository is intentionally designed as a **fast, interpretable, engineerin
 
 ## Latest Validation Round
 
-The latest work in this repository focused on one narrow question:
+The most recent work in this repository was a strict attempt to answer one question before investing in larger PPO runs:
 
-> Is PPO still failing mainly because the action representation is too coarse for thermal credit assignment?
+> Can any patch-based action representation produce a learning-facing signal that is strong and local enough for PPO to learn a thermo-aware policy?
 
-To answer that cleanly, the project went through three controlled validation steps without touching the thermal proxy or reward weights:
+At this point, the answer is **no**.
 
-1. **Segment-count sweep (`4 / 6 / 8`)**
-   - `segments_per_stripe = 6` remained the best trade-off.
-   - It improved locality relative to the original stripe setup while keeping thermal signal strength and baseline ranking sensible.
-2. **Strict PPO smoke test in `segment=6`**
-   - PPO no longer collapsed into the severe early clustering seen in the old stripe setting.
-   - However, it still failed the strict thermal and reward margins against `random_segment6`.
-   - Current verdict: **NO-GO for scaling PPO**.
-3. **Variable-length action experiment**
-   - A new representation was added where one action selects:
-     - `stripe_id`
-     - `start_cell`
-     - `length` in `[2, 8]`
-   - This was tested with baselines and diagnostics only.
-   - Result: it preserved planner discrimination, but it did **not** clearly improve thermal attribution and is **not** yet a better PPO candidate than fixed `segment=6`.
+The patch-action family has now been tested systematically across multiple increasingly local designs. These environments are useful as diagnostics and they preserve sensible baseline discrimination, but they still do **not** produce a PPO-friendly representation with a clear thermal advantage over random behavior.
 
-### Current Gate Decision
+### Final Patch-Family Verdict
 
-- Best action granularity tested so far: **fixed `segment=6`**
-- Latest PPO gate result: **NO-GO**
-- Recommended next step: **revisit action representation before larger PPO training**
+- Patch-based actions are **runnable and diagnostically useful**
+- Patch-based actions are **not** currently a good PPO representation
+- PPO is no longer collapsing the way it did in the original stripe setup, but it is still not learning a convincing thermo-aware policy
+- The main bottleneck now appears to be the **action abstraction itself**, not the PPO algorithm and not the current reward weighting
+- The next action-representation branch should move toward **selector / priority-based actions**, not more patch variants
+
+### What Was Tested
+
+#### 1. Stripe-based action
+
+- Mean locality: about `15.9` cells per action
+- Result: PPO showed severe early clustering
+- Early adjacency during smoke testing was about `0.944`
+- Verdict: **too coarse, credit assignment collapse**
+
+#### 2. Fixed segment action (`segments_per_stripe = 6`)
+
+- Mean locality: `2.67`
+- Thermal share: `0.261`
+- PPO no longer collapsed
+- But PPO stayed close to `random_segment6`
+- Strict PPO gate result: **NO-GO**
+
+This remains the **best patch-based baseline representation tested so far**, but it still fails as a convincing PPO candidate.
+
+#### 3. Variable-length segment action
+
+Action format:
+
+- `(stripe_id, start_cell, length[2..8])`
+
+Diagnostics:
+
+- action count increased from `336` to `6230`
+- mean affected cells increased from `2.67` to `4.25`
+- thermal share changed from `0.261` to `0.258`
+- distance-aware early adjacency worsened from `0.010` to `0.184`
+
+Verdict:
+
+- **NO-GO**
+- bigger catalog
+- less stable structure
+- no stronger thermal learning signal
+
+#### 4. Local-window action
+
+Action format:
+
+- local centered `3-cell` window
+- horizontal / vertical orientation
+
+Diagnostics:
+
+- action count increased to about `1780`
+- mean affected cells stayed near `2.83`
+- thermal share dropped from `0.261` to `0.240`
+- distance-aware early adjacency worsened from `0.010` to `0.027`
+
+Verdict:
+
+- **NO-GO**
+- more actions, weaker thermal signal, no clear PPO-facing gain
+
+#### 5. Local primitive action
+
+Action format:
+
+- strict `2-cell` primitive
+- anchor + local direction
+
+Diagnostics:
+
+- action count about `1769`
+- mean affected cells dropped to `1.92`
+- thermal share dropped from `0.261` to `0.227`
+- distance-aware early adjacency worsened from `0.010` to `0.124`
+
+Verdict:
+
+- **NO-GO**
+- locality improved
+- but thermal signal weakened too much
+
+#### 6. Directional primitive action
+
+Action format:
+
+- strict `2-cell` primitive
+- `(anchor_row, anchor_col, direction)`
+- `direction ∈ {right, down}`
+
+Diagnostics:
+
+- action count: `1780`
+- mean affected cells: `1.91`
+- max affected cells: `2`
+- thermal share: `0.227`
+- distance-aware early adjacency: `0.124`
+
+Comparison:
+
+- more local than fixed `segment=6`
+- not thermally stronger than fixed `segment=6`
+- only trivially different from the earlier `local primitive`
+
+Verdict:
+
+- **NO-GO**
+- this was the final controlled patch-based validation
+- patch-based action design should now be **deprioritized**
 
 ### Key Numeric Takeaways
 
-#### Segment-count sweep
+| Representation | Action Count | Mean Cells/Action | Thermal Share | Distance-aware Early Adjacency | Verdict |
+| --- | ---: | ---: | ---: | ---: | --- |
+| stripe | n/a | 15.89 | 0.253 | n/a | NO-GO |
+| segment=6 | 336 | 2.67 | 0.261 | 0.010 | best patch baseline, still NO-GO for PPO scaling |
+| variable-length | 6230 | 4.25 | 0.258 | 0.184 | NO-GO |
+| local-window | 1780 | 2.83 | 0.240 | 0.027 | NO-GO |
+| local-primitive | 1769 | 1.92 | 0.227 | 0.124 | NO-GO |
+| directional-primitive | 1780 | 1.91 | 0.227 | 0.124 | NO-GO |
 
-| Setting | Action Locality (mean cells/action) | Thermal Share | Distance-aware Early Adjacency |
-| --- | ---: | ---: | ---: |
-| stripe | 15.89 | 0.253 | n/a |
-| segment=4 | 3.97 | 0.263 | 0.030 |
-| segment=6 | 2.67 | 0.262 | 0.010 |
-| segment=8 | 2.14 | 0.255 | 0.065 |
+### Strict PPO Smoke Test Result (`segment=6`)
 
-Interpretation:
-
-- `segment=4` is better than stripe, but still a bit coarse.
-- `segment=8` is finer, but starts to fragment the task and worsens the early clustering proxy.
-- `segment=6` is the best balance of locality, thermal signal, and stable baseline structure.
-
-#### Strict PPO smoke test (`segment=6`)
+This is still the only patch-based setup that was strong enough to justify a controlled PPO smoke test.
 
 | Policy | Total Reward | Coverage | Invalid Rate | Reheat | Peak | Early Adjacency |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -71,51 +162,41 @@ Strict gate result:
 - `reheat >= 20% better than random`: **fail**
 - `peak >= 20% better than random`: **fail**
 
-This means PPO is no longer obviously collapsed, but it is still too close to `random_segment6` and not yet showing a strong thermo-aware advantage.
+This matters because it shows the current state very clearly:
 
-#### Variable-length action experiment
+- PPO is **not** totally broken anymore
+- PPO is **still too close to random**
+- PPO is **not yet showing a robust thermo-aware advantage**
 
-| Environment | Action Format | Action Count | Mean Cells/Action | Range |
-| --- | --- | ---: | ---: | ---: |
-| fixed `segment=6` | `(stripe_id, segment_index)` | 336 | 2.67 | 1..4 |
-| variable-length | `(stripe_id, start_cell, length[2..8])` | 6230 | 4.25 | 1..8 |
+### Explicit Failure Summary
 
-Diagnostics summary:
+These failures should be read as real project findings, not temporary inconveniences:
 
-- thermal share changed from `0.261` to `0.258`
-- coverage+completion share changed from `0.668` to `0.672`
-- distance-aware early adjacency worsened from `0.010` to `0.184`
+1. **Patch-based action does not currently give PPO a strong enough thermal learning signal**
+   - locality can be improved
+   - but thermal-share dominance gets weaker, not stronger
+2. **The best structured heuristic remains far ahead of PPO**
+   - `distance_aware_cool_first` stays clearly better than PPO in the validated patch setup
+3. **Making actions smaller is not enough**
+   - the most local patch primitives improved locality
+   - but did not improve PPO-facing thermal attribution
+4. **Some “improvements” are actually misleading**
+   - lower affected cells per action does **not** automatically mean better learning
+   - once thermal share drops and early structure worsens, PPO does not benefit
+5. **The action family itself is now the main suspect**
+   - not the reward weights
+   - not the current proxy thermal update
+   - not the observation channels
 
-Interpretation:
+### Current Gate Decision
 
-- the new variable-length representation did **not** strengthen the thermal learning signal
-- it made the action catalog much larger
-- and it made the best thermo-aware baseline look less locally structured in the early phase
-
-So this representation is useful as a diagnostic experiment, but it is **not** yet the next PPO candidate.
-
-### Current Defects / Open Issues
-
-The current repository is strong as a diagnostic platform, but there are still important limitations:
-
-1. **PPO still does not clearly beat `random_segment6`**
-   - the latest smoke test only improved total reward by about `0.6%`
-   - reheat improvement vs random was only about `10.1%`
-   - peak did not improve meaningfully vs random
-2. **Credit assignment is improved, but not solved**
-   - `segment=6` reduced the old collapse problem
-   - PPO still does not move convincingly toward the `distance_aware_cool_first` behavior
-3. **Variable-length actions are not yet a clean solution**
-   - they increase catalog size a lot
-   - and do not make the thermal signal more dominant
-4. **The project is still a proxy-model demo**
-   - no FEM
-   - no calibrated melt-pool model
-   - no exact residual-stress prediction
+- Current best patch-based representation: **fixed `segment=6`**
+- Final patch-family verdict: **NO-GO**
+- Recommended next step: **move to selector / priority-based action representation**
 
 ### Useful Output Files
 
-Recent outputs referenced above are saved locally in:
+Patch-family diagnostics referenced above are saved locally in:
 
 - `assets/models/segment_count_sweep_verdict.txt`
 - `assets/models/action_granularity_sweep_comparison.csv`
@@ -123,6 +204,11 @@ Recent outputs referenced above are saved locally in:
 - `assets/models/ppo_vs_baselines_segment6.csv`
 - `assets/models/action_space_comparison_variable_segment.csv`
 - `assets/models/variable_segment_diagnostics_summary.txt`
+- `assets/models/local_window_action_verdict.txt`
+- `assets/models/local_primitive_action_verdict.txt`
+- `assets/models/directional_primitive_action_verdict.txt`
+- `assets/models/directional_primitive_vs_segment6_comparison.csv`
+- `assets/models/directional_primitive_vs_local_primitive_comparison.csv`
 
 Recent figures include:
 
@@ -133,6 +219,9 @@ Recent figures include:
 - `assets/figures/baseline_reward_breakdown_variable_segment.png`
 - `assets/figures/baseline_heatmap_comparison_variable_segment.png`
 - `assets/figures/baseline_scan_order_comparison_variable_segment.png`
+- `assets/figures/baseline_reward_breakdown_local_window.png`
+- `assets/figures/baseline_reward_breakdown_local_primitive.png`
+- `assets/figures/baseline_reward_breakdown_directional_primitive.png`
 
 ## Why This Project Exists
 
@@ -159,6 +248,9 @@ The current repository already supports an end-to-end demo pipeline:
 - a **stripe-based** masked RL environment
 - a **fixed segment-based** masked RL environment
 - a **variable-length segment** diagnostic environment
+- a **local-window** diagnostic environment
+- a **local primitive** diagnostic environment
+- a **directional primitive** diagnostic environment
 - `MaskablePPO` training and evaluation
 - reward-breakdown diagnostics and planner-level CSV outputs
 - exported figures:
@@ -181,6 +273,7 @@ The repository is now beyond the scaffold stage and already supports real experi
 - the stripe-based RL environment is implemented
 - the fixed `segment=6` action environment is implemented and validated
 - a variable-length action environment has been added for diagnostics
+- local-window, local-primitive, and directional-primitive environments have been added for final patch-family validation
 - `MaskablePPO` training is implemented with CLI control
 - evaluation and visualisation scripts exist and export figures/GIFs
 - a `100000`-timestep stripe-based training run has already been completed locally
@@ -289,12 +382,20 @@ This is designed to be CNN-friendly.
 
 ### Action Space
 
-The current environment is **stripe-based**:
+This repository now contains **multiple action-representation families** that were tested in controlled diagnostics:
 
-- the letter region is split into legal **vertical stripe segments**
-- each action selects the **next stripe**
-- stripes are constrained to stay inside the target letter geometry
-- invalid stripe selections are masked out
+- stripe-based actions
+- fixed segment actions
+- variable-length segment actions
+- local-window actions
+- local-primitive actions
+- directional-primitive actions
+
+The important current conclusion is:
+
+- the project can support all of these action spaces
+- but none of the tested **patch-based** families have yet produced a PPO-ready thermo-aware learning signal
+- the most promising next branch is **selector / priority-based action design**, not another patch variant
 
 ### Reward
 
@@ -404,15 +505,15 @@ Typical output locations:
 
 ## Recent Progress In This Repository
 
-This repository has recently been upgraded from a simple cell-wise masked demo into a **stripe-based scan planning setup**:
+This repository has recently evolved from a simple masked scan demo into a broader **action-representation diagnostic platform**:
 
-- the geometry module now supports legal stripe segmentation inside letter masks
-- the RL environment now acts on stripe segments rather than arbitrary grid cells
-- training is driven by `MaskablePPO`
+- the geometry module supports legal scan decomposition inside letter masks
+- multiple patch-based action families have been implemented and compared
+- training is driven by `MaskablePPO` when a representation passes diagnostic gates
 - evaluation exports order maps, thermal maps, comparison grids, and GIF animations
-- the training script now supports CLI control for practical experimentation
+- the training script supports CLI control for practical experimentation
 
-That means the repo is no longer just a concept scaffold; it is now a runnable demonstration platform.
+That means the repo is no longer just a concept scaffold; it is now a runnable experimental platform for deciding which action abstractions are actually learnable.
 
 ## Practical Notes
 
@@ -461,9 +562,9 @@ Its value is in showing how scan-sequence optimisation can be framed, trained, v
 
 If we continue this work, the highest-value next steps are:
 
-1. Improve reward tuning so RL can more consistently beat raster and heuristic strategies.
-2. Add multiple geometries instead of training only on one fixed `TWI` mask.
-3. Build a small interface layer to let users compare scan strategies interactively.
+1. Move from patch-based actions to a **selector / priority-based action representation**.
+2. Keep the current reward and proxy thermal model fixed while validating that new action branch cleanly.
+3. Add multiple geometries instead of training only on one fixed `TWI` mask.
 4. Add cleaner experiment/version tracking for multiple RL runs and result sets.
 
 ---

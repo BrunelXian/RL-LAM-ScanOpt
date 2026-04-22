@@ -1,0 +1,5 @@
+1. Action locality is substantially improved: 15.89 -> 2.67 affected cells/action.
+2. Thermal signal is not weakened: stripe thermal share=0.250, segment thermal share=0.261.
+3. Strong heuristic baselines remain sensible: top planners=distance_aware_cool_first, cool_first, greedy, bottom planners=checkerboard, raster.
+4. There is enough evidence that segment granularity reduces the original mismatch enough to justify PPO smoke testing.
+PASS: proceed to Segment-PPO smoke test

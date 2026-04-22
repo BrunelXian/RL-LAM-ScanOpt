@@ -10,6 +10,18 @@ from gymnasium import spaces
 
 from core.geometry import downsample_mask, generate_stripe_segments, generate_text_mask
 from core.metrics import summarise_run
+from core.reward import (
+    DEFAULT_REHEAT_WINDOW_SIZE,
+    DEFAULT_REWARD_WEIGHTS,
+    DEFAULT_USE_SUPPORT_RISK,
+    build_reward_weights,
+    compute_reward_statistics,
+    compute_reward_terms,
+    representative_location,
+    target_heat_mean,
+    target_heat_peak,
+    target_heat_variance,
+)
 from core.thermal import create_empty_thermal_field, update_thermal_field
 
 
@@ -20,7 +32,7 @@ def build_twi_mask(grid_size: int = 64, canvas_size: int = 1024, text: str = "TW
 
 
 class ScanPlanningEnv(gym.Env[np.ndarray, int]):
-    """Stripe-based scan-planning environment with invalid-action masking."""
+    """Stripe-based scan-planning environment with Stage A composite reward logging."""
 
     metadata = {"render_modes": []}
 
@@ -34,12 +46,9 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
         deposit_strength: float = 1.0,
         diffusion: float = 0.08,
         decay: float = 0.96,
-        variance_penalty_coef: float = 0.5,
-        peak_penalty_coef: float = 0.1,
-        temp_diff_bonus_coef: float = 0.25,
-        hotspot_dispersion_bonus_coef: float = 0.2,
-        coverage_bonus_coef: float = 1.0,
-        invalid_action_penalty: float = 100.0,
+        reward_weights: dict[str, float] | None = None,
+        reheat_window_size: int = DEFAULT_REHEAT_WINDOW_SIZE,
+        use_support_risk: bool = DEFAULT_USE_SUPPORT_RISK,
         invalid_action_limit: int = 5,
         max_steps: int | None = None,
         thermal_clip: float = 3.0,
@@ -52,12 +61,9 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
         self.deposit_strength = float(deposit_strength)
         self.diffusion = float(diffusion)
         self.decay = float(decay)
-        self.variance_penalty_coef = float(variance_penalty_coef)
-        self.peak_penalty_coef = float(peak_penalty_coef)
-        self.temp_diff_bonus_coef = float(temp_diff_bonus_coef)
-        self.hotspot_dispersion_bonus_coef = float(hotspot_dispersion_bonus_coef)
-        self.coverage_bonus_coef = float(coverage_bonus_coef)
-        self.invalid_action_penalty = float(invalid_action_penalty)
+        self.reward_weights = build_reward_weights(reward_weights or DEFAULT_REWARD_WEIGHTS)
+        self.reheat_window_size = int(reheat_window_size)
+        self.use_support_risk = bool(use_support_risk)
         self.invalid_action_limit = int(invalid_action_limit)
         self.thermal_clip = float(thermal_clip)
 
@@ -82,6 +88,7 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
         self.executed_stripes: list[int] = []
         self.steps_taken = 0
         self.invalid_action_count = 0
+        self.previous_valid_location: tuple[int, int] | None = None
 
     def _prepare_mask(self, mask: np.ndarray) -> np.ndarray:
         mask_array = np.asarray(mask, dtype=bool)
@@ -124,41 +131,6 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
         order = np.lexsort((rows, cols))
         return [(int(rows[idx]), int(cols[idx])) for idx in order]
 
-    def _local_temperature_difference(self, stripe_mask: np.ndarray) -> float:
-        cells = np.argwhere(stripe_mask)
-        if len(cells) == 0:
-            return 0.0
-
-        diffs: list[float] = []
-        for row, col in cells:
-            r0 = max(0, int(row) - 1)
-            r1 = min(self.grid_size, int(row) + 2)
-            c0 = max(0, int(col) - 1)
-            c1 = min(self.grid_size, int(col) + 2)
-            neighborhood = self.thermal_field[r0:r1, c0:c1]
-            diffs.append(float(np.mean(np.abs(neighborhood - self.thermal_field[int(row), int(col)]))))
-        return float(np.mean(diffs))
-
-    def _hotspot_cluster_penalty(self) -> float:
-        peak = float(np.max(self.thermal_field))
-        if peak <= 0.0:
-            return 0.0
-
-        threshold = 0.8 * peak
-        hotspot_mask = self.thermal_field >= threshold
-        hotspot_positions = np.argwhere(hotspot_mask)
-        if len(hotspot_positions) <= 1:
-            return 0.0
-
-        neighbor_links = 0.0
-        for row, col in hotspot_positions:
-            r0 = max(0, int(row) - 1)
-            r1 = min(self.grid_size, int(row) + 2)
-            c0 = max(0, int(col) - 1)
-            c1 = min(self.grid_size, int(col) + 2)
-            neighbor_links += float(hotspot_mask[r0:r1, c0:c1].sum() - 1)
-        return neighbor_links / max(float(len(hotspot_positions)), 1.0)
-
     def _stripe_is_scanned(self, stripe_index: int) -> bool:
         return bool(self.scanned_stripes[stripe_index])
 
@@ -179,6 +151,9 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
                 valid_actions[stripe_index] = True
         return valid_actions
 
+    def _coverage_ratio(self) -> float:
+        return float(np.logical_and(self.scanned_mask, self.target_mask).sum() / max(self.target_cell_count, 1))
+
     def _terminal_info(self) -> dict[str, Any]:
         return summarise_run(
             target_mask=self.target_mask,
@@ -186,6 +161,31 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
             final_thermal=self.thermal_field,
             actions=self.executed_actions,
         )
+
+    def _base_info(
+        self,
+        *,
+        reward_terms: dict[str, float],
+        jump_distance: float,
+    ) -> dict[str, Any]:
+        peak_heat = target_heat_peak(self.thermal_field, self.target_mask)
+        heat_variance = target_heat_variance(self.thermal_field, self.target_mask)
+        return {
+            "reward_terms": reward_terms,
+            "valid_action": reward_terms["invalid"] == 0.0,
+            "invalid_action_count": self.invalid_action_count,
+            "steps_taken": self.steps_taken,
+            "remaining_valid_actions": int(self.action_masks().sum()),
+            "coverage_ratio": self._coverage_ratio(),
+            "peak_heat": peak_heat,
+            "heat_variance": heat_variance,
+            "jump_distance": float(jump_distance),
+            "thermal_mean": target_heat_mean(self.thermal_field, self.target_mask),
+            "thermal_peak": peak_heat,
+            "thermal_variance": heat_variance,
+            "stripe_count": len(self.stripes),
+            "executed_stripes": len(self.executed_stripes),
+        }
 
     def reset(
         self,
@@ -210,6 +210,7 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
         self.executed_stripes = []
         self.steps_taken = 0
         self.invalid_action_count = 0
+        self.previous_valid_location = None
 
         info = {
             "target_cells": self.target_cell_count,
@@ -218,43 +219,40 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
         }
         return self.get_observation(), info
 
-    def _calculate_reward(self, stripe_mask: np.ndarray, invalid_scan: bool) -> float:
-        thermal_variance = float(np.var(self.thermal_field))
-        thermal_peak = float(np.max(self.thermal_field))
-        coverage_ratio = float(self.scanned_mask.sum() / max(self.target_cell_count, 1))
-        local_temp_diff = self._local_temperature_difference(stripe_mask)
-        hotspot_penalty = self._hotspot_cluster_penalty()
-
-        reward = (
-            self.coverage_bonus_coef * coverage_ratio
-            - self.variance_penalty_coef * thermal_variance
-            - self.peak_penalty_coef * thermal_peak
-            + self.temp_diff_bonus_coef / (1.0 + local_temp_diff)
-            + self.hotspot_dispersion_bonus_coef / (1.0 + hotspot_penalty)
-        )
-        if invalid_scan:
-            reward -= self.invalid_action_penalty
-        return float(reward)
-
     def step(self, action: int) -> tuple[np.ndarray, float, bool, bool, dict[str, Any]]:
+        """Apply one stripe action and return the Stage A composite reward."""
         self.steps_taken += 1
         is_valid = self.is_valid_action(action)
         terminated = False
         truncated = False
+        jump_distance = 0.0
 
         if not is_valid:
             self.invalid_action_count += 1
-            reward = -self.invalid_action_penalty
-            stripe_mask = np.zeros_like(self.target_mask, dtype=bool)
+            reward_terms = compute_reward_terms(
+                valid_action=False,
+                coverage_event=False,
+                episode_complete=False,
+                peak_value=0.0,
+                variance_value=0.0,
+                local_preheat=0.0,
+                jump_distance=0.0,
+                reward_weights=self.reward_weights,
+                use_support_risk=self.use_support_risk,
+            )
             if self.invalid_action_count >= self.invalid_action_limit:
                 terminated = True
         else:
             stripe_index = int(action)
             stripe_mask = self.stripes[stripe_index]
+            new_cells_mask = np.logical_and(stripe_mask, self.target_mask & ~self.scanned_mask)
+            stripe_location = representative_location(new_cells_mask if new_cells_mask.any() else stripe_mask)
+            pre_update_heat = self.thermal_field.copy()
+
             self.scanned_stripes[stripe_index] = True
             self.executed_stripes.append(stripe_index)
 
-            for row, col in self._stripe_cells(stripe_mask):
+            for row, col in self._stripe_cells(new_cells_mask):
                 self.scanned_mask[row, col] = True
                 self.executed_actions.append((row, col))
                 self.thermal_field = update_thermal_field(
@@ -265,27 +263,37 @@ class ScanPlanningEnv(gym.Env[np.ndarray, int]):
                     decay=self.decay,
                 )
 
-            invalid_scan = bool(np.logical_and(self.scanned_mask, ~self.target_mask).any())
-            reward = self._calculate_reward(stripe_mask, invalid_scan=invalid_scan)
+            reward_stats = compute_reward_statistics(
+                pre_update_heat=pre_update_heat,
+                post_update_heat=self.thermal_field,
+                target_mask=self.target_mask,
+                current_location=stripe_location,
+                previous_location=self.previous_valid_location,
+                reheat_window_size=self.reheat_window_size,
+            )
+            jump_distance = reward_stats["jump_distance"]
+            episode_complete = bool(self.scanned_mask[self.target_mask].all())
+            reward_terms = compute_reward_terms(
+                valid_action=True,
+                coverage_event=bool(new_cells_mask.any()),
+                episode_complete=episode_complete,
+                peak_value=reward_stats["peak_heat"],
+                variance_value=reward_stats["heat_variance"],
+                local_preheat=reward_stats["local_preheat"],
+                jump_distance=reward_stats["jump_distance"],
+                reward_weights=self.reward_weights,
+                use_support_risk=self.use_support_risk,
+            )
+            if new_cells_mask.any():
+                self.previous_valid_location = stripe_location
 
         if not self.action_masks().any():
             terminated = True
         if self.steps_taken >= self.max_steps and not terminated:
             truncated = True
 
-        info: dict[str, Any] = {
-            "valid_action": is_valid,
-            "invalid_action_count": self.invalid_action_count,
-            "steps_taken": self.steps_taken,
-            "remaining_valid_actions": int(self.action_masks().sum()),
-            "coverage_ratio": float(self.scanned_mask.sum() / max(self.target_cell_count, 1)),
-            "thermal_mean": float(np.mean(self.thermal_field)),
-            "thermal_peak": float(np.max(self.thermal_field)),
-            "thermal_variance": float(np.var(self.thermal_field)),
-            "stripe_count": len(self.stripes),
-            "executed_stripes": len(self.executed_stripes),
-        }
+        info = self._base_info(reward_terms=reward_terms, jump_distance=jump_distance)
         if terminated or truncated:
             info["metrics"] = self._terminal_info()
 
-        return self.get_observation(), float(reward), terminated, truncated, info
+        return self.get_observation(), float(reward_terms["total"]), terminated, truncated, info

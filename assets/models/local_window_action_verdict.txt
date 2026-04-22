@@ -1,0 +1,10 @@
+1. Is the new local-window action more local than fixed segment-6? NO
+2. Is thermal signal share stronger or at least not weaker than fixed segment-6? NO
+3. Does the new representation preserve sensible baseline ranking? YES
+4. Does distance_aware_cool_first remain structured and low-clustering? YES
+5. Does this representation look more promising for PPO than fixed segment-6? NO
+
+Most important quantitative improvement: action locality mean 2.67 -> 2.83 cells/action.
+Most important new risk: thermal share 0.261 -> 0.240 with distance-aware early adjacency 0.010 -> 0.027.
+
+NO-GO: local-window action does not improve the representation enough, do not use it for PPO yet

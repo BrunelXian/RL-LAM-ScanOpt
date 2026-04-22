@@ -6,6 +6,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
@@ -34,7 +35,7 @@ def _mask_fn(env: object) -> object:
     return env.unwrapped.action_masks()
 
 
-def _make_single_env() -> object:
+def _make_single_env(reward_weights: dict[str, float] | None = None) -> object:
     """Create one wrapped environment instance for DummyVecEnv."""
     from sb3_contrib.common.wrappers import ActionMasker
     from stable_baselines3.common.monitor import Monitor
@@ -45,16 +46,17 @@ def _make_single_env() -> object:
         grid_size=GRID_SIZE,
         text=TEXT,
         canvas_size=CANVAS_SIZE,
+        reward_weights=reward_weights,
     )
     env = Monitor(env)
     return ActionMasker(env, _mask_fn)
 
 
-def make_env() -> object:
+def make_env(reward_weights: dict[str, float] | None = None) -> object:
     """Create a single-environment DummyVecEnv for Maskable PPO training."""
     from stable_baselines3.common.vec_env import DummyVecEnv
 
-    return DummyVecEnv([_make_single_env])
+    return DummyVecEnv([lambda: _make_single_env(reward_weights=reward_weights)])
 
 
 class TrainingMetricsCallback:
@@ -96,6 +98,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--save-path", type=str, default=str(DEFAULT_MODEL_PATH))
     parser.add_argument("--log-interval", type=int, default=1000)
+    parser.add_argument("--reward-weights-path", type=str, default=None)
     return parser.parse_args()
 
 
@@ -104,6 +107,20 @@ def _resolve_output_paths(save_path: Path) -> tuple[Path, Path]:
     history_path = save_path.with_name(f"{save_path.stem}_history.json")
     curves_path = PROJECT_ROOT / "assets" / "figures" / f"{save_path.stem}_training_curves.png"
     return history_path, curves_path
+
+
+def _load_reward_weights(reward_weights_path: str | None) -> dict[str, float] | None:
+    """Load optional reward-weight overrides from a JSON file."""
+    if reward_weights_path is None:
+        return None
+    path = Path(reward_weights_path)
+    if not path.is_absolute():
+        path = PROJECT_ROOT / path
+    with path.open("r", encoding="utf-8") as file:
+        payload: Any = json.load(file)
+    if not isinstance(payload, dict):
+        raise ValueError("Reward weights JSON must contain an object mapping term names to numbers.")
+    return {str(key): float(value) for key, value in payload.items()}
 
 
 def main() -> None:
@@ -129,7 +146,8 @@ def main() -> None:
 
     model_path.parent.mkdir(parents=True, exist_ok=True)
     training_curves_path.parent.mkdir(parents=True, exist_ok=True)
-    env = make_env()
+    reward_weights = _load_reward_weights(args.reward_weights_path)
+    env = make_env(reward_weights=reward_weights)
     metrics_callback = TrainingMetricsCallback()
 
     model = MaskablePPO(

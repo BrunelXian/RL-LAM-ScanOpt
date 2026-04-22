@@ -1,0 +1,9 @@
+Definition: isolated stripe-action analysis from an empty-field reference state.
+- Average affected cells per stripe action: 15.89
+- Stripe action size range: 4 to 24 cells
+- Mean delta_peak: 0.4803 (std 0.0001)
+- Mean delta_variance: 0.002388 (std 0.000621)
+- Mean delta_reheat_proxy: 0.2157 (std 0.0369)
+- Coverage reward per stripe action remains fixed at 1.00
+- Mean |delta_peak| / coverage = 0.480, Mean |delta_reheat_proxy| / coverage = 0.216
+- Interpretation: stripe actions affect multiple cells at once, so even when thermal deltas are measurable, the consequences are mixed across several depositions while coverage still arrives as one immediate positive event.

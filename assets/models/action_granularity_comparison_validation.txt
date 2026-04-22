@@ -1,0 +1,8 @@
+- Stripe affected cells/action: mean=15.89, min=4, max=24
+- Segment affected cells/action: mean=2.67, min=1, max=4
+- Stripe reward shares: coverage+completion=0.688, thermal=0.250, jump=0.062
+- Segment reward shares: coverage+completion=0.668, thermal=0.261, jump=0.071
+- Stripe random early adjacency=0.188, early reheat=-0.330, early peak=0.485
+- Segment random early adjacency=0.061, early reheat=-2.336, early peak=0.475
+- Stripe distance-aware early adjacency=0.000, early reheat=-0.547, early peak=0.492
+- Segment distance-aware early adjacency=0.010, early reheat=-1.824, early peak=0.460

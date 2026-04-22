@@ -1,0 +1,9 @@
+Sampling policy: masked-random valid-action policy over 20 episodes with seeds 100-119.
+- Coverage + completion share of absolute reward magnitude: 0.687
+- Thermal shaping share (peak + variance + reheat): 0.251
+- Jump share of absolute reward magnitude: 0.062
+- Mean absolute per-step coverage contribution: 1.000
+- Mean absolute per-step reheat contribution: 0.024
+- Mean absolute per-step peak contribution: 0.391
+- Mean cumulative per-episode jump contribution: -5.790
+- Interpretation: this quantifies the training-style reward signal under exploratory behavior, so we can see whether coverage/completion overwhelms the thermal penalties in practice.

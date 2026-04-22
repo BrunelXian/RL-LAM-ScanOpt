@@ -84,7 +84,7 @@ def save_metrics_bar_chart(results_dict: dict[str, dict], path: str | Path) -> N
 
     fig, axes = plt.subplots(2, 2, figsize=(11, 8), dpi=150)
     axes = axes.ravel()
-    colors = ["#4c78a8", "#f58518", "#54a24b"]
+    colors = plt.cm.tab10(np.linspace(0, 1, max(len(planner_names), 3)))
 
     for idx, metric_name in enumerate(metric_names):
         values = [float(results_dict[name]["metrics"][metric_name]) for name in planner_names]
@@ -93,8 +93,37 @@ def save_metrics_bar_chart(results_dict: dict[str, dict], path: str | Path) -> N
         ax.set_title(metric_name.replace("_", " ").title())
         ax.set_ylabel("Value")
         ax.grid(axis="y", linestyle="--", alpha=0.35)
+        ax.tick_params(axis="x", rotation=20)
 
     fig.suptitle("Baseline Planner Metric Comparison", fontsize=14)
+    fig.tight_layout()
+    fig.savefig(output_path, bbox_inches="tight")
+    plt.close(fig)
+
+
+def save_reward_breakdown_chart(
+    reward_rows: list[dict[str, Any]],
+    path: str | Path,
+) -> None:
+    """Save a grouped bar chart comparing Stage A reward totals per planner."""
+    output_path = _prepare_output_path(path)
+    planner_names = [str(row["planner"]) for row in reward_rows]
+    metric_names = ["coverage", "invalid", "peak", "variance", "reheat", "jump", "total_reward"]
+    x = np.arange(len(planner_names))
+    width = 0.11
+
+    fig, ax = plt.subplots(figsize=(12, 6), dpi=150)
+    for idx, metric_name in enumerate(metric_names):
+        values = [float(row[metric_name]) for row in reward_rows]
+        ax.bar(x + (idx - (len(metric_names) - 1) / 2) * width, values, width=width, label=metric_name)
+
+    ax.set_title("Baseline Reward Breakdown")
+    ax.set_xlabel("Planner")
+    ax.set_ylabel("Reward Contribution")
+    ax.set_xticks(x)
+    ax.set_xticklabels(planner_names)
+    ax.grid(axis="y", linestyle="--", alpha=0.35)
+    ax.legend(ncols=4, fontsize=8)
     fig.tight_layout()
     fig.savefig(output_path, bbox_inches="tight")
     plt.close(fig)

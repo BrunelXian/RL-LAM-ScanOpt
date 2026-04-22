@@ -1,0 +1,11 @@
+1. Is directional primitive more local than fixed segment-6? YES
+2. Is thermal signal share stronger or at least not weaker than fixed segment-6? NO
+3. Is thermal signal share stronger than the previous local-primitive? YES
+4. Does baseline ranking remain sensible? YES
+5. Does distance_aware_cool_first remain low-clustering and structured? NO
+6. Is this genuinely a better PPO candidate than fixed segment-6? NO
+
+Most important quantitative improvement: locality mean 2.67 -> 1.91 with max affected cells 2.
+Most important remaining weakness: thermal share segment6/local/directional = 0.261 / 0.227 / 0.227, while distance-aware early adjacency = 0.010 / 0.124 / 0.124.
+
+NO-GO: directional primitive does not improve the representation enough; patch-based action family should now be deprioritized

@@ -1,0 +1,32 @@
+Reward calibration interpretation
+- Current baseline weights: jump=0.300, reheat=1.200
+- Variant 1 weights: jump=0.450, reheat=1.440
+- Variant 2 weights: jump=0.600, reheat=1.500
+
+Per-variant gap checks:
+- variant_1: DA-random gap=102.647, cool_first=583.354, random=553.024, raster=342.312, red_line_fail=False
+
+variant_0:
+- distance_aware vs random gap = 75.743
+- cool_first stays above random (616.143 vs 589.009)
+- raster remains clearly bad (376.083)
+- distance_aware is best or near-best (664.752)
+- red-line failure (>15% drop) = False
+
+variant_1:
+- distance_aware vs random gap = 102.647
+- cool_first stays above random (583.354 vs 553.024)
+- raster remains clearly bad (342.312)
+- distance_aware is best or near-best (655.672)
+- red-line failure (>15% drop) = False
+
+variant_2:
+- distance_aware vs random gap = 127.354
+- cool_first stays above random (551.802 vs 520.389)
+- raster remains clearly bad (330.925)
+- distance_aware is best or near-best (647.742)
+- red-line failure (>15% drop) = False
+
+Selected variant: variant_1
+- Selected weights: jump=0.450, reheat=1.440
+- Selection rule: choose the smallest valid strengthening that widens the distance-aware-cool-first vs random gap without triggering the 15% red-line.

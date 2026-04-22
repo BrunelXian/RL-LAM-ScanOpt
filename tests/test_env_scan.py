@@ -50,6 +50,24 @@ class EnvScanTests(unittest.TestCase):
         self.assertFalse(truncated)
         self.assertTrue(info["valid_action"])
         self.assertEqual(len(self.env.executed_stripes), 1)
+        self.assertIn("reward_terms", info)
+        expected_keys = {
+            "coverage",
+            "invalid",
+            "peak",
+            "variance",
+            "reheat",
+            "jump",
+            "completion_bonus",
+            "support_risk",
+            "total",
+        }
+        self.assertTrue(expected_keys.issubset(info["reward_terms"].keys()))
+        total_without_total = sum(
+            value for key, value in info["reward_terms"].items() if key != "total"
+        )
+        self.assertAlmostEqual(info["reward_terms"]["total"], total_without_total, places=6)
+        self.assertAlmostEqual(reward, info["reward_terms"]["total"], places=6)
 
     def test_invalid_action_is_penalised(self) -> None:
         self.env.reset()
@@ -58,6 +76,8 @@ class EnvScanTests(unittest.TestCase):
         self.assertLess(reward, 0.0)
         self.assertFalse(info["valid_action"])
         self.assertEqual(info["invalid_action_count"], 1)
+        self.assertLess(info["reward_terms"]["invalid"], 0.0)
+        self.assertEqual(info["reward_terms"]["coverage"], 0.0)
         self.assertFalse(terminated)
         self.assertFalse(truncated)
 

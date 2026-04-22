@@ -1,0 +1,6 @@
+- Segment6 locality mean=2.67, directional locality mean=1.91
+- Segment6 thermal share=0.261, directional thermal share=0.227
+- Segment6 action catalog size=336, directional action catalog size=1780
+- Segment6 distance-aware early adjacency=0.010, directional distance-aware early adjacency=0.124
+- Segment6 distance-aware cumulative early reheat=-1.824, directional distance-aware cumulative early reheat=-2.473
+- Directional ranking top=distance_aware_cool_first, bottom=raster

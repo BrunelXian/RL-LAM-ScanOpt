@@ -1,0 +1,11 @@
+1. PPO reached coverage=1.000.
+2. Invalid action rate=0.000%.
+3. Early clustering decreased compared with stripe PPO: 0.944 -> 0.061.
+4. PPO improved reheat/peak vs stripe PPO: reheat -149.231 -> -8.611, peak -345.351 -> -122.641.
+5. PPO beat/approached random_segment (172.617 vs 171.503).
+6. PPO is still farther from distance_aware_cool_first_segment behavior.
+
+Preferred target check: early adjacency < 0.6 => True
+Preferred target check: beat random on reheat by ~20% => False
+Preferred target check: beat random on peak by ~20% => False
+Recommendation: continue PPO training

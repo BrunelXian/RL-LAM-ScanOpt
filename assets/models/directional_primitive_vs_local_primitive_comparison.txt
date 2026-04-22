@@ -1,0 +1,5 @@
+- Local-primitive locality mean=1.92, directional locality mean=1.91
+- Local-primitive thermal share=0.227, directional thermal share=0.227
+- Local-primitive action catalog size=1769, directional action catalog size=1780
+- Local-primitive distance-aware early adjacency=0.124, directional distance-aware early adjacency=0.124
+- Local-primitive distance-aware cumulative early reheat=-2.473, directional distance-aware cumulative early reheat=-2.473

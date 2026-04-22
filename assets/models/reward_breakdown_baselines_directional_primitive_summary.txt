@@ -1,0 +1,2 @@
+Directional primitive baseline summary
+- Ranking by total reward: distance_aware_cool_first (357.834), greedy (312.503), cool_first (308.945), random (299.920), checkerboard (231.633), raster (201.042)

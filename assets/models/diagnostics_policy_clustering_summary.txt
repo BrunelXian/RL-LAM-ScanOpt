@@ -1,0 +1,11 @@
+Adjacency definition: fraction of action centers with at least one prior center in the last 5 steps within Euclidean radius 2.0.
+Concentration metric: visited-centers bounding-box area divided by the target-mask bounding-box area for the selected phase.
+- PPO early adjacency ratio: 0.944
+- Random early adjacency ratio: 0.059
+- Distance-aware early adjacency ratio: 0.000
+- PPO early concentration metric: 0.893
+- Random early concentration metric: 0.996
+- Distance-aware early concentration metric: 1.000
+- PPO cumulative early reheat: -43.575
+- Random cumulative early reheat: -7.426
+- Distance-aware cumulative early reheat: -1.494

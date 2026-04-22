@@ -1,0 +1,9 @@
+1. One stripe action affects 15.89 cells on average (range 4 to 24).
+2. Delta signals exist, but attribution is mixed: mean delta_peak=0.4803, mean delta_reheat_proxy=0.2157, while a stripe still earns a fixed coverage reward of 1.00.
+3. Coverage + completion account for 0.687 of absolute reward magnitude, thermal shaping (peak + variance + reheat) accounts for 0.251, and jump accounts for 0.062.
+4. PPO does become locally clustered early: early adjacency=0.944, random=0.059, distance-aware=0.000.
+5. Compared with random and distance-aware cool-first, PPO looks thermally poor/coarse rather than structured: early reheat PPO=-43.575, random=-7.426, distance-aware=-1.494.
+6. Most likely root cause: Stripe actions are likely too coarse for clean credit assignment: one action triggers multiple cell deposits, coverage arrives as one immediate positive reward, and the thermal consequences are spatially mixed.
+
+Core conclusion: the calibrated reward is not the main blocker now. The stronger bottleneck is that a stripe-level action bundles several cell-level thermal consequences, which weakens temporal credit assignment and encourages coarse local clustering.
+Recommended next step: inspect stripe representation / action granularity.

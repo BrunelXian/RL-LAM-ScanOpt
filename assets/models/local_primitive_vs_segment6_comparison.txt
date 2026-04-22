@@ -1,0 +1,6 @@
+- Segment6 locality mean=2.67, local-primitive locality mean=1.92
+- Segment6 thermal share=0.261, local-primitive thermal share=0.227
+- Segment6 action catalog size=336, local-primitive action catalog size=1769
+- Segment6 distance-aware early adjacency=0.010, local-primitive distance-aware early adjacency=0.124
+- Segment6 distance-aware cumulative early reheat=-1.824, local-primitive distance-aware cumulative early reheat=-2.473
+- Local-primitive ranking top=distance_aware_cool_first, bottom=raster
