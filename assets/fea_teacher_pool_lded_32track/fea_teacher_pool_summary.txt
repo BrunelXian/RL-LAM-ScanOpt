@@ -1,0 +1,19 @@
+selected trajectory count: 46
+benchmark_name: lded_coupon_32track_v1
+trajectory_type: track_order
+source_type distribution: anchor_baseline=7, perturbed_or_mixed=8, proxy_ambiguous=8, proxy_best=10, proxy_worst=5, random_diverse=8
+selection_reason distribution: anchor_center_out=1, anchor_edge_in=1, anchor_even_odd_interlaced=1, anchor_odd_even_interlaced=1, anchor_random_seed_0=1, anchor_raster_left_to_right=1, anchor_raster_right_to_left=1, best_proxy_rank_1=1, best_proxy_rank_10=1, best_proxy_rank_2=1, best_proxy_rank_3=1, best_proxy_rank_4=1, best_proxy_rank_5=1, best_proxy_rank_6=1, best_proxy_rank_7=1, best_proxy_rank_8=1, best_proxy_rank_9=1, diversity_fill=1, perturbed_block_swap=2, perturbed_local_reversal=2, perturbed_partial_random_insertion=2, perturbed_stride_shuffle=1, proxy_ambiguous=8, random_quantile_high=2, random_quantile_low=2, random_quantile_mid=4, worst_proxy_tail=5
+proxy_score range: -11.389177 .. -4.639177
+peak_heat range: 1.000000 .. 1.000000
+heat_variance range: 0.054540 .. 0.054540
+jump distance range: 1.000000 .. 16.000000
+adjacency_ratio range: 0.000000 .. 1.000000
+early_clustering_metric range: 0.000000 .. 1.000000
+coverage range: 1.000000 .. 1.000000
+ambiguous pair count: 4
+perturbation count: 8
+duplicate permutation count removed: 1
+twi_64x64 top sequences were not used as primary source: YES
+legacy twi pool preserved at: D:\Projects\RL-LAM-ScanOpt\assets\fea_teacher_pool
+legacy twi top-sequence asset exists: YES
+30-50 target satisfied: YES

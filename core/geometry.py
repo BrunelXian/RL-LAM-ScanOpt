@@ -1,7 +1,8 @@
-"""Geometry helpers for letter-shaped scan regions on coarse decision grids."""
+"""Geometry helpers for Stage A grid masks and simple line-based benchmarks."""
 
 from __future__ import annotations
 
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
 
@@ -179,3 +180,172 @@ def generate_stripe_segments(
         all_stripes.extend(generate_vertical_stripes_in_component(component_mask, stripe_width=stripe_width))
 
     return all_stripes
+
+
+@dataclass(frozen=True)
+class LDEDTrack:
+    """One line-based LDED deposition track."""
+
+    track_id: int
+    x_start_mm: float
+    x_end_mm: float
+    y_start_mm: float
+    y_end_mm: float
+    x_center_mm: float
+    y_center_mm: float
+    width_mm: float
+    length_mm: float
+    direction: str = "bottom_to_top"
+
+
+@dataclass(frozen=True)
+class LDEDCouponBenchmark:
+    """Compact benchmark description for line-based track-order experiments."""
+
+    benchmark_name: str
+    target_name: str
+    plane_width_mm: float
+    plane_height_mm: float
+    patch_x_min_mm: float
+    patch_x_max_mm: float
+    patch_y_min_mm: float
+    patch_y_max_mm: float
+    margin_left_mm: float
+    margin_right_mm: float
+    margin_top_mm: float
+    margin_bottom_mm: float
+    track_count: int
+    track_width_mm: float
+    track_length_mm: float
+    track_pitch_mm: float
+    layer_count: int
+    tracks: tuple[LDEDTrack, ...]
+
+    @property
+    def grid_shape(self) -> tuple[int, int]:
+        """Return the logical benchmark shape as (layers, tracks)."""
+        return (self.layer_count, self.track_count)
+
+    def to_dict(self) -> dict[str, object]:
+        """Return a JSON-serialisable benchmark payload."""
+        payload = asdict(self)
+        payload["tracks"] = [asdict(track) for track in self.tracks]
+        payload["grid_shape"] = list(self.grid_shape)
+        return payload
+
+
+def build_lded_coupon_32track_v1() -> LDEDCouponBenchmark:
+    """Return the first LDED line-order benchmark used for FEA-teacher planning.
+
+    Geometry:
+    - plane: 100 mm x 40 mm
+    - deposited patch: 96 mm x 36 mm
+    - margins: 2 mm on all sides
+    - 32 vertical tracks
+    - track width/pitch: 3 mm
+    - track length: 36 mm
+    - one layer, fixed bottom-to-top scan direction
+    """
+    benchmark_name = "lded_coupon_32track_v1"
+    plane_width_mm = 100.0
+    plane_height_mm = 40.0
+    margin_mm = 2.0
+    patch_x_min_mm = margin_mm
+    patch_x_max_mm = plane_width_mm - margin_mm
+    patch_y_min_mm = margin_mm
+    patch_y_max_mm = plane_height_mm - margin_mm
+    track_count = 32
+    track_width_mm = 3.0
+    track_pitch_mm = 3.0
+    track_length_mm = 36.0
+    layer_count = 1
+
+    tracks: list[LDEDTrack] = []
+    for track_id in range(track_count):
+        x_start_mm = patch_x_min_mm + track_id * track_pitch_mm
+        x_end_mm = x_start_mm + track_width_mm
+        x_center_mm = 0.5 * (x_start_mm + x_end_mm)
+        y_start_mm = patch_y_min_mm
+        y_end_mm = patch_y_max_mm
+        y_center_mm = 0.5 * (y_start_mm + y_end_mm)
+        tracks.append(
+            LDEDTrack(
+                track_id=track_id,
+                x_start_mm=x_start_mm,
+                x_end_mm=x_end_mm,
+                y_start_mm=y_start_mm,
+                y_end_mm=y_end_mm,
+                x_center_mm=x_center_mm,
+                y_center_mm=y_center_mm,
+                width_mm=track_width_mm,
+                length_mm=track_length_mm,
+            )
+        )
+
+    return LDEDCouponBenchmark(
+        benchmark_name=benchmark_name,
+        target_name=benchmark_name,
+        plane_width_mm=plane_width_mm,
+        plane_height_mm=plane_height_mm,
+        patch_x_min_mm=patch_x_min_mm,
+        patch_x_max_mm=patch_x_max_mm,
+        patch_y_min_mm=patch_y_min_mm,
+        patch_y_max_mm=patch_y_max_mm,
+        margin_left_mm=margin_mm,
+        margin_right_mm=margin_mm,
+        margin_top_mm=margin_mm,
+        margin_bottom_mm=margin_mm,
+        track_count=track_count,
+        track_width_mm=track_width_mm,
+        track_length_mm=track_length_mm,
+        track_pitch_mm=track_pitch_mm,
+        layer_count=layer_count,
+        tracks=tuple(tracks),
+    )
+
+
+def _interleave_sequences(left: list[int], right: list[int]) -> list[int]:
+    """Interleave two equal-length or nearly equal-length integer sequences."""
+    result: list[int] = []
+    for left_item, right_item in zip(left, right):
+        result.append(left_item)
+        result.append(right_item)
+    if len(left) > len(right):
+        result.extend(left[len(right) :])
+    elif len(right) > len(left):
+        result.extend(right[len(left) :])
+    return result
+
+
+def build_lded_coupon_32track_baselines(random_seeds: Iterable[int] = (0, 7, 13, 29)) -> dict[str, list[int]]:
+    """Return deterministic line-order benchmark baselines as track-id sequences."""
+    benchmark = build_lded_coupon_32track_v1()
+    indices = list(range(benchmark.track_count))
+    middle_left = benchmark.track_count // 2 - 1
+    middle_right = benchmark.track_count // 2
+
+    center_out: list[int] = []
+    for offset in range(benchmark.track_count // 2):
+        left_index = middle_left - offset
+        right_index = middle_right + offset
+        center_out.extend([left_index, right_index])
+
+    edge_in = _interleave_sequences(
+        list(range(0, benchmark.track_count // 2)),
+        list(range(benchmark.track_count - 1, benchmark.track_count // 2 - 1, -1)),
+    )
+
+    baselines: dict[str, list[int]] = {
+        "raster_left_to_right": [int(track_id) for track_id in indices],
+        "raster_right_to_left": [int(track_id) for track_id in reversed(indices)],
+        "center_out": [int(track_id) for track_id in center_out],
+        "edge_in": [int(track_id) for track_id in edge_in],
+        "odd_even_interlaced": [int(track_id) for track_id in (indices[::2] + indices[1::2])],
+        "even_odd_interlaced": [int(track_id) for track_id in (indices[1::2] + indices[::2])],
+    }
+
+    for seed in random_seeds:
+        rng = np.random.default_rng(int(seed))
+        baselines[f"random_seed_{int(seed)}"] = [int(track_id) for track_id in rng.permutation(indices)]
+
+    return baselines

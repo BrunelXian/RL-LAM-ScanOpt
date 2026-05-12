@@ -1,0 +1,17 @@
+input pool directory: D:\Projects\RL-LAM-ScanOpt\assets\fea_teacher_pool_lded_32track
+output export directory: D:\Projects\RL-LAM-ScanOpt\assets\fea_teacher_pool_lded_32track\fea_exports
+number of trajectories found: 46
+number of trajectories exported: 46
+number of failed exports: 0
+scan_speed_mm_s: 10.000000
+nominal_power_w: 1000.000000
+track duration s: 3.600000
+total deposition time range s: 115.200000 .. 115.200000
+coordinate range x mm: 3.500000 .. 96.500000
+coordinate range y mm: 2.000000 .. 38.000000
+coordinate range z mm: 0.000000 .. 0.000000
+all exported trajectories are length-32 permutations: YES
+no Abaqus job was run: YES
+old TWI/grid pool was not modified: YES
+failed export details:
+- none
