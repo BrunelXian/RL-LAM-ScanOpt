@@ -12,3 +12,26 @@ abaqus.rpy
 abaqus.rpy.*
 abaqus_acis.log
 *.log
+
+# Abaqus databases and heavy outputs
+*.odb
+*.cae
+*.res
+*.stt
+*.mdl
+*.sim
+*.lck
+*.prt
+*.pac
+*.abq
+*.sel
+*.com
+*.dat
+*.msg
+*.sta
+
+# Abaqus temporary / archive folders
+abaqus-models/**/_archive/
+abaqus-models/**/night_run_*/
+abaqus-models/**/run_*.log
+abaqus-models/**/*.lck

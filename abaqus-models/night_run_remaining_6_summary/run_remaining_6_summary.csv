@@ -1,0 +1,519 @@
+strategy_name,job_name,workdir,inp_path,start_time,end_time,elapsed_seconds,return_code,status,success_detected,success_phrase,log_path,sta_path,msg_path,dat_path,odb_path,odb_exists,odb_size_bytes,last_sta_lines,last_msg_lines
+formal_raster_left_to_right,job_lded_stripe_tm_32track_raster_formal_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01\job_lded_stripe_tm_32track_raster_formal_v01.inp,2026-05-21T23:47:21,2026-05-22T08:14:54,30452,0,success,True,THE ANALYSIS HAS COMPLETED SUCCESSFULLY,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01\run_job_lded_stripe_tm_32track_raster_formal_v01.log,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01\job_lded_stripe_tm_32track_raster_formal_v01.sta,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01\job_lded_stripe_tm_32track_raster_formal_v01.msg,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01\job_lded_stripe_tm_32track_raster_formal_v01.dat,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_raster_formal_v01\job_lded_stripe_tm_32track_raster_formal_v01.odb,True,9118982688,"  33    66   1U    0     4     4  122.       7.25       1.806     
+  33    66   2     0     4     4  123.       7.70       0.4514    
+  33    67   1     0     5     5  124.       8.38       0.6772    
+  33    68   1     0     4     4  124.       9.06       0.6772    
+  33    69   1     0     4     4  125.       9.73       0.6772    
+  33    70   1     0     5     5  126.       10.7       1.016     
+  33    71   1     0     5     5  127.       11.8       1.016     
+  33    72   1     0     6     6  128.       12.8       1.016     
+  33    73   1     0     5     5  129.       13.8       1.016     
+  33    74   1     0     7     7  130.       14.8       1.016     
+  33    75   1     0     7     7  131.       15.8       1.016     
+  33    76   1     0     6     6  132.       16.8       1.016     
+  33    77   1     0     4     4  133.       17.9       1.016     
+  33    78   1     0     3     3  134.       18.9       1.016     
+  33    79   1     0     3     3  136.       20.4       1.524     
+  33    80   1     0     4     4  138.       22.7       2.285     
+  33    81   1     0     3     3  141.       26.1       3.428     
+  33    82   1     0     2     2  146.       31.3       5.142     
+  33    83   1     0     2     2  154.       39.0       7.713     
+  33    84   1     0     2     2  166.       50.5       11.57     
+  33    85   1     0     2     2  175.       60.0       9.461     
+  33    86   1     0     2     2  193.       77.4       17.36     
+  33    87   1     0     2     2  219.       103.       26.03     
+  33    88   1     0     2     2  235.       120.       16.61     
+  33    89   1     0     2     2  274.       159.       39.05     
+  33    90   1     0     2     2  295.       180.       20.95     
+  33    91   1     0     2     2  355.       240.       60.00     
+  33    92   1     0     3     3  415.       300.       60.00     
+  33    93   1     0     2     2  475.       360.       60.00     
+  33    94   1     0     2     2  535.       420.       60.00     
+  33    95   1     0     2     2  595.       480.       60.00     
+  33    96   1     0     2     2  655.       540.       60.00     
+  33    97   1     0     2     2  715.       600.       60.00     
+  33    98   1     0     2     2  775.       660.       60.00     
+  33    99   1     0     2     2  835.       720.       60.00     
+  33   100   1     0     2     2  895.       780.       60.00     
+  33   101   1     0     2     2  955.       840.       60.00     
+  33   102   1     0     2     2  1.02e+03   900.       60.00     
+  33   103   1     0     2     2  1.08e+03   960.       60.00     
+  33   104   1     0     2     2  1.14e+03   1.02e+03   60.00     
+  33   105   1     0     2     2  1.20e+03   1.08e+03   60.00     
+  33   106   1     0     2     2  1.26e+03   1.14e+03   60.00     
+  33   107   1     0     2     2  1.32e+03   1.20e+03   60.00     
+  33   108   1     0     2     2  1.38e+03   1.26e+03   60.00     
+  33   109   1     0     2     2  1.44e+03   1.32e+03   60.00     
+  33   110   1     0     2     2  1.50e+03   1.38e+03   60.00     
+  33   111   1     0     2     2  1.56e+03   1.44e+03   60.00     
+  33   112   1     0     2     2  1.62e+03   1.50e+03   60.00     
+                          
+ THE ANALYSIS HAS COMPLETED SUCCESSFULLY","   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO DISP.        6.940E-08   AT NODE      24806   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+          DISP.    CORRECTION TOO LARGE COMPARED TO DISP.    INCREMENT
+
+ AVERAGE HEAT FLUX                  2.166E-06   TIME AVG. HEAT FLUX   3.334E-02
+ LARGEST RESIDUAL HEAT FLUX        -2.086E-10   AT NODE      13428   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.        -0.128       AT NODE      12895   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.        4.764E-02   AT NODE      13387   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+          THE HEAT FLUX EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 12 THREADS PER RANK
+        NUMBER OF EQUATIONS:  99384
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      1.084e+11
+        SOLVER ELAPSED TIME:  2.0s
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                       8.88       TIME AVG. FORCE        5.85    
+ LARGEST SCALED RESIDUAL FORCE     -6.622E-12   AT NODE      24665   DOF  2
+   INSTANCE: INST_PLATE                                                                      
+  CORRESPONDING RESIDUAL FORCE     -6.622E-12
+ LARGEST INCREMENT OF DISP.        -1.867E-07   AT NODE      24806   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO DISP.        9.043E-13   AT NODE      24846   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.166E-06   TIME AVG. HEAT FLUX   3.334E-02
+ LARGEST RESIDUAL HEAT FLUX        -2.757E-16   AT NODE      12092   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.        -0.128       AT NODE      12895   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.       -1.659E-06   AT NODE      13387   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+          THE HEAT FLUX EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS  -0.128    
+
+ ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED   60.0    ,  FRACTION OF STEP COMPLETED   1.00    
+ STEP TIME COMPLETED       1.500E+03,  TOTAL TIME COMPLETED        1.615E+03
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+     ANALYSIS SUMMARY:
+     TOTAL OF       1614  INCREMENTS
+                     146  CUTBACKS IN AUTOMATIC INCREMENTATION
+                    6897  ITERATIONS INCLUDING CONTACT ITERATIONS IF PRESENT
+                    6897  PASSES THROUGH THE EQUATION SOLVER OF WHICH 
+                    6897  INVOLVE MATRIX DECOMPOSITION, INCLUDING
+                       0  DECOMPOSITION(S) OF THE MASS MATRIX
+                       1  REORDERING OF EQUATIONS TO MINIMIZE WAVEFRONT
+                       0  ADDITIONAL RESIDUAL EVALUATIONS FOR LINE SEARCHES
+                       0  ADDITIONAL OPERATOR EVALUATIONS FOR LINE SEARCHES
+                       2  WARNING MESSAGES DURING USER INPUT PROCESSING
+                    3281  WARNING MESSAGES DURING ANALYSIS
+                       0  ANALYSIS WARNINGS ARE NUMERICAL PROBLEM MESSAGES
+                       9  ANALYSIS WARNINGS ARE NEGATIVE EIGENVALUE MESSAGES
+                       0  ERROR MESSAGES
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     1.20E+05
+       SYSTEM TIME (SEC)    =     1.49E+03
+       TOTAL CPU TIME (SEC) =     1.21E+05
+       WALLCLOCK TIME (SEC) =        30398
+       MEMORY PEAK (GB)     =            0"
+greedy_maximin_distance,job_lded_stripe_tm_32track_greedy_maximin_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01\job_lded_stripe_tm_32track_greedy_maximin_v01.inp,2026-05-22T08:14:54,2026-05-22T10:18:36,7421,0,success,True,THE ANALYSIS HAS COMPLETED SUCCESSFULLY,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01\run_job_lded_stripe_tm_32track_greedy_maximin_v01.log,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01\job_lded_stripe_tm_32track_greedy_maximin_v01.sta,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01\job_lded_stripe_tm_32track_greedy_maximin_v01.msg,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01\job_lded_stripe_tm_32track_greedy_maximin_v01.dat,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_greedy_maximin_v01\job_lded_stripe_tm_32track_greedy_maximin_v01.odb,True,6924235208,"  33     7   1     0     5     5  116.       0.306      0.05862   
+  33     8   1     0     4     4  116.       0.365      0.05862   
+  33     9   1     0     4     4  116.       0.423      0.05862   
+  33    10   1     0     4     4  116.       0.511      0.08793   
+  33    11   1     0     5     5  116.       0.643      0.1319    
+  33    12   1     0     4     4  116.       0.775      0.1319    
+  33    13   1     0     4     4  116.       0.907      0.1319    
+  33    14   1     0     4     4  116.       1.10       0.1978    
+  33    15   1     0     4     4  117.       1.40       0.2968    
+  33    16   1     0     4     4  117.       1.70       0.2968    
+  33    17   1     0     4     4  117.       2.14       0.4451    
+  33    18   1     0     4     4  118.       2.81       0.6677    
+  33    19   1     0     4     4  119.       3.81       1.002     
+  33    20   1     0     3     3  121.       5.32       1.502     
+  33    21   1     0     3     3  123.       7.57       2.253     
+  33    22   1     0     3     3  126.       10.9       3.380     
+  33    23   1     0     4     4  131.       16.0       5.070     
+  33    24   1     0     2     2  139.       23.6       7.606     
+  33    25   1     0     2     2  150.       35.0       11.41     
+  33    26   1     0     2     2  167.       52.1       17.11     
+  33    27   1     0     2     2  175.       60.0       7.854     
+  33    28   1     0     2     2  201.       85.7       25.67     
+  33    29   1     0     2     2  227.       111.       25.67     
+  33    30   1     0     1     1  235.       120.       8.663     
+  33    31   1     0     2     2  274.       159.       38.50     
+  33    32   1     0     2     2  295.       180.       21.50     
+  33    33   1     0     2     2  355.       240.       60.00     
+  33    34   1     0     3     3  415.       300.       60.00     
+  33    35   1     0     2     2  475.       360.       60.00     
+  33    36   1     0     2     2  535.       420.       60.00     
+  33    37   1     0     2     2  595.       480.       60.00     
+  33    38   1     0     2     2  655.       540.       60.00     
+  33    39   1     0     2     2  715.       600.       60.00     
+  33    40   1     0     2     2  775.       660.       60.00     
+  33    41   1     0     2     2  835.       720.       60.00     
+  33    42   1     0     2     2  895.       780.       60.00     
+  33    43   1     0     2     2  955.       840.       60.00     
+  33    44   1     0     2     2  1.02e+03   900.       60.00     
+  33    45   1     0     2     2  1.08e+03   960.       60.00     
+  33    46   1     0     2     2  1.14e+03   1.02e+03   60.00     
+  33    47   1     0     2     2  1.20e+03   1.08e+03   60.00     
+  33    48   1     0     2     2  1.26e+03   1.14e+03   60.00     
+  33    49   1     0     2     2  1.32e+03   1.20e+03   60.00     
+  33    50   1     0     2     2  1.38e+03   1.26e+03   60.00     
+  33    51   1     0     2     2  1.44e+03   1.32e+03   60.00     
+  33    52   1     0     2     2  1.50e+03   1.38e+03   60.00     
+  33    53   1     0     2     2  1.56e+03   1.44e+03   60.00     
+  33    54   1     0     2     2  1.62e+03   1.50e+03   60.00     
+                          
+ THE ANALYSIS HAS COMPLETED SUCCESSFULLY"," LARGEST CORRECTION TO DISP.        7.362E-08   AT NODE      24826   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+          DISP.    CORRECTION TOO LARGE COMPARED TO DISP.    INCREMENT
+
+ AVERAGE HEAT FLUX                  2.298E-06   TIME AVG. HEAT FLUX   1.694E-02
+ LARGEST RESIDUAL HEAT FLUX        -2.339E-10   AT NODE      12895   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.        -0.136       AT NODE      12649   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.        5.047E-02   AT NODE      12895   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ ESTIMATE OF TEMP.    CORRECTION   -2.848E-06
+ HEAT FLUX EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 12 THREADS PER RANK
+        NUMBER OF EQUATIONS:  99384
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      1.084e+11
+        SOLVER ELAPSED TIME:  584ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                       14.5       TIME AVG. FORCE        9.84    
+ LARGEST SCALED RESIDUAL FORCE     -6.153E-12   AT NODE      20991   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+  CORRESPONDING RESIDUAL FORCE     -6.153E-12
+ LARGEST INCREMENT OF DISP.        -1.984E-07   AT NODE      24826   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO DISP.        1.014E-12   AT NODE      24806   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.298E-06   TIME AVG. HEAT FLUX   1.694E-02
+ LARGEST RESIDUAL HEAT FLUX        -3.218E-16   AT NODE      16225   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.        -0.136       AT NODE      12649   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.       -1.862E-06   AT NODE      12895   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+          THE HEAT FLUX EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS  -0.136    
+
+ ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED   60.0    ,  FRACTION OF STEP COMPLETED   1.00    
+ STEP TIME COMPLETED       1.500E+03,  TOTAL TIME COMPLETED        1.615E+03
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+     ANALYSIS SUMMARY:
+     TOTAL OF       1181  INCREMENTS
+                      73  CUTBACKS IN AUTOMATIC INCREMENTATION
+                    4424  ITERATIONS INCLUDING CONTACT ITERATIONS IF PRESENT
+                    4424  PASSES THROUGH THE EQUATION SOLVER OF WHICH 
+                    4424  INVOLVE MATRIX DECOMPOSITION, INCLUDING
+                       0  DECOMPOSITION(S) OF THE MASS MATRIX
+                       1  REORDERING OF EQUATIONS TO MINIMIZE WAVEFRONT
+                       0  ADDITIONAL RESIDUAL EVALUATIONS FOR LINE SEARCHES
+                       0  ADDITIONAL OPERATOR EVALUATIONS FOR LINE SEARCHES
+                       2  WARNING MESSAGES DURING USER INPUT PROCESSING
+                    1816  WARNING MESSAGES DURING ANALYSIS
+                       0  ANALYSIS WARNINGS ARE NUMERICAL PROBLEM MESSAGES
+                       4  ANALYSIS WARNINGS ARE NEGATIVE EIGENVALUE MESSAGES
+                       0  ERROR MESSAGES
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     3.12E+04
+       SYSTEM TIME (SEC)    =     7.24E+02
+       TOTAL CPU TIME (SEC) =     3.20E+04
+       WALLCLOCK TIME (SEC) =         7379
+       MEMORY PEAK (GB)     =            0"
+smartscan_proxy_variance,job_lded_stripe_tm_32track_smartscan_proxy_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01\job_lded_stripe_tm_32track_smartscan_proxy_v01.inp,2026-05-22T10:18:36,2026-05-22T11:31:46,4390,0,success,True,THE ANALYSIS HAS COMPLETED SUCCESSFULLY,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01\run_job_lded_stripe_tm_32track_smartscan_proxy_v01.log,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01\job_lded_stripe_tm_32track_smartscan_proxy_v01.sta,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01\job_lded_stripe_tm_32track_smartscan_proxy_v01.msg,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01\job_lded_stripe_tm_32track_smartscan_proxy_v01.dat,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_smartscan_proxy_v01\job_lded_stripe_tm_32track_smartscan_proxy_v01.odb,True,6478553972,"  33     8   1     0     4     4  115.       0.264      0.05273   
+  33     9   1     0     4     4  116.       0.316      0.05273   
+  33    10   1     0     6     6  116.       0.396      0.07910   
+  33    11   1     0     4     4  116.       0.475      0.07910   
+  33    12   1     0     4     4  116.       0.554      0.07910   
+  33    13   1     0     4     4  116.       0.672      0.1187    
+  33    14   1     0     4     4  116.       0.850      0.1780    
+  33    15   1     0     5     5  116.       1.12       0.2670    
+  33    16   1     0     5     5  117.       1.38       0.2670    
+  33    17   1     0     4     4  117.       1.65       0.2670    
+  33    18   1     0     2     2  117.       1.92       0.2670    
+  33    19   1     0     3     3  118.       2.32       0.4005    
+  33    20   1     0     3     3  118.       2.92       0.6007    
+  33    21   1     0     3     3  119.       3.82       0.9010    
+  33    22   1     0     3     3  120.       5.17       1.352     
+  33    23   1     0     4     4  122.       7.20       2.027     
+  33    24   1     0     4     4  125.       10.2       3.041     
+  33    25   1     0     4     4  130.       14.8       4.561     
+  33    26   1     0     4     4  137.       21.6       6.842     
+  33    27   1     0     4     4  147.       31.9       10.26     
+  33    28   1     0     2     2  163.       47.3       15.39     
+  33    29   1     0     2     2  175.       60.0       12.70     
+  33    30   1     0     2     2  198.       83.1       23.09     
+  33    31   1     0     2     2  235.       120.       36.91     
+  33    32   1     0     2     2  272.       157.       36.91     
+  33    33   1     0     2     2  295.       180.       23.09     
+  33    34   1     0     2     2  355.       240.       60.00     
+  33    35   1     0     3     3  415.       300.       60.00     
+  33    36   1     0     2     2  475.       360.       60.00     
+  33    37   1     0     2     2  535.       420.       60.00     
+  33    38   1     0     2     2  595.       480.       60.00     
+  33    39   1     0     2     2  655.       540.       60.00     
+  33    40   1     0     2     2  715.       600.       60.00     
+  33    41   1     0     2     2  775.       660.       60.00     
+  33    42   1     0     2     2  835.       720.       60.00     
+  33    43   1     0     2     2  895.       780.       60.00     
+  33    44   1     0     2     2  955.       840.       60.00     
+  33    45   1     0     2     2  1.02e+03   900.       60.00     
+  33    46   1     0     2     2  1.08e+03   960.       60.00     
+  33    47   1     0     2     2  1.14e+03   1.02e+03   60.00     
+  33    48   1     0     2     2  1.20e+03   1.08e+03   60.00     
+  33    49   1     0     2     2  1.26e+03   1.14e+03   60.00     
+  33    50   1     0     2     2  1.32e+03   1.20e+03   60.00     
+  33    51   1     0     2     2  1.38e+03   1.26e+03   60.00     
+  33    52   1     0     2     2  1.44e+03   1.32e+03   60.00     
+  33    53   1     0     2     2  1.50e+03   1.38e+03   60.00     
+  33    54   1     0     2     2  1.56e+03   1.44e+03   60.00     
+  33    55   1     0     2     2  1.62e+03   1.50e+03   60.00     
+                          
+ THE ANALYSIS HAS COMPLETED SUCCESSFULLY"," LARGEST CORRECTION TO DISP.        7.484E-08   AT NODE      24826   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+          DISP.    CORRECTION TOO LARGE COMPARED TO DISP.    INCREMENT
+
+ AVERAGE HEAT FLUX                  2.330E-06   TIME AVG. HEAT FLUX   2.416E-02
+ LARGEST RESIDUAL HEAT FLUX        -2.416E-10   AT NODE      11665   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.        -0.138       AT NODE      12157   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.        5.130E-02   AT NODE      12157   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ ESTIMATE OF TEMP.    CORRECTION   -2.944E-06
+ HEAT FLUX EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 12 THREADS PER RANK
+        NUMBER OF EQUATIONS:  99384
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      1.084e+11
+        SOLVER ELAPSED TIME:  547ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                       22.9       TIME AVG. FORCE        14.7    
+ LARGEST SCALED RESIDUAL FORCE     -7.802E-12   AT NODE      17341   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+  CORRESPONDING RESIDUAL FORCE     -7.802E-12
+ LARGEST INCREMENT OF DISP.        -2.015E-07   AT NODE      24826   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO DISP.        1.048E-12   AT NODE      24806   DOF  1
+   INSTANCE: INST_PLATE                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.330E-06   TIME AVG. HEAT FLUX   2.416E-02
+ LARGEST RESIDUAL HEAT FLUX        -3.242E-16   AT NODE      13076   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.        -0.138       AT NODE      12157   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.       -1.924E-06   AT NODE      12157   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+          THE HEAT FLUX EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS  -0.138    
+
+ ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED   60.0    ,  FRACTION OF STEP COMPLETED   1.00    
+ STEP TIME COMPLETED       1.500E+03,  TOTAL TIME COMPLETED        1.615E+03
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+     ANALYSIS SUMMARY:
+     TOTAL OF       1106  INCREMENTS
+                      56  CUTBACKS IN AUTOMATIC INCREMENTATION
+                    3944  ITERATIONS INCLUDING CONTACT ITERATIONS IF PRESENT
+                    3944  PASSES THROUGH THE EQUATION SOLVER OF WHICH 
+                    3944  INVOLVE MATRIX DECOMPOSITION, INCLUDING
+                       0  DECOMPOSITION(S) OF THE MASS MATRIX
+                       1  REORDERING OF EQUATIONS TO MINIMIZE WAVEFRONT
+                       0  ADDITIONAL RESIDUAL EVALUATIONS FOR LINE SEARCHES
+                       0  ADDITIONAL OPERATOR EVALUATIONS FOR LINE SEARCHES
+                       2  WARNING MESSAGES DURING USER INPUT PROCESSING
+                    1064  WARNING MESSAGES DURING ANALYSIS
+                       0  ANALYSIS WARNINGS ARE NUMERICAL PROBLEM MESSAGES
+                       3  ANALYSIS WARNINGS ARE NEGATIVE EIGENVALUE MESSAGES
+                       0  ERROR MESSAGES
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     1.96E+04
+       SYSTEM TIME (SEC)    =     6.20E+02
+       TOTAL CPU TIME (SEC) =     2.02E+04
+       WALLCLOCK TIME (SEC) =         4364
+       MEMORY PEAK (GB)     =            0"
+multi_lag_regular_jump,job_lded_stripe_tm_32track_multilag_jump_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01\job_lded_stripe_tm_32track_multilag_jump_v01.inp,2026-05-22T11:31:46,2026-05-22T13:30:19,7112,0,failed,False,,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01\run_job_lded_stripe_tm_32track_multilag_jump_v01.log,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01\job_lded_stripe_tm_32track_multilag_jump_v01.sta,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01\job_lded_stripe_tm_32track_multilag_jump_v01.msg,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01\job_lded_stripe_tm_32track_multilag_jump_v01.dat,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_multilag_jump_v01\job_lded_stripe_tm_32track_multilag_jump_v01.odb,True,6204151840,"  31    28   1     0     5     5  110.       1.68       0.2000    
+  31    29   1     0     5     5  110.       1.88       0.2000    
+  31    30   1     0     5     5  110.       2.08       0.2000    
+  31    31   1     0     5     5  110.       2.28       0.2000    
+  31    32   1     0     5     5  110.       2.48       0.2000    
+  31    33   1     0     5     5  111.       2.68       0.2000    
+  31    34   1     0     5     5  111.       2.88       0.2000    
+  31    35   1     0     4     4  111.       3.08       0.2000    
+  31    36   1     0     4     4  111.       3.28       0.2000    
+  31    37   1     0     5     5  111.       3.48       0.2000    
+  31    38   1     0     4     4  112.       3.60       0.1174    
+  32     1   1     0     7     7  112.       0.0200     0.02000   
+  32     2   1     0     3     3  112.       0.0400     0.02000   
+  32     3   1     0     3     3  112.       0.0600     0.02000   
+  32     4   1     0     4     4  112.       0.0900     0.03000   
+  32     5   1     0     5     5  112.       0.135      0.04500   
+  32     6   1     0     5     5  112.       0.180      0.04500   
+  32     7   1     0     4     4  112.       0.225      0.04500   
+  32     8   1     0     3     3  112.       0.270      0.04500   
+  32     9   1     0     5     5  112.       0.337      0.06750   
+  32    10   1     0     6     6  112.       0.405      0.06750   
+  32    11   1     0     4     4  112.       0.472      0.06750   
+  32    12   1     0     4     4  112.       0.540      0.06750   
+  32    13   1     0     4     4  112.       0.641      0.1013    
+  32    14   1U    0     1     1  112.       0.641      0.1519    
+  32    14   2     0     4     4  112.       0.679      0.03797   
+  32    15   1     0     4     4  112.       0.736      0.05695   
+  32    16   1     0     4     4  112.       0.822      0.08543   
+  32    17   1     0     4     4  113.       0.950      0.1281    
+  32    18   1     0     4     4  113.       1.14       0.1922    
+  32    19   1     0     5     5  113.       1.34       0.2000    
+  32    20   1     0     5     5  113.       1.54       0.2000    
+  32    21   1     0     5     5  113.       1.74       0.2000    
+  32    22   1     0     4     4  114.       1.94       0.2000    
+  32    23   1     0     3     3  114.       2.14       0.2000    
+  32    24   1     0     4     4  114.       2.34       0.2000    
+  32    25   1     0     4     4  114.       2.54       0.2000    
+  32    26   1     0     3     3  114.       2.74       0.2000    
+  32    27   1     0     3     3  115.       2.94       0.2000    
+  32    28   1     0     4     4  115.       3.14       0.2000    
+  32    29   1     0     4     4  115.       3.34       0.2000    
+  32    30   1     0     4     4  115.       3.54       0.2000    
+  32    31   1     0     3     3  115.       3.60       0.05804   
+  33     1   1U    0     5     5  115.       0.00       1.000     
+  33     1   2U    0     6     6  115.       0.00       0.3798    
+  33     1   3U    0     7     7  115.       0.00       0.2122    
+  33     1   4U    0     4     4  115.       0.00       0.05305   
+  33     1   5U    0     4     4  115.       0.00       0.01326   
+                          
+ THE ANALYSIS HAS NOT BEEN COMPLETED","  CORRESPONDING RESIDUAL FORCE       30.0    
+ LARGEST INCREMENT OF DISP.        -4.367E-06   AT NODE      20701   DOF  3
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO DISP.        9.888E-07   AT NODE      20454   DOF  3
+   INSTANCE: INST_PLATE                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE HEAT FLUX                  8.157E-02   TIME AVG. HEAT FLUX   8.157E-02
+ LARGEST RESIDUAL HEAT FLUX         -79.2       AT NODE      20424   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.          103.       AT NODE      20424   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.         114.       AT NODE      20424   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+          HEAT FLUX EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 12 THREADS PER RANK
+        NUMBER OF EQUATIONS:  99384
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      1.084e+11
+        SOLVER ELAPSED TIME:  2.1s
+
+ ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
+             FIRST YIELD AT 8 POINTS
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+
+ AVERAGE FORCE                       7.32       TIME AVG. FORCE        7.32    
+ LARGEST SCALED RESIDUAL FORCE       33.1       AT NODE      20465   DOF  3
+   INSTANCE: INST_PLATE                                                                      
+  CORRESPONDING RESIDUAL FORCE       33.1    
+ LARGEST INCREMENT OF DISP.        -3.888E-06   AT NODE      20701   DOF  3
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO DISP.        9.515E-07   AT NODE      20424   DOF  3
+   INSTANCE: INST_PLATE                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE HEAT FLUX                  8.071E-02   TIME AVG. HEAT FLUX   8.071E-02
+ LARGEST RESIDUAL HEAT FLUX         -56.9       AT NODE      20424   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST INCREMENT OF TEMP.         -44.1       AT NODE      20947   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+ LARGEST CORRECTION TO TEMP.        -83.7       AT NODE      20424   DOF 11
+   INSTANCE: INST_PLATE                                                                      
+          HEAT FLUX EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+ 
+
+ ***NOTE: THE SOLUTION APPEARS TO BE DIVERGING. CONVERGENCE IS JUDGED UNLIKELY.
+ 
+
+ ***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT
+
+
+
+     ANALYSIS SUMMARY:
+     TOTAL OF       1030  INCREMENTS
+                      56  CUTBACKS IN AUTOMATIC INCREMENTATION
+                    3733  ITERATIONS INCLUDING CONTACT ITERATIONS IF PRESENT
+                    3733  PASSES THROUGH THE EQUATION SOLVER OF WHICH 
+                    3733  INVOLVE MATRIX DECOMPOSITION, INCLUDING
+                       0  DECOMPOSITION(S) OF THE MASS MATRIX
+                       1  REORDERING OF EQUATIONS TO MINIMIZE WAVEFRONT
+                       0  ADDITIONAL RESIDUAL EVALUATIONS FOR LINE SEARCHES
+                       0  ADDITIONAL OPERATOR EVALUATIONS FOR LINE SEARCHES
+                       2  WARNING MESSAGES DURING USER INPUT PROCESSING
+                    1033  WARNING MESSAGES DURING ANALYSIS
+                       0  ANALYSIS WARNINGS ARE NUMERICAL PROBLEM MESSAGES
+                       0  ANALYSIS WARNINGS ARE NEGATIVE EIGENVALUE MESSAGES
+                       1  ERROR MESSAGES
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     2.96E+04
+       SYSTEM TIME (SEC)    =     6.87E+02
+       TOTAL CPU TIME (SEC) =     3.02E+04
+       WALLCLOCK TIME (SEC) =         7077
+       MEMORY PEAK (GB)     =            0"
+block_interleaved_quarters,job_lded_stripe_tm_32track_block_interleaved_quarters_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01\job_lded_stripe_tm_32track_block_interleaved_quarters_v01.inp,,,,,pending,False,,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01\run_job_lded_stripe_tm_32track_block_interleaved_quarters_v01.log,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01\job_lded_stripe_tm_32track_block_interleaved_quarters_v01.sta,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01\job_lded_stripe_tm_32track_block_interleaved_quarters_v01.msg,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01\job_lded_stripe_tm_32track_block_interleaved_quarters_v01.dat,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_block_interleaved_quarters_v01\job_lded_stripe_tm_32track_block_interleaved_quarters_v01.odb,False,0,,
+center_edge_alternating,job_lded_stripe_tm_32track_center_edge_alternating_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01\job_lded_stripe_tm_32track_center_edge_alternating_v01.inp,,,,,pending,False,,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01\run_job_lded_stripe_tm_32track_center_edge_alternating_v01.log,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01\job_lded_stripe_tm_32track_center_edge_alternating_v01.sta,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01\job_lded_stripe_tm_32track_center_edge_alternating_v01.msg,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01\job_lded_stripe_tm_32track_center_edge_alternating_v01.dat,D:\Projects\RL-LAM-ScanOpt\abaqus-models\lded_stripe_tm_32track_center_edge_alternating_v01\job_lded_stripe_tm_32track_center_edge_alternating_v01.odb,False,0,,
