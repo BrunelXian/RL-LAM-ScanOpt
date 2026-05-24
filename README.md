@@ -1,8 +1,8 @@
+# RL-LAM-ScanOpt
+
 [![Project Type](https://img.shields.io/badge/project-research%20radar-blue)](#)
 [![Focus](https://img.shields.io/badge/focus-AI%20for%20Manufacturing-important)](#)
 [![Scope](https://img.shields.io/badge/scope-processes%2C%20control%2C%20digital%20twin-success)](#)
-
-# RL-LAM-ScanOpt
 
 `RL-LAM-ScanOpt` is now a **line-order benchmark + FEA-teacher preparation repository** for laser directed energy deposition (LDED).
 
