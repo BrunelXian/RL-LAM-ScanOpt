@@ -14,7 +14,7 @@ The active branch is:
 3. export trajectories into **Abaqus/FEA-consumable scan paths**
 4. curate a **small, high-value teacher set** for sparse FEA evaluation and paper-ready analysis
 
-![LDED 32-track layout](assets/figures/lded_coupon_32track_layout.png)
+![Bilevel proxy-FEA framework](docs/bilevel_proxy_fea_framework.png)
 
 ## Status Snapshot
 
@@ -69,6 +69,8 @@ Primary files:
 - [core/geometry.py](core/geometry.py)
 - [scripts/preview_lded_coupon_32track.py](scripts/preview_lded_coupon_32track.py)
 - [docs/lded_fea_teacher_pipeline.md](docs/lded_fea_teacher_pipeline.md)
+
+![LDED 32-track layout](assets/figures/lded_coupon_32track_layout.png)
 
 Preview outputs:
 
