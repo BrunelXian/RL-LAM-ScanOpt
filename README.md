@@ -389,5 +389,6 @@ The next step is:
 - [docs/lded_fea_teacher_pipeline.md](docs/lded_fea_teacher_pipeline.md)
 - [docs/abaqus_teacher_production_run_notes.md](docs/abaqus_teacher_production_run_notes.md)
 - [docs/scan_strategies/README.md](docs/scan_strategies/README.md)
+- Stage 2 reward design for masked 2D CAE teacher workflow: [docs/stage2_reward_design_masked_teacher.md](docs/stage2_reward_design_masked_teacher.md)
 - [docs/legacy_proxy_rl.md](docs/legacy_proxy_rl.md)
 - [reports/overleaf_asset_path_audit.md](reports/overleaf_asset_path_audit.md)
