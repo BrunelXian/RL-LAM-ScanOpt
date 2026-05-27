@@ -48,6 +48,33 @@ That is why the repository has shifted from **proxy-RL optimization** to **teach
 
 Legacy RL / TWI / grid assets are still preserved for traceability, but they are not the active front door anymore.
 
+## Stage 2 Reward Design (Short Version)
+
+Stage 2 uses a **masked scan-track ordering** workflow with a **decoupled reward architecture**:
+
+- the agent receives a **cheap dense step penalty** during sequential track selection
+- the completed trajectory receives a **sparse terminal CAE teacher reward** only after the full order is defined
+
+In short:
+
+`R_total = sum(step penalties) + terminal teacher score`
+
+The step-level term is intentionally non-FEA and low-cost. It is meant to guide geometry-aware decisions such as:
+
+- excessive jump distance between consecutive selected tracks
+- cheap thermal-overlap risk from selecting tracks too close to recently activated tracks
+
+The terminal teacher term is the physically meaningful part. It is intended to come from 2D Abaqus/CAE evaluation of the completed trajectory, using metrics such as:
+
+- out-of-plane deformation / warpage
+- accumulated plastic strain extent
+- residual von Mises stress level
+- preheat temperature stability before track activation
+
+For masked geometries, terminal performance should be judged **relative to a deterministic baseline under the same mask**, so that geometry difficulty is not confused with path quality.
+
+This design keeps the material system configurable. `SS316L / S316L` is the current working example, but the reward architecture is not tied to one alloy or one fixed yield-strength constant.
+
 ## Active Benchmark: `lded_coupon_32track_v1`
 
 This benchmark models a simple single-layer LDED coupon as a **track-order permutation** problem.
