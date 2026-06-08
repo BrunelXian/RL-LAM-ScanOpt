@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+.ipynb_checkpoints/
 .mypy_cache/
 .venv/
 venv/
@@ -29,9 +30,42 @@ abaqus_acis.log
 *.dat
 *.msg
 *.sta
+*.bak
+*.jnl
+*.ipm
+*.rpy
+*.rec
+*.023
 
 # Abaqus temporary / archive folders
 abaqus-models/**/_archive/
 abaqus-models/**/night_run_*/
 abaqus-models/**/run_*.log
 abaqus-models/**/*.lck
+
+# Abaqus model outputs under repository model folders
+/abaqus-models/**/*.odb
+/abaqus-models/**/*.cae
+/abaqus-models/**/*.res
+/abaqus-models/**/*.stt
+/abaqus-models/**/*.mdl
+/abaqus-models/**/*.sim
+/abaqus-models/**/*.lck
+/abaqus-models/**/*.dat
+/abaqus-models/**/*.msg
+/abaqus-models/**/*.sta
+/abaqus-models/**/*.prt
+/abaqus-models/**/*.com
+/abaqus-models/**/*.log
+
+# Stage 2 CAE heavy outputs
+LDED_2D_CAE_Framework/cae_models/**/*.odb
+LDED_2D_CAE_Framework/cae_models/**/*.sim
+LDED_2D_CAE_Framework/cae_models/**/jobs/
+LDED_2D_CAE_Framework/cae_models/**/logs/
+LDED_2D_CAE_Framework/cae_models/**/large_raw/
+rl-training/v01/outputs/**/large_raw/
+
+# Temp defense
+temp/**/*
+!temp/README_TEMP.md
