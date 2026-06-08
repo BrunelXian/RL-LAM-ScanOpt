@@ -2,15 +2,16 @@
 
 ## Verdict
 
-`PASS_STAGE2_GITHUB_READY_PENDING_PUSH`
+`PASS_STAGE2_GITHUB_READY_AND_PUSHED`
 
-The Stage 2 documentation package has been isolated, staged explicitly, audited for large/binary files, and committed on a feature branch. Push is the next step.
+The Stage 2 documentation package has been isolated, staged explicitly, audited for large/binary files, committed on a feature branch, and pushed to GitHub.
 
 ## Repository State
 
 - Branch prepared for publication: `stage2-final-evidence-freeze-v01`
 - Remote: `origin https://github.com/BrunelXian/RL-LAM-ScanOpt.git`
 - Evidence package commit: `be1247dac38b615472428d500866e47b1edea5c9`
+- Cleanup report finalization commit before push: `3117f0c`
 - GitHub CLI: not available in PATH; direct `git push` will be used.
 
 ## Working Tree Notes
@@ -75,12 +76,13 @@ The Stage 2 documentation package has been isolated, staged explicitly, audited 
 
 ## Push Status
 
-Pending at the time this cleanup report update was written. The branch should be pushed with:
+Push succeeded.
 
-```powershell
-git push -u origin stage2-final-evidence-freeze-v01
-```
+- Branch pushed: `stage2-final-evidence-freeze-v01`
+- Upstream: `origin/stage2-final-evidence-freeze-v01`
+- Remote URL: `https://github.com/BrunelXian/RL-LAM-ScanOpt.git`
+- GitHub PR URL suggested by remote: `https://github.com/BrunelXian/RL-LAM-ScanOpt/pull/new/stage2-final-evidence-freeze-v01`
 
 ## Next Recommended Action
 
-Push the feature branch and open a GitHub pull request for the Stage 2 documentation package. Do not force-push.
+Open a GitHub pull request for the Stage 2 documentation package. Do not force-push.
