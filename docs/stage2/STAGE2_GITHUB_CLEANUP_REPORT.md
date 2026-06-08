@@ -1,17 +1,28 @@
 # Stage 2 GitHub Cleanup Report
 
-## Initial Audit
+## Verdict
 
-- Current branch: `main`
+`PASS_STAGE2_GITHUB_READY_PENDING_PUSH`
+
+The Stage 2 documentation package has been isolated, staged explicitly, audited for large/binary files, and committed on a feature branch. Push is the next step.
+
+## Repository State
+
+- Branch prepared for publication: `stage2-final-evidence-freeze-v01`
 - Remote: `origin https://github.com/BrunelXian/RL-LAM-ScanOpt.git`
-- GitHub CLI: not available in PATH; direct `git push` will be attempted if local credentials permit.
-- Tracked working tree status before cleanup: mixed.
-- Modified files summary: `.gitignore` modified.
-- Deleted files summary: many pre-existing tracked deletions outside this Stage 2 documentation scope.
-- Untracked files summary: `LDED_2D_CAE_Framework/`, `rl-training/`, `docs/stage2/`, `docs/stage2_final_evidence_package_v01/`, and other folders appear untracked.
+- Evidence package commit: `be1247dac38b615472428d500866e47b1edea5c9`
+- GitHub CLI: not available in PATH; direct `git push` will be used.
 
-## Files Recommended For Commit
+## Working Tree Notes
 
+- The repository had a mixed pre-existing working tree before this cleanup.
+- Many tracked files outside this Stage 2 scope are marked deleted.
+- Large untracked scientific folders are present, including `LDED_2D_CAE_Framework/` and `rl-training/`.
+- These unrelated changes were not staged.
+
+## Files Committed
+
+- `.gitignore`
 - `docs/stage2/README.md`
 - `docs/stage2/STAGE2_FINAL_SUMMARY.md`
 - `docs/stage2/STAGE2_CLAIM_BOUNDARY.md`
@@ -23,27 +34,53 @@
 - `docs/stage2/STAGE2_GITHUB_CLEANUP_REPORT.md`
 - `docs/stage2/STAGE2_LARGE_FILE_AUDIT.txt`
 - `docs/stage2_final_evidence_package_v01/stage2_final_evidence_consolidation_report.md`
+- `docs/stage2_final_evidence_package_v01/STAGE2_FINAL_SUMMARY.md`
+- `docs/stage2_final_evidence_package_v01/STAGE2_CLAIM_BOUNDARY.md`
+- `docs/stage2_final_evidence_package_v01/STAGE2_RUN_INDEX.md`
+- `docs/stage2_final_evidence_package_v01/STAGE2_GITHUB_README_DRAFT.md`
+- `docs/stage2_final_evidence_package_v01/STAGE2_STAGE3_HANDOFF.md`
 - `rl-training/v01/src/experiments/run_86_create_stage2_final_evidence_package_v01.py`
-- `.gitignore`
 
-## Files Excluded From Commit
+## Files Excluded
 
-- Abaqus ODB/CAE/SIM/PRT/STA/MSG/DAT/LCK/COM/JNL and related heavy solver outputs.
-- `LDED_2D_CAE_Framework/cae_models/**` generated solver result files.
-- `rl-training/v01/outputs/**` large raw outputs.
-- Personal/local cache files.
-- Pre-existing tracked deletions unrelated to Stage 2 documentation.
+- `*.odb`
+- `*.cae`
+- `*.sim`
+- `*.prt`
+- `*.sta`
+- `*.msg`
+- `*.dat`
+- `*.lck`
+- `*.com`
+- `*.jnl`
+- large Abaqus result files
+- generated solver folders under `LDED_2D_CAE_Framework/cae_models`
+- large raw output folders
+- local cache folders
+- unrelated tracked deletions outside Stage 2 documentation scope
 
 ## Large-File Audit
 
-Large-file audit written to `docs/stage2/STAGE2_LARGE_FILE_AUDIT.txt`.
+- Audit file: `docs/stage2/STAGE2_LARGE_FILE_AUDIT.txt`
+- Files larger than 25 MB found in workspace: `444`
+- Large files staged: `0`
+- Abaqus/solver binary or result files staged: `0`
 
-## Blockers
+## Staging Safety Check
 
-- Large files exist in the repository workspace but must not be staged.
-- The working tree contains many unrelated tracked deletions and untracked directories, so staging must be explicit.
-- `gh` is not installed; PR creation through GitHub CLI is unavailable.
+- Staged file count for evidence package commit: `18`
+- Banned staged extensions: `none`
+- Staged files larger than 25 MB: `none`
+- `git diff --cached --check`: passed
 
-## Final Status
+## Push Status
 
-Pending commit/push.
+Pending at the time this cleanup report update was written. The branch should be pushed with:
+
+```powershell
+git push -u origin stage2-final-evidence-freeze-v01
+```
+
+## Next Recommended Action
+
+Push the feature branch and open a GitHub pull request for the Stage 2 documentation package. Do not force-push.
