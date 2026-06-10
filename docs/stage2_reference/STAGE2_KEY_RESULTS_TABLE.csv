@@ -1,0 +1,23 @@
+topic,metric,value,source_run,source_file,interpretation
+Search space,32!,≈ 2.63 × 10^35,Stage 2 summary,STAGE2_FINAL_SUMMARY.md,Stage 2 is not brute-force search.
+Objective hierarchy,final hierarchy,U2 primary; PEEQ safety; SurfaceT secondary; Gradient/Mises/internal diagnostics,Stage 2 synthesis,STAGE2_FINAL_SUMMARY.md,U2-first + SurfaceT-secondary constrained search is the current best route.
+Full-field labels,canonical labels,387,run71c,surface_tensile_gradient_full_field_label_backfill_v03,Sufficient full-field dataset for diagnostic SurfaceT/Gradient surrogate analysis.
+Full-field labels,training-ready SurfaceT/Gradient rows,336 / 336,run71c,surface_tensile_gradient_full_field_label_backfill_v03,Run72 justified as diagnostic training.
+SurfaceT surrogate,ExtraTrees leave-family-out Spearman,0.5301,run72,surface_gradient_single_objective_surrogate_training_v01_report.md,SurfaceT has diagnostic ranking signal.
+SurfaceT surrogate,top10 overlap,6.6,run72,surface_gradient_single_objective_surrogate_training_v01_report.md,Useful but not final teacher replacement.
+Gradient surrogate,ExtraTrees leave-family-out Spearman,0.3820,run72,surface_gradient_single_objective_surrogate_training_v01_report.md,Gradient remains weak/diagnostic.
+U2-SurfaceT relation,valid rows,387,run76,U2_SurfaceT_tradeoff_law_analysis_v01_report.md,Analysis uses canonical full-field labels.
+U2-SurfaceT relation,global Spearman / Pearson,0.4939 / 0.0302,run76,U2_SurfaceT_tradeoff_law_analysis_v01_report.md,"Weak/nonlinear/family-dependent relation, not a simple monotonic law."
+U2 feasible set,U2-pass rows / Pareto candidates,97 / 57,run76,U2_SurfaceT_tradeoff_law_analysis_v01_report.md,Feasible-region analysis motivates U2-first strategy.
+UST probe10,ODB postprocessed,10/10,run79,UST_probe10_ODB_teacher_validation_v01_report.md,Teacher validation completed.
+UST probe10,U2 pass / PEEQ pass / combined pass,2/10 / 10/10 / 2/10,run79,UST_probe10_ODB_teacher_validation_v01_report.md,SurfaceT search must remain constrained by U2.
+UST probe10,SurfaceT proxy-vs-teacher Spearman,0.9515,run79,UST_probe10_ODB_teacher_validation_v01_report.md,"Small-batch proxy ranking signal, but no improvement over best reference."
+GNN/RL policy,run80 verdict,PASS_GNN_RL_POLICY_LEARNING_EVIDENCE_FROZEN,run80,GNN_RL_policy_learning_evidence_freeze_v01_report.md,Policy-learning / agent-feasibility evidence frozen.
+GNN/RL physical boundary,run80 warning,WARNING_GNN_RL_NOT_FINAL_PHYSICAL_OPTIMISER,run80,GNN_RL_policy_learning_evidence_freeze_v01_report.md,Do not frame as final physical optimiser.
+Transformer,SurfaceT Spearman / top10,0.4479 / 5.8,run81,transformer_sequence_surrogate_ablation_v01_report.md,No clear improvement over ExtraTrees.
+Transformer,ExtraTrees SurfaceT Spearman / top10,0.5301 / 6.6,run81/run72,surface_gradient_single_objective_surrogate_training_v01_report.md,Feature-based ExtraTrees remains stronger on current teacher data.
+GNN/RL vs baselines,labelled baseline count,9/10,run84,GNN_RL_vs_stage1_full32_baseline_audit_v01_report.md,Use 9/10 wording; smartscan_proxy_variance missing.
+GNN/RL vs baselines,best labelled baseline U2 vs best GNN/RL U2,9.97175e-05 vs 4.7092337e-05,run84,GNN_RL_vs_stage1_full32_baseline_audit_v01_report.md,Teacher-validated advantage over labelled baseline set.
+GNN/RL vs baselines,median U2 / PEEQ / SurfaceT,GNN/RL 0.00045039433 / 0.1453374 / 0.0071755; baseline 0.0009858571 / 0.1524441 / 0.0140886,run84,GNN_RL_vs_stage1_full32_baseline_audit_v01_report.md,"Supports advantage over labelled 9/10 early baseline set, not all 10."
+Masked,absolute U2 guard,7.8362e-05,run85,masked_UST_probe40_evidence_freeze_and_U2_guard_audit_v01_report.md,Full-32 U2 guard is too strict/uncalibrated for masked regimes.
+Masked,U2 pass / PEEQ pass / combined feasible,0/40 / 28/40 / 0/40,run85,masked_UST_probe40_evidence_freeze_and_U2_guard_audit_v01_report.md,Do not scale masked to 400 without per-mask guard calibration.

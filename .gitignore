@@ -1,4 +1,5 @@
 __pycache__/
+**pycache**/
 *.pyc
 *.pyo
 .pytest_cache/
@@ -35,3 +36,12 @@ abaqus-models/**/_archive/
 abaqus-models/**/night_run_*/
 abaqus-models/**/run_*.log
 abaqus-models/**/*.lck
+
+# Stage 3: keep generated evidence GitHub-safe
+outputs/**
+!outputs/README_KEEP_SMALL.md
+artifacts/**/*.pt
+artifacts/**/*.pth
+artifacts/**/*.ckpt
+artifacts/**/*.pkl
+artifacts/**/*.joblib

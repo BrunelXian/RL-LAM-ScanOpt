@@ -1,0 +1,68 @@
+{
+  "run_id": "run_01_handoff_import",
+  "created_utc": "2026-06-10T10:41:14.911893+00:00",
+  "source_root": "D:\\Projects\\RL-LAM-ScanOpt",
+  "target_root": "E:\\Projects\\RL-LAM-ScanOpt",
+  "approved_stage2_docs": [
+    "STAGE2_FINAL_SUMMARY.md",
+    "STAGE2_CLAIM_BOUNDARY.md",
+    "STAGE2_STAGE3_HANDOFF.md",
+    "STAGE2_KEY_RESULTS_TABLE.csv"
+  ],
+  "copied_references": [
+    {
+      "filename": "STAGE2_FINAL_SUMMARY.md",
+      "source": "D:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2\\STAGE2_FINAL_SUMMARY.md",
+      "destination": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2_reference\\STAGE2_FINAL_SUMMARY.md",
+      "bytes": 5171
+    },
+    {
+      "filename": "STAGE2_CLAIM_BOUNDARY.md",
+      "source": "D:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2\\STAGE2_CLAIM_BOUNDARY.md",
+      "destination": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2_reference\\STAGE2_CLAIM_BOUNDARY.md",
+      "bytes": 2239
+    },
+    {
+      "filename": "STAGE2_STAGE3_HANDOFF.md",
+      "source": "D:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2\\STAGE2_STAGE3_HANDOFF.md",
+      "destination": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2_reference\\STAGE2_STAGE3_HANDOFF.md",
+      "bytes": 1072
+    },
+    {
+      "filename": "STAGE2_KEY_RESULTS_TABLE.csv",
+      "source": "D:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2\\STAGE2_KEY_RESULTS_TABLE.csv",
+      "destination": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage2_reference\\STAGE2_KEY_RESULTS_TABLE.csv",
+      "bytes": 3980
+    }
+  ],
+  "missing_references": [],
+  "constraints": {
+    "abaqus_jobs": false,
+    "datacheck": false,
+    "odb_opening": false,
+    "cae_generation": false,
+    "inp_jnl_generation": false,
+    "model_training": false,
+    "candidate_generation": false
+  },
+  "stage3_boundary": {
+    "goal": "Variable-N Graph Pointer RL Policy feasibility test",
+    "n_train": [
+      16,
+      32
+    ],
+    "n_test": [
+      24,
+      40
+    ],
+    "evaluation": "within-N ranking and normalized improvement",
+    "not_claimed": [
+      "arbitrary-N generalisation solved",
+      "GNN/RL is final physical optimiser",
+      "same full-32 U2 guard transfers to all N",
+      "masked transfer solved",
+      "SurfaceT optimisation solved"
+    ]
+  },
+  "verdict": "PASS_STAGE3_RUN01_HANDOFF_IMPORT_READY"
+}
