@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-06-10T11:05:43.374515+00:00",
+  "source_root": "D:\\Projects\\RL-LAM-ScanOpt",
+  "target_root": "E:\\Projects\\RL-LAM-ScanOpt",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "run_id": "run_02_fixed32_policy_novelty_audit",
+  "verdict": "PASS_FIXED32_POLICY_NOVELTY_AUDIT_READY",
+  "files_scanned_count": 2247,
+  "legal_orders_count": 180,
+  "baseline_orders_count": 60,
+  "learned_orders_count": 120,
+  "rejected_orders_count": 45276,
+  "rejection_audit_rows_written": 1000,
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\extraction_rejection_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\fixed32_orders_extracted.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\adjacent_pair_overlap_matrix.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\undirected_adjacent_pair_overlap_matrix.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\kendall_distance_matrix.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\spearman_rank_distance_matrix.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\jump_length_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\edge_center_timing_profile.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\left_right_balance_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\rl_vs_baseline_novelty_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\policy_novelty_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\adjacent_pair_overlap_heatmap.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\kendall_distance_heatmap.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\jump_length_distribution.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_02_policy_novelty_audit\\edge_center_timing_profile.png"
+  ],
+  "forbidden_actions_confirmed": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_generated": true,
+    "no_inp_generated": true,
+    "no_jnl_generated": true,
+    "no_model_training": true,
+    "stage2_source_read_only": true
+  }
+}
