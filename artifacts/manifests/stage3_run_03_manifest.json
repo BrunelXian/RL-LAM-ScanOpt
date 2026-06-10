@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-06-10T11:16:44.542261+00:00",
+  "source_root": "D:\\Projects\\RL-LAM-ScanOpt",
+  "target_root": "E:\\Projects\\RL-LAM-ScanOpt",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "run_id": "run_03_variable_n_graph_feature_builder",
+  "verdict": "PASS_VARIABLE_N_GRAPH_FEATURE_BUILDER_READY",
+  "n_values": [
+    16,
+    24,
+    32,
+    40
+  ],
+  "graph_state_count": 20,
+  "node_feature_names": [
+    "x_norm",
+    "distance_to_left_edge_norm",
+    "distance_to_right_edge_norm",
+    "is_edge_track",
+    "is_center_track",
+    "current_scanned_flag",
+    "current_available_flag",
+    "step_fraction",
+    "remaining_fraction",
+    "time_since_left_neighbor_scanned_norm",
+    "time_since_right_neighbor_scanned_norm",
+    "neighbor_scanned_count_norm",
+    "recent_neighbor_scanned_flag",
+    "local_heat_proxy_norm"
+  ],
+  "edge_feature_names": [
+    "distance_ij_norm",
+    "relative_position_ij_norm",
+    "is_adjacent",
+    "is_within_thermal_radius",
+    "left_or_right_relation",
+    "edge_type_code"
+  ],
+  "global_feature_names": [
+    "log_N_norm",
+    "step_fraction",
+    "remaining_fraction",
+    "current_center_of_mass_scanned_norm",
+    "left_right_heat_balance_norm",
+    "edge_center_heat_balance_norm",
+    "mean_jump_so_far_norm",
+    "max_jump_so_far_norm",
+    "last_jump_length_norm",
+    "dispersion_score_norm"
+  ],
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\variable_N_graph_feature_schema.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\sample_graphs_N16_N24_N32_N40.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\feature_normalisation_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\node_feature_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\edge_feature_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\global_feature_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_03_variable_n_graph_feature_builder\\mask_legality_audit.csv"
+  ],
+  "validation_summary": {
+    "graph_states_passed": 20,
+    "graph_states_failed": 0,
+    "normalisation_rows": 20,
+    "mask_rows": 20,
+    "raw_fixed32_or_fixed_id_feature_leak": false
+  },
+  "forbidden_actions_confirmed": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_generated": true,
+    "no_inp_generated": true,
+    "no_jnl_generated": true,
+    "no_model_training": true,
+    "no_rl_candidate_generation": true,
+    "no_teacher_validation": true,
+    "stage2_source_read_only": true
+  }
+}
