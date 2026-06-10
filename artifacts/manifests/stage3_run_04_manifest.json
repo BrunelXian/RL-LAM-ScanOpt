@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-06-10T11:47:55.183026+00:00",
+  "source_roots": [
+    "E:\\Projects\\RL-LAM-ScanOpt",
+    "D:\\Projects\\RL-LAM-ScanOpt"
+  ],
+  "target_root": "E:\\Projects\\RL-LAM-ScanOpt",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "run_id": "run_04_true_variable_n_cae_template_parameterisation_audit",
+  "verdict": "WARNING_TRUE_VARIABLE_N_CAE_TEMPLATE_ADAPTER_REQUIRED",
+  "feasibility_category": "B_TRUE_VARIABLE_N_ADAPTER_REQUIRED_BUT_FEASIBLE",
+  "selected_route": "true_variable_n_geometry",
+  "files_scanned_count": 3587,
+  "candidate_cae_generation_files_count": 1042,
+  "most_relevant_files": [
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_masked_v02_method_c_validation_caes_and_inputs.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_masked_UST_probe40_v01_from_handoff.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_32track_masked_v01_caes_and_inputs.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_masked_v02_method_c_remaining24_unique_inps.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_32track_strategy_caes_from_base.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_full20_2d_strategy_caes_and_inputs.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_stage1_full10_2d_strategy_caes.py",
+    "LDED_2D_CAE_Framework\\cae_models\\32track_learned_hybrid_top5_v01\\build_learned_hybrid_top5_fulltrack_inps.py",
+    "LDED_2D_CAE_Framework\\cae_models\\32track_random20_v01\\build_random20_fulltrack_inps.py",
+    "LDED_2D_CAE_Framework\\cae_models\\64track_full\\prototype_5strategy_v01\\build_64track_prototype_5strategy.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\generate_method_c_batch_cae_inp_v01.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\complete_2d_32track_scan_steps_with_final_cooling.py"
+  ],
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_04_true_variable_n_cae_template_parameterisation_audit\\cae_generation_source_inventory.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_04_true_variable_n_cae_template_parameterisation_audit\\fixed32_hardcode_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_04_true_variable_n_cae_template_parameterisation_audit\\true_variable_n_parameterisation_plan.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_04_true_variable_n_cae_template_parameterisation_audit\\required_template_changes.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_04_true_variable_n_cae_template_parameterisation_audit\\true_variable_n_design_decisions.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_04_true_variable_n_cae_template_parameterisation_audit\\variable_n_cae_feasibility_summary.json"
+  ],
+  "forbidden_actions_confirmed": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_generated": true,
+    "no_inp_generated": true,
+    "no_jnl_generated": true,
+    "no_model_training": true,
+    "no_teacher_validation": true,
+    "stage2_source_read_only": true
+  }
+}
