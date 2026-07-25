@@ -1,17 +1,31 @@
 __pycache__/
 **pycache**/
+*.py[cod]
 *.pyc
 *.pyo
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python environments
 .venv/
 venv/
+env/
+ENV/
+conda-env/
+*.egg-info/
+
+# IDE and OS
 .DS_Store
 Thumbs.db
+desktop.ini
 .vscode/
+.idea/
 abaqus.rpy
 abaqus.rpy.*
 abaqus_acis.log
+abq.app_cache
 *.log
 
 # Abaqus databases and heavy outputs
@@ -30,6 +44,7 @@ abaqus_acis.log
 *.dat
 *.msg
 *.sta
+*.ipm
 
 # Abaqus temporary / archive folders
 abaqus-models/**/_archive/
@@ -37,11 +52,35 @@ abaqus-models/**/night_run_*/
 abaqus-models/**/run_*.log
 abaqus-models/**/*.lck
 
+# Abaqus temporary or recovery files
+*.023
+*.exception
+*.rec
+*.rpy.*
+
 # Stage 3: keep generated evidence GitHub-safe
-outputs/**
-!outputs/README_KEEP_SMALL.md
 artifacts/**/*.pt
 artifacts/**/*.pth
 artifacts/**/*.ckpt
 artifacts/**/*.pkl
 artifacts/**/*.joblib
+
+# Generated runtime directories
+scratch/
+temp/
+tmp/
+cache/
+logs/
+
+# Large archive formats
+*.7z
+*.rar
+
+# Local machine configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json

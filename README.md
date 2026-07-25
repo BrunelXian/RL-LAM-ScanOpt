@@ -48,6 +48,18 @@ That is why the repository has shifted from **proxy-RL optimization** to **teach
 
 Legacy RL / TWI / grid assets are still preserved for traceability, but they are not the active front door anymore.
 
+## Repository Workspace
+
+The canonical Git workspace for current development is:
+
+`E:\Projects\RL-LAM-ScanOpt`
+
+Stage 1 and Stage 2 large historical simulation data may remain in local D-drive archives. GitHub stores the reproducibility-critical code, documentation, manifests, and bounded evidence packages rather than the complete Abaqus runtime workspace.
+
+See:
+
+`docs/repository/LOCAL_ARCHIVE_AND_WORKSPACE_POLICY.md`
+
 ## Active Benchmark: `lded_coupon_32track_v1`
 
 This benchmark models a simple single-layer LDED coupon as a **track-order permutation** problem.
