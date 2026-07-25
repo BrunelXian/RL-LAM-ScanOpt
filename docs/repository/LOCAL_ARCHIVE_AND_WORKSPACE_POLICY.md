@@ -50,3 +50,7 @@ Do not modify independent D-drive and E-drive copies of the same source files in
 The E-drive Git repository is the source of truth for all future development.
 
 Historical D-drive files should be treated as read-only archives until explicitly consolidated.
+
+## GitHub Desktop Workflow
+
+GitHub Desktop may be used for small, manually reviewed changes. Before committing, verify the current branch and select only the intended files.
