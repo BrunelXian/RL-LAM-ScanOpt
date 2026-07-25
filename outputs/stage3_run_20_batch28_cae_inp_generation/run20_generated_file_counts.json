@@ -1,0 +1,66 @@
+{
+  "N12": {
+    "case_dirs": 4,
+    "cae": 4,
+    "inp": 4,
+    "jnl": 4,
+    "logs": 4,
+    "scan_order_json": 4,
+    "solver_outputs": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  },
+  "N16": {
+    "case_dirs": 4,
+    "cae": 4,
+    "inp": 4,
+    "jnl": 4,
+    "logs": 4,
+    "scan_order_json": 4,
+    "solver_outputs": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  },
+  "N24": {
+    "case_dirs": 10,
+    "cae": 10,
+    "inp": 10,
+    "jnl": 10,
+    "logs": 10,
+    "scan_order_json": 10,
+    "solver_outputs": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  },
+  "N40": {
+    "case_dirs": 10,
+    "cae": 10,
+    "inp": 10,
+    "jnl": 10,
+    "logs": 10,
+    "scan_order_json": 10,
+    "solver_outputs": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  }
+}

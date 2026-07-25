@@ -1,0 +1,22 @@
+{
+  "safe_claims": [
+    "CAE/INP/JNL generated for selected Run34 N32-informed native batch32 only",
+    "counts N12=4 N16=4 N24=12 N40=12",
+    "no N32 cases generated",
+    "N40 cooling steps initialInc=0.001",
+    "INPs passed text/mesh/final-cooling checks",
+    "validated custom abqjobpilot command file created",
+    "no solver submitted by Codex"
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical improvement",
+    "ODB results",
+    "solver completion",
+    "RL policy training",
+    "GNN-RL superiority",
+    "N32 caused improvement",
+    "arbitrary-N generalization",
+    "abqjobpilot/enqueue execution"
+  ]
+}

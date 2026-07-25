@@ -1,0 +1,129 @@
+{
+  "run_id": "run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation",
+  "run_name": "combined264 constrained N24/N40 reward-balanced candidate generation",
+  "timestamp": "2026-06-14T07:01:01.752819+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_native_N24_N40_focused_batch60_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_prediction_audit_for_run38_batch60_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\RUN_42_NATIVE_N24_N40_FOCUSED_BATCH60_TEACHER_METRICS_INGESTION_AND_COMBINED264_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_42_manifest.json"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\combined264_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\combined264_plus_N32_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_target_reward_definition_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_target_reward_definition_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_surrogate_validation_results_detailed.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_best_surrogate_configurations.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_surrogate_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_gnn_reward_validation_results.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_gnn_reward_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_graph_pointer_policy_training_log.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_graph_pointer_policy_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_constrained_N24_N40_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_constrained_N24_N40_batch60_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_native_recovery_batch40_with_anchors_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_batch_options_comparison_to_previous.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_batch_options_comparison_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\RUN_43_COMBINED264_CONSTRAINED_N24_N40_REWARD_BALANCED_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_43_manifest.json"
+  ],
+  "native_combined264_rows": 264,
+  "combined264_plus_N32_rows": 596,
+  "best_surrogate_summary": {
+    "best_overall": {
+      "regime": "native_combined264",
+      "target": "target_reward_combined264_u2_primary",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.879199270871463,
+      "macro_top5_overlap": 1.5,
+      "macro_top10_overlap": 6.5,
+      "mean_mae": 0.08030496050102474,
+      "protocols": 4
+    },
+    "best_native": {
+      "regime": "native_combined264",
+      "target": "target_reward_combined264_u2_primary",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.879199270871463,
+      "macro_top5_overlap": 1.5,
+      "macro_top10_overlap": 6.5,
+      "mean_mae": 0.08030496050102474,
+      "protocols": 4
+    },
+    "best_plus_N32": {
+      "regime": "plus_N32_unweighted",
+      "target": "target_reward_combined264_plus_N32_mapped_u2_primary",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.8580032000575384,
+      "macro_top5_overlap": 1.2,
+      "macro_top10_overlap": 4.2,
+      "mean_mae": 0.09352907219860668,
+      "protocols": 5
+    },
+    "n32_augmented_better_than_native": false,
+    "run38_reference": {
+      "native_spearman": 0.8681,
+      "native_top5": 2.0,
+      "plus_N32_balanced_spearman": 0.8503,
+      "plus_N32_balanced_top5": 1.6
+    }
+  },
+  "best_gnn_summary": {
+    "best_regime": {
+      "regime": "native_combined264",
+      "macro_spearman": 0.6618648749910644,
+      "macro_top5_overlap": 1.0,
+      "protocols": 4
+    },
+    "run38_best_gnn_reference": {
+      "regime": "plus_N32_unweighted",
+      "macro_spearman": 0.8078,
+      "top5": 1.4,
+      "N40_spearman": 0.8514
+    },
+    "improved_vs_run38_macro": false,
+    "note": "GNN diagnostic is an offline order-graph MLP proxy; it is not online RL or teacher validation."
+  },
+  "pointer_summary": {
+    "best_regime_by_mean_nll": "native_combined264",
+    "mean_nll_by_regime": {
+      "native_combined264": 1.625317299882875,
+      "plus_N32_balanced": 1.7048806280806985,
+      "plus_N32_unweighted": 1.7048806280806985
+    },
+    "headline": "Offline transition-frequency graph-pointer diagnostic fitted with reward-weighted teacher sequences; no online RL was run."
+  },
+  "candidate_pool_count": 9000,
+  "candidate_pool_counts": {
+    "12": 500,
+    "16": 500,
+    "24": 4000,
+    "40": 4000
+  },
+  "batch_option_paths": {
+    "option_A_batch32": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_constrained_N24_N40_batch32_candidate_orders.csv",
+    "option_B_batch60": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_constrained_N24_N40_batch60_candidate_orders.csv",
+    "option_C_batch40": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_native_recovery_batch40_with_anchors_candidate_orders.csv"
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\RUN_43_COMBINED264_CONSTRAINED_N24_N40_REWARD_BALANCED_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation": true,
+  "no_online_rl": true,
+  "no_commit_or_push": true
+}

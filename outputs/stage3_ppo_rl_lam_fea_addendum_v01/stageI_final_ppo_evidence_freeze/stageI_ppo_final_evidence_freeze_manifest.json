@@ -1,0 +1,46 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-24T01:33:46.328400+00:00",
+  "source_stageH_report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEH_TEACHER_METRIC_RANKING_REPORT.md",
+  "frozen_table_paths": {
+    "batch32_selected_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_policy_only_candidate_batch32.csv",
+    "batch32_teacher_metrics": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metrics.csv",
+    "batch32_teacher_metric_ranking_full": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv",
+    "batch32_summary_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_summary_by_N.csv",
+    "batch32_new_record_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_new_record_candidates.csv",
+    "batch32_topk_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_topk_candidates.csv",
+    "surrogate_vs_teacher_alignment": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_surrogate_vs_teacher_alignment.csv",
+    "surrogate_vs_teacher_alignment_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_surrogate_vs_teacher_alignment_summary.json",
+    "recovery_anchor_duplicate_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_recovery_anchor_duplicate_audit.csv",
+    "combined552_plus_ppo32_analysis_dataset": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_combined552_plus_ppo32_analysis_dataset.csv"
+  },
+  "hash_paths": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\hashes\\FROZEN_PPO_file_hashes.csv",
+    "json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\hashes\\FROZEN_PPO_file_hashes.json"
+  },
+  "manuscript_table_paths": {
+    "ppo_evidence_chain_table_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\manuscript_tables\\ppo_evidence_chain_table.csv",
+    "ppo_evidence_chain_table_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_EVIDENCE_CHAIN_TABLE.md",
+    "ppo_performance_summary_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\manuscript_tables\\ppo_performance_summary_for_manuscript.csv",
+    "ppo_performance_summary_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_PERFORMANCE_SUMMARY_FOR_MANUSCRIPT.md",
+    "ppo_claim_support_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\manuscript_tables\\ppo_claim_support_table.csv",
+    "ppo_claim_support_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_CLAIM_SUPPORT_TABLE.md"
+  },
+  "plot_index_paths": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\plots_index\\FROZEN_PPO_stageH_plots_index.csv",
+    "markdown": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\plots_index\\FROZEN_PPO_stageH_plots_index.md",
+    "frozen_plot_count": 7
+  },
+  "final_claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_FINAL_CLAIM_BOUNDARY.md",
+  "manuscript_memo_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_MANUSCRIPT_INTEGRATION_FINAL_MEMO.md",
+  "final_evidence_report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_FINAL_EVIDENCE_FREEZE_REPORT.md",
+  "ARA_index_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\ARA_PPO_FINAL_EVIDENCE_INDEX.md",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_candidate_generation": true,
+  "no_training": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_PPO_FINAL_EVIDENCE_FREEZE_TEACHER_VALIDATED_COMPETITIVE_BOUNDED"
+}

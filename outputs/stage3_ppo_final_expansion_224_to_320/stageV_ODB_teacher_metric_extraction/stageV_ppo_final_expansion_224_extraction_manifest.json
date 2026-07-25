@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-07-01T00:14:57.330964+00:00",
+  "run_id": "stageV_final_expansion_224_odb_teacher_metric_extraction",
+  "batch_name": "stage3_ppo_final_expansion_224_to_320_batch224_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_final_expansion_224_to_320_batch224_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_STAGEV_FINAL_EXPANSION_224_ODB_TEACHER_METRIC_EXTRACTION_224_OF_224",
+  "inputs": {
+    "stageU_case_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\manifest\\stageU_final_expansion_case_manifest.csv"
+  },
+  "stageV_notes": {
+    "namespace": "stage3_ppo_final_expansion_224_to_320",
+    "includes_N12": true,
+    "includes_N16": true,
+    "includes_N24": true,
+    "includes_N32_cases": false,
+    "includes_N40": true,
+    "generated_CAE_INP_JNL_only_in_stageU": true,
+    "final_step_required_for_metrics": "step_final_cooling",
+    "targeted_batch": "PPO final expansion 224 to 320 batch224",
+    "read_only_ODB_extraction": true
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_completion_gate.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_completion_gate_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_completion_gate.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_ODB_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_ODB_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_ODB_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_ODB_metrics_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_STAGEV_ODB_TEACHER_METRIC_EXTRACTION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_extraction_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

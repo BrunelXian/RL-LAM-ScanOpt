@@ -1,0 +1,785 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__profile__', sheetSize=0.2)
+mdb.models['Model-1'].sketches['__profile__'].sketchOptions.setValues(
+    decimalPlaces=3)
+mdb.models['Model-1'].sketches['__profile__'].rectangle(point1=(0.0, 0.0), 
+    point2=(0.084, 0.003))
+mdb.models['Model-1'].Part(dimensionality=TWO_D_PLANAR, name='part_plate', 
+    type=DEFORMABLE_BODY)
+mdb.models['Model-1'].parts['part_plate'].BaseShell(sketch=
+    mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].ConstrainedSketch(gridSpacing=0.004, name='__profile__', 
+    sheetSize=0.168, transform=
+    mdb.models['Model-1'].parts['part_plate'].MakeSketchTransform(
+    sketchPlane=mdb.models['Model-1'].parts['part_plate'].faces[0], 
+    sketchPlaneSide=SIDE1, sketchOrientation=RIGHT, origin=(0.042, 0.0015, 
+    0.0)))
+mdb.models['Model-1'].sketches['__profile__'].sketchOptions.setValues(
+    decimalPlaces=3)
+mdb.models['Model-1'].parts['part_plate'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__profile__'])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(angle=90.0, 
+    point1=(-0.042, -0.0015))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(angle=0.0, 
+    point1=(-0.042, -0.0015))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(angle=0.0, 
+    point1=(-0.042, 0.0015))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-0.0404501227736473, 
+    0.0015), point2=(-0.0404501227736473, -0.00150000000651926))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6], textPoint=(
+    -0.0411800971329212, -0.00590233293920755), value=0.002)
+mdb.models['Model-1'].sketches['__profile__'].linearPattern(angle1=0.0, angle2=
+    90.0, geomList=(mdb.models['Model-1'].sketches['__profile__'].geometry[9], 
+    ), number1=41, number2=1, spacing1=0.002, spacing2=0.0168, vertexList=())
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-0.042, 
+    0.000539154060184956), point2=(0.0419999999497086, 0.000539154060184956))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[50])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[50])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[86], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[87], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[50], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7], textPoint=(
+    -0.0458642175495625, -0.000261133756488562), value=0.002)
+mdb.models['Model-1'].parts['part_plate'].PartitionFaceBySketch(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#1 ]', ), ), sketch=mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#ffffffff:2 #fffff ]', ), ), name='section_all')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #40000 ]', ), ), name='set_body_heat_00')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #8000 ]', ), ), name='set_body_heat_01')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #2000 ]', ), ), name='set_body_heat_02')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #800 ]', ), ), name='set_body_heat_03')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #200 ]', ), ), name='set_body_heat_04')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #80 ]', ), ), name='set_body_heat_05')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #20 ]', ), ), name='set_body_heat_06')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #8 ]', ), ), name='set_body_heat_07')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0:2 #2 ]', ), ), name='set_body_heat_08')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #80000000 ]', ), ), name='set_body_heat_09')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #20000000 ]', ), ), name='set_body_heat_10')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #8000000 ]', ), ), name='set_body_heat_11')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #2000000 ]', ), ), name='set_body_heat_12')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #800000 ]', ), ), name='set_body_heat_13')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #200000 ]', ), ), name='set_body_heat_14')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #80000 ]', ), ), name='set_body_heat_15')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #20000 ]', ), ), name='set_body_heat_16')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #8000 ]', ), ), name='set_body_heat_17')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #2000 ]', ), ), name='set_body_heat_18')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #800 ]', ), ), name='set_body_heat_19')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #200 ]', ), ), name='set_body_heat_20')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #80 ]', ), ), name='set_body_heat_21')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #20 ]', ), ), name='set_body_heat_22')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #8 ]', ), ), name='set_body_heat_23')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#0 #2 ]', ), ), name='set_body_heat_24')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#80000000 ]', ), ), name='set_body_heat_25')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#20000000 ]', ), ), name='set_body_heat_26')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#8000000 ]', ), ), name='set_body_heat_27')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#2000000 ]', ), ), name='set_body_heat_28')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#800000 ]', ), ), name='set_body_heat_29')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#200000 ]', ), ), name='set_body_heat_30')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#80000 ]', ), ), name='set_body_heat_31')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#20000 ]', ), ), name='set_body_heat_32')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#8000 ]', ), ), name='set_body_heat_33')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#2000 ]', ), ), name='set_body_heat_34')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#800 ]', ), ), name='set_body_heat_35')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#200 ]', ), ), name='set_body_heat_36')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#80 ]', ), ), name='set_body_heat_37')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#20 ]', ), ), name='set_body_heat_38')
+mdb.models['Model-1'].parts['part_plate'].Set(faces=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#8 ]', ), ), name='set_body_heat_39')
+mdb.models['Model-1'].parts['part_plate'].Surface(name='surf_external_all', 
+    side1Edges=
+    mdb.models['Model-1'].parts['part_plate'].edges.getSequenceFromMask((
+    '[#94a54966 #a5294a52 #294a5294 #4a5294a5 #5294a529 #94a5294a #eca52 ]', ), 
+    ))
+mdb.models['Model-1'].Material(name='SS316L For AM')
+mdb.models['Model-1'].materials['SS316L For AM'].Conductivity(dependencies=0, 
+    table=((14.0, 20.0), (16.0, 100.0), (17.0, 200.0), (19.0, 400.0), (21.5, 
+    600.0), (24.0, 800.0), (26.5, 1000.0), (29.0, 1200.0), (31.0, 1375.0), (
+    29.0, 1400.0), (29.0, 1723.0), (29.0, 3000.0)), temperatureDependency=ON, 
+    type=ISOTROPIC)
+mdb.models['Model-1'].materials['SS316L For AM'].Density(dependencies=0, 
+    distributionType=UNIFORM, fieldName='', table=((7980.0, 20.0), (7950.0, 
+    100.0), (7920.0, 200.0), (7860.0, 400.0), (7800.0, 600.0), (7740.0, 800.0), 
+    (7680.0, 1000.0), (7620.0, 1200.0), (7580.0, 1375.0), (7450.0, 1400.0), (
+    7300.0, 1723.0), (7200.0, 3000.0)), temperatureDependency=ON)
+mdb.models['Model-1'].materials['SS316L For AM'].setValues(description=
+    'Material property of AISI Type 316L Steel in Additive Manufacturing\n')
+mdb.models['Model-1'].materials['SS316L For AM'].Elastic(dependencies=0, 
+    moduli=LONG_TERM, noCompression=OFF, noTension=OFF, table=((208000000000.0, 
+    0.3, 20.0), (202000000000.0, 0.3, 100.0), (194000000000.0, 0.3, 200.0), (
+    178000000000.0, 0.3, 400.0), (162000000000.0, 0.3, 600.0), (142000000000.0, 
+    0.3, 800.0), (112000000000.0, 0.3, 1000.0), (75000000000.0, 0.3, 1200.0), (
+    15000000000.0, 0.3, 1375.0), (100000000.0, 0.3, 1400.0), (10000000.0, 0.3, 
+    1723.0), (1000000.0, 0.3, 3000.0)), temperatureDependency=ON, type=
+    ISOTROPIC)
+mdb.models['Model-1'].materials['SS316L For AM'].Expansion(dependencies=0, 
+    table=((1.48e-05, 20.0), (1.6e-05, 100.0), (1.68e-05, 200.0), (1.78e-05, 
+    400.0), (1.87e-05, 600.0), (1.96e-05, 800.0), (2.02e-05, 1000.0), (
+    2.08e-05, 1200.0), (2.15e-05, 1375.0), (2.2e-05, 1400.0), (2.2e-05, 
+    1723.0), (2.2e-05, 3000.0)), temperatureDependency=ON, type=ISOTROPIC, 
+    userSubroutine=OFF, zero=0.0)
+mdb.models['Model-1'].materials['SS316L For AM'].LatentHeat(table=((256000.0, 
+    1375.0, 1400.0), ))
+mdb.models['Model-1'].materials['SS316L For AM'].setValues(materialIdentifier=
+    '')
+mdb.models['Model-1'].materials['SS316L For AM'].Plastic(dataType=HALF_CYCLE, 
+    dependencies=0, extrapolation=CONSTANT, hardening=ISOTROPIC, 
+    numBackstresses=1, rate=OFF, scaleStress=None, staticRecovery=OFF, 
+    strainRangeDependency=OFF, table=((580000000.0, 0.0, 20.0), (530000000.0, 
+    0.0, 100.0), (480000000.0, 0.0, 200.0), (410000000.0, 0.0, 400.0), (
+    350000000.0, 0.0, 600.0), (210000000.0, 0.0, 800.0), (90000000.0, 0.0, 
+    1000.0), (30000000.0, 0.0, 1200.0), (2000000.0, 0.0, 1375.0), (10000.0, 
+    0.0, 1400.0), (5000.0, 0.0, 1723.0), (1000.0, 0.0, 3000.0)), 
+    temperatureDependency=ON)
+mdb.models['Model-1'].materials['SS316L For AM'].SpecificHeat(dependencies=0, 
+    law=CONSTANTVOLUME, table=((450.0, 20.0), (480.0, 100.0), (505.0, 200.0), (
+    540.0, 400.0), (570.0, 600.0), (600.0, 800.0), (635.0, 1000.0), (670.0, 
+    1200.0), (700.0, 1375.0), (750.0, 1400.0), (760.0, 1723.0), (800.0, 
+    3000.0)), temperatureDependency=ON)
+mdb.models['Model-1'].HomogeneousSolidSection(material='SS316L For AM', name=
+    'property_section_all', thickness=None)
+mdb.models['Model-1'].parts['part_plate'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['Model-1'].parts['part_plate'].sets['section_all'], sectionName=
+    'property_section_all', thicknessAssignment=FROM_SECTION)
+mdb.models['Model-1'].setValues(absoluteZero=-173.15, stefanBoltzmann=5.67e-08)
+mdb.models['Model-1'].rootAssembly.DatumCsysByDefault(CARTESIAN)
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='inst_plate', 
+    part=mdb.models['Model-1'].parts['part_plate'])
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_00', 
+    nlgeom=ON, previous='Initial', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_00', 
+    previous='step_scan_00', timePeriod=3.4)
+mdb.models['Model-1'].fieldOutputRequests['F-Output-1'].setValues(variables=(
+    'NT', 'S', 'U', 'PEEQ', 'RF', 'HFL'))
+mdb.models['Model-1'].historyOutputRequests['H-Output-1'].setValues(variables=(
+    'ALLIE', 'ALLKE', 'ALLSE', 'ALLPD', 'ALLAE', 'ALLWK', 'ETOTAL', 'ALLSD'))
+mdb.models['Model-1'].FilmCondition(createStepName='step_scan_00', definition=
+    EMBEDDED_COEFF, filmCoeff=46.5, filmCoeffAmplitude='', name=
+    'film_external_cooling', sinkAmplitude='', sinkDistributionType=UNIFORM, 
+    sinkFieldName='', sinkTemperature=20.0, surface=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].surfaces['surf_external_all'])
+mdb.models['Model-1'].RadiationToAmbient(ambientTemperature=20.0, 
+    ambientTemperatureAmp='', createStepName='step_scan_00', distributionType=
+    UNIFORM, emissivity=0.285, field='', name='rad_external_ambient', 
+    radiationType=AMBIENT, surface=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].surfaces['surf_external_all'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_00', magnitude=
+    80000000000.0, name='load_body_hflux_00', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00'])
+mdb.models['Model-1'].loads['load_body_hflux_00'].deactivate('step_cool_00')
+mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', 
+    distributionType=UNIFORM, fieldName='', localCsys=None, name='bc_point_xy', 
+    region=Region(
+    vertices=mdb.models['Model-1'].rootAssembly.instances['inst_plate'].vertices.getSequenceFromMask(
+    mask=('[#0:3 #40000000 ]', ), )), u1=SET, u2=SET, ur3=UNSET)
+mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', 
+    distributionType=UNIFORM, fieldName='', localCsys=None, name='bc_point_y', 
+    region=Region(
+    vertices=mdb.models['Model-1'].rootAssembly.instances['inst_plate'].vertices.getSequenceFromMask(
+    mask=('[#4 ]', ), )), u1=UNSET, u2=SET, ur3=UNSET)
+mdb.models['Model-1'].Temperature(createStepName='Initial', 
+    crossSectionDistribution=CONSTANT_THROUGH_THICKNESS, distributionType=
+    UNIFORM, magnitudes=(20.0, ), name='predefined_temperature_all', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['section_all'])
+mdb.models['Model-1'].parts['part_plate'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=0.0005)
+mdb.models['Model-1'].parts['part_plate'].setMeshControls(elemShape=QUAD, 
+    regions=
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#ffffffff:2 #fffff ]', ), ), technique=STRUCTURED)
+mdb.models['Model-1'].parts['part_plate'].setElementType(elemTypes=(ElemType(
+    elemCode=CPE4T, elemLibrary=STANDARD), ElemType(elemCode=CPE3T, 
+    elemLibrary=STANDARD)), regions=(
+    mdb.models['Model-1'].parts['part_plate'].faces.getSequenceFromMask((
+    '[#ffffffff:2 #fffff ]', ), ), ))
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].rootAssembly.regenerate()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].parts['part_plate'].generateMesh()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].rootAssembly.regenerate()
+from job import *
+mdb.models['Model-1'].steps['step_scan_00'].setValues(timePeriod=0.2)
+mdb.models['Model-1'].steps['step_cool_00'].setValues(timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_01', 
+    nlgeom=ON, previous='step_cool_00', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_01', nlgeom=
+    ON, previous='step_scan_01', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_02', 
+    nlgeom=ON, previous='step_cool_01', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_02', nlgeom=
+    ON, previous='step_scan_02', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_03', 
+    nlgeom=ON, previous='step_cool_02', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_03', nlgeom=
+    ON, previous='step_scan_03', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_04', 
+    nlgeom=ON, previous='step_cool_03', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_04', nlgeom=
+    ON, previous='step_scan_04', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_05', 
+    nlgeom=ON, previous='step_cool_04', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_05', nlgeom=
+    ON, previous='step_scan_05', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_06', 
+    nlgeom=ON, previous='step_cool_05', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_06', nlgeom=
+    ON, previous='step_scan_06', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_07', 
+    nlgeom=ON, previous='step_cool_06', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_07', nlgeom=
+    ON, previous='step_scan_07', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_08', 
+    nlgeom=ON, previous='step_cool_07', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_08', nlgeom=
+    ON, previous='step_scan_08', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_09', 
+    nlgeom=ON, previous='step_cool_08', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_09', nlgeom=
+    ON, previous='step_scan_09', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_10', 
+    nlgeom=ON, previous='step_cool_09', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_10', nlgeom=
+    ON, previous='step_scan_10', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_11', 
+    nlgeom=ON, previous='step_cool_10', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_11', nlgeom=
+    ON, previous='step_scan_11', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_12', 
+    nlgeom=ON, previous='step_cool_11', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_12', nlgeom=
+    ON, previous='step_scan_12', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_13', 
+    nlgeom=ON, previous='step_cool_12', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_13', nlgeom=
+    ON, previous='step_scan_13', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_14', 
+    nlgeom=ON, previous='step_cool_13', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_14', nlgeom=
+    ON, previous='step_scan_14', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_15', 
+    nlgeom=ON, previous='step_cool_14', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_15', nlgeom=
+    ON, previous='step_scan_15', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_16', 
+    nlgeom=ON, previous='step_cool_15', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_16', nlgeom=
+    ON, previous='step_scan_16', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_17', 
+    nlgeom=ON, previous='step_cool_16', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_17', nlgeom=
+    ON, previous='step_scan_17', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_18', 
+    nlgeom=ON, previous='step_cool_17', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_18', nlgeom=
+    ON, previous='step_scan_18', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_19', 
+    nlgeom=ON, previous='step_cool_18', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_19', nlgeom=
+    ON, previous='step_scan_19', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_20', 
+    nlgeom=ON, previous='step_cool_19', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_20', nlgeom=
+    ON, previous='step_scan_20', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_21', 
+    nlgeom=ON, previous='step_cool_20', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_21', nlgeom=
+    ON, previous='step_scan_21', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_22', 
+    nlgeom=ON, previous='step_cool_21', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_22', nlgeom=
+    ON, previous='step_scan_22', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_23', 
+    nlgeom=ON, previous='step_cool_22', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_23', nlgeom=
+    ON, previous='step_scan_23', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_24', 
+    nlgeom=ON, previous='step_cool_23', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_24', nlgeom=
+    ON, previous='step_scan_24', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_25', 
+    nlgeom=ON, previous='step_cool_24', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_25', nlgeom=
+    ON, previous='step_scan_25', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_26', 
+    nlgeom=ON, previous='step_cool_25', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_26', nlgeom=
+    ON, previous='step_scan_26', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_27', 
+    nlgeom=ON, previous='step_cool_26', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_27', nlgeom=
+    ON, previous='step_scan_27', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_28', 
+    nlgeom=ON, previous='step_cool_27', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_28', nlgeom=
+    ON, previous='step_scan_28', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_29', 
+    nlgeom=ON, previous='step_cool_28', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_29', nlgeom=
+    ON, previous='step_scan_29', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_30', 
+    nlgeom=ON, previous='step_cool_29', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_30', nlgeom=
+    ON, previous='step_scan_30', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_31', 
+    nlgeom=ON, previous='step_cool_30', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_31', nlgeom=
+    ON, previous='step_scan_31', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_32', 
+    nlgeom=ON, previous='step_cool_31', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_32', nlgeom=
+    ON, previous='step_scan_32', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_33', 
+    nlgeom=ON, previous='step_cool_32', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_33', nlgeom=
+    ON, previous='step_scan_33', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_34', 
+    nlgeom=ON, previous='step_cool_33', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_34', nlgeom=
+    ON, previous='step_scan_34', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_35', 
+    nlgeom=ON, previous='step_cool_34', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_35', nlgeom=
+    ON, previous='step_scan_35', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_36', 
+    nlgeom=ON, previous='step_cool_35', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_36', nlgeom=
+    ON, previous='step_scan_36', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_37', 
+    nlgeom=ON, previous='step_cool_36', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_37', nlgeom=
+    ON, previous='step_scan_37', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_38', 
+    nlgeom=ON, previous='step_cool_37', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_38', nlgeom=
+    ON, previous='step_scan_38', timePeriod=3.4)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=
+    0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_39', 
+    nlgeom=ON, previous='step_cool_38', timePeriod=0.2)
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, 
+    maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_39', nlgeom=
+    ON, previous='step_scan_39', timePeriod=3.4)
+mdb.models['Model-1'].loads['load_body_hflux_00'].setValues(magnitude=
+    80000000000.0, region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_01', magnitude=
+    80000000000.0, name='load_body_hflux_01', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_19'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_02', magnitude=
+    80000000000.0, name='load_body_hflux_02', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_02'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_03', magnitude=
+    80000000000.0, name='load_body_hflux_03', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_20'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_04', magnitude=
+    80000000000.0, name='load_body_hflux_04', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_04'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_05', magnitude=
+    80000000000.0, name='load_body_hflux_05', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_18'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_06', magnitude=
+    80000000000.0, name='load_body_hflux_06', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_06'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_07', magnitude=
+    80000000000.0, name='load_body_hflux_07', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_21'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_08', magnitude=
+    80000000000.0, name='load_body_hflux_08', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_08'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_09', magnitude=
+    80000000000.0, name='load_body_hflux_09', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_17'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_10', magnitude=
+    80000000000.0, name='load_body_hflux_10', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_10'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_11', magnitude=
+    80000000000.0, name='load_body_hflux_11', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_22'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_12', magnitude=
+    80000000000.0, name='load_body_hflux_12', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_12'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_13', magnitude=
+    80000000000.0, name='load_body_hflux_13', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_16'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_14', magnitude=
+    80000000000.0, name='load_body_hflux_14', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_14'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_15', magnitude=
+    80000000000.0, name='load_body_hflux_15', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_23'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_16', magnitude=
+    80000000000.0, name='load_body_hflux_16', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_15'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_17', magnitude=
+    80000000000.0, name='load_body_hflux_17', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_24'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_18', magnitude=
+    80000000000.0, name='load_body_hflux_18', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_25'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_19', magnitude=
+    80000000000.0, name='load_body_hflux_19', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_13'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_20', magnitude=
+    80000000000.0, name='load_body_hflux_20', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_26'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_21', magnitude=
+    80000000000.0, name='load_body_hflux_21', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_28'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_22', magnitude=
+    80000000000.0, name='load_body_hflux_22', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_30'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_23', magnitude=
+    80000000000.0, name='load_body_hflux_23', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_27'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_24', magnitude=
+    80000000000.0, name='load_body_hflux_24', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_32'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_25', magnitude=
+    80000000000.0, name='load_body_hflux_25', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_11'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_26', magnitude=
+    80000000000.0, name='load_body_hflux_26', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_34'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_27', magnitude=
+    80000000000.0, name='load_body_hflux_27', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_36'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_28', magnitude=
+    80000000000.0, name='load_body_hflux_28', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_38'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_29', magnitude=
+    80000000000.0, name='load_body_hflux_29', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_29'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_30', magnitude=
+    80000000000.0, name='load_body_hflux_30', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_01'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_31', magnitude=
+    80000000000.0, name='load_body_hflux_31', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_09'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_32', magnitude=
+    80000000000.0, name='load_body_hflux_32', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_03'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_33', magnitude=
+    80000000000.0, name='load_body_hflux_33', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_05'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_34', magnitude=
+    80000000000.0, name='load_body_hflux_34', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_07'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_35', magnitude=
+    80000000000.0, name='load_body_hflux_35', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_31'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_36', magnitude=
+    80000000000.0, name='load_body_hflux_36', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_33'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_37', magnitude=
+    80000000000.0, name='load_body_hflux_37', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_35'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_38', magnitude=
+    80000000000.0, name='load_body_hflux_38', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_37'])
+mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_39', magnitude=
+    80000000000.0, name='load_body_hflux_39', region=
+    mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_39'])
+mdb.models['Model-1'].loads['load_body_hflux_00'].deactivate('step_cool_00')
+mdb.models['Model-1'].loads['load_body_hflux_01'].deactivate('step_cool_01')
+mdb.models['Model-1'].loads['load_body_hflux_02'].deactivate('step_cool_02')
+mdb.models['Model-1'].loads['load_body_hflux_03'].deactivate('step_cool_03')
+mdb.models['Model-1'].loads['load_body_hflux_04'].deactivate('step_cool_04')
+mdb.models['Model-1'].loads['load_body_hflux_05'].deactivate('step_cool_05')
+mdb.models['Model-1'].loads['load_body_hflux_06'].deactivate('step_cool_06')
+mdb.models['Model-1'].loads['load_body_hflux_07'].deactivate('step_cool_07')
+mdb.models['Model-1'].loads['load_body_hflux_08'].deactivate('step_cool_08')
+mdb.models['Model-1'].loads['load_body_hflux_09'].deactivate('step_cool_09')
+mdb.models['Model-1'].loads['load_body_hflux_10'].deactivate('step_cool_10')
+mdb.models['Model-1'].loads['load_body_hflux_11'].deactivate('step_cool_11')
+mdb.models['Model-1'].loads['load_body_hflux_12'].deactivate('step_cool_12')
+mdb.models['Model-1'].loads['load_body_hflux_13'].deactivate('step_cool_13')
+mdb.models['Model-1'].loads['load_body_hflux_14'].deactivate('step_cool_14')
+mdb.models['Model-1'].loads['load_body_hflux_15'].deactivate('step_cool_15')
+mdb.models['Model-1'].loads['load_body_hflux_16'].deactivate('step_cool_16')
+mdb.models['Model-1'].loads['load_body_hflux_17'].deactivate('step_cool_17')
+mdb.models['Model-1'].loads['load_body_hflux_18'].deactivate('step_cool_18')
+mdb.models['Model-1'].loads['load_body_hflux_19'].deactivate('step_cool_19')
+mdb.models['Model-1'].loads['load_body_hflux_20'].deactivate('step_cool_20')
+mdb.models['Model-1'].loads['load_body_hflux_21'].deactivate('step_cool_21')
+mdb.models['Model-1'].loads['load_body_hflux_22'].deactivate('step_cool_22')
+mdb.models['Model-1'].loads['load_body_hflux_23'].deactivate('step_cool_23')
+mdb.models['Model-1'].loads['load_body_hflux_24'].deactivate('step_cool_24')
+mdb.models['Model-1'].loads['load_body_hflux_25'].deactivate('step_cool_25')
+mdb.models['Model-1'].loads['load_body_hflux_26'].deactivate('step_cool_26')
+mdb.models['Model-1'].loads['load_body_hflux_27'].deactivate('step_cool_27')
+mdb.models['Model-1'].loads['load_body_hflux_28'].deactivate('step_cool_28')
+mdb.models['Model-1'].loads['load_body_hflux_29'].deactivate('step_cool_29')
+mdb.models['Model-1'].loads['load_body_hflux_30'].deactivate('step_cool_30')
+mdb.models['Model-1'].loads['load_body_hflux_31'].deactivate('step_cool_31')
+mdb.models['Model-1'].loads['load_body_hflux_32'].deactivate('step_cool_32')
+mdb.models['Model-1'].loads['load_body_hflux_33'].deactivate('step_cool_33')
+mdb.models['Model-1'].loads['load_body_hflux_34'].deactivate('step_cool_34')
+mdb.models['Model-1'].loads['load_body_hflux_35'].deactivate('step_cool_35')
+mdb.models['Model-1'].loads['load_body_hflux_36'].deactivate('step_cool_36')
+mdb.models['Model-1'].loads['load_body_hflux_37'].deactivate('step_cool_37')
+mdb.models['Model-1'].loads['load_body_hflux_38'].deactivate('step_cool_38')
+mdb.models['Model-1'].loads['load_body_hflux_39'].deactivate('step_cool_39')
+mdb.models['Model-1'].CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.01
+    , maxInc=60.0, maxNumInc=999999, minInc=3.4e-30, name='step_final_cooling', 
+    nlgeom=ON, previous='step_cool_39', timePeriod=1200.0)
+mdb.Job(model='Model-1', name=
+    'J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy')
+# Save by wuxia on 2026_06_11-14.22.12; build 2024 2023_09_21-20.55.25 RELr426 190762

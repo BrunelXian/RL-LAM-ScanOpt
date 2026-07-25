@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS_RUN10_INPUTS_READY_60_TEACHER_LABELS_WITH_SCAN_ORDERS",
+  "errors": [],
+  "warnings": [],
+  "total_rows": 60,
+  "per_n_counts": {
+    "12": 15,
+    "16": 15,
+    "24": 15,
+    "40": 15
+  },
+  "metadata_rows": 60,
+  "missing_metadata_count": 0,
+  "missing_order_count": 0,
+  "invalid_order_count": 0,
+  "n24_a07_regular_jump_coprime_valid": true
+}

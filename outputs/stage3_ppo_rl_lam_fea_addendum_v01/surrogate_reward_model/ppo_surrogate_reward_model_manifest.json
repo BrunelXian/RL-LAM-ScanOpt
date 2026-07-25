@@ -1,0 +1,61 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-23T09:51:22.908580+00:00",
+  "dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+  "dataset_row_counts_by_N": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "feature_file_paths": {
+    "feature_builder": "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\src\\surrogate_reward_features.py",
+    "feature_schema_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_feature_schema.json",
+    "feature_schema_md_model_copy": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_feature_schema.md",
+    "feature_schema_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_SURROGATE_FEATURE_SCHEMA.md"
+  },
+  "target_schema_paths": {
+    "target_builder": "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\src\\surrogate_reward_targets.py",
+    "target_schema_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_target_schema.json",
+    "target_schema_md_model_copy": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_target_schema.md",
+    "target_schema_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_SURROGATE_TARGET_SCHEMA.md"
+  },
+  "model_artifact_paths": {
+    "best_model": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_reward_model_best.joblib",
+    "model_config": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_reward_model_config.json",
+    "reward_model_interface": "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\src\\ppo_surrogate_reward_model.py"
+  },
+  "validation_report_paths": {
+    "model_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_SURROGATE_REWARD_MODEL_REPORT.md",
+    "claim_boundary": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_REWARD_MODEL_CLAIM_BOUNDARY.md",
+    "validation_summary_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_model_validation_summary.csv",
+    "validation_summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_model_validation_summary.json",
+    "validation_summary_json_report_copy": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\reports\\surrogate_reward_model_validation_summary.json",
+    "validation_by_N_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_model_validation_by_N.csv",
+    "topk_quality_by_N_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_model_topk_quality_by_N.csv",
+    "holdout_predictions_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_model_candidate_predictions_holdout.csv",
+    "selection_audit_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\reports\\surrogate_reward_model_selection_audit.json"
+  },
+  "selected_model_type": "HistGradientBoostingRegressor",
+  "validation_metrics": {
+    "spearman": 0.878558039393863,
+    "pearson": 0.8863107612337054,
+    "mae": 0.09416472314732778,
+    "rmse": 0.13792435602768863
+  },
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_PPO_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_PPO_SURROGATE_REWARD_MODEL_READY_FOR_PPO_TRAINING",
+  "smoke_test": {
+    "timestamp": "2026-06-23T09:51:39.288482+00:00",
+    "status": "PASS_SURROGATE_REWARD_MODEL_SMOKE",
+    "script": "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\scripts\\smoke_test_surrogate_reward_model.py",
+    "prediction_table": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_smoke_predictions.csv",
+    "rows": 24
+  }
+}

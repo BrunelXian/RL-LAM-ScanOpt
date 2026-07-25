@@ -1,0 +1,94 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-13T02:06:40.847042+00:00",
+    "verdict": "WARNING_RUN27_SHORTLIST64_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 64,
+    "total_audited": 64,
+    "total_complete": 64,
+    "total_warning": 64,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "patched_cases": [
+      "S3R24L64_N40_B02_top_region",
+      "S3R24L64_N40_B03_top_region",
+      "S3R24L64_N40_B04_top_region",
+      "S3R24L64_N40_B05_top_region"
+    ],
+    "patch_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_N40_B02_B03_B04_B05_cool_initialInc_patch_summary.json",
+    "by_N": {
+      "N12": {
+        "expected": 8,
+        "audited": 8,
+        "complete": 8,
+        "warning": 8,
+        "failed_or_incomplete": 0
+      },
+      "N16": {
+        "expected": 8,
+        "audited": 8,
+        "complete": 8,
+        "warning": 8,
+        "failed_or_incomplete": 0
+      },
+      "N24": {
+        "expected": 24,
+        "audited": 24,
+        "complete": 24,
+        "warning": 24,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 24,
+        "audited": 24,
+        "complete": 24,
+        "warning": 24,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-13T02:08:02.049715+00:00",
+    "verdict": "PASS_RUN27_SHORTLIST64_ODB_TEACHER_VALIDATION_64_OF_64",
+    "total_expected": 64,
+    "total_extracted": 64,
+    "total_pass": 64,
+    "total_failed": 0,
+    "by_N": {
+      "N12": {
+        "expected": 8,
+        "extracted": 8,
+        "failed": 0
+      },
+      "N16": {
+        "expected": 8,
+        "extracted": 8,
+        "failed": 0
+      },
+      "N24": {
+        "expected": 24,
+        "extracted": 24,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 24,
+        "extracted": 24,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

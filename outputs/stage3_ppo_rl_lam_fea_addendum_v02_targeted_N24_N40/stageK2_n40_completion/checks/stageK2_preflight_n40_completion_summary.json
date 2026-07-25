@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS_STAGEK2_N40_COMPLETION_PREFLIGHT_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "existing_selected_counts_by_N": {
+    "24": 16,
+    "40": 16
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true
+}

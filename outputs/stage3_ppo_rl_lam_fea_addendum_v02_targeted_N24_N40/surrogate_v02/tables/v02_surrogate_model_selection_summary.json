@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-06-27T18:51:36.847112+00:00",
+  "verdict": "PASS_V02_SURROGATES_READY_FOR_FIXED_N_PPO",
+  "payloads": {
+    "24": {
+      "best_model_name": "HistGradientBoostingRegressor",
+      "ensemble_model_names": [
+        "HistGradientBoostingRegressor",
+        "RandomForestRegressor",
+        "GradientBoostingRegressor",
+        "ExtraTreesRegressor"
+      ],
+      "training_rows": 198
+    },
+    "40": {
+      "best_model_name": "ExtraTreesRegressor",
+      "ensemble_model_names": [
+        "ExtraTreesRegressor",
+        "RandomForestRegressor",
+        "GradientBoostingRegressor",
+        "HistGradientBoostingRegressor"
+      ],
+      "training_rows": 214
+    }
+  },
+  "validation_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\surrogate_v02\\tables\\v02_surrogate_validation_by_N.csv"
+}

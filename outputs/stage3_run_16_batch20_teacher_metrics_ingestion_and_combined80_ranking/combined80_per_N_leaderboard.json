@@ -1,0 +1,1226 @@
+[
+  {
+    "n": 12,
+    "leaderboard": "top5_u2",
+    "position": 1,
+    "strategy_name": "S3B20_N12_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 2.3353248252533376e-05,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_u2",
+    "position": 2,
+    "strategy_name": "S3B20_N12_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 3.2932137401076034e-05,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_u2",
+    "position": 3,
+    "strategy_name": "N12_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 3.6826456380367745e-05,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_u2",
+    "position": 4,
+    "strategy_name": "S3B20_N12_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 3.767202088056365e-05,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_u2",
+    "position": 5,
+    "strategy_name": "S3B20_N12_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 3.931116134481272e-05,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_peeq",
+    "position": 1,
+    "strategy_name": "N12_A13_graph_pointer_policy_anti_odd_even_novelty",
+    "dataset_source": "probe60_run08",
+    "value": 0.14032196998596191,
+    "combined_reward_rank": 8
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_peeq",
+    "position": 2,
+    "strategy_name": "S3B20_N12_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.14267149567604065,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_peeq",
+    "position": 3,
+    "strategy_name": "N12_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.14324450492858887,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_peeq",
+    "position": 4,
+    "strategy_name": "N12_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.1464761346578598,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_peeq",
+    "position": 5,
+    "strategy_name": "S3B20_N12_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.14696112275123596,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_surfaceT",
+    "position": 1,
+    "strategy_name": "N12_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 580752832.0,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_surfaceT",
+    "position": 2,
+    "strategy_name": "N12_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 580798976.0,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_surfaceT",
+    "position": 3,
+    "strategy_name": "N12_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 580972800.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_surfaceT",
+    "position": 4,
+    "strategy_name": "N12_A15_graph_pointer_policy_balanced_dispersion_proxy",
+    "dataset_source": "probe60_run08",
+    "value": 581069312.0,
+    "combined_reward_rank": 13
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_surfaceT",
+    "position": 5,
+    "strategy_name": "S3B20_N12_B03_method_c_inspired",
+    "dataset_source": "batch20_run14",
+    "value": 581229056.0,
+    "combined_reward_rank": 11
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_mises",
+    "position": 1,
+    "strategy_name": "N12_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 579937984.0,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_mises",
+    "position": 2,
+    "strategy_name": "N12_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 579938048.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_mises",
+    "position": 3,
+    "strategy_name": "N12_A12_graph_pointer_policy_diverse_02",
+    "dataset_source": "probe60_run08",
+    "value": 579938048.0,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_mises",
+    "position": 4,
+    "strategy_name": "N12_A15_graph_pointer_policy_balanced_dispersion_proxy",
+    "dataset_source": "probe60_run08",
+    "value": 579938240.0,
+    "combined_reward_rank": 13
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_mises",
+    "position": 5,
+    "strategy_name": "N12_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 579938304.0,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_combined_reward",
+    "position": 1,
+    "strategy_name": "S3B20_N12_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.8578947368421053,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_combined_reward",
+    "position": 2,
+    "strategy_name": "S3B20_N12_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.855263157894737,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_combined_reward",
+    "position": 3,
+    "strategy_name": "N12_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.8052631578947369,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_combined_reward",
+    "position": 4,
+    "strategy_name": "S3B20_N12_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.7078947368421054,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 12,
+    "leaderboard": "top5_combined_reward",
+    "position": 5,
+    "strategy_name": "N12_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.6894736842105263,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_u2",
+    "position": 1,
+    "strategy_name": "N12_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 0.0001583552163992863,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_u2",
+    "position": 2,
+    "strategy_name": "N12_A12_graph_pointer_policy_diverse_02",
+    "dataset_source": "probe60_run08",
+    "value": 0.00013954683527117595,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_u2",
+    "position": 3,
+    "strategy_name": "N12_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 0.0001314298706347472,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_peeq",
+    "position": 1,
+    "strategy_name": "N12_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.17532625794410706,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_peeq",
+    "position": 2,
+    "strategy_name": "N12_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 0.172713503241539,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_peeq",
+    "position": 3,
+    "strategy_name": "N12_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.1680927276611328,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_surfaceT",
+    "position": 1,
+    "strategy_name": "N12_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 585930688.0,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_surfaceT",
+    "position": 2,
+    "strategy_name": "S3B20_N12_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 585915072.0,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 12,
+    "leaderboard": "worst3_surfaceT",
+    "position": 3,
+    "strategy_name": "S3B20_N12_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 585543936.0,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_u2",
+    "position": 1,
+    "strategy_name": "N16_A03_greedy_maximin_distance",
+    "dataset_source": "probe60_run08",
+    "value": 4.607185064742225e-05,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_u2",
+    "position": 2,
+    "strategy_name": "S3B20_N16_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 4.716870898846537e-05,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_u2",
+    "position": 3,
+    "strategy_name": "S3B20_N16_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 4.960947671861504e-05,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_u2",
+    "position": 4,
+    "strategy_name": "N16_A02_odd_even_interlaced",
+    "dataset_source": "probe60_run08",
+    "value": 4.9715717977960594e-05,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_u2",
+    "position": 5,
+    "strategy_name": "N16_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 5.043179316999158e-05,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_peeq",
+    "position": 1,
+    "strategy_name": "S3B20_N16_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.1489115208387375,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_peeq",
+    "position": 2,
+    "strategy_name": "S3B20_N16_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.15044885873794556,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_peeq",
+    "position": 3,
+    "strategy_name": "S3B20_N16_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.15050330758094788,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_peeq",
+    "position": 4,
+    "strategy_name": "N16_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.1505546271800995,
+    "combined_reward_rank": 11
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_peeq",
+    "position": 5,
+    "strategy_name": "N16_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.15182757377624512,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_surfaceT",
+    "position": 1,
+    "strategy_name": "N16_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 580899648.0,
+    "combined_reward_rank": 15
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_surfaceT",
+    "position": 2,
+    "strategy_name": "N16_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+    "dataset_source": "probe60_run08",
+    "value": 581290304.0,
+    "combined_reward_rank": 10
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_surfaceT",
+    "position": 3,
+    "strategy_name": "N16_A13_graph_pointer_policy_anti_odd_even_novelty",
+    "dataset_source": "probe60_run08",
+    "value": 581337280.0,
+    "combined_reward_rank": 7
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_surfaceT",
+    "position": 4,
+    "strategy_name": "N16_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 581433216.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_surfaceT",
+    "position": 5,
+    "strategy_name": "S3B20_N16_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 581447424.0,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_mises",
+    "position": 1,
+    "strategy_name": "N16_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 579946752.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_mises",
+    "position": 2,
+    "strategy_name": "N16_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 579946816.0,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_mises",
+    "position": 3,
+    "strategy_name": "N16_A12_graph_pointer_policy_diverse_02",
+    "dataset_source": "probe60_run08",
+    "value": 579946816.0,
+    "combined_reward_rank": 14
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_mises",
+    "position": 4,
+    "strategy_name": "N16_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 579946944.0,
+    "combined_reward_rank": 15
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_mises",
+    "position": 5,
+    "strategy_name": "N16_A11_graph_pointer_policy_diverse_01",
+    "dataset_source": "probe60_run08",
+    "value": 579946944.0,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_combined_reward",
+    "position": 1,
+    "strategy_name": "S3B20_N16_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.9039473684210527,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_combined_reward",
+    "position": 2,
+    "strategy_name": "N16_A03_greedy_maximin_distance",
+    "dataset_source": "probe60_run08",
+    "value": 0.825,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_combined_reward",
+    "position": 3,
+    "strategy_name": "S3B20_N16_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.7802631578947369,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_combined_reward",
+    "position": 4,
+    "strategy_name": "S3B20_N16_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.7381578947368421,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 16,
+    "leaderboard": "top5_combined_reward",
+    "position": 5,
+    "strategy_name": "N16_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.7355263157894737,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_u2",
+    "position": 1,
+    "strategy_name": "N16_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 0.00027908391211894923,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_u2",
+    "position": 2,
+    "strategy_name": "N16_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 0.0002763091160886688,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_u2",
+    "position": 3,
+    "strategy_name": "N16_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 0.00024349282352886803,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_peeq",
+    "position": 1,
+    "strategy_name": "N16_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.1797565519809723,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_peeq",
+    "position": 2,
+    "strategy_name": "N16_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 0.17520761489868164,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_peeq",
+    "position": 3,
+    "strategy_name": "N16_A11_graph_pointer_policy_diverse_01",
+    "dataset_source": "probe60_run08",
+    "value": 0.17434175312519073,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_surfaceT",
+    "position": 1,
+    "strategy_name": "N16_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 587841664.0,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_surfaceT",
+    "position": 2,
+    "strategy_name": "N16_A02_odd_even_interlaced",
+    "dataset_source": "probe60_run08",
+    "value": 585719808.0,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 16,
+    "leaderboard": "worst3_surfaceT",
+    "position": 3,
+    "strategy_name": "S3B20_N16_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 585404352.0,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_u2",
+    "position": 1,
+    "strategy_name": "N24_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 5.621172385872342e-05,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_u2",
+    "position": 2,
+    "strategy_name": "S3B20_N24_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 5.741682798543479e-05,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_u2",
+    "position": 3,
+    "strategy_name": "S3B20_N24_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 7.592932161060162e-05,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_u2",
+    "position": 4,
+    "strategy_name": "S3B20_N24_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 7.634673784195911e-05,
+    "combined_reward_rank": 7
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_u2",
+    "position": 5,
+    "strategy_name": "N24_A02_odd_even_interlaced",
+    "dataset_source": "probe60_run08",
+    "value": 8.360300034837564e-05,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_peeq",
+    "position": 1,
+    "strategy_name": "S3B20_N24_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.15368027985095978,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_peeq",
+    "position": 2,
+    "strategy_name": "N24_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+    "dataset_source": "probe60_run08",
+    "value": 0.15415936708450317,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_peeq",
+    "position": 3,
+    "strategy_name": "N24_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.15437763929367065,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_peeq",
+    "position": 4,
+    "strategy_name": "N24_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.15462736785411835,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_peeq",
+    "position": 5,
+    "strategy_name": "N24_A02_odd_even_interlaced",
+    "dataset_source": "probe60_run08",
+    "value": 0.15498611330986023,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_surfaceT",
+    "position": 1,
+    "strategy_name": "N24_A13_graph_pointer_policy_anti_odd_even_novelty",
+    "dataset_source": "probe60_run08",
+    "value": 581204672.0,
+    "combined_reward_rank": 8
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_surfaceT",
+    "position": 2,
+    "strategy_name": "S3B20_N24_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 581725376.0,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_surfaceT",
+    "position": 3,
+    "strategy_name": "N24_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 581727232.0,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_surfaceT",
+    "position": 4,
+    "strategy_name": "S3B20_N24_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 581741824.0,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_surfaceT",
+    "position": 5,
+    "strategy_name": "N24_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 581775744.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_mises",
+    "position": 1,
+    "strategy_name": "N24_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 579942784.0,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_mises",
+    "position": 2,
+    "strategy_name": "N24_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 579943104.0,
+    "combined_reward_rank": 9
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_mises",
+    "position": 3,
+    "strategy_name": "N24_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+    "dataset_source": "probe60_run08",
+    "value": 579943360.0,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_mises",
+    "position": 4,
+    "strategy_name": "N24_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 579943744.0,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_mises",
+    "position": 5,
+    "strategy_name": "N24_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 579943744.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_combined_reward",
+    "position": 1,
+    "strategy_name": "N24_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.9263157894736843,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_combined_reward",
+    "position": 2,
+    "strategy_name": "S3B20_N24_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.8473684210526315,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_combined_reward",
+    "position": 3,
+    "strategy_name": "S3B20_N24_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.8210526315789475,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_combined_reward",
+    "position": 4,
+    "strategy_name": "S3B20_N24_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.7710526315789475,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 24,
+    "leaderboard": "top5_combined_reward",
+    "position": 5,
+    "strategy_name": "N24_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+    "dataset_source": "probe60_run08",
+    "value": 0.7315789473684212,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_u2",
+    "position": 1,
+    "strategy_name": "N24_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 0.0006265991143266092,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_u2",
+    "position": 2,
+    "strategy_name": "N24_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.0006247397857350734,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_u2",
+    "position": 3,
+    "strategy_name": "N24_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.0005546370016418223,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_peeq",
+    "position": 1,
+    "strategy_name": "N24_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 0.18925029039382935,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_peeq",
+    "position": 2,
+    "strategy_name": "N24_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.18484757840633392,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_peeq",
+    "position": 3,
+    "strategy_name": "N24_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.17539091408252716,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_surfaceT",
+    "position": 1,
+    "strategy_name": "N24_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 590591168.0,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_surfaceT",
+    "position": 2,
+    "strategy_name": "N24_A11_graph_pointer_policy_diverse_01",
+    "dataset_source": "probe60_run08",
+    "value": 589194880.0,
+    "combined_reward_rank": 10
+  },
+  {
+    "n": 24,
+    "leaderboard": "worst3_surfaceT",
+    "position": 3,
+    "strategy_name": "N24_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 588072192.0,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_u2",
+    "position": 1,
+    "strategy_name": "S3B20_N40_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 8.922922461351845e-05,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_u2",
+    "position": 2,
+    "strategy_name": "N40_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.0001108189990191022,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_u2",
+    "position": 3,
+    "strategy_name": "S3B20_N40_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.00011205847840756178,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_u2",
+    "position": 4,
+    "strategy_name": "S3B20_N40_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.00011389043356757611,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_u2",
+    "position": 5,
+    "strategy_name": "N40_A02_odd_even_interlaced",
+    "dataset_source": "probe60_run08",
+    "value": 0.00015956887364154682,
+    "combined_reward_rank": 6
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_peeq",
+    "position": 1,
+    "strategy_name": "N40_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.15395095944404602,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_peeq",
+    "position": 2,
+    "strategy_name": "S3B20_N40_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.15405847132205963,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_peeq",
+    "position": 3,
+    "strategy_name": "S3B20_N40_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.15504635870456696,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_peeq",
+    "position": 4,
+    "strategy_name": "N40_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+    "dataset_source": "probe60_run08",
+    "value": 0.15650783479213715,
+    "combined_reward_rank": 8
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_peeq",
+    "position": 5,
+    "strategy_name": "N40_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.1575537621974945,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_surfaceT",
+    "position": 1,
+    "strategy_name": "N40_A13_graph_pointer_policy_anti_odd_even_novelty",
+    "dataset_source": "probe60_run08",
+    "value": 581541824.0,
+    "combined_reward_rank": 7
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_surfaceT",
+    "position": 2,
+    "strategy_name": "N40_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 582221504.0,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_surfaceT",
+    "position": 3,
+    "strategy_name": "S3B20_N40_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 582236352.0,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_surfaceT",
+    "position": 4,
+    "strategy_name": "S3B20_N40_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 582652032.0,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_surfaceT",
+    "position": 5,
+    "strategy_name": "S3B20_N40_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 582971072.0,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_mises",
+    "position": 1,
+    "strategy_name": "N40_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 579924032.0,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_mises",
+    "position": 2,
+    "strategy_name": "N40_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 579924096.0,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_mises",
+    "position": 3,
+    "strategy_name": "N40_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 579924416.0,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_mises",
+    "position": 4,
+    "strategy_name": "N40_A12_graph_pointer_policy_diverse_02",
+    "dataset_source": "probe60_run08",
+    "value": 579924800.0,
+    "combined_reward_rank": 13
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_mises",
+    "position": 5,
+    "strategy_name": "N40_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 579925632.0,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_combined_reward",
+    "position": 1,
+    "strategy_name": "N40_A04_method_c_u2_first_engineering",
+    "dataset_source": "probe60_run08",
+    "value": 0.9315789473684212,
+    "combined_reward_rank": 1
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_combined_reward",
+    "position": 2,
+    "strategy_name": "S3B20_N40_B02_diversity_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.9210526315789473,
+    "combined_reward_rank": 2
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_combined_reward",
+    "position": 3,
+    "strategy_name": "S3B20_N40_B05_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.8105263157894738,
+    "combined_reward_rank": 3
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_combined_reward",
+    "position": 4,
+    "strategy_name": "S3B20_N40_B04_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.7815789473684212,
+    "combined_reward_rank": 4
+  },
+  {
+    "n": 40,
+    "leaderboard": "top5_combined_reward",
+    "position": 5,
+    "strategy_name": "S3B20_N40_B01_surrogate_top",
+    "dataset_source": "batch20_run14",
+    "value": 0.7473684210526317,
+    "combined_reward_rank": 5
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_u2",
+    "position": 1,
+    "strategy_name": "N40_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 0.002076672622933984,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_u2",
+    "position": 2,
+    "strategy_name": "N40_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 0.0020561176352202892,
+    "combined_reward_rank": 16
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_u2",
+    "position": 3,
+    "strategy_name": "N40_A09_center_edge_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.0018988421652466059,
+    "combined_reward_rank": 18
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_peeq",
+    "position": 1,
+    "strategy_name": "N40_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 0.20056912302970886,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_peeq",
+    "position": 2,
+    "strategy_name": "N40_A01_raster_left_to_right",
+    "dataset_source": "probe60_run08",
+    "value": 0.20001305639743805,
+    "combined_reward_rank": 14
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_peeq",
+    "position": 3,
+    "strategy_name": "N40_A05_center_out",
+    "dataset_source": "probe60_run08",
+    "value": 0.17962194979190826,
+    "combined_reward_rank": 19
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_surfaceT",
+    "position": 1,
+    "strategy_name": "N40_A07_regular_jump_coprime",
+    "dataset_source": "probe60_run08",
+    "value": 595582528.0,
+    "combined_reward_rank": 20
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_surfaceT",
+    "position": 2,
+    "strategy_name": "N40_A06_edge_in_alternating",
+    "dataset_source": "probe60_run08",
+    "value": 595556480.0,
+    "combined_reward_rank": 17
+  },
+  {
+    "n": 40,
+    "leaderboard": "worst3_surfaceT",
+    "position": 3,
+    "strategy_name": "N40_A08_block_interleaved_quarters",
+    "dataset_source": "probe60_run08",
+    "value": 594139136.0,
+    "combined_reward_rank": 16
+  }
+]

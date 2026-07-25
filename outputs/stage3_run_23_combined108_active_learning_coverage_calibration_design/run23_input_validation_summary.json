@@ -1,0 +1,1 @@
+{"verdict":"PASS_RUN23_INPUTS_READY_FOR_ACTIVE_LEARNING_DESIGN","row_count":108,"per_n_counts":{"12":24,"16":24,"24":30,"40":30},"required_features":["n","first_track_norm","last_track_norm","normalized_mean_jump","normalized_max_jump","adjacent_jump_count","long_jump_count","parity_switch_rate","monotonicity_fraction","direction_reversal_count"],"errors":[],"warnings":[]}

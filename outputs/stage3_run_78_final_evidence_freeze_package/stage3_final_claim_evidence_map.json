@@ -1,0 +1,85 @@
+{
+  "schema": "records",
+  "rows": [
+    {
+      "claim_id": "C1",
+      "claim": "Stage 3 produced teacher-validated scan-order improvements across tested native N values N12, N16, N24, and N40.",
+      "status": "PASS",
+      "supporting_datasets": "combined552, best strategy table, record timeline",
+      "supporting_runs": "Runs 27/36/41/46/51/56/61/66/71/76/77",
+      "caveats": "Only tested N values and current 2D Abaqus teacher model.",
+      "recommended_wording": "Teacher-validated improvements are observed across tested native N values.",
+      "unsafe_wording_to_avoid": "Stage 3 solved all N or all scan strategies."
+    },
+    {
+      "claim_id": "C2",
+      "claim": "N24 and N40 evidence is mature and should be evidence-frozen.",
+      "status": "PASS",
+      "supporting_datasets": "combined552 counts and N24/N40 record timeline",
+      "supporting_runs": "Runs 36/41/46/51/56/61/62/63/77",
+      "caveats": "Maturity is empirical within tested native teacher-labelled strategy space.",
+      "recommended_wording": "N24/N40 are mature enough for evidence freeze.",
+      "unsafe_wording_to_avoid": "N24/N40 are globally optimized."
+    },
+    {
+      "claim_id": "C3",
+      "claim": "N12 and N16 were initially weaker / under-sampled but were substantially strengthened by recovery loops.",
+      "status": "PASS",
+      "supporting_datasets": "combined480, combined520, combined552 counts and Run76 comparison",
+      "supporting_runs": "Runs 64/66/67/68/69/71/72/73/74/76/77",
+      "caveats": "N12/N16 still have fewer rows than N24/N40 but are sufficient for bounded reporting.",
+      "recommended_wording": "N12/N16 evidence was substantially strengthened by recovery and final diagnostic loops.",
+      "unsafe_wording_to_avoid": "N12/N16 are fully mature for arbitrary generalization."
+    },
+    {
+      "claim_id": "C4",
+      "claim": "The final native dataset supports bounded variable-N scan-order optimization over tested N values.",
+      "status": "PASS",
+      "supporting_datasets": "combined552, maturity audit, claim boundary",
+      "supporting_runs": "Runs 67/72/77/78",
+      "caveats": "Bounded to N12/N16/N24/N40, tested strategy space, current teacher model.",
+      "recommended_wording": "combined552 supports bounded variable-N optimization over tested native N values.",
+      "unsafe_wording_to_avoid": "Arbitrary-N scan-order optimization is solved."
+    },
+    {
+      "claim_id": "C5",
+      "claim": "The candidate-generation loop beat initial hand-designed / heuristic baselines within the tested teacher-labelled strategy space.",
+      "status": "PASS",
+      "supporting_datasets": "record timeline and prior comparison tables",
+      "supporting_runs": "Runs 27 through 77",
+      "caveats": "Baseline definition is limited to recorded heuristic/early teacher-labelled strategy pool.",
+      "recommended_wording": "The active-learning/offline policy loop outperformed initial heuristic baselines within the tested pool.",
+      "unsafe_wording_to_avoid": "It beat all possible scan strategies."
+    },
+    {
+      "claim_id": "C6",
+      "claim": "GNN and graph-pointer diagnostics were explored but remain auxiliary and are not the primary evidence for final claims.",
+      "status": "PASS",
+      "supporting_datasets": "Run43/48/53/58/63/68/73/77 diagnostics",
+      "supporting_runs": "Model-update runs",
+      "caveats": "Diagnostics were not dominant enough to support superiority claims.",
+      "recommended_wording": "GNN/pointer diagnostics are auxiliary.",
+      "unsafe_wording_to_avoid": "GNN-RL outperformed all baselines."
+    },
+    {
+      "claim_id": "C7",
+      "claim": "N32 legacy data is useful as auxiliary context but is not native Stage 3 teacher validation and must be reported with metric-semantic caveats.",
+      "status": "PASS",
+      "supporting_datasets": "combined552_plus_N32 and N32 separation memo",
+      "supporting_runs": "Run32A plus later plus-N32 diagnostics",
+      "caveats": "PEEQ/Mises semantics are proxy-mapped for N32.",
+      "recommended_wording": "N32 is auxiliary legacy-compatible context, separated from native claims.",
+      "unsafe_wording_to_avoid": "N32 was newly validated or caused native improvements."
+    },
+    {
+      "claim_id": "C8",
+      "claim": "The work supports offline policy optimization / active-learning / surrogate-guided scan-order generation, not online RL or arbitrary-N generalization.",
+      "status": "PASS",
+      "supporting_datasets": "claim boundary and run ledger",
+      "supporting_runs": "All Stage 3 model/candidate-generation runs",
+      "caveats": "No online Abaqus control loop was executed.",
+      "recommended_wording": "The work supports offline active-learning/surrogate-guided policy optimization within bounds.",
+      "unsafe_wording_to_avoid": "Online RL solved Abaqus control."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "best_overall": {
+    "regime": "native_combined296",
+    "target": "target_reward_combined296_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8489555530549906,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 4.5,
+    "mean_mae": 0.09100724613108938,
+    "protocols": 4
+  },
+  "best_native": {
+    "regime": "native_combined296",
+    "target": "target_reward_combined296_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8489555530549906,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 4.5,
+    "mean_mae": 0.09100724613108938,
+    "protocols": 4
+  },
+  "best_plus_N32": {
+    "regime": "plus_N32_balanced",
+    "target": "target_reward_combined296_plus_N32_mapped_u2_primary",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.841132715590802,
+    "macro_top5_overlap": 1.2,
+    "macro_top10_overlap": 3.2,
+    "mean_mae": 0.1014057064147853,
+    "protocols": 5
+  },
+  "n32_augmented_better_than_native": false,
+  "run38_reference": {
+    "native_spearman": 0.8681,
+    "native_top5": 2.0,
+    "plus_N32_balanced_spearman": 0.8503,
+    "plus_N32_balanced_top5": 1.6
+  }
+}

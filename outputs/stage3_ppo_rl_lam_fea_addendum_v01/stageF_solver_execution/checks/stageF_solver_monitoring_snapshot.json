@@ -1,0 +1,66 @@
+﻿{
+    "snapshot_time":  "2026-06-23T19:37:20.1559030+08:00",
+    "case_root":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_policy_only_batch32_v01",
+    "snapshot_csv":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\tables\\stageF_solver_file_snapshot_by_N.csv",
+    "by_n":  [
+                 {
+                     "n":  12,
+                     "case_dir_count":  8,
+                     "inp":  8,
+                     "cae":  8,
+                     "odb":  0,
+                     "sim":  0,
+                     "sta":  0,
+                     "dat":  0,
+                     "msg":  0,
+                     "lck":  0
+                 },
+                 {
+                     "n":  16,
+                     "case_dir_count":  8,
+                     "inp":  8,
+                     "cae":  8,
+                     "odb":  0,
+                     "sim":  0,
+                     "sta":  0,
+                     "dat":  0,
+                     "msg":  0,
+                     "lck":  0
+                 },
+                 {
+                     "n":  24,
+                     "case_dir_count":  8,
+                     "inp":  8,
+                     "cae":  8,
+                     "odb":  0,
+                     "sim":  0,
+                     "sta":  0,
+                     "dat":  0,
+                     "msg":  0,
+                     "lck":  0
+                 },
+                 {
+                     "n":  40,
+                     "case_dir_count":  8,
+                     "inp":  8,
+                     "cae":  8,
+                     "odb":  0,
+                     "sim":  0,
+                     "sta":  0,
+                     "dat":  0,
+                     "msg":  0,
+                     "lck":  0
+                 }
+             ],
+    "totals":  {
+                   "inp":  32,
+                   "cae":  32,
+                   "odb":  0,
+                   "sim":  0,
+                   "sta":  0,
+                   "dat":  0,
+                   "msg":  0,
+                   "lck":  0
+               },
+    "odb_opened":  false
+}

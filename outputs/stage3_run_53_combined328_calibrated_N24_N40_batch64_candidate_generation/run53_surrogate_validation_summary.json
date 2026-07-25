@@ -1,0 +1,42 @@
+{
+  "best_overall": {
+    "regime": "native_combined328",
+    "target": "target_reward_combined328_u2_primary",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8349863849292928,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 4.0,
+    "mean_mae": 0.09893450888761607,
+    "protocols": 4
+  },
+  "best_native": {
+    "regime": "native_combined328",
+    "target": "target_reward_combined328_u2_primary",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8349863849292928,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 4.0,
+    "mean_mae": 0.09893450888761607,
+    "protocols": 4
+  },
+  "best_plus_N32": {
+    "regime": "plus_N32_balanced",
+    "target": "target_reward_combined328_plus_N32_mapped_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8286129655470909,
+    "macro_top5_overlap": 1.0,
+    "macro_top10_overlap": 4.0,
+    "mean_mae": 0.10742575614613477,
+    "protocols": 5
+  },
+  "n32_augmented_better_than_native": false,
+  "run48_reference": {
+    "native_u2_primary_spearman": 0.849,
+    "native_top5": 1.5,
+    "strict_penalty_guard_spearman": 0.7761,
+    "two_stage_guarded_spearman": 0.8219
+  }
+}

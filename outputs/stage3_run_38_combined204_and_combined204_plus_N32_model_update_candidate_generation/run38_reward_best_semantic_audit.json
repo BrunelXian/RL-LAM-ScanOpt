@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "status": "RUN38_REWARD_BEST_SEMANTIC_AUDIT_COMPLETE",
+    "headline": "The N24 Run36 reward-best appears as the recomputed combined204 rank-based reward best, while Run37's previous-comparison table did not mark it as beating the old combined172 reward best.",
+    "n24_interpretation": "recomputed_combined204_rank_reward_best_after_rank_normalization_shift",
+    "likely_reason": "rank-normalization/reward recomputation after adding Run36 rows, not a raw-metric mismatch."
+  },
+  "rows": [
+    {
+      "n": 12,
+      "combined172_best_reward_strategy_old_definition": "S3B20_N12_B02_diversity_top",
+      "combined172_best_reward_value_old_definition": 0.8564516129032259,
+      "combined204_best_reward_strategy_recomputed_definition": "S3B20_N12_B02_diversity_top",
+      "combined204_best_reward_value_recomputed_definition": 0.8578571428571429,
+      "combined204_best_reward_source": "batch20_run14",
+      "run36_best_within_batch_reward_strategy": "S3R34N32INF_N12_B02_surrogate_top",
+      "run36_best_within_batch_reward_value": 0.8500000000000001,
+      "run36_beats_combined172_best_in_run37_comparison": false,
+      "combined204_recomputed_best_is_run36": false,
+      "semantic_interpretation": "no_reward_best_change"
+    },
+    {
+      "n": 16,
+      "combined172_best_reward_strategy_old_definition": "S3R24L64_N16_B02_top_region",
+      "combined172_best_reward_value_old_definition": 0.8733870967741937,
+      "combined204_best_reward_strategy_recomputed_definition": "S3R24L64_N16_B02_top_region",
+      "combined204_best_reward_value_recomputed_definition": 0.8778571428571429,
+      "combined204_best_reward_source": "shortlist64_run27",
+      "run36_best_within_batch_reward_strategy": "S3R34N32INF_N16_B01_graph_pointer",
+      "run36_best_within_batch_reward_value": 0.7166666666666667,
+      "run36_beats_combined172_best_in_run37_comparison": false,
+      "combined204_recomputed_best_is_run36": false,
+      "semantic_interpretation": "no_reward_best_change"
+    },
+    {
+      "n": 24,
+      "combined172_best_reward_strategy_old_definition": "S3R19B28_N24_B10_known_best_mutation",
+      "combined172_best_reward_value_old_definition": 0.8377358490566038,
+      "combined204_best_reward_strategy_recomputed_definition": "S3R34N32INF_N24_B11_n24_calibration",
+      "combined204_best_reward_value_recomputed_definition": 0.8415384615384615,
+      "combined204_best_reward_source": "run36_N32_informed_native_batch32",
+      "run36_best_within_batch_reward_strategy": "S3R34N32INF_N24_B10_n24_calibration",
+      "run36_best_within_batch_reward_value": 0.7818181818181819,
+      "run36_beats_combined172_best_in_run37_comparison": false,
+      "combined204_recomputed_best_is_run36": true,
+      "semantic_interpretation": "recomputed_combined204_rank_reward_best_after_rank_normalization_shift"
+    },
+    {
+      "n": 40,
+      "combined172_best_reward_strategy_old_definition": "S3R24L64_N40_B23_exploitation_reference",
+      "combined172_best_reward_value_old_definition": 0.9212264150943397,
+      "combined204_best_reward_strategy_recomputed_definition": "S3R24L64_N40_B23_exploitation_reference",
+      "combined204_best_reward_value_recomputed_definition": 0.8992307692307693,
+      "combined204_best_reward_source": "shortlist64_run27",
+      "run36_best_within_batch_reward_strategy": "S3R34N32INF_N40_B10_n40_best_near",
+      "run36_best_within_batch_reward_value": 0.7909090909090909,
+      "run36_beats_combined172_best_in_run37_comparison": false,
+      "combined204_recomputed_best_is_run36": false,
+      "semantic_interpretation": "no_reward_best_change"
+    }
+  ]
+}

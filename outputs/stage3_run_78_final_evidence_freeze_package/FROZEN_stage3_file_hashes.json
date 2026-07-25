@@ -1,0 +1,75 @@
+{
+  "schema": "records",
+  "rows": [
+    {
+      "frozen_file": "FROZEN_stage3_native_combined552_teacher_dataset.csv",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_teacher_dataset.csv",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+      "bytes": 1967712,
+      "sha256": "3f2bf85d2dcd5e4050217fff6f1f7c853cb274081181487aac78a253676adcd2"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_native_combined552_RL_ready_dataset.csv",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_RL_ready_dataset.csv",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_RL_ready_dataset.csv",
+      "bytes": 1967712,
+      "sha256": "3f2bf85d2dcd5e4050217fff6f1f7c853cb274081181487aac78a253676adcd2"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_combined552_plus_N32_teacher_dataset.csv",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_plus_N32_teacher_dataset.csv",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_combined552_plus_N32_teacher_dataset.csv",
+      "bytes": 3124906,
+      "sha256": "fb42bdd970201f32baa3f9d78ff0edc323000a9e9197f2047bbd1325054b2a7a"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_combined552_plus_N32_RL_ready_dataset.csv",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_plus_N32_RL_ready_dataset.csv",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_combined552_plus_N32_RL_ready_dataset.csv",
+      "bytes": 3124906,
+      "sha256": "fb42bdd970201f32baa3f9d78ff0edc323000a9e9197f2047bbd1325054b2a7a"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_native_combined552_per_N_leaderboard.csv",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_per_N_leaderboard.csv",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_per_N_leaderboard.csv",
+      "bytes": 3618,
+      "sha256": "f13df38e7511f1e24697066d5ff177fa20f2cb4fabd04240a990d911f1307dd1"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_native_combined552_summary.json",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_summary.json",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_summary.json",
+      "bytes": 7483,
+      "sha256": "6ed1bdc7647eb7520741830b2fdc29f68bb7bf5a8eb9a9996b2e28d3b49a8977"
+    },
+    {
+      "frozen_file": "FROZEN_run77_final_claim_boundary.md",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run77_final_claim_boundary.md",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_run77_final_claim_boundary.md",
+      "bytes": 1347,
+      "sha256": "3d78afc9eeeb1b7c1fb9d689d5b2aaf04485873463b17e91ec8ba5037c8f4022"
+    },
+    {
+      "frozen_file": "FROZEN_run77_final_claim_boundary.json",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run77_final_claim_boundary.json",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_run77_final_claim_boundary.json",
+      "bytes": 1519,
+      "sha256": "4952e2276b3048bf7cb1f568d2438324a901c575636b02a0a93669153c977781"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_final_maturity_and_evidence_freeze_readiness_audit.md",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\stage3_final_maturity_and_evidence_freeze_readiness_audit.md",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_final_maturity_and_evidence_freeze_readiness_audit.md",
+      "bytes": 809,
+      "sha256": "057d28cee50ab857e35c03deb1993fb000e021b89aa2e4d20a10d1d9626a4f13"
+    },
+    {
+      "frozen_file": "FROZEN_stage3_final_maturity_and_evidence_freeze_readiness_summary.json",
+      "source_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\stage3_final_maturity_and_evidence_freeze_readiness_summary.json",
+      "frozen_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_final_maturity_and_evidence_freeze_readiness_summary.json",
+      "bytes": 1080,
+      "sha256": "f1503126fc9c2fe24fcbbb6a636bc99a3289f5962668720bd473305e78b8fb7f"
+    }
+  ]
+}

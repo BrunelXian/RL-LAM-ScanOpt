@@ -1,0 +1,13 @@
+ppo_version,N,count,primary_top10_any_unique,primary_top25_any_unique,best_ref_lex_rank,best_ref_u2_rank
+final_expansion,12,32,3,13,7,7
+final_expansion,16,32,4,10,2,2
+final_expansion,24,80,9,21,123,123
+final_expansion,40,80,28,29,147,147
+v01,12,8,3,5,6,6
+v01,16,8,2,4,2,2
+v01,24,8,1,3,134,134
+v01,40,8,0,0,147,147
+v02K2,24,16,0,0,114,114
+v02K2,40,16,16,16,147,147
+v03,24,16,3,5,139,139
+v03,40,16,0,0,165,165

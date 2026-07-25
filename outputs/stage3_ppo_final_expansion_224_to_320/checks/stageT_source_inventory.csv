@@ -1,0 +1,13 @@
+label,path,required,exists,row_count,n_counts,status
+native_combined552,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv,True,True,552.0,"{""12"": 78, ""16"": 78, ""24"": 190, ""40"": 206}",PASS
+ppo_v01_metrics,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv,True,True,32.0,"{""12"": 8, ""16"": 8, ""24"": 8, ""40"": 8}",PASS
+ppo_v02K2_metrics,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_teacher_metrics.csv,True,True,32.0,"{""24"": 16, ""40"": 16}",PASS
+ppo_v03_metrics,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\stageR_ODB_teacher_metric_extraction\stageR_v03_teacher_metrics.csv,True,True,32.0,"{""24"": 16, ""40"": 16}",PASS
+ppo_v01_checkpoint,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\ppo_training\checkpoints\maskable_ppo_lam_scan_order_final.zip,True,True,,{},PASS
+ppo_v02K2_checkpoint,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageK2_n40_completion\checkpoints\N40_seed20260624_maskable_ppo_v02_K2.zip,True,True,,{},PASS
+ppo_v03_N24_checkpoint,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\ppo_training_v03\checkpoints\N24_seed20260627_maskable_ppo_v03.zip,True,True,,{},PASS
+ppo_v03_N40_checkpoint,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\ppo_training_v03\checkpoints\N40_seed20260627_maskable_ppo_v03.zip,True,True,,{},PASS
+v01_rollout_pool,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\ppo_candidate_generation\rollout_pool\ppo_generated_rollout_pool.csv,True,True,2112.0,"{""12"": 528, ""16"": 528, ""24"": 528, ""40"": 528}",PASS
+v02_rollout_pool,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\candidate_generation_v02\rollout_pool\v02_ppo_rollout_pool.csv,False,True,1026.0,"{""24"": 513, ""40"": 513}",PASS
+v02K2_rollout_pool,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageK2_n40_completion\rollout_pool\stageK2_n40_ppo_rollout_pool.csv,False,True,3001.0,"{""40"": 3001}",PASS
+v03_rollout_pool,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\candidate_generation_v03\rollout_pool\v03_ppo_rollout_pool.csv,False,True,282.0,"{""24"": 121, ""40"": 161}",PASS

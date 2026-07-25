@@ -1,0 +1,34 @@
+{
+  "schema_name": "ppo_surrogate_reward_targets_v01",
+  "target_columns": [
+    "reward_lex_u2_peeq_surfacet",
+    "reward_u2_primary",
+    "reward_constrained",
+    "cost_u2_norm",
+    "cost_peeq_norm",
+    "cost_surfacet_norm",
+    "cost_mises_norm",
+    "reward_strict_penalty_guard_like"
+  ],
+  "metric_columns": {
+    "u2": "u2_range",
+    "peeq": "peeq_max",
+    "surfacet": "surface_t_proxy",
+    "mises": "mises_max"
+  },
+  "normalization": "within-N only; no cross-N leakage",
+  "smaller_is_better_metrics": [
+    "u2_range",
+    "peeq_max",
+    "surface_t_proxy",
+    "mises_max"
+  ],
+  "primary_target": "reward_lex_u2_peeq_surfacet",
+  "primary_reward_formula": "1.0*reward_u2_rank + 0.1*reward_peeq_rank + 0.01*reward_surfacet_rank",
+  "reward_direction": "larger_is_better",
+  "diagnostic_target": "cost_mises_norm",
+  "mises_role": "diagnostic_only",
+  "strict_threshold_status": "NOT_FOUND",
+  "strict_threshold_fields": [],
+  "strict_penalty_note": "No physical threshold is invented. If threshold fields are unavailable, reward_strict_penalty_guard_like mirrors a rank/minmax guard-like diagnostic target."
+}

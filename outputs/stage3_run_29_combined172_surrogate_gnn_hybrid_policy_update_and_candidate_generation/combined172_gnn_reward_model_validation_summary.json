@@ -1,0 +1,15 @@
+{
+  "status": "GNN_REWARD_MODEL_TRAINED",
+  "model": "plain PyTorch order-graph message-passing reward model",
+  "leave_N_out_macro_spearman": 0.7445167376916271,
+  "leave_N_out_macro_top5_overlap": 1.0,
+  "n24_spearman": 0.6917994764105371,
+  "n40_spearman": 0.8007841000604683,
+  "run26_baseline": {
+    "macro_spearman": 0.8165,
+    "top5_overlap": 2.0,
+    "n40_spearman": 0.8478
+  },
+  "improves_run26_macro_spearman": false,
+  "note": "Offline prototype only; no online Abaqus RL."
+}

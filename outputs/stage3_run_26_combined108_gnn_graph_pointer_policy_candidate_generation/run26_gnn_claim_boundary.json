@@ -1,0 +1,17 @@
+{
+  "verdict": "RUN26_OFFLINE_GNN_POLICY_PROTOTYPE_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "offline GNN / graph-pointer policy prototype implemented",
+    "combined108 teacher-labelled data used for policy/reward modelling",
+    "future GNN-policy candidate batch generated for possible teacher validation",
+    "comparison with run23/run24 shortlist64 created"
+  ],
+  "unsafe_claims": [
+    "physical superiority",
+    "GNN-RL beat baselines",
+    "online RL with Abaqus",
+    "arbitrary-N generalization",
+    "deployment-ready policy",
+    "ODB results exist"
+  ]
+}

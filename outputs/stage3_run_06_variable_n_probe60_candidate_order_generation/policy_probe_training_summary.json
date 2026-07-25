@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-06-10T15:17:54.546341+00:00",
+  "run_id": "run_06b_variable_n_graph_pointer_policy_probe_training",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "torch_available": true,
+  "torch_version": "2.6.0+cu124",
+  "training_performed": false,
+  "policy_status": "proxy_policy",
+  "reason": "No new teacher labels for true variable-N; run_06 uses deterministic graph pointer proxy candidates only.",
+  "no_checkpoint_written": true,
+  "no_odb_opened": true,
+  "no_abaqus_jobs": true
+}

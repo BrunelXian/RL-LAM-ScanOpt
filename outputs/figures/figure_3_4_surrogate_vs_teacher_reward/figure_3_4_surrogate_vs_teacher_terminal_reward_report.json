@@ -1,0 +1,20 @@
+{
+  "input_data_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\tables\\surrogate_reward_model_candidate_predictions_holdout.csv",
+  "cases_used": 138,
+  "N_wise_counts": {
+    "N12": 20,
+    "N16": 20,
+    "N24": 47,
+    "N40": 51
+  },
+  "computed_spearman": 0.878558039393863,
+  "computed_pearson": 0.8863107612337053,
+  "reported_spearman": 0.878558039393863,
+  "reported_pearson": 0.8863107612337054,
+  "native_N_only": true,
+  "output_png": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_4_surrogate_vs_teacher_reward\\figure_3_4_surrogate_vs_teacher_terminal_reward.png",
+  "output_pdf": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_4_surrogate_vs_teacher_reward\\figure_3_4_surrogate_vs_teacher_terminal_reward.pdf",
+  "output_svg": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_4_surrogate_vs_teacher_reward\\figure_3_4_surrogate_vs_teacher_terminal_reward.svg",
+  "plot_data_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_4_surrogate_vs_teacher_reward\\figure_3_4_surrogate_vs_teacher_terminal_reward_plot_data.csv",
+  "interpretation_boundary": "Validates surrogate as PPO training environment; not a substitute for final Abaqus teacher validation."
+}

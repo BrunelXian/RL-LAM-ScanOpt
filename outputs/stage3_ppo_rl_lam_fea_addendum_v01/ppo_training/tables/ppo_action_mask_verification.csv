@@ -1,0 +1,5 @@
+n,observation_shape,initial_mask_length,initial_valid_actions,first_action,valid_actions_after_one_step,intermediate_reward,terminated_after_one_step,truncated_after_one_step,legality_after_one_step,pass
+12,483,40,12,0,11,0.0,False,False,partial_order,True
+16,483,40,16,0,15,0.0,False,False,partial_order,True
+24,483,40,24,0,23,0.0,False,False,partial_order,True
+40,483,40,40,0,39,0.0,False,False,partial_order,True

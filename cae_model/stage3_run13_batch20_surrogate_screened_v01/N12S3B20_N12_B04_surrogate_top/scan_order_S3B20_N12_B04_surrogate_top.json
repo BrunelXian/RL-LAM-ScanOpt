@@ -1,0 +1,31 @@
+{
+  "run_id": "run_13_batch20_surrogate_screened_teacher_handoff",
+  "batch_name": "stage3_run13_batch20_surrogate_screened_v01",
+  "n": 12,
+  "handoff_strategy_name": "S3B20_N12_B04_surrogate_top",
+  "original_run12_candidate_id": "RUN12_N12_C00024",
+  "candidate_family": "regular_jump_sentinel",
+  "selection_bucket": "surrogate_top",
+  "predicted_reward_mean_all": 0.776602931332815,
+  "predicted_rank_within_n": 3.0,
+  "predicted_uncertainty_std": 0.09967508742031235,
+  "novelty_distance_to_teacher": 0.15151515151515152,
+  "scan_order": [
+    0,
+    10,
+    8,
+    6,
+    4,
+    2,
+    1,
+    3,
+    5,
+    7,
+    9,
+    11
+  ],
+  "order_hash": "689e550783923e35",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "notes": "Run13 handoff only. Not teacher-validated. Do not claim physical superiority."
+}

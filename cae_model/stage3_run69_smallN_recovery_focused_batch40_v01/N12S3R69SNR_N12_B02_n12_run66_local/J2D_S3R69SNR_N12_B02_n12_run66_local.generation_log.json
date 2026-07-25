@@ -1,0 +1,163 @@
+{
+  "status": "GENERATED",
+  "run_id": "run_70_smallN_recovery_focused_batch40_cae_inp_generation",
+  "batch_name": "stage3_run69_smallN_recovery_focused_batch40_v01",
+  "selected_batch": "run63_smallN_recovery_focused_batch40",
+  "case": {
+    "n": 12,
+    "handoff_strategy_name": "S3R69SNR_N12_B02_n12_run66_local",
+    "job_name": "J2D_S3R69SNR_N12_B02_n12_run66_local",
+    "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run69_smallN_recovery_focused_batch40_v01\\N12S3R69SNR_N12_B02_n12_run66_local\\J2D_S3R69SNR_N12_B02_n12_run66_local.cae",
+    "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run69_smallN_recovery_focused_batch40_v01\\N12S3R69SNR_N12_B02_n12_run66_local\\J2D_S3R69SNR_N12_B02_n12_run66_local.inp"
+  },
+  "sequence_records": [
+    {
+      "seq": 0,
+      "track": 9,
+      "scan_step": "step_scan_00",
+      "cool_step": "step_cool_00",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 1,
+      "track": 5,
+      "scan_step": "step_scan_01",
+      "cool_step": "step_cool_01",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 2,
+      "track": 7,
+      "scan_step": "step_scan_02",
+      "cool_step": "step_cool_02",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 3,
+      "track": 11,
+      "scan_step": "step_scan_03",
+      "cool_step": "step_cool_03",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 4,
+      "track": 3,
+      "scan_step": "step_scan_04",
+      "cool_step": "step_cool_04",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 5,
+      "track": 1,
+      "scan_step": "step_scan_05",
+      "cool_step": "step_cool_05",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 6,
+      "track": 0,
+      "scan_step": "step_scan_06",
+      "cool_step": "step_cool_06",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 7,
+      "track": 2,
+      "scan_step": "step_scan_07",
+      "cool_step": "step_cool_07",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 8,
+      "track": 4,
+      "scan_step": "step_scan_08",
+      "cool_step": "step_cool_08",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 9,
+      "track": 6,
+      "scan_step": "step_scan_09",
+      "cool_step": "step_cool_09",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 10,
+      "track": 8,
+      "scan_step": "step_scan_10",
+      "cool_step": "step_cool_10",
+      "cool_initialInc": null
+    },
+    {
+      "seq": 11,
+      "track": 10,
+      "scan_step": "step_scan_11",
+      "cool_step": "step_cool_11",
+      "cool_initialInc": null
+    }
+  ],
+  "deactivation_records": [
+    {
+      "load": "load_body_hflux_00",
+      "deactivated_in": "step_cool_00"
+    },
+    {
+      "load": "load_body_hflux_01",
+      "deactivated_in": "step_cool_01"
+    },
+    {
+      "load": "load_body_hflux_02",
+      "deactivated_in": "step_cool_02"
+    },
+    {
+      "load": "load_body_hflux_03",
+      "deactivated_in": "step_cool_03"
+    },
+    {
+      "load": "load_body_hflux_04",
+      "deactivated_in": "step_cool_04"
+    },
+    {
+      "load": "load_body_hflux_05",
+      "deactivated_in": "step_cool_05"
+    },
+    {
+      "load": "load_body_hflux_06",
+      "deactivated_in": "step_cool_06"
+    },
+    {
+      "load": "load_body_hflux_07",
+      "deactivated_in": "step_cool_07"
+    },
+    {
+      "load": "load_body_hflux_08",
+      "deactivated_in": "step_cool_08"
+    },
+    {
+      "load": "load_body_hflux_09",
+      "deactivated_in": "step_cool_09"
+    },
+    {
+      "load": "load_body_hflux_10",
+      "deactivated_in": "step_cool_10"
+    },
+    {
+      "load": "load_body_hflux_11",
+      "deactivated_in": "step_cool_11"
+    }
+  ],
+  "final_cooling": {
+    "final_cooling_step_name": "step_final_cooling",
+    "final_cooling_previous": "step_cool_11",
+    "final_cooling_timePeriod": 1200.0,
+    "final_cooling_initialInc": 0.01,
+    "final_cooling_maxInc": 60.0,
+    "final_cooling_heat_loads_inactive": true
+  },
+  "solver_submitted": false,
+  "datacheck_run": false,
+  "abqjobpilot_run": false,
+  "enqueue_run": false,
+  "odb_opened": false,
+  "teacher_validation_run": false
+}

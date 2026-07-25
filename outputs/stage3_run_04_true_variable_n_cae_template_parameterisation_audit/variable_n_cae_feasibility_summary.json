@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-06-10T11:47:55.183026+00:00",
+  "feasibility_category": "B_TRUE_VARIABLE_N_ADAPTER_REQUIRED_BUT_FEASIBLE",
+  "recommended_route": "true_variable_n_geometry_with_fixed_physical_track_pitch",
+  "rejected_routes": [
+    "masked_or_subset_tracks_inside_existing_32track_geometry_as_main_stage3_teacher_design",
+    "claiming masked/subset-N as clean variable-N generalisation"
+  ],
+  "most_relevant_files": [
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_masked_v02_method_c_validation_caes_and_inputs.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_masked_UST_probe40_v01_from_handoff.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_32track_masked_v01_caes_and_inputs.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_masked_v02_method_c_remaining24_unique_inps.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_32track_strategy_caes_from_base.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_full20_2d_strategy_caes_and_inputs.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\build_stage1_full10_2d_strategy_caes.py",
+    "LDED_2D_CAE_Framework\\cae_models\\32track_learned_hybrid_top5_v01\\build_learned_hybrid_top5_fulltrack_inps.py",
+    "LDED_2D_CAE_Framework\\cae_models\\32track_random20_v01\\build_random20_fulltrack_inps.py",
+    "LDED_2D_CAE_Framework\\cae_models\\64track_full\\prototype_5strategy_v01\\build_64track_prototype_5strategy.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\generate_method_c_batch_cae_inp_v01.py",
+    "LDED_2D_CAE_Framework\\abaqus_scripts\\complete_2d_32track_scan_steps_with_final_cooling.py"
+  ],
+  "required_changes": [
+    "R04-C01",
+    "R04-C02",
+    "R04-C03",
+    "R04-C04",
+    "R04-C05",
+    "R04-C06"
+  ],
+  "next_run": "run_05_true_variable_n_cae_generator_adapter_dryrun"
+}

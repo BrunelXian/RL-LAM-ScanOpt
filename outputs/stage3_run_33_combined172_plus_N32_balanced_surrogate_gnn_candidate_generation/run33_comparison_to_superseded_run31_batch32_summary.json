@@ -1,0 +1,9 @@
+{
+  "status": "RUN33_COMPARED_TO_SUPERSEDED_RUN31_BATCH32",
+  "superseded_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_30_run29_hybrid_policy_batch32_handoff_package\\stage3_run30_hybrid_policy_batch32_candidate_orders.csv",
+  "new_option_a_rows": 32,
+  "old_rows": 32,
+  "exact_overlap_count": 0,
+  "exact_overlap_fraction": 0.0,
+  "headline": "Option A is a fresh N32-informed candidate set replacing the superseded Run31 batch; exact overlap is reported, not reused as approval."
+}

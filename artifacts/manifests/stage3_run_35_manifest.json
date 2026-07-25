@@ -1,0 +1,53 @@
+{
+  "run_id": "run_35",
+  "run_name": "run_35_N32_informed_native_batch32_cae_inp_generation",
+  "timestamp": "2026-06-13T15:18:19+08:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "selected_batch": "run33_N32_informed_native_batch32",
+  "batch_name": "stage3_run34_N32_informed_native_batch32_v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_35_preflight_N32_informed_native_batch32_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_35_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_35_generate_N32_informed_native_batch32_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_35_check_N32_informed_native_batch32_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_35_validate_N32_informed_native_batch32_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_34_run33_N32_informed_native_batch32_handoff_package\\stage3_run34_N32_informed_native_batch32_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_34_run33_N32_informed_native_batch32_handoff_package\\scan_orders"
+  },
+  "output_files": {
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_cae_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_cae_generation_manifest.json",
+    "inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_generated_inp_check_summary.json",
+    "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\run35_claim_boundary.md",
+    "claim_boundary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\run35_claim_boundary.json",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_35_N32_informed_native_batch32_cae_inp_generation\\RUN_35_N32_INFORMED_NATIVE_BATCH32_CAE_INP_GENERATION_REPORT.md"
+  },
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01",
+  "generated_case_count": 32,
+  "per_n_generated_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 12,
+    "40": 12
+  },
+  "includes_N32_cases": false,
+  "supersedes_old_Run31": true,
+  "generated_cae_count": 32,
+  "generated_inp_count": 32,
+  "n40_cool_initialInc": 0.001,
+  "generated_command_file_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_35_N32_informed_native_batch32_cae_inp_generation\\RUN_35_N32_INFORMED_NATIVE_BATCH32_CAE_INP_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\run35_claim_boundary.md",
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

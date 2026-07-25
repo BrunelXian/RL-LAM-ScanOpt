@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-14T07:08:16.553937+00:00",
+  "verdict": "PASS_RUN44_CONSTRAINED_N24_N40_BATCH32_INPUT_READY",
+  "errors": [],
+  "input_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_constrained_N24_N40_batch32_candidate_orders.csv",
+  "row_count": 32,
+  "per_N_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "comparison_overlap_status": {
+    "overlap_combined264_teacher_orders": 0,
+    "overlap_run41": 0,
+    "overlap_run36": 0,
+    "overlap_run27": 0,
+    "overlap_superseded_run31": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prediction_column_used_for_reward": "constrained_reward_prediction",
+  "prediction_column_used_for_u2": "surrogate_prediction",
+  "overall_reward_spearman": -0.11305355146557049,
+  "overall_constrained_reward_spearman": -0.09118973917481546,
+  "overall_u2_spearman": -0.033369120731641264,
+  "top1_hit": "1/2",
+  "mean_top5_overlap": 2.5,
+  "per_n": {
+    "N24": {
+      "count": 16,
+      "reward_spearman": -0.09533273239401217,
+      "constrained_reward_spearman": 0.03536536846874646,
+      "top5_overlap": 2,
+      "predicted_top1": "S3R44CNS_N24_B01_reward_balanced",
+      "realized_top1": "S3R44CNS_N24_B16_uncertainty",
+      "u2_spearman": -0.02116130293527289
+    },
+    "N40": {
+      "count": 16,
+      "reward_spearman": -0.3675385261144965,
+      "constrained_reward_spearman": -0.3617352862284781,
+      "top5_overlap": 3,
+      "predicted_top1": "S3R44CNS_N40_B01_reward_balanced",
+      "realized_top1": "S3R44CNS_N40_B01_reward_balanced",
+      "u2_spearman": -0.08401680504168059
+    }
+  },
+  "by_selection_bucket": {},
+  "gnn_vs_surrogate_disagreement_vs_abs_error_spearman": 0.04214019789892494,
+  "uncertainty_score_vs_abs_error_spearman": 0.05058651026392961,
+  "novelty_distance_vs_abs_error_spearman": 0.5939756055857847
+}

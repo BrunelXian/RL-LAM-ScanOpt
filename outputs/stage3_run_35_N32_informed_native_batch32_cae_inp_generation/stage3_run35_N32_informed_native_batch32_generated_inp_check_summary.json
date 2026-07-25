@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS_RUN35_N32_INFORMED_NATIVE_BATCH32_32_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 32,
+  "pass_count": 32,
+  "per_n_pass_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 12,
+    "40": 12
+  },
+  "total_cae_count": 32,
+  "total_inp_count": 32,
+  "solver_output_count": 0,
+  "n32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_generated_inp_check.csv"
+}

@@ -1,0 +1,49 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-28T10:23:11.538781+00:00",
+  "input_dataset_paths": {
+    "v03_teacher_dataset": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\data\\v03_N24_N40_teacher_dataset.csv"
+  },
+  "v03_teacher_dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\data\\v03_N24_N40_teacher_dataset.csv",
+  "surrogate_model_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\surrogate_v03\\models\\N24_v03_lex_primary_surrogate.joblib",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\surrogate_v03\\models\\N40_v03_lex_primary_surrogate.joblib"
+  ],
+  "PPO_checkpoint_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N24_seed20260627_maskable_ppo_v03.zip",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N40_seed20260627_maskable_ppo_v03.zip"
+  ],
+  "rollout_pool_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\rollout_pool\\v03_ppo_rollout_pool.csv",
+  "selected_batch_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\v03_ppo_lex_primary_N24_N40_candidate_batch32.csv",
+  "scan_order_JSON_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\scan_orders",
+  "audit_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\tables\\v03_candidate_legality_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\tables\\v03_candidate_novelty_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\tables\\v03_candidate_score_summary_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\tables\\v03_surfaceT_false_positive_screening.csv"
+  ],
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_LEX_PRIMARY_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_LEX_PRIMARY_CLAIM_BOUNDARY.md",
+  "selected_counts_by_N": {
+    "24": 16,
+    "40": 16
+  },
+  "rollout_pool_size_by_N": {
+    "24": 121,
+    "40": 161
+  },
+  "unique_orders_by_N": {
+    "24": 121,
+    "40": 161
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_CAE_INP_JNL": true,
+  "no_teacher_validation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_PPO_V03_LEX_PRIMARY_BATCH32_READY_FOR_CAE_INP_HANDOFF"
+}

@@ -1,0 +1,88 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-12T12:46:35.879357+00:00",
+    "verdict": "WARNING_RUN20_BATCH28_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 28,
+    "total_audited": 28,
+    "total_complete": 28,
+    "total_warning": 28,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "by_N": {
+      "N12": {
+        "expected": 4,
+        "audited": 4,
+        "complete": 4,
+        "warning": 4,
+        "failed_or_incomplete": 0
+      },
+      "N16": {
+        "expected": 4,
+        "audited": 4,
+        "complete": 4,
+        "warning": 4,
+        "failed_or_incomplete": 0
+      },
+      "N24": {
+        "expected": 10,
+        "audited": 10,
+        "complete": 10,
+        "warning": 10,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 10,
+        "audited": 10,
+        "complete": 10,
+        "warning": 10,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-12T12:46:51.060255+00:00",
+    "verdict": "PASS_RUN20_BATCH28_ODB_TEACHER_VALIDATION_28_OF_28",
+    "total_expected": 28,
+    "total_extracted": 28,
+    "total_pass": 28,
+    "total_failed": 0,
+    "by_N": {
+      "N12": {
+        "expected": 4,
+        "extracted": 4,
+        "failed": 0
+      },
+      "N16": {
+        "expected": 4,
+        "extracted": 4,
+        "failed": 0
+      },
+      "N24": {
+        "expected": 10,
+        "extracted": 10,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 10,
+        "extracted": 10,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_odb_modified": false,
+    "batch24_processed": false,
+    "mixed_with_probe60_or_run08_run16": false
+  }
+}

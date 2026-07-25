@@ -1,0 +1,17 @@
+{
+  "current_branch": "stage2-final-evidence-freeze-v01",
+  "candidate_files_found": 4247,
+  "schemas_inspected": 3039,
+  "best_source": "D:\\Projects\\RL-LAM-ScanOpt\\rl-training\\v01\\outputs\\surface_tensile_gradient_full_field_label_backfill_v03\\canonical_full_field_surface_gradient_teacher_labels_v03.csv",
+  "preview_rows": 336,
+  "duplicate_order_hash_rows": 4,
+  "verdict": "WARNING_N32_LEGACY_TEACHER_DATA_PARTIAL",
+  "output_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_n32_legacy_teacher_data_audit",
+  "forbidden_actions": {
+    "abaqus_run": false,
+    "odb_opened": false,
+    "solver_run": false,
+    "training_run": false,
+    "candidates_generated": false
+  }
+}

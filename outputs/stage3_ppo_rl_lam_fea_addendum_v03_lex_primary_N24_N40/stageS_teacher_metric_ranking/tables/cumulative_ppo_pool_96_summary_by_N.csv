@@ -1,0 +1,5 @@
+n,total_ppo_count,count_by_ppo_version,best_PPO_U2_candidate,best_PPO_U2_value_or_rank,best_PPO_PEEQ_candidate,best_PPO_PEEQ_value_or_rank,best_PPO_SurfaceT_candidate,best_PPO_SurfaceT_value_or_rank,best_PPO_primary_lex_candidate,best_PPO_primary_lex_value_or_rank,best_PPO_diagnostic_Mises_candidate,best_PPO_diagnostic_Mises_value_or_rank,primary_topk_count,new_record_count,comparison_against_combined552_best
+12,8,"{""v01"": 8}",,,,,,,,,,,,,
+16,8,"{""v01"": 8}",,,,,,,,,,,,,
+24,40,"{""v02K2"": 16, ""v03"": 16, ""v01"": 8}",PPOV02_N24_B16_novelty_tophalf,9.453498660150216e-05,PPOV01_N24_B07_novelty_tophalf,0.1512520015239715,PPOV03_N24_B08_u2_guarded,581186176.0,PPOV02_N24_B16_novelty_tophalf,114.0,PPOV02_N24_B01_deterministic,579943296.0,8.0,0.0,no combined552 best beat
+40,40,"{""v02K2"": 16, ""v03"": 16, ""v01"": 8}",PPOV02K2_N40_B03_top_reward,0.0004007218865353,PPOV01_N40_B06_diverse_tophalf,0.1537813395261764,PPOV02K2_N40_B14_novelty_tophalf,581153472.0,PPOV01_N40_B03_surrogate_top,147.0,PPOV01_N40_B05_diverse_tophalf,579925504.0,16.0,0.0,no combined552 best beat

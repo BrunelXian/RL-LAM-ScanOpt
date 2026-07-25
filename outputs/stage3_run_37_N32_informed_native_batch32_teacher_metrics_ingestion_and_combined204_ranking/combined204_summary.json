@@ -1,0 +1,40 @@
+{
+  "rows": 204,
+  "per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 66,
+    "40": 66
+  },
+  "contains_N32": false,
+  "best_by_N": {
+    "12": {
+      "best_u2": "S3B20_N12_B02_diversity_top",
+      "best_peeq": "N12_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "best_surfaceT": "N12_A09_center_edge_alternating",
+      "best_mises": "N12_A06_edge_in_alternating",
+      "best_reward": "S3B20_N12_B02_diversity_top"
+    },
+    "16": {
+      "best_u2": "S3R24L64_N16_B02_top_region",
+      "best_peeq": "S3B20_N16_B04_surrogate_top",
+      "best_surfaceT": "N16_A09_center_edge_alternating",
+      "best_mises": "N16_A07_regular_jump_coprime",
+      "best_reward": "S3R24L64_N16_B02_top_region"
+    },
+    "24": {
+      "best_u2": "S3R34N32INF_N24_B10_n24_calibration",
+      "best_peeq": "S3R19B28_N24_B07_control_sentinel",
+      "best_surfaceT": "S3R24L64_N24_B06_model_disagreement",
+      "best_mises": "N24_A06_edge_in_alternating",
+      "best_reward": "S3R34N32INF_N24_B11_n24_calibration"
+    },
+    "40": {
+      "best_u2": "S3R34N32INF_N40_B08_n40_best_near",
+      "best_peeq": "S3R19B28_N40_B05_diversity_top",
+      "best_surfaceT": "S3R19B28_N40_B06_uncertainty_calibration",
+      "best_mises": "N40_A07_regular_jump_coprime",
+      "best_reward": "S3R24L64_N40_B23_exploitation_reference"
+    }
+  }
+}

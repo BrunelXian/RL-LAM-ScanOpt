@@ -1,0 +1,71 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "input_table": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\stage3_final_native_best_strategy_table.csv",
+  "N_processed": 16,
+  "objectives_processed": [
+    "best_u2_primary",
+    "best_constrained_reward",
+    "best_strict_penalty_guard",
+    "best_penalty_repair",
+    "best_U2"
+  ],
+  "output_files": {
+    "score_vectors": [
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_vectors\\N16_best_u2_primary_s_1d.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_vectors\\N16_best_constrained_reward_s_1d.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_vectors\\N16_best_strict_penalty_guard_s_1d.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_vectors\\N16_best_penalty_repair_s_1d.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_vectors\\N16_best_U2_s_1d.csv"
+    ],
+    "score_matrices": [
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_matrices\\N16_best_u2_primary_snew_2d_unit_16x16.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_matrices\\N16_best_constrained_reward_snew_2d_unit_16x16.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_matrices\\N16_best_strict_penalty_guard_snew_2d_unit_16x16.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_matrices\\N16_best_penalty_repair_snew_2d_unit_16x16.csv",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\score_matrices\\N16_best_U2_snew_2d_unit_16x16.csv"
+    ],
+    "summary_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\reports\\n16_focused_score_lift_summary.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\reports\\n16_focused_score_lift_summary.json",
+    "markdown_report": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\reports\\N16_FOCUSED_SCORE_LIFT_VISUAL_CHECK.md"
+  },
+  "plots_generated": {
+    "bar_plots": [
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_u2_primary_s_1d_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_constrained_reward_s_1d_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_strict_penalty_guard_s_1d_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_penalty_repair_s_1d_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_U2_s_1d_bar.png"
+    ],
+    "heatmaps": [
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_u2_primary_snew_2d_heatmap.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_constrained_reward_snew_2d_heatmap.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_strict_penalty_guard_snew_2d_heatmap.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_penalty_repair_snew_2d_heatmap.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_U2_snew_2d_heatmap.png"
+    ],
+    "combined_plots": [
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_u2_primary_combined_score_lift.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_constrained_reward_combined_score_lift.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_strict_penalty_guard_combined_score_lift.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_penalty_repair_combined_score_lift.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_U2_combined_score_lift.png"
+    ],
+    "rank_bars": [
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_u2_primary_order_rank_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_constrained_reward_order_rank_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_strict_penalty_guard_order_rank_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_penalty_repair_order_rank_bar.png",
+      "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\plots\\N16_best_U2_order_rank_bar.png"
+    ]
+  },
+  "timestamp": "2026-06-21T12:22:21.586467+00:00",
+  "no_scan_order_generated": true,
+  "no_256_path_generated": true,
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_training": true,
+  "no_teacher_validation": true,
+  "no_commit_or_push": true
+}

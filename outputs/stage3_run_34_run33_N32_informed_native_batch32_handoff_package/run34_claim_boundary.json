@@ -1,0 +1,22 @@
+{
+  "verdict": "RUN34_N32_INFORMED_NATIVE_BATCH32_HANDOFF_ONLY_NO_CAE_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "Run34 packages selected Run33 Option A N32-informed native batch32 candidates for human review and future CAE generation.",
+    "The selected batch contains N12=4, N16=4, N24=12, N40=12.",
+    "No N32 candidates are included in the selected batch.",
+    "The candidates were generated after N32 legacy-compatible training data was inserted into the modelling workflow.",
+    "Handoff files include scan orders, metadata, future CAE manifest template, and abqjobpilot command template.",
+    "No CAE/INP files were generated."
+  ],
+  "unsafe_claims": [
+    "candidates are teacher-validated.",
+    "N32 caused performance improvement.",
+    "physical superiority.",
+    "GNN-RL has beaten baselines.",
+    "online RL with Abaqus.",
+    "arbitrary-N generalization.",
+    "surrogate/GNN/hybrid predictions are ground truth.",
+    "abqjobpilot commands are ready to execute.",
+    "CAE/INP files exist."
+  ]
+}

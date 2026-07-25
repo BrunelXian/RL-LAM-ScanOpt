@@ -1,0 +1,6 @@
+{
+  "policy_parameter_count_total": 72937,
+  "policy_parameter_count_trainable": 72937,
+  "algorithm": "MaskablePPO",
+  "policy": "MlpPolicy"
+}

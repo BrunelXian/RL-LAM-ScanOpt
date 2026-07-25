@@ -1,0 +1,19 @@
+{
+  "safe_claims": [
+    "CAE/INP/JNL generated for selected Run30 hybrid-policy batch32 only",
+    "counts N12=4 N16=4 N24=12 N40=12",
+    "INPs passed text/mesh/final-cooling checks",
+    "validated custom abqjobpilot command file created",
+    "no solver submitted by Codex"
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical improvement",
+    "ODB results",
+    "solver completion",
+    "RL policy training",
+    "GNN-RL superiority",
+    "arbitrary-N generalization",
+    "abqjobpilot/enqueue execution"
+  ]
+}

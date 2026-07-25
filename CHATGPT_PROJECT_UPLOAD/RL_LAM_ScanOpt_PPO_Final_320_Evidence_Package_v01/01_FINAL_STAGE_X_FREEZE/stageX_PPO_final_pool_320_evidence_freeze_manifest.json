@@ -1,0 +1,61 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-07-01T08:35:18",
+  "final_PPO_pool_count": 320,
+  "by_N_counts": {
+    "12": 40,
+    "16": 40,
+    "24": 120,
+    "40": 120
+  },
+  "input_paths": {
+    "final_ppo_pool": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metrics.csv",
+    "combined552_plus_ppo": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\combined552_plus_ppo_final_pool_320_analysis_dataset.csv",
+    "ranking_full": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metric_ranking_full.csv",
+    "claim_decision": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_claim_decision_table.csv",
+    "stageW_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_RANKING_AND_COMPARISON_REPORT.md",
+    "stageW_claim_boundary": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_CLAIM_BOUNDARY.md",
+    "stageW_manifest": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\stageW_final_ppo_pool_320_analysis_manifest.json",
+    "combined552_reference": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv"
+  },
+  "frozen_table_paths": {
+    "final_ppo_pool": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_PPO_final_pool_320_teacher_metrics.csv",
+    "combined552_plus_ppo": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_combined552_plus_PPO_final_pool_320_analysis_dataset.csv",
+    "ranking_full": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_PPO_final_pool_320_teacher_metric_ranking_full.csv",
+    "claim_decision": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_PPO_final_pool_320_claim_decision_table.csv",
+    "topk_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_topk_competitive_candidates.csv",
+    "topk_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_topk_summary_by_N.csv",
+    "topk_by_version": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_topk_summary_by_version.csv",
+    "new_records": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_new_record_candidates.csv",
+    "bootstrap_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_vs_bootstrap_random_reference_by_N.csv",
+    "bootstrap_global": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_vs_bootstrap_random_reference_global.csv",
+    "baseline_comparison": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_vs_identified_baseline_families.csv",
+    "baseline_inventory": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_identified_baseline_family_inventory.csv",
+    "industrial_proxy_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_industrial_efficiency_proxy_summary.csv",
+    "industrial_proxy_vs_teacher": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_efficiency_proxy_vs_teacher_metrics.csv",
+    "version_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_version_summary.csv",
+    "best_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_ppo_final_pool_320_best_candidates_by_N.csv",
+    "final_expansion_vs_prior": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\frozen_tables\\FROZEN_final_expansion_vs_prior_ppo_by_N.csv"
+  },
+  "manuscript_table_paths": {
+    "composition": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\manuscript_tables\\PPO_final_pool_320_composition_for_manuscript.csv",
+    "main_results": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\manuscript_tables\\PPO_final_pool_320_main_results_for_manuscript.csv",
+    "safe_claims": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\manuscript_tables\\PPO_final_pool_320_safe_claims_for_manuscript.csv",
+    "claim_decision_copy": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\manuscript_tables\\PPO_final_pool_320_claim_decision_for_manuscript.csv"
+  },
+  "hash_table_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_evidence_freeze\\hashes\\FROZEN_PPO_final_pool_320_file_hashes.csv",
+  "evidence_index_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_evidence_freeze\\PPO_FINAL_POOL_320_EVIDENCE_INDEX.md",
+  "final_claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_evidence_freeze\\PPO_FINAL_POOL_320_FINAL_CLAIM_BOUNDARY.md",
+  "manuscript_integration_memo_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_evidence_freeze\\PPO_FINAL_POOL_320_MANUSCRIPT_INTEGRATION_MEMO.md",
+  "final_report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_evidence_freeze\\PPO_FINAL_POOL_320_EVIDENCE_FREEZE_REPORT.md",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_STAGEX_PPO_FINAL_POOL_320_EVIDENCE_FREEZE_BOUNDED_NO_NEW_RECORDS"
+}

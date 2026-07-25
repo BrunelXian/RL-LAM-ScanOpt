@@ -1,0 +1,117 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-07-01T08:35:18",
+  "verdict": "PASS_STAGEX_PPO_FINAL_EVIDENCE_PREFLIGHT_READY",
+  "stageW_final_verdict": "PASS_STAGEW_PPO_FINAL_POOL_320_BOUNDED_NO_NEW_RECORDS",
+  "final_PPO_pool_count": 320,
+  "by_N_counts": {
+    "12": 40,
+    "16": 40,
+    "24": 120,
+    "40": 120
+  },
+  "checks": [
+    {
+      "check": "final_ppo_pool_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metrics.csv",
+      "value": ""
+    },
+    {
+      "check": "combined552_plus_ppo_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\combined552_plus_ppo_final_pool_320_analysis_dataset.csv",
+      "value": ""
+    },
+    {
+      "check": "ranking_full_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metric_ranking_full.csv",
+      "value": ""
+    },
+    {
+      "check": "claim_decision_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_claim_decision_table.csv",
+      "value": ""
+    },
+    {
+      "check": "stageW_report_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_RANKING_AND_COMPARISON_REPORT.md",
+      "value": ""
+    },
+    {
+      "check": "stageW_claim_boundary_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_CLAIM_BOUNDARY.md",
+      "value": ""
+    },
+    {
+      "check": "stageW_manifest_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\stageW_final_ppo_pool_320_analysis_manifest.json",
+      "value": ""
+    },
+    {
+      "check": "combined552_reference_exists",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+      "value": ""
+    },
+    {
+      "check": "stageW_final_verdict",
+      "status": "PASS",
+      "detail": "expected PASS_STAGEW_PPO_FINAL_POOL_320_BOUNDED_NO_NEW_RECORDS",
+      "value": "PASS_STAGEW_PPO_FINAL_POOL_320_BOUNDED_NO_NEW_RECORDS"
+    },
+    {
+      "check": "final_ppo_pool_row_count",
+      "status": "PASS",
+      "detail": "expected 320 rows",
+      "value": 320
+    },
+    {
+      "check": "final_ppo_pool_by_N_counts",
+      "status": "PASS",
+      "detail": "{\"12\": 40, \"16\": 40, \"24\": 120, \"40\": 120}",
+      "value": "{\"12\": 40, \"16\": 40, \"24\": 120, \"40\": 120}"
+    },
+    {
+      "check": "ranking_full_ready",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metric_ranking_full.csv",
+      "value": ""
+    },
+    {
+      "check": "claim_decision_ready",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_claim_decision_table.csv",
+      "value": ""
+    },
+    {
+      "check": "stageW_report_ready",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_RANKING_AND_COMPARISON_REPORT.md",
+      "value": ""
+    },
+    {
+      "check": "stageW_claim_boundary_ready",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_CLAIM_BOUNDARY.md",
+      "value": ""
+    },
+    {
+      "check": "combined552_reference_ready",
+      "status": "PASS",
+      "detail": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+      "value": ""
+    }
+  ],
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_training": true,
+  "no_candidate_generation": true
+}

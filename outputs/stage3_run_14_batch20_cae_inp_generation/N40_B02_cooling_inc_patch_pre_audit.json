@@ -1,0 +1,84 @@
+{
+  "case_dir": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top",
+  "strict_abaqus_process_count": 1,
+  "case_process_count": 1,
+  "strict_abaqus_processes": [
+    {
+      "ProcessId": 6016,
+      "ParentProcessId": 6944,
+      "Name": "ABAQUSLM.exe",
+      "CommandLine": null,
+      "CreationDate": "/Date(1781170326767)/"
+    }
+  ],
+  "case_processes": [
+    {
+      "ProcessId": 27692,
+      "ParentProcessId": 3340,
+      "Name": "powershell.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Command \"try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\n@'\nimport json, re, subprocess\nfrom pathlib import Path\nfrom datetime import datetime\nroot=Path(r'E:\\Projects\\RL-LAM-ScanOpt')\ncase=root/'cae_model/stage3_run13_batch20_surrogate_screened_v01/N40S3B20_N40_B02_diversity_top'\njob='J2D_S3B20_N40_B02_diversity_top'\nps=r'''\n$procs = Get-CimInstance Win32_Process | Select-Object ProcessId,ParentProcessId,Name,CommandLine,CreationDate\n$procs | ConvertTo-Json -Depth 4\n'''\ncp=subprocess.run(['powershell','-NoProfile','-Command',ps],capture_output=True,text=True,errors='replace')\ntry:\n    data=json.loads(cp.stdout) if cp.stdout.strip() else []\nexcept Exception:\n    data=[]\nif isinstance(data,dict): data=[data]\nstrict=re.compile(r'^(abaqus.*|abq.*|standard.*|explicit.*|pre\\.exe|package\\.exe|solver.*|analysis.*)\\.exe$',re.I)\nstrict_hits=[]; case_hits=[]\nfor p in data:\n    name=str(p.get('Name','') or '')\n    cmd=str(p.get('CommandLine','') or '')\n    blob=(name+' '+cmd).lower()\n    if strict.match(name): strict_hits.append(p)\n    if str(case).lower() in blob or job.lower() in blob: case_hits.append(p)\nfiles={}\nfor ext in ['cae','inp','jnl','odb','sim','sta','dat','msg','lck','generation_log.json']:\n    if ext == 'generation_log.json': paths=sorted(case.glob('*.generation_log.json'))\n    else: paths=sorted(case.glob(f'*.{ext}'))\n    files[ext]=[{'path':str(p),'size':p.stat().st_size,'mtime':datetime.fromtimestamp(p.stat().st_mtime).isoformat(timespec='seconds')} for p in paths]\nout=root/'outputs/stage3_run_14_batch20_cae_inp_generation/N40_B02_cooling_inc_patch_pre_audit.json'\nout.parent.mkdir(parents=True,exist_ok=True)\nsummary={'case_dir':str(case),'strict_abaqus_process_count':len(strict_hits),'case_process_count':len(case_hits),'strict_abaqus_processes':strict_hits,'case_processes':case_hits,'files':files,'lck_count':len(files['lck'])}\nout.write_text(json.dumps(summary,indent=2),encoding='utf-8')\nprint(json.dumps({'case_dir':str(case),'strict_abaqus_process_count':len(strict_hits),'case_process_count':len(case_hits),'lck_count':len(files['lck']),'cae_count':len(files['cae']),'inp_count':len(files['inp']),'audit':str(out)},indent=2))\nif len(case_hits)>0 or len(files['lck'])>0:\n    raise SystemExit(1)\n'@ | & \\\"D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe\\\" -\"",
+      "CreationDate": "/Date(1781239164568)/"
+    }
+  ],
+  "files": {
+    "cae": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.cae",
+        "size": 471040,
+        "mtime": "2026-06-12T09:33:59"
+      }
+    ],
+    "inp": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.inp",
+        "size": 137899,
+        "mtime": "2026-06-12T09:33:59"
+      }
+    ],
+    "jnl": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.jnl",
+        "size": 172,
+        "mtime": "2026-06-12T09:33:59"
+      }
+    ],
+    "odb": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.odb",
+        "size": 181224084,
+        "mtime": "2026-06-12T11:31:50"
+      }
+    ],
+    "sim": [],
+    "sta": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.sta",
+        "size": 76599,
+        "mtime": "2026-06-12T11:31:44"
+      }
+    ],
+    "dat": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.dat",
+        "size": 225239,
+        "mtime": "2026-06-12T11:31:44"
+      }
+    ],
+    "msg": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.msg",
+        "size": 6103960,
+        "mtime": "2026-06-12T11:31:44"
+      }
+    ],
+    "lck": [],
+    "generation_log.json": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.generation_log.json",
+        "size": 9782,
+        "mtime": "2026-06-12T09:33:59"
+      }
+    ]
+  },
+  "lck_count": 0
+}

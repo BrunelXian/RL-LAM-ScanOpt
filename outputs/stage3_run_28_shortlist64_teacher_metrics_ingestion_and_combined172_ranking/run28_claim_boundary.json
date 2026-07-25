@@ -1,0 +1,20 @@
+{
+  "verdict": "RUN28_SHORTLIST64_INGESTION_AND_COMBINED172_RANKING_ONLY_NOT_GNN_VALIDATION",
+  "safe_claims": [
+    "Run28 ingests 64/64 teacher-validated Run27 shortlist64 cases.",
+    "Run28 builds combined172 with N12=32, N16=32, N24=54, N40=54.",
+    "Run28 recomputes within-N ranks and U2-primary rewards.",
+    "Run28 evaluates whether Run27 shortlist64 active-learning candidates beat combined108 best cases.",
+    "Run28 audits Run23 prediction/calibration against realized Run27 teacher metrics.",
+    "Run28 does not validate Run26 GNN-policy candidates."
+  ],
+  "unsafe_claims": [
+    "Run27 is GNN-policy validation.",
+    "online RL success.",
+    "arbitrary-N generalization.",
+    "physical optimum.",
+    "deployment readiness.",
+    "feature importance or bucket performance is causal.",
+    "solver/ODB extraction happened in Run28."
+  ]
+}

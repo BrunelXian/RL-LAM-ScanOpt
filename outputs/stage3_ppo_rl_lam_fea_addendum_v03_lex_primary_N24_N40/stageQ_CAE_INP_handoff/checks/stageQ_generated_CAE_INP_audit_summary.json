@@ -1,0 +1,26 @@
+{
+  "verdict": "PASS_STAGEQ_V03_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER",
+  "checked_count": 32,
+  "pass_count": 32,
+  "cae_counts_by_n": {
+    "24": 16,
+    "40": 16
+  },
+  "inp_counts_by_n": {
+    "24": 16,
+    "40": 16
+  },
+  "solver_output_count": 0,
+  "forbidden_case_dirs": [],
+  "failed": [],
+  "command_file": {
+    "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\commands\\stageQ_v03_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_count": 32,
+    "per_n_counts": {
+      "24": 16,
+      "40": 16
+    },
+    "errors": []
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\checks\\stageQ_generated_CAE_INP_audit.csv"
+}

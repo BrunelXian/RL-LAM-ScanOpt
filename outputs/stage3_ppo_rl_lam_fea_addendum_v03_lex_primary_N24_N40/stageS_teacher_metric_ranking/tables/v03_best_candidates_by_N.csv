@@ -1,0 +1,11 @@
+n,best_type,strategy_name,value,ref_rank_u2,ref_rank_peeq,ref_rank_surfaceT,ref_rank_mises,ref_lex_rank,is_new_record,is_top25pct
+24,best_U2,PPOV03_N24_B06_u2_guarded,0.0001702423680853,139,179,87,165,139.0,False,False
+24,best_PEEQ,PPOV03_N24_B02_top_v03_score,0.1666601449251175,167,172,16,115,167.0,False,False
+24,best_SurfaceT,PPOV03_N24_B08_u2_guarded,581186176.0,167,177,10,138,167.0,False,True
+24,best_primary_lex,PPOV03_N24_B05_top_v03_score,139.0,139,179,149,156,139.0,False,False
+24,best_diagnostic_Mises,PPOV03_N24_B12_lex_primary_novel,579943936.0,162,186,157,82,162.0,False,False
+40,best_U2,PPOV03_N40_B02_top_v03_score,0.0007193772387381,165,143,192,185,165.0,False,False
+40,best_PEEQ,PPOV03_N40_B13_diverse_upper_quartile,0.1566403955221176,173,100,147,48,173.0,False,False
+40,best_SurfaceT,PPOV03_N40_B03_top_v03_score,582840064.0,177,190,97,66,177.0,False,False
+40,best_primary_lex,PPOV03_N40_B02_top_v03_score,165.0,165,143,192,185,165.0,False,False
+40,best_diagnostic_Mises,PPOV03_N40_B01_top_v03_score,579925824.0,173,172,145,24,173.0,False,True

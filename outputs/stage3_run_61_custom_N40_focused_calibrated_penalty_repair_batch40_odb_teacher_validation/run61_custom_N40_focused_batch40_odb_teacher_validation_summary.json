@@ -1,0 +1,270 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-16T23:49:48.920580+00:00",
+    "verdict": "WARNING_RUN61_CUSTOM_N40_FOCUSED_BATCH40_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 40,
+    "total_audited": 40,
+    "total_complete": 40,
+    "total_warning": 40,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "patched_cases": [],
+    "generation_details": {
+      "includes_N12": false,
+      "includes_N16": false,
+      "includes_N24": true,
+      "includes_N32_cases": false,
+      "includes_N40": true,
+      "generated_CAE_INP_JNL_only_in_run60": true,
+      "final_step_required_for_metrics": "step_final_cooling",
+      "n40_step_cool_initialInc": 0.001,
+      "step_final_cooling_initialInc": 0.01,
+      "step_final_cooling_timePeriod": 1200.0
+    },
+    "run60_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\RUN_60_CUSTOM_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_CAE_INP_GENERATION_REPORT.md",
+    "by_N": {
+      "N24": {
+        "expected": 16,
+        "audited": 16,
+        "complete": 16,
+        "warning": 16,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 24,
+        "audited": 24,
+        "complete": 24,
+        "warning": 24,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-16T23:50:34.733515+00:00",
+    "verdict": "PASS_RUN61_CUSTOM_N40_FOCUSED_BATCH40_ODB_TEACHER_VALIDATION_40_OF_40",
+    "total_expected": 40,
+    "total_extracted": 40,
+    "total_pass": 40,
+    "total_failed": 0,
+    "by_N": {
+      "N24": {
+        "expected": 16,
+        "extracted": 16,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 24,
+        "extracted": 24,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "teacher_metrics_summary": {
+    "timestamp": "2026-06-16T23:50:34.733515+00:00",
+    "run_id": "run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation",
+    "batch_name": "stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+    "total_rows": 40,
+    "fields": [
+      "run_id",
+      "batch_name",
+      "n",
+      "handoff_strategy_name",
+      "patched_after_cool_initialInc_failure",
+      "job_name",
+      "odb_path",
+      "completion_status",
+      "odb_extraction_status",
+      "teacher_validation_status",
+      "final_step_name",
+      "final_frame_time",
+      "extracted_field_names",
+      "missing_required_fields",
+      "notes",
+      "u_node_count",
+      "u2_min",
+      "u2_max",
+      "u2_range",
+      "u2_abs_max",
+      "u2_mean_abs",
+      "u2_rms",
+      "u_magnitude_max",
+      "peeq_value_count",
+      "peeq_max",
+      "peeq_mean",
+      "peeq_fraction_gt_0p002",
+      "peeq_count_gt_0p002",
+      "s_value_count",
+      "mises_max",
+      "mises_mean",
+      "max_principal_stress_max",
+      "max_principal_stress_mean",
+      "surface_t_proxy_max_tensile_pa",
+      "surface_t_proxy_max_tensile_mpa",
+      "nt11_node_count",
+      "nt11_min",
+      "nt11_max",
+      "nt11_mean",
+      "rank_within_N_u2_range",
+      "rank_within_N_peeq_max",
+      "rank_within_N_surface_t_proxy",
+      "rank_within_N_mises_max",
+      "norm_cost_within_N_u2_range",
+      "norm_cost_within_N_peeq_max",
+      "norm_cost_within_N_surface_t_proxy",
+      "norm_cost_within_N_mises_max"
+    ],
+    "by_N": {
+      "N24": {
+        "count": 16,
+        "u2_range": {
+          "min": 4.353990880190395e-05,
+          "max": 0.0005571060927422877,
+          "mean": 0.00017793176009917033
+        },
+        "u2_abs_max": {
+          "min": 3.430181823205203e-05,
+          "max": 0.0005557509721256793,
+          "mean": 0.00017423336043975723
+        },
+        "peeq_max": {
+          "min": 0.1492166519165039,
+          "max": 0.18925029039382935,
+          "mean": 0.1625048266723752
+        },
+        "peeq_mean": {
+          "min": 0.06379016141484802,
+          "max": 0.07429665401249598,
+          "mean": 0.06742659500448027
+        },
+        "peeq_fraction_gt_0p002": {
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        "mises_max": {
+          "min": 579942912.0,
+          "max": 579944832.0,
+          "mean": 579943868.0
+        },
+        "mises_mean": {
+          "min": 579941091.4871795,
+          "max": 579943080.2307693,
+          "mean": 579942062.8173077
+        },
+        "max_principal_stress_max": {
+          "min": 581617920.0,
+          "max": 587159872.0,
+          "mean": 582745624.0
+        },
+        "surface_t_proxy_max_tensile_pa": {
+          "min": 581617920.0,
+          "max": 587159872.0,
+          "mean": 582745624.0
+        },
+        "surface_t_proxy_max_tensile_mpa": {
+          "min": 581.61792,
+          "max": 587.159872,
+          "mean": 582.7456239999999
+        },
+        "nt11_min": {
+          "min": 20.088258743286133,
+          "max": 20.091354370117188,
+          "mean": 20.089841842651367
+        },
+        "nt11_max": {
+          "min": 20.092491149902344,
+          "max": 20.095718383789062,
+          "mean": 20.094139575958252
+        },
+        "nt11_mean": {
+          "min": 20.091023500922585,
+          "max": 20.094204896161344,
+          "mean": 20.092650013391662
+        }
+      },
+      "N40": {
+        "count": 24,
+        "u2_range": {
+          "min": 5.130235695105512e-05,
+          "max": 0.00020896035312034655,
+          "mean": 9.608542233271085e-05
+        },
+        "u2_abs_max": {
+          "min": 3.1716859666630626e-05,
+          "max": 0.00019651924958452582,
+          "mean": 7.887878382462077e-05
+        },
+        "peeq_max": {
+          "min": 0.1516209989786148,
+          "max": 0.17563994228839874,
+          "mean": 0.15794606258471808
+        },
+        "peeq_mean": {
+          "min": 0.0697719881164154,
+          "max": 0.07252425741032875,
+          "mean": 0.07069379345661478
+        },
+        "peeq_fraction_gt_0p002": {
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        "mises_max": {
+          "min": 579926528.0,
+          "max": 579928576.0,
+          "mean": 579927341.3333334
+        },
+        "mises_mean": {
+          "min": 579922631.6031746,
+          "max": 579924734.1111112,
+          "mean": 579923530.2142859
+        },
+        "max_principal_stress_max": {
+          "min": 582004416.0,
+          "max": 589684288.0,
+          "mean": 583117066.6666666
+        },
+        "surface_t_proxy_max_tensile_pa": {
+          "min": 582004416.0,
+          "max": 589684288.0,
+          "mean": 583117066.6666666
+        },
+        "surface_t_proxy_max_tensile_mpa": {
+          "min": 582.004416,
+          "max": 589.684288,
+          "mean": 583.1170666666667
+        },
+        "nt11_min": {
+          "min": 20.11428451538086,
+          "max": 20.11763572692871,
+          "mean": 20.116273800532024
+        },
+        "nt11_max": {
+          "min": 20.123292922973633,
+          "max": 20.126741409301758,
+          "mean": 20.125266393025715
+        },
+        "nt11_mean": {
+          "min": 20.12036520570189,
+          "max": 20.12372757596478,
+          "mean": 20.122290168758443
+        }
+      }
+    }
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

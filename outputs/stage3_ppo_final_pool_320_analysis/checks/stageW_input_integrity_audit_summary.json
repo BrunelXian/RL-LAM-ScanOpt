@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_STAGEW_FINAL_PPO_POOL_INPUTS_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "audit_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\checks\\stageW_input_integrity_audit.csv",
+  "ppo_counts_by_N": {
+    "12": 40,
+    "16": 40,
+    "24": 120,
+    "40": 120
+  },
+  "duplicate_vs_combined552_order_hash_count": 0,
+  "duplicate_vs_combined552_note": "known v01 recovery-anchor duplicate is nonfatal if present",
+  "status_columns_checked": [
+    "teacher_validation_status",
+    "completion_status",
+    "odb_extraction_status"
+  ]
+}

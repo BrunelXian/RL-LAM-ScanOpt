@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN65_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\stage3_run65_variable_N_recovery_anchor_batch48_abqjobpilot_commands_READY_TO_RUN.txt",
+  "command_count": 48,
+  "per_n_command_counts": {
+    "12": 12,
+    "16": 12,
+    "24": 8,
+    "40": 16
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\stage3_run65_variable_N_recovery_anchor_batch48_abqjobpilot_command_validation.csv",
+  "errors": [],
+  "abqjobpilot_executed": false,
+  "enqueue_executed": false
+}

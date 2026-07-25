@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_RUN50_STRICTER_CONSTRAINED_N24_N40_BATCH32_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_49_run48_stricter_constrained_N24_N40_batch32_handoff_package\\stage3_run49_stricter_constrained_N24_N40_batch32_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_49_run48_stricter_constrained_N24_N40_batch32_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run49_stricter_constrained_N24_N40_batch32_v01",
+  "row_count": 32,
+  "per_n_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "selected_batch": "run48_stricter_constrained_N24_N40_batch32",
+  "batch_name": "stage3_run49_stricter_constrained_N24_N40_batch32_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN50_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

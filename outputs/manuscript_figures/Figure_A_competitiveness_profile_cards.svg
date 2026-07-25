@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="800.39952pt" height="261.09576pt" viewBox="0 0 800.39952 261.09576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-26T15:35:21.275250</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 261.09576 
+L 800.39952 261.09576 
+L 800.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.111983 247.209373 
+L 192.287537 247.209373 
+Q 195.743529 247.209373 195.743529 242.910982 
+L 195.743529 30.857008 
+Q 195.743529 26.558617 192.287537 26.558617 
+L 14.111983 26.558617 
+Q 10.655991 26.558617 10.655991 30.857008 
+L 10.655991 242.910982 
+Q 10.655991 247.209373 14.111983 247.209373 
+z
+" clip-path="url(#p117e1c28fd)" style="fill: #ffffff; stroke: #c9c9c9; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 12.959986 55.692158 
+L 193.439534 55.692158 
+L 193.439534 29.424211 
+L 12.959986 29.424211 
+z
+" clip-path="url(#p117e1c28fd)" style="fill: #2f78a5; opacity: 0.18"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 22.559962 206.135856 
+L 172.319587 206.135856 
+L 172.319587 197.777873 
+L 22.559962 197.777873 
+z
+" clip-path="url(#p117e1c28fd)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 22.559962 206.135856 
+L 116.159728 206.135856 
+L 116.159728 197.777873 
+L 22.559962 197.777873 
+z
+" clip-path="url(#p117e1c28fd)" style="fill: #2f78a5"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 22.559962 231.209806 
+L 172.319587 231.209806 
+L 172.319587 222.851822 
+L 22.559962 222.851822 
+z
+" clip-path="url(#p117e1c28fd)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 22.559962 231.209806 
+L 34.079933 231.209806 
+L 34.079933 222.851822 
+L 22.559962 222.851822 
+z
+" clip-path="url(#p117e1c28fd)" style="fill: #6f6f6f"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="22.559962" y="46.973185" transform="rotate(-0 22.559962 46.973185)">N12</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="22.559962" y="79.778609" transform="rotate(-0 22.559962 79.778609)">Native pool: 78</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="22.559962" y="102.464564" transform="rotate(-0 22.559962 102.464564)">PPO candidates: 8</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="22.559962" y="125.150518" transform="rotate(-0 22.559962 125.150518)">Top-k competitive: 5</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="22.559962" y="147.836472" transform="rotate(-0 22.559962 147.836472)">Best rank: 6 / 78</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="22.559962" y="170.522427" transform="rotate(-0 22.559962 170.522427)">Best-rank percentile: 7.7%</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="22.559962" y="190.04015" transform="rotate(-0 22.559962 190.04015)">Top-k occupancy: 5/8</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="22.559962" y="215.1141" transform="rotate(-0 22.559962 215.1141)">Best-rank percentile (lower is better)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 212.111983 247.209373 
+L 390.287537 247.209373 
+Q 393.743529 247.209373 393.743529 242.910982 
+L 393.743529 30.857008 
+Q 393.743529 26.558617 390.287537 26.558617 
+L 212.111983 26.558617 
+Q 208.655991 26.558617 208.655991 30.857008 
+L 208.655991 242.910982 
+Q 208.655991 247.209373 212.111983 247.209373 
+z
+" clip-path="url(#p667c5ba641)" style="fill: #ffffff; stroke: #c9c9c9; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 210.959986 55.692158 
+L 391.439534 55.692158 
+L 391.439534 29.424211 
+L 210.959986 29.424211 
+z
+" clip-path="url(#p667c5ba641)" style="fill: #2f78a5; opacity: 0.18"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 220.559962 206.135856 
+L 370.319587 206.135856 
+L 370.319587 197.777873 
+L 220.559962 197.777873 
+z
+" clip-path="url(#p667c5ba641)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 220.559962 206.135856 
+L 295.439774 206.135856 
+L 295.439774 197.777873 
+L 220.559962 197.777873 
+z
+" clip-path="url(#p667c5ba641)" style="fill: #2f78a5"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 220.559962 231.209806 
+L 370.319587 231.209806 
+L 370.319587 222.851822 
+L 220.559962 222.851822 
+z
+" clip-path="url(#p667c5ba641)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 220.559962 231.209806 
+L 224.399952 231.209806 
+L 224.399952 222.851822 
+L 220.559962 222.851822 
+z
+" clip-path="url(#p667c5ba641)" style="fill: #6f6f6f"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="220.559962" y="46.973185" transform="rotate(-0 220.559962 46.973185)">N16</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="220.559962" y="79.778609" transform="rotate(-0 220.559962 79.778609)">Native pool: 78</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="220.559962" y="102.464564" transform="rotate(-0 220.559962 102.464564)">PPO candidates: 8</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="220.559962" y="125.150518" transform="rotate(-0 220.559962 125.150518)">Top-k competitive: 4</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="220.559962" y="147.836472" transform="rotate(-0 220.559962 147.836472)">Best rank: 2 / 78</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="220.559962" y="170.522427" transform="rotate(-0 220.559962 170.522427)">Best-rank percentile: 2.6%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="220.559962" y="190.04015" transform="rotate(-0 220.559962 190.04015)">Top-k occupancy: 4/8</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="220.559962" y="215.1141" transform="rotate(-0 220.559962 215.1141)">Best-rank percentile (lower is better)</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 410.111983 247.209373 
+L 588.287537 247.209373 
+Q 591.743529 247.209373 591.743529 242.910982 
+L 591.743529 30.857008 
+Q 591.743529 26.558617 588.287537 26.558617 
+L 410.111983 26.558617 
+Q 406.655991 26.558617 406.655991 30.857008 
+L 406.655991 242.910982 
+Q 406.655991 247.209373 410.111983 247.209373 
+z
+" clip-path="url(#p2293026d5a)" style="fill: #ffffff; stroke: #c9c9c9; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 408.959986 55.692158 
+L 589.439534 55.692158 
+L 589.439534 29.424211 
+L 408.959986 29.424211 
+z
+" clip-path="url(#p2293026d5a)" style="fill: #9a7b2f; opacity: 0.18"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 418.559962 206.135856 
+L 568.319587 206.135856 
+L 568.319587 197.777873 
+L 418.559962 197.777873 
+z
+" clip-path="url(#p2293026d5a)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 418.559962 206.135856 
+L 474.719821 206.135856 
+L 474.719821 197.777873 
+L 418.559962 197.777873 
+z
+" clip-path="url(#p2293026d5a)" style="fill: #9a7b2f"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 418.559962 231.209806 
+L 568.319587 231.209806 
+L 568.319587 222.851822 
+L 418.559962 222.851822 
+z
+" clip-path="url(#p2293026d5a)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 418.559962 231.209806 
+L 524.179908 231.209806 
+L 524.179908 222.851822 
+L 418.559962 222.851822 
+z
+" clip-path="url(#p2293026d5a)" style="fill: #6f6f6f"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="418.559962" y="46.973185" transform="rotate(-0 418.559962 46.973185)">N24</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="418.559962" y="79.778609" transform="rotate(-0 418.559962 79.778609)">Native pool: 190</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="418.559962" y="102.464564" transform="rotate(-0 418.559962 102.464564)">PPO candidates: 8</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="418.559962" y="125.150518" transform="rotate(-0 418.559962 125.150518)">Top-k competitive: 3</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="418.559962" y="147.836472" transform="rotate(-0 418.559962 147.836472)">Best rank: 134 / 190</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="418.559962" y="170.522427" transform="rotate(-0 418.559962 170.522427)">Best-rank percentile: 70.5%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="418.559962" y="190.04015" transform="rotate(-0 418.559962 190.04015)">Top-k occupancy: 3/8</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="418.559962" y="215.1141" transform="rotate(-0 418.559962 215.1141)">Best-rank percentile (lower is better)</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_20">
+    <path d="M 608.111983 247.209373 
+L 786.287537 247.209373 
+Q 789.743529 247.209373 789.743529 242.910982 
+L 789.743529 30.857008 
+Q 789.743529 26.558617 786.287537 26.558617 
+L 608.111983 26.558617 
+Q 604.655991 26.558617 604.655991 30.857008 
+L 604.655991 242.910982 
+Q 604.655991 247.209373 608.111983 247.209373 
+z
+" clip-path="url(#pd1bb70470a)" style="fill: #ffffff; stroke: #c9c9c9; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 606.959986 55.692158 
+L 787.439534 55.692158 
+L 787.439534 29.424211 
+L 606.959986 29.424211 
+z
+" clip-path="url(#pd1bb70470a)" style="fill: #9b4d4d; opacity: 0.18"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 616.559962 206.135856 
+L 766.319587 206.135856 
+L 766.319587 197.777873 
+L 616.559962 197.777873 
+z
+" clip-path="url(#pd1bb70470a)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 616.559962 206.135856 
+L 616.559962 206.135856 
+L 616.559962 197.777873 
+L 616.559962 197.777873 
+z
+" clip-path="url(#pd1bb70470a)" style="fill: #9b4d4d"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 616.559962 231.209806 
+L 766.319587 231.209806 
+L 766.319587 222.851822 
+L 616.559962 222.851822 
+z
+" clip-path="url(#pd1bb70470a)" style="fill: #f3f3f3; stroke: #d0d0d0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 616.559962 231.209806 
+L 723.427267 231.209806 
+L 723.427267 222.851822 
+L 616.559962 222.851822 
+z
+" clip-path="url(#pd1bb70470a)" style="fill: #6f6f6f"/>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="616.559962" y="46.973185" transform="rotate(-0 616.559962 46.973185)">N40</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="616.559962" y="79.778609" transform="rotate(-0 616.559962 79.778609)">Native pool: 206</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="616.559962" y="102.464564" transform="rotate(-0 616.559962 102.464564)">PPO candidates: 8</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="616.559962" y="125.150518" transform="rotate(-0 616.559962 125.150518)">Top-k competitive: 0</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="616.559962" y="147.836472" transform="rotate(-0 616.559962 147.836472)">Best rank: 147 / 206</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #202020" x="616.559962" y="170.522427" transform="rotate(-0 616.559962 170.522427)">Best-rank percentile: 71.4%</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="616.559962" y="190.04015" transform="rotate(-0 616.559962 190.04015)">Top-k occupancy: 0/8</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="616.559962" y="215.1141" transform="rotate(-0 616.559962 215.1141)">Best-rank percentile (lower is better)</text>
+   </g>
+  </g>
+  <g id="text_33">
+   <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="400.19976" y="16.698047" transform="rotate(-0 400.19976 16.698047)">Figure A. N-dependent competitiveness profile of PPO-generated candidates</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p117e1c28fd">
+   <rect x="7.2" y="15.09624" width="191.99952" height="238.79952"/>
+  </clipPath>
+  <clipPath id="p667c5ba641">
+   <rect x="205.2" y="15.09624" width="191.99952" height="238.79952"/>
+  </clipPath>
+  <clipPath id="p2293026d5a">
+   <rect x="403.2" y="15.09624" width="191.99952" height="238.79952"/>
+  </clipPath>
+  <clipPath id="pd1bb70470a">
+   <rect x="601.2" y="15.09624" width="191.99952" height="238.79952"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,44 @@
+check,passed,severity,detail
+stageR_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\stageR_ODB_teacher_metric_extraction\stageR_v03_teacher_metrics.csv
+stageR_summary_exists,True,WARNING,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\stageR_ODB_teacher_metric_extraction\stageR_v03_extraction_summary.json
+stageR_solver_audit_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\stageR_ODB_teacher_metric_extraction\stageR_v03_solver_completion_audit.csv
+stageP_selected_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\candidate_generation_v03\selected_batch32\v03_ppo_lex_primary_N24_N40_candidate_batch32.csv
+combined552_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv
+v01_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv
+v01_ranking_exists,True,WARNING,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv
+v02K2_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_teacher_metrics.csv
+v02K2_ranking_exists,True,WARNING,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageN_teacher_metric_ranking\tables\v02K2_teacher_metric_ranking_full.csv
+stageR_row_count_32,True,FAIL,32
+stageR_counts_N24_N40,True,FAIL,"{24: 16, 40: 16}"
+stageR_no_N12_N16_N32,True,FAIL,"[np.int64(24), np.int64(40)]"
+stageR_metric_u2_range_mapped,True,FAIL,u2_range
+combined_metric_u2_range_mapped,True,FAIL,u2_range
+v01_metric_u2_range_mapped,True,FAIL,u2_range
+v02_metric_u2_range_mapped,True,FAIL,u2_range
+stageR_metric_peeq_max_mapped,True,FAIL,peeq_max
+combined_metric_peeq_max_mapped,True,FAIL,peeq_max
+v01_metric_peeq_max_mapped,True,FAIL,peeq_max
+v02_metric_peeq_max_mapped,True,FAIL,peeq_max
+stageR_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy_max_tensile_pa
+combined_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy
+v01_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy_max_tensile_pa
+v02_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy_max_tensile_pa
+stageR_metric_mises_max_mapped,True,FAIL,mises_max
+combined_metric_mises_max_mapped,True,FAIL,mises_max
+v01_metric_mises_max_mapped,True,FAIL,mises_max
+v02_metric_mises_max_mapped,True,FAIL,mises_max
+stageR_extraction_success,True,FAIL,{'PASS_ODB_FINAL_FRAME_EXTRACTED': 32}
+stageR_teacher_status_success,True,FAIL,{'PASS_TEACHER_FIELDS_EXTRACTED': 32}
+stageR_partial_training_caveat_present_32,True,WARNING,partial_training_caveat
+stageR_required_fields_visible,True,WARNING,U/PEEQ/S/NT
+selected_row_count_32,True,FAIL,32
+selected_counts_N24_N40,True,FAIL,"{24: 16, 40: 16}"
+selected_names_match_stageR,True,FAIL,strategy sets
+selected_candidate_source_v03,True,FAIL,{'PPO_v03_checkpoint_inference': 32}
+selected_predicted_lex_primary_score_exists,True,FAIL,predicted_lex_primary_score
+selected_predicted_u2_guarded_score_exists,True,FAIL,predicted_u2_guarded_score
+selected_final_v03_score_exists,True,FAIL,final_v03_score
+combined552_row_count_552,True,FAIL,552
+combined552_N24_N40_counts,True,FAIL,"{24: 190, 40: 206}"
+v01_N24_N40_rows_available,True,FAIL,"{24: 8, 40: 8}"
+v02_N24_N40_rows_available,True,FAIL,"{24: 16, 40: 16}"

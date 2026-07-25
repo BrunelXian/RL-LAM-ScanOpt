@@ -1,0 +1,11 @@
+{
+  "verdict": "PASS_N16_N24_N40_INP_MESH_SECTIONS_READY",
+  "checked_count": 45,
+  "per_n_counts": {
+    "16": 15,
+    "24": 15,
+    "40": 15
+  },
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\inp_mesh_section_check_N16_N24_N40.csv"
+}

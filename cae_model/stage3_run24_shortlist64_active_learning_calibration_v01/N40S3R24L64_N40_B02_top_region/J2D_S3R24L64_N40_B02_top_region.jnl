@@ -1,0 +1,3 @@
+Run25 patch journal placeholder for S3R24L64_N40_B02_top_region.
+All step_cool_XX initialInc values set to 0.01.
+CAE/INP rewritten only; no solver, datacheck, abqjobpilot, enqueue, ODB, or teacher validation run.

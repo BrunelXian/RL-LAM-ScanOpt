@@ -1,0 +1,16 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-27T18:51:16.114924+00:00",
+  "verdict": "PASS_V02_TARGETED_DATA_READY",
+  "dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\data\\v02_targeted_N24_N40_teacher_dataset.csv",
+  "row_count": 412,
+  "counts_by_N_source": {
+    "N24::ppo_v01_teacher_validated": 8,
+    "N24::stage3_native_combined552": 190,
+    "N40::ppo_v01_teacher_validated": 8,
+    "N40::stage3_native_combined552": 206
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

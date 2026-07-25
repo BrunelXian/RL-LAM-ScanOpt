@@ -1,0 +1,4 @@
+statistic,observed_PPO_value,bootstrap_mean,bootstrap_median,bootstrap_q05,bootstrap_q95,empirical_p_value_greater_equal,interpretation,bootstrap_trials,comparison_scope
+total_any_topk_count,12.0,16.2442,16.0,12.0,21.0,0.9592040795920408,PPO comparable,10000,8 per N random draws from existing combined552 reference distribution
+total_top10_lex_count,5.0,3.2569,3.0,1.0,6.0,0.21737826217378262,PPO comparable,10000,8 per N random draws from existing combined552 reference distribution
+total_top25_lex_count,8.0,8.1625,8.0,4.0,12.0,0.6024397560243976,PPO comparable,10000,8 per N random draws from existing combined552 reference distribution

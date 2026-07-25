@@ -1,0 +1,60 @@
+{
+  "status": "RUN33_SURROGATE_VALIDATION_COMPLETE",
+  "best_by_regime": [
+    {
+      "regime": "native_only_combined172",
+      "target": "target_reward_combined172_plus_N32_mapped_u2_primary",
+      "feature_set": "F07_F01_no_n",
+      "model_name": "ExtraTreesRegressor",
+      "macro_spearman_leave_N_out": 0.848424570905293,
+      "macro_top5_overlap_leave_N_out": 1.5,
+      "macro_top10_overlap_leave_N_out": 6.0,
+      "n24_spearman": 0.8209023539559458,
+      "n32_spearman": null,
+      "n40_spearman": 0.8733011914649941
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "target": "target_reward_combined172_plus_N32_mapped_u2_primary",
+      "feature_set": "F01_basic_order",
+      "model_name": "ExtraTreesRegressor",
+      "macro_spearman_leave_N_out": 0.8355587799672854,
+      "macro_top5_overlap_leave_N_out": 1.6,
+      "macro_top10_overlap_leave_N_out": 5.2,
+      "n24_spearman": 0.8034805518449157,
+      "n32_spearman": 0.7945543253984632,
+      "n40_spearman": 0.8733011914649941
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "target": "target_reward_combined172_plus_N32_mapped_u2_primary",
+      "feature_set": "F01_basic_order",
+      "model_name": "ExtraTreesRegressor",
+      "macro_spearman_leave_N_out": 0.8399033829869959,
+      "macro_top5_overlap_leave_N_out": 1.6,
+      "macro_top10_overlap_leave_N_out": 5.2,
+      "n24_spearman": 0.8175857307969533,
+      "n32_spearman": 0.7827198912317593,
+      "n40_spearman": 0.8795532167574796
+    }
+  ],
+  "best_overall": {
+    "regime": "native_only_combined172",
+    "target": "target_reward_combined172_plus_N32_mapped_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model_name": "ExtraTreesRegressor",
+    "macro_spearman_leave_N_out": 0.848424570905293,
+    "macro_top5_overlap_leave_N_out": 1.5,
+    "macro_top10_overlap_leave_N_out": 6.0,
+    "n24_spearman": 0.8209023539559458,
+    "n32_spearman": null,
+    "n40_spearman": 0.8733011914649941
+  },
+  "run29_reference": {
+    "surrogate_best": "ExtraTreesRegressor F07_F01_no_n",
+    "macro_spearman": 0.8451,
+    "top5_overlap": 2.0
+  },
+  "n32_effect_on_native_stage3_prediction": "improved_or_similar",
+  "legacy_warning": "N32 PEEQ/Mises targets are proxy-compatible and balanced regime is preferred for interpretation."
+}

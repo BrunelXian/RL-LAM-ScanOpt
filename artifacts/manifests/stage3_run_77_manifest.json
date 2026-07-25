@@ -1,0 +1,282 @@
+{
+  "run_id": "run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness",
+  "run_name": "final small-N diagnostic batch32 teacher metrics ingestion and combined552 final evidence readiness",
+  "timestamp": "2026-06-18T05:28:00.985257+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_77_ingest_final_smallN_diagnostic_batch32_and_build_combined552.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_76_final_smallN_diagnostic_batch32_odb_teacher_validation\\run76_final_smallN_diagnostic_batch32_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_76_final_smallN_diagnostic_batch32_odb_teacher_validation\\run76_final_smallN_diagnostic_batch32_teacher_metrics_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_76_final_smallN_diagnostic_batch32_odb_teacher_validation\\run76_final_smallN_diagnostic_batch32_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_76_final_smallN_diagnostic_batch32_odb_teacher_validation\\run76_final_smallN_diagnostic_batch32_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_76_final_smallN_diagnostic_batch32_odb_teacher_validation\\run76_final_smallN_diagnostic_batch32_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_76_final_smallN_diagnostic_batch32_odb_teacher_validation\\run76_final_smallN_diagnostic_batch32_solver_completion_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_74_run73_final_smallN_diagnostic_batch32_handoff_package\\stage3_run74_final_smallN_diagnostic_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_final_smallN_diagnostic_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\RUN_73_COMBINED520_MODEL_UPDATE_FINAL_SMALLN_DIAGNOSTIC_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\RUN_72_SMALLN_RECOVERY_FOCUSED_BATCH40_TEACHER_METRICS_INGESTION_AND_COMBINED520_RANKING_REPORT.md"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run77_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_final_smallN_diagnostic_batch32_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_final_smallN_diagnostic_batch32_teacher_dataset_enriched.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_final_smallN_diagnostic_batch32_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_final_smallN_diagnostic_batch32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_plus_N32_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_plus_N32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\combined552_plus_N32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_vs_combined520_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_vs_combined520_best_comparison.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_vs_prior_key_records.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_vs_prior_key_records_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_final_smallN_diagnostic_batch32_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_final_smallN_diagnostic_batch32_effectiveness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_prediction_audit_for_run73_batch32.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run76_prediction_audit_for_run73_batch32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\stage3_final_maturity_and_evidence_freeze_readiness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\stage3_final_maturity_and_evidence_freeze_readiness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\stage3_final_maturity_and_evidence_freeze_readiness_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run77_final_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run77_final_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\RUN_77_FINAL_SMALLN_DIAGNOSTIC_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED552_FINAL_EVIDENCE_READINESS_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_77_manifest.json"
+  ],
+  "run76_teacher_rows": 32,
+  "run76_per_N_counts": {
+    "12": 14,
+    "16": 14,
+    "24": 2,
+    "40": 2
+  },
+  "combined552_rows": 552,
+  "combined552_plus_N32_rows": 884,
+  "per_N_combined552_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "per_N_combined552_plus_N32_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "32": 332,
+    "40": 206
+  },
+  "new_best_counts": {
+    "run76_vs_combined520": 11
+  },
+  "prediction_audit_summary": {
+    "headline": "Run73/Run74 predictions were audited against realized Run76 teacher labels; calibration is evidence for ranking support, not a teacher-validation substitute.",
+    "overall_u2_primary_spearman": 0.13112050398039282,
+    "overall_constrained_spearman": 0.17128188911564599,
+    "overall_strict_spearman": 0.25325512726842303,
+    "overall_penalty_repair_spearman": 0.3577847598122327,
+    "mean_top5_overlap": 2.0,
+    "mean_top10_overlap": 5.0,
+    "top1_hits": 0,
+    "disagreement_vs_abs_error_spearman": -0.23021194672470427,
+    "uncertainty_vs_abs_error_spearman": 0.37719941348973607,
+    "novelty_vs_realized_reward_spearman": -0.22903471007737672,
+    "by_group": {
+      "n": {
+        "12": {
+          "count": 14,
+          "mean_abs_error": 0.11055728903131502,
+          "mean_realized_u2_primary": 0.7053107606679035
+        },
+        "16": {
+          "count": 14,
+          "mean_abs_error": 0.2067130144987288,
+          "mean_realized_u2_primary": 0.6426948051948053
+        },
+        "24": {
+          "count": 2,
+          "mean_abs_error": 0.3403117324753602,
+          "mean_realized_u2_primary": 0.7501322751322751
+        },
+        "40": {
+          "count": 2,
+          "mean_abs_error": 0.2911924304159841,
+          "mean_realized_u2_primary": 0.8402439024390245
+        }
+      },
+      "candidate_source": {
+        "N12_final_diag_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.03243604879968531,
+          "mean_realized_u2_primary": 0.8834415584415585
+        },
+        "N12_final_diag_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.13918929555293186,
+          "mean_realized_u2_primary": 0.7506493506493506
+        },
+        "N12_final_diag_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.09139315230224324,
+          "mean_realized_u2_primary": 0.7000811688311688
+        },
+        "N12_final_diag_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.0691005291005291,
+          "mean_realized_u2_primary": 0.7379870129870131
+        },
+        "N12_local_search_around_Run71_best": {
+          "count": 3,
+          "mean_abs_error": 0.21055905374087194,
+          "mean_realized_u2_primary": 0.5306277056277057
+        },
+        "N16_final_diag_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.1517113275613277,
+          "mean_realized_u2_primary": 0.7313311688311689
+        },
+        "N16_final_diag_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.22082582972582987,
+          "mean_realized_u2_primary": 0.650974025974026
+        },
+        "N16_final_diag_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.18075554353054343,
+          "mean_realized_u2_primary": 0.652435064935065
+        },
+        "N16_final_diag_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.155423088023088,
+          "mean_realized_u2_primary": 0.6222943722943722
+        },
+        "N16_local_search_around_Run71_best": {
+          "count": 3,
+          "mean_abs_error": 0.3198721500721501,
+          "mean_realized_u2_primary": 0.5854978354978355
+        },
+        "N24_anchor_top_density_reference": {
+          "count": 2,
+          "mean_abs_error": 0.3403117324753602,
+          "mean_realized_u2_primary": 0.7501322751322751
+        },
+        "N40_anchor_u2_reward_reference": {
+          "count": 2,
+          "mean_abs_error": 0.2911924304159841,
+          "mean_realized_u2_primary": 0.8402439024390245
+        }
+      },
+      "selection_bucket": {
+        "N12_final_diag_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.03243604879968531,
+          "mean_realized_u2_primary": 0.8834415584415585
+        },
+        "N12_final_diag_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.13918929555293186,
+          "mean_realized_u2_primary": 0.7506493506493506
+        },
+        "N12_final_diag_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.09139315230224324,
+          "mean_realized_u2_primary": 0.7000811688311688
+        },
+        "N12_final_diag_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.0691005291005291,
+          "mean_realized_u2_primary": 0.7379870129870131
+        },
+        "N12_local_search_around_Run71_best": {
+          "count": 3,
+          "mean_abs_error": 0.21055905374087194,
+          "mean_realized_u2_primary": 0.5306277056277057
+        },
+        "N16_final_diag_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.1517113275613277,
+          "mean_realized_u2_primary": 0.7313311688311689
+        },
+        "N16_final_diag_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.22082582972582987,
+          "mean_realized_u2_primary": 0.650974025974026
+        },
+        "N16_final_diag_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.18075554353054343,
+          "mean_realized_u2_primary": 0.652435064935065
+        },
+        "N16_final_diag_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.155423088023088,
+          "mean_realized_u2_primary": 0.6222943722943722
+        },
+        "N16_local_search_around_Run71_best": {
+          "count": 3,
+          "mean_abs_error": 0.3198721500721501,
+          "mean_realized_u2_primary": 0.5854978354978355
+        },
+        "N24_anchor_top_density_reference": {
+          "count": 2,
+          "mean_abs_error": 0.3403117324753602,
+          "mean_realized_u2_primary": 0.7501322751322751
+        },
+        "N40_anchor_u2_reward_reference": {
+          "count": 2,
+          "mean_abs_error": 0.2911924304159841,
+          "mean_realized_u2_primary": 0.8402439024390245
+        }
+      },
+      "generation_method": {
+        "existing_pool_selection": {
+          "count": 8,
+          "mean_abs_error": 0.13607434791639333,
+          "mean_realized_u2_primary": 0.6762581168831169
+        },
+        "offline_mutation_or_pointer_proxy": {
+          "count": 24,
+          "mean_abs_error": 0.1923415746613398,
+          "mean_realized_u2_primary": 0.6934485559231494
+        }
+      }
+    }
+  },
+  "final_maturity_evidence_freeze_readiness_summary": {
+    "headline": "Run77 finds Stage 3 ready for a final evidence-freeze package: N12/N16 reached 78 native teacher rows each, N24/N40 remain mature anchors, and claims must stay bounded to tested native N values and the current 2D teacher model.",
+    "verdict": "RUN77_STAGE3_FINAL_EVIDENCE_FREEZE_READY_WITH_BOUNDED_NATIVE_N_CLAIMS",
+    "native_combined552_counts": {
+      "12": 78,
+      "16": 78,
+      "24": 190,
+      "40": 206
+    },
+    "n32_legacy_teacher_rows": 332,
+    "run76_new_best_count_vs_combined520": 11,
+    "N12_N16_still_under_sampled_relative_to_N24_N40": true,
+    "N12_N16_enough_for_bounded_variable_N_analysis": true,
+    "N24_N40_remain_mature_and_should_stay_frozen": true,
+    "surrogate_calibration_sufficient_for_reporting_not_overclaiming": true,
+    "gnn_pointer_auxiliary_only": true,
+    "full_variable_N_evidence_ready_for_final_evidence_freeze": true,
+    "paper_safe_claim": "Teacher-validated scan-order improvement can be discussed across the tested native N values with bounds on N values, strategy space, and the current 2D Abaqus teacher model."
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\RUN_77_FINAL_SMALLN_DIAGNOSTIC_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED552_FINAL_EVIDENCE_READINESS_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_77_final_smallN_diagnostic_batch32_teacher_metrics_ingestion_and_combined552_final_evidence_readiness\\run77_final_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation_performed_by_run77": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true
+}

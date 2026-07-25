@@ -1,0 +1,4 @@
+{
+  "error": "arg1; found 'generator', expecting a recognized type",
+  "traceback": "Traceback (most recent call last):\n  File \"E:/Projects/RL-LAM-ScanOpt/scripts/stage3/run_25_generate_shortlist64_from_sanity_base_nogui.py\", line 432, in main\n    rows = load_plan()\n  File \"E:/Projects/RL-LAM-ScanOpt/scripts/stage3/run_25_generate_shortlist64_from_sanity_base_nogui.py\", line 93, in load_plan\n    counts = {n: sum(1 for row in rows if int(row[\"n\"]) == n) for n in EXPECTED_COUNTS}\n  File \"E:/Projects/RL-LAM-ScanOpt/scripts/stage3/run_25_generate_shortlist64_from_sanity_base_nogui.py\", line 93, in <dictcomp>\n    counts = {n: sum(1 for row in rows if int(row[\"n\"]) == n) for n in EXPECTED_COUNTS}\nTypeError: arg1; found 'generator', expecting a recognized type\n"
+}

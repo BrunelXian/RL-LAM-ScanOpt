@@ -1,0 +1,22 @@
+{
+  "run_id": "run_25_shortlist64_active_learning_cae_inp_generation",
+  "batch_name": "stage3_run24_shortlist64_active_learning_calibration_v01",
+  "selected_batch": "shortlist64",
+  "n": 16,
+  "handoff_strategy_name": "S3R24L64_N16_B03_model_disagreement",
+  "original_run23_candidate_id": "R23_N16_C00314",
+  "original_run23_strategy_name": "N16_R23_N16_C00314_teacher_best_local_search",
+  "candidate_family": "teacher_best_local_search",
+  "candidate_source": "combined108_known_best_mutation",
+  "generation_method": "swap_two_positions_088",
+  "selection_bucket": "model_disagreement",
+  "priority_role": "diversity",
+  "model_prediction_mean": "0.34757959019267376",
+  "model_prediction_std": "0.21324742064329458",
+  "predicted_gap_vs_combined108_best": "-0.0839790620897255",
+  "novelty_distance_to_combined108": "0.025",
+  "nearest_existing_teacher_strategy": "S3R19B28_N16_B04_method_c_inspired",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

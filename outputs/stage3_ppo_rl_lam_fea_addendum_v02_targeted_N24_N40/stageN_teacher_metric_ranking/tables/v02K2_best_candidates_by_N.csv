@@ -1,0 +1,11 @@
+n,best_type,strategy_name,metric_or_rank,value,ref_rank_u2,ref_rank_peeq,ref_rank_surfaceT,ref_rank_mises,ref_lex_rank,is_new_record,is_top10pct,is_top25pct
+24,best_U2,PPOV02_N24_B16_novelty_tophalf,u2_range,9.453498660150216e-05,114,89,95,101,114.0,False,False,False
+24,best_PEEQ,PPOV02_N24_B08_conservative_top,peeq_max,0.1558585613965988,132,70,95,99,132.0,False,False,False
+24,best_SurfaceT,PPOV02_N24_B13_diverse_tophalf,surface_t_proxy,582223488.0,134,149,83,99,134.0,False,False,False
+24,best_primary_lex,PPOV02_N24_B16_novelty_tophalf,primary_lex,114.0,114,89,95,101,114.0,False,False,False
+24,best_diagnostic_Mises,PPOV02_N24_B01_deterministic,mises_max,579943296.0,135,91,95,9,135.0,False,True,True
+40,best_U2,PPOV02K2_N40_B03_top_reward,u2_range,0.0004007218865353,147,178,2,101,147.0,False,False,False
+40,best_PEEQ,PPOV02K2_N40_B05_top_reward,peeq_max,0.1641117632389068,147,168,2,101,147.0,False,False,False
+40,best_SurfaceT,PPOV02K2_N40_B14_novelty_tophalf,surface_t_proxy,581153472.0,147,195,2,103,147.0,False,True,True
+40,best_primary_lex,PPOV02K2_N40_B01_deterministic,primary_lex,147.0,147,168,5,102,147.0,False,False,False
+40,best_diagnostic_Mises,PPOV02K2_N40_B02_top_reward,mises_max,579926912.0,147,187,5,101,147.0,False,False,False

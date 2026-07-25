@@ -1,0 +1,12 @@
+evidence_step,status,evidence,claim_support,boundary
+Surrogate model trained from combined552,PASS,Stage B surrogate model report and artifact,Reward emulator derives from FEA teacher-labelled data.,Surrogate is not the physical teacher.
+MaskablePPO checkpoint exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\ppo_training\checkpoints\maskable_ppo_lam_scan_order_final.zip,A trained policy artifact exists.,Checkpoint existence is not physical superiority.
+PPO candidate batch came from checkpoint inference,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv,Candidates have PPO inference provenance.,Selection used surrogate ranking within PPO pool.
+All selected PPO candidates had candidate_source = PPO_checkpoint_inference,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv,Batch source is PPO-only.,"One recovery anchor is known prior order, not a novel discovery."
+No manual repair/mutation,PASS,Stage D/E manifests and reports,PPO orders were carried forward unchanged.,Does not prove optimality.
+32/32 Abaqus cases generated,PASS,Stage E handoff report,PPO orders were physically evaluable.,Case generation is not validation.
+32/32 solver completed,PASS_WITH_NONFATAL_WARNINGS,Stage F solver execution report,All cases produced nonzero ODBs.,Warnings were nonfatal.
+32/32 ODB metrics extracted,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv,Teacher metrics exist for all PPO cases.,Metric extraction is not superiority.
+Ranking completed,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv,PPO can be compared to combined552.,Comparison must remain bounded.
+No new records,PASS_NEGATIVE_RESULT,Stage H new-record audit,Paper can state no new combined552 records.,Do not imply record dominance.
+Small-N/top-k competitiveness,PASS_BOUNDED,Stage H top-k audit,Policy-generated candidates can be competitive for N12/N16.,N40 primary metrics not competitive.

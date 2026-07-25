@@ -1,0 +1,105 @@
+{
+  "status": "RUN38_GRAPH_POINTER_POLICY_WEIGHTED_BC_TRAINED",
+  "training_method": "offline weighted behavior cloning; no online RL",
+  "validation": [
+    {
+      "regime": "native_combined204",
+      "n": 12,
+      "rows": 36,
+      "mean_teacher_action_nll": 1.5955326393660572,
+      "reward_weighted_nll": 1.572707604891251
+    },
+    {
+      "regime": "native_combined204",
+      "n": 16,
+      "rows": 36,
+      "mean_teacher_action_nll": 1.7842347919940948,
+      "reward_weighted_nll": 1.7276941672236925
+    },
+    {
+      "regime": "native_combined204",
+      "n": 24,
+      "rows": 66,
+      "mean_teacher_action_nll": 2.1123617083596233,
+      "reward_weighted_nll": 2.076439940274247
+    },
+    {
+      "regime": "native_combined204",
+      "n": 40,
+      "rows": 66,
+      "mean_teacher_action_nll": 2.5393311695915393,
+      "reward_weighted_nll": 2.4703435184532454
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 12,
+      "rows": 36,
+      "mean_teacher_action_nll": 1.5955326393660572,
+      "reward_weighted_nll": 1.572707604891251
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 16,
+      "rows": 36,
+      "mean_teacher_action_nll": 1.7842347919940948,
+      "reward_weighted_nll": 1.7276941672236925
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 24,
+      "rows": 66,
+      "mean_teacher_action_nll": 2.1123617083596233,
+      "reward_weighted_nll": 2.076439940274247
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 32,
+      "rows": 332,
+      "mean_teacher_action_nll": 2.447784577720414,
+      "reward_weighted_nll": 2.394437254085443
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 40,
+      "rows": 66,
+      "mean_teacher_action_nll": 2.5393311695915393,
+      "reward_weighted_nll": 2.4703435184532454
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 12,
+      "rows": 36,
+      "mean_teacher_action_nll": 1.5955326393660572,
+      "reward_weighted_nll": 1.572707604891251
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 16,
+      "rows": 36,
+      "mean_teacher_action_nll": 1.7842347919940948,
+      "reward_weighted_nll": 1.7276941672236925
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 24,
+      "rows": 66,
+      "mean_teacher_action_nll": 2.1123617083596233,
+      "reward_weighted_nll": 2.076439940274247
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 32,
+      "rows": 332,
+      "mean_teacher_action_nll": 2.447784577720414,
+      "reward_weighted_nll": 2.394437254085443
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 40,
+      "rows": 66,
+      "mean_teacher_action_nll": 2.5393311695915393,
+      "reward_weighted_nll": 2.4703435184532454
+    }
+  ],
+  "run33_reference": "Run33 checked whether N32 improved order-structure learning; Run38 repeats after Run36 native validation."
+}

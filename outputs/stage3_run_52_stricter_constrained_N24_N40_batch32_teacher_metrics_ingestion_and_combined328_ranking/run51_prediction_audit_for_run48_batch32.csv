@@ -1,0 +1,17 @@
+group_type,group_value,count,reward_spearman,mean_abs_reward_error
+selection_bucket,Mises_repair_candidates,4,0.39999999999999997,0.3945636714852868
+selection_bucket,PEEQ_repair_candidates,4,0.316227766016838,0.1194102483585654
+selection_bucket,SurfaceT_repair_candidates,4,0.9486832980505139,0.2776586860119101
+selection_bucket,no_penalty_worse_than_median,4,0.39999999999999997,0.21317813527061177
+selection_bucket,strict_penalty_guard_local_search,4,-1.0,0.193669159778305
+selection_bucket,strict_penalty_guard_top,4,1.0,0.25090510236019964
+selection_bucket,two_stage_guarded_local_search,4,0.7999999999999999,0.2912115226773659
+selection_bucket,two_stage_guarded_top,4,0.39999999999999997,0.30421003797755
+candidate_source,Mises_repair_candidates,4,0.39999999999999997,0.3945636714852868
+candidate_source,PEEQ_repair_candidates,4,0.316227766016838,0.1194102483585654
+candidate_source,SurfaceT_repair_candidates,4,0.9486832980505139,0.2776586860119101
+candidate_source,no_penalty_worse_than_median,4,0.39999999999999997,0.21317813527061177
+candidate_source,strict_penalty_guard_local_search,4,-1.0,0.193669159778305
+candidate_source,strict_penalty_guard_top,4,1.0,0.25090510236019964
+candidate_source,two_stage_guarded_local_search,4,0.7999999999999999,0.2912115226773659
+candidate_source,two_stage_guarded_top,4,0.39999999999999997,0.30421003797755

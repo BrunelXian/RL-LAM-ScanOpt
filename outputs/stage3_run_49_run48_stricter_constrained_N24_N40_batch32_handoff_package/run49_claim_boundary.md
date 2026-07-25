@@ -1,0 +1,20 @@
+# Run49 Claim Boundary
+
+## Safe claims
+- Run49 packages selected Run48 Option A stricter constrained N24/N40 batch32 candidates for human review and future CAE generation.
+- The selected batch contains N24=16 and N40=16.
+- No N12, N16, or N32 candidates are included.
+- The batch is designed to test stricter penalty guards after Run46 improved U2/reward but did not create raw PEEQ/SurfaceT/Mises records.
+- Handoff files include scan orders, metadata, future CAE manifest template, and abqjobpilot command template.
+- No CAE/INP files were generated.
+
+## Unsafe claims
+- Do not claim candidates are teacher-validated.
+- Do not claim physical superiority.
+- Do not claim N32 caused improvement.
+- Do not claim GNN-RL has beaten baselines.
+- Do not claim online RL with Abaqus.
+- Do not claim arbitrary-N generalization.
+- Do not claim surrogate/GNN/hybrid predictions are ground truth.
+- Do not claim abqjobpilot commands are ready to execute.
+- Do not claim CAE/INP files exist.

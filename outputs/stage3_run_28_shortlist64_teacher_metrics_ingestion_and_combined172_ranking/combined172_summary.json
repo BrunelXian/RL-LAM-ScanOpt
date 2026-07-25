@@ -1,0 +1,114 @@
+{
+  "run_id": "run_28_shortlist64_teacher_metrics_ingestion_and_combined172_ranking",
+  "combined172_rows": 172,
+  "per_n_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 54,
+    "40": 54
+  },
+  "dataset_source_counts": {
+    "batch20_run14": 20,
+    "batch28_run20": 28,
+    "probe60_run08": 60,
+    "shortlist64_run27": 64
+  },
+  "new_best_records": [
+    {
+      "n": 16,
+      "metric": "u2",
+      "combined108_best_strategy": "S3R19B28_N16_B04_method_c_inspired",
+      "combined108_best_source": "batch28_run20",
+      "combined108_best_value": 4.279385166228167e-05,
+      "run27_best_strategy": "S3R24L64_N16_B02_top_region",
+      "run27_best_value": 4.0733349123911466e-05,
+      "run27_beats_combined108_best": true,
+      "absolute_improvement_lower_is_better": 2.0605025383702014e-06,
+      "relative_improvement_pct": 4.814949948023305,
+      "combined172_best_strategy": "S3R24L64_N16_B02_top_region",
+      "combined172_best_source": "shortlist64_run27",
+      "combined172_best_value": 4.0733349123911466e-05
+    },
+    {
+      "n": 16,
+      "metric": "combined_reward",
+      "combined108_best_strategy": "S3B20_N16_B04_surrogate_top",
+      "combined108_best_source": "batch20_run14",
+      "combined108_best_value": 0.8379032258064516,
+      "run27_best_strategy": "S3R24L64_N16_B02_top_region",
+      "run27_best_value": 0.8733870967741937,
+      "run27_beats_combined108_best": true,
+      "absolute_improvement_higher_is_better": 0.03548387096774208,
+      "relative_improvement_pct": 4.234841193455264,
+      "combined172_best_strategy": "S3R24L64_N16_B02_top_region",
+      "combined172_best_source": "shortlist64_run27",
+      "combined172_best_value": 0.8733870967741937
+    },
+    {
+      "n": 24,
+      "metric": "surfaceT",
+      "combined108_best_strategy": "S3R19B28_N24_B06_uncertainty_calibration",
+      "combined108_best_source": "batch28_run20",
+      "combined108_best_value": 580991360.0,
+      "run27_best_strategy": "S3R24L64_N24_B06_model_disagreement",
+      "run27_best_value": 580875968.0,
+      "run27_beats_combined108_best": true,
+      "absolute_improvement_lower_is_better": 115392.0,
+      "relative_improvement_pct": 0.019861224786544156,
+      "combined172_best_strategy": "S3R24L64_N24_B06_model_disagreement",
+      "combined172_best_source": "shortlist64_run27",
+      "combined172_best_value": 580875968.0
+    },
+    {
+      "n": 40,
+      "metric": "u2",
+      "combined108_best_strategy": "S3R19B28_N40_B01_surrogate_top",
+      "combined108_best_source": "batch28_run20",
+      "combined108_best_value": 8.087984315352514e-05,
+      "run27_best_strategy": "S3R24L64_N40_B23_exploitation_reference",
+      "run27_best_value": 5.95808796788333e-05,
+      "run27_beats_combined108_best": true,
+      "absolute_improvement_lower_is_better": 2.1298963474691845e-05,
+      "relative_improvement_pct": 26.334081081564918,
+      "combined172_best_strategy": "S3R24L64_N40_B23_exploitation_reference",
+      "combined172_best_source": "shortlist64_run27",
+      "combined172_best_value": 5.95808796788333e-05
+    },
+    {
+      "n": 40,
+      "metric": "combined_reward",
+      "combined108_best_strategy": "N40_A04_method_c_u2_first_engineering",
+      "combined108_best_source": "probe60_run08",
+      "combined108_best_value": 0.8759433962264151,
+      "run27_best_strategy": "S3R24L64_N40_B23_exploitation_reference",
+      "run27_best_value": 0.9212264150943397,
+      "run27_beats_combined108_best": true,
+      "absolute_improvement_higher_is_better": 0.04528301886792452,
+      "relative_improvement_pct": 5.1696284329563795,
+      "combined172_best_strategy": "S3R24L64_N40_B23_exploitation_reference",
+      "combined172_best_source": "shortlist64_run27",
+      "combined172_best_value": 0.9212264150943397
+    }
+  ],
+  "new_best_count": 5,
+  "prediction_audit_summary": {
+    "overall_spearman_predicted_vs_realized_reward": 0.7373566246580882,
+    "per_n_spearman_predicted_vs_realized_reward": {
+      "N12": 0.7142857142857143,
+      "N16": 0.6428571428571429,
+      "N24": 0.688695652173913,
+      "N40": 0.8271363535389596
+    },
+    "mean_top5_overlap": 3.0,
+    "mean_top10_overlap": 8.25,
+    "top1_hits": 1,
+    "top1_possible": 4,
+    "uncertainty_abs_error_spearman": -0.3825256743180588,
+    "model_std_abs_error_spearman": 0.38228021978021975,
+    "disagreement_f03_abs_error_spearman": 0.36066849816849816,
+    "disagreement_f06_abs_error_spearman": 0.36327838827838826,
+    "novelty_realized_reward_spearman": -0.6029081850650818,
+    "interpretation": "Run23 active-learning prediction audit only; Run27 is not GNN-policy validation."
+  },
+  "claim_boundary": "Run28 ingests completed Run27 active-learning shortlist64 metrics only; it does not validate Run26 GNN-policy candidates."
+}

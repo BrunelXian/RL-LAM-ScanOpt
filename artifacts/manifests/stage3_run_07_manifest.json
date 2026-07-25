@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-06-10T15:17:55.096172+00:00",
+  "run_id": "run_07_variable_n_probe60_model_generation_handoff",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "verdict": "PASS_VARIABLE_N_PROBE60_MODEL_GENERATION_HANDOFF_READY",
+  "batch_name": "stage3_true_variable_N_probe60_v01",
+  "total_cases": 60,
+  "abqjobpilot_command_count": 60,
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_case_manifest.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_case_manifest.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_expected_paths.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_base_model_linkage.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_model_generation_plan.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_abqjobpilot_commands.txt",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_07_variable_n_probe60_model_generation_handoff\\variable_N_probe60_STOP_BEFORE_RUNNING.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\generate_variable_N_probe60_from_base_TEMPLATE.py",
+    "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\README_STAGE3_VARIABLE_N_GENERATION_HANDOFF.md"
+  ],
+  "forbidden_actions_confirmed": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_generated": true,
+    "no_inp_generated": true,
+    "no_jnl_generated_except_template_text": true,
+    "no_abqjobpilot_execution": true,
+    "no_job_submission": true,
+    "no_teacher_validation": true
+  }
+}

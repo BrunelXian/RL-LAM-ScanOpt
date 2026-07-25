@@ -1,0 +1,40 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-27T18:42:25.950915+00:00",
+  "input_paths": {
+    "ppo_frozen_metrics": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metrics.csv",
+    "ppo_frozen_ranking": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv",
+    "ppo_performance_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\manuscript_tables\\ppo_performance_summary_for_manuscript.csv",
+    "ppo_final_claim_boundary": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_FINAL_CLAIM_BOUNDARY.md",
+    "combined552_reference": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+    "analysis_dataset": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\combined552_plus_ppo32_analysis_dataset.csv"
+  },
+  "input_integrity_verdict": "PASS_STAGEJ_INPUTS_READY",
+  "output_tables": {
+    "fair_comparison_levels": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\ppo_fair_comparison_levels.csv",
+    "bootstrap_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\ppo_vs_bootstrap_random_baseline_by_N.csv",
+    "bootstrap_global": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\ppo_vs_bootstrap_random_baseline_global.csv",
+    "baseline_inventory": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\identified_baseline_family_inventory.csv",
+    "baseline_comparison": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\ppo_vs_identified_baseline_families.csv",
+    "clean_policy_source_chain": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\ppo_clean_policy_source_evidence_chain.csv",
+    "scientific_meaning": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\tables\\ppo_scientific_meaning_table.csv"
+  },
+  "plot_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\plots\\ppo_vs_bootstrap_topk_count_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\plots\\ppo_best_lex_rank_vs_bootstrap_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\plots\\ppo_topk_enrichment_summary.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\plots\\ppo_clean_evidence_chain_schematic.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageJ_ppo_evidence_strengthening\\plots\\ppo_claim_level_ladder.png"
+  ],
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEJ_EVIDENCE_STRENGTHENING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEJ_STRENGTHENED_CLAIM_BOUNDARY.md",
+  "claim_decision_memo_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEJ_CLAIM_DECISION_MEMO.md",
+  "next_experiment_recommendation_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_NEXT_EXPERIMENT_RECOMMENDATION.md",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_STAGEJ_PPO_EVIDENCE_CHAIN_STRENGTHENED_BOUNDED_POLICY_GENERATION"
+}

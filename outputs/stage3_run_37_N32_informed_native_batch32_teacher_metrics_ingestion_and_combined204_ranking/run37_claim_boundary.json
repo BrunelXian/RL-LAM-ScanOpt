@@ -1,0 +1,19 @@
+{
+  "verdict": "RUN37_INGESTION_AND_RANKING_ONLY_NO_SOLVER_NO_TRAINING_NO_CANDIDATE_GENERATION",
+  "safe_claims": [
+    "Run37 ingests 32/32 teacher-validated Run36 N32-informed native batch32 cases.",
+    "Run37 builds native combined204 with N12=36, N16=36, N24=66, N40=66.",
+    "Run37 builds combined204_plus_N32 with N12=36, N16=36, N24=66, N32=332, N40=66.",
+    "Run37 evaluates whether the N32-informed native batch32 improved native Stage 3 teacher metrics.",
+    "Run36 is teacher validation of N32-informed native candidates, not N32 cases."
+  ],
+  "unsafe_claims": [
+    "Do not claim N32 itself was newly teacher-validated in Run36.",
+    "Do not claim N32 caused improvement unless supported by Run37 comparison.",
+    "Do not claim GNN-RL superiority.",
+    "Do not claim online RL.",
+    "Do not claim arbitrary-N generalization.",
+    "Do not claim physical optimum.",
+    "Do not claim solver/ODB extraction happened in Run37."
+  ]
+}

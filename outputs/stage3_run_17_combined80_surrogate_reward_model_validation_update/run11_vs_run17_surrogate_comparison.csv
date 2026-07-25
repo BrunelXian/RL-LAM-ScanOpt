@@ -1,0 +1,3 @@
+metric,run11_value,run17_value,delta_run17_minus_run11,interpretation
+leave_N_out_macro_spearman,0.7678571428571428,0.8349624060150375,0.06710526315789467,improved
+leave_N_out_macro_top5_overlap,3.75,3.75,0.0,degraded_or_similar

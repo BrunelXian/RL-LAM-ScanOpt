@@ -1,0 +1,10 @@
+{
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_manual_probe60_handoff\\N24_A07_regular_jump_coprime_SINGLE_RERUN_abqjobpilot_command.txt",
+  "command_count": 1,
+  "referenced_inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.inp",
+  "referenced_inp_exists": true,
+  "valid": true,
+  "errors": [],
+  "executed": false,
+  "command": "enqueue --inp \"E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.inp\" --cpus 14 --batch stage3_true_variable_N_probe60_v01 --strategy N24_A07_regular_jump_coprime"
+}

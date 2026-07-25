@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS_RUN09_INPUT_TEACHER_LABELS_60_OF_60_READY",
+  "errors": [],
+  "total_rows": 60,
+  "per_n_counts": {
+    "12": 15,
+    "16": 15,
+    "24": 15,
+    "40": 15
+  },
+  "all_teacher_valid": true,
+  "missing_metric_counts": {
+    "u2_range": 0,
+    "peeq_max": 0,
+    "surfaceT_proxy": 0
+  },
+  "duplicates_within_n": {},
+  "n24_a07_regular_jump_coprime_valid": true,
+  "canonical_column_mapping": {
+    "n": "N",
+    "strategy_name": "case_id",
+    "job_name": "job_name",
+    "teacher_status": "odb_extraction_status",
+    "u2_range": "u2_range",
+    "peeq_max": "peeq_max",
+    "surfaceT_proxy": "surface_t_proxy_max_tensile_pa"
+  },
+  "surfaceT_direction_assumption": "lower is better"
+}

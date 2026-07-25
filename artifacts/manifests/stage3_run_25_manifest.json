@@ -1,0 +1,50 @@
+{
+  "run_id": "run_25",
+  "run_name": "run_25_shortlist64_active_learning_cae_inp_generation",
+  "timestamp": "2026-06-12T22:39:19+08:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "selected_batch": "shortlist64",
+  "batch_name": "stage3_run24_shortlist64_active_learning_calibration_v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_25_preflight_shortlist64_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_25_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_25_generate_shortlist64_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_25_check_shortlist64_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_25_validate_shortlist64_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_24_run23_shortlist64_active_learning_handoff_package\\stage3_run24_shortlist64_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_24_run23_shortlist64_active_learning_handoff_package\\scan_orders"
+  },
+  "output_files": {
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_cae_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_cae_generation_manifest.json",
+    "inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_generated_inp_check_summary.json",
+    "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_claim_boundary.md",
+    "claim_boundary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_claim_boundary.json",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_25_shortlist64_active_learning_cae_inp_generation\\RUN_25_SHORTLIST64_ACTIVE_LEARNING_CAE_INP_GENERATION_REPORT.md"
+  },
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run24_shortlist64_active_learning_calibration_v01",
+  "generated_case_count": 64,
+  "per_n_generated_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "generated_cae_count": 64,
+  "generated_inp_count": 64,
+  "generated_command_file_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_abqjobpilot_commands_READY_TO_RUN.txt",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_25_shortlist64_active_learning_cae_inp_generation\\RUN_25_SHORTLIST64_ACTIVE_LEARNING_CAE_INP_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_claim_boundary.md",
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

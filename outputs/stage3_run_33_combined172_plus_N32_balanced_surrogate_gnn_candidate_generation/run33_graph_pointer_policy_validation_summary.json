@@ -1,0 +1,105 @@
+{
+  "status": "RUN33_GRAPH_POINTER_POLICY_WEIGHTED_BC_TRAINED",
+  "training_method": "offline weighted behavior cloning; no online RL",
+  "validation": [
+    {
+      "regime": "native_only_combined172",
+      "n": 12,
+      "rows": 32,
+      "mean_teacher_action_nll": 1.6250927376483257,
+      "reward_weighted_nll": 1.5936586329561373
+    },
+    {
+      "regime": "native_only_combined172",
+      "n": 16,
+      "rows": 32,
+      "mean_teacher_action_nll": 1.7844770488736685,
+      "reward_weighted_nll": 1.7014312902242958
+    },
+    {
+      "regime": "native_only_combined172",
+      "n": 24,
+      "rows": 54,
+      "mean_teacher_action_nll": 2.0844261537587707,
+      "reward_weighted_nll": 2.0175858447193384
+    },
+    {
+      "regime": "native_only_combined172",
+      "n": 40,
+      "rows": 54,
+      "mean_teacher_action_nll": 2.5328227062278463,
+      "reward_weighted_nll": 2.4161439162711704
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 12,
+      "rows": 32,
+      "mean_teacher_action_nll": 1.6250927376483257,
+      "reward_weighted_nll": 1.5936586329561373
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 16,
+      "rows": 32,
+      "mean_teacher_action_nll": 1.7844770488736685,
+      "reward_weighted_nll": 1.7014312902242958
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 24,
+      "rows": 54,
+      "mean_teacher_action_nll": 2.0844261537587707,
+      "reward_weighted_nll": 2.0175858447193384
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 32,
+      "rows": 332,
+      "mean_teacher_action_nll": 2.454320571167396,
+      "reward_weighted_nll": 2.3680259502640553
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "n": 40,
+      "rows": 54,
+      "mean_teacher_action_nll": 2.5328227062278463,
+      "reward_weighted_nll": 2.4161439162711704
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 12,
+      "rows": 32,
+      "mean_teacher_action_nll": 1.6250927376483257,
+      "reward_weighted_nll": 1.5936586329561373
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 16,
+      "rows": 32,
+      "mean_teacher_action_nll": 1.7844770488736685,
+      "reward_weighted_nll": 1.7014312902242958
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 24,
+      "rows": 54,
+      "mean_teacher_action_nll": 2.0844261537587707,
+      "reward_weighted_nll": 2.0175858447193384
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 32,
+      "rows": 332,
+      "mean_teacher_action_nll": 2.454320571167396,
+      "reward_weighted_nll": 2.3680259502640553
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "n": 40,
+      "rows": 54,
+      "mean_teacher_action_nll": 2.5328227062278463,
+      "reward_weighted_nll": 2.4161439162711704
+    }
+  ],
+  "run29_reference": "Run29 NLL improved vs Run26 for N16/N24/N40 but not N12"
+}

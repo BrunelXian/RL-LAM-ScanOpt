@@ -1,0 +1,42 @@
+{
+  "verdict": "PASS_RUN34_N32_INFORMED_NATIVE_BATCH32_INPUT_READY",
+  "errors": [],
+  "warnings": [],
+  "warning_count": 0,
+  "selected_batch": "run33_N32_informed_native_batch32",
+  "selected_option": "Run33 Option A",
+  "row_count": 32,
+  "per_n_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 12,
+    "40": 12
+  },
+  "contains_n32_rows": false,
+  "selected_batch_confirmed_not_option_b_or_option_c": true,
+  "candidate_source_composition": {
+    "graph_pointer_greedy": 4,
+    "surrogate_top_predicted": 4,
+    "hybrid_gnn_surrogate_agreement": 4,
+    "hybrid_gnn_surrogate_disagreement": 4,
+    "uncertainty_calibration": 2,
+    "diversity_coverage": 2,
+    "sentinel_control": 2,
+    "N24_calibration_neighborhood": 5,
+    "N40_new_best_neighborhood": 5
+  },
+  "selection_bucket_composition": {
+    "graph_pointer_top": 4,
+    "surrogate_top_predicted": 4,
+    "hybrid_gnn_surrogate_agreement": 4,
+    "hybrid_gnn_surrogate_disagreement": 4,
+    "uncertainty_calibration": 2,
+    "diversity_coverage": 2,
+    "sentinel_control": 2,
+    "N24_calibration_neighborhood": 5,
+    "N40_new_best_neighborhood": 5
+  },
+  "exact_overlap_with_superseded_run31_batch32": 0,
+  "N32_informed_training_context": true,
+  "native_validation_N": true
+}

@@ -1,0 +1,1211 @@
+{
+  "deleted_counts": {
+    "*.cae": 60,
+    "*.inp": 60,
+    "*.jnl": 60,
+    "*.generation_log.json": 60
+  },
+  "deleted_file_count": 240,
+  "deleted_files": [
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.cae",
+      "size_bytes": 155648,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.cae",
+      "size_bytes": 196608,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.cae",
+      "size_bytes": 196608,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.cae",
+      "size_bytes": 204800,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.cae",
+      "size_bytes": 217088,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.cae",
+      "size_bytes": 200704,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.cae",
+      "size_bytes": 204800,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.cae",
+      "size_bytes": 204800,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.cae",
+      "size_bytes": 221184,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.cae",
+      "size_bytes": 212992,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.cae",
+      "size_bytes": 221184,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.cae",
+      "size_bytes": 221184,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.cae",
+      "size_bytes": 229376,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.cae",
+      "size_bytes": 221184,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.cae",
+      "size_bytes": 212992,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.cae",
+      "size_bytes": 237568,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.cae",
+      "size_bytes": 249856,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.cae",
+      "size_bytes": 245760,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.cae",
+      "size_bytes": 221184,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.cae",
+      "size_bytes": 200704,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.cae",
+      "size_bytes": 200704,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.cae",
+      "size_bytes": 225280,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.cae",
+      "size_bytes": 229376,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.cae",
+      "size_bytes": 208896,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.cae",
+      "size_bytes": 266240,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.cae",
+      "size_bytes": 266240,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.cae",
+      "size_bytes": 262144,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.cae",
+      "size_bytes": 278528,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.cae",
+      "size_bytes": 258048,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.cae",
+      "size_bytes": 274432,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.cae",
+      "size_bytes": 282624,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.cae",
+      "size_bytes": 286720,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.cae",
+      "size_bytes": 282624,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.cae",
+      "size_bytes": 282624,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.cae",
+      "size_bytes": 270336,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.cae",
+      "size_bytes": 282624,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.cae",
+      "size_bytes": 290816,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.cae",
+      "size_bytes": 274432,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.cae",
+      "size_bytes": 290816,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.cae",
+      "size_bytes": 389120,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.cae",
+      "size_bytes": 401408,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.cae",
+      "size_bytes": 380928,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.cae",
+      "size_bytes": 405504,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.cae",
+      "size_bytes": 389120,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.cae",
+      "size_bytes": 409600,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.cae",
+      "size_bytes": 405504,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.cae",
+      "size_bytes": 430080,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.cae",
+      "size_bytes": 425984,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.cae",
+      "size_bytes": 442368,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.cae",
+      "size_bytes": 401408,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.cae",
+      "size_bytes": 401408,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.cae",
+      "size_bytes": 393216,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.cae",
+      "size_bytes": 421888,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.cae",
+      "size_bytes": 409600,
+      "pattern": "*.cae"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.inp",
+      "size_bytes": 45989,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.inp",
+      "size_bytes": 45988,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.inp",
+      "size_bytes": 45992,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.inp",
+      "size_bytes": 45998,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.inp",
+      "size_bytes": 45979,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.inp",
+      "size_bytes": 45988,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.inp",
+      "size_bytes": 45989,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.inp",
+      "size_bytes": 45995,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.inp",
+      "size_bytes": 45992,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.inp",
+      "size_bytes": 46013,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.inp",
+      "size_bytes": 46000,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.inp",
+      "size_bytes": 46000,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.inp",
+      "size_bytes": 46011,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.inp",
+      "size_bytes": 46003,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.inp",
+      "size_bytes": 46015,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.inp",
+      "size_bytes": 24542,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.inp",
+      "size_bytes": 24541,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.inp",
+      "size_bytes": 24545,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.inp",
+      "size_bytes": 24551,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.inp",
+      "size_bytes": 24532,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.inp",
+      "size_bytes": 24541,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.inp",
+      "size_bytes": 24542,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.inp",
+      "size_bytes": 24548,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.inp",
+      "size_bytes": 24545,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.inp",
+      "size_bytes": 24566,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.inp",
+      "size_bytes": 24553,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.inp",
+      "size_bytes": 24553,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.inp",
+      "size_bytes": 24564,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.inp",
+      "size_bytes": 24556,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.inp",
+      "size_bytes": 24568,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.inp",
+      "size_bytes": 35278,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.inp",
+      "size_bytes": 35277,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.inp",
+      "size_bytes": 35281,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.inp",
+      "size_bytes": 35287,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.inp",
+      "size_bytes": 35268,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.inp",
+      "size_bytes": 35277,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.inp",
+      "size_bytes": 35278,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.inp",
+      "size_bytes": 35284,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.inp",
+      "size_bytes": 35281,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.inp",
+      "size_bytes": 35302,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.inp",
+      "size_bytes": 35289,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.inp",
+      "size_bytes": 35289,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.inp",
+      "size_bytes": 35300,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.inp",
+      "size_bytes": 35292,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.inp",
+      "size_bytes": 35304,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.inp",
+      "size_bytes": 56709,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.inp",
+      "size_bytes": 56708,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.inp",
+      "size_bytes": 56712,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.inp",
+      "size_bytes": 56718,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.inp",
+      "size_bytes": 56699,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.inp",
+      "size_bytes": 56708,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.inp",
+      "size_bytes": 56709,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.inp",
+      "size_bytes": 56715,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.inp",
+      "size_bytes": 56712,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.inp",
+      "size_bytes": 56733,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.inp",
+      "size_bytes": 56720,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.inp",
+      "size_bytes": 56720,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.inp",
+      "size_bytes": 56731,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.inp",
+      "size_bytes": 56723,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.inp",
+      "size_bytes": 56735,
+      "pattern": "*.inp"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.jnl",
+      "size_bytes": 24566,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.jnl",
+      "size_bytes": 24583,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.jnl",
+      "size_bytes": 24587,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.jnl",
+      "size_bytes": 24593,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.jnl",
+      "size_bytes": 24574,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.jnl",
+      "size_bytes": 24583,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.jnl",
+      "size_bytes": 24584,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.jnl",
+      "size_bytes": 24590,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.jnl",
+      "size_bytes": 24587,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.jnl",
+      "size_bytes": 24613,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.jnl",
+      "size_bytes": 24600,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.jnl",
+      "size_bytes": 24600,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.jnl",
+      "size_bytes": 24611,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.jnl",
+      "size_bytes": 24603,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.jnl",
+      "size_bytes": 24615,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.jnl",
+      "size_bytes": 28677,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.jnl",
+      "size_bytes": 28676,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.jnl",
+      "size_bytes": 28680,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.jnl",
+      "size_bytes": 28686,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.jnl",
+      "size_bytes": 28667,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.jnl",
+      "size_bytes": 28676,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.jnl",
+      "size_bytes": 28677,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.jnl",
+      "size_bytes": 28683,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.jnl",
+      "size_bytes": 28680,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.jnl",
+      "size_bytes": 28706,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.jnl",
+      "size_bytes": 28693,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.jnl",
+      "size_bytes": 28693,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.jnl",
+      "size_bytes": 28704,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.jnl",
+      "size_bytes": 28696,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.jnl",
+      "size_bytes": 28708,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.jnl",
+      "size_bytes": 35282,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.jnl",
+      "size_bytes": 35281,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.jnl",
+      "size_bytes": 35285,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.jnl",
+      "size_bytes": 35291,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.jnl",
+      "size_bytes": 35272,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.jnl",
+      "size_bytes": 35281,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.jnl",
+      "size_bytes": 35282,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.jnl",
+      "size_bytes": 35288,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.jnl",
+      "size_bytes": 35285,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.jnl",
+      "size_bytes": 35311,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.jnl",
+      "size_bytes": 35298,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.jnl",
+      "size_bytes": 35298,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.jnl",
+      "size_bytes": 35309,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.jnl",
+      "size_bytes": 35301,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.jnl",
+      "size_bytes": 35313,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.jnl",
+      "size_bytes": 49611,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.jnl",
+      "size_bytes": 49610,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.jnl",
+      "size_bytes": 49614,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.jnl",
+      "size_bytes": 49620,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.jnl",
+      "size_bytes": 49601,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.jnl",
+      "size_bytes": 49610,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.jnl",
+      "size_bytes": 49611,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.jnl",
+      "size_bytes": 49617,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.jnl",
+      "size_bytes": 49614,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.jnl",
+      "size_bytes": 49640,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.jnl",
+      "size_bytes": 49627,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.jnl",
+      "size_bytes": 49627,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.jnl",
+      "size_bytes": 49638,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.jnl",
+      "size_bytes": 49630,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.jnl",
+      "size_bytes": 49642,
+      "pattern": "*.jnl"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.generation_log.json",
+      "size_bytes": 4359,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.generation_log.json",
+      "size_bytes": 4353,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.generation_log.json",
+      "size_bytes": 4377,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.generation_log.json",
+      "size_bytes": 4413,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.generation_log.json",
+      "size_bytes": 4299,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.generation_log.json",
+      "size_bytes": 4353,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.generation_log.json",
+      "size_bytes": 4359,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.generation_log.json",
+      "size_bytes": 4395,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.generation_log.json",
+      "size_bytes": 4377,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.generation_log.json",
+      "size_bytes": 4503,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.generation_log.json",
+      "size_bytes": 4425,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.generation_log.json",
+      "size_bytes": 4425,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.generation_log.json",
+      "size_bytes": 4491,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.generation_log.json",
+      "size_bytes": 4443,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.generation_log.json",
+      "size_bytes": 4515,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.generation_log.json",
+      "size_bytes": 5303,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.generation_log.json",
+      "size_bytes": 5297,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.generation_log.json",
+      "size_bytes": 5321,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.generation_log.json",
+      "size_bytes": 5357,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.generation_log.json",
+      "size_bytes": 5243,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.generation_log.json",
+      "size_bytes": 5297,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.generation_log.json",
+      "size_bytes": 5303,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.generation_log.json",
+      "size_bytes": 5339,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.generation_log.json",
+      "size_bytes": 5321,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.generation_log.json",
+      "size_bytes": 5447,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.generation_log.json",
+      "size_bytes": 5369,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.generation_log.json",
+      "size_bytes": 5369,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.generation_log.json",
+      "size_bytes": 5435,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.generation_log.json",
+      "size_bytes": 5387,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.generation_log.json",
+      "size_bytes": 5459,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.generation_log.json",
+      "size_bytes": 7191,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.generation_log.json",
+      "size_bytes": 7185,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.generation_log.json",
+      "size_bytes": 7209,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.generation_log.json",
+      "size_bytes": 7245,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.generation_log.json",
+      "size_bytes": 7131,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.generation_log.json",
+      "size_bytes": 7185,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.generation_log.json",
+      "size_bytes": 7191,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.generation_log.json",
+      "size_bytes": 7227,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.generation_log.json",
+      "size_bytes": 7209,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.generation_log.json",
+      "size_bytes": 7335,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.generation_log.json",
+      "size_bytes": 7257,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.generation_log.json",
+      "size_bytes": 7257,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.generation_log.json",
+      "size_bytes": 7323,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.generation_log.json",
+      "size_bytes": 7275,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.generation_log.json",
+      "size_bytes": 7347,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.generation_log.json",
+      "size_bytes": 10967,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.generation_log.json",
+      "size_bytes": 10961,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.generation_log.json",
+      "size_bytes": 10985,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.generation_log.json",
+      "size_bytes": 11021,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.generation_log.json",
+      "size_bytes": 10907,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.generation_log.json",
+      "size_bytes": 10961,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.generation_log.json",
+      "size_bytes": 10967,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.generation_log.json",
+      "size_bytes": 11003,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.generation_log.json",
+      "size_bytes": 10985,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.generation_log.json",
+      "size_bytes": 11111,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.generation_log.json",
+      "size_bytes": 11033,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.generation_log.json",
+      "size_bytes": 11033,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.generation_log.json",
+      "size_bytes": 11099,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.generation_log.json",
+      "size_bytes": 11051,
+      "pattern": "*.generation_log.json"
+    },
+    {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.generation_log.json",
+      "size_bytes": 11123,
+      "pattern": "*.generation_log.json"
+    }
+  ]
+}

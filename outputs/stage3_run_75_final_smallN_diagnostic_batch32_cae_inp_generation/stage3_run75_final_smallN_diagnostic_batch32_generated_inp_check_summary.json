@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS_RUN75_FINAL_SMALLN_DIAGNOSTIC_BATCH32_32_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 32,
+  "pass_count": 32,
+  "per_n_pass_counts": {
+    "12": 14,
+    "16": 14,
+    "24": 2,
+    "40": 2
+  },
+  "total_cae_count": 32,
+  "total_inp_count": 32,
+  "solver_output_count": 0,
+  "forbidden_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_75_final_smallN_diagnostic_batch32_cae_inp_generation\\stage3_run75_final_smallN_diagnostic_batch32_generated_inp_check.csv"
+}

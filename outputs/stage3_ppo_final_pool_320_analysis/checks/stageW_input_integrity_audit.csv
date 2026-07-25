@@ -1,0 +1,30 @@
+check,status,detail,value
+combined552_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv,
+v01_metrics_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv,
+v01_ranking_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv,
+v02K2_metrics_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_teacher_metrics.csv,
+v02K2_ranking_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageN_teacher_metric_ranking\tables\v02K2_teacher_metric_ranking_full.csv,
+v03_metrics_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\stageR_ODB_teacher_metric_extraction\stageR_v03_teacher_metrics.csv,
+v03_ranking_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\stageS_teacher_metric_ranking\tables\v03_teacher_metric_ranking_full.csv,
+final_expansion_metrics_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_final_expansion_224_to_320\stageV_ODB_teacher_metric_extraction\stageV_ppo_final_expansion_224_ODB_metrics.csv,
+final_expansion_selected_exists,PASS,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_final_expansion_224_to_320\selected_candidates\PPO_FINAL_EXPANSION_224_SELECTED_MASTER.csv,
+stageV_report_exists,PASS,E:\Projects\RL-LAM-ScanOpt\docs\stage3_ppo_final_expansion_224_to_320\PPO_FINAL_EXPANSION_STAGEV_ODB_TEACHER_METRIC_EXTRACTION_REPORT.md,
+combined552_row_count,PASS,expected=552,552
+combined552_metric_mapping,PASS,"{""u2_range"": ""u2_range"", ""peeq_max"": ""peeq_max"", ""surface_t_proxy"": ""surface_t_proxy_mpa"", ""mises_max"": ""mises_max""}",
+v01_metrics_row_count,PASS,expected=32,32
+v01_metrics_metric_mapping,PASS,"{""u2_range"": ""u2_range"", ""peeq_max"": ""peeq_max"", ""surface_t_proxy"": ""surface_t_proxy_max_tensile_mpa"", ""mises_max"": ""mises_max""}",
+v02K2_metrics_row_count,PASS,expected=32,32
+v02K2_metrics_metric_mapping,PASS,"{""u2_range"": ""u2_range"", ""peeq_max"": ""peeq_max"", ""surface_t_proxy"": ""surface_t_proxy_max_tensile_mpa"", ""mises_max"": ""mises_max""}",
+v03_metrics_row_count,PASS,expected=32,32
+v03_metrics_metric_mapping,PASS,"{""u2_range"": ""u2_range"", ""peeq_max"": ""peeq_max"", ""surface_t_proxy"": ""surface_t_proxy_max_tensile_mpa"", ""mises_max"": ""mises_max""}",
+final_expansion_metrics_row_count,PASS,expected=224,224
+final_expansion_metrics_metric_mapping,PASS,"{""u2_range"": ""u2_range"", ""peeq_max"": ""peeq_max"", ""surface_t_proxy"": ""surface_t_proxy_max_tensile_mpa"", ""mises_max"": ""mises_max""}",
+combined552_native_counts,PASS,"{""12"": 78, ""16"": 78, ""24"": 190, ""40"": 206}","{""12"": 78, ""16"": 78, ""24"": 190, ""40"": 206}"
+final_expansion_counts,PASS,"expected N12=32,N16=32,N24=80,N40=80","{""12"": 32, ""16"": 32, ""24"": 80, ""40"": 80}"
+final_expansion_metadata_join,PASS,Stage V metrics join selected master by strategy_name,0
+cumulative_ppo_pool_counts,PASS,"expected total=320,N12=40,N16=40,N24=120,N40=120","{""12"": 40, ""16"": 40, ""24"": 120, ""40"": 120}"
+duplicate_strategy_name_within_ppo,PASS,duplicate strategy_name count,0
+duplicate_sameN_order_hash_within_ppo,PASS,duplicate same-N order_hash count,0
+duplicate_vs_combined552_order_hash,PASS,duplicate PPO hashes vs combined552,0
+teacher_metrics_extracted_320,PASS,all metric columns non-null for 320 PPO rows,True
+stageV_nonfatal_warning_preserved,PASS,Stage V warning/nonfatal text present in report,

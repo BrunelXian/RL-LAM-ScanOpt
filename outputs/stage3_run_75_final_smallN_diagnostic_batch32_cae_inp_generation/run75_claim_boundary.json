@@ -1,0 +1,31 @@
+{
+  "run_id": "run_75",
+  "run_name": "run_75_final_smallN_diagnostic_batch32_cae_inp_generation",
+  "selected_batch": "run73_final_smallN_diagnostic_batch32",
+  "batch_name": "stage3_run74_final_smallN_diagnostic_batch32_v01",
+  "safe_claims": [
+    "Run75 generated CAE/INP/JNL handoff files for the selected Run74 final small-N diagnostic batch32 only.",
+    "Generated files correspond to N12=14, N16=14, N24=2, and N40=2.",
+    "No N32 cases were generated.",
+    "Generated INPs passed text mesh-section, step-sequence, heat-load, final-cooling, and solver-output absence checks.",
+    "Generated N40 INPs were verified with step_cool_XX initialInc=0.001.",
+    "A validated custom abqjobpilot command file was created for user-controlled submission.",
+    "No solver job was submitted by Codex."
+  ],
+  "unsafe_claims_not_made": [
+    "teacher validation",
+    "physical improvement",
+    "solver completion",
+    "ODB results",
+    "RL or GNN superiority",
+    "arbitrary-N generalization",
+    "abqjobpilot execution"
+  ],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true
+}

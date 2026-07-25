@@ -1,0 +1,33 @@
+{
+  "batch": "stage3_ppo_policy_only_batch32_v01",
+  "n": 12,
+  "strategy_name": "PPOV01_N12_B06_diverse_tophalf",
+  "job_name": "J2D_PPOV01_N12_B06_diverse_tophalf",
+  "scan_order": [
+    11,
+    1,
+    3,
+    9,
+    7,
+    5,
+    0,
+    2,
+    4,
+    6,
+    10,
+    8
+  ],
+  "order_json": "[11,1,3,9,7,5,0,2,4,6,10,8]",
+  "order_compact": "11,1,3,9,7,5,0,2,4,6,10,8",
+  "candidate_source": "PPO_checkpoint_inference",
+  "ppo_checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\checkpoints\\maskable_ppo_lam_scan_order_final.zip",
+  "predicted_surrogate_reward_lex": 0.7882549240365492,
+  "generation_mode": "stochastic",
+  "selection_tag": "diverse_tophalf",
+  "order_hash": "2021a19d651a7f1f",
+  "duplicate_vs_combined552": false,
+  "duplicate_role": "",
+  "teacher_validated": false,
+  "abaqus_validated": false,
+  "notes": "PPO-generated Stage D candidate converted for Stage E Abaqus teacher-validation handoff; not physically validated yet."
+}

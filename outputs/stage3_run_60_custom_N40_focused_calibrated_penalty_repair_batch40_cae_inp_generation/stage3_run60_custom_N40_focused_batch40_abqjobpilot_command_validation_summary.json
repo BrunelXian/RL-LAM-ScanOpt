@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS_RUN60_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_abqjobpilot_commands_READY_TO_RUN.txt",
+  "command_count": 40,
+  "per_n_command_counts": {
+    "24": 16,
+    "40": 24
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_abqjobpilot_command_validation.csv",
+  "errors": [],
+  "abqjobpilot_executed": false,
+  "enqueue_executed": false
+}

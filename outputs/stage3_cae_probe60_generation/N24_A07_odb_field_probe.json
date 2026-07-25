@@ -1,0 +1,72 @@
+{
+  "odb_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.odb",
+  "step": "step_final_cooling",
+  "frame_description": "Increment     38: Step Time =    1200.",
+  "fields": {
+    "U": {
+      "componentLabels": [
+        "U1",
+        "U2"
+      ],
+      "validInvariants": [
+        "MAGNITUDE"
+      ],
+      "value_count": 735,
+      "sample_position": "NODAL",
+      "sample_data": [
+        7.560526864835992e-05,
+        -2.825931915140245e-05
+      ],
+      "sample_mises": null,
+      "sample_maxPrincipal": null
+    },
+    "PEEQ": {
+      "componentLabels": [],
+      "validInvariants": [],
+      "value_count": 2496,
+      "sample_position": "INTEGRATION_POINT",
+      "sample_data": 0.03210225701332092,
+      "sample_mises": null,
+      "sample_maxPrincipal": null
+    },
+    "S": {
+      "componentLabels": [
+        "S11",
+        "S22",
+        "S33",
+        "S12"
+      ],
+      "validInvariants": [
+        "MISES",
+        "MAX_INPLANE_PRINCIPAL",
+        "MIN_INPLANE_PRINCIPAL",
+        "OUTOFPLANE_PRINCIPAL",
+        "MAX_PRINCIPAL",
+        "MID_PRINCIPAL",
+        "MIN_PRINCIPAL",
+        "TRESCA",
+        "PRESS",
+        "INV3"
+      ],
+      "value_count": 2496,
+      "sample_position": "INTEGRATION_POINT",
+      "sample_data": [
+        4307612.0,
+        2303558.5,
+        583235712.0,
+        1950868.125
+      ],
+      "sample_mises": 579942592.0,
+      "sample_maxPrincipal": 583235712.0
+    },
+    "NT11": {
+      "componentLabels": [],
+      "validInvariants": [],
+      "value_count": 735,
+      "sample_position": "NODAL",
+      "sample_data": 20.091890335083008,
+      "sample_mises": null,
+      "sample_maxPrincipal": null
+    }
+  }
+}

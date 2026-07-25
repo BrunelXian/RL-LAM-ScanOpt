@@ -1,0 +1,10 @@
+check,passed,severity,detail
+existing_selected_batch_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\candidate_generation_v02\selected_batch32\v02_ppo_targeted_N24_N40_candidate_batch32.csv
+existing_N24_count_16,True,FAIL,"{24: 16, 40: 16}"
+existing_N40_count_16,True,FAIL,"{24: 16, 40: 16}"
+no_N12_N16_N32_in_existing_batch,True,FAIL,"{24: 16, 40: 16}"
+existing_N40_surrogate_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\surrogate_v02\models\N40_surrogate_reward_v02.joblib
+existing_partial_N40_checkpoint_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\ppo_training_v02\checkpoints\N40_seed20260624_maskable_ppo_v02.zip
+N40_surrogate_validation_report_exists,True,WARNING,E:\Projects\RL-LAM-ScanOpt\docs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\PPO_V02_SURROGATE_REPORT.md
+no_Abaqus_or_solver_required,True,FAIL,normal Python preflight only
+no_CAE_INP_generation_attempted,True,FAIL,Stage K2 preflight does not generate CAE/INP/JNL

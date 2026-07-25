@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-28T07:37:18.769781+00:00",
+  "run_id": "stageM_v02K2_odb_teacher_metric_extraction",
+  "batch_name": "stage3_ppo_v02K2_targeted_N24_N40_batch32_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v02K2_targeted_N24_N40_batch32_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_STAGEM_V02K2_ODB_TEACHER_METRIC_EXTRACTION_32_OF_32",
+  "inputs": {
+    "stageL_generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\manifest\\stageL_v02K2_CAE_generation_manifest.csv",
+    "stageL_case_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\manifest\\stageL_v02K2_case_manifest.csv",
+    "selected_batch_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\v02K2_ppo_targeted_N24_N40_candidate_batch32.csv",
+    "stageL_handoff_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\stageL_v02K2_CAE_INP_handoff_manifest.json",
+    "stageL_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\commands\\stageL_v02K2_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "stageL_report_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEL_CAE_INP_HANDOFF_REPORT.md"
+  },
+  "stageM_notes": {
+    "namespace": "stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40",
+    "includes_N12": false,
+    "includes_N16": false,
+    "includes_N24": true,
+    "includes_N32_cases": false,
+    "includes_N40": true,
+    "generated_CAE_INP_JNL_only_in_stageL": true,
+    "final_step_required_for_metrics": "step_final_cooling",
+    "targeted_batch": "PPO v02K2 N24/N40 batch32"
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_solver_completion_audit_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_solver_completion_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_odb_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_teacher_metrics.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEM_ODB_TEACHER_METRIC_EXTRACTION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_odb_teacher_metric_extraction_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

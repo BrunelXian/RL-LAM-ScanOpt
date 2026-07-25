@@ -1,0 +1,56 @@
+{
+  "run_id": "run_40",
+  "run_name": "run_40_native_N24_N40_focused_batch60_cae_inp_generation",
+  "timestamp": "2026-06-13T22:46:42",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_40_preflight_native_N24_N40_focused_batch60_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_40_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_40_generate_native_N24_N40_focused_batch60_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_40_check_native_N24_N40_focused_batch60_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_40_validate_native_N24_N40_focused_batch60_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_39_run38_native_N24_N40_focused_batch60_handoff_package\\stage3_run39_native_N24_N40_focused_batch60_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_39_run38_native_N24_N40_focused_batch60_handoff_package\\scan_orders"
+  },
+  "output_files": {
+    "preflight_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_preflight_summary.json",
+    "future_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_future_cae_root_safety_audit.json",
+    "base_mesh_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_base_mesh_audit_summary.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\stage3_run40_native_N24_N40_focused_batch60_cae_generation_manifest.csv",
+    "generated_inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\stage3_run40_native_N24_N40_focused_batch60_generated_inp_check_summary.json",
+    "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\stage3_run40_native_N24_N40_focused_batch60_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\stage3_run40_native_N24_N40_focused_batch60_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_claim_boundary.md",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_40_native_N24_N40_focused_batch60_cae_inp_generation\\RUN_40_NATIVE_N24_N40_FOCUSED_BATCH60_CAE_INP_GENERATION_REPORT.md"
+  },
+  "selected_batch": "run38_native_N24_N40_focused_batch60",
+  "batch_name": "stage3_run39_native_N24_N40_focused_batch60_v01",
+  "generated_case_count": 60,
+  "per_N_generated_counts": {
+    "N24": 30,
+    "N40": 30
+  },
+  "includes_N12": false,
+  "includes_N16": false,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "generated_CAE_count": 60,
+  "generated_INP_count": 60,
+  "generated_JNL_count": 60,
+  "generation_log_count": 60,
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_40_native_N24_N40_focused_batch60_cae_inp_generation\\RUN_40_NATIVE_N24_N40_FOCUSED_BATCH60_CAE_INP_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_claim_boundary.md",
+  "forbidden_case_dirs": [],
+  "solver_output_files": [],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

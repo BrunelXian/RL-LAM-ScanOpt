@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-27T20:03:34.661466+00:00",
+  "verdict": "WARNING_V02_FIXED_N_PPO_PARTIAL_REVIEW",
+  "checkpoints": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N24_seed20260624_maskable_ppo_v02.zip",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N40_seed20260624_maskable_ppo_v02.zip"
+  ],
+  "summaries": [
+    {
+      "n": 24,
+      "seed": 20260624,
+      "checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N24_seed20260624_maskable_ppo_v02.zip",
+      "learn_timesteps": 0,
+      "mode": "existing_checkpoint_reused",
+      "num_timesteps": 300032,
+      "parameter_count": {
+        "total_parameters": 72937,
+        "trainable_parameters": 72937
+      },
+      "eval_mean_reward": 0.6263836456446926,
+      "eval_legal_all": true
+    },
+    {
+      "n": 40,
+      "seed": 20260624,
+      "checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N40_seed20260624_maskable_ppo_v02.zip",
+      "learn_timesteps": 0,
+      "mode": "existing_checkpoint_reused",
+      "num_timesteps": 100000,
+      "parameter_count": {
+        "total_parameters": 72937,
+        "trainable_parameters": 72937
+      },
+      "eval_mean_reward": 0.3393141198784068,
+      "eval_legal_all": true
+    }
+  ],
+  "action_masks_verified": true,
+  "eval_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\tables\\v02_internal_eval_by_N_seed.csv",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

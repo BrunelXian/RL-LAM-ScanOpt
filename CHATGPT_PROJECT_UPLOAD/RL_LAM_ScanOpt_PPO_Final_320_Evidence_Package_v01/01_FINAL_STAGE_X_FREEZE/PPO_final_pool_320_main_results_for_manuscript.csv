@@ -1,0 +1,13 @@
+result,value,notes
+new_records_vs_combined552,0,No PPO candidate beat native combined552 best records.
+primary_top25_any_count,106,Candidates in at least one primary top25 region.
+bootstrap_primary_top25_any_mean,163.106,Equal-budget random-reference bootstrap.
+bootstrap_primary_top25_any_q05_q95,154 / 173,Equal-budget random-reference bootstrap.
+bootstrap_interpretation,weak,Overall primary top25 enrichment is weak.
+SurfaceT_top10_enrichment,yes,SurfaceT signal is not evidence for U2/lex superiority.
+final_expansion_best_lex_improvement,no,Final expansion did not improve prior best lex rank for any N.
+combined552_new_records,0,No combined552 new records.
+best_primary_lex_N12,PPOV01_N12_B08_stochastic_highreward / ref lex rank 6,ppo_version=v01
+best_primary_lex_N16,PPOV01_N16_B01_deterministic / ref lex rank 2,ppo_version=v01
+best_primary_lex_N24,PPOV02_N24_B16_novelty_tophalf / ref lex rank 114,ppo_version=v02K2
+best_primary_lex_N40,PPOV01_N40_B03_surrogate_top / ref lex rank 147,ppo_version=v01

@@ -1,0 +1,19 @@
+{
+  "headline": "Run77 finds Stage 3 ready for a final evidence-freeze package: N12/N16 reached 78 native teacher rows each, N24/N40 remain mature anchors, and claims must stay bounded to tested native N values and the current 2D teacher model.",
+  "verdict": "RUN77_STAGE3_FINAL_EVIDENCE_FREEZE_READY_WITH_BOUNDED_NATIVE_N_CLAIMS",
+  "native_combined552_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "n32_legacy_teacher_rows": 332,
+  "run76_new_best_count_vs_combined520": 11,
+  "N12_N16_still_under_sampled_relative_to_N24_N40": true,
+  "N12_N16_enough_for_bounded_variable_N_analysis": true,
+  "N24_N40_remain_mature_and_should_stay_frozen": true,
+  "surrogate_calibration_sufficient_for_reporting_not_overclaiming": true,
+  "gnn_pointer_auxiliary_only": true,
+  "full_variable_N_evidence_ready_for_final_evidence_freeze": true,
+  "paper_safe_claim": "Teacher-validated scan-order improvement can be discussed across the tested native N values with bounds on N values, strategy space, and the current 2D Abaqus teacher model."
+}

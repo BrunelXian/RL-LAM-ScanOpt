@@ -1,0 +1,50 @@
+{
+  "verdict": "FIGURE_3_1_RESPONSE_LANDSCAPE_READY",
+  "total_rows_full_response_landscape_pool": 552,
+  "native_row_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "auxiliary_N32_row_count": 0,
+  "panel_counts": {
+    "u2": {
+      "N12": 78,
+      "N16": 78,
+      "N24": 190,
+      "N40": 206
+    },
+    "peeq": {
+      "N12": 78,
+      "N16": 78,
+      "N24": 190,
+      "N40": 206
+    },
+    "surfacet": {
+      "N12": 78,
+      "N16": 78,
+      "N24": 190,
+      "N40": 206
+    },
+    "mises": {
+      "N12": 78,
+      "N16": 78,
+      "N24": 190,
+      "N40": 206
+    }
+  },
+  "missing_values": {
+    "U2": 0,
+    "PEEQ": 0,
+    "SurfaceT": 0,
+    "Mises": 0
+  },
+  "dropped_rows": 0,
+  "N32_removed_from_all_panels": true,
+  "plot_data_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\manuscript_figures\\figure_3_1_response_landscape_plot_data.csv",
+  "summary_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\manuscript_figures\\figure_3_1_response_landscape_summary.csv",
+  "figure_png": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\manuscript_figures\\figure_3_1_teacher_response_distributions.png",
+  "figure_pdf": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\manuscript_figures\\figure_3_1_teacher_response_distributions.pdf",
+  "figure_svg": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\manuscript_figures\\figure_3_1_teacher_response_distributions.svg"
+}

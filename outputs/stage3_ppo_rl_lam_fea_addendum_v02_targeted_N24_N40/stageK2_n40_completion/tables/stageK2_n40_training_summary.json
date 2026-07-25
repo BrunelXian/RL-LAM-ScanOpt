@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-27T23:36:31.880618+00:00",
+  "verdict": "WARNING_STAGEK2_N40_COMPLETION_SINGLE_SEED_ONLY",
+  "rows": [
+    {
+      "seed": 20260624,
+      "status": "COMPLETED_TARGET",
+      "source_checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N40_seed20260624_maskable_ppo_v02.zip",
+      "source_mode": "continued_from_stageK_partial_checkpoint",
+      "target_total_timesteps": 500000,
+      "timesteps_before": 100000,
+      "timesteps_after": 500384,
+      "learn_timesteps_this_stage": 400384,
+      "checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\checkpoints\\N40_seed20260624_maskable_ppo_v02_K2.zip",
+      "completed_target": true,
+      "parameter_count": {
+        "total_parameters": 72937,
+        "trainable_parameters": 72937
+      }
+    },
+    {
+      "seed": 20260625,
+      "status": "DEFERRED_RUNTIME_BUDGET",
+      "target_total_timesteps": 300000,
+      "checkpoint": "",
+      "completed_target": false
+    },
+    {
+      "seed": 20260626,
+      "status": "DEFERRED_RUNTIME_BUDGET",
+      "target_total_timesteps": 300000,
+      "checkpoint": "",
+      "completed_target": false
+    }
+  ],
+  "config_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\tables\\stageK2_n40_training_config.json",
+  "parameter_count_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\tables\\stageK2_n40_parameter_count.json",
+  "monitor_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\logs\\stageK2_n40_training_monitor.csv",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true
+}

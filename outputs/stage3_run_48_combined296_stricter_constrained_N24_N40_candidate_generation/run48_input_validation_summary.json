@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-14T18:35:11.805856+00:00",
+  "verdict": "PASS_RUN48_COMBINED296_AND_PLUS_N32_INPUTS_READY",
+  "errors": [],
+  "native_combined296_rows": 296,
+  "native_combined296_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 112,
+    "40": 112
+  },
+  "combined296_plus_N32_rows": 628,
+  "combined296_plus_N32_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 112,
+    "32": 332,
+    "40": 112
+  },
+  "run46_prediction_audit_context": {
+    "overall_reward_spearman": -0.11305355146557049,
+    "mean_top5_overlap": 2.5
+  }
+}

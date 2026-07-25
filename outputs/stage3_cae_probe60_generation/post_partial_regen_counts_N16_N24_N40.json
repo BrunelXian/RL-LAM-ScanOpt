@@ -1,0 +1,62 @@
+{
+  "N12": {
+    "cae": 15,
+    "inp": 15,
+    "jnl": 15,
+    "generation_logs": 15,
+    "scan_order_json": 15,
+    "solver_outputs_active": {
+      ".odb": 15,
+      ".sim": 0,
+      ".sta": 15,
+      ".dat": 15,
+      ".msg": 15,
+      ".lck": 0
+    }
+  },
+  "N16": {
+    "cae": 15,
+    "inp": 15,
+    "jnl": 15,
+    "generation_logs": 15,
+    "scan_order_json": 15,
+    "solver_outputs_active": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  },
+  "N24": {
+    "cae": 15,
+    "inp": 15,
+    "jnl": 15,
+    "generation_logs": 15,
+    "scan_order_json": 15,
+    "solver_outputs_active": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  },
+  "N40": {
+    "cae": 15,
+    "inp": 15,
+    "jnl": 15,
+    "generation_logs": 15,
+    "scan_order_json": 15,
+    "solver_outputs_active": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  }
+}

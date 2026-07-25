@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS_STAGEL_V02K2_CAE_INP_PREFLIGHT_READY",
+  "selected_batch": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\v02K2_ppo_targeted_N24_N40_candidate_batch32.csv",
+  "scan_json_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v02K2_targeted_N24_N40_batch32_v01",
+  "row_count": 32,
+  "counts_by_n": {
+    "24": 16,
+    "40": 16
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\checks\\stageL_preflight_v02K2_CAE_INP_handoff.csv",
+  "blockers": [],
+  "warnings": [],
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_ODB": true
+}

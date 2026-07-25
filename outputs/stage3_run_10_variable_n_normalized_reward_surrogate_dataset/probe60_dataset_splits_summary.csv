@@ -1,0 +1,12 @@
+split_family,split_name,train_case_count,test_case_count,train_n,test_n
+leave_N_out,test_N12,45,15,"[16, 24, 40]",[12]
+leave_N_out,test_N16,45,15,"[12, 24, 40]",[16]
+leave_N_out,test_N24,45,15,"[12, 16, 40]",[24]
+leave_N_out,test_N40,45,15,"[12, 16, 24]",[40]
+core_generalization,train_N12_N16_N24_test_N40,45,15,"[12, 16, 24]",[40]
+larger_N_generalization,train_N12_N16_test_N24_N40,30,30,"[12, 16]","[24, 40]"
+random_stratified_5fold,fold_1,48,12,[],[]
+random_stratified_5fold,fold_2,48,12,[],[]
+random_stratified_5fold,fold_3,48,12,[],[]
+random_stratified_5fold,fold_4,48,12,[],[]
+random_stratified_5fold,fold_5,48,12,[],[]

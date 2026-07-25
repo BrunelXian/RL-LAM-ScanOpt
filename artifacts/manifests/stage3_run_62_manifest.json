@@ -1,0 +1,475 @@
+{
+  "run_id": "run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking",
+  "run_name": "custom N40-focused batch40 teacher metrics ingestion and combined432 ranking",
+  "timestamp": "2026-06-17T00:02:19.853355+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_62_ingest_custom_N40_focused_batch40_and_build_combined432.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\RUN_61_CUSTOM_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_61_manifest.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\stage3_run59_N40_focused_calibrated_penalty_repair_batch40_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\scan_orders",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_58_combined392_model_update_N24_N40_evidence_freeze_and_N40_focused_candidate_generation\\run58_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_58_combined392_model_update_N24_N40_evidence_freeze_and_N40_focused_candidate_generation\\run58_N40_focused_calibrated_penalty_repair_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_58_combined392_model_update_N24_N40_evidence_freeze_and_N40_focused_candidate_generation\\RUN_58_COMBINED392_MODEL_UPDATE_N24_N40_EVIDENCE_FREEZE_AND_N40_FOCUSED_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_57_calibrated_N24_N40_batch64_teacher_metrics_ingestion_and_combined392_ranking\\combined392_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_57_calibrated_N24_N40_batch64_teacher_metrics_ingestion_and_combined392_ranking\\combined392_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_57_calibrated_N24_N40_batch64_teacher_metrics_ingestion_and_combined392_ranking\\combined392_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_57_calibrated_N24_N40_batch64_teacher_metrics_ingestion_and_combined392_ranking\\RUN_57_CALIBRATED_N24_N40_BATCH64_TEACHER_METRICS_INGESTION_AND_COMBINED392_RANKING_REPORT.md"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run62_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_custom_N40_focused_batch40_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_custom_N40_focused_batch40_teacher_dataset_enriched.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_custom_N40_focused_batch40_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_custom_N40_focused_batch40_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_plus_N32_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_plus_N32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\combined432_plus_N32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_vs_combined392_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_vs_combined392_best_comparison.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_vs_prior_key_records.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_vs_prior_key_records_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_custom_N40_focused_batch40_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_custom_N40_focused_batch40_effectiveness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_prediction_audit_for_run58_custom_batch40.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run61_prediction_audit_for_run58_custom_batch40_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\n24_n40_updated_maturity_and_claim_boundary_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\n24_n40_updated_maturity_and_claim_boundary_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\n24_n40_updated_maturity_and_claim_boundary_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run62_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run62_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\RUN_62_CUSTOM_N40_FOCUSED_BATCH40_TEACHER_METRICS_INGESTION_AND_COMBINED432_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_62_manifest.json"
+  ],
+  "run61_teacher_rows": 40,
+  "combined432_rows": 432,
+  "combined432_plus_N32_rows": 764,
+  "per_N_combined432_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 176,
+    "40": 184
+  },
+  "per_N_combined432_plus_N32_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 176,
+    "32": 332,
+    "40": 184
+  },
+  "new_best_counts": {
+    "run61_vs_combined392": 4
+  },
+  "prediction_audit_summary": {
+    "headline": "Run58/Run59 prediction calibration was evaluated on realized Run61 labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+    "overall_reward_spearman": 0.27743974220933537,
+    "overall_penalty_repair_spearman": 0.26375183386624124,
+    "mean_top5_overlap": 0.25,
+    "top1_hits": 0,
+    "by_candidate_source": {
+      "N24_diversity_coverage": {
+        "count": 2,
+        "mean_abs_error": 0.11857704593589771,
+        "mean_realized_reward": 0.2977857142857143
+      },
+      "N24_penalty_repair_diagnostic": {
+        "count": 4,
+        "mean_abs_error": 0.20717301212938,
+        "mean_realized_reward": 0.5340357142857144
+      },
+      "N24_sentinel_control": {
+        "count": 1,
+        "mean_abs_error": 0.07495898277276447,
+        "mean_realized_reward": 0.050000000000000024
+      },
+      "N24_u2_reward_maintenance": {
+        "count": 7,
+        "mean_abs_error": 0.35208813092951285,
+        "mean_realized_reward": 0.41240816326530616
+      },
+      "N24_uncertainty_calibration": {
+        "count": 2,
+        "mean_abs_error": 0.25796686149849624,
+        "mean_realized_reward": 0.41285714285714287
+      },
+      "N40_Mises_repair_candidates": {
+        "count": 1,
+        "mean_abs_error": 0.363721492493311,
+        "mean_realized_reward": 0.30355191256830605
+      },
+      "N40_PEEQ_repair_candidates": {
+        "count": 1,
+        "mean_abs_error": 0.1740508791601345,
+        "mean_realized_reward": 0.8474043715846994
+      },
+      "N40_SurfaceT_repair_candidates": {
+        "count": 1,
+        "mean_abs_error": 0.13448784250363965,
+        "mean_realized_reward": 0.8495901639344261
+      },
+      "N40_median_guard_repair": {
+        "count": 2,
+        "mean_abs_error": 0.07907456172751798,
+        "mean_realized_reward": 0.7312841530054646
+      },
+      "N40_no_penalty_worse_than_median": {
+        "count": 2,
+        "mean_abs_error": 0.05504795179325722,
+        "mean_realized_reward": 0.7701502732240437
+      },
+      "N40_penalty_repair_local_search": {
+        "count": 4,
+        "mean_abs_error": 0.12553881213368728,
+        "mean_realized_reward": 0.7155737704918033
+      },
+      "N40_penalty_repair_top": {
+        "count": 4,
+        "mean_abs_error": 0.19630347457574865,
+        "mean_realized_reward": 0.4997950819672131
+      },
+      "N40_two_stage_penalty_repair": {
+        "count": 3,
+        "mean_abs_error": 0.23270364707193672,
+        "mean_realized_reward": 0.708424408014572
+      },
+      "N40_u2_reward_retention_local_repair": {
+        "count": 3,
+        "mean_abs_error": 0.0776572414107436,
+        "mean_realized_reward": 0.7927595628415302
+      },
+      "N40_u2_reward_retention_top": {
+        "count": 3,
+        "mean_abs_error": 0.08590071880228674,
+        "mean_realized_reward": 0.7438524590163936
+      }
+    },
+    "by_selection_bucket": {
+      "N24_diversity_coverage": {
+        "count": 2,
+        "mean_abs_error": 0.11857704593589771,
+        "mean_realized_reward": 0.2977857142857143
+      },
+      "N24_penalty_repair_diagnostic": {
+        "count": 4,
+        "mean_abs_error": 0.20717301212938,
+        "mean_realized_reward": 0.5340357142857144
+      },
+      "N24_sentinel_control": {
+        "count": 1,
+        "mean_abs_error": 0.07495898277276447,
+        "mean_realized_reward": 0.050000000000000024
+      },
+      "N24_u2_reward_maintenance": {
+        "count": 7,
+        "mean_abs_error": 0.35208813092951285,
+        "mean_realized_reward": 0.41240816326530616
+      },
+      "N24_uncertainty_calibration": {
+        "count": 2,
+        "mean_abs_error": 0.25796686149849624,
+        "mean_realized_reward": 0.41285714285714287
+      },
+      "N40_Mises_repair_candidates": {
+        "count": 1,
+        "mean_abs_error": 0.363721492493311,
+        "mean_realized_reward": 0.30355191256830605
+      },
+      "N40_PEEQ_repair_candidates": {
+        "count": 1,
+        "mean_abs_error": 0.1740508791601345,
+        "mean_realized_reward": 0.8474043715846994
+      },
+      "N40_SurfaceT_repair_candidates": {
+        "count": 1,
+        "mean_abs_error": 0.13448784250363965,
+        "mean_realized_reward": 0.8495901639344261
+      },
+      "N40_median_guard_repair": {
+        "count": 2,
+        "mean_abs_error": 0.07907456172751798,
+        "mean_realized_reward": 0.7312841530054646
+      },
+      "N40_no_penalty_worse_than_median": {
+        "count": 2,
+        "mean_abs_error": 0.05504795179325722,
+        "mean_realized_reward": 0.7701502732240437
+      },
+      "N40_penalty_repair_local_search": {
+        "count": 4,
+        "mean_abs_error": 0.12553881213368728,
+        "mean_realized_reward": 0.7155737704918033
+      },
+      "N40_penalty_repair_top": {
+        "count": 4,
+        "mean_abs_error": 0.19630347457574865,
+        "mean_realized_reward": 0.4997950819672131
+      },
+      "N40_two_stage_penalty_repair": {
+        "count": 3,
+        "mean_abs_error": 0.23270364707193672,
+        "mean_realized_reward": 0.708424408014572
+      },
+      "N40_u2_reward_retention_local_repair": {
+        "count": 3,
+        "mean_abs_error": 0.0776572414107436,
+        "mean_realized_reward": 0.7927595628415302
+      },
+      "N40_u2_reward_retention_top": {
+        "count": 3,
+        "mean_abs_error": 0.08590071880228674,
+        "mean_realized_reward": 0.7438524590163936
+      }
+    },
+    "disagreement_vs_abs_error_spearman": 0.061584784336512544,
+    "uncertainty_vs_abs_error_spearman": 0.33789868667917455,
+    "novelty_vs_realized_reward_spearman": -0.6882811818712866,
+    "by_source_from_original_option_A": {
+      "False": {
+        "count": 8,
+        "mean_abs_error": 0.2818729995609544,
+        "mean_realized_reward": 0.379
+      },
+      "True": {
+        "count": 32,
+        "mean_abs_error": 0.16509471800216585,
+        "mean_realized_reward": 0.6269464285714287
+      }
+    },
+    "by_added_as_extra_N24": {
+      "False": {
+        "count": 32,
+        "mean_abs_error": 0.16509471800216585,
+        "mean_realized_reward": 0.6269464285714287
+      },
+      "True": {
+        "count": 8,
+        "mean_abs_error": 0.2818729995609544,
+        "mean_realized_reward": 0.379
+      }
+    }
+  },
+  "maturity_audit_summary": {
+    "headline": "After Run61, N24 has 176 and N40 has 184 native teacher rows; N40 remains the main active improvement direction, N24 is in maintenance/evidence-freeze status, and full variable-N maturity remains limited by N12/N16 at 36 rows each.",
+    "n24_teacher_rows": 176,
+    "n40_teacher_rows": 184,
+    "n32_legacy_teacher_rows": 332,
+    "n12_teacher_rows": 36,
+    "n16_teacher_rows": 36,
+    "run61_new_best_count_vs_combined392": 4,
+    "n40_remains_main_active_improvement_direction": true,
+    "n24_maintenance_evidence_freeze_status": true,
+    "gnn_pointer_auxiliary_only": true,
+    "n24_n40_mature_for_offline_active_learning_evidence": true,
+    "full_variable_n_rl_maturity_limited_by_n12_n16": true,
+    "safe_paper_claim": "N24/N40 have dense native teacher labels and repeated active-learning loops; full variable-N maturity remains limited by N12/N16 sample counts.",
+    "prediction_calibration_summary": {
+      "headline": "Run58/Run59 prediction calibration was evaluated on realized Run61 labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+      "overall_reward_spearman": 0.27743974220933537,
+      "overall_penalty_repair_spearman": 0.26375183386624124,
+      "mean_top5_overlap": 0.25,
+      "top1_hits": 0,
+      "by_candidate_source": {
+        "N24_diversity_coverage": {
+          "count": 2,
+          "mean_abs_error": 0.11857704593589771,
+          "mean_realized_reward": 0.2977857142857143
+        },
+        "N24_penalty_repair_diagnostic": {
+          "count": 4,
+          "mean_abs_error": 0.20717301212938,
+          "mean_realized_reward": 0.5340357142857144
+        },
+        "N24_sentinel_control": {
+          "count": 1,
+          "mean_abs_error": 0.07495898277276447,
+          "mean_realized_reward": 0.050000000000000024
+        },
+        "N24_u2_reward_maintenance": {
+          "count": 7,
+          "mean_abs_error": 0.35208813092951285,
+          "mean_realized_reward": 0.41240816326530616
+        },
+        "N24_uncertainty_calibration": {
+          "count": 2,
+          "mean_abs_error": 0.25796686149849624,
+          "mean_realized_reward": 0.41285714285714287
+        },
+        "N40_Mises_repair_candidates": {
+          "count": 1,
+          "mean_abs_error": 0.363721492493311,
+          "mean_realized_reward": 0.30355191256830605
+        },
+        "N40_PEEQ_repair_candidates": {
+          "count": 1,
+          "mean_abs_error": 0.1740508791601345,
+          "mean_realized_reward": 0.8474043715846994
+        },
+        "N40_SurfaceT_repair_candidates": {
+          "count": 1,
+          "mean_abs_error": 0.13448784250363965,
+          "mean_realized_reward": 0.8495901639344261
+        },
+        "N40_median_guard_repair": {
+          "count": 2,
+          "mean_abs_error": 0.07907456172751798,
+          "mean_realized_reward": 0.7312841530054646
+        },
+        "N40_no_penalty_worse_than_median": {
+          "count": 2,
+          "mean_abs_error": 0.05504795179325722,
+          "mean_realized_reward": 0.7701502732240437
+        },
+        "N40_penalty_repair_local_search": {
+          "count": 4,
+          "mean_abs_error": 0.12553881213368728,
+          "mean_realized_reward": 0.7155737704918033
+        },
+        "N40_penalty_repair_top": {
+          "count": 4,
+          "mean_abs_error": 0.19630347457574865,
+          "mean_realized_reward": 0.4997950819672131
+        },
+        "N40_two_stage_penalty_repair": {
+          "count": 3,
+          "mean_abs_error": 0.23270364707193672,
+          "mean_realized_reward": 0.708424408014572
+        },
+        "N40_u2_reward_retention_local_repair": {
+          "count": 3,
+          "mean_abs_error": 0.0776572414107436,
+          "mean_realized_reward": 0.7927595628415302
+        },
+        "N40_u2_reward_retention_top": {
+          "count": 3,
+          "mean_abs_error": 0.08590071880228674,
+          "mean_realized_reward": 0.7438524590163936
+        }
+      },
+      "by_selection_bucket": {
+        "N24_diversity_coverage": {
+          "count": 2,
+          "mean_abs_error": 0.11857704593589771,
+          "mean_realized_reward": 0.2977857142857143
+        },
+        "N24_penalty_repair_diagnostic": {
+          "count": 4,
+          "mean_abs_error": 0.20717301212938,
+          "mean_realized_reward": 0.5340357142857144
+        },
+        "N24_sentinel_control": {
+          "count": 1,
+          "mean_abs_error": 0.07495898277276447,
+          "mean_realized_reward": 0.050000000000000024
+        },
+        "N24_u2_reward_maintenance": {
+          "count": 7,
+          "mean_abs_error": 0.35208813092951285,
+          "mean_realized_reward": 0.41240816326530616
+        },
+        "N24_uncertainty_calibration": {
+          "count": 2,
+          "mean_abs_error": 0.25796686149849624,
+          "mean_realized_reward": 0.41285714285714287
+        },
+        "N40_Mises_repair_candidates": {
+          "count": 1,
+          "mean_abs_error": 0.363721492493311,
+          "mean_realized_reward": 0.30355191256830605
+        },
+        "N40_PEEQ_repair_candidates": {
+          "count": 1,
+          "mean_abs_error": 0.1740508791601345,
+          "mean_realized_reward": 0.8474043715846994
+        },
+        "N40_SurfaceT_repair_candidates": {
+          "count": 1,
+          "mean_abs_error": 0.13448784250363965,
+          "mean_realized_reward": 0.8495901639344261
+        },
+        "N40_median_guard_repair": {
+          "count": 2,
+          "mean_abs_error": 0.07907456172751798,
+          "mean_realized_reward": 0.7312841530054646
+        },
+        "N40_no_penalty_worse_than_median": {
+          "count": 2,
+          "mean_abs_error": 0.05504795179325722,
+          "mean_realized_reward": 0.7701502732240437
+        },
+        "N40_penalty_repair_local_search": {
+          "count": 4,
+          "mean_abs_error": 0.12553881213368728,
+          "mean_realized_reward": 0.7155737704918033
+        },
+        "N40_penalty_repair_top": {
+          "count": 4,
+          "mean_abs_error": 0.19630347457574865,
+          "mean_realized_reward": 0.4997950819672131
+        },
+        "N40_two_stage_penalty_repair": {
+          "count": 3,
+          "mean_abs_error": 0.23270364707193672,
+          "mean_realized_reward": 0.708424408014572
+        },
+        "N40_u2_reward_retention_local_repair": {
+          "count": 3,
+          "mean_abs_error": 0.0776572414107436,
+          "mean_realized_reward": 0.7927595628415302
+        },
+        "N40_u2_reward_retention_top": {
+          "count": 3,
+          "mean_abs_error": 0.08590071880228674,
+          "mean_realized_reward": 0.7438524590163936
+        }
+      },
+      "disagreement_vs_abs_error_spearman": 0.061584784336512544,
+      "uncertainty_vs_abs_error_spearman": 0.33789868667917455,
+      "novelty_vs_realized_reward_spearman": -0.6882811818712866,
+      "by_source_from_original_option_A": {
+        "False": {
+          "count": 8,
+          "mean_abs_error": 0.2818729995609544,
+          "mean_realized_reward": 0.379
+        },
+        "True": {
+          "count": 32,
+          "mean_abs_error": 0.16509471800216585,
+          "mean_realized_reward": 0.6269464285714287
+        }
+      },
+      "by_added_as_extra_N24": {
+        "False": {
+          "count": 32,
+          "mean_abs_error": 0.16509471800216585,
+          "mean_realized_reward": 0.6269464285714287
+        },
+        "True": {
+          "count": 8,
+          "mean_abs_error": 0.2818729995609544,
+          "mean_realized_reward": 0.379
+        }
+      }
+    }
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\RUN_62_CUSTOM_N40_FOCUSED_BATCH40_TEACHER_METRICS_INGESTION_AND_COMBINED432_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_62_custom_N40_focused_batch40_teacher_metrics_ingestion_and_combined432_ranking\\run62_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation_performed_by_run62": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true
+}

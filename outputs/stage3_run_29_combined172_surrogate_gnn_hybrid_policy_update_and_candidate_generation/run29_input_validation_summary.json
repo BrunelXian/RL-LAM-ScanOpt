@@ -1,0 +1,23 @@
+{
+  "verdict": "PASS_RUN29_COMBINED172_INPUTS_READY",
+  "errors": [],
+  "combined172_rows": 172,
+  "per_n_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 54,
+    "40": 54
+  },
+  "dataset_source_counts": {
+    "batch20_run14": 20,
+    "batch28_run20": 28,
+    "probe60_run08": 60,
+    "shortlist64_run27": 64
+  },
+  "anchor_validation": {
+    "N40_best_u2": "S3R24L64_N40_B23_exploitation_reference",
+    "N40_best_reward": "S3R24L64_N40_B23_exploitation_reference",
+    "N16_best_u2": "S3R24L64_N16_B02_top_region",
+    "N16_best_reward": "S3R24L64_N16_B02_top_region"
+  }
+}

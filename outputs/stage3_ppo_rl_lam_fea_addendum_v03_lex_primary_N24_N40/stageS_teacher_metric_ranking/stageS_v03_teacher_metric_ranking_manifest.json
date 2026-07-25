@@ -1,0 +1,59 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-28T23:45:19.064846+00:00",
+  "Stage R metrics input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_teacher_metrics.csv",
+  "combined552 reference input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+  "v01 metrics input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metrics.csv",
+  "v02K2 metrics input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_teacher_metrics.csv",
+  "v03 selected batch input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\v03_ppo_lex_primary_N24_N40_candidate_batch32.csv",
+  "analysis_dataset_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\combined552_N24N40_plus_v03_analysis_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\combined552_N24N40_plus_ppo_v01_v02K2_v03_analysis_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\ppo_teacher_validated_pool_v01_v02K2_v03_96cases.csv"
+  ],
+  "ranking_table_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_teacher_metric_ranking_full.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_new_record_candidates.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_topk_competitive_candidates.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_best_candidates_by_N.csv"
+  ],
+  "summary_table_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_summary_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_global_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_topk_summary_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_vs_v01_v02K2_targeted_comparison_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_vs_prior_ppo_equal_budget_bootstrap.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_vs_bootstrap_random_reference_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_vs_bootstrap_random_reference_global.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_surrogate_vs_teacher_alignment_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\cumulative_ppo_pool_96_summary_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\ppo_pool_progress_to_320_target.csv"
+  ],
+  "plot_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_vs_combined552_u2_range_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_vs_combined552_peeq_max_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_vs_combined552_surface_t_proxy_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_vs_combined552_mises_max_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_lex_rank_percentile_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_vs_v01_v02K2_best_lex_rank.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_vs_bootstrap_random_reference_topk_count.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\v03_predicted_score_vs_teacher_reward.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\cumulative_ppo_pool_progress_to_320.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\plots\\cumulative_ppo_pool_vs_baseline_family_summary.png"
+  ],
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_STAGES_TEACHER_METRIC_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_STAGES_CLAIM_BOUNDARY.md",
+  "current_PPO_teacher_validated_total": 96,
+  "target_PPO_teacher_validated_total": 320,
+  "remaining_to_target": 224,
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_STAGES_V03_TEACHER_VALIDATED_AND_IMPROVES_PRIOR_PPO"
+}

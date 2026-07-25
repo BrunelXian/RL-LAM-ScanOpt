@@ -1,0 +1,40 @@
+{
+  "archive_root": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\archived_old_N16_N24_N40_solver_outputs_before_mesh_regen_20260611_141853",
+  "manifest": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\archived_old_N16_N24_N40_solver_outputs_before_mesh_regen_20260611_141853\\ARCHIVE_MANIFEST.csv",
+  "moved_count": 360,
+  "all_moved_ok": true,
+  "active_counts_N16_N24_N40": {
+    "N16": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    },
+    "N24": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    },
+    "N40": {
+      ".odb": 0,
+      ".sim": 0,
+      ".sta": 0,
+      ".dat": 0,
+      ".msg": 0,
+      ".lck": 0
+    }
+  },
+  "n12_solver_counts_untouched": {
+    ".odb": 15,
+    ".sim": 0,
+    ".sta": 15,
+    ".dat": 15,
+    ".msg": 15,
+    ".lck": 0
+  }
+}

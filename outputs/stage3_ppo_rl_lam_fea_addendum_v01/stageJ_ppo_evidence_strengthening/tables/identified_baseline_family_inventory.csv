@@ -1,0 +1,12 @@
+family_label,matched_row_count,matched_N_counts,label_columns_searched,reliability
+raster,4,"{""12"": 1, ""16"": 1, ""24"": 1, ""40"": 1}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+odd_even,8,"{""12"": 2, ""16"": 2, ""24"": 2, ""40"": 2}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+edge_in,4,"{""12"": 1, ""16"": 1, ""24"": 1, ""40"": 1}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+center_out,4,"{""12"": 1, ""16"": 1, ""24"": 1, ""40"": 1}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+center_edge,4,"{""12"": 1, ""16"": 1, ""24"": 1, ""40"": 1}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+method_c,12,"{""12"": 3, ""16"": 3, ""24"": 3, ""40"": 3}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+regular_jump,15,"{""12"": 3, ""16"": 3, ""24"": 4, ""40"": 5}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+engineering,4,"{""12"": 1, ""16"": 1, ""24"": 1, ""40"": 1}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+baseline,0,{},strategy_name;candidate_family;candidate_source;dataset_source,NOT_FOUND
+random,6,"{""12"": 1, ""40"": 5}",strategy_name;candidate_family;candidate_source;dataset_source,FOUND
+heuristic,0,{},strategy_name;candidate_family;candidate_source;dataset_source,NOT_FOUND

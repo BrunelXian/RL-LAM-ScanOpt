@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN45_CONSTRAINED_N24_N40_BATCH32_32_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 32,
+  "pass_count": 32,
+  "per_n_pass_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "total_cae_count": 32,
+  "total_inp_count": 32,
+  "solver_output_count": 0,
+  "forbidden_N12_N16_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run45_constrained_N24_N40_batch32_generated_inp_check.csv"
+}

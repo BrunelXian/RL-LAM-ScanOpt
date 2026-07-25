@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-17T00:41:54.920747+00:00",
+  "verdict": "PASS_RUN64_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_INPUT_READY",
+  "errors": [],
+  "selected_batch": "run63_variable_N_recovery_anchor_batch48",
+  "row_count": 48,
+  "per_N_counts": {
+    "12": 12,
+    "16": 12,
+    "24": 8,
+    "40": 16
+  },
+  "includes_N12": true,
+  "includes_N16": true,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "exact_overlap_counts": {
+    "combined432": 0,
+    "run61": 0,
+    "run56": 0,
+    "run51": 0,
+    "run46": 0,
+    "run41": 0,
+    "run36": 0,
+    "run27": 0,
+    "superseded_run31": 0
+  },
+  "input_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_63_combined432_model_update_N24_N40_evidence_freeze_and_N12_N16_recovery_candidate_generation\\run63_variable_N_recovery_anchor_batch48_candidate_orders.csv"
+}

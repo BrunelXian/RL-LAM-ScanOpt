@@ -1,0 +1,750 @@
+{
+  "odb_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.odb",
+  "steps": [
+    {
+      "name": "step_scan_00",
+      "frame_count": 32,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     31: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_00",
+      "frame_count": 34,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     33: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_01",
+      "frame_count": 29,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     28: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_01",
+      "frame_count": 36,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     35: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_02",
+      "frame_count": 29,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     28: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_02",
+      "frame_count": 36,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     35: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_03",
+      "frame_count": 31,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     30: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_03",
+      "frame_count": 33,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     32: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_04",
+      "frame_count": 32,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     31: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_04",
+      "frame_count": 32,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     31: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_05",
+      "frame_count": 33,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     32: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_05",
+      "frame_count": 34,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     33: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_06",
+      "frame_count": 31,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     30: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_06",
+      "frame_count": 35,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     34: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_07",
+      "frame_count": 36,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     35: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_07",
+      "frame_count": 32,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     31: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_08",
+      "frame_count": 37,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     36: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_08",
+      "frame_count": 33,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     32: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_09",
+      "frame_count": 37,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     36: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_09",
+      "frame_count": 33,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     32: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_10",
+      "frame_count": 37,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     36: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_10",
+      "frame_count": 36,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     35: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_11",
+      "frame_count": 33,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     32: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_11",
+      "frame_count": 38,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     37: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_12",
+      "frame_count": 37,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     36: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_12",
+      "frame_count": 30,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     29: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_13",
+      "frame_count": 35,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     34: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_13",
+      "frame_count": 35,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     34: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_14",
+      "frame_count": 38,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     37: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_14",
+      "frame_count": 36,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     35: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_15",
+      "frame_count": 38,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     37: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_15",
+      "frame_count": 33,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     32: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_16",
+      "frame_count": 38,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     37: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_16",
+      "frame_count": 34,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     33: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_17",
+      "frame_count": 38,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     37: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_17",
+      "frame_count": 34,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     33: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_18",
+      "frame_count": 37,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     36: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_18",
+      "frame_count": 34,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     33: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_19",
+      "frame_count": 38,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     37: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_19",
+      "frame_count": 35,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     34: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_20",
+      "frame_count": 37,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     36: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_20",
+      "frame_count": 34,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     33: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_21",
+      "frame_count": 41,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     40: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_21",
+      "frame_count": 31,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     30: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_22",
+      "frame_count": 38,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     37: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_22",
+      "frame_count": 37,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     36: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_scan_23",
+      "frame_count": 36,
+      "last_frame_value": 0.20000000298023224,
+      "last_frame_description": "Increment     35: Step Time =   0.2000",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_cool_23",
+      "frame_count": 35,
+      "last_frame_value": 3.4000000953674316,
+      "last_frame_description": "Increment     34: Step Time =    3.400",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    },
+    {
+      "name": "step_final_cooling",
+      "frame_count": 39,
+      "last_frame_value": 1200.0,
+      "last_frame_description": "Increment     38: Step Time =    1200.",
+      "last_frame_field_outputs": [
+        "AC YIELD",
+        "HFL",
+        "NT11",
+        "PEEQ",
+        "RF",
+        "S",
+        "U"
+      ]
+    }
+  ],
+  "root_instance_names": [
+    "INST_PLATE"
+  ],
+  "root_node_set_names": [
+    " ALL NODES"
+  ],
+  "root_element_set_names": [
+    " ALL ELEMENTS"
+  ],
+  "root_surface_names": []
+}

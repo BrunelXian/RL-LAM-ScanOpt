@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN60_CUSTOM_N40_FOCUSED_BATCH40_40_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 40,
+  "pass_count": 40,
+  "per_n_pass_counts": {
+    "24": 16,
+    "40": 24
+  },
+  "total_cae_count": 40,
+  "total_inp_count": 40,
+  "solver_output_count": 0,
+  "forbidden_N12_N16_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_generated_inp_check.csv"
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-16T09:39:18.025779+00:00",
+  "verdict": "PASS_RUN57_CALIBRATED_N24_N40_BATCH64_TEACHER_METRICS_64_OF_64_READY",
+  "errors": [],
+  "run56_rows": 64,
+  "run56_per_N_counts": {
+    "24": 32,
+    "40": 32
+  },
+  "combined328_rows": 328,
+  "combined328_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 128,
+    "40": 128
+  },
+  "combined328_plus_N32_rows": 660,
+  "combined328_plus_N32_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 128,
+    "32": 332,
+    "40": 128
+  },
+  "run56_has_N12": false,
+  "run56_has_N16": false,
+  "run56_has_N32": false,
+  "run56_rows_matched_to_run54_handoff": 64,
+  "n32_semantic_warning_column": "metric_semantic_warning"
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-18T05:27:49.871752+00:00",
+  "verdict": "PASS_RUN77_FINAL_SMALLN_DIAGNOSTIC_BATCH32_TEACHER_METRICS_32_OF_32_READY",
+  "errors": [],
+  "run76_teacher_rows": 32,
+  "run76_per_N_counts": {
+    "12": 14,
+    "16": 14,
+    "24": 2,
+    "40": 2
+  },
+  "combined520_rows": 520,
+  "combined520_per_N_counts": {
+    "12": 64,
+    "16": 64,
+    "24": 188,
+    "40": 204
+  },
+  "combined520_plus_N32_rows": 852,
+  "combined520_plus_N32_per_N_counts": {
+    "12": 64,
+    "16": 64,
+    "24": 188,
+    "32": 332,
+    "40": 204
+  },
+  "run76_contains_N32": false
+}

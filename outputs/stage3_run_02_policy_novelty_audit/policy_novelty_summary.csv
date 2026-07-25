@@ -1,0 +1,8 @@
+metric,value,notes
+legal_fixed32_orders,180,Accepted exact permutations of 0..31 only.
+engineering_baseline_orders,60,Baseline-labelled or heuristic-labelled legal orders.
+learned_gnn_rl_orders,120,GNN/RL-labelled legal orders.
+rl_vs_baseline_directed_overlap,"min=0.0000, median=0.0645, max=0.9032",Directed adjacent-pair overlap over all learned-baseline pairs.
+rl_vs_baseline_kendall_distance,"min=0.0020, median=0.5000, max=0.8810",Normalized Kendall inversion distance over all learned-baseline pairs.
+closest_baseline_family_mode,odd_even,Most frequent closest baseline family by minimum Kendall distance per learned candidate.
+safe_claim,The learned fixed-32 candidates are structurally distinct from the audited engineering baselines under adjacent-transition and permutation-distance metrics.,Bounded structural audit wording only.

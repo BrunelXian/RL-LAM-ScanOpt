@@ -1,0 +1,134 @@
+{
+  "run_id": "run_53_combined328_calibrated_N24_N40_batch64_candidate_generation",
+  "run_name": "combined328 calibrated N24/N40 batch64 candidate generation",
+  "timestamp": "2026-06-15T12:30:22.049340+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_53_combined328_calibrated_N24_N40_batch64_candidate_generation.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_52_stricter_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined328_ranking\\combined328_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_52_stricter_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined328_ranking\\combined328_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_52_stricter_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined328_ranking\\run51_stricter_constrained_N24_N40_batch32_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_52_stricter_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined328_ranking\\run51_prediction_audit_for_run48_batch32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_52_stricter_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined328_ranking\\RUN_52_STRICTER_CONSTRAINED_N24_N40_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED328_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_52_manifest.json"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\combined328_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\combined328_plus_N32_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_target_reward_definition_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_target_reward_definition_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_surrogate_validation_results_detailed.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_best_surrogate_configurations.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_surrogate_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_gnn_reward_validation_results.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_gnn_reward_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_graph_pointer_policy_training_log.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_graph_pointer_policy_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_calibrated_N24_N40_batch64_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_calibrated_N24_N40_batch32_REFERENCE_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_native_recovery_batch40_with_anchors_REFERENCE_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_batch64_comparison_to_previous.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_batch64_comparison_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\RUN_53_COMBINED328_CALIBRATED_N24_N40_BATCH64_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_53_manifest.json"
+  ],
+  "native_combined328_rows": 328,
+  "combined328_plus_N32_rows": 660,
+  "best_surrogate_summary": {
+    "best_overall": {
+      "regime": "native_combined328",
+      "target": "target_reward_combined328_u2_primary",
+      "feature_set": "F01_basic_order",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.8349863849292928,
+      "macro_top5_overlap": 1.5,
+      "macro_top10_overlap": 4.0,
+      "mean_mae": 0.09893450888761607,
+      "protocols": 4
+    },
+    "best_native": {
+      "regime": "native_combined328",
+      "target": "target_reward_combined328_u2_primary",
+      "feature_set": "F01_basic_order",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.8349863849292928,
+      "macro_top5_overlap": 1.5,
+      "macro_top10_overlap": 4.0,
+      "mean_mae": 0.09893450888761607,
+      "protocols": 4
+    },
+    "best_plus_N32": {
+      "regime": "plus_N32_balanced",
+      "target": "target_reward_combined328_plus_N32_mapped_u2_primary",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.8286129655470909,
+      "macro_top5_overlap": 1.0,
+      "macro_top10_overlap": 4.0,
+      "mean_mae": 0.10742575614613477,
+      "protocols": 5
+    },
+    "n32_augmented_better_than_native": false,
+    "run48_reference": {
+      "native_u2_primary_spearman": 0.849,
+      "native_top5": 1.5,
+      "strict_penalty_guard_spearman": 0.7761,
+      "two_stage_guarded_spearman": 0.8219
+    }
+  },
+  "best_gnn_summary": {
+    "best_regime": {
+      "regime": "plus_N32_balanced",
+      "macro_spearman": 0.5284103881189569,
+      "macro_top5_overlap": 0.2,
+      "protocols": 5
+    },
+    "run38_best_gnn_reference": {
+      "regime": "plus_N32_unweighted",
+      "macro_spearman": 0.8078,
+      "top5": 1.4,
+      "N40_spearman": 0.8514
+    },
+    "improved_vs_run38_macro": false,
+    "note": "GNN diagnostic is an offline order-graph MLP proxy; it is not online RL or teacher validation."
+  },
+  "pointer_summary": {
+    "best_regime_by_mean_nll": "native_combined328",
+    "mean_nll_by_regime": {
+      "native_combined328": 1.50955209473979,
+      "plus_N32_balanced": 1.6122684639662306,
+      "plus_N32_unweighted": 1.6122684639662306
+    },
+    "headline": "Offline transition-frequency graph-pointer diagnostic fitted with reward-weighted teacher sequences; no online RL was run."
+  },
+  "candidate_pool_count": 13000,
+  "candidate_pool_counts": {
+    "12": 500,
+    "16": 500,
+    "24": 6000,
+    "40": 6000
+  },
+  "primary_selected_batch_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_calibrated_N24_N40_batch64_candidate_orders.csv",
+  "primary_selected_batch_count": 64,
+  "primary_selected_batch_per_N_counts": {
+    "24": 32,
+    "40": 32
+  },
+  "reference_batch_paths": {
+    "reference_batch32": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_calibrated_N24_N40_batch32_REFERENCE_candidate_orders.csv",
+    "recovery_batch40": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_native_recovery_batch40_with_anchors_REFERENCE_candidate_orders.csv"
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\RUN_53_COMBINED328_CALIBRATED_N24_N40_BATCH64_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation": true,
+  "no_online_rl": true,
+  "no_commit_or_push": true
+}

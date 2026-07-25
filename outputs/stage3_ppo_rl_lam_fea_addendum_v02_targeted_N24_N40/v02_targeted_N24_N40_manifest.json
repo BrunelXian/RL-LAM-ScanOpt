@@ -1,0 +1,43 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-27T20:28:19.888813+00:00",
+  "dataset_paths": {
+    "v02_targeted_dataset": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\data\\v02_targeted_N24_N40_teacher_dataset.csv"
+  },
+  "surrogate_model_paths": {
+    "24": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\surrogate_v02\\models\\N24_surrogate_reward_v02.joblib",
+    "40": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\surrogate_v02\\models\\N40_surrogate_reward_v02.joblib"
+  },
+  "PPO_checkpoint_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N24_seed20260624_maskable_ppo_v02.zip",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N40_seed20260624_maskable_ppo_v02.zip"
+  ],
+  "rollout_pool_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\candidate_generation_v02\\rollout_pool\\v02_ppo_rollout_pool.csv",
+  "selected_candidate_batch_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\candidate_generation_v02\\selected_batch32\\v02_ppo_targeted_N24_N40_candidate_batch32.csv",
+  "scan_order_JSON_directory": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\candidate_generation_v02\\selected_batch32\\scan_orders",
+  "selected_counts_by_N": {
+    "24": 16,
+    "40": 16
+  },
+  "rollout_pool_size_by_N": {
+    "24": 513,
+    "40": 513
+  },
+  "unique_orders_by_N": {
+    "24": 430,
+    "40": 513
+  },
+  "reports": {
+    "candidate_generation_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02_TARGETED_CANDIDATE_GENERATION_REPORT.md"
+  },
+  "claim_boundary": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02_TARGETED_CLAIM_BOUNDARY.md",
+  "legality_audit_verdict": "PASS",
+  "novelty_audit_verdict": "PASS",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_teacher_validation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_PPO_V02_TARGETED_BATCH32_READY_FOR_CAE_INP_HANDOFF"
+}

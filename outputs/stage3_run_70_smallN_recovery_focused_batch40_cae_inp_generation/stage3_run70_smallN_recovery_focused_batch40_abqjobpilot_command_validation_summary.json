@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN70_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_70_smallN_recovery_focused_batch40_cae_inp_generation\\stage3_run70_smallN_recovery_focused_batch40_abqjobpilot_commands_READY_TO_RUN.txt",
+  "command_count": 40,
+  "per_n_command_counts": {
+    "12": 16,
+    "16": 16,
+    "24": 4,
+    "40": 4
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_70_smallN_recovery_focused_batch40_cae_inp_generation\\stage3_run70_smallN_recovery_focused_batch40_abqjobpilot_command_validation.csv",
+  "errors": [],
+  "abqjobpilot_executed": false,
+  "enqueue_executed": false
+}

@@ -1,0 +1,239 @@
+{
+  "verdict": "PASS_HEAT_MAPPING_JNL_PATTERNS_READY",
+  "notes": "JNL text can infer naming and template parameters, but Abaqus CAE object inspection and user confirmation are still required before generation.",
+  "by_n": {
+    "12": {
+      "n": 12,
+      "jnl_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\12track_full\\sanity_base\\12track_sanity_base.jnl",
+      "heat_set_pattern": "set_body_heat_{track:02d}",
+      "heat_set_count": 12,
+      "scan_step_template_name": "step_scan_00",
+      "cool_step_template_name": "step_cool_00",
+      "load_template_name": "load_body_hflux_00",
+      "model_name_candidates": [
+        "Model-1"
+      ],
+      "part_or_assembly_region_evidence": [
+        "offsetField='', offsetType=MIDDLE_SURFACE, region=",
+        "'[#4000000 ]', ), ), name='set_body_heat_00')",
+        "'[#800000 ]', ), ), name='set_body_heat_01')",
+        "'[#200000 ]', ), ), name='set_body_heat_02')",
+        "'[#80000 ]', ), ), name='set_body_heat_03')",
+        "'[#20000 ]', ), ), name='set_body_heat_04')",
+        "'[#8000 ]', ), ), name='set_body_heat_05')",
+        "'[#2000 ]', ), ), name='set_body_heat_06')",
+        "'[#800 ]', ), ), name='set_body_heat_07')",
+        "'[#200 ]', ), ), name='set_body_heat_08')",
+        "'[#80 ]', ), ), name='set_body_heat_09')",
+        "'[#20 ]', ), ), name='set_body_heat_10')",
+        "'[#8 ]', ), ), name='set_body_heat_11')",
+        "80000000000.0, name='load_body_hflux_00', region=",
+        "mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00'])",
+        "region=Region(",
+        "UNIFORM, magnitudes=(20.0, ), name='predefined_temperature_all', region="
+      ],
+      "load_type_evidence": {
+        "load_name": "load_body_hflux_00",
+        "load_type": "BodyHeatFlux",
+        "magnitude": 80000000000.0,
+        "region_evidence": "mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']",
+        "evidence": "rad_external_ambient', radiationType=AMBIENT, surface= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].surfaces['surf_external_all']) mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_00', magnitude= 80000000000.0, name='load_body_hflux_00', region= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']) mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', distributionType=UNIFORM, fieldName='', localCsys=None, name='bc_point_xy', region=Region( vertices=mdb.models['Model-1'].rootAssembly.instances['inst_plate'].vertices.getSequenceFromMask( mask=('[#0 #400 ]', ), )), u1=SET, u2=S"
+      },
+      "load_magnitude_evidence": 80000000000.0,
+      "step_duration_evidence": {
+        "step_name": "step_scan_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 0.2,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.2, maxInc=0.2, maxNumInc=999999, minInc=2e-06, name='step_scan_00', nlgeom=ON, previous='Initial', timePeriod=0.2)"
+      },
+      "cool_duration_evidence": {
+        "step_name": "step_cool_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 3.4,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.01 , maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_00', previous='step_scan_00', timePeriod=3.4)"
+      },
+      "can_infer_mapping_from_jnl": true,
+      "missing_evidence": [
+        "CAE model object inspection not run in this text-only extractor",
+        "user confirmation config remains required before generation"
+      ]
+    },
+    "16": {
+      "n": 16,
+      "jnl_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\16track_full\\sanity_base\\16track_sanity_base.jnl",
+      "heat_set_pattern": "set_body_heat_{track:02d}",
+      "heat_set_count": 16,
+      "scan_step_template_name": "step_scan_00",
+      "cool_step_template_name": "step_cool_00",
+      "load_template_name": "load_body_hflux_00",
+      "model_name_candidates": [
+        "Model-1"
+      ],
+      "part_or_assembly_region_evidence": [
+        "'[#0 #4 ]', ), ), name='set_body_heat_00')",
+        "'[#80000000 ]', ), ), name='set_body_heat_01')",
+        "'[#20000000 ]', ), ), name='set_body_heat_02')",
+        "'[#8000000 ]', ), ), name='set_body_heat_03')",
+        "'[#2000000 ]', ), ), name='set_body_heat_04')",
+        "'[#800000 ]', ), ), name='set_body_heat_05')",
+        "'[#200000 ]', ), ), name='set_body_heat_06')",
+        "'[#80000 ]', ), ), name='set_body_heat_07')",
+        "'[#20000 ]', ), ), name='set_body_heat_08')",
+        "'[#8000 ]', ), ), name='set_body_heat_09')",
+        "'[#2000 ]', ), ), name='set_body_heat_10')",
+        "'[#800 ]', ), ), name='set_body_heat_11')",
+        "'[#200 ]', ), ), name='set_body_heat_12')",
+        "'[#80 ]', ), ), name='set_body_heat_13')",
+        "'[#20 ]', ), ), name='set_body_heat_14')",
+        "'[#8 ]', ), ), name='set_body_heat_15')",
+        "offsetField='', offsetType=MIDDLE_SURFACE, region=",
+        "80000000000.0, name='load_body_hflux_00', region=",
+        "mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00'])",
+        "region=Region("
+      ],
+      "load_type_evidence": {
+        "load_name": "load_body_hflux_00",
+        "load_type": "BodyHeatFlux",
+        "magnitude": 80000000000.0,
+        "region_evidence": "mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']",
+        "evidence": "rad_external_ambient', radiationType=AMBIENT, surface= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].surfaces['surf_external_all']) mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_00', magnitude= 80000000000.0, name='load_body_hflux_00', region= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']) mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', distributionType=UNIFORM, fieldName='', localCsys=None, name='bc_point_xy', region=Region( vertices=mdb.models['Model-1'].rootAssembly.instances['inst_plate'].vertices.getSequenceFromMask( mask=('[#0 #400000 ]', ), )), u1=SET, u"
+      },
+      "load_magnitude_evidence": 80000000000.0,
+      "step_duration_evidence": {
+        "step_name": "step_scan_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 0.2,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc= 0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_00', nlgeom=ON, previous='Initial', timePeriod=0.2)"
+      },
+      "cool_duration_evidence": {
+        "step_name": "step_cool_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 3.4,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.01 , maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_00', previous='step_scan_00', timePeriod=3.4)"
+      },
+      "can_infer_mapping_from_jnl": true,
+      "missing_evidence": [
+        "CAE model object inspection not run in this text-only extractor",
+        "user confirmation config remains required before generation"
+      ]
+    },
+    "24": {
+      "n": 24,
+      "jnl_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\24track_full\\sanity_base\\24track_sanity_base.jnl",
+      "heat_set_pattern": "set_body_heat_{track:02d}",
+      "heat_set_count": 24,
+      "scan_step_template_name": "step_scan_00",
+      "cool_step_template_name": "step_cool_00",
+      "load_template_name": "load_body_hflux_00",
+      "model_name_candidates": [
+        "Model-1"
+      ],
+      "part_or_assembly_region_evidence": [
+        "'[#0 #40000 ]', ), ), name='set_body_heat_00')",
+        "'[#0 #8000 ]', ), ), name='set_body_heat_01')",
+        "'[#0 #2000 ]', ), ), name='set_body_heat_02')",
+        "'[#0 #800 ]', ), ), name='set_body_heat_03')",
+        "'[#0 #200 ]', ), ), name='set_body_heat_04')",
+        "'[#0 #80 ]', ), ), name='set_body_heat_05')",
+        "'[#0 #20 ]', ), ), name='set_body_heat_06')",
+        "'[#0 #8 ]', ), ), name='set_body_heat_07')",
+        "'[#0 #2 ]', ), ), name='set_body_heat_08')",
+        "'[#80000000 ]', ), ), name='set_body_heat_09')",
+        "'[#20000000 ]', ), ), name='set_body_heat_10')",
+        "'[#8000000 ]', ), ), name='set_body_heat_11')",
+        "'[#2000000 ]', ), ), name='set_body_heat_12')",
+        "'[#800000 ]', ), ), name='set_body_heat_13')",
+        "'[#200000 ]', ), ), name='set_body_heat_14')",
+        "'[#80000 ]', ), ), name='set_body_heat_15')",
+        "'[#20000 ]', ), ), name='set_body_heat_16')",
+        "'[#8000 ]', ), ), name='set_body_heat_17')",
+        "'[#2000 ]', ), ), name='set_body_heat_18')",
+        "'[#800 ]', ), ), name='set_body_heat_19')"
+      ],
+      "load_type_evidence": {
+        "load_name": "load_body_hflux_00",
+        "load_type": "BodyHeatFlux",
+        "magnitude": 80000000000.0,
+        "region_evidence": "mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']",
+        "evidence": "rad_external_ambient', radiationType=AMBIENT, surface= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].surfaces['surf_external_all']) mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_00', magnitude= 80000000000.0, name='load_body_hflux_00', region= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']) mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', distributionType=UNIFORM, fieldName='', localCsys=None, name='bc_point_xy', region=Region( vertices=mdb.models['Model-1'].rootAssembly.instances['inst_plate'].vertices.getSequenceFromMask( mask=('[#0:2 #4000 ]', ), )), u1=SET, u"
+      },
+      "load_magnitude_evidence": 80000000000.0,
+      "step_duration_evidence": {
+        "step_name": "step_scan_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 0.2,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc= 0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_00', nlgeom=ON, previous='Initial', timePeriod=0.2)"
+      },
+      "cool_duration_evidence": {
+        "step_name": "step_cool_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 3.4,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.01 , maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_00', previous='step_scan_00', timePeriod=3.4)"
+      },
+      "can_infer_mapping_from_jnl": true,
+      "missing_evidence": [
+        "CAE model object inspection not run in this text-only extractor",
+        "user confirmation config remains required before generation"
+      ]
+    },
+    "40": {
+      "n": 40,
+      "jnl_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\40track_full\\sanity_base\\40track_sanity_base.jnl",
+      "heat_set_pattern": "set_body_heat_{track:02d}",
+      "heat_set_count": 40,
+      "scan_step_template_name": "step_scan_00",
+      "cool_step_template_name": "step_cool_00",
+      "load_template_name": "load_body_hflux_00",
+      "model_name_candidates": [
+        "Model-1"
+      ],
+      "part_or_assembly_region_evidence": [
+        "'[#0:2 #40000 ]', ), ), name='set_body_heat_00')",
+        "'[#0:2 #8000 ]', ), ), name='set_body_heat_01')",
+        "'[#0:2 #2000 ]', ), ), name='set_body_heat_02')",
+        "'[#0:2 #800 ]', ), ), name='set_body_heat_03')",
+        "'[#0:2 #200 ]', ), ), name='set_body_heat_04')",
+        "'[#0:2 #80 ]', ), ), name='set_body_heat_05')",
+        "'[#0:2 #20 ]', ), ), name='set_body_heat_06')",
+        "'[#0:2 #8 ]', ), ), name='set_body_heat_07')",
+        "'[#0:2 #2 ]', ), ), name='set_body_heat_08')",
+        "'[#0 #80000000 ]', ), ), name='set_body_heat_09')",
+        "'[#0 #20000000 ]', ), ), name='set_body_heat_10')",
+        "'[#0 #8000000 ]', ), ), name='set_body_heat_11')",
+        "'[#0 #2000000 ]', ), ), name='set_body_heat_12')",
+        "'[#0 #800000 ]', ), ), name='set_body_heat_13')",
+        "'[#0 #200000 ]', ), ), name='set_body_heat_14')",
+        "'[#0 #80000 ]', ), ), name='set_body_heat_15')",
+        "'[#0 #20000 ]', ), ), name='set_body_heat_16')",
+        "'[#0 #8000 ]', ), ), name='set_body_heat_17')",
+        "'[#0 #2000 ]', ), ), name='set_body_heat_18')",
+        "'[#0 #800 ]', ), ), name='set_body_heat_19')"
+      ],
+      "load_type_evidence": {
+        "load_name": "load_body_hflux_00",
+        "load_type": "BodyHeatFlux",
+        "magnitude": 80000000000.0,
+        "region_evidence": "mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']",
+        "evidence": "rad_external_ambient', radiationType=AMBIENT, surface= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].surfaces['surf_external_all']) mdb.models['Model-1'].BodyHeatFlux(createStepName='step_scan_00', magnitude= 80000000000.0, name='load_body_hflux_00', region= mdb.models['Model-1'].rootAssembly.instances['inst_plate'].sets['set_body_heat_00']) mdb.models['Model-1'].loads['load_body_hflux_00'].deactivate('step_cool_00') mdb.models['Model-1'].DisplacementBC(amplitude=UNSET, createStepName='Initial', distributionType=UNIFORM, fieldName='', localCsys=None, name='bc_point_xy', region=Region( vertices=mdb.models['Model-1'].rootAssembly.instances['inst_plat"
+      },
+      "load_magnitude_evidence": 80000000000.0,
+      "step_duration_evidence": {
+        "step_name": "step_scan_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 0.2,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc= 0.001, maxInc=0.01, maxNumInc=999999, minInc=2e-30, name='step_scan_00', nlgeom=ON, previous='Initial', timePeriod=0.2)"
+      },
+      "cool_duration_evidence": {
+        "step_name": "step_cool_00",
+        "procedure": "CoupledTempDisplacementStep",
+        "time_period": 3.4,
+        "evidence": "CoupledTempDisplacementStep(deltmx=400.0, initialInc=0.1, maxInc=0.2, maxNumInc=999999, minInc=3.4e-30, name='step_cool_00', previous='step_scan_00', timePeriod=3.4)"
+      },
+      "can_infer_mapping_from_jnl": true,
+      "missing_evidence": [
+        "CAE model object inspection not run in this text-only extractor",
+        "user confirmation config remains required before generation"
+      ]
+    }
+  }
+}

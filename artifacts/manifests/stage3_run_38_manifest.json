@@ -1,0 +1,124 @@
+{
+  "run_id": "run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation",
+  "run_name": "combined204 and combined204 plus N32 model update candidate generation",
+  "timestamp": "2026-06-13T14:00:40.221969+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_28_shortlist64_teacher_metrics_ingestion_and_combined172_ranking\\combined172_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\RUN_32A_STAGE2_N32_LEGACY_TEACHER_LABEL_INGESTION_FOR_STAGE3_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\RUN_33_COMBINED172_PLUS_N32_BALANCED_SURROGATE_GNN_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\RUN_37_N32_INFORMED_NATIVE_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED204_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_37_manifest.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_native_batch32_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_native_batch32_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_vs_combined172_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_candidate_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_prediction_audit_for_run33_optionA.csv"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_reward_best_semantic_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_reward_best_semantic_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\combined204_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\combined204_plus_N32_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_surrogate_validation_results_detailed.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_best_surrogate_configurations.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_surrogate_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_gnn_reward_validation_results.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_gnn_reward_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_graph_pointer_policy_training_log.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_graph_pointer_policy_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_native_batch32_U2_exploitation_reward_balanced_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_native_N24_N40_focused_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_native_batch40_broader_coverage_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_batch_options_comparison_to_previous.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_batch_options_comparison_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\RUN_38_COMBINED204_AND_COMBINED204_PLUS_N32_MODEL_UPDATE_CANDIDATE_GENERATION_REPORT.md"
+  ],
+  "native_combined204_rows": 204,
+  "combined204_plus_N32_rows": 536,
+  "per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 66,
+    "32": 332,
+    "40": 66
+  },
+  "reward_best_semantic_audit": {
+    "status": "RUN38_REWARD_BEST_SEMANTIC_AUDIT_COMPLETE",
+    "headline": "The N24 Run36 reward-best appears as the recomputed combined204 rank-based reward best, while Run37's previous-comparison table did not mark it as beating the old combined172 reward best.",
+    "n24_interpretation": "recomputed_combined204_rank_reward_best_after_rank_normalization_shift",
+    "likely_reason": "rank-normalization/reward recomputation after adding Run36 rows, not a raw-metric mismatch."
+  },
+  "best_model_summaries": {
+    "surrogate": {
+      "regime": "native_combined204",
+      "target": "target_reward_combined204_plus_N32_mapped_u2_primary",
+      "feature_set": "F07_F01_no_n",
+      "model_name": "ExtraTreesRegressor",
+      "macro_spearman_leave_N_out": 0.8680565944557831,
+      "macro_top5_overlap_leave_N_out": 2.0,
+      "macro_top10_overlap_leave_N_out": 6.0,
+      "n24_spearman": 0.8355479484882418,
+      "n32_spearman": null,
+      "n40_spearman": 0.8992901927907947
+    },
+    "gnn": {
+      "regime": "plus_N32_unweighted",
+      "macro_spearman": 0.8077513974106804,
+      "macro_top5_overlap": 1.4,
+      "n40_spearman": 0.8514316172059149
+    },
+    "pointer": "RUN38_GRAPH_POINTER_POLICY_WEIGHTED_BC_TRAINED"
+  },
+  "candidate_pool_counts": {
+    "12": 800,
+    "16": 800,
+    "24": 3000,
+    "32": 1352,
+    "40": 3000
+  },
+  "batch_options": {
+    "option_a_native_batch32": {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_native_batch32_U2_exploitation_reward_balanced_candidate_orders.csv",
+      "counts": {
+        "12": 4,
+        "16": 4,
+        "24": 12,
+        "40": 12
+      }
+    },
+    "option_b_native_N24_N40_focused_batch32": {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_native_N24_N40_focused_batch32_candidate_orders.csv",
+      "counts": {
+        "24": 16,
+        "40": 16
+      }
+    },
+    "option_c_native_batch40": {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_native_batch40_broader_coverage_candidate_orders.csv",
+      "counts": {
+        "12": 4,
+        "16": 4,
+        "24": 16,
+        "40": 16
+      }
+    }
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\RUN_38_COMBINED204_AND_COMBINED204_PLUS_N32_MODEL_UPDATE_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation": true,
+  "no_online_rl": true,
+  "no_commit_or_push": true
+}

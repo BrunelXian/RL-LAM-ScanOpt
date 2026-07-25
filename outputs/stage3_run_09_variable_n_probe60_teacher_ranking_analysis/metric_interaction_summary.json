@@ -1,0 +1,67 @@
+[
+  {
+    "scope": "overall",
+    "spearman_u2_peeq": 0.6144484579049736,
+    "spearman_u2_surfaceT": 0.5138649624895805,
+    "spearman_peeq_surfaceT": 0.2135037510419561,
+    "top5_overlap_u2_peeq": 16,
+    "top5_overlap_u2_surfaceT": 7,
+    "top5_overlap_peeq_surfaceT": 5,
+    "top5_u2_bottom_half_surfaceT": "N12_A02_odd_even_interlaced;N12_A08_block_interleaved_quarters;N12_A10_graph_pointer_policy_zero_shot_or_proxy_best;N16_A02_odd_even_interlaced;N16_A03_greedy_maximin_distance;N24_A02_odd_even_interlaced;N24_A11_graph_pointer_policy_diverse_01;N40_A02_odd_even_interlaced",
+    "top5_surfaceT_bottom_half_u2": "N12_A05_center_out;N12_A06_edge_in_alternating;N12_A09_center_edge_alternating;N12_A12_graph_pointer_policy_diverse_02;N12_A15_graph_pointer_policy_balanced_dispersion_proxy;N16_A07_regular_jump_coprime;N16_A09_center_edge_alternating;N16_A12_graph_pointer_policy_diverse_02;N24_A09_center_edge_alternating;N24_A12_graph_pointer_policy_diverse_02;N40_A12_graph_pointer_policy_diverse_02",
+    "pareto_2obj_count": 2,
+    "pareto_3obj_count": 9
+  },
+  {
+    "scope": "N12",
+    "spearman_u2_peeq": 0.7178571428571429,
+    "spearman_u2_surfaceT": -0.4928571428571429,
+    "spearman_peeq_surfaceT": -0.275,
+    "top5_overlap_u2_peeq": 4,
+    "top5_overlap_u2_surfaceT": 0,
+    "top5_overlap_peeq_surfaceT": 0,
+    "top5_u2_bottom_half_surfaceT": "N12_A02_odd_even_interlaced;N12_A08_block_interleaved_quarters;N12_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+    "top5_surfaceT_bottom_half_u2": "N12_A05_center_out;N12_A06_edge_in_alternating;N12_A09_center_edge_alternating;N12_A12_graph_pointer_policy_diverse_02;N12_A15_graph_pointer_policy_balanced_dispersion_proxy",
+    "pareto_2obj_count": 2,
+    "pareto_3obj_count": 7
+  },
+  {
+    "scope": "N16",
+    "spearman_u2_peeq": 0.6035714285714285,
+    "spearman_u2_surfaceT": -0.17857142857142858,
+    "spearman_peeq_surfaceT": -0.04642857142857143,
+    "top5_overlap_u2_peeq": 4,
+    "top5_overlap_u2_surfaceT": 2,
+    "top5_overlap_peeq_surfaceT": 1,
+    "top5_u2_bottom_half_surfaceT": "N16_A02_odd_even_interlaced;N16_A03_greedy_maximin_distance",
+    "top5_surfaceT_bottom_half_u2": "N16_A07_regular_jump_coprime;N16_A09_center_edge_alternating;N16_A12_graph_pointer_policy_diverse_02",
+    "pareto_2obj_count": 3,
+    "pareto_3obj_count": 6
+  },
+  {
+    "scope": "N24",
+    "spearman_u2_peeq": 0.6392857142857142,
+    "spearman_u2_surfaceT": 0.24642857142857144,
+    "spearman_peeq_surfaceT": 0.4035714285714286,
+    "top5_overlap_u2_peeq": 4,
+    "top5_overlap_u2_surfaceT": 2,
+    "top5_overlap_peeq_surfaceT": 2,
+    "top5_u2_bottom_half_surfaceT": "N24_A02_odd_even_interlaced;N24_A11_graph_pointer_policy_diverse_01",
+    "top5_surfaceT_bottom_half_u2": "N24_A09_center_edge_alternating;N24_A12_graph_pointer_policy_diverse_02",
+    "pareto_2obj_count": 2,
+    "pareto_3obj_count": 3
+  },
+  {
+    "scope": "N40",
+    "spearman_u2_peeq": 0.37142857142857144,
+    "spearman_u2_surfaceT": 0.6964285714285714,
+    "spearman_peeq_surfaceT": 0.2892857142857143,
+    "top5_overlap_u2_peeq": 4,
+    "top5_overlap_u2_surfaceT": 3,
+    "top5_overlap_peeq_surfaceT": 2,
+    "top5_u2_bottom_half_surfaceT": "N40_A02_odd_even_interlaced",
+    "top5_surfaceT_bottom_half_u2": "N40_A12_graph_pointer_policy_diverse_02",
+    "pareto_2obj_count": 1,
+    "pareto_3obj_count": 2
+  }
+]

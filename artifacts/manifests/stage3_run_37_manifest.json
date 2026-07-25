@@ -1,0 +1,95 @@
+{
+  "run_id": "run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking",
+  "run_name": "N32-informed native batch32 teacher metrics ingestion and combined204 ranking",
+  "timestamp": "2026-06-13T13:26:49.352688+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_37_ingest_N32_informed_native_batch32_and_build_combined204.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_34_run33_N32_informed_native_batch32_handoff_package\\stage3_run34_N32_informed_native_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_N32_informed_native_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_28_shortlist64_teacher_metrics_ingestion_and_combined172_ranking\\combined172_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_28_shortlist64_teacher_metrics_ingestion_and_combined172_ranking\\combined172_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\combined172_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\RUN_32A_STAGE2_N32_LEGACY_TEACHER_LABEL_INGESTION_FOR_STAGE3_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\RUN_33_COMBINED172_PLUS_N32_BALANCED_SURROGATE_GNN_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_36_N32_informed_native_batch32_odb_teacher_validation\\RUN_36_N32_INFORMED_NATIVE_BATCH32_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_36_manifest.json"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run37_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_native_batch32_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_native_batch32_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_native_batch32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_plus_N32_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_plus_N32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_plus_N32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_vs_combined172_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_candidate_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_N32_informed_candidate_effectiveness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_prediction_audit_for_run33_optionA.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run36_prediction_audit_for_run33_optionA_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run37_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run37_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\RUN_37_N32_INFORMED_NATIVE_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED204_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_37_manifest.json"
+  ],
+  "run36_teacher_rows": 32,
+  "run36_per_N_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 12,
+    "40": 12
+  },
+  "combined204_rows": 204,
+  "combined204_plus_N32_rows": 536,
+  "per_N_combined204_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 66,
+    "40": 66
+  },
+  "per_N_combined204_plus_N32_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 66,
+    "32": 332,
+    "40": 66
+  },
+  "new_best_counts": {
+    "run36_beats_combined172_metric_records": 2
+  },
+  "prediction_audit_summary": {
+    "primary_prediction_column": "hybrid_score",
+    "overall_spearman_pred_vs_combined204_reward": 0.722507331378299,
+    "per_N_spearman": {
+      "12": 0.7999999999999999,
+      "16": 0.39999999999999997,
+      "24": 0.7832167832167832,
+      "40": 0.7412587412587414
+    },
+    "uncertainty_vs_abs_error_correlation": -0.5168785708239803,
+    "disagreement_vs_abs_error_correlation": 0.4190349034337971,
+    "novelty_vs_combined204_reward_correlation": -0.43470786594308236
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\RUN_37_N32_INFORMED_NATIVE_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED204_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\run37_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation_performed_by_run37": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true
+}

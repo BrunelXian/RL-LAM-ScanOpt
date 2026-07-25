@@ -1,0 +1,81 @@
+{
+  "total_count": 32,
+  "per_N_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "only_N24_N40": true,
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "candidate_source_composition": {
+    "strict_penalty_guard_top": 4,
+    "strict_penalty_guard_local_search": 4,
+    "two_stage_guarded_top": 4,
+    "two_stage_guarded_local_search": 4,
+    "no_penalty_worse_than_median": 4,
+    "PEEQ_repair_candidates": 4,
+    "SurfaceT_repair_candidates": 4,
+    "Mises_repair_candidates": 4
+  },
+  "selection_bucket_composition": {
+    "strict_penalty_guard_top": 4,
+    "strict_penalty_guard_local_search": 4,
+    "two_stage_guarded_top": 4,
+    "two_stage_guarded_local_search": 4,
+    "no_penalty_worse_than_median": 4,
+    "PEEQ_repair_candidates": 4,
+    "SurfaceT_repair_candidates": 4,
+    "Mises_repair_candidates": 4
+  },
+  "per_N_numeric_means": [
+    {
+      "n": 24,
+      "count": 16,
+      "mean_surrogate_prediction": 0.7382835971434608,
+      "mean_strict_penalty_guard_prediction": 0.731660133060285,
+      "mean_two_stage_guarded_prediction": 0.7337016057682246,
+      "mean_no_penalty_worse_than_median_prediction": 0.7167346840999826,
+      "mean_u2_primary_prediction": 0.7289645587160034,
+      "mean_u2_guarded_prediction": 0.7378866217181299,
+      "mean_predicted_peeq_guarded_score": 0.7167346840999826,
+      "mean_predicted_surfaceT_guarded_score": 0.7382835971434608,
+      "mean_predicted_mises_guarded_score": 0.7382835971434608,
+      "mean_gnn_reward_prediction": 0.710491383692505,
+      "mean_hybrid_score": 0.7360096132115137,
+      "mean_uncertainty_score": 0.030142014932840765,
+      "mean_gnn_vs_surrogate_disagreement": 0.02779221345095586,
+      "mean_novelty_distance": 0.20312499999999994
+    },
+    {
+      "n": 40,
+      "count": 16,
+      "mean_surrogate_prediction": 0.7265959427840085,
+      "mean_strict_penalty_guard_prediction": 0.7274822018241137,
+      "mean_two_stage_guarded_prediction": 0.7278145489641532,
+      "mean_no_penalty_worse_than_median_prediction": 0.7265959427840085,
+      "mean_u2_primary_prediction": 0.7237462715151064,
+      "mean_u2_guarded_prediction": 0.7288115903842716,
+      "mean_predicted_peeq_guarded_score": 0.7265959427840085,
+      "mean_predicted_surfaceT_guarded_score": 0.7265959427840085,
+      "mean_predicted_mises_guarded_score": 0.7265959427840085,
+      "mean_gnn_reward_prediction": 0.698878258918802,
+      "mean_hybrid_score": 0.7272606370640874,
+      "mean_uncertainty_score": 0.011118083596279395,
+      "mean_gnn_vs_surrogate_disagreement": 0.02771768386520651,
+      "mean_novelty_distance": 0.2921875
+    }
+  ],
+  "expected_abaqus_cost": "32 jobs total, with 16 N24 and 16 N40",
+  "overlap_status": {
+    "overlap_combined296_teacher_orders": 0,
+    "overlap_run46": 0,
+    "overlap_run41": 0,
+    "overlap_run36": 0,
+    "overlap_run27": 0,
+    "overlap_superseded_run31": 0
+  },
+  "headline": "Run49 packages a quick stricter penalty-guard N24/N40 validation loop after Run46 improved U2/reward but did not create raw PEEQ/SurfaceT/Mises records.",
+  "teacher_validated": false,
+  "cae_inp_generated": false
+}

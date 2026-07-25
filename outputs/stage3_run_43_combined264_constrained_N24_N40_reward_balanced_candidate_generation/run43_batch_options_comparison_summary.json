@@ -1,0 +1,53 @@
+{
+  "headline": "All Run43 options were checked for exact order overlap and constrained-score/novelty composition against combined264, Run41, Run36, Run27, and superseded Run31.",
+  "rows": [
+    {
+      "batch_option": "A_batch32",
+      "count": 32,
+      "per_N_counts": "{\"24\": 16, \"40\": 16}",
+      "mean_constrained_score": 0.8409162736630933,
+      "mean_surrogate_prediction": 0.84318710350094,
+      "mean_predicted_u2_guarded_score": 0.8449232262636732,
+      "mean_penalty_guard_score": 0.83756210350094,
+      "mean_novelty_distance": 0.33359375,
+      "candidate_source_composition": "{\"reward_balanced_local_search\": 4, \"constrained_surrogate_top\": 4, \"PEEQ_guarded_candidates\": 4, \"SurfaceT_guarded_candidates\": 4, \"U2_guarded_local_search\": 4, \"hybrid_agreement\": 4, \"hybrid_disagreement\": 4, \"uncertainty_calibration\": 4}",
+      "overlap_combined264_teacher_orders": 0,
+      "overlap_run41": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0
+    },
+    {
+      "batch_option": "B_batch60",
+      "count": 60,
+      "per_N_counts": "{\"24\": 30, \"40\": 30}",
+      "mean_constrained_score": 0.7637155527760378,
+      "mean_surrogate_prediction": 0.7632309112625315,
+      "mean_predicted_u2_guarded_score": 0.7742578100419386,
+      "mean_penalty_guard_score": 0.7568221039942848,
+      "mean_novelty_distance": 0.41458333333333336,
+      "candidate_source_composition": "{\"reward_balanced_local_search\": 6, \"constrained_surrogate_top\": 6, \"PEEQ_guarded_candidates\": 6, \"SurfaceT_guarded_candidates\": 6, \"U2_guarded_local_search\": 6, \"hybrid_agreement\": 6, \"hybrid_disagreement\": 6, \"uncertainty_calibration\": 6, \"diversity_coverage\": 6, \"graph_pointer_temperature_sample\": 6}",
+      "overlap_combined264_teacher_orders": 0,
+      "overlap_run41": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0
+    },
+    {
+      "batch_option": "C_batch40",
+      "count": 40,
+      "per_N_counts": "{\"12\": 4, \"16\": 4, \"24\": 16, \"40\": 16}",
+      "mean_constrained_score": 0.8286453239586052,
+      "mean_surrogate_prediction": 0.8311204505404138,
+      "mean_predicted_u2_guarded_score": 0.8318841880527122,
+      "mean_penalty_guard_score": 0.8252033780295912,
+      "mean_novelty_distance": 0.30333333333333334,
+      "candidate_source_composition": "{\"reward_balanced_local_search\": 6, \"constrained_surrogate_top\": 6, \"PEEQ_guarded_candidates\": 6, \"SurfaceT_guarded_candidates\": 6, \"U2_guarded_local_search\": 4, \"hybrid_agreement\": 4, \"hybrid_disagreement\": 4, \"uncertainty_calibration\": 4}",
+      "overlap_combined264_teacher_orders": 0,
+      "overlap_run41": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0
+    }
+  ]
+}

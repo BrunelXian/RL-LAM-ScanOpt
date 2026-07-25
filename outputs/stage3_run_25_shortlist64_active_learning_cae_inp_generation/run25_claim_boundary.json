@@ -1,0 +1,18 @@
+{
+  "safe_claims": [
+    "run25 generated CAE/INP/JNL handoff files for selected run24 shortlist64 only",
+    "generated counts are N12=8, N16=8, N24=24, N40=24",
+    "INPs passed text/mesh/final-cooling checks",
+    "validated custom abqjobpilot command file was created for user-controlled submission",
+    "no solver job was submitted by Codex"
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical improvement",
+    "ODB results",
+    "solver completion",
+    "RL policy training",
+    "arbitrary-N generalization",
+    "abqjobpilot/enqueue execution"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_RUN55_CALIBRATED_N24_N40_BATCH64_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_54_run53_calibrated_N24_N40_batch64_handoff_package\\stage3_run54_calibrated_N24_N40_batch64_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_54_run53_calibrated_N24_N40_batch64_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01",
+  "row_count": 64,
+  "per_n_counts": {
+    "24": 32,
+    "40": 32
+  },
+  "selected_batch": "run53_calibrated_N24_N40_batch64",
+  "batch_name": "stage3_run54_calibrated_N24_N40_batch64_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN55_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

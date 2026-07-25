@@ -1,0 +1,32 @@
+{
+  "strategy_name": "PPOV01_N16_B03_surrogate_top",
+  "n": 16,
+  "order": [
+    11,
+    3,
+    1,
+    9,
+    15,
+    13,
+    7,
+    5,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "order_json": "[11,3,1,9,15,13,7,5,0,2,4,6,8,10,12,14]",
+  "order_compact": "11,3,1,9,15,13,7,5,0,2,4,6,8,10,12,14",
+  "candidate_source": "PPO_checkpoint_inference",
+  "ppo_checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\checkpoints\\maskable_ppo_lam_scan_order_final.zip",
+  "predicted_surrogate_reward_lex": 0.922934951521696,
+  "generation_mode": "stochastic",
+  "selection_tag": "surrogate_top",
+  "teacher_validated": false,
+  "abaqus_validated": false,
+  "notes": "PPO-generated candidate for later Abaqus teacher validation; not physically validated yet."
+}

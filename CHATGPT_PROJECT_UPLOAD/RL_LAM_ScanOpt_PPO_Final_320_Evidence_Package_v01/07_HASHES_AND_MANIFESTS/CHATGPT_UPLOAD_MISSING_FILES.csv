@@ -1,0 +1,5 @@
+source_path,intended_role,required,reason
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_summary.csv,core_reference_data_or_report,False,not_found
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_file_hashes.csv,core_reference_data_or_report,False,not_found
+E:\Projects\RL-LAM-ScanOpt\docs\stage3_run_78_final_evidence_freeze_package\STAGE3_FINAL_EVIDENCE_FREEZE_REPORT.md,core_reference_data_or_report,False,not_found
+E:\Projects\RL-LAM-ScanOpt\docs\stage3_run_78_final_evidence_freeze_package\STAGE3_CLAIM_BOUNDARY.md,core_reference_data_or_report,False,not_found

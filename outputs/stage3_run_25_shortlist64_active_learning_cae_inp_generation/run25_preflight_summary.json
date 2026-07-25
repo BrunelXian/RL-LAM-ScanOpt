@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS_RUN25_SHORTLIST64_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_24_run23_shortlist64_active_learning_handoff_package\\stage3_run24_shortlist64_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_24_run23_shortlist64_active_learning_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run24_shortlist64_active_learning_calibration_v01",
+  "row_count": 64,
+  "per_n_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "selected_batch": "shortlist64",
+  "batch_name": "stage3_run24_shortlist64_active_learning_calibration_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\run25_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN25_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

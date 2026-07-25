@@ -1,0 +1,39 @@
+{
+  "total_count": 64,
+  "per_n_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "n24_n40_count": 48,
+  "n24_n40_share": 0.75,
+  "bucket_composition": {
+    "top_region_local_search": 14,
+    "model_disagreement": 10,
+    "uncertainty_calibration": 10,
+    "diversity_coverage": 10,
+    "tradeoff_probe": 8,
+    "sentinel_control": 6,
+    "exploitation_reference": 6
+  },
+  "candidate_family_composition": {
+    "known_best_mutation": 50,
+    "combined108_seed_mutation": 2,
+    "teacher_best_local_search": 6,
+    "negative_control_low_adjacent": 1,
+    "geometry_signal_center_bias": 1,
+    "diversity_random": 1,
+    "geometry_signal_parity_switch": 3
+  },
+  "top_region_candidate_count": 14,
+  "model_disagreement_candidate_count": 10,
+  "uncertainty_candidate_count": 10,
+  "diversity_candidate_count": 10,
+  "tradeoff_candidate_count": 8,
+  "sentinel_candidate_count": 6,
+  "surrogate_only_predicted_exceeds_combined108_best_count": 0,
+  "expected_abaqus_cost": "64 jobs total, with 48 jobs from N24/N40",
+  "selected_batch_reason": "shortlist64 selected because the user wants an overnight run with 60+ candidates.",
+  "claim_boundary": "shortlist64 remains unvalidated until future teacher validation; run24 did not create CAE/INP files."
+}

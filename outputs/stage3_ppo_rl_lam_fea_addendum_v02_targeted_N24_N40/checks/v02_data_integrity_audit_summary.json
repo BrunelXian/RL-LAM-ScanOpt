@@ -1,0 +1,14 @@
+{
+  "verdict": "PASS_V02_TARGETED_DATA_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "counts_by_N_source": {
+    "N24::ppo_v01_teacher_validated": 8,
+    "N24::stage3_native_combined552": 190,
+    "N40::ppo_v01_teacher_validated": 8,
+    "N40::stage3_native_combined552": 206
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

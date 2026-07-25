@@ -1,0 +1,10 @@
+statistic,observed,bootstrap_mean,bootstrap_median,bootstrap_q05,bootstrap_q95,empirical_p_value_greater_equal,interpretation,trials
+top10_U2,12,32.4535,32.0,27.0,38.0,1.0,weak,10000
+top25_U2,27,81.1772,81.0,73.0,89.0,1.0,weak,10000
+top10_PEEQ,12,32.449,32.0,27.0,38.0,1.0,weak,10000
+top25_PEEQ,26,81.1136,81.0,73.0,89.0,1.0,weak,10000
+top10_SurfaceT,45,32.4366,32.0,27.0,38.0,0.0002,enriched,10000
+top25_SurfaceT,53,81.188,81.0,73.0,90.0,1.0,weak,10000
+top10_lex,12,32.4535,32.0,27.0,38.0,1.0,weak,10000
+top25_lex,27,81.1772,81.0,73.0,89.0,1.0,weak,10000
+primary_top25_any_unique,106,163.106,163.0,154.0,173.0,1.0,weak,10000

@@ -1,0 +1,11 @@
+category,label,count,notes
+total_PPO_cases,all,320,teacher metrics extracted 320/320
+by_version,v01,32,
+by_version,v02K2,32,
+by_version,v03,32,
+by_version,final_expansion,224,
+by_N,N12,40,
+by_N,N16,40,
+by_N,N24,120,
+by_N,N40,120,
+teacher_metrics_extracted,Abaqus teacher metrics,320,320/320

@@ -1,0 +1,3 @@
+n,initial_valid,after_one_valid,mask_length,pass
+24,24,23,40,True
+40,40,39,40,True

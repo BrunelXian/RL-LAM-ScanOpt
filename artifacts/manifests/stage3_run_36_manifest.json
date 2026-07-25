@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-06-13T12:58:43.380696+00:00",
+  "run_id": "run_36_N32_informed_native_batch32_odb_teacher_validation",
+  "batch_name": "stage3_run34_N32_informed_native_batch32_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_RUN36_N32_INFORMED_NATIVE_BATCH32_ODB_TEACHER_VALIDATION_32_OF_32",
+  "inputs": {
+    "run35_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_cae_generation_manifest.csv",
+    "run35_report_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_35_N32_informed_native_batch32_cae_inp_generation\\RUN_35_N32_INFORMED_NATIVE_BATCH32_CAE_INP_GENERATION_REPORT.md"
+  },
+  "generation_details": {
+    "includes_N32_cases": false,
+    "supersedes_old_Run31": true,
+    "n40_cool_initialInc": 0.001
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_solver_completion_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_36_N32_informed_native_batch32_odb_teacher_validation\\run36_N32_informed_native_batch32_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_36_N32_informed_native_batch32_odb_teacher_validation\\RUN_36_N32_INFORMED_NATIVE_BATCH32_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_36_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

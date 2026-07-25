@@ -1,0 +1,17 @@
+n,metric,run61_top5_entries,run61_top10_entries,run61_best_rank
+24,U2,0,0,22.0
+24,PEEQ,1,1,1.0
+24,SurfaceT,0,0,20.0
+24,Mises,1,1,3.0
+24,target_reward_combined432_u2_primary,0,0,18.0
+24,target_reward_combined432_constrained_u2_reward_balanced,0,0,11.0
+24,target_reward_combined432_strict_penalty_guard,0,1,9.0
+24,target_reward_combined432_penalty_repair,0,1,9.0
+40,U2,4,6,1.0
+40,PEEQ,0,0,16.0
+40,SurfaceT,0,0,16.0
+40,Mises,0,0,72.5
+40,target_reward_combined432_u2_primary,3,5,1.0
+40,target_reward_combined432_constrained_u2_reward_balanced,2,6,1.0
+40,target_reward_combined432_strict_penalty_guard,2,5,2.0
+40,target_reward_combined432_penalty_repair,2,4,2.0

@@ -1,0 +1,2 @@
+metric,observed,bootstrap_mean,bootstrap_median,q05,q95,empirical_p_value_greater_equal,interpretation,note
+total_unique_primary_top25_or_lex_top25_count,16,16.3771,16.0,12.0,21.0,0.6265,comparable,"Equal-budget bootstrap against existing teacher-labelled reference distribution, not the full scan-order universe."

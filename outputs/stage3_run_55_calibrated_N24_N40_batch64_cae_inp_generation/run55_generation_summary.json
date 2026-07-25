@@ -1,0 +1,402 @@
+{
+  "verdict": "PASS_RUN55_CALIBRATED_N24_N40_BATCH64_GENERATION_COMPLETE",
+  "generated_count": 64,
+  "per_n_counts": {
+    "24": 32,
+    "40": 32
+  },
+  "generated": [
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B01_n24_u2ret_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B01_n24_u2ret_top\\J2D_S3R54CAL64_N24_B01_n24_u2ret_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B01_n24_u2ret_top\\J2D_S3R54CAL64_N24_B01_n24_u2ret_top.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B02_n24_u2ret_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B02_n24_u2ret_top\\J2D_S3R54CAL64_N24_B02_n24_u2ret_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B02_n24_u2ret_top\\J2D_S3R54CAL64_N24_B02_n24_u2ret_top.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B03_n24_u2ret_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B03_n24_u2ret_top\\J2D_S3R54CAL64_N24_B03_n24_u2ret_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B03_n24_u2ret_top\\J2D_S3R54CAL64_N24_B03_n24_u2ret_top.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B04_n24_u2ret_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B04_n24_u2ret_top\\J2D_S3R54CAL64_N24_B04_n24_u2ret_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B04_n24_u2ret_top\\J2D_S3R54CAL64_N24_B04_n24_u2ret_top.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B05_n24_u2ret_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B05_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B05_n24_u2ret_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B05_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B05_n24_u2ret_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B06_n24_u2ret_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B06_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B06_n24_u2ret_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B06_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B06_n24_u2ret_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B07_n24_u2ret_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B07_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B07_n24_u2ret_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B07_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B07_n24_u2ret_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B08_n24_u2ret_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B08_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B08_n24_u2ret_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B08_n24_u2ret_repair\\J2D_S3R54CAL64_N24_B08_n24_u2ret_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B09_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B09_penalty_repair\\J2D_S3R54CAL64_N24_B09_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B09_penalty_repair\\J2D_S3R54CAL64_N24_B09_penalty_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B10_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B10_penalty_repair\\J2D_S3R54CAL64_N24_B10_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B10_penalty_repair\\J2D_S3R54CAL64_N24_B10_penalty_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B11_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B11_penalty_repair\\J2D_S3R54CAL64_N24_B11_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B11_penalty_repair\\J2D_S3R54CAL64_N24_B11_penalty_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B12_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B12_penalty_repair\\J2D_S3R54CAL64_N24_B12_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B12_penalty_repair\\J2D_S3R54CAL64_N24_B12_penalty_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B13_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B13_penalty_repair\\J2D_S3R54CAL64_N24_B13_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B13_penalty_repair\\J2D_S3R54CAL64_N24_B13_penalty_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B14_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B14_penalty_repair\\J2D_S3R54CAL64_N24_B14_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B14_penalty_repair\\J2D_S3R54CAL64_N24_B14_penalty_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B15_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B15_two_stage_repair\\J2D_S3R54CAL64_N24_B15_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B15_two_stage_repair\\J2D_S3R54CAL64_N24_B15_two_stage_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B16_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B16_two_stage_repair\\J2D_S3R54CAL64_N24_B16_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B16_two_stage_repair\\J2D_S3R54CAL64_N24_B16_two_stage_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B17_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B17_two_stage_repair\\J2D_S3R54CAL64_N24_B17_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B17_two_stage_repair\\J2D_S3R54CAL64_N24_B17_two_stage_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B18_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B18_two_stage_repair\\J2D_S3R54CAL64_N24_B18_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B18_two_stage_repair\\J2D_S3R54CAL64_N24_B18_two_stage_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B19_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B19_two_stage_repair\\J2D_S3R54CAL64_N24_B19_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B19_two_stage_repair\\J2D_S3R54CAL64_N24_B19_two_stage_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B20_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B20_median_guard\\J2D_S3R54CAL64_N24_B20_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B20_median_guard\\J2D_S3R54CAL64_N24_B20_median_guard.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B21_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B21_median_guard\\J2D_S3R54CAL64_N24_B21_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B21_median_guard\\J2D_S3R54CAL64_N24_B21_median_guard.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B22_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B22_median_guard\\J2D_S3R54CAL64_N24_B22_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B22_median_guard\\J2D_S3R54CAL64_N24_B22_median_guard.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B23_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B23_median_guard\\J2D_S3R54CAL64_N24_B23_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B23_median_guard\\J2D_S3R54CAL64_N24_B23_median_guard.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B24_peeq_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B24_peeq_repair\\J2D_S3R54CAL64_N24_B24_peeq_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B24_peeq_repair\\J2D_S3R54CAL64_N24_B24_peeq_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B25_peeq_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B25_peeq_repair\\J2D_S3R54CAL64_N24_B25_peeq_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B25_peeq_repair\\J2D_S3R54CAL64_N24_B25_peeq_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B26_peeq_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B26_peeq_repair\\J2D_S3R54CAL64_N24_B26_peeq_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B26_peeq_repair\\J2D_S3R54CAL64_N24_B26_peeq_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B27_surfacet_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B27_surfacet_repair\\J2D_S3R54CAL64_N24_B27_surfacet_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B27_surfacet_repair\\J2D_S3R54CAL64_N24_B27_surfacet_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B28_surfacet_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B28_surfacet_repair\\J2D_S3R54CAL64_N24_B28_surfacet_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B28_surfacet_repair\\J2D_S3R54CAL64_N24_B28_surfacet_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B29_mises_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B29_mises_repair\\J2D_S3R54CAL64_N24_B29_mises_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B29_mises_repair\\J2D_S3R54CAL64_N24_B29_mises_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B30_mises_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B30_mises_repair\\J2D_S3R54CAL64_N24_B30_mises_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B30_mises_repair\\J2D_S3R54CAL64_N24_B30_mises_repair.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B31_uncertainty",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B31_uncertainty\\J2D_S3R54CAL64_N24_B31_uncertainty.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B31_uncertainty\\J2D_S3R54CAL64_N24_B31_uncertainty.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R54CAL64_N24_B32_sentinel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B32_sentinel\\J2D_S3R54CAL64_N24_B32_sentinel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N24S3R54CAL64_N24_B32_sentinel\\J2D_S3R54CAL64_N24_B32_sentinel.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B01_n40_strict_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B01_n40_strict_top\\J2D_S3R54CAL64_N40_B01_n40_strict_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B01_n40_strict_top\\J2D_S3R54CAL64_N40_B01_n40_strict_top.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B02_n40_strict_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B02_n40_strict_top\\J2D_S3R54CAL64_N40_B02_n40_strict_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B02_n40_strict_top\\J2D_S3R54CAL64_N40_B02_n40_strict_top.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B03_n40_strict_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B03_n40_strict_top\\J2D_S3R54CAL64_N40_B03_n40_strict_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B03_n40_strict_top\\J2D_S3R54CAL64_N40_B03_n40_strict_top.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B04_n40_strict_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B04_n40_strict_top\\J2D_S3R54CAL64_N40_B04_n40_strict_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B04_n40_strict_top\\J2D_S3R54CAL64_N40_B04_n40_strict_top.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B05_n40_strict_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B05_n40_strict_repair\\J2D_S3R54CAL64_N40_B05_n40_strict_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B05_n40_strict_repair\\J2D_S3R54CAL64_N40_B05_n40_strict_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B06_n40_strict_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B06_n40_strict_repair\\J2D_S3R54CAL64_N40_B06_n40_strict_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B06_n40_strict_repair\\J2D_S3R54CAL64_N40_B06_n40_strict_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B07_n40_strict_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B07_n40_strict_repair\\J2D_S3R54CAL64_N40_B07_n40_strict_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B07_n40_strict_repair\\J2D_S3R54CAL64_N40_B07_n40_strict_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B08_n40_strict_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B08_n40_strict_repair\\J2D_S3R54CAL64_N40_B08_n40_strict_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B08_n40_strict_repair\\J2D_S3R54CAL64_N40_B08_n40_strict_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B09_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B09_penalty_repair\\J2D_S3R54CAL64_N40_B09_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B09_penalty_repair\\J2D_S3R54CAL64_N40_B09_penalty_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B10_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B10_penalty_repair\\J2D_S3R54CAL64_N40_B10_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B10_penalty_repair\\J2D_S3R54CAL64_N40_B10_penalty_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B11_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B11_penalty_repair\\J2D_S3R54CAL64_N40_B11_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B11_penalty_repair\\J2D_S3R54CAL64_N40_B11_penalty_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B12_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B12_penalty_repair\\J2D_S3R54CAL64_N40_B12_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B12_penalty_repair\\J2D_S3R54CAL64_N40_B12_penalty_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B13_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B13_penalty_repair\\J2D_S3R54CAL64_N40_B13_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B13_penalty_repair\\J2D_S3R54CAL64_N40_B13_penalty_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B14_penalty_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B14_penalty_repair\\J2D_S3R54CAL64_N40_B14_penalty_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B14_penalty_repair\\J2D_S3R54CAL64_N40_B14_penalty_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B15_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B15_two_stage_repair\\J2D_S3R54CAL64_N40_B15_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B15_two_stage_repair\\J2D_S3R54CAL64_N40_B15_two_stage_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B16_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B16_two_stage_repair\\J2D_S3R54CAL64_N40_B16_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B16_two_stage_repair\\J2D_S3R54CAL64_N40_B16_two_stage_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B17_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B17_two_stage_repair\\J2D_S3R54CAL64_N40_B17_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B17_two_stage_repair\\J2D_S3R54CAL64_N40_B17_two_stage_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B18_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B18_two_stage_repair\\J2D_S3R54CAL64_N40_B18_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B18_two_stage_repair\\J2D_S3R54CAL64_N40_B18_two_stage_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B19_two_stage_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B19_two_stage_repair\\J2D_S3R54CAL64_N40_B19_two_stage_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B19_two_stage_repair\\J2D_S3R54CAL64_N40_B19_two_stage_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B20_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B20_median_guard\\J2D_S3R54CAL64_N40_B20_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B20_median_guard\\J2D_S3R54CAL64_N40_B20_median_guard.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B21_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B21_median_guard\\J2D_S3R54CAL64_N40_B21_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B21_median_guard\\J2D_S3R54CAL64_N40_B21_median_guard.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B22_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B22_median_guard\\J2D_S3R54CAL64_N40_B22_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B22_median_guard\\J2D_S3R54CAL64_N40_B22_median_guard.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B23_median_guard",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B23_median_guard\\J2D_S3R54CAL64_N40_B23_median_guard.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B23_median_guard\\J2D_S3R54CAL64_N40_B23_median_guard.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B24_peeq_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B24_peeq_repair\\J2D_S3R54CAL64_N40_B24_peeq_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B24_peeq_repair\\J2D_S3R54CAL64_N40_B24_peeq_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B25_peeq_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B25_peeq_repair\\J2D_S3R54CAL64_N40_B25_peeq_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B25_peeq_repair\\J2D_S3R54CAL64_N40_B25_peeq_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B26_peeq_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B26_peeq_repair\\J2D_S3R54CAL64_N40_B26_peeq_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B26_peeq_repair\\J2D_S3R54CAL64_N40_B26_peeq_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B27_surfacet_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B27_surfacet_repair\\J2D_S3R54CAL64_N40_B27_surfacet_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B27_surfacet_repair\\J2D_S3R54CAL64_N40_B27_surfacet_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B28_surfacet_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B28_surfacet_repair\\J2D_S3R54CAL64_N40_B28_surfacet_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B28_surfacet_repair\\J2D_S3R54CAL64_N40_B28_surfacet_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B29_mises_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B29_mises_repair\\J2D_S3R54CAL64_N40_B29_mises_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B29_mises_repair\\J2D_S3R54CAL64_N40_B29_mises_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B30_mises_repair",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B30_mises_repair\\J2D_S3R54CAL64_N40_B30_mises_repair.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B30_mises_repair\\J2D_S3R54CAL64_N40_B30_mises_repair.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B31_uncertainty",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B31_uncertainty\\J2D_S3R54CAL64_N40_B31_uncertainty.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B31_uncertainty\\J2D_S3R54CAL64_N40_B31_uncertainty.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R54CAL64_N40_B32_diversity",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B32_diversity\\J2D_S3R54CAL64_N40_B32_diversity.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run54_calibrated_N24_N40_batch64_v01\\N40S3R54CAL64_N40_B32_diversity\\J2D_S3R54CAL64_N40_B32_diversity.inp"
+    }
+  ],
+  "manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_cae_generation_manifest.csv",
+  "manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_cae_generation_manifest.json",
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_odb_opened": true,
+  "no_teacher_validation": true
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "stage3_target_field": "n",
+    "source_field_or_rule": "constant 32",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": "N=32 inferred from legal full 0..31 scan_order and Stage 2 32track source"
+  },
+  {
+    "stage3_target_field": "strategy_name",
+    "source_field_or_rule": "strategy_id",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": ""
+  },
+  {
+    "stage3_target_field": "order_json",
+    "source_field_or_rule": "scan_order",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": ""
+  },
+  {
+    "stage3_target_field": "u2_range",
+    "source_field_or_rule": "U2_range",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": ""
+  },
+  {
+    "stage3_target_field": "peeq_max",
+    "source_field_or_rule": "peeq_guard",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": "May be peeq_guard if canonical table is used"
+  },
+  {
+    "stage3_target_field": "surface_t_proxy",
+    "source_field_or_rule": "surface_tensile_primary",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": ""
+  },
+  {
+    "stage3_target_field": "mises_max",
+    "source_field_or_rule": "mises_P95_top_band",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": "May be P95/top-band Mises diagnostic rather than global max"
+  },
+  {
+    "stage3_target_field": "dataset_source",
+    "source_field_or_rule": "constant stage2_n32_gnn_rl_legacy/stage2_n32_full32_legacy",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": ""
+  },
+  {
+    "stage3_target_field": "teacher_validation_status",
+    "source_field_or_rule": "final_cooling_success",
+    "mappable": true,
+    "combined172_has_field": true,
+    "notes": ""
+  },
+  {
+    "stage3_target_field": "row_count",
+    "source_field_or_rule": "336",
+    "mappable": true,
+    "combined172_has_field": false,
+    "notes": "Requires at least 100 reusable N32 rows for PASS"
+  },
+  {
+    "stage3_target_field": "duplicate_order_hash_status",
+    "source_field_or_rule": "4",
+    "mappable": false,
+    "combined172_has_field": false,
+    "notes": "Duplicates should be removed or documented before final Stage 3 merge"
+  }
+]

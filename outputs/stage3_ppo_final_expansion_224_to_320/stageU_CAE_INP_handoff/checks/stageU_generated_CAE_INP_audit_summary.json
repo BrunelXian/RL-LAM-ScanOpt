@@ -1,0 +1,43 @@
+{
+  "verdict": "PASS_STAGEU_FINAL_EXPANSION_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER",
+  "checked_count": 224,
+  "pass_count": 224,
+  "cae_counts_by_n": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "inp_counts_by_n": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "inp_counts_by_batch": {
+    "final_expansion_batch01": 32,
+    "final_expansion_batch02": 32,
+    "final_expansion_batch03": 32,
+    "final_expansion_batch04": 32,
+    "final_expansion_batch05": 32,
+    "final_expansion_batch06": 32,
+    "final_expansion_batch07": 32
+  },
+  "solver_output_count": 0,
+  "failed": [],
+  "command_files": {
+    "per_batch_paths": {
+      "final_expansion_batch01": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch01_abqjobpilot_commands_READY_TO_RUN.txt",
+      "final_expansion_batch02": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch02_abqjobpilot_commands_READY_TO_RUN.txt",
+      "final_expansion_batch03": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch03_abqjobpilot_commands_READY_TO_RUN.txt",
+      "final_expansion_batch04": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch04_abqjobpilot_commands_READY_TO_RUN.txt",
+      "final_expansion_batch05": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch05_abqjobpilot_commands_READY_TO_RUN.txt",
+      "final_expansion_batch06": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch06_abqjobpilot_commands_READY_TO_RUN.txt",
+      "final_expansion_batch07": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch07_abqjobpilot_commands_READY_TO_RUN.txt"
+    },
+    "all_batch_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_all224_abqjobpilot_commands_READY_TO_RUN.txt",
+    "all_command_count": 224,
+    "errors": []
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\checks\\stageU_generated_CAE_INP_audit.csv"
+}

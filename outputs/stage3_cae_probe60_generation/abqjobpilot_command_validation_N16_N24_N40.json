@@ -1,0 +1,29 @@
+{
+  "full_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_manual_probe60_handoff\\variable_N_probe60_abqjobpilot_commands_FIXED.txt",
+  "partial_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_manual_probe60_handoff\\variable_N_probe60_abqjobpilot_commands_N16_N24_N40_READY_TO_RUN.txt",
+  "full_validation": {
+    "valid": true,
+    "errors": [],
+    "missing_inps": [],
+    "command_count": 60,
+    "per_n_counts": {
+      "N12": 15,
+      "N16": 15,
+      "N24": 15,
+      "N40": 15
+    }
+  },
+  "partial_validation": {
+    "valid": true,
+    "errors": [],
+    "missing_inps": [],
+    "command_count": 45,
+    "per_n_counts": {
+      "N12": 0,
+      "N16": 15,
+      "N24": 15,
+      "N40": 15
+    }
+  },
+  "executed_abqjobpilot_or_enqueue": false
+}

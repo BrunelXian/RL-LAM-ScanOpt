@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-28T00:12:39.300937+00:00",
+  "rollout_pool_size": 3001,
+  "unique_orders": 2998,
+  "selected_count": 16,
+  "selected_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\stageK2_refreshed_N40_candidates.csv",
+  "rollout_pool_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\rollout_pool\\stageK2_n40_ppo_rollout_pool.csv",
+  "all_selected_legal": true,
+  "duplicate_vs_training_count": 0,
+  "duplicate_vs_stageK_N40_selected_count": 0,
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

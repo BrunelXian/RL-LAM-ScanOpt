@@ -1,0 +1,33 @@
+check,passed,severity,detail
+stageM_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_teacher_metrics.csv
+stageM_summary_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_extraction_summary.json
+stageM_solver_audit_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_solver_completion_audit.csv
+K2_selected_batch_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageK2_n40_completion\selected_batch32_K2\v02K2_ppo_targeted_N24_N40_candidate_batch32.csv
+combined552_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv
+v01_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv
+v01_ranking_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv
+stageM_row_count_32,True,FAIL,32
+stageM_counts_N24_N40,True,FAIL,"{24: 16, 40: 16}"
+stageM_no_N12_N16_N32,True,FAIL,"[np.int64(24), np.int64(40)]"
+stageM_extraction_success_32,True,FAIL,{'PASS_ODB_FINAL_FRAME_EXTRACTED': 32}
+stageM_teacher_status_success_32,True,FAIL,{'PASS_TEACHER_FIELDS_EXTRACTED': 32}
+stageM_final_metadata_available,True,WARNING,final_step_name/final_frame_time
+stageM_required_fields_visible,True,WARNING,U/PEEQ/S/NT or NT11
+stageM_metric_u2_range_mapped,True,FAIL,u2_range
+stageM_metric_peeq_max_mapped,True,FAIL,peeq_max
+stageM_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy_max_tensile_pa
+stageM_metric_mises_max_mapped,True,FAIL,mises_max
+K2_row_count_32,True,FAIL,32
+K2_counts_N24_N40,True,FAIL,"{24: 16, 40: 16}"
+K2_strategy_names_match_stageM,True,FAIL,strategy set equality
+K2_candidate_source_valid,True,FAIL,"{'PPO_v02_checkpoint_inference': 16, 'PPO_v02K2_checkpoint_inference': 16}"
+K2_predicted_or_conservative_exists,True,FAIL,predicted_reward/conservative_reward
+combined552_row_count_552,True,FAIL,552
+combined552_N24_N40_counts,True,FAIL,"{24: 190, 40: 206}"
+combined552_metric_u2_range_mapped,True,FAIL,u2_range
+combined552_metric_peeq_max_mapped,True,FAIL,peeq_max
+combined552_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy
+combined552_metric_mises_max_mapped,True,FAIL,mises_max
+v01_N24_N40_count_16,True,FAIL,16
+v01_N24_N40_counts,True,FAIL,"{24: 8, 40: 8}"
+v01_ranking_available,True,FAIL,32

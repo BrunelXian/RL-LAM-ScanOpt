@@ -1,0 +1,104 @@
+{
+  "headline": "Custom batch40 preserves all 32 Run58 Option A candidates and adds 8 complementary N24 candidates, yielding N24=16 and N40=24 with zero overlap against combined392 and prior tracked batches.",
+  "total_count": 40,
+  "per_N_counts": {
+    "24": 16,
+    "40": 24
+  },
+  "only_N24_N40": true,
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "original_option_A_rows_preserved": 32,
+  "extra_N24_rows_added": 8,
+  "candidate_source_composition": {
+    "N24_u2_reward_maintenance": 7,
+    "N24_penalty_repair_diagnostic": 4,
+    "N40_penalty_repair_local_search": 4,
+    "N40_penalty_repair_top": 4,
+    "N40_two_stage_penalty_repair": 3,
+    "N40_u2_reward_retention_local_repair": 3,
+    "N40_u2_reward_retention_top": 3,
+    "N24_diversity_coverage": 2,
+    "N40_median_guard_repair": 2,
+    "N40_no_penalty_worse_than_median": 2,
+    "N24_uncertainty_calibration": 2,
+    "N40_PEEQ_repair_candidates": 1,
+    "N40_Mises_repair_candidates": 1,
+    "N24_sentinel_control": 1,
+    "N40_SurfaceT_repair_candidates": 1
+  },
+  "selection_bucket_composition": {
+    "N24_u2_reward_maintenance": 7,
+    "N24_penalty_repair_diagnostic": 4,
+    "N40_penalty_repair_local_search": 4,
+    "N40_penalty_repair_top": 4,
+    "N40_two_stage_penalty_repair": 3,
+    "N40_u2_reward_retention_local_repair": 3,
+    "N40_u2_reward_retention_top": 3,
+    "N24_diversity_coverage": 2,
+    "N40_median_guard_repair": 2,
+    "N40_no_penalty_worse_than_median": 2,
+    "N24_uncertainty_calibration": 2,
+    "N40_PEEQ_repair_candidates": 1,
+    "N40_Mises_repair_candidates": 1,
+    "N24_sentinel_control": 1,
+    "N40_SurfaceT_repair_candidates": 1
+  },
+  "mean_surrogate_prediction_by_N": {
+    "24": 0.6502309004380055,
+    "40": 0.6822592754426848
+  },
+  "mean_N40_u2_reward_retention_prediction_by_N": {
+    "24": 0.6518616759685949,
+    "40": 0.6828664349320559
+  },
+  "mean_N40_penalty_repair_prediction_by_N": {
+    "24": 0.648186380331458,
+    "40": 0.6825343069460817
+  },
+  "mean_N40_two_stage_repair_prediction_by_N": {
+    "24": 0.6107050814681323,
+    "40": 0.6829404733935943
+  },
+  "mean_N40_median_guard_prediction_by_N": {
+    "24": 0.6304958460901794,
+    "40": 0.6804083139042234
+  },
+  "mean_N24_maintenance_prediction_by_N": {
+    "24": 0.6576669317578199,
+    "40": 0.6834571749879402
+  },
+  "mean_predicted_peeq_penalty_by_N": {},
+  "mean_predicted_surfaceT_penalty_by_N": {},
+  "mean_predicted_mises_penalty_by_N": {},
+  "mean_gnn_reward_prediction_by_N": {
+    "24": 0.62949340355092,
+    "40": 0.6565714685275416
+  },
+  "mean_hybrid_score_by_N": {
+    "24": 0.652192198019205,
+    "40": 0.6830705632467611
+  },
+  "mean_disagreement_by_N": {
+    "24": 0.024492174560041425,
+    "40": 0.025687806915143312
+  },
+  "mean_novelty_distance_by_N": {
+    "24": 0.43229166666666663,
+    "40": 0.19166666666666665
+  },
+  "expected_abaqus_cost": "40 jobs total: 16 N24 and 24 N40",
+  "exact_overlap_status": {
+    "combined392": 0,
+    "run56": 0,
+    "run51": 0,
+    "run46": 0,
+    "run41": 0,
+    "run36": 0,
+    "run27": 0,
+    "superseded_run31": 0
+  },
+  "teacher_validated": false,
+  "cae_inp_generated": false
+}

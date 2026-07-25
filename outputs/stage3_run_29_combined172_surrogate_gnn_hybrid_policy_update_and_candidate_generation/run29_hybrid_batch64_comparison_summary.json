@@ -1,0 +1,13 @@
+{
+  "batch64_count": 64,
+  "per_n_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "total_overlap_combined172_teacher": 0,
+  "total_overlap_run24_shortlist64": 0,
+  "total_overlap_run26_batch64": 0,
+  "mostly_distinct_from_previous": true
+}

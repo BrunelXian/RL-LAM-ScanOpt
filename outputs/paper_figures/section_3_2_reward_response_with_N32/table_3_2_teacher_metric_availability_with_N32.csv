@@ -1,0 +1,6 @@
+dataset_scope,source_stage,N,teacher_label_count,valid_U2_count,valid_PEEQ_count,valid_SurfaceT_count,valid_Mises_count,valid_NT11_count_if_present,valid_Gradient_count_if_present,valid_internal_tensile_count_if_present,teacher_validation_status_summary,claim_role
+native_stage3,Stage3_native,N12,78,78,78,78,78,42,NOT_PRESENT,NOT_PRESENT,PASS_ODB_EXTRACTED=15; PASS_TEACHER_FIELDS_EXTRACTED=63,native_multi_N_claim_scope
+native_stage3,Stage3_native,N16,78,78,78,78,78,42,NOT_PRESENT,NOT_PRESENT,PASS_ODB_EXTRACTED=15; PASS_TEACHER_FIELDS_EXTRACTED=63,native_multi_N_claim_scope
+native_stage3,Stage3_native,N24,190,190,190,190,190,124,NOT_PRESENT,NOT_PRESENT,PASS_ODB_EXTRACTED=15; PASS_TEACHER_FIELDS_EXTRACTED=175,native_multi_N_claim_scope
+auxiliary_fixed_N32,Stage2_fixed32_auxiliary,N32,332,332,332,332,332,0,NOT_PRESENT,NOT_PRESENT,LEGACY_TEACHER_LABEL_COMPATIBLE=332,auxiliary_fixed_N32_context
+native_stage3,Stage3_native,N40,206,206,206,206,206,140,NOT_PRESENT,NOT_PRESENT,PASS_ODB_EXTRACTED=15; PASS_TEACHER_FIELDS_EXTRACTED=191,native_multi_N_claim_scope

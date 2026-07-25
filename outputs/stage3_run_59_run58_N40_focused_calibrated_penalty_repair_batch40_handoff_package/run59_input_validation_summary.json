@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-06-16T10:43:52.588707+00:00",
+  "verdict": "PASS_RUN59_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_INPUT_READY",
+  "errors": [],
+  "pre_handoff_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\run59_custom_N40_focused_calibrated_penalty_repair_batch40_candidate_orders_PRE_HANDOFF.csv",
+  "row_count": 40,
+  "per_N_counts": {
+    "24": 16,
+    "40": 24
+  },
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "selected_batch_is_custom_run58_batch40": true,
+  "build_summary": {
+    "original_option_A_rows_preserved": 32,
+    "original_option_A_N24_preserved": 8,
+    "original_option_A_N40_preserved": 24,
+    "extra_N24_rows_added": 8,
+    "extra_N24_source_counts": {
+      "N24_u2_reward_maintenance": 4,
+      "N24_penalty_repair_diagnostic": 2,
+      "N24_uncertainty_calibration": 1,
+      "N24_diversity_coverage": 1
+    }
+  },
+  "overlap_status": {
+    "combined392": 0,
+    "run56": 0,
+    "run51": 0,
+    "run46": 0,
+    "run41": 0,
+    "run36": 0,
+    "run27": 0,
+    "superseded_run31": 0
+  }
+}

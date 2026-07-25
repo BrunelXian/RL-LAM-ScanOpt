@@ -1,0 +1,60 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-23T10:55:25.093223+00:00",
+  "ppo_checkpoint_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\checkpoints\\maskable_ppo_lam_scan_order_final.zip",
+  "surrogate_reward_model_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_reward_model_best.joblib",
+  "rollout_pool_paths": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\rollout_pool\\ppo_generated_rollout_pool.csv",
+    "json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\rollout_pool\\ppo_generated_rollout_pool.json"
+  },
+  "selected_batch_paths": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\ppo_policy_only_candidate_batch32.csv",
+    "json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\ppo_policy_only_candidate_batch32.json",
+    "handoff_preview_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\ppo_stageE_candidate_handoff_preview.csv"
+  },
+  "scan_order_json_directory": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\scan_orders",
+  "audit_table_paths": {
+    "legality": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\tables\\ppo_candidate_legality_audit.csv",
+    "novelty": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\tables\\ppo_candidate_novelty_audit.csv",
+    "surrogate_score_summary_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\tables\\ppo_candidate_surrogate_score_summary_by_N.csv",
+    "order_descriptor_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\tables\\ppo_candidate_order_descriptor_summary.csv"
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_POLICY_ONLY_CANDIDATE_GENERATION_STAGE_D_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_POLICY_ONLY_CANDIDATE_CLAIM_BOUNDARY.md",
+  "selected_counts_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "rollout_pool_size_by_N": {
+    "12": 528,
+    "16": 528,
+    "24": 528,
+    "40": 528
+  },
+  "unique_ppo_generated_orders_by_N": {
+    "12": 20,
+    "16": 62,
+    "24": 499,
+    "40": 513
+  },
+  "pass_checks": {
+    "total_selected_32": true,
+    "exactly_8_per_n": true,
+    "all_legal": true,
+    "no_duplicate_order_hash_within_selected": true,
+    "all_from_ppo_rollout_pool": true,
+    "candidate_source_ok": true,
+    "teacher_validated_false": true,
+    "abaqus_validated_false": true,
+    "no_n32": true
+  },
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_teacher_validation": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_PPO_POLICY_ONLY_BATCH32_READY_FOR_STAGE_E_TEACHER_VALIDATION_HANDOFF"
+}

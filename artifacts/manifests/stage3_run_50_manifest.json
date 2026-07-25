@@ -1,0 +1,64 @@
+{
+  "run_id": "run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation",
+  "run_name": "run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation",
+  "timestamp": "2026-06-15T09:49:04.9210315+08:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_50_preflight_stricter_constrained_N24_N40_batch32_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_50_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_50_generate_stricter_constrained_N24_N40_batch32_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_50_check_stricter_constrained_N24_N40_batch32_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_50_validate_stricter_constrained_N24_N40_batch32_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_orders": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_49_run48_stricter_constrained_N24_N40_batch32_handoff_package\\stage3_run49_stricter_constrained_N24_N40_batch32_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_49_run48_stricter_constrained_N24_N40_batch32_handoff_package\\scan_orders",
+    "run49_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_49_run48_stricter_constrained_N24_N40_batch32_handoff_package\\RUN_49_RUN48_STRICTER_CONSTRAINED_N24_N40_BATCH32_HANDOFF_PACKAGE_REPORT.md"
+  },
+  "output_files": {
+    "preflight_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_preflight_summary.json",
+    "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_future_cae_root_safety_audit.json",
+    "base_mesh_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_base_mesh_audit_summary.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run50_stricter_constrained_N24_N40_batch32_cae_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run50_stricter_constrained_N24_N40_batch32_cae_generation_manifest.json",
+    "generated_inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run50_stricter_constrained_N24_N40_batch32_generated_inp_check_summary.json",
+    "generated_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run50_stricter_constrained_N24_N40_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run50_stricter_constrained_N24_N40_batch32_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_claim_boundary.md",
+    "claim_boundary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\run50_claim_boundary.json",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation\\RUN_50_STRICTER_CONSTRAINED_N24_N40_BATCH32_CAE_INP_GENERATION_REPORT.md"
+  },
+  "selected_batch": "run48_stricter_constrained_N24_N40_batch32",
+  "batch_name": "stage3_run49_stricter_constrained_N24_N40_batch32_v01",
+  "generated_case_count": 32,
+  "per_n_generated_counts": {
+    "N24": 16,
+    "N40": 16
+  },
+  "includes_N12": false,
+  "includes_N16": false,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "stricter_penalty_guard": true,
+  "generated_CAE_count": 32,
+  "generated_INP_count": 32,
+  "generated_JNL_count": 32,
+  "generated_log_count": 32,
+  "inp_checker_verdict": "PASS_RUN50_STRICTER_CONSTRAINED_N24_N40_BATCH32_32_INPS_READY_FOR_USER_REVIEW",
+  "command_validation_verdict": "PASS_RUN50_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "final_cooling_controls": {
+    "timePeriod": 1200.0,
+    "initialInc": 0.01,
+    "maxInc": 60.0
+  },
+  "n40_cool_step_initialInc": 0.001,
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

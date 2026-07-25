@@ -1,0 +1,22 @@
+{
+  "run_id": "run_31_hybrid_policy_batch32_cae_inp_generation",
+  "batch_name": "stage3_run30_hybrid_policy_batch32_v01",
+  "selected_batch": "run29_hybrid_policy_batch32",
+  "n": 16,
+  "handoff_strategy_name": "S3R30H32_N16_B04_new_best_local",
+  "original_run23_candidate_id": "",
+  "original_run23_strategy_name": "",
+  "candidate_family": "",
+  "candidate_source": "N16_new_best_neighborhood",
+  "generation_method": "reverse_segment",
+  "selection_bucket": "new_best_local_search",
+  "priority_role": "",
+  "model_prediction_mean": "",
+  "model_prediction_std": "",
+  "predicted_gap_vs_combined108_best": "",
+  "novelty_distance_to_combined108": "",
+  "nearest_existing_teacher_strategy": "S3R19B28_N16_B02_u2_primary_top",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

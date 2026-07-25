@@ -1,0 +1,10 @@
+{
+  "N24_seed20260624": {
+    "total_parameters": 72937,
+    "trainable_parameters": 72937
+  },
+  "N40_seed20260624": {
+    "total_parameters": 72937,
+    "trainable_parameters": 72937
+  }
+}

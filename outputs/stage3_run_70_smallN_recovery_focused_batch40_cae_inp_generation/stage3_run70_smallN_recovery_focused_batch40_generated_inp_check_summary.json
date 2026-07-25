@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS_RUN70_SMALLN_RECOVERY_FOCUSED_BATCH40_40_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 40,
+  "pass_count": 40,
+  "per_n_pass_counts": {
+    "12": 16,
+    "16": 16,
+    "24": 4,
+    "40": 4
+  },
+  "total_cae_count": 40,
+  "total_inp_count": 40,
+  "solver_output_count": 0,
+  "forbidden_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_70_smallN_recovery_focused_batch40_cae_inp_generation\\stage3_run70_smallN_recovery_focused_batch40_generated_inp_check.csv"
+}

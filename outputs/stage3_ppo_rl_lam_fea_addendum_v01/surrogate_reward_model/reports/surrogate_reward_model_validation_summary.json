@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-06-23T09:51:22.908580+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+  "rows_used": 552,
+  "row_counts_by_n": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "train_rows": 414,
+  "validation_rows": 138,
+  "feature_count": 111,
+  "primary_target": "reward_lex_u2_peeq_surfacet",
+  "selected_model_type": "HistGradientBoostingRegressor",
+  "overall_metrics": {
+    "spearman": 0.878558039393863,
+    "pearson": 0.8863107612337054,
+    "mae": 0.09416472314732778,
+    "rmse": 0.13792435602768863
+  },
+  "diagnostic_metrics": {
+    "reward_u2_primary": {
+      "spearman": 0.8766705747159479,
+      "pearson": 0.8821710047721262,
+      "mae": 0.08929710478878733,
+      "rmse": 0.1348447864343704
+    },
+    "cost_u2_norm": {
+      "spearman": 0.8836677800939295,
+      "pearson": 0.9466594984245111,
+      "mae": 0.04756433626188706,
+      "rmse": 0.07856991466353998
+    },
+    "cost_peeq_norm": {
+      "spearman": 0.7266755710887776,
+      "pearson": 0.8117089390305469,
+      "mae": 0.07213475228080198,
+      "rmse": 0.11624652021583533
+    },
+    "cost_surfacet_norm": {
+      "spearman": 0.7479522770683877,
+      "pearson": 0.8027435178208506,
+      "mae": 0.07700920624448168,
+      "rmse": 0.11654819587662088
+    },
+    "cost_mises_norm": {
+      "spearman": 0.5655799021643838,
+      "pearson": 0.5880352578949244,
+      "mae": 0.15188662325183533,
+      "rmse": 0.19599257579537535
+    }
+  },
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_PPO_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_PPO_SURROGATE_REWARD_MODEL_READY_FOR_PPO_TRAINING"
+}

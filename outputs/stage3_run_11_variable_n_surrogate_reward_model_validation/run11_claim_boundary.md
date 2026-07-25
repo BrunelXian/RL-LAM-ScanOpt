@@ -1,0 +1,19 @@
+# Run 11 Claim Boundary
+
+## Safe Claims
+
+- Run11 evaluates lightweight feature-based surrogates on the 60 teacher-labelled variable-N dataset.
+- Leave-N-out validation provides preliminary diagnostic evidence of whether scan-order features transfer across N.
+- Positive results only indicate learnable signal in simple handcrafted features for within-N normalized reward.
+- Weak results motivate active learning or richer graph/sequence models.
+- Pairwise preference data can support later ranking-policy training.
+
+## Unsafe Claims
+
+- Do not claim trained variable-N RL policy superiority.
+- Do not claim final surrogate accuracy.
+- Do not claim arbitrary-N generalization.
+- Do not claim a physical optimum.
+- Do not claim readiness to deploy.
+- Do not claim feature importances are causal.
+- Do not claim proxy/fallback policy is equivalent to trained RL.

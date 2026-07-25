@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-14T06:33:15.255301+00:00",
+  "verdict": "PASS_RUN42_NATIVE_N24_N40_FOCUSED_BATCH60_TEACHER_METRICS_60_OF_60_READY",
+  "errors": [],
+  "run41_rows": 60,
+  "run41_per_N_counts": {
+    "24": 30,
+    "40": 30
+  },
+  "combined204_rows": 204,
+  "combined204_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 66,
+    "40": 66
+  },
+  "combined204_plus_N32_rows": 536,
+  "combined204_plus_N32_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 66,
+    "32": 332,
+    "40": 66
+  },
+  "run41_has_N12": false,
+  "run41_has_N16": false,
+  "run41_has_N32": false,
+  "run41_rows_matched_to_run39_handoff": 60,
+  "n32_semantic_warning_column": "metric_semantic_warning"
+}

@@ -1,0 +1,31 @@
+{
+  "verdict": "PASS_RUN33_COMBINED172_PLUS_N32_INPUT_READY_WITH_LEGACY_WARNINGS",
+  "errors": [],
+  "combined172_plus_N32_rows": 504,
+  "per_n_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 54,
+    "32": 332,
+    "40": 54
+  },
+  "native_combined172_rows": 172,
+  "native_per_n_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 54,
+    "40": 54
+  },
+  "n32_metric_semantic_warning_rows": 332,
+  "n32_legacy_compatibility_status_counts": {
+    "LEGACY_COMPATIBLE_WITH_WARNINGS": 332
+  },
+  "n32_peeq_metric_source_counts": {
+    "peeq_guard": 332
+  },
+  "n32_mises_metric_source_counts": {
+    "mises_P95_top_band": 292,
+    "mises_P95_top_band_missing_conservative_rank_fill": 40
+  },
+  "warning": "N32 is legacy-compatible, not native Stage 3; PEEQ/Mises mappings are semantically bounded."
+}

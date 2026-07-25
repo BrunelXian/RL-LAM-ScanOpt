@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-14T06:50:00.067520+00:00",
+  "verdict": "PASS_RUN43_COMBINED264_AND_PLUS_N32_INPUTS_READY",
+  "errors": [],
+  "native_combined264_rows": 264,
+  "native_combined264_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 96,
+    "40": 96
+  },
+  "combined264_plus_N32_rows": 596,
+  "combined264_plus_N32_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 96,
+    "32": 332,
+    "40": 96
+  },
+  "run41_prediction_audit_context": {
+    "overall_reward_spearman": 0.9123898969129455,
+    "mean_top5_overlap": 4.0
+  }
+}

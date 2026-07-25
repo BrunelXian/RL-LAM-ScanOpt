@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-28T23:27:06.733857+00:00",
+  "run_id": "stageR_v03_odb_teacher_metric_extraction",
+  "batch_name": "stage3_ppo_v03_lex_primary_N24_N40_batch32_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_STAGER_V03_ODB_TEACHER_METRIC_EXTRACTION_32_OF_32",
+  "inputs": {
+    "stageQ_generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_CAE_generation_manifest.csv",
+    "stageQ_case_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_case_manifest.csv",
+    "selected_batch_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\v03_ppo_lex_primary_N24_N40_candidate_batch32.csv",
+    "stageQ_handoff_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\stageQ_v03_CAE_INP_handoff_manifest.json",
+    "stageQ_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\commands\\stageQ_v03_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "stageQ_report_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_STAGEQ_CAE_INP_HANDOFF_REPORT.md"
+  },
+  "stageR_notes": {
+    "namespace": "stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40",
+    "includes_N12": false,
+    "includes_N16": false,
+    "includes_N24": true,
+    "includes_N32_cases": false,
+    "includes_N40": true,
+    "generated_CAE_INP_JNL_only_in_stageQ": true,
+    "final_step_required_for_metrics": "step_final_cooling",
+    "targeted_batch": "PPO v03 lex-primary N24/N40 batch32",
+    "partial_training_caveat": "PPO v03 training was partial: N24 seed 20260627 reached 100000 timesteps from an interrupted checkpoint; N40 seed 20260627 reached 61440 timesteps. Training verdict: WARNING_V03_PPO_TRAINING_PARTIAL_REVIEW."
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_solver_completion_audit_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_solver_completion_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_odb_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_teacher_metrics.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_STAGER_ODB_TEACHER_METRIC_EXTRACTION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_odb_teacher_metric_extraction_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

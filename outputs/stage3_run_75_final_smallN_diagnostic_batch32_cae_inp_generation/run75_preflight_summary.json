@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS_RUN75_FINAL_SMALLN_DIAGNOSTIC_BATCH32_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_74_run73_final_smallN_diagnostic_batch32_handoff_package\\stage3_run74_final_smallN_diagnostic_batch32_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_74_run73_final_smallN_diagnostic_batch32_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run74_final_smallN_diagnostic_batch32_v01",
+  "row_count": 32,
+  "per_n_counts": {
+    "12": 14,
+    "16": 14,
+    "24": 2,
+    "40": 2
+  },
+  "selected_batch": "run73_final_smallN_diagnostic_batch32",
+  "batch_name": "stage3_run74_final_smallN_diagnostic_batch32_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_75_final_smallN_diagnostic_batch32_cae_inp_generation\\run75_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_75_final_smallN_diagnostic_batch32_cae_inp_generation\\run75_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_75_final_smallN_diagnostic_batch32_cae_inp_generation\\run75_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN75_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

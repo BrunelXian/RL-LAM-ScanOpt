@@ -1,0 +1,66 @@
+{
+  "run_id": "run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation",
+  "run_name": "run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation",
+  "timestamp": "2026-06-16T19:41:40.2526774+08:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_60_preflight_custom_N40_focused_batch40_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_60_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_60_generate_custom_N40_focused_batch40_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_60_check_custom_N40_focused_batch40_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_60_validate_custom_N40_focused_batch40_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_orders": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\stage3_run59_N40_focused_calibrated_penalty_repair_batch40_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\scan_orders",
+    "run59_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\RUN_59_RUN58_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_HANDOFF_PACKAGE_REPORT.md"
+  },
+  "output_files": {
+    "preflight_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_preflight_summary.json",
+    "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_future_cae_root_safety_audit.json",
+    "base_mesh_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_base_mesh_audit_summary.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_cae_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_cae_generation_manifest.json",
+    "generated_inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_generated_inp_check_summary.json",
+    "generated_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_claim_boundary.md",
+    "claim_boundary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_claim_boundary.json",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\RUN_60_CUSTOM_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_CAE_INP_GENERATION_REPORT.md"
+  },
+  "selected_batch": "custom_run58_N40_focused_calibrated_penalty_repair_batch40",
+  "batch_name": "stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+  "generated_case_count": 40,
+  "per_n_generated_counts": {
+    "N24": 16,
+    "N40": 24
+  },
+  "includes_N12": false,
+  "includes_N16": false,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "N40_focused": true,
+  "N24_maintenance": true,
+  "calibrated_penalty_repair": true,
+  "generated_CAE_count": 40,
+  "generated_INP_count": 40,
+  "generated_JNL_count": 40,
+  "generated_log_count": 40,
+  "inp_checker_verdict": "PASS_RUN60_CUSTOM_N40_FOCUSED_BATCH40_40_INPS_READY_FOR_USER_REVIEW",
+  "command_validation_verdict": "PASS_RUN60_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "final_cooling_controls": {
+    "timePeriod": 1200.0,
+    "initialInc": 0.01,
+    "maxInc": 60.0
+  },
+  "n40_cool_step_initialInc": 0.001,
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

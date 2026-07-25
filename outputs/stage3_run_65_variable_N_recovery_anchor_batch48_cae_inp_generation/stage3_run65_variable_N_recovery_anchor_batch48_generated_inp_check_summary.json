@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS_RUN65_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_48_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 48,
+  "pass_count": 48,
+  "per_n_pass_counts": {
+    "12": 12,
+    "16": 12,
+    "24": 8,
+    "40": 16
+  },
+  "total_cae_count": 48,
+  "total_inp_count": 48,
+  "solver_output_count": 0,
+  "forbidden_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\stage3_run65_variable_N_recovery_anchor_batch48_generated_inp_check.csv"
+}

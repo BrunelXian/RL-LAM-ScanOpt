@@ -1,0 +1,13 @@
+claim,evidence_status,evidence_table,safe_manuscript_wording,caveat
+PPO generated legal scan-order permutations.,supported,Stage T/V manifests and Stage W input integrity,320 PPO-generated cases have teacher metrics extracted; legality was audited before handoff.,
+PPO-generated candidates were independently teacher-metric extracted by Abaqus.,supported,Stage V metrics + Stage W final pool,Abaqus teacher metrics were extracted for 320 PPO candidates.,
+PPO pool reached 320 teacher-metric-extracted cases.,supported,ppo_final_pool_320_teacher_metrics.csv,The final PPO pool contains 320 teacher-metric-extracted cases.,
+PPO beats conventional simple baselines.,partially_supported,baseline-family comparison,PPO can be compared against identified baseline families where labels are reliable.,Do not overclaim if family labels are broad or sparse.
+PPO competes with stronger engineering/method baselines.,partially_supported,baseline-family comparison + top-k tables,PPO competitiveness is bounded by top-k/reference evidence.,Mature combined552 remains the high bar.
+PPO reaches top-k regions of combined552.,supported,top-k summary,PPO reaches combined552 top-k regions for 106 candidates under primary metrics/lex.,
+PPO beats combined552 best.,unsupported,new-record audit,PPO beats combined552 best only for primary new records if present.,No such claim if new-record table has zero primary rows.
+PPO produces new records.,unsupported,new-record audit,PPO produced new records only if listed in the audit.,
+PPO improves N24/N40 U2/lex over v01/v02K2.,partially_supported,final_expansion_vs_prior_ppo_by_N.csv,Version-to-version improvement should be stated by N and criterion only.,Budget differs across versions.
+PPO demonstrates industrial-efficiency optimisation.,unsupported,industrial proxy tables,Industrial-efficiency descriptors are proxy descriptors only.,No physical industrial-efficiency validation in Stage W.
+PPO is better than surrogate-assisted optimisation.,unsupported,combined552 comparison,PPO is compared against combined552; superiority requires new records or robust enrichment.,Do not claim superiority to the mature reference if unsupported.
+PPO defines a practical boundary of surrogate-trained policy-gradient generation.,supported,full evidence chain,The 320-case pool provides a large-scale teacher-metric evidence base for surrogate-trained PPO candidate generation.,Bootstrap interpretation: weak.

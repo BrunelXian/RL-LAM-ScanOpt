@@ -1,0 +1,22 @@
+# Run74 Claim Boundary
+
+## Safe claims
+- Run74 packages selected Run73 Option A final small-N diagnostic batch32 candidates for human review and future CAE generation.
+- The selected batch contains N12=14, N16=14, N24=2, and N40=2.
+- No N32 candidates are included.
+- The batch is designed as a final small-N diagnostic before Stage 3 evidence freeze.
+- Handoff files include scan orders, metadata, future CAE manifest template, and abqjobpilot command template.
+- No CAE/INP files were generated.
+
+## Unsafe claims
+- Do not claim candidates are teacher-validated.
+- Do not claim physical superiority.
+- Do not claim N32 caused improvement.
+- Do not claim GNN-RL has beaten baselines.
+- Do not claim online RL with Abaqus.
+- Do not claim arbitrary-N generalization.
+- Do not claim full variable-N maturity.
+- Do not claim surrogate/GNN/hybrid predictions are ground truth.
+- Do not claim abqjobpilot commands are ready to execute.
+- Do not claim CAE/INP files exist.
+- Do not claim batch32 will improve teacher metrics before validation.

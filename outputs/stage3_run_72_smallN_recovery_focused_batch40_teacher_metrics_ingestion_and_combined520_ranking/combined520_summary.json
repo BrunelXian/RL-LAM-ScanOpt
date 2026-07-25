@@ -1,0 +1,235 @@
+{
+  "rows": 520,
+  "per_N_counts": {
+    "12": 64,
+    "16": 64,
+    "24": 188,
+    "40": 204
+  },
+  "leaderboard": [
+    {
+      "n": 12,
+      "metric": "U2",
+      "strategy_name": "S3R69SNR_N12_B16_n12_uncertainty",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 2.20100214392005e-05
+    },
+    {
+      "n": 12,
+      "metric": "PEEQ",
+      "strategy_name": "N12_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "dataset_source": "probe60_run08",
+      "value": 0.1403219699859619
+    },
+    {
+      "n": 12,
+      "metric": "SurfaceT",
+      "strategy_name": "N12_A09_center_edge_alternating",
+      "dataset_source": "probe60_run08",
+      "value": 580752832.0
+    },
+    {
+      "n": 12,
+      "metric": "Mises",
+      "strategy_name": "N12_A06_edge_in_alternating",
+      "dataset_source": "probe60_run08",
+      "value": 579937984.0
+    },
+    {
+      "n": 12,
+      "metric": "target_reward_combined520_u2_primary",
+      "strategy_name": "S3R69SNR_N12_B16_n12_uncertainty",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.89484126984127
+    },
+    {
+      "n": 12,
+      "metric": "target_reward_combined520_constrained_u2_reward_balanced",
+      "strategy_name": "S3R69SNR_N12_B04_n12_diversity",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8476190476190476
+    },
+    {
+      "n": 12,
+      "metric": "target_reward_combined520_strict_penalty_guard",
+      "strategy_name": "S3R69SNR_N12_B04_n12_diversity",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8428571428571429
+    },
+    {
+      "n": 12,
+      "metric": "target_reward_combined520_penalty_repair",
+      "strategy_name": "S3R69SNR_N12_B04_n12_diversity",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8055555555555556
+    },
+    {
+      "n": 16,
+      "metric": "U2",
+      "strategy_name": "S3R69SNR_N16_B09_n16_recovery_top",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 3.467050373728853e-05
+    },
+    {
+      "n": 16,
+      "metric": "PEEQ",
+      "strategy_name": "S3R69SNR_N16_B16_n16_uncertainty",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.1472253948450088
+    },
+    {
+      "n": 16,
+      "metric": "SurfaceT",
+      "strategy_name": "S3R69SNR_N16_B08_n16_reward_bal",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 580893440.0
+    },
+    {
+      "n": 16,
+      "metric": "Mises",
+      "strategy_name": "N16_A07_regular_jump_coprime",
+      "dataset_source": "probe60_run08",
+      "value": 579946752.0
+    },
+    {
+      "n": 16,
+      "metric": "target_reward_combined520_u2_primary",
+      "strategy_name": "S3R69SNR_N16_B02_n16_run66_local",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.9107142857142858
+    },
+    {
+      "n": 16,
+      "metric": "target_reward_combined520_constrained_u2_reward_balanced",
+      "strategy_name": "S3R69SNR_N16_B02_n16_run66_local",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8968253968253967
+    },
+    {
+      "n": 16,
+      "metric": "target_reward_combined520_strict_penalty_guard",
+      "strategy_name": "S3R69SNR_N16_B02_n16_run66_local",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8928571428571428
+    },
+    {
+      "n": 16,
+      "metric": "target_reward_combined520_penalty_repair",
+      "strategy_name": "S3R69SNR_N16_B02_n16_run66_local",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8829365079365081
+    },
+    {
+      "n": 24,
+      "metric": "U2",
+      "strategy_name": "S3R49SCN_N24_B09_median_guard",
+      "dataset_source": "run51_stricter_constrained_N24_N40_batch32",
+      "value": 2.9523077955673216e-05
+    },
+    {
+      "n": 24,
+      "metric": "PEEQ",
+      "strategy_name": "S3R59N40PR40_N24_B09_n24_diversity",
+      "dataset_source": "run61_custom_N40_focused_batch40",
+      "value": 0.1492166519165039
+    },
+    {
+      "n": 24,
+      "metric": "SurfaceT",
+      "strategy_name": "S3R24L64_N24_B06_model_disagreement",
+      "dataset_source": "shortlist64_run27",
+      "value": 580875968.0
+    },
+    {
+      "n": 24,
+      "metric": "Mises",
+      "strategy_name": "N24_A06_edge_in_alternating",
+      "dataset_source": "probe60_run08",
+      "value": 579942784.0
+    },
+    {
+      "n": 24,
+      "metric": "target_reward_combined520_u2_primary",
+      "strategy_name": "S3R44CNS_N24_B16_uncertainty",
+      "dataset_source": "run46_constrained_N24_N40_batch32",
+      "value": 0.8704545454545456
+    },
+    {
+      "n": 24,
+      "metric": "target_reward_combined520_constrained_u2_reward_balanced",
+      "strategy_name": "S3R44CNS_N24_B16_uncertainty",
+      "dataset_source": "run46_constrained_N24_N40_batch32",
+      "value": 0.8542780748663101
+    },
+    {
+      "n": 24,
+      "metric": "target_reward_combined520_strict_penalty_guard",
+      "strategy_name": "S3R44CNS_N24_B16_uncertainty",
+      "dataset_source": "run46_constrained_N24_N40_batch32",
+      "value": 0.8489304812834224
+    },
+    {
+      "n": 24,
+      "metric": "target_reward_combined520_penalty_repair",
+      "strategy_name": "S3R69SNR_N24_B04_n24_uncertainty",
+      "dataset_source": "run71_smallN_recovery_focused_batch40",
+      "value": 0.8482620320855615
+    },
+    {
+      "n": 40,
+      "metric": "U2",
+      "strategy_name": "S3R64VNR_N40_B15_n40_u2ret_anchor",
+      "dataset_source": "run66_variable_N_recovery_anchor_batch48",
+      "value": 4.5779268475598656e-05
+    },
+    {
+      "n": 40,
+      "metric": "PEEQ",
+      "strategy_name": "S3R39N2440B60_N40_B10_surrogate_top",
+      "dataset_source": "run41_native_N24_N40_focused_batch60",
+      "value": 0.1440253555774688
+    },
+    {
+      "n": 40,
+      "metric": "SurfaceT",
+      "strategy_name": "S3R19B28_N40_B06_uncertainty_calibration",
+      "dataset_source": "batch28_run20",
+      "value": 581119040.0
+    },
+    {
+      "n": 40,
+      "metric": "Mises",
+      "strategy_name": "N40_A07_regular_jump_coprime",
+      "dataset_source": "probe60_run08",
+      "value": 579924032.0
+    },
+    {
+      "n": 40,
+      "metric": "target_reward_combined520_u2_primary",
+      "strategy_name": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "dataset_source": "run66_variable_N_recovery_anchor_batch48",
+      "value": 0.9399014778325122
+    },
+    {
+      "n": 40,
+      "metric": "target_reward_combined520_constrained_u2_reward_balanced",
+      "strategy_name": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "dataset_source": "run66_variable_N_recovery_anchor_batch48",
+      "value": 0.9100985221674878
+    },
+    {
+      "n": 40,
+      "metric": "target_reward_combined520_strict_penalty_guard",
+      "strategy_name": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "dataset_source": "run66_variable_N_recovery_anchor_batch48",
+      "value": 0.8990147783251231
+    },
+    {
+      "n": 40,
+      "metric": "target_reward_combined520_penalty_repair",
+      "strategy_name": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "dataset_source": "run66_variable_N_recovery_anchor_batch48",
+      "value": 0.8763546798029557
+    }
+  ]
+}

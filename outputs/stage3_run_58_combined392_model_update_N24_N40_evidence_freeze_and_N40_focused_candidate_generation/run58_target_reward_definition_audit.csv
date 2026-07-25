@@ -1,0 +1,14 @@
+target,definition,dataset
+target_reward_combined392_u2_primary,0.65 U2 + 0.20 PEEQ + 0.10 SurfaceT + 0.05 Mises,native_combined392
+target_reward_combined392_constrained_u2_reward_balanced,0.50 U2 + 0.25 PEEQ + 0.15 SurfaceT + 0.10 Mises,native_combined392
+target_reward_combined392_strict_penalty_guard,0.40 U2 + 0.30 PEEQ + 0.20 SurfaceT + 0.10 Mises,native_combined392
+target_reward_combined392_penalty_repair,0.30 U2 + 0.30 PEEQ + 0.25 SurfaceT + 0.15 Mises,native_combined392
+target_reward_combined392_N40_u2_reward_retention,N40 U2/reward-family retention with local penalty-repair emphasis,native_combined392
+target_reward_combined392_N40_penalty_repair,N40 penalty repair with 0.25 U2 + 0.30 PEEQ + 0.25 SurfaceT + 0.20 Mises,native_combined392
+target_reward_combined392_N24_maintenance,N24 maintenance target retaining the Run51 U2 signal while avoiding penalty collapse,native_combined392
+target_reward_combined392_two_stage_penalty_repair,top-35-percent U2 or strict-reward gate followed by 0.40 PEEQ + 0.35 SurfaceT + 0.25 Mises penalty ranking,native_combined392
+target_reward_combined392_two_stage_guarded,top-25-percent U2 gate followed by weighted PEEQ/SurfaceT/Mises penalty ranking,native_combined392
+target_reward_combined392_no_penalty_worse_than_median,"top-35-percent U2 gate with median guards for PEEQ, SurfaceT, and Mises",native_combined392
+target_reward_combined392_u2_guarded,U2-primary score with penalties for below-median and bottom-quartile PEEQ/SurfaceT/Mises scores within N,native_combined392
+target_reward_combined392_plus_N32_mapped_u2_primary,mapped U2-primary target with N32 semantic warnings preserved,combined392_plus_N32
+target_reward_combined392_plus_N32_strict_u2_surfaceT,strict U2 + SurfaceT target for safer N32 metric semantics,combined392_plus_N32

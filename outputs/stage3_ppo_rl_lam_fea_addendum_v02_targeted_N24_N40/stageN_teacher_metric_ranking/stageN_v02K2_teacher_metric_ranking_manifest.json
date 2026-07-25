@@ -1,0 +1,50 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-28T08:06:29.966903+00:00",
+  "Stage M metrics input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_teacher_metrics.csv",
+  "combined552 reference input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+  "v01 metrics input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metrics.csv",
+  "v01 ranking input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv",
+  "K2 selected batch input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\v02K2_ppo_targeted_N24_N40_candidate_batch32.csv",
+  "analysis_dataset_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\combined552_N24N40_plus_v02K2_analysis_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\combined552_N24N40_plus_v01_plus_v02K2_analysis_dataset.csv"
+  ],
+  "ranking_table_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_teacher_metric_ranking_full.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_new_record_candidates.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_topk_competitive_candidates.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_best_candidates_by_N.csv"
+  ],
+  "summary_table_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_summary_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_global_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_topk_summary_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_vs_v01_targeted_comparison_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_vs_bootstrap_random_reference_by_N.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_vs_bootstrap_random_reference_global.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_surrogate_vs_teacher_alignment_summary.json"
+  ],
+  "plot_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_vs_combined552_u2_range_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_vs_combined552_peeq_max_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_vs_combined552_surface_t_proxy_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_vs_combined552_mises_max_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_lex_rank_percentile_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_vs_v01_best_lex_rank.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_vs_bootstrap_random_reference_topk_count.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\plots\\v02K2_surrogate_reward_vs_teacher_reward.png"
+  ],
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEN_TEACHER_METRIC_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEN_CLAIM_BOUNDARY.md",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_STAGEN_V02K2_TEACHER_VALIDATED_AND_IMPROVES_V01_TARGETED"
+}

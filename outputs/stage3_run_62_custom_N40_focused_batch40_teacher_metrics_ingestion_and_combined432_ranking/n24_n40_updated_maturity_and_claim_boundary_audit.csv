@@ -1,0 +1,6 @@
+n,native_teacher_rows,status,legacy_teacher_rows
+12,36,under_sampled_anchor,
+16,36,under_sampled_anchor,
+24,176,mature_N24_maintenance_evidence,
+32,0,legacy_compatible_auxiliary_only,332.0
+40,184,mature_N40_active_improvement_direction,

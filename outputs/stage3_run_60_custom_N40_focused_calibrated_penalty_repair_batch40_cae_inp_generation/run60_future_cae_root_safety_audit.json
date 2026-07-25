@@ -1,0 +1,18 @@
+{
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+  "case_root_exists": false,
+  "counts": {
+    ".cae": 0,
+    ".inp": 0,
+    ".jnl": 0,
+    ".odb": 0,
+    ".sim": 0,
+    ".sta": 0,
+    ".dat": 0,
+    ".msg": 0,
+    ".lck": 0
+  },
+  "existing_solver_files": [],
+  "existing_model_files": [],
+  "verdict": "PASS_RUN60_FUTURE_CAE_ROOT_SAFE"
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "run_70",
+  "run_name": "run_70_smallN_recovery_focused_batch40_cae_inp_generation",
+  "selected_batch": "run68_smallN_recovery_focused_batch40",
+  "batch_name": "stage3_run69_smallN_recovery_focused_batch40_v01",
+  "safe_claims": [
+    "Run70 generated CAE/INP/JNL handoff files for the selected Run69 small-N recovery-focused batch40 only.",
+    "Generated files correspond to N12=16, N16=16, N24=4, and N40=4.",
+    "No N32 cases were generated.",
+    "Generated INPs passed text mesh-section, step-sequence, heat-load, final-cooling, and solver-output absence checks.",
+    "Generated N40 INPs were verified with step_cool_XX initialInc=0.001.",
+    "A validated custom abqjobpilot command file was created for user-controlled submission.",
+    "No solver job was submitted by Codex."
+  ],
+  "unsafe_claims_not_made": [
+    "teacher validation",
+    "physical improvement",
+    "solver completion",
+    "ODB results",
+    "RL or GNN superiority",
+    "arbitrary-N generalization",
+    "abqjobpilot execution"
+  ],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true
+}

@@ -1,0 +1,45 @@
+{
+  "verdict": "PASS_STAGEE_PPO_BATCH32_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER",
+  "checked_count": 32,
+  "pass_count": 32,
+  "per_n_pass_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "generated_cae_count_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "generated_inp_count_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "total_cae_count": 32,
+  "total_inp_count": 32,
+  "solver_output_count": 0,
+  "final_cooling_controls_verified": true,
+  "output_fields_U_PEEQ_S_NT11_verified": true,
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\commands\\stageE_ppo_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "command_file_checks": {
+    "command_count": 32,
+    "all_start_enqueue_inp": true,
+    "all_include_cpus_14": true,
+    "none_include_gpus": true,
+    "all_inps_exist": true,
+    "commands_executed": false
+  },
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\checks\\stageE_ppo_batch32_generated_inp_check.csv",
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_ODB": true,
+  "no_abqjobpilot_execution": true,
+  "no_enqueue_execution": true,
+  "no_teacher_validation": true
+}

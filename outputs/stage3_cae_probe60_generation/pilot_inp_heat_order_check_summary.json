@@ -1,0 +1,11 @@
+{
+  "verdict": "PASS_PILOT_INP_HEAT_ORDER_TEXT_CHECK",
+  "pilot_inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.inp",
+  "pilot_scan_order_json": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\scan_order_N12_A01_raster_left_to_right.json",
+  "n": 12,
+  "file_exists": true,
+  "file_size": 45989,
+  "warnings": [],
+  "failures": [],
+  "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\pilot_inp_heat_order_check.csv"
+}

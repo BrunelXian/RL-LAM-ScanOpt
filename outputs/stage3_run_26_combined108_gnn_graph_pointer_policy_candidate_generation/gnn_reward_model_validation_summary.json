@@ -1,0 +1,17 @@
+{
+  "status": "GNN_REWARD_MODEL_TRAINED",
+  "model": "plain PyTorch line-graph message passing reward model",
+  "leave_N_out_macro_spearman": 0.816510227523396,
+  "leave_N_out_macro_top5_overlap": 2.0,
+  "n40_result": {
+    "protocol": "leave_N_out",
+    "test_n": 40,
+    "test_count": 30,
+    "spearman": 0.8477632711708692,
+    "mae": 0.12509402835848688,
+    "rmse": 0.14236957391815425,
+    "top5_overlap": 2
+  },
+  "underperforms_run22_extra_trees_macro_spearman": true,
+  "note": "Small offline prototype; not a final surrogate."
+}

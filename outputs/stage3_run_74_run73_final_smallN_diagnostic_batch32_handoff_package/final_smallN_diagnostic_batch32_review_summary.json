@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-06-17T17:13:59.924811+00:00",
+  "headline": "Run74 packages the recommended final small-N diagnostic before Stage 3 evidence freeze: N12/N16 are the focus while N24/N40 are retained only as minimal mature anchors.",
+  "total_count": 32,
+  "per_N_counts": {
+    "12": 14,
+    "16": 14,
+    "24": 2,
+    "40": 2
+  },
+  "includes_N12": true,
+  "includes_N16": true,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "candidate_source_composition": {
+    "N12_final_diag_surrogate_top": 4,
+    "N16_final_diag_surrogate_top": 4,
+    "N12_local_search_around_Run71_best": 3,
+    "N12_final_diag_u2_safe": 3,
+    "N16_local_search_around_Run71_best": 3,
+    "N16_final_diag_u2_safe": 3,
+    "N12_final_diag_penalty_aware": 2,
+    "N12_final_diag_reward_balanced": 2,
+    "N16_final_diag_reward_balanced": 2,
+    "N16_final_diag_penalty_aware": 2,
+    "N24_anchor_top_density_reference": 2,
+    "N40_anchor_u2_reward_reference": 2
+  },
+  "selection_bucket_composition": {
+    "N12_final_diag_surrogate_top": 4,
+    "N16_final_diag_surrogate_top": 4,
+    "N12_local_search_around_Run71_best": 3,
+    "N12_final_diag_u2_safe": 3,
+    "N16_local_search_around_Run71_best": 3,
+    "N16_final_diag_u2_safe": 3,
+    "N12_final_diag_penalty_aware": 2,
+    "N12_final_diag_reward_balanced": 2,
+    "N16_final_diag_reward_balanced": 2,
+    "N16_final_diag_penalty_aware": 2,
+    "N24_anchor_top_density_reference": 2,
+    "N40_anchor_u2_reward_reference": 2
+  },
+  "mean_surrogate_prediction_per_N": {
+    "12": 0.7798639455782312,
+    "16": 0.8306613756613757,
+    "24": 0.40997177139037433,
+    "40": 0.5459219519704434
+  },
+  "mean_N12_final_diagnostic_prediction_per_N": {
+    "12": 0.7790835884353742,
+    "16": 0.8289913983371127,
+    "24": 0.4053885955869717,
+    "40": 0.5476431879993717
+  },
+  "mean_N16_final_diagnostic_prediction_per_N": {
+    "12": 0.7790835884353742,
+    "16": 0.8289913983371127,
+    "24": 0.4053885955869717,
+    "40": 0.5476431879993717
+  },
+  "mean_smallN_final_diagnostic_prediction_per_N": {
+    "12": 0.7790835884353743,
+    "16": 0.8289913983371127,
+    "24": 0.4039427307476522,
+    "40": 0.5472989407935861
+  },
+  "mean_variable_N_bounded_prediction_per_N": {
+    "12": 0.7790835884353743,
+    "16": 0.8289913983371127,
+    "24": 0.4039427307476522,
+    "40": 0.5472989407935861
+  },
+  "mean_N24_anchor_prediction_per_N": {
+    "12": 0.7791355364873223,
+    "16": 0.8290571523053665,
+    "24": 0.4072957695000151,
+    "40": 0.5474867119967419
+  },
+  "mean_N40_anchor_prediction_per_N": {
+    "12": 0.779169093305504,
+    "16": 0.8292861934051398,
+    "24": 0.3394265833365344,
+    "40": 0.5469077507870115
+  },
+  "mean_u2_primary_prediction_per_N": {
+    "12": 0.7788249845392702,
+    "16": 0.8280962962962962,
+    "24": 0.4098205426569149,
+    "40": 0.5490514720230404
+  },
+  "mean_constrained_reward_prediction_per_N": {
+    "12": 0.7790921389223872,
+    "16": 0.8275208778439154,
+    "24": 0.3933248754583363,
+    "40": 0.5338118073287604
+  },
+  "mean_strict_penalty_guard_prediction_per_N": {
+    "12": 0.7791697897340756,
+    "16": 0.8292480990173846,
+    "24": 0.4031612798969906,
+    "40": 0.5471737599914821
+  },
+  "mean_penalty_repair_prediction_per_N": {
+    "12": 0.7792040429808287,
+    "16": 0.8295015457294027,
+    "24": 0.40317640277033645,
+    "40": 0.5468608079862225
+  },
+  "mean_gnn_reward_prediction_per_N": {
+    "12": 0.7507473098330241,
+    "16": 0.7987682539682538,
+    "24": 0.3953120309695419,
+    "40": 0.5256235354300871
+  },
+  "mean_hybrid_score_per_N": {
+    "12": 0.7794129715522572,
+    "16": 0.829760729402872,
+    "24": 0.4076764027703365,
+    "40": 0.5468608079862225
+  },
+  "mean_disagreement_per_N": {
+    "12": 0.029116635745207117,
+    "16": 0.0318931216931217,
+    "24": 0.0146597404208323,
+    "40": 0.0202984165403562
+  },
+  "mean_novelty_distance_per_N": {
+    "12": 0.23809523809523805,
+    "16": 0.22767857142857142,
+    "24": 0.16666666666666666,
+    "40": 0.05
+  },
+  "expected_abaqus_cost": {
+    "total_jobs": 32,
+    "N12": 14,
+    "N16": 14,
+    "N24": 2,
+    "N40": 2
+  },
+  "exact_overlap_status": {
+    "combined520": 0,
+    "run71": 0,
+    "run66": 0,
+    "run61": 0,
+    "run56": 0,
+    "run51": 0,
+    "run46": 0,
+    "run41": 0,
+    "run36": 0,
+    "run27": 0,
+    "superseded_run31": 0
+  },
+  "not_teacher_validated_until_future_abaqus_validation": true,
+  "run74_created_cae_inp_files": false
+}

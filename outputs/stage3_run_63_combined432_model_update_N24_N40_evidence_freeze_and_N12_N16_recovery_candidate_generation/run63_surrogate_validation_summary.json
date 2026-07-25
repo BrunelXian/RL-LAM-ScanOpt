@@ -1,0 +1,99 @@
+{
+  "best_overall": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_constrained_u2_reward_balanced",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8075271720802665,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 5.25,
+    "mean_mae": 0.10117582428894487,
+    "protocols": 4
+  },
+  "best_native": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_constrained_u2_reward_balanced",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.8075271720802665,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 5.25,
+    "mean_mae": 0.10117582428894487,
+    "protocols": 4
+  },
+  "best_plus_N32": {
+    "regime": "plus_N32_balanced",
+    "target": "target_reward_combined432_plus_N32_mapped_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model": "GradientBoostingRegressor",
+    "macro_spearman": 0.7689994531218576,
+    "macro_top5_overlap": 0.8,
+    "macro_top10_overlap": 3.2,
+    "mean_mae": 0.1306527718547829,
+    "protocols": 5
+  },
+  "best_N12_recovery": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_N12_recovery",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7594623814283538,
+    "macro_top5_overlap": 0.75,
+    "macro_top10_overlap": 3.75,
+    "mean_mae": 0.0992512448413739,
+    "protocols": 4
+  },
+  "best_N16_recovery": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_N16_recovery",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7849932484065073,
+    "macro_top5_overlap": 1.0,
+    "macro_top10_overlap": 5.0,
+    "mean_mae": 0.10126613852954561,
+    "protocols": 4
+  },
+  "best_variable_N_recovery": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_variable_N_recovery",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7575300751456656,
+    "macro_top5_overlap": 1.5,
+    "macro_top10_overlap": 4.25,
+    "mean_mae": 0.09955955611952681,
+    "protocols": 4
+  },
+  "best_N40_followup": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_N40_followup",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7077262315621274,
+    "macro_top5_overlap": 1.0,
+    "macro_top10_overlap": 3.25,
+    "mean_mae": 0.11148453981392212,
+    "protocols": 4
+  },
+  "best_N40_u2_reward_retention": {},
+  "best_N40_penalty_repair": {},
+  "best_N24_maintenance": {},
+  "best_penalty_repair": {
+    "regime": "native_combined432",
+    "target": "target_reward_combined432_penalty_repair",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.6659653935362955,
+    "macro_top5_overlap": 1.0,
+    "macro_top10_overlap": 3.25,
+    "mean_mae": 0.10229778973232964,
+    "protocols": 4
+  },
+  "n32_augmented_better_than_native": false,
+  "run58_reference": {
+    "best_N40_u2_reward_retention_spearman": 0.694,
+    "best_N40_penalty_repair_spearman": 0.5786,
+    "best_N24_maintenance_spearman": 0.7212
+  }
+}

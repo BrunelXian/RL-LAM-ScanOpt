@@ -1,0 +1,7 @@
+{
+  "batch_option": "stop_and_freeze_evidence_package_only",
+  "candidate_batch_created": false,
+  "purpose": "Stop validation loops and prepare the Stage 3 final evidence package if the user decides combined520 evidence is sufficient.",
+  "counts": {},
+  "notes": "Option C is metadata only; no candidate orders are selected in Run73 for this option."
+}

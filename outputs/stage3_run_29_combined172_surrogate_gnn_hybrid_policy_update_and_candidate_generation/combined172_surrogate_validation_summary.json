@@ -1,0 +1,27 @@
+{
+  "status": "SURROGATE_VALIDATION_COMPLETE",
+  "best_config": {
+    "target": "target_reward_combined172_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model_name": "ExtraTreesRegressor",
+    "protocol": "leave_N_out",
+    "macro_spearman": 0.8451076789185723,
+    "macro_top5_overlap": 2.0,
+    "macro_top10_overlap": 6.0,
+    "macro_mae": 0.09250616011426938,
+    "macro_mean_rank_error": 5.1186342592592595
+  },
+  "best_top5_config": {
+    "target": "target_reward_combined172_u2_primary",
+    "feature_set": "F07_F01_no_n",
+    "model_name": "ExtraTreesRegressor",
+    "protocol": "leave_N_out",
+    "macro_spearman": 0.8451076789185723,
+    "macro_top5_overlap": 2.0,
+    "macro_top10_overlap": 6.0,
+    "macro_mae": 0.09250616011426938,
+    "macro_mean_rank_error": 5.1186342592592595
+  },
+  "improves_run22_macro_spearman": false,
+  "top5_vs_run22": -0.5
+}

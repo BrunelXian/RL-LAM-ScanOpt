@@ -1,0 +1,216 @@
+{
+  "headline": "Run68/Run69 prediction calibration was evaluated on realized Run71 variable-N labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+  "overall_reward_spearman": 0.33477244418029467,
+  "overall_penalty_repair_spearman": 0.34292152652139085,
+  "mean_top5_overlap": 0.4444444444444444,
+  "top1_hits": 1,
+  "by_candidate_source": {
+    "N12_local_search_around_Run66_best": {
+      "count": 3,
+      "mean_abs_error": 0.04458844001226173,
+      "mean_realized_reward": 0.737037037037037
+    },
+    "N12_recovery_diversity": {
+      "count": 1,
+      "mean_abs_error": 0.12732966879509033,
+      "mean_realized_reward": 0.8873015873015874
+    },
+    "N12_recovery_penalty_aware": {
+      "count": 2,
+      "mean_abs_error": 0.08837173236493867,
+      "mean_realized_reward": 0.6968253968253968
+    },
+    "N12_recovery_reward_balanced": {
+      "count": 2,
+      "mean_abs_error": 0.19973734057584,
+      "mean_realized_reward": 0.5196428571428572
+    },
+    "N12_recovery_surrogate_top": {
+      "count": 4,
+      "mean_abs_error": 0.05392209480238461,
+      "mean_realized_reward": 0.7165674603174602
+    },
+    "N12_recovery_u2_safe": {
+      "count": 3,
+      "mean_abs_error": 0.1399393141689038,
+      "mean_realized_reward": 0.6063492063492063
+    },
+    "N12_recovery_uncertainty": {
+      "count": 1,
+      "mean_abs_error": 0.1426670944378715,
+      "mean_realized_reward": 0.89484126984127
+    },
+    "N16_local_search_around_Run66_best": {
+      "count": 3,
+      "mean_abs_error": 0.07420142420987064,
+      "mean_realized_reward": 0.8501322751322752
+    },
+    "N16_recovery_diversity": {
+      "count": 1,
+      "mean_abs_error": 0.013337989491808866,
+      "mean_realized_reward": 0.8376984126984127
+    },
+    "N16_recovery_penalty_aware": {
+      "count": 2,
+      "mean_abs_error": 0.1377437689969605,
+      "mean_realized_reward": 0.7603174603174603
+    },
+    "N16_recovery_reward_balanced": {
+      "count": 2,
+      "mean_abs_error": 0.21554856467409655,
+      "mean_realized_reward": 0.6851190476190476
+    },
+    "N16_recovery_surrogate_top": {
+      "count": 4,
+      "mean_abs_error": 0.08604126678648225,
+      "mean_realized_reward": 0.6918650793650793
+    },
+    "N16_recovery_u2_safe": {
+      "count": 3,
+      "mean_abs_error": 0.13013211752786233,
+      "mean_realized_reward": 0.7230158730158731
+    },
+    "N16_recovery_uncertainty": {
+      "count": 1,
+      "mean_abs_error": 0.1285230665315772,
+      "mean_realized_reward": 0.7968253968253968
+    },
+    "N24_frozen_top_density_reference": {
+      "count": 2,
+      "mean_abs_error": 0.058684788275264466,
+      "mean_realized_reward": 0.7090909090909091
+    },
+    "N24_uncertainty_anchor": {
+      "count": 2,
+      "mean_abs_error": 0.052807486631015976,
+      "mean_realized_reward": 0.732620320855615
+    },
+    "N40_frozen_u2_reward_reference": {
+      "count": 2,
+      "mean_abs_error": 0.1523399014778325,
+      "mean_realized_reward": 0.7605911330049261
+    },
+    "N40_sentinel_control": {
+      "count": 1,
+      "mean_abs_error": 0.07772852375232558,
+      "mean_realized_reward": 0.07118226600985222
+    },
+    "N40_uncertainty_anchor": {
+      "count": 1,
+      "mean_abs_error": 0.19233676316470943,
+      "mean_realized_reward": 0.4543103448275862
+    }
+  },
+  "by_selection_bucket": {
+    "N12_local_search_around_Run66_best": {
+      "count": 3,
+      "mean_abs_error": 0.04458844001226173,
+      "mean_realized_reward": 0.737037037037037
+    },
+    "N12_recovery_diversity": {
+      "count": 1,
+      "mean_abs_error": 0.12732966879509033,
+      "mean_realized_reward": 0.8873015873015874
+    },
+    "N12_recovery_penalty_aware": {
+      "count": 2,
+      "mean_abs_error": 0.08837173236493867,
+      "mean_realized_reward": 0.6968253968253968
+    },
+    "N12_recovery_reward_balanced": {
+      "count": 2,
+      "mean_abs_error": 0.19973734057584,
+      "mean_realized_reward": 0.5196428571428572
+    },
+    "N12_recovery_surrogate_top": {
+      "count": 4,
+      "mean_abs_error": 0.05392209480238461,
+      "mean_realized_reward": 0.7165674603174602
+    },
+    "N12_recovery_u2_safe": {
+      "count": 3,
+      "mean_abs_error": 0.1399393141689038,
+      "mean_realized_reward": 0.6063492063492063
+    },
+    "N12_recovery_uncertainty": {
+      "count": 1,
+      "mean_abs_error": 0.1426670944378715,
+      "mean_realized_reward": 0.89484126984127
+    },
+    "N16_local_search_around_Run66_best": {
+      "count": 3,
+      "mean_abs_error": 0.07420142420987064,
+      "mean_realized_reward": 0.8501322751322752
+    },
+    "N16_recovery_diversity": {
+      "count": 1,
+      "mean_abs_error": 0.013337989491808866,
+      "mean_realized_reward": 0.8376984126984127
+    },
+    "N16_recovery_penalty_aware": {
+      "count": 2,
+      "mean_abs_error": 0.1377437689969605,
+      "mean_realized_reward": 0.7603174603174603
+    },
+    "N16_recovery_reward_balanced": {
+      "count": 2,
+      "mean_abs_error": 0.21554856467409655,
+      "mean_realized_reward": 0.6851190476190476
+    },
+    "N16_recovery_surrogate_top": {
+      "count": 4,
+      "mean_abs_error": 0.08604126678648225,
+      "mean_realized_reward": 0.6918650793650793
+    },
+    "N16_recovery_u2_safe": {
+      "count": 3,
+      "mean_abs_error": 0.13013211752786233,
+      "mean_realized_reward": 0.7230158730158731
+    },
+    "N16_recovery_uncertainty": {
+      "count": 1,
+      "mean_abs_error": 0.1285230665315772,
+      "mean_realized_reward": 0.7968253968253968
+    },
+    "N24_frozen_top_density_reference": {
+      "count": 2,
+      "mean_abs_error": 0.058684788275264466,
+      "mean_realized_reward": 0.7090909090909091
+    },
+    "N24_uncertainty_anchor": {
+      "count": 2,
+      "mean_abs_error": 0.052807486631015976,
+      "mean_realized_reward": 0.732620320855615
+    },
+    "N40_frozen_u2_reward_reference": {
+      "count": 2,
+      "mean_abs_error": 0.1523399014778325,
+      "mean_realized_reward": 0.7605911330049261
+    },
+    "N40_sentinel_control": {
+      "count": 1,
+      "mean_abs_error": 0.07772852375232558,
+      "mean_realized_reward": 0.07118226600985222
+    },
+    "N40_uncertainty_anchor": {
+      "count": 1,
+      "mean_abs_error": 0.19233676316470943,
+      "mean_realized_reward": 0.4543103448275862
+    }
+  },
+  "disagreement_vs_abs_error_spearman": 0.297554849582433,
+  "uncertainty_vs_abs_error_spearman": 0.0150093808630394,
+  "novelty_vs_realized_reward_spearman": -0.2455179689579943,
+  "by_generation_method": {
+    "existing_pool_selection": {
+      "count": 8,
+      "mean_abs_error": 0.06998168079443343,
+      "mean_realized_reward": 0.7042162698412698
+    },
+    "offline_mutation_or_pointer_proxy": {
+      "count": 32,
+      "mean_abs_error": 0.11434294249756174,
+      "mean_realized_reward": 0.7006305219318658
+    }
+  }
+}

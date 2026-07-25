@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS_STAGEN_V02K2_INPUTS_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "stageM_rows": 32,
+  "stageM_counts_by_N": {
+    "24": 16,
+    "40": 16
+  },
+  "combined552_N24_N40_counts": {
+    "24": 190,
+    "40": 206
+  },
+  "v01_N24_N40_counts": {
+    "24": 8,
+    "40": 8
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true
+}

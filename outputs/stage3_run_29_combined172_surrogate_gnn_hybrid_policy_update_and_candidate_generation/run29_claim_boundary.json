@@ -1,0 +1,18 @@
+{
+  "verdict": "RUN29_MODEL_UPDATE_AND_HYBRID_CANDIDATE_GENERATION_ONLY_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "Run29 updates surrogate and offline GNN/graph-pointer models using combined172.",
+    "Run29 evaluates whether GNN improves relative to Run26 after adding Run27 teacher labels.",
+    "Run29 generates future hybrid-policy candidate batches for teacher validation.",
+    "Run29 candidates are selected using GNN policy, surrogate critic, disagreement, novelty, uncertainty, and active-learning criteria."
+  ],
+  "unsafe_claims": [
+    "Run29 candidates are teacher-validated.",
+    "GNN-RL has beaten baselines.",
+    "online Abaqus-RL.",
+    "arbitrary-N generalization.",
+    "physical superiority.",
+    "deployment readiness.",
+    "feature importance or model scores are causal."
+  ]
+}

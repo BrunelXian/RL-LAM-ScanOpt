@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-06-29T08:00:51",
+  "rollout_pool_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\rollout_pools\\ppo_final_expansion_rollout_pool.csv",
+  "total_rows": 5435,
+  "total_unique_order_hashes": 5435,
+  "summary_by_N": {
+    "12": {
+      "rows": 80,
+      "unique_order_hashes": 80,
+      "sources": {
+        "fresh_v01_checkpoint_inference_lowN_topup": 60,
+        "existing_v01_rollout_pool": 20
+      },
+      "unique_after_default_duplicate_reject": 71
+    },
+    "16": {
+      "rows": 120,
+      "unique_order_hashes": 120,
+      "sources": {
+        "existing_v01_rollout_pool": 62,
+        "fresh_v01_checkpoint_inference_lowN_topup": 58
+      },
+      "unique_after_default_duplicate_reject": 112
+    },
+    "24": {
+      "rows": 1050,
+      "unique_order_hashes": 1050,
+      "sources": {
+        "existing_v01_rollout_pool": 499,
+        "existing_v02_rollout_pool": 430,
+        "existing_v03_rollout_pool": 121
+      },
+      "unique_after_default_duplicate_reject": 1010
+    },
+    "40": {
+      "rows": 4185,
+      "unique_order_hashes": 4185,
+      "sources": {
+        "existing_v02K2_rollout_pool": 2998,
+        "existing_v01_rollout_pool": 513,
+        "existing_v02_rollout_pool": 513,
+        "existing_v03_rollout_pool": 161
+      },
+      "unique_after_default_duplicate_reject": 4145
+    }
+  },
+  "target_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_CAE_INP_JNL": true,
+  "no_training": true
+}

@@ -1,0 +1,3 @@
+stage,native_rows,N12,N16,N24,N40,interpretation
+combined480_before_Run71,480,48,48,184,200,small-N recovery was primary; N24/N40 were mature anchors
+Run71_smallN_recovery_focused_batch40,520,64,64,188,204,small-N evidence strengthened again; one final small-N diagnostic loop is reasonable before evidence freeze

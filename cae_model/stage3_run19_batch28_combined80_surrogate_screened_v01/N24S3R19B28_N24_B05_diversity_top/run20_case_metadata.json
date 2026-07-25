@@ -1,0 +1,19 @@
+{
+  "run_id": "run_20_batch28_cae_inp_generation",
+  "batch_name": "stage3_run19_batch28_combined80_surrogate_screened_v01",
+  "n": 24,
+  "handoff_strategy_name": "S3R19B28_N24_B05_diversity_top",
+  "original_run18_candidate_id": "R18_N24_C01735",
+  "candidate_family": "known_best_mutation",
+  "candidate_source": "combined80_known_best_mutation",
+  "selection_bucket": "diversity_top",
+  "priority_role": "diversity",
+  "predicted_reward_combined80_u2_primary": "0.6030267515360568",
+  "predicted_rank_within_n": "695",
+  "predicted_uncertainty_std": "0.22695743052164807",
+  "novelty_distance_to_combined80": "0.47101449275362317",
+  "nearest_existing_teacher_strategy": "N24_A13_graph_pointer_policy_anti_odd_even_novelty",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

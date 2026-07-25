@@ -1,0 +1,23 @@
+{
+  "verdict": "RUN32A_N32_LEGACY_INGESTION_ONLY_WITH_METRIC_SEMANTIC_WARNINGS",
+  "safe_claims": [
+    "Run32A ingests audited Stage 2 N32 legacy teacher labels into a Stage 3-compatible schema.",
+    "Run32A creates a deduplicated N32 training table with one row per unique order_hash.",
+    "Run32A creates combined172_plus_N32 datasets with N32 as an additional N group.",
+    "N32 provides a large intermediate-N teacher-labelled group for future surrogate/GNN/graph-pointer training.",
+    "N32 compatibility has metric-semantics warnings.",
+    "Rows with missing mapped Mises proxy values are explicitly flagged and use a conservative rank/reward compatibility fill."
+  ],
+  "unsafe_claims": [
+    "N32 data is native Stage 3 teacher validation.",
+    "peeq_guard is exactly Stage 3 peeq_max.",
+    "mises_P95_top_band is exactly global Stage 3 mises_max.",
+    "conservative Mises fill values are literal teacher measurements.",
+    "no compatibility limitations.",
+    "model improvement.",
+    "GNN-RL superiority.",
+    "arbitrary-N generalization.",
+    "online RL.",
+    "any new Abaqus/ODB extraction was performed."
+  ]
+}

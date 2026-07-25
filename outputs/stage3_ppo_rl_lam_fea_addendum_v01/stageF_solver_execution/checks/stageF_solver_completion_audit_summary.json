@@ -1,0 +1,33 @@
+{
+  "verdict": "WARNING_STAGEF_PPO_BATCH32_SOLVER_RUNNING_OR_PARTIAL",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_policy_only_batch32_v01",
+  "command_count": 32,
+  "status_counts": {
+    "NOT_STARTED_OR_QUEUED": 32
+  },
+  "completed_total": 0,
+  "completed_by_n": {
+    "12": 0,
+    "16": 0,
+    "24": 0,
+    "40": 0
+  },
+  "odb_total": 0,
+  "odb_by_n": {
+    "12": 0,
+    "16": 0,
+    "24": 0,
+    "40": 0
+  },
+  "active_lck_total": 0,
+  "active_lck_by_n": {
+    "12": 0,
+    "16": 0,
+    "24": 0,
+    "40": 0
+  },
+  "failure_count": 0,
+  "failure_rows": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_solver_completion_audit.csv",
+  "odb_opened": false
+}

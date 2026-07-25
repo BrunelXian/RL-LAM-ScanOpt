@@ -1,0 +1,41 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-24T01:26:46.262107+00:00",
+  "stageG_metrics_input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageG_odb_teacher_metrics\\tables\\stageG_ppo_batch32_teacher_metrics.csv",
+  "combined552_reference_input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+  "stageD_selected_batch_input": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\ppo_policy_only_candidate_batch32.csv",
+  "input_integrity_verdict": "PASS_STAGEH_INPUTS_READY",
+  "analysis_dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\combined552_plus_ppo32_analysis_dataset.csv",
+  "ranking_table_paths": {
+    "ppo_full_ranking": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_batch32_teacher_metric_ranking_full.csv",
+    "ppo_summary_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_batch32_summary_by_N.csv",
+    "ppo_global_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_batch32_global_summary.csv",
+    "ppo_new_records": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_batch32_new_record_candidates.csv",
+    "ppo_topk": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_batch32_topk_candidates.csv",
+    "surrogate_alignment": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_surrogate_vs_teacher_alignment.csv",
+    "recovery_anchor_duplicate_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_recovery_anchor_duplicate_audit.csv"
+  },
+  "summary_paths": {
+    "input_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\checks\\stageH_input_integrity_audit_summary.json",
+    "surrogate_alignment_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_surrogate_vs_teacher_alignment_summary.json"
+  },
+  "plot_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\ppo_vs_combined552_u2_distribution_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\ppo_vs_combined552_peeq_distribution_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\ppo_vs_combined552_surfaceT_distribution_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\ppo_vs_combined552_mises_distribution_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\ppo_lexicographic_rank_percentile_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\surrogate_predicted_reward_vs_teacher_reward.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\plots\\ppo_candidate_topk_status_summary.png"
+  ],
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEH_TEACHER_METRIC_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEH_CLAIM_BOUNDARY.md",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_candidate_generation": true,
+  "no_training": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_STAGEH_PPO_BATCH32_TEACHER_VALIDATED_AND_COMPETITIVE"
+}

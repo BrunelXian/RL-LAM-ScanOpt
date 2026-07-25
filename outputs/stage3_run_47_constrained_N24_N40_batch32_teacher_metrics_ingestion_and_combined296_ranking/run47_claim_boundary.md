@@ -1,0 +1,19 @@
+# Run47 Claim Boundary
+
+## Safe claims
+
+- Run47 ingests 32/32 teacher-validated Run46 constrained N24/N40 batch32 cases.
+- Run47 builds native combined296 with N12=36, N16=36, N24=112, N40=112.
+- Run47 builds combined296_plus_N32 with N12=36, N16=36, N24=112, N32=332, N40=112.
+- Run47 evaluates whether constrained reward-balanced candidate selection improved native Stage 3 teacher metrics.
+- Run46 is teacher validation of native N24/N40 candidates, not N32 cases.
+
+## Unsafe claims
+
+- Do not claim N32 itself was newly teacher-validated in Run46.
+- Do not claim N32 caused Run46 improvements.
+- Do not claim GNN-RL superiority.
+- Do not claim online RL.
+- Do not claim arbitrary-N generalization.
+- Do not claim physical optimum.
+- Do not claim solver/ODB extraction happened in Run47.

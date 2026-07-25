@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-06-10T15:17:44.303450+00:00",
+  "run_id": "run_06_variable_n_probe60_candidate_order_generation",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "verdict": "WARNING_VARIABLE_N_PROBE60_POLICY_PROXY_FALLBACK_USED",
+  "n_values": [
+    12,
+    16,
+    24,
+    40
+  ],
+  "cases_per_n": 15,
+  "total_cases": 60,
+  "policy_candidate_source": "proxy_policy",
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_06_variable_n_probe60_candidate_order_generation\\variable_N_probe60_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_06_variable_n_probe60_candidate_order_generation\\variable_N_probe60_legality_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_06_variable_n_probe60_candidate_order_generation\\variable_N_probe60_structural_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_06_variable_n_probe60_candidate_order_generation\\variable_N_probe60_pairwise_diversity.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_06_variable_n_probe60_candidate_order_generation\\variable_N_probe60_candidate_design_manifest.json"
+  ],
+  "forbidden_actions_confirmed": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_generated": true,
+    "no_inp_generated": true,
+    "no_jnl_generated": true,
+    "no_abqjobpilot_execution": true,
+    "no_teacher_validation": true
+  }
+}

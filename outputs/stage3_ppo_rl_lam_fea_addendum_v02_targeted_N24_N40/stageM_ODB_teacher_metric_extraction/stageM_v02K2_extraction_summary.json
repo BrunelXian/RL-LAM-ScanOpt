@@ -1,0 +1,279 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-28T07:36:42.456327+00:00",
+    "verdict": "WARNING_STAGEM_V02K2_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 32,
+    "total_audited": 32,
+    "total_complete": 32,
+    "total_warning": 32,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "stageM_notes": {
+      "namespace": "stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40",
+      "includes_N12": false,
+      "includes_N16": false,
+      "includes_N24": true,
+      "includes_N32_cases": false,
+      "includes_N40": true,
+      "generated_CAE_INP_JNL_only_in_stageL": true,
+      "final_step_required_for_metrics": "step_final_cooling",
+      "targeted_batch": "PPO v02K2 N24/N40 batch32"
+    },
+    "stageL_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEL_CAE_INP_HANDOFF_REPORT.md",
+    "stageL_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\commands\\stageL_v02K2_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "by_N": {
+      "N24": {
+        "expected": 16,
+        "audited": 16,
+        "complete": 16,
+        "warning": 16,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 16,
+        "audited": 16,
+        "complete": 16,
+        "warning": 16,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-28T07:37:18.760986+00:00",
+    "verdict": "PASS_STAGEM_V02K2_ODB_TEACHER_METRIC_EXTRACTION_32_OF_32",
+    "total_expected": 32,
+    "total_extracted": 32,
+    "total_pass": 32,
+    "total_failed": 0,
+    "by_N": {
+      "N24": {
+        "expected": 16,
+        "extracted": 16,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 16,
+        "extracted": 16,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "teacher_metrics_summary": {
+    "timestamp": "2026-06-28T07:37:18.760986+00:00",
+    "run_id": "stageM_v02K2_odb_teacher_metric_extraction",
+    "batch_name": "stage3_ppo_v02K2_targeted_N24_N40_batch32_v01",
+    "total_rows": 32,
+    "fields": [
+      "run_id",
+      "batch_name",
+      "n",
+      "handoff_strategy_name",
+      "selection_tag",
+      "batch_index",
+      "order_hash",
+      "order_compact",
+      "scan_order_json",
+      "duplicate_vs_combined552",
+      "duplicate_role",
+      "stageK2_role",
+      "ppo_generation_mode",
+      "predicted_reward",
+      "conservative_reward",
+      "job_name",
+      "odb_path",
+      "completion_status",
+      "odb_extraction_status",
+      "teacher_validation_status",
+      "final_step_name",
+      "final_frame_time",
+      "extracted_field_names",
+      "missing_required_fields",
+      "notes",
+      "u_node_count",
+      "u2_min",
+      "u2_max",
+      "u2_range",
+      "u2_abs_max",
+      "u2_mean_abs",
+      "u2_rms",
+      "u_magnitude_max",
+      "peeq_value_count",
+      "peeq_max",
+      "peeq_mean",
+      "peeq_fraction_gt_0p002",
+      "peeq_count_gt_0p002",
+      "s_value_count",
+      "mises_max",
+      "mises_mean",
+      "max_principal_stress_max",
+      "max_principal_stress_mean",
+      "surface_t_proxy_max_tensile_pa",
+      "surface_t_proxy_max_tensile_mpa",
+      "nt11_node_count",
+      "nt11_min",
+      "nt11_max",
+      "nt11_mean",
+      "rank_within_N_u2_range",
+      "rank_within_N_peeq_max",
+      "rank_within_N_surface_t_proxy",
+      "rank_within_N_mises_max",
+      "norm_cost_within_N_u2_range",
+      "norm_cost_within_N_peeq_max",
+      "norm_cost_within_N_surface_t_proxy",
+      "norm_cost_within_N_mises_max"
+    ],
+    "by_N": {
+      "N24": {
+        "count": 16,
+        "u2_range": {
+          "min": 9.453498660150217e-05,
+          "max": 0.0001572077326272847,
+          "mean": 0.00013819406834159054
+        },
+        "u2_abs_max": {
+          "min": 9.118956222664565e-05,
+          "max": 0.00015391813940368593,
+          "mean": 0.00013493204687620164
+        },
+        "peeq_max": {
+          "min": 0.15585856139659882,
+          "max": 0.1622798889875412,
+          "mean": 0.15761091746389866
+        },
+        "peeq_mean": {
+          "min": 0.0658040706132455,
+          "max": 0.06648496706008863,
+          "mean": 0.06599644244334531
+        },
+        "peeq_fraction_gt_0p002": {
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        "mises_max": {
+          "min": 579943296.0,
+          "max": 579944256.0,
+          "mean": 579943868.0
+        },
+        "mises_mean": {
+          "min": 579941494.6923077,
+          "max": 579942463.1794872,
+          "mean": 579942069.1073717
+        },
+        "max_principal_stress_max": {
+          "min": 582223488.0,
+          "max": 582563008.0,
+          "mean": 582451736.0
+        },
+        "surface_t_proxy_max_tensile_pa": {
+          "min": 582223488.0,
+          "max": 582563008.0,
+          "mean": 582451736.0
+        },
+        "surface_t_proxy_max_tensile_mpa": {
+          "min": 582.223488,
+          "max": 582.563008,
+          "mean": 582.451736
+        },
+        "nt11_min": {
+          "min": 20.089229583740234,
+          "max": 20.09073257446289,
+          "mean": 20.089840173721313
+        },
+        "nt11_max": {
+          "min": 20.093482971191406,
+          "max": 20.09505844116211,
+          "mean": 20.094124794006348
+        },
+        "nt11_mean": {
+          "min": 20.09200827410432,
+          "max": 20.093559838638825,
+          "mean": 20.092640363602413
+        }
+      },
+      "N40": {
+        "count": 16,
+        "u2_range": {
+          "min": 0.0004007218865353934,
+          "max": 0.0005955657265985792,
+          "mean": 0.000472177534291518
+        },
+        "u2_abs_max": {
+          "min": 0.0003978724416811019,
+          "max": 0.0005931583582423627,
+          "mean": 0.0004694143408414675
+        },
+        "peeq_max": {
+          "min": 0.16411176323890686,
+          "max": 0.176300048828125,
+          "mean": 0.1696867784485221
+        },
+        "peeq_mean": {
+          "min": 0.07017509669521897,
+          "max": 0.07116322366554025,
+          "mean": 0.07074091924643278
+        },
+        "peeq_fraction_gt_0p002": {
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        "mises_max": {
+          "min": 579926912.0,
+          "max": 579928192.0,
+          "mean": 579927300.0
+        },
+        "mises_mean": {
+          "min": 579922960.0476191,
+          "max": 579924352.7777778,
+          "mean": 579923404.7390875
+        },
+        "max_principal_stress_max": {
+          "min": 581153472.0,
+          "max": 581827264.0,
+          "mean": 581570124.0
+        },
+        "surface_t_proxy_max_tensile_pa": {
+          "min": 581153472.0,
+          "max": 581827264.0,
+          "mean": 581570124.0
+        },
+        "surface_t_proxy_max_tensile_mpa": {
+          "min": 581.153472,
+          "max": 581.827264,
+          "mean": 581.5701240000001
+        },
+        "nt11_min": {
+          "min": 20.114948272705078,
+          "max": 20.117019653320312,
+          "mean": 20.116366624832153
+        },
+        "nt11_max": {
+          "min": 20.12392807006836,
+          "max": 20.12620735168457,
+          "mean": 20.12547993659973
+        },
+        "nt11_mean": {
+          "min": 20.12097678744783,
+          "max": 20.12320035126687,
+          "mean": 20.122489649163196
+        }
+      }
+    }
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

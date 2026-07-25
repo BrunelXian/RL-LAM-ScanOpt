@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-06-23T09:51:22.908580+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+  "primary_target": "reward_lex_u2_peeq_surfacet",
+  "diagnostic_targets": [
+    "reward_u2_primary",
+    "cost_u2_norm",
+    "cost_peeq_norm",
+    "cost_surfacet_norm",
+    "cost_mises_norm"
+  ],
+  "selected_model_type": "HistGradientBoostingRegressor",
+  "random_state": 20260623,
+  "split": "train_test_split(test_size=0.25, stratify=n)",
+  "feature_schema_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_feature_schema.json",
+  "target_schema_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_target_schema.json"
+}

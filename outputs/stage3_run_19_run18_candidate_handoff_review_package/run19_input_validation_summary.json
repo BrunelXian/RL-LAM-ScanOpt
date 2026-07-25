@@ -1,0 +1,31 @@
+{
+  "verdict": "PASS_RUN19_BATCH24_BATCH28_INPUTS_READY",
+  "batch24": {
+    "batch_option": "batch24",
+    "row_count": 24,
+    "per_n_counts": {
+      "12": 3,
+      "16": 3,
+      "24": 9,
+      "40": 9
+    },
+    "errors": [],
+    "warnings": [],
+    "duplicate_candidate_ids": []
+  },
+  "batch28": {
+    "batch_option": "batch28",
+    "row_count": 28,
+    "per_n_counts": {
+      "12": 4,
+      "16": 4,
+      "24": 10,
+      "40": 10
+    },
+    "errors": [],
+    "warnings": [],
+    "duplicate_candidate_ids": []
+  },
+  "errors": [],
+  "warnings": []
+}

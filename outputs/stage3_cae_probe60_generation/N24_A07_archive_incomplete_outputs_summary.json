@@ -1,0 +1,20 @@
+{
+  "archive_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\archived_incomplete_N24_A07_before_single_case_rerun_20260612_014308",
+  "manifest": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\archived_incomplete_N24_A07_before_single_case_rerun_20260612_014308\\ARCHIVE_MANIFEST.csv",
+  "moved_count": 11,
+  "all_moved_ok": true,
+  "active_solver_counts_after_archive": {
+    ".odb": 0,
+    ".sim": 0,
+    ".sta": 0,
+    ".dat": 0,
+    ".msg": 0,
+    ".lck": 0
+  },
+  "preserved_counts": {
+    ".inp": 1,
+    ".cae": 1,
+    ".jnl": 1,
+    "scan_order_json": 1
+  }
+}

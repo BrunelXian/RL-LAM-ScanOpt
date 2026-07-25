@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS_STAGEJ_INPUTS_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "ppo_count": 32,
+  "ppo_counts_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "combined552_count": 552,
+  "combined552_counts_by_N": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

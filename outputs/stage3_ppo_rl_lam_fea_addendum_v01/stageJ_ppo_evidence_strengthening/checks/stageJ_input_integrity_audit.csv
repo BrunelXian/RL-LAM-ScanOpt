@@ -1,0 +1,23 @@
+check,passed,severity,detail
+PPO frozen metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv
+PPO ranking table_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv
+combined552_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv
+analysis dataset_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageH_teacher_metric_ranking\tables\combined552_plus_ppo32_analysis_dataset.csv
+PPO_metrics_count_32,True,FAIL,rows=32
+PPO_ranking_count_32,True,FAIL,rows=32
+PPO_metrics_counts_by_N,True,FAIL,"{12: 8, 16: 8, 24: 8, 40: 8}"
+PPO_ranking_counts_by_N,True,FAIL,"{12: 8, 16: 8, 24: 8, 40: 8}"
+PPO_no_N32,True,FAIL,"[np.int64(12), np.int64(16), np.int64(24), np.int64(40)]"
+combined552_counts_by_N,True,FAIL,"{12: 78, 16: 78, 24: 190, 40: 206}"
+combined552_no_N32_primary,True,FAIL,"[np.int64(12), np.int64(16), np.int64(24), np.int64(40)]"
+PPO_metric_u2_range_exists,True,FAIL,u2_range
+combined_metric_u2_range_exists,True,FAIL,u2_range
+PPO_metric_peeq_max_exists,True,FAIL,peeq_max
+combined_metric_peeq_max_exists,True,FAIL,peeq_max
+PPO_metric_surface_t_proxy_exists,True,FAIL,surface_t_proxy
+combined_metric_surface_t_proxy_exists,True,FAIL,surface_t_proxy
+PPO_metric_mises_max_exists,True,FAIL,mises_max
+combined_metric_mises_max_exists,True,FAIL,mises_max
+lexicographic_ranks_or_flags_exist,True,WARNING,"lex_rank_combined,ref_rank_lex,ppo_top10pct_ref_lex,ppo_top25pct_ref_lex"
+topk_flags_exist,True,WARNING,topk_flag_count=10
+analysis_dataset_has_584_rows,True,WARNING,rows=584

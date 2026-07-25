@@ -1,0 +1,40 @@
+{
+  "algorithm": "MaskablePPO",
+  "policy": "MlpPolicy",
+  "seeds_by_N": {
+    "24": [
+      20260627
+    ],
+    "40": [
+      20260627
+    ]
+  },
+  "deferred_optional_seeds": {
+    "24": [
+      20260628
+    ],
+    "40": [
+      20260628
+    ]
+  },
+  "total_timesteps_by_N": {
+    "24": 100000,
+    "40": 60000
+  },
+  "requested_full_timesteps_by_N": {
+    "24": 400000,
+    "40": 700000
+  },
+  "gamma": 1.0,
+  "gae_lambda": 1.0,
+  "learning_rate": 0.0002,
+  "n_steps": 2048,
+  "batch_size": 256,
+  "ent_coef": 0.04,
+  "clip_range": 0.2,
+  "target_kl": 0.03,
+  "vf_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "verbose": 1,
+  "runtime_policy": "train one seed per N first; optional second seeds deferred unless explicitly requested"
+}

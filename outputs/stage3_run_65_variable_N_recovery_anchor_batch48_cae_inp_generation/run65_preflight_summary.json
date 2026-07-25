@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS_RUN65_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_64_run63_variable_N_recovery_anchor_batch48_handoff_package\\stage3_run64_variable_N_recovery_anchor_batch48_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_64_run63_variable_N_recovery_anchor_batch48_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run64_variable_N_recovery_anchor_batch48_v01",
+  "row_count": 48,
+  "per_n_counts": {
+    "12": 12,
+    "16": 12,
+    "24": 8,
+    "40": 16
+  },
+  "selected_batch": "run63_variable_N_recovery_anchor_batch48",
+  "batch_name": "stage3_run64_variable_N_recovery_anchor_batch48_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\run65_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\run65_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\run65_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN65_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

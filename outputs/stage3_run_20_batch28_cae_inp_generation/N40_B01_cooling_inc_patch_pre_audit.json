@@ -1,0 +1,76 @@
+{
+  "case_dir": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top",
+  "strict_abaqus_process_count": 1,
+  "case_process_count": 0,
+  "strict_abaqus_processes": [
+    {
+      "ProcessId": 6140,
+      "ParentProcessId": 7028,
+      "Name": "ABAQUSLM.exe",
+      "CommandLine": null,
+      "CreationDate": "/Date(1781251124203)/"
+    }
+  ],
+  "case_processes": [],
+  "files": {
+    "cae": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.cae",
+        "size": 458752,
+        "mtime": "2026-06-12T15:09:25"
+      }
+    ],
+    "inp": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.inp",
+        "size": 137902,
+        "mtime": "2026-06-12T15:09:25"
+      }
+    ],
+    "jnl": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.jnl",
+        "size": 175,
+        "mtime": "2026-06-12T15:09:25"
+      }
+    ],
+    "odb": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.odb",
+        "size": 181224084,
+        "mtime": "2026-06-12T18:10:07"
+      }
+    ],
+    "sim": [],
+    "sta": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.sta",
+        "size": 76599,
+        "mtime": "2026-06-12T18:10:02"
+      }
+    ],
+    "dat": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.dat",
+        "size": 225239,
+        "mtime": "2026-06-12T18:10:02"
+      }
+    ],
+    "msg": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.msg",
+        "size": 6104166,
+        "mtime": "2026-06-12T18:10:02"
+      }
+    ],
+    "lck": [],
+    "generation_log.json": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01\\N40S3R19B28_N40_B01_surrogate_top\\J2D_S3R19B28_N40_B01_surrogate_top.generation_log.json",
+        "size": 9833,
+        "mtime": "2026-06-12T15:09:25"
+      }
+    ]
+  },
+  "lck_count": 0
+}

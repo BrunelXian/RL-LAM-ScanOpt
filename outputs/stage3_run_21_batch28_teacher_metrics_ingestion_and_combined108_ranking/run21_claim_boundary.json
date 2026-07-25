@@ -1,0 +1,16 @@
+{
+  "verdict": "RUN21_BATCH28_INGESTION_AND_COMBINED108_DATASET_ONLY_NO_RL_POLICY_TRAINING",
+  "safe_claims": [
+    "batch28 metrics ingested 28/28",
+    "combined108 teacher-labelled dataset built",
+    "within-N ranks and normalized costs ready",
+    "S3R19B28_N40_B01_surrogate_top is teacher-valid"
+  ],
+  "unsafe_claims": [
+    "trained variable-N RL policy superiority",
+    "surrogate predictions as ground truth",
+    "arbitrary-N generalization",
+    "fixed-32 U2 guard transfer",
+    "final optimum"
+  ]
+}

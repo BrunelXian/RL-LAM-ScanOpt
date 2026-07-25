@@ -1,0 +1,11 @@
+{
+  "rows": 812,
+  "per_N_counts": {
+    "12": 48,
+    "16": 48,
+    "24": 184,
+    "32": 332,
+    "40": 200
+  },
+  "n32_semantic_warning_preserved": true
+}

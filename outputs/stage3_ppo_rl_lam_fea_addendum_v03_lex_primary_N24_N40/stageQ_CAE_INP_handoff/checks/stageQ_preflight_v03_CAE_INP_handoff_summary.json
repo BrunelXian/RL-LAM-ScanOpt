@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS_STAGEQ_V03_CAE_INP_PREFLIGHT_READY",
+  "selected_batch": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\v03_ppo_lex_primary_N24_N40_candidate_batch32.csv",
+  "scan_json_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01",
+  "row_count": 32,
+  "counts_by_n": {
+    "24": 16,
+    "40": 16
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\checks\\stageQ_preflight_v03_CAE_INP_handoff.csv",
+  "blockers": [],
+  "warnings": [],
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_ODB": true,
+  "partial_training_caveat": "PPO v03 training was partial: N24 seed 20260627 reached 100000 timesteps from an interrupted checkpoint; N40 seed 20260627 reached 61440 timesteps. Training verdict: WARNING_V03_PPO_TRAINING_PARTIAL_REVIEW.",
+  "training_verdict": "WARNING_V03_PPO_TRAINING_PARTIAL_REVIEW"
+}

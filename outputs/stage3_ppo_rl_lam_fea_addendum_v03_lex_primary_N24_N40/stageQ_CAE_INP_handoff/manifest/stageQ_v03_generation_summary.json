@@ -1,0 +1,210 @@
+{
+  "verdict": "PASS_STAGEQ_V03_GENERATION_COMPLETE",
+  "generated_count": 32,
+  "per_n_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "generated": [
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B01_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B01_top_v03_score\\J2D_PPOV03_N24_B01_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B01_top_v03_score\\J2D_PPOV03_N24_B01_top_v03_score.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B02_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B02_top_v03_score\\J2D_PPOV03_N24_B02_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B02_top_v03_score\\J2D_PPOV03_N24_B02_top_v03_score.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B03_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B03_top_v03_score\\J2D_PPOV03_N24_B03_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B03_top_v03_score\\J2D_PPOV03_N24_B03_top_v03_score.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B04_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B04_top_v03_score\\J2D_PPOV03_N24_B04_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B04_top_v03_score\\J2D_PPOV03_N24_B04_top_v03_score.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B05_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B05_top_v03_score\\J2D_PPOV03_N24_B05_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B05_top_v03_score\\J2D_PPOV03_N24_B05_top_v03_score.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B06_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B06_u2_guarded\\J2D_PPOV03_N24_B06_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B06_u2_guarded\\J2D_PPOV03_N24_B06_u2_guarded.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B07_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B07_u2_guarded\\J2D_PPOV03_N24_B07_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B07_u2_guarded\\J2D_PPOV03_N24_B07_u2_guarded.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B08_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B08_u2_guarded\\J2D_PPOV03_N24_B08_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B08_u2_guarded\\J2D_PPOV03_N24_B08_u2_guarded.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B09_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B09_u2_guarded\\J2D_PPOV03_N24_B09_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B09_u2_guarded\\J2D_PPOV03_N24_B09_u2_guarded.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B10_lex_primary_novel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B10_lex_primary_novel\\J2D_PPOV03_N24_B10_lex_primary_novel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B10_lex_primary_novel\\J2D_PPOV03_N24_B10_lex_primary_novel.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B11_lex_primary_novel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B11_lex_primary_novel\\J2D_PPOV03_N24_B11_lex_primary_novel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B11_lex_primary_novel\\J2D_PPOV03_N24_B11_lex_primary_novel.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B12_lex_primary_novel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B12_lex_primary_novel\\J2D_PPOV03_N24_B12_lex_primary_novel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B12_lex_primary_novel\\J2D_PPOV03_N24_B12_lex_primary_novel.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B13_diverse_upper_quartile",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B13_diverse_upper_quartile\\J2D_PPOV03_N24_B13_diverse_upper_quartile.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B13_diverse_upper_quartile\\J2D_PPOV03_N24_B13_diverse_upper_quartile.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B14_diverse_upper_quartile",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B14_diverse_upper_quartile\\J2D_PPOV03_N24_B14_diverse_upper_quartile.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B14_diverse_upper_quartile\\J2D_PPOV03_N24_B14_diverse_upper_quartile.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B15_record_seeking",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B15_record_seeking\\J2D_PPOV03_N24_B15_record_seeking.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B15_record_seeking\\J2D_PPOV03_N24_B15_record_seeking.inp"
+    },
+    {
+      "n": 24,
+      "strategy_name": "PPOV03_N24_B16_fill_next_best",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B16_fill_next_best\\J2D_PPOV03_N24_B16_fill_next_best.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N24PPOV03_N24_B16_fill_next_best\\J2D_PPOV03_N24_B16_fill_next_best.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B01_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B01_top_v03_score\\J2D_PPOV03_N40_B01_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B01_top_v03_score\\J2D_PPOV03_N40_B01_top_v03_score.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B02_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B02_top_v03_score\\J2D_PPOV03_N40_B02_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B02_top_v03_score\\J2D_PPOV03_N40_B02_top_v03_score.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B03_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B03_top_v03_score\\J2D_PPOV03_N40_B03_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B03_top_v03_score\\J2D_PPOV03_N40_B03_top_v03_score.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B04_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B04_top_v03_score\\J2D_PPOV03_N40_B04_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B04_top_v03_score\\J2D_PPOV03_N40_B04_top_v03_score.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B05_top_v03_score",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B05_top_v03_score\\J2D_PPOV03_N40_B05_top_v03_score.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B05_top_v03_score\\J2D_PPOV03_N40_B05_top_v03_score.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B06_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B06_u2_guarded\\J2D_PPOV03_N40_B06_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B06_u2_guarded\\J2D_PPOV03_N40_B06_u2_guarded.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B07_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B07_u2_guarded\\J2D_PPOV03_N40_B07_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B07_u2_guarded\\J2D_PPOV03_N40_B07_u2_guarded.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B08_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B08_u2_guarded\\J2D_PPOV03_N40_B08_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B08_u2_guarded\\J2D_PPOV03_N40_B08_u2_guarded.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B09_u2_guarded",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B09_u2_guarded\\J2D_PPOV03_N40_B09_u2_guarded.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B09_u2_guarded\\J2D_PPOV03_N40_B09_u2_guarded.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B10_lex_primary_novel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B10_lex_primary_novel\\J2D_PPOV03_N40_B10_lex_primary_novel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B10_lex_primary_novel\\J2D_PPOV03_N40_B10_lex_primary_novel.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B11_lex_primary_novel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B11_lex_primary_novel\\J2D_PPOV03_N40_B11_lex_primary_novel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B11_lex_primary_novel\\J2D_PPOV03_N40_B11_lex_primary_novel.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B12_lex_primary_novel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B12_lex_primary_novel\\J2D_PPOV03_N40_B12_lex_primary_novel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B12_lex_primary_novel\\J2D_PPOV03_N40_B12_lex_primary_novel.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B13_diverse_upper_quartile",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B13_diverse_upper_quartile\\J2D_PPOV03_N40_B13_diverse_upper_quartile.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B13_diverse_upper_quartile\\J2D_PPOV03_N40_B13_diverse_upper_quartile.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B14_diverse_upper_quartile",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B14_diverse_upper_quartile\\J2D_PPOV03_N40_B14_diverse_upper_quartile.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B14_diverse_upper_quartile\\J2D_PPOV03_N40_B14_diverse_upper_quartile.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B15_record_seeking",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B15_record_seeking\\J2D_PPOV03_N40_B15_record_seeking.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B15_record_seeking\\J2D_PPOV03_N40_B15_record_seeking.inp"
+    },
+    {
+      "n": 40,
+      "strategy_name": "PPOV03_N40_B16_fill_next_best",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B16_fill_next_best\\J2D_PPOV03_N40_B16_fill_next_best.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01\\N40PPOV03_N40_B16_fill_next_best\\J2D_PPOV03_N40_B16_fill_next_best.inp"
+    }
+  ],
+  "manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_CAE_generation_manifest.csv",
+  "manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_CAE_generation_manifest.json",
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_odb_opened": true,
+  "no_teacher_validation": true
+}

@@ -1,0 +1,28 @@
+{
+  "mapping_version": "probe60_heat_mapping_v01",
+  "base_model_type": "single_scan_step_sanity_template",
+  "track_set_pattern": "set_body_heat_{track:02d}",
+  "scan_step_pattern": "step_scan_{seq:02d}",
+  "cool_step_pattern": "step_cool_{seq:02d}",
+  "load_pattern": "load_body_hflux_{seq:02d}",
+  "template_scan_step": "step_scan_00",
+  "template_cool_step": "step_cool_00",
+  "template_load": "load_body_hflux_00",
+  "final_cooling_step_name": "step_final_cooling",
+  "final_cooling_duration_seconds": 1200.0,
+  "append_final_cooling_step": true,
+  "scan_order_mapping_rule": "At sequence index seq, activate heat set set_body_heat_{track:02d}, where track = scan_order[seq].",
+  "load_lifecycle_rule": "Each scan step creates/activates one body heat flux load on the target track set; the load is inactive/deactivated outside its own scan step.",
+  "cool_step_rule": "Each scan step is followed by one cooling step with no active body heat flux.",
+  "final_cooling_rule": "After the last scan/cool pair, append one 1200-second step_final_cooling with all heat loads deactivated. Final stress evaluation should use the end of this step.",
+  "required_user_confirmation": [
+    "Confirm exact Abaqus load type: BodyHeatFlux or equivalent.",
+    "Confirm load magnitude is inherited from load_body_hflux_00.",
+    "Confirm scan step time period is inherited from step_scan_00.",
+    "Confirm cool step time period is inherited from step_cool_00.",
+    "Confirm final cooling step should inherit the cooling template procedure type and use a duration of 1200 seconds.",
+    "Confirm track region objects are in rootAssembly.sets or model.rootAssembly.sets.",
+    "Confirm all set_body_heat_XX names exist for each N."
+  ],
+  "allow_generate_when_confirmed": false
+}

@@ -1,0 +1,17 @@
+group_type,group_value,count,reward_spearman,mean_abs_reward_error
+selection_bucket,PEEQ_guarded_candidates,4,-0.10540925533894598,0.31876247574745614
+selection_bucket,SurfaceT_guarded_candidates,4,1.0,0.09578515819321318
+selection_bucket,U2_guarded_local_search,4,-0.7378647873726218,0.5149147111586152
+selection_bucket,constrained_surrogate_top,4,0.632455532033676,0.2657580897825423
+selection_bucket,hybrid_agreement,4,-0.21081851067789195,0.3645825807121356
+selection_bucket,hybrid_disagreement,4,-0.9486832980505139,0.3980615209110211
+selection_bucket,reward_balanced_local_search,4,0.316227766016838,0.3470950331718948
+selection_bucket,uncertainty_calibration,4,0.0,0.4641395982559958
+candidate_source,PEEQ_guarded_candidates,4,-0.10540925533894598,0.31876247574745614
+candidate_source,SurfaceT_guarded_candidates,4,1.0,0.09578515819321318
+candidate_source,U2_guarded_local_search,4,-0.7378647873726218,0.5149147111586152
+candidate_source,constrained_surrogate_top,4,0.632455532033676,0.2657580897825423
+candidate_source,hybrid_agreement,4,-0.21081851067789195,0.3645825807121356
+candidate_source,hybrid_disagreement,4,-0.9486832980505139,0.3980615209110211
+candidate_source,reward_balanced_local_search,4,0.316227766016838,0.3470950331718948
+candidate_source,uncertainty_calibration,4,0.0,0.4641395982559958

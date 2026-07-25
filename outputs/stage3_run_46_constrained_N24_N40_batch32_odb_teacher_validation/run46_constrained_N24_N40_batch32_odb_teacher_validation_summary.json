@@ -1,0 +1,77 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-14T17:48:51.467985+00:00",
+    "verdict": "WARNING_RUN46_CONSTRAINED_N24_N40_BATCH32_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 32,
+    "total_audited": 32,
+    "total_complete": 32,
+    "total_warning": 32,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "patched_cases": [],
+    "generation_details": {
+      "includes_N12": false,
+      "includes_N16": false,
+      "includes_N24": true,
+      "includes_N32_cases": false,
+      "includes_N40": true,
+      "generated_CAE_INP_JNL_only_in_run45": true,
+      "final_step_required_for_metrics": "step_final_cooling",
+      "n40_step_cool_initialInc": 0.001,
+      "step_final_cooling_initialInc": 0.01,
+      "step_final_cooling_timePeriod": 1200.0
+    },
+    "run45_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_45_constrained_N24_N40_batch32_cae_inp_generation\\RUN_45_CONSTRAINED_N24_N40_BATCH32_CAE_INP_GENERATION_REPORT.md",
+    "by_N": {
+      "N24": {
+        "expected": 16,
+        "audited": 16,
+        "complete": 16,
+        "warning": 16,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 16,
+        "audited": 16,
+        "complete": 16,
+        "warning": 16,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-14T17:49:21.385497+00:00",
+    "verdict": "PASS_RUN46_CONSTRAINED_N24_N40_BATCH32_ODB_TEACHER_VALIDATION_32_OF_32",
+    "total_expected": 32,
+    "total_extracted": 32,
+    "total_pass": 32,
+    "total_failed": 0,
+    "by_N": {
+      "N24": {
+        "expected": 16,
+        "extracted": 16,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 16,
+        "extracted": 16,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

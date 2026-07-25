@@ -1,0 +1,44 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-23T22:03:00+08:00",
+  "batch_name": "stage3_ppo_policy_only_batch32_v01",
+  "approved_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\commands\\stageE_ppo_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_policy_only_batch32_v01",
+  "pre_submit_audit": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_pre_submit_audit.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_pre_submit_audit_summary.json",
+    "verdict": "PASS_STAGEF_PPO_BATCH32_READY_TO_ENQUEUE"
+  },
+  "submission": {
+    "execution_log": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\logs\\stageF_enqueue_execution_log.txt",
+    "submission_status_table": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\tables\\stageF_enqueue_submission_status.csv",
+    "commands_executed_count": 32,
+    "submission_attempted_count": 32,
+    "submission_success_count": 0,
+    "submission_failure_count": 32,
+    "failure_reason": "enqueue command not found in current Codex shell environment"
+  },
+  "file_snapshot": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\tables\\stageF_solver_file_snapshot_by_N.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_solver_monitoring_snapshot.json",
+    "odb_total": 0,
+    "active_lck_total": 0
+  },
+  "completion_audit": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_solver_completion_audit.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_solver_completion_audit_summary.json",
+    "verdict": "WARNING_STAGEF_PPO_BATCH32_SOLVER_RUNNING_OR_PARTIAL",
+    "completed_total": 0,
+    "odb_total": 0,
+    "active_lck_total": 0
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEF_SOLVER_EXECUTION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEF_CLAIM_BOUNDARY.md",
+  "no_scan_order_mutation": true,
+  "no_CAE_INP_modification": true,
+  "no_ODB_opening": true,
+  "no_ODB_metric_extraction": true,
+  "no_teacher_metrics_claimed": true,
+  "no_commit_or_push": true,
+  "final_verdict": "FAIL_STAGEF_PPO_BATCH32_ENQUEUE_OR_SOLVER_FAILURE"
+}

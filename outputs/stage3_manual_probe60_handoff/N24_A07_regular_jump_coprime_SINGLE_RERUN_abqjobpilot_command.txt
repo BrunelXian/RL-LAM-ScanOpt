@@ -1,0 +1,1 @@
+enqueue --inp "E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.inp" --cpus 14 --batch stage3_true_variable_N_probe60_v01 --strategy N24_A07_regular_jump_coprime

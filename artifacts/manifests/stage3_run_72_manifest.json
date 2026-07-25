@@ -1,0 +1,532 @@
+{
+  "run_id": "run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking",
+  "run_name": "small-N recovery-focused batch40 teacher metrics ingestion and combined520 ranking",
+  "timestamp": "2026-06-17T16:38:44.857874+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_72_ingest_smallN_recovery_focused_batch40_and_build_combined520.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_71_smallN_recovery_focused_batch40_odb_teacher_validation\\run71_smallN_recovery_focused_batch40_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_71_smallN_recovery_focused_batch40_odb_teacher_validation\\run71_smallN_recovery_focused_batch40_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_71_smallN_recovery_focused_batch40_odb_teacher_validation\\run71_smallN_recovery_focused_batch40_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_71_smallN_recovery_focused_batch40_odb_teacher_validation\\run71_smallN_recovery_focused_batch40_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_71_smallN_recovery_focused_batch40_odb_teacher_validation\\RUN_71_SMALLN_RECOVERY_FOCUSED_BATCH40_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_71_manifest.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_69_run68_smallN_recovery_focused_batch40_handoff_package\\stage3_run69_smallN_recovery_focused_batch40_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_69_run68_smallN_recovery_focused_batch40_handoff_package\\scan_orders",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_68_combined480_model_update_smallN_recovery_candidate_generation\\run68_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_68_combined480_model_update_smallN_recovery_candidate_generation\\run68_smallN_recovery_focused_batch40_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_68_combined480_model_update_smallN_recovery_candidate_generation\\full_variable_N_evidence_update_after_run67.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_68_combined480_model_update_smallN_recovery_candidate_generation\\RUN_68_COMBINED480_MODEL_UPDATE_SMALLN_RECOVERY_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_67_variable_N_recovery_anchor_batch48_teacher_metrics_ingestion_and_combined480_ranking\\combined480_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_67_variable_N_recovery_anchor_batch48_teacher_metrics_ingestion_and_combined480_ranking\\combined480_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_67_variable_N_recovery_anchor_batch48_teacher_metrics_ingestion_and_combined480_ranking\\combined480_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_67_variable_N_recovery_anchor_batch48_teacher_metrics_ingestion_and_combined480_ranking\\RUN_67_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_TEACHER_METRICS_INGESTION_AND_COMBINED480_RANKING_REPORT.md"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run72_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_teacher_dataset_enriched.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_plus_N32_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_plus_N32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_plus_N32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_vs_combined480_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_vs_combined480_best_comparison.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_vs_prior_key_records.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_vs_prior_key_records_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_effectiveness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_prediction_audit_for_run68_batch40.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_prediction_audit_for_run68_batch40_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\full_variable_N_updated_maturity_and_claim_boundary_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\full_variable_N_updated_maturity_and_claim_boundary_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\full_variable_N_updated_maturity_and_claim_boundary_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run72_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run72_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\RUN_72_SMALLN_RECOVERY_FOCUSED_BATCH40_TEACHER_METRICS_INGESTION_AND_COMBINED520_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_72_manifest.json"
+  ],
+  "run71_teacher_rows": 40,
+  "combined520_rows": 520,
+  "combined520_plus_N32_rows": 852,
+  "per_N_combined520_counts": {
+    "12": 64,
+    "16": 64,
+    "24": 188,
+    "40": 204
+  },
+  "per_N_combined520_plus_N32_counts": {
+    "12": 64,
+    "16": 64,
+    "24": 188,
+    "32": 332,
+    "40": 204
+  },
+  "new_best_counts": {
+    "run71_vs_combined480": 13
+  },
+  "prediction_audit_summary": {
+    "headline": "Run68/Run69 prediction calibration was evaluated on realized Run71 variable-N labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+    "overall_reward_spearman": 0.33477244418029467,
+    "overall_penalty_repair_spearman": 0.34292152652139085,
+    "mean_top5_overlap": 0.4444444444444444,
+    "top1_hits": 1,
+    "by_candidate_source": {
+      "N12_local_search_around_Run66_best": {
+        "count": 3,
+        "mean_abs_error": 0.04458844001226173,
+        "mean_realized_reward": 0.737037037037037
+      },
+      "N12_recovery_diversity": {
+        "count": 1,
+        "mean_abs_error": 0.12732966879509033,
+        "mean_realized_reward": 0.8873015873015874
+      },
+      "N12_recovery_penalty_aware": {
+        "count": 2,
+        "mean_abs_error": 0.08837173236493867,
+        "mean_realized_reward": 0.6968253968253968
+      },
+      "N12_recovery_reward_balanced": {
+        "count": 2,
+        "mean_abs_error": 0.19973734057584,
+        "mean_realized_reward": 0.5196428571428572
+      },
+      "N12_recovery_surrogate_top": {
+        "count": 4,
+        "mean_abs_error": 0.05392209480238461,
+        "mean_realized_reward": 0.7165674603174602
+      },
+      "N12_recovery_u2_safe": {
+        "count": 3,
+        "mean_abs_error": 0.1399393141689038,
+        "mean_realized_reward": 0.6063492063492063
+      },
+      "N12_recovery_uncertainty": {
+        "count": 1,
+        "mean_abs_error": 0.1426670944378715,
+        "mean_realized_reward": 0.89484126984127
+      },
+      "N16_local_search_around_Run66_best": {
+        "count": 3,
+        "mean_abs_error": 0.07420142420987064,
+        "mean_realized_reward": 0.8501322751322752
+      },
+      "N16_recovery_diversity": {
+        "count": 1,
+        "mean_abs_error": 0.013337989491808866,
+        "mean_realized_reward": 0.8376984126984127
+      },
+      "N16_recovery_penalty_aware": {
+        "count": 2,
+        "mean_abs_error": 0.1377437689969605,
+        "mean_realized_reward": 0.7603174603174603
+      },
+      "N16_recovery_reward_balanced": {
+        "count": 2,
+        "mean_abs_error": 0.21554856467409655,
+        "mean_realized_reward": 0.6851190476190476
+      },
+      "N16_recovery_surrogate_top": {
+        "count": 4,
+        "mean_abs_error": 0.08604126678648225,
+        "mean_realized_reward": 0.6918650793650793
+      },
+      "N16_recovery_u2_safe": {
+        "count": 3,
+        "mean_abs_error": 0.13013211752786233,
+        "mean_realized_reward": 0.7230158730158731
+      },
+      "N16_recovery_uncertainty": {
+        "count": 1,
+        "mean_abs_error": 0.1285230665315772,
+        "mean_realized_reward": 0.7968253968253968
+      },
+      "N24_frozen_top_density_reference": {
+        "count": 2,
+        "mean_abs_error": 0.058684788275264466,
+        "mean_realized_reward": 0.7090909090909091
+      },
+      "N24_uncertainty_anchor": {
+        "count": 2,
+        "mean_abs_error": 0.052807486631015976,
+        "mean_realized_reward": 0.732620320855615
+      },
+      "N40_frozen_u2_reward_reference": {
+        "count": 2,
+        "mean_abs_error": 0.1523399014778325,
+        "mean_realized_reward": 0.7605911330049261
+      },
+      "N40_sentinel_control": {
+        "count": 1,
+        "mean_abs_error": 0.07772852375232558,
+        "mean_realized_reward": 0.07118226600985222
+      },
+      "N40_uncertainty_anchor": {
+        "count": 1,
+        "mean_abs_error": 0.19233676316470943,
+        "mean_realized_reward": 0.4543103448275862
+      }
+    },
+    "by_selection_bucket": {
+      "N12_local_search_around_Run66_best": {
+        "count": 3,
+        "mean_abs_error": 0.04458844001226173,
+        "mean_realized_reward": 0.737037037037037
+      },
+      "N12_recovery_diversity": {
+        "count": 1,
+        "mean_abs_error": 0.12732966879509033,
+        "mean_realized_reward": 0.8873015873015874
+      },
+      "N12_recovery_penalty_aware": {
+        "count": 2,
+        "mean_abs_error": 0.08837173236493867,
+        "mean_realized_reward": 0.6968253968253968
+      },
+      "N12_recovery_reward_balanced": {
+        "count": 2,
+        "mean_abs_error": 0.19973734057584,
+        "mean_realized_reward": 0.5196428571428572
+      },
+      "N12_recovery_surrogate_top": {
+        "count": 4,
+        "mean_abs_error": 0.05392209480238461,
+        "mean_realized_reward": 0.7165674603174602
+      },
+      "N12_recovery_u2_safe": {
+        "count": 3,
+        "mean_abs_error": 0.1399393141689038,
+        "mean_realized_reward": 0.6063492063492063
+      },
+      "N12_recovery_uncertainty": {
+        "count": 1,
+        "mean_abs_error": 0.1426670944378715,
+        "mean_realized_reward": 0.89484126984127
+      },
+      "N16_local_search_around_Run66_best": {
+        "count": 3,
+        "mean_abs_error": 0.07420142420987064,
+        "mean_realized_reward": 0.8501322751322752
+      },
+      "N16_recovery_diversity": {
+        "count": 1,
+        "mean_abs_error": 0.013337989491808866,
+        "mean_realized_reward": 0.8376984126984127
+      },
+      "N16_recovery_penalty_aware": {
+        "count": 2,
+        "mean_abs_error": 0.1377437689969605,
+        "mean_realized_reward": 0.7603174603174603
+      },
+      "N16_recovery_reward_balanced": {
+        "count": 2,
+        "mean_abs_error": 0.21554856467409655,
+        "mean_realized_reward": 0.6851190476190476
+      },
+      "N16_recovery_surrogate_top": {
+        "count": 4,
+        "mean_abs_error": 0.08604126678648225,
+        "mean_realized_reward": 0.6918650793650793
+      },
+      "N16_recovery_u2_safe": {
+        "count": 3,
+        "mean_abs_error": 0.13013211752786233,
+        "mean_realized_reward": 0.7230158730158731
+      },
+      "N16_recovery_uncertainty": {
+        "count": 1,
+        "mean_abs_error": 0.1285230665315772,
+        "mean_realized_reward": 0.7968253968253968
+      },
+      "N24_frozen_top_density_reference": {
+        "count": 2,
+        "mean_abs_error": 0.058684788275264466,
+        "mean_realized_reward": 0.7090909090909091
+      },
+      "N24_uncertainty_anchor": {
+        "count": 2,
+        "mean_abs_error": 0.052807486631015976,
+        "mean_realized_reward": 0.732620320855615
+      },
+      "N40_frozen_u2_reward_reference": {
+        "count": 2,
+        "mean_abs_error": 0.1523399014778325,
+        "mean_realized_reward": 0.7605911330049261
+      },
+      "N40_sentinel_control": {
+        "count": 1,
+        "mean_abs_error": 0.07772852375232558,
+        "mean_realized_reward": 0.07118226600985222
+      },
+      "N40_uncertainty_anchor": {
+        "count": 1,
+        "mean_abs_error": 0.19233676316470943,
+        "mean_realized_reward": 0.4543103448275862
+      }
+    },
+    "disagreement_vs_abs_error_spearman": 0.297554849582433,
+    "uncertainty_vs_abs_error_spearman": 0.0150093808630394,
+    "novelty_vs_realized_reward_spearman": -0.2455179689579943,
+    "by_generation_method": {
+      "existing_pool_selection": {
+        "count": 8,
+        "mean_abs_error": 0.06998168079443343,
+        "mean_realized_reward": 0.7042162698412698
+      },
+      "offline_mutation_or_pointer_proxy": {
+        "count": 32,
+        "mean_abs_error": 0.11434294249756174,
+        "mean_realized_reward": 0.7006305219318658
+      }
+    }
+  },
+  "maturity_audit_summary": {
+    "headline": "After Run71, combined520 has N12=64, N16=64, N24=188, and N40=204; full variable-N evidence is stronger, but N12/N16 remain the limiting under-sampled regimes relative to mature N24/N40 anchors.",
+    "n24_teacher_rows": 188,
+    "n40_teacher_rows": 204,
+    "n32_legacy_teacher_rows": 332,
+    "n12_teacher_rows": 64,
+    "n16_teacher_rows": 64,
+    "run71_new_best_count_vs_combined480": 13,
+    "full_variable_n_evidence_stronger_after_run71": true,
+    "n24_n40_evidence_frozen_anchor_status": true,
+    "gnn_pointer_auxiliary_only": true,
+    "n24_n40_mature_for_bounded_active_learning_evidence": true,
+    "full_variable_n_rl_maturity_limited_by_n12_n16": true,
+    "safe_paper_claim": "Run71 strengthens small-N evidence while preserving mature N24/N40 anchors; full variable-N maturity should still be bounded by N12/N16 evidence density.",
+    "prediction_calibration_summary": {
+      "headline": "Run68/Run69 prediction calibration was evaluated on realized Run71 variable-N labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+      "overall_reward_spearman": 0.33477244418029467,
+      "overall_penalty_repair_spearman": 0.34292152652139085,
+      "mean_top5_overlap": 0.4444444444444444,
+      "top1_hits": 1,
+      "by_candidate_source": {
+        "N12_local_search_around_Run66_best": {
+          "count": 3,
+          "mean_abs_error": 0.04458844001226173,
+          "mean_realized_reward": 0.737037037037037
+        },
+        "N12_recovery_diversity": {
+          "count": 1,
+          "mean_abs_error": 0.12732966879509033,
+          "mean_realized_reward": 0.8873015873015874
+        },
+        "N12_recovery_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.08837173236493867,
+          "mean_realized_reward": 0.6968253968253968
+        },
+        "N12_recovery_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.19973734057584,
+          "mean_realized_reward": 0.5196428571428572
+        },
+        "N12_recovery_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.05392209480238461,
+          "mean_realized_reward": 0.7165674603174602
+        },
+        "N12_recovery_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.1399393141689038,
+          "mean_realized_reward": 0.6063492063492063
+        },
+        "N12_recovery_uncertainty": {
+          "count": 1,
+          "mean_abs_error": 0.1426670944378715,
+          "mean_realized_reward": 0.89484126984127
+        },
+        "N16_local_search_around_Run66_best": {
+          "count": 3,
+          "mean_abs_error": 0.07420142420987064,
+          "mean_realized_reward": 0.8501322751322752
+        },
+        "N16_recovery_diversity": {
+          "count": 1,
+          "mean_abs_error": 0.013337989491808866,
+          "mean_realized_reward": 0.8376984126984127
+        },
+        "N16_recovery_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.1377437689969605,
+          "mean_realized_reward": 0.7603174603174603
+        },
+        "N16_recovery_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.21554856467409655,
+          "mean_realized_reward": 0.6851190476190476
+        },
+        "N16_recovery_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.08604126678648225,
+          "mean_realized_reward": 0.6918650793650793
+        },
+        "N16_recovery_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.13013211752786233,
+          "mean_realized_reward": 0.7230158730158731
+        },
+        "N16_recovery_uncertainty": {
+          "count": 1,
+          "mean_abs_error": 0.1285230665315772,
+          "mean_realized_reward": 0.7968253968253968
+        },
+        "N24_frozen_top_density_reference": {
+          "count": 2,
+          "mean_abs_error": 0.058684788275264466,
+          "mean_realized_reward": 0.7090909090909091
+        },
+        "N24_uncertainty_anchor": {
+          "count": 2,
+          "mean_abs_error": 0.052807486631015976,
+          "mean_realized_reward": 0.732620320855615
+        },
+        "N40_frozen_u2_reward_reference": {
+          "count": 2,
+          "mean_abs_error": 0.1523399014778325,
+          "mean_realized_reward": 0.7605911330049261
+        },
+        "N40_sentinel_control": {
+          "count": 1,
+          "mean_abs_error": 0.07772852375232558,
+          "mean_realized_reward": 0.07118226600985222
+        },
+        "N40_uncertainty_anchor": {
+          "count": 1,
+          "mean_abs_error": 0.19233676316470943,
+          "mean_realized_reward": 0.4543103448275862
+        }
+      },
+      "by_selection_bucket": {
+        "N12_local_search_around_Run66_best": {
+          "count": 3,
+          "mean_abs_error": 0.04458844001226173,
+          "mean_realized_reward": 0.737037037037037
+        },
+        "N12_recovery_diversity": {
+          "count": 1,
+          "mean_abs_error": 0.12732966879509033,
+          "mean_realized_reward": 0.8873015873015874
+        },
+        "N12_recovery_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.08837173236493867,
+          "mean_realized_reward": 0.6968253968253968
+        },
+        "N12_recovery_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.19973734057584,
+          "mean_realized_reward": 0.5196428571428572
+        },
+        "N12_recovery_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.05392209480238461,
+          "mean_realized_reward": 0.7165674603174602
+        },
+        "N12_recovery_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.1399393141689038,
+          "mean_realized_reward": 0.6063492063492063
+        },
+        "N12_recovery_uncertainty": {
+          "count": 1,
+          "mean_abs_error": 0.1426670944378715,
+          "mean_realized_reward": 0.89484126984127
+        },
+        "N16_local_search_around_Run66_best": {
+          "count": 3,
+          "mean_abs_error": 0.07420142420987064,
+          "mean_realized_reward": 0.8501322751322752
+        },
+        "N16_recovery_diversity": {
+          "count": 1,
+          "mean_abs_error": 0.013337989491808866,
+          "mean_realized_reward": 0.8376984126984127
+        },
+        "N16_recovery_penalty_aware": {
+          "count": 2,
+          "mean_abs_error": 0.1377437689969605,
+          "mean_realized_reward": 0.7603174603174603
+        },
+        "N16_recovery_reward_balanced": {
+          "count": 2,
+          "mean_abs_error": 0.21554856467409655,
+          "mean_realized_reward": 0.6851190476190476
+        },
+        "N16_recovery_surrogate_top": {
+          "count": 4,
+          "mean_abs_error": 0.08604126678648225,
+          "mean_realized_reward": 0.6918650793650793
+        },
+        "N16_recovery_u2_safe": {
+          "count": 3,
+          "mean_abs_error": 0.13013211752786233,
+          "mean_realized_reward": 0.7230158730158731
+        },
+        "N16_recovery_uncertainty": {
+          "count": 1,
+          "mean_abs_error": 0.1285230665315772,
+          "mean_realized_reward": 0.7968253968253968
+        },
+        "N24_frozen_top_density_reference": {
+          "count": 2,
+          "mean_abs_error": 0.058684788275264466,
+          "mean_realized_reward": 0.7090909090909091
+        },
+        "N24_uncertainty_anchor": {
+          "count": 2,
+          "mean_abs_error": 0.052807486631015976,
+          "mean_realized_reward": 0.732620320855615
+        },
+        "N40_frozen_u2_reward_reference": {
+          "count": 2,
+          "mean_abs_error": 0.1523399014778325,
+          "mean_realized_reward": 0.7605911330049261
+        },
+        "N40_sentinel_control": {
+          "count": 1,
+          "mean_abs_error": 0.07772852375232558,
+          "mean_realized_reward": 0.07118226600985222
+        },
+        "N40_uncertainty_anchor": {
+          "count": 1,
+          "mean_abs_error": 0.19233676316470943,
+          "mean_realized_reward": 0.4543103448275862
+        }
+      },
+      "disagreement_vs_abs_error_spearman": 0.297554849582433,
+      "uncertainty_vs_abs_error_spearman": 0.0150093808630394,
+      "novelty_vs_realized_reward_spearman": -0.2455179689579943,
+      "by_generation_method": {
+        "existing_pool_selection": {
+          "count": 8,
+          "mean_abs_error": 0.06998168079443343,
+          "mean_realized_reward": 0.7042162698412698
+        },
+        "offline_mutation_or_pointer_proxy": {
+          "count": 32,
+          "mean_abs_error": 0.11434294249756174,
+          "mean_realized_reward": 0.7006305219318658
+        }
+      }
+    }
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\RUN_72_SMALLN_RECOVERY_FOCUSED_BATCH40_TEACHER_METRICS_INGESTION_AND_COMBINED520_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run72_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation_performed_by_run72": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true
+}

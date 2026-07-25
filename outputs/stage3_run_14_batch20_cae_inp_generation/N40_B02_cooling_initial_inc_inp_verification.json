@@ -1,0 +1,45 @@
+{
+  "verdict": "PASS_N40_B02_COOLING_INITIAL_INC_0P01_VERIFIED",
+  "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.inp",
+  "cool_step_count": 40,
+  "failures": [],
+  "sample_records": [
+    {
+      "step": "step_cool_00",
+      "procedure_line": "*Coupled Temperature-displacement, creep=none, deltmx=400.",
+      "parameter_line": "0.01, 3.4, 3.4e-30, 0.2",
+      "initial_increment": 0.01,
+      "time_period": 3.4,
+      "max_increment": 0.2
+    },
+    {
+      "step": "step_cool_16",
+      "procedure_line": "*Coupled Temperature-displacement, creep=none, deltmx=400.",
+      "parameter_line": "0.01, 3.4, 3.4e-30, 0.2",
+      "initial_increment": 0.01,
+      "time_period": 3.4,
+      "max_increment": 0.2
+    },
+    {
+      "step": "step_cool_39",
+      "procedure_line": "*Coupled Temperature-displacement, creep=none, deltmx=400.",
+      "parameter_line": "0.01, 3.4, 3.4e-30, 0.2",
+      "initial_increment": 0.01,
+      "time_period": 3.4,
+      "max_increment": 0.2
+    }
+  ],
+  "final_cooling_lines": [
+    "*Step, name=step_final_cooling, nlgeom=YES, inc=999999",
+    "*Coupled Temperature-displacement, creep=none, deltmx=400.",
+    "0.01, 1200., 3.4e-30, 60."
+  ],
+  "solver_counts_present_but_not_modified": {
+    ".odb": 1,
+    ".sim": 0,
+    ".sta": 1,
+    ".dat": 1,
+    ".msg": 1,
+    ".lck": 0
+  }
+}

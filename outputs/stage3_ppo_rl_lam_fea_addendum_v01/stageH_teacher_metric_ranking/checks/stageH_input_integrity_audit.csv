@@ -1,0 +1,30 @@
+check,passed,severity,detail
+stageG_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageG_odb_teacher_metrics\tables\stageG_ppo_batch32_teacher_metrics.csv
+stageD_selected_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\ppo_candidate_generation\selected_batch32\ppo_policy_only_candidate_batch32.csv
+combined552_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv
+stageG_row_count_32,True,FAIL,rows=32
+stageD_row_count_32,True,FAIL,rows=32
+combined552_row_count_552,True,FAIL,rows=552
+stageG_no_N32,True,FAIL,"[np.int64(12), np.int64(16), np.int64(24), np.int64(40)]"
+stageD_no_N32,True,FAIL,"[np.int64(12), np.int64(16), np.int64(24), np.int64(40)]"
+combined552_no_N32_primary,True,FAIL,"[np.int64(12), np.int64(16), np.int64(24), np.int64(40)]"
+stageG_counts_by_N,True,FAIL,"{12: 8, 16: 8, 24: 8, 40: 8}"
+stageD_counts_by_N,True,FAIL,"{12: 8, 16: 8, 24: 8, 40: 8}"
+combined552_counts_by_N,True,FAIL,"{12: 78, 16: 78, 24: 190, 40: 206}"
+stageG_metric_u2_range_mapped,True,FAIL,u2_range
+combined552_metric_u2_range_mapped,True,FAIL,u2_range
+stageG_metric_peeq_max_mapped,True,FAIL,peeq_max
+combined552_metric_peeq_max_mapped,True,FAIL,peeq_max
+stageG_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy_max_tensile_pa
+combined552_metric_surface_t_proxy_mapped,True,FAIL,surface_t_proxy
+stageG_metric_mises_max_mapped,True,FAIL,mises_max
+combined552_metric_mises_max_mapped,True,FAIL,mises_max
+stageG_extraction_success_32,True,FAIL,{'PASS_ODB_FINAL_FRAME_EXTRACTED': 32}
+stageG_teacher_status_mappable,True,FAIL,{'PASS_TEACHER_FIELDS_EXTRACTED': 32}
+stageG_final_step_metadata_available,True,WARNING,final_step_name/final_frame_time
+stageG_required_fields_U_PEEQ_S_NT_visible,True,WARNING,checked extracted_field_names
+stageD_stageG_strategy_names_match,True,FAIL,missing_in_G=[] missing_in_D=[]
+stageD_candidate_source_all_PPO,True,FAIL,{'PPO_checkpoint_inference': 32}
+stageD_predicted_surrogate_reward_lex_exists,True,FAIL,predicted_surrogate_reward_lex
+stageD_order_hash_exists,True,FAIL,order_hash
+recovery_anchor_duplicate_flag_exists,True,WARNING,PPOV01_N12_B02_surrogate_top

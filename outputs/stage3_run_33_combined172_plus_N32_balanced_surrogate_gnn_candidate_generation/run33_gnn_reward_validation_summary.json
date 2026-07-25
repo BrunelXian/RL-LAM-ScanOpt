@@ -1,0 +1,35 @@
+{
+  "status": "RUN33_GNN_REWARD_MODEL_TRAINED",
+  "model": "plain PyTorch order-graph message-passing reward model",
+  "best_regime": {
+    "regime": "plus_N32_unweighted",
+    "macro_spearman": 0.7850523406848685,
+    "macro_top5_overlap": 1.6,
+    "n40_spearman": 0.8321515760427128
+  },
+  "by_regime": [
+    {
+      "regime": "native_only_combined172",
+      "macro_spearman": 0.7701014403090596,
+      "macro_top5_overlap": 1.0,
+      "n40_spearman": 0.8127096728963578
+    },
+    {
+      "regime": "plus_N32_unweighted",
+      "macro_spearman": 0.7850523406848685,
+      "macro_top5_overlap": 1.6,
+      "n40_spearman": 0.8321515760427128
+    },
+    {
+      "regime": "plus_N32_balanced",
+      "macro_spearman": 0.7703917943783963,
+      "macro_top5_overlap": 1.0,
+      "n40_spearman": 0.8214775900015767
+    }
+  ],
+  "run29_reference": {
+    "gnn_macro_spearman": 0.7445,
+    "gnn_top5_overlap": 1.0
+  },
+  "improved_vs_run29": true
+}

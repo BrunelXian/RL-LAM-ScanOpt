@@ -1,0 +1,33 @@
+{
+  "verdict": "WARNING_PROBE60_GENERATION_PREFLIGHT_PARTIAL",
+  "manifest": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_manual_probe60_handoff\\variable_N_probe60_case_manifest_FIXED.csv",
+  "manifest_rows": 60,
+  "scan_order_files_found": 60,
+  "n_counts": {
+    "12": 15,
+    "16": 15,
+    "24": 15,
+    "40": 15
+  },
+  "current_inp_count_before_generation": 15,
+  "base_cae_files_exist": {
+    "12": true,
+    "16": true,
+    "24": true,
+    "40": true
+  },
+  "base_jnl_files_exist": {
+    "12": true,
+    "16": true,
+    "24": true,
+    "40": true
+  },
+  "errors": [],
+  "warnings": [
+    "current INP count is partial: 15"
+  ],
+  "outputs": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\probe60_generation_preflight.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\probe60_generation_preflight_summary.json"
+  }
+}

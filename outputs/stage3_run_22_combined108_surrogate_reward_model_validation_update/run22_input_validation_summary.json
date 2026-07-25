@@ -1,0 +1,1 @@
+{"verdict":"PASS_RUN22_INPUTS_READY_108_ROWS_COMBINED_SURROGATE_TABLE","errors":[],"total_rows":108,"per_n_counts":{"12":24,"16":24,"24":30,"40":30},"dataset_sources":["batch20_run14","batch28_run20","probe60_run08"],"special_case_n40_u2_rank1":true}

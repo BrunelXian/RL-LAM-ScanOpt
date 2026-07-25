@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS_STAGEF_PPO_BATCH32_READY_TO_ENQUEUE",
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\commands\\stageE_ppo_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_policy_only_batch32_v01",
+  "command_count": 32,
+  "n_distribution": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "expected_distribution": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "existing_solver_output_count": 0,
+  "existing_solver_outputs": [],
+  "active_lck_count": 0,
+  "active_lck_files": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageF_solver_execution\\checks\\stageF_pre_submit_audit.csv",
+  "errors": [],
+  "warnings": []
+}

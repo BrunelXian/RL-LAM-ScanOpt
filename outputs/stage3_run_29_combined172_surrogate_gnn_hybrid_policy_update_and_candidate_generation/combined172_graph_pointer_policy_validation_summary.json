@@ -1,0 +1,43 @@
+{
+  "status": "GRAPH_POINTER_POLICY_WEIGHTED_IMITATION_TRAINED",
+  "training_method": "offline weighted behavior cloning on combined172",
+  "validation": [
+    {
+      "n": 12,
+      "teacher_rows": 32,
+      "mean_teacher_action_nll": 1.4388792697767105,
+      "reward_weighted_nll": 1.4851033516326526,
+      "top_action_accuracy": 0.4739583333333333,
+      "run26_reference_nll": 1.404,
+      "delta_vs_run26_nll": 0.03487926977671063
+    },
+    {
+      "n": 16,
+      "teacher_rows": 32,
+      "mean_teacher_action_nll": 1.5660797477903543,
+      "reward_weighted_nll": 1.5097746248668809,
+      "top_action_accuracy": 0.5078125,
+      "run26_reference_nll": 1.57,
+      "delta_vs_run26_nll": -0.003920252209645758
+    },
+    {
+      "n": 24,
+      "teacher_rows": 54,
+      "mean_teacher_action_nll": 1.6925736340625142,
+      "reward_weighted_nll": 1.6241289659362037,
+      "top_action_accuracy": 0.5123456790123457,
+      "run26_reference_nll": 1.944,
+      "delta_vs_run26_nll": -0.2514263659374858
+    },
+    {
+      "n": 40,
+      "teacher_rows": 54,
+      "mean_teacher_action_nll": 2.2614135836192872,
+      "reward_weighted_nll": 2.067937859447584,
+      "top_action_accuracy": 0.48333333333333334,
+      "run26_reference_nll": 2.297,
+      "delta_vs_run26_nll": -0.035586416380712915
+    }
+  ],
+  "no_online_rl": true
+}

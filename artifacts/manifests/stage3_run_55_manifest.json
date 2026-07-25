@@ -1,0 +1,65 @@
+{
+  "run_id": "run_55_calibrated_N24_N40_batch64_cae_inp_generation",
+  "run_name": "run_55_calibrated_N24_N40_batch64_cae_inp_generation",
+  "timestamp": "2026-06-15T21:27:02.5908319+08:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_55_preflight_calibrated_N24_N40_batch64_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_55_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_55_generate_calibrated_N24_N40_batch64_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_55_check_calibrated_N24_N40_batch64_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_55_validate_calibrated_N24_N40_batch64_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_orders": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_54_run53_calibrated_N24_N40_batch64_handoff_package\\stage3_run54_calibrated_N24_N40_batch64_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_54_run53_calibrated_N24_N40_batch64_handoff_package\\scan_orders",
+    "run54_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_54_run53_calibrated_N24_N40_batch64_handoff_package\\RUN_54_RUN53_CALIBRATED_N24_N40_BATCH64_HANDOFF_PACKAGE_REPORT.md"
+  },
+  "output_files": {
+    "preflight_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_preflight_summary.json",
+    "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_future_cae_root_safety_audit.json",
+    "base_mesh_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_base_mesh_audit_summary.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_cae_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_cae_generation_manifest.json",
+    "generated_inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_generated_inp_check_summary.json",
+    "generated_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_claim_boundary.md",
+    "claim_boundary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\run55_claim_boundary.json",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_55_calibrated_N24_N40_batch64_cae_inp_generation\\RUN_55_CALIBRATED_N24_N40_BATCH64_CAE_INP_GENERATION_REPORT.md"
+  },
+  "selected_batch": "run53_calibrated_N24_N40_batch64",
+  "batch_name": "stage3_run54_calibrated_N24_N40_batch64_v01",
+  "generated_case_count": 64,
+  "per_n_generated_counts": {
+    "N24": 32,
+    "N40": 32
+  },
+  "includes_N12": false,
+  "includes_N16": false,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "calibrated_batch64": true,
+  "overnight_batch64": true,
+  "generated_CAE_count": 64,
+  "generated_INP_count": 64,
+  "generated_JNL_count": 64,
+  "generated_log_count": 64,
+  "inp_checker_verdict": "PASS_RUN55_CALIBRATED_N24_N40_BATCH64_64_INPS_READY_FOR_USER_REVIEW",
+  "command_validation_verdict": "PASS_RUN55_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "final_cooling_controls": {
+    "timePeriod": 1200.0,
+    "initialInc": 0.01,
+    "maxInc": 60.0
+  },
+  "n40_cool_step_initialInc": 0.001,
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-17T00:02:07.668746+00:00",
+  "verdict": "PASS_RUN62_CUSTOM_N40_FOCUSED_BATCH40_TEACHER_METRICS_40_OF_40_READY",
+  "errors": [],
+  "run61_teacher_rows": 40,
+  "run61_per_N_counts": {
+    "24": 16,
+    "40": 24
+  },
+  "combined392_rows": 392,
+  "combined392_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 160,
+    "40": 160
+  },
+  "combined392_plus_N32_rows": 724,
+  "combined392_plus_N32_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 160,
+    "32": 332,
+    "40": 160
+  },
+  "run61_contains_N12": false,
+  "run61_contains_N16": false,
+  "run61_contains_N32": false
+}

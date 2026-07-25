@@ -1,0 +1,19 @@
+{
+  "verdict": "RUN38_MODEL_UPDATE_AND_CANDIDATE_GENERATION_ONLY_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "Run38 updates offline models using native combined204 and combined204_plus_N32.",
+    "Run38 evaluates whether N32-augmented training helps native-N prediction after Run36 validation.",
+    "Run38 generates candidate-order batches for future teacher validation.",
+    "Run38 does not include teacher validation for new candidates."
+  ],
+  "unsafe_claims": [
+    "new candidates are teacher-validated.",
+    "N32 itself was newly validated.",
+    "N32 caused improvement unless supported by diagnostic metrics.",
+    "GNN-RL superiority.",
+    "online RL.",
+    "arbitrary-N generalization.",
+    "physical superiority.",
+    "Abaqus was run."
+  ]
+}

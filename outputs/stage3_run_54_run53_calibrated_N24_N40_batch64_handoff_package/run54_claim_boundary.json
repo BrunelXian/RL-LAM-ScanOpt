@@ -1,0 +1,23 @@
+{
+  "verdict": "RUN54_HANDOFF_ONLY_CALIBRATED_N24_N40_BATCH64_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "Run54 packages selected Run53 primary calibrated N24/N40 batch64 candidates for human review and future CAE generation.",
+    "The selected batch contains N24=32 and N40=32.",
+    "No N12, N16, or N32 candidates are included.",
+    "The batch is designed to test calibrated N24 U2 retention, N40 strict/reward retention, and penalty repair.",
+    "Handoff files include scan orders, metadata, future CAE manifest template, and abqjobpilot command template.",
+    "No CAE/INP files were generated."
+  ],
+  "unsafe_claims": [
+    "Do not claim candidates are teacher-validated.",
+    "Do not claim physical superiority.",
+    "Do not claim N32 caused improvement.",
+    "Do not claim GNN-RL has beaten baselines.",
+    "Do not claim online RL with Abaqus.",
+    "Do not claim arbitrary-N generalization.",
+    "Do not claim surrogate/GNN/hybrid predictions are ground truth.",
+    "Do not claim abqjobpilot commands are ready to execute.",
+    "Do not claim CAE/INP files exist.",
+    "Do not claim batch64 will improve teacher metrics before validation."
+  ]
+}

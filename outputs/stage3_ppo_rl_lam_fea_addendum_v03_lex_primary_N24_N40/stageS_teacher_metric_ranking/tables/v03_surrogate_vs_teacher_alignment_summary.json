@@ -1,0 +1,35 @@
+{
+  "overall_predicted_lex_spearman": -0.27106733427878493,
+  "overall_predicted_lex_pearson": 0.03435529663511054,
+  "overall_u2_guarded_spearman": -0.11302192338349885,
+  "overall_u2_guarded_pearson": 0.07717928212971367,
+  "overall_final_v03_score_spearman": -0.29385700079709703,
+  "overall_final_v03_score_pearson": 0.03980876366213898,
+  "false_positive_count": 8,
+  "true_positive_count": 1,
+  "teacher_surfaceT_only_false_positive_count": 5,
+  "by_N": {
+    "24": {
+      "lex_score_spearman": -0.052363769589812176,
+      "lex_score_pearson": 0.11110451853012317,
+      "u2_guarded_spearman": -0.15110687795917227,
+      "u2_guarded_pearson": 0.04664910781707962,
+      "final_score_spearman": -0.06134041580520855,
+      "final_score_pearson": 0.11674124186370416,
+      "false_positive_count": 8,
+      "true_positive_count": 1,
+      "teacher_surfaceT_only_false_positive_count": 5
+    },
+    "40": {
+      "lex_score_spearman": -0.15841515829311514,
+      "lex_score_pearson": -0.09158605073854534,
+      "u2_guarded_spearman": 0.38336468306933863,
+      "u2_guarded_pearson": 0.17488658086080547,
+      "final_score_spearman": -0.23287028269087925,
+      "final_score_pearson": -0.006710805090173425,
+      "false_positive_count": 0,
+      "true_positive_count": 0,
+      "teacher_surfaceT_only_false_positive_count": 0
+    }
+  }
+}

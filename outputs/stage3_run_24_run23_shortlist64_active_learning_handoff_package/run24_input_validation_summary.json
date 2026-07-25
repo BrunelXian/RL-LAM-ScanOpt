@@ -1,0 +1,34 @@
+{
+  "verdict": "PASS_RUN24_SHORTLIST64_INPUT_READY",
+  "selected_batch": "shortlist64",
+  "row_count": 64,
+  "per_n_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "n24_n40_count": 48,
+  "bucket_composition": {
+    "top_region_local_search": 14,
+    "model_disagreement": 10,
+    "uncertainty_calibration": 10,
+    "diversity_coverage": 10,
+    "tradeoff_probe": 8,
+    "sentinel_control": 6,
+    "exploitation_reference": 6
+  },
+  "family_composition": {
+    "known_best_mutation": 50,
+    "combined108_seed_mutation": 2,
+    "teacher_best_local_search": 6,
+    "negative_control_low_adjacent": 1,
+    "geometry_signal_center_bias": 1,
+    "diversity_random": 1,
+    "geometry_signal_parity_switch": 3
+  },
+  "errors": [],
+  "warnings": [],
+  "duplicate_candidate_ids": [],
+  "selected_batch_is_shortlist64_not_batch32_or_batch24": true
+}

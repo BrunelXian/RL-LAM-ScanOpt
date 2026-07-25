@@ -1,0 +1,69 @@
+{
+  "deleted": {
+    "N16": {
+      "*.cae": 15,
+      "*.inp": 15,
+      "*.jnl": 15,
+      "*.generation_log.json": 15
+    },
+    "N24": {
+      "*.cae": 15,
+      "*.inp": 15,
+      "*.jnl": 15,
+      "*.generation_log.json": 15
+    },
+    "N40": {
+      "*.cae": 15,
+      "*.inp": 15,
+      "*.jnl": 15,
+      "*.generation_log.json": 15
+    }
+  },
+  "pre_n12": {
+    "*.cae": 15,
+    "*.inp": 15,
+    "*.jnl": 15,
+    "*.generation_log.json": 15,
+    "scan_order_*.json": 15
+  },
+  "post_counts": {
+    "N12": {
+      "cae": 15,
+      "inp": 15,
+      "jnl": 15,
+      "generation_logs": 15,
+      "scan_order_json": 15,
+      "case_dirs": 15,
+      "active_solver_outputs": 60
+    },
+    "N16": {
+      "cae": 0,
+      "inp": 0,
+      "jnl": 0,
+      "generation_logs": 0,
+      "scan_order_json": 15,
+      "case_dirs": 15,
+      "active_solver_outputs": 0
+    },
+    "N24": {
+      "cae": 0,
+      "inp": 0,
+      "jnl": 0,
+      "generation_logs": 0,
+      "scan_order_json": 15,
+      "case_dirs": 15,
+      "active_solver_outputs": 0
+    },
+    "N40": {
+      "cae": 0,
+      "inp": 0,
+      "jnl": 0,
+      "generation_logs": 0,
+      "scan_order_json": 15,
+      "case_dirs": 15,
+      "active_solver_outputs": 0
+    }
+  },
+  "n16_n24_n40_scan_order_total": 45,
+  "n12_unchanged_generated_artifact_counts": true
+}

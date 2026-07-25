@@ -1,0 +1,36 @@
+{
+  "package_name": "RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01",
+  "package_root": "E:\\Projects\\RL-LAM-ScanOpt\\CHATGPT_PROJECT_UPLOAD\\RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01",
+  "created_timestamp": "2026-07-18T20:23:17",
+  "project_root": "E:\\Projects\\RL-LAM-ScanOpt",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "final_verdict": "PASS_CHATGPT_PROJECT_UPLOAD_PACKAGE_READY",
+  "final_ppo_pool_count": 320,
+  "by_N_counts": {
+    "N12": 40,
+    "N16": 40,
+    "N24": 120,
+    "N40": 120
+  },
+  "new_records_vs_combined552": 0,
+  "bootstrap_interpretation": "weak",
+  "writing_paths": {
+    "master_readme": "E:\\Projects\\RL-LAM-ScanOpt\\CHATGPT_PROJECT_UPLOAD\\RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01\\08_WRITING_BRIEF\\CHATGPT_PROJECT_MASTER_README.md",
+    "one_page_summary": "E:\\Projects\\RL-LAM-ScanOpt\\CHATGPT_PROJECT_UPLOAD\\RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01\\08_WRITING_BRIEF\\PPO_FINAL_320_ONE_PAGE_SUMMARY.md",
+    "safe_paragraph": "E:\\Projects\\RL-LAM-ScanOpt\\CHATGPT_PROJECT_UPLOAD\\RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01\\08_WRITING_BRIEF\\PPO_FINAL_320_SAFE_MANUSCRIPT_PARAGRAPH.md",
+    "do_not_claim": "E:\\Projects\\RL-LAM-ScanOpt\\CHATGPT_PROJECT_UPLOAD\\RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01\\08_WRITING_BRIEF\\PPO_FINAL_320_DO_NOT_CLAIM.md",
+    "terminology_guide": "E:\\Projects\\RL-LAM-ScanOpt\\CHATGPT_PROJECT_UPLOAD\\RL_LAM_ScanOpt_PPO_Final_320_Evidence_Package_v01\\08_WRITING_BRIEF\\PPO_FINAL_320_TERMINOLOGY_GUIDE.md"
+  },
+  "plot_info": {
+    "plots_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots",
+    "plot_count": 9,
+    "total_size": 434375,
+    "copied": true
+  },
+  "no_large_solver_files_included": true,
+  "no_ODB": true,
+  "no_CAE": true,
+  "no_INP": true,
+  "no_solver_outputs": true,
+  "no_commit_or_push": true
+}

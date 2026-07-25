@@ -1,0 +1,60 @@
+{
+  "headline": "N24/N40 now have 160 native teacher rows each, enough to support a stronger offline active-learning/RL evidence freeze for those N values, while N12/N16 remain under-sampled anchors.",
+  "n24_teacher_rows": 160,
+  "n40_teacher_rows": 160,
+  "n32_legacy_teacher_rows": 332,
+  "n12_teacher_rows": 36,
+  "n16_teacher_rows": 36,
+  "n24_n40_mature_for_offline_active_learning_evidence": true,
+  "full_variable_n_rl_maturity_limited_by_n12_n16": true,
+  "recent_new_best_count_vs_combined328": 5,
+  "prediction_calibration_summary": {
+    "prediction_column_used_for_reward": "calibrated_reward_prediction",
+    "prediction_column_used_for_u2": "u2_primary_prediction",
+    "overall_reward_spearman": 0.36598957753742745,
+    "overall_constrained_reward_spearman": 0.3646495547986616,
+    "overall_strict_penalty_guard_spearman": 0.3459804530113443,
+    "overall_u2_spearman": 0.38941962588204915,
+    "overall_peeq_spearman": 0.1937741121094413,
+    "overall_surfaceT_spearman": 0.12729786866691412,
+    "overall_mises_spearman": 0.16766160445410946,
+    "top1_hit": "0/2",
+    "mean_top5_overlap": 2.0,
+    "per_n": {
+      "N24": {
+        "count": 32,
+        "reward_spearman": 0.3420287515669539,
+        "constrained_reward_spearman": 0.2670163026707567,
+        "strict_penalty_guard_spearman": 0.13776668296198463,
+        "penalty_repair_spearman": 0.0323292482684124,
+        "top5_overlap": 2,
+        "predicted_top1": "S3R54CAL64_N24_B01_n24_u2ret_top",
+        "realized_top1": "S3R54CAL64_N24_B04_n24_u2ret_top",
+        "u2_spearman": 0.44190161129074285,
+        "peeq_spearman": -0.1382682488078973,
+        "surfaceT_spearman": -0.22475550242464915,
+        "mises_spearman": 0.23466831313688336
+      },
+      "N40": {
+        "count": 32,
+        "reward_spearman": 0.6928807615202631,
+        "constrained_reward_spearman": 0.6862884526525841,
+        "strict_penalty_guard_spearman": 0.6527646662027878,
+        "penalty_repair_spearman": 0.6222616444176109,
+        "top5_overlap": 2,
+        "predicted_top1": "S3R54CAL64_N40_B24_peeq_repair",
+        "realized_top1": "S3R54CAL64_N40_B25_peeq_repair",
+        "u2_spearman": 0.690061823726965,
+        "peeq_spearman": 0.47508852629704545,
+        "surfaceT_spearman": 0.6171675910687677,
+        "mises_spearman": 0.06084825588374554
+      }
+    },
+    "by_selection_bucket": {},
+    "overall_penalty_repair_spearman": 0.30932022359614836,
+    "gnn_vs_surrogate_disagreement_vs_abs_error_spearman": -0.11667190487353653,
+    "uncertainty_score_vs_abs_error_spearman": 0.15082417582417582,
+    "novelty_distance_vs_abs_error_spearman": 0.47922425172505123
+  },
+  "safe_paper_claim": "N24/N40 have substantially denser native teacher labels and repeated active-learning loops; full variable-N maturity remains limited by N12/N16 sample counts."
+}

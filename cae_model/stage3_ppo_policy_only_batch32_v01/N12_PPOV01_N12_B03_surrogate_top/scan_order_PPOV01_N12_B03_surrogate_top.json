@@ -1,0 +1,33 @@
+{
+  "batch": "stage3_ppo_policy_only_batch32_v01",
+  "n": 12,
+  "strategy_name": "PPOV01_N12_B03_surrogate_top",
+  "job_name": "J2D_PPOV01_N12_B03_surrogate_top",
+  "scan_order": [
+    11,
+    3,
+    1,
+    9,
+    7,
+    5,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "order_json": "[11,3,1,9,7,5,0,2,4,6,8,10]",
+  "order_compact": "11,3,1,9,7,5,0,2,4,6,8,10",
+  "candidate_source": "PPO_checkpoint_inference",
+  "ppo_checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\checkpoints\\maskable_ppo_lam_scan_order_final.zip",
+  "predicted_surrogate_reward_lex": 0.8505970487716251,
+  "generation_mode": "stochastic",
+  "selection_tag": "surrogate_top",
+  "order_hash": "6e4c9be2abad539c",
+  "duplicate_vs_combined552": false,
+  "duplicate_role": "",
+  "teacher_validated": false,
+  "abaqus_validated": false,
+  "notes": "PPO-generated Stage D candidate converted for Stage E Abaqus teacher-validation handoff; not physically validated yet."
+}

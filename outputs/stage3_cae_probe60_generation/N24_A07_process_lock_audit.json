@@ -1,0 +1,681 @@
+{
+  "timestamp": "2026-06-12T01:41:11",
+  "case_dir": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime",
+  "process_audit_command_returncode": 0,
+  "process_audit_stderr": "",
+  "matched_abaqus_related_processes": [
+    {
+      "ProcessId": 3648,
+      "ParentProcessId": 4,
+      "Name": "Memory Compression",
+      "CommandLine": null,
+      "CreationDate": "/Date(1781170326138)/"
+    },
+    {
+      "ProcessId": 6016,
+      "ParentProcessId": 6944,
+      "Name": "ABAQUSLM.exe",
+      "CommandLine": null,
+      "CreationDate": "/Date(1781170326767)/"
+    },
+    {
+      "ProcessId": 11408,
+      "ParentProcessId": 11520,
+      "Name": "NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=gpu-process --no-sandbox --start-stack-profiler --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --gpu-preferences=UAAAAAAAAADgAQAMAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --field-trial-handle=2536,i,14532875358054289018,5752933001580980311,262144 --variations-seed-version --enable-logging=handle --log-file=2540 --mojo-platform-channel-handle=2532 /prefetch:2",
+      "CreationDate": "/Date(1781170335966)/"
+    },
+    {
+      "ProcessId": 11324,
+      "ParentProcessId": 11520,
+      "Name": "NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --start-stack-profiler --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --field-trial-handle=2712,i,14532875358054289018,5752933001580980311,262144 --variations-seed-version --enable-logging=handle --log-file=2728 --mojo-platform-channel-handle=2724 /prefetch:11",
+      "CreationDate": "/Date(1781170335982)/"
+    },
+    {
+      "ProcessId": 11972,
+      "ParentProcessId": 11520,
+      "Name": "NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --field-trial-handle=2900,i,14532875358054289018,5752933001580980311,262144 --variations-seed-version --enable-logging=handle --log-file=2908 --mojo-platform-channel-handle=2352 /prefetch:13",
+      "CreationDate": "/Date(1781170336085)/"
+    },
+    {
+      "ProcessId": 11740,
+      "ParentProcessId": 11520,
+      "Name": "NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=renderer --enable-dinosaur-easter-egg-alt-images --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --start-stack-profiler --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --no-sandbox --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1781170307721889 --launch-time-ticks=28595457 --field-trial-handle=4396,i,14532875358054289018,5752933001580980311,262144 --variations-seed-version --enable-logging=handle --log-file=4416 --mojo-platform-channel-handle=4412 /prefetch:1",
+      "CreationDate": "/Date(1781170336328)/"
+    },
+    {
+      "ProcessId": 14916,
+      "ParentProcessId": 9912,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --embedded-browser-webview=1 --webview-exe-name=SearchHost.exe --webview-exe-version=2604.28014.500.0 --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\" --noerrdialogs --disable-features=msSmartScreenProtection --edge-webview-enable-mojo-ipcz --enable-features=msEdgeFluentOverlayScrollbar --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.8655) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26200 IsWebView2/True (WebView2Version 149.0.4022.62)\" --lang=zh-Hans-CN --mojo-named-platform-channel-pipe=9912.15112.14071683924372768472 /pfhostedapp:f3da6694d36ac8115f28a59a63895e70a51af462",
+      "CreationDate": "/Date(1781170379115)/"
+    },
+    {
+      "ProcessId": 15420,
+      "ParentProcessId": 14916,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=crashpad-handler --user-data-dir=C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView /prefetch:4 /pfhostedapp:f3da6694d36ac8115f28a59a63895e70a51af462 --monitor-self-annotation=ptype=crashpad-handler --database=C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=149.0.7827.103 \"--annotation=exe=C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --annotation=plat=Win64 \"--annotation=prod=Edge WebView2\" --annotation=ver=149.0.4022.62 --initial-client-data=0x174,0x178,0x17c,0x154,0x184,0x7ffdd5eb9c38,0x7ffdd5eb9c44,0x7ffdd5eb9c50",
+      "CreationDate": "/Date(1781170379174)/"
+    },
+    {
+      "ProcessId": 16184,
+      "ParentProcessId": 14916,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --noerrdialogs --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.8655) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26200 IsWebView2/True (WebView2Version 149.0.4022.62)\" --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=SearchHost.exe --webview-exe-version=2604.28014.500.0 --embedded-browser-webview=1 --always-read-main-dll --metrics-shmem-handle=2260,i,3482554275706113931,16642431460857259866,524288 --field-trial-handle=2068,i,9042968392356222770,14269798978311842617,262144 --enable-features=msEdgeFluentOverlayScrollbar --disable-features=msSmartScreenProtection --variations-seed-version --pseudonymization-salt-handle=2080,i,1532612538307158642,1235431219881342440,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2264 /prefetch:11 /pfhostedapp:f3da6694d36ac8115f28a59a63895e70a51af462",
+      "CreationDate": "/Date(1781170379552)/"
+    },
+    {
+      "ProcessId": 16212,
+      "ParentProcessId": 14916,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=gpu-process --noerrdialogs --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.8655) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26200 IsWebView2/True (WebView2Version 149.0.4022.62)\" --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=SearchHost.exe --webview-exe-version=2604.28014.500.0 --embedded-browser-webview=1 --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --always-read-main-dll --metrics-shmem-handle=1976,i,8587165985096709356,4850539975626087216,262144 --field-trial-handle=2068,i,9042968392356222770,14269798978311842617,262144 --enable-features=msEdgeFluentOverlayScrollbar --disable-features=msSmartScreenProtection --variations-seed-version --pseudonymization-salt-handle=2080,i,1532612538307158642,1235431219881342440,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=1996 /prefetch:2 /pfhostedapp:f3da6694d36ac8115f28a59a63895e70a51af462",
+      "CreationDate": "/Date(1781170379554)/"
+    },
+    {
+      "ProcessId": 16292,
+      "ParentProcessId": 14916,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=service --noerrdialogs --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.8655) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26200 IsWebView2/True (WebView2Version 149.0.4022.62)\" --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=SearchHost.exe --webview-exe-version=2604.28014.500.0 --embedded-browser-webview=1 --always-read-main-dll --metrics-shmem-handle=2656,i,14363614281696205530,5873470463471132037,524288 --field-trial-handle=2068,i,9042968392356222770,14269798978311842617,262144 --enable-features=msEdgeFluentOverlayScrollbar --disable-features=msSmartScreenProtection --variations-seed-version --pseudonymization-salt-handle=2080,i,1532612538307158642,1235431219881342440,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2640 /prefetch:13 /pfhostedapp:f3da6694d36ac8115f28a59a63895e70a51af462",
+      "CreationDate": "/Date(1781170379574)/"
+    },
+    {
+      "ProcessId": 16472,
+      "ParentProcessId": 14916,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=renderer --noerrdialogs --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.8655) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26200 IsWebView2/True (WebView2Version 149.0.4022.62)\" --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=SearchHost.exe --webview-exe-version=2604.28014.500.0 --embedded-browser-webview=1 --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--expose-gc --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1781170307732053 --launch-time-ticks=71936683 --always-read-main-dll --metrics-shmem-handle=3964,i,4112216357440211028,9661122766429855266,2097152 --field-trial-handle=2068,i,9042968392356222770,14269798978311842617,262144 --enable-features=msEdgeFluentOverlayScrollbar --disable-features=msSmartScreenProtection --variations-seed-version --pseudonymization-salt-handle=2080,i,1532612538307158642,1235431219881342440,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=3984 /pfhostedapp:f3da6694d36ac8115f28a59a63895e70a51af462 /prefetch:1",
+      "CreationDate": "/Date(1781170379676)/"
+    },
+    {
+      "ProcessId": 5260,
+      "ParentProcessId": 14192,
+      "Name": "CefSharp.BrowserSubprocess.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Razer\\Razer Services\\Razer Central\\CefSharp.BrowserSubprocess.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --log-severity=info --lang=en-US --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --cefsharpexitsub --log-file=\"C:\\ProgramData\\Razer\\Razer Central\\Logs\\cef_wuxia.log\" --mojo-platform-channel-handle=3228 --field-trial-handle=2480,i,14613092806703812549,7751382284124702288,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns /prefetch:8 --host-process-id=14192",
+      "CreationDate": "/Date(1781170397428)/"
+    },
+    {
+      "ProcessId": 10076,
+      "ParentProcessId": 14192,
+      "Name": "CefSharp.BrowserSubprocess.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Razer\\Razer Services\\Razer Central\\CefSharp.BrowserSubprocess.exe\" --type=gpu-process --no-sandbox --log-severity=info --lang=en-US --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --cefsharpexitsub --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=disabled --log-file=\"C:\\ProgramData\\Razer\\Razer Central\\Logs\\cef_wuxia.log\" --mojo-platform-channel-handle=3444 --field-trial-handle=2480,i,14613092806703812549,7751382284124702288,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns /prefetch:2 --host-process-id=14192",
+      "CreationDate": "/Date(1781170397577)/"
+    },
+    {
+      "ProcessId": 9904,
+      "ParentProcessId": 14192,
+      "Name": "CefSharp.BrowserSubprocess.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Razer\\Razer Services\\Razer Central\\CefSharp.BrowserSubprocess.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --log-severity=info --lang=en-US --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --cefsharpexitsub --log-file=\"C:\\ProgramData\\Razer\\Razer Central\\Logs\\cef_wuxia.log\" --mojo-platform-channel-handle=5420 --field-trial-handle=2480,i,14613092806703812549,7751382284124702288,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns /prefetch:8 --host-process-id=14192",
+      "CreationDate": "/Date(1781170399314)/"
+    },
+    {
+      "ProcessId": 5992,
+      "ParentProcessId": 14192,
+      "Name": "CefSharp.BrowserSubprocess.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Razer\\Razer Services\\Razer Central\\CefSharp.BrowserSubprocess.exe\" --type=renderer --log-severity=info --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --cefsharpexitsub --first-renderer-process --no-sandbox --log-file=\"C:\\ProgramData\\Razer\\Razer Central\\Logs\\cef_wuxia.log\" --disable-gpu-compositing --lang=en-US --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1781170307729820 --launch-time-ticks=91725357 --mojo-platform-channel-handle=5588 --field-trial-handle=2480,i,14613092806703812549,7751382284124702288,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns --host-process-id=14192 /prefetch:1",
+      "CreationDate": "/Date(1781170399458)/"
+    },
+    {
+      "ProcessId": 4840,
+      "ParentProcessId": 14192,
+      "Name": "CefSharp.BrowserSubprocess.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Razer\\Razer Services\\Razer Central\\CefSharp.BrowserSubprocess.exe\" --type=renderer --log-severity=info --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --cefsharpexitsub --no-sandbox --log-file=\"C:\\ProgramData\\Razer\\Razer Central\\Logs\\cef_wuxia.log\" --disable-gpu-compositing --lang=en-US --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1781170307729820 --launch-time-ticks=91728895 --mojo-platform-channel-handle=5596 --field-trial-handle=2480,i,14613092806703812549,7751382284124702288,131072 --disable-features=Vulkan,WebRtcHideLocalIpsWithMdns --host-process-id=14192 /prefetch:1",
+      "CreationDate": "/Date(1781170399461)/"
+    },
+    {
+      "ProcessId": 19352,
+      "ParentProcessId": 18232,
+      "Name": "Battle.net.exe",
+      "CommandLine": "\"E:\\Games\\BLZ\\Battle.net\\Battle.net.exe\" --type=gpu-process --no-sandbox --log-severity=error --user-agent-product=\"Battle.net/2.51.5.17438 (retail) Chrome/108.0.5359.125\" --lang=zh-CN --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --watch-browser-pid=18232 --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --log-file=\"C:\\Users\\wuxia\\AppData\\Local\\Battle.net\\Logs\\libcef-20260611T093333.607314.log\" --mojo-platform-channel-handle=3380 --field-trial-handle=3612,i,14677467100235238807,15670501349784745416,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,ForcedColors,HardwareMediaKeyHandling,WinUseBrowserSpellChecker /prefetch:2 --battle-net-helper=Battle.net.17438",
+      "CreationDate": "/Date(1781170413895)/"
+    },
+    {
+      "ProcessId": 19392,
+      "ParentProcessId": 18232,
+      "Name": "Battle.net.exe",
+      "CommandLine": "\"E:\\Games\\BLZ\\Battle.net\\Battle.net.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=service --no-sandbox --log-severity=error --user-agent-product=\"Battle.net/2.51.5.17438 (retail) Chrome/108.0.5359.125\" --lang=zh-CN --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --watch-browser-pid=18232 --log-file=\"C:\\Users\\wuxia\\AppData\\Local\\Battle.net\\Logs\\libcef-20260611T093333.607314.log\" --mojo-platform-channel-handle=3768 --field-trial-handle=3612,i,14677467100235238807,15670501349784745416,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,ForcedColors,HardwareMediaKeyHandling,WinUseBrowserSpellChecker /prefetch:8 --battle-net-helper=Battle.net.17438",
+      "CreationDate": "/Date(1781170414002)/"
+    },
+    {
+      "ProcessId": 19404,
+      "ParentProcessId": 18232,
+      "Name": "Battle.net.exe",
+      "CommandLine": "\"E:\\Games\\BLZ\\Battle.net\\Battle.net.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --no-sandbox --log-severity=error --user-agent-product=\"Battle.net/2.51.5.17438 (retail) Chrome/108.0.5359.125\" --lang=zh-CN --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --watch-browser-pid=18232 --log-file=\"C:\\Users\\wuxia\\AppData\\Local\\Battle.net\\Logs\\libcef-20260611T093333.607314.log\" --mojo-platform-channel-handle=3804 --field-trial-handle=3612,i,14677467100235238807,15670501349784745416,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,ForcedColors,HardwareMediaKeyHandling,WinUseBrowserSpellChecker /prefetch:8 --battle-net-helper=Battle.net.17438",
+      "CreationDate": "/Date(1781170414011)/"
+    },
+    {
+      "ProcessId": 3900,
+      "ParentProcessId": 18232,
+      "Name": "Battle.net.exe",
+      "CommandLine": "\"E:\\Games\\BLZ\\Battle.net\\Battle.net.exe\" --type=renderer --log-severity=error --user-agent-product=\"Battle.net/2.51.5.17438 (retail) Chrome/108.0.5359.125\" --disable-spell-checking --uncaught-exception-stack-size=10 --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --watch-browser-pid=18232 --no-sandbox --log-file=\"C:\\Users\\wuxia\\AppData\\Local\\Battle.net\\Logs\\libcef-20260611T093333.607314.log\" --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1781170307731954 --launch-time-ticks=112282278 --mojo-platform-channel-handle=5472 --field-trial-handle=3612,i,14677467100235238807,15670501349784745416,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,ForcedColors,HardwareMediaKeyHandling,WinUseBrowserSpellChecker --battle-net-helper=Battle.net.17438 /prefetch:1",
+      "CreationDate": "/Date(1781170420014)/"
+    },
+    {
+      "ProcessId": 3344,
+      "ParentProcessId": 18232,
+      "Name": "Battle.net.exe",
+      "CommandLine": "\"E:\\Games\\BLZ\\Battle.net\\Battle.net.exe\" --type=renderer --log-severity=error --user-agent-product=\"Battle.net/2.51.5.17438 (retail) Chrome/108.0.5359.125\" --disable-spell-checking --uncaught-exception-stack-size=10 --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --watch-browser-pid=18232 --no-sandbox --log-file=\"C:\\Users\\wuxia\\AppData\\Local\\Battle.net\\Logs\\libcef-20260611T093333.607314.log\" --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1781170307731954 --launch-time-ticks=113921623 --mojo-platform-channel-handle=4964 --field-trial-handle=3612,i,14677467100235238807,15670501349784745416,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,ForcedColors,HardwareMediaKeyHandling,WinUseBrowserSpellChecker --battle-net-helper=Battle.net.17438 /prefetch:1",
+      "CreationDate": "/Date(1781170421655)/"
+    },
+    {
+      "ProcessId": 13836,
+      "ParentProcessId": 18232,
+      "Name": "Battle.net.exe",
+      "CommandLine": "\"E:\\Games\\BLZ\\Battle.net\\Battle.net.exe\" --type=renderer --log-severity=error --user-agent-product=\"Battle.net/2.51.5.17438 (retail) Chrome/108.0.5359.125\" --disable-spell-checking --uncaught-exception-stack-size=10 --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\CEF\\User Data\" --watch-browser-pid=18232 --no-sandbox --log-file=\"C:\\Users\\wuxia\\AppData\\Local\\Battle.net\\Logs\\libcef-20260611T093333.607314.log\" --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1781170307731954 --launch-time-ticks=117797113 --mojo-platform-channel-handle=5888 --field-trial-handle=3612,i,14677467100235238807,15670501349784745416,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,ForcedColors,HardwareMediaKeyHandling,WinUseBrowserSpellChecker --battle-net-helper=Battle.net.17438 /prefetch:1",
+      "CreationDate": "/Date(1781170425529)/"
+    },
+    {
+      "ProcessId": 14924,
+      "ParentProcessId": 14508,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=526.11701.10.0 --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView\" --noerrdialogs --disable-gpu --disk-cache-size=52428800 --edge-webview-is-background --lang=zh-CN --mojo-named-platform-channel-pipe=14508.11088.7277802515462414657 /pfhostedapp:d25960d3b2826de43cd82c241e139003cecaefff",
+      "CreationDate": "/Date(1781170441298)/"
+    },
+    {
+      "ProcessId": 3268,
+      "ParentProcessId": 14924,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=crashpad-handler --user-data-dir=C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView /prefetch:4 /pfhostedapp:d25960d3b2826de43cd82c241e139003cecaefff --monitor-self-annotation=ptype=crashpad-handler --database=C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView\\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=149.0.7827.103 \"--annotation=exe=C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --annotation=plat=Win64 \"--annotation=prod=Edge WebView2\" --annotation=ver=149.0.4022.62 --initial-client-data=0x170,0x174,0x178,0xa8,0x180,0x7ffdd5eb9c38,0x7ffdd5eb9c44,0x7ffdd5eb9c50",
+      "CreationDate": "/Date(1781170441365)/"
+    },
+    {
+      "ProcessId": 18228,
+      "ParentProcessId": 14924,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=gpu-process --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=Widgets.exe --webview-exe-version=526.11701.10.0 --embedded-browser-webview=1 --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=d3d11-warp-webgl --startup-read-main-dll --metrics-shmem-handle=2004,i,15538068228499177605,1894186501073723657,262144 --field-trial-handle=2064,i,3027364805139329899,307883279327804670,262144 --variations-seed-version --pseudonymization-salt-handle=2072,i,767921035854737578,654077692270549067,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=2052 /prefetch:2 /pfhostedapp:d25960d3b2826de43cd82c241e139003cecaefff",
+      "CreationDate": "/Date(1781170441492)/"
+    },
+    {
+      "ProcessId": 14472,
+      "ParentProcessId": 14924,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=Widgets.exe --webview-exe-version=526.11701.10.0 --embedded-browser-webview=1 --startup-read-main-dll --metrics-shmem-handle=2212,i,16505198078682220494,9197064978944144995,524288 --field-trial-handle=2064,i,3027364805139329899,307883279327804670,262144 --variations-seed-version --pseudonymization-salt-handle=2072,i,767921035854737578,654077692270549067,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=468 /prefetch:11 /pfhostedapp:d25960d3b2826de43cd82c241e139003cecaefff",
+      "CreationDate": "/Date(1781170441495)/"
+    },
+    {
+      "ProcessId": 11200,
+      "ParentProcessId": 14924,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=service --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=Widgets.exe --webview-exe-version=526.11701.10.0 --embedded-browser-webview=1 --startup-read-main-dll --metrics-shmem-handle=2528,i,3354628683471287653,614683472661545282,524288 --field-trial-handle=2064,i,3027364805139329899,307883279327804670,262144 --variations-seed-version --pseudonymization-salt-handle=2072,i,767921035854737578,654077692270549067,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2544 /prefetch:13 /pfhostedapp:d25960d3b2826de43cd82c241e139003cecaefff",
+      "CreationDate": "/Date(1781170441523)/"
+    },
+    {
+      "ProcessId": 19560,
+      "ParentProcessId": 14924,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=renderer --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Packages\\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\\LocalState\\EBWebView\" --webview-exe-name=Widgets.exe --webview-exe-version=526.11701.10.0 --embedded-browser-webview=1 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--expose-gc --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1781170307732052 --launch-time-ticks=134399630 --skip-read-main-dll --metrics-shmem-handle=5048,i,7238532868290329172,5279942560655810190,2097152 --field-trial-handle=2064,i,3027364805139329899,307883279327804670,262144 --variations-seed-version --pseudonymization-salt-handle=2072,i,767921035854737578,654077692270549067,4 --trace-process-track-uuid=3190708991934122588 --mojo-platform-channel-handle=4816 /pfhostedapp:d25960d3b2826de43cd82c241e139003cecaefff /prefetch:1",
+      "CreationDate": "/Date(1781170442136)/"
+    },
+    {
+      "ProcessId": 20316,
+      "ParentProcessId": 20104,
+      "Name": "RazerAppEngine.exe",
+      "CommandLine": "\"C:\\Program Files\\Razer\\RazerAppEngine\\app-4.0.683\\RazerAppEngine.exe\" --type=gpu-process --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Razer\\RazerAppEngine\\User Data\\Default\" --gpu-preferences=WAAAAAAAAADgAAAcAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --field-trial-handle=2080,i,5306362183777167791,11592329677113249022,262144 --enable-features=MediaFoundationD3D11VideoCapture,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --mojo-platform-channel-handle=2064 /prefetch:2",
+      "CreationDate": "/Date(1781170449535)/"
+    },
+    {
+      "ProcessId": 20352,
+      "ParentProcessId": 20104,
+      "Name": "RazerAppEngine.exe",
+      "CommandLine": "\"C:\\Program Files\\Razer\\RazerAppEngine\\app-4.0.683\\RazerAppEngine.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --try-supported-channel-layouts --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Razer\\RazerAppEngine\\User Data\\Default\" --secure-schemes=sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --field-trial-handle=2348,i,5306362183777167791,11592329677113249022,262144 --enable-features=MediaFoundationD3D11VideoCapture,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --mojo-platform-channel-handle=2344 /prefetch:3",
+      "CreationDate": "/Date(1781170449551)/"
+    },
+    {
+      "ProcessId": 20088,
+      "ParentProcessId": 20104,
+      "Name": "RazerAppEngine.exe",
+      "CommandLine": "\"C:\\Program Files\\Razer\\RazerAppEngine\\app-4.0.683\\RazerAppEngine.exe\" --type=renderer --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Razer\\RazerAppEngine\\User Data\\Default\" --secure-schemes=sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --app-path=\"C:\\Program Files\\Razer\\RazerAppEngine\\app-4.0.683\\resources\\app.asar\" --enable-sandbox --js-flags=--expose-gc --try-supported-channel-layouts --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-zero-copy --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1781170307731582 --launch-time-ticks=142742056 --field-trial-handle=5000,i,5306362183777167791,11592329677113249022,262144 --enable-features=MediaFoundationD3D11VideoCapture,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --mojo-platform-channel-handle=5008 --razer-page-name=win-systray-left /prefetch:1",
+      "CreationDate": "/Date(1781170450479)/"
+    },
+    {
+      "ProcessId": 20888,
+      "ParentProcessId": 20104,
+      "Name": "RazerAppEngine.exe",
+      "CommandLine": "\"C:\\Program Files\\Razer\\RazerAppEngine\\app-4.0.683\\RazerAppEngine.exe\" --type=renderer --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\Razer\\RazerAppEngine\\User Data\\Default\" --secure-schemes=sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --app-path=\"C:\\Program Files\\Razer\\RazerAppEngine\\app-4.0.683\\resources\\app.asar\" --enable-sandbox --js-flags=--expose-gc --try-supported-channel-layouts --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-zero-copy --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1781170307731582 --launch-time-ticks=144592413 --field-trial-handle=5652,i,5306362183777167791,11592329677113249022,262144 --enable-features=MediaFoundationD3D11VideoCapture,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --mojo-platform-channel-handle=5700 --razer-page-name=win-background-manager /prefetch:1",
+      "CreationDate": "/Date(1781170452332)/"
+    },
+    {
+      "ProcessId": 18352,
+      "ParentProcessId": 12868,
+      "Name": "pythonw.exe",
+      "CommandLine": "\"D:\\Projects\\abqjobpilot\\.venv\\Scripts\\pythonw.exe\" \"D:\\Projects\\abqjobpilot\\run_gui.py\"",
+      "CreationDate": "/Date(1781170517760)/"
+    },
+    {
+      "ProcessId": 19532,
+      "ParentProcessId": 18352,
+      "Name": "pythonw.exe",
+      "CommandLine": "\"D:\\Program Files\\Python39\\pythonw.exe\" \"D:\\Projects\\abqjobpilot\\run_gui.py\"",
+      "CreationDate": "/Date(1781170517816)/"
+    },
+    {
+      "ProcessId": 5112,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=crashpad-handler \"--user-data-dir=C:\\Users\\wuxia\\AppData\\Local\\Microsoft\\Edge\\User Data\" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler \"--database=C:\\Users\\wuxia\\AppData\\Local\\Microsoft\\Edge\\User Data\\Crashpad\" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=149.0.7827.54 \"--annotation=exe=C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --annotation=plat=Win64 --annotation=prod=Edge --annotation=ver=149.0.4022.52 --initial-client-data=0x270,0x274,0x278,0x26c,0x280,0x7ffda9bcac38,0x7ffda9bcac44,0x7ffda9bcac50",
+      "CreationDate": "/Date(1781170522729)/"
+    },
+    {
+      "ProcessId": 10016,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=gpu-process --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=d3d11-warp-webgl --startup-read-main-dll --metrics-shmem-handle=2336,i,16447422992585960220,17344393891751732602,262144 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=2420 /prefetch:2",
+      "CreationDate": "/Date(1781170522791)/"
+    },
+    {
+      "ProcessId": 9760,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --startup-read-main-dll --metrics-shmem-handle=2636,i,6186632310606173959,16874632584158803224,524288 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2844 /prefetch:11",
+      "CreationDate": "/Date(1781170522791)/"
+    },
+    {
+      "ProcessId": 14764,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=service --startup-read-main-dll --metrics-shmem-handle=3020,i,16380766309122417089,14760088058375606151,524288 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=3056 /prefetch:13",
+      "CreationDate": "/Date(1781170522829)/"
+    },
+    {
+      "ProcessId": 19472,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=215317975 --ssd-no-pressure-read-main-dll --metrics-shmem-handle=4048,i,8291255816391225319,9876786940497295570,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190708992871164437 --mojo-platform-channel-handle=3704 /prefetch:1",
+      "CreationDate": "/Date(1781170523051)/"
+    },
+    {
+      "ProcessId": 14040,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=215394334 --skip-read-main-dll --metrics-shmem-handle=5504,i,1276555063225606751,15361272395714312791,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190708996619331833 --mojo-platform-channel-handle=5508 /prefetch:9",
+      "CreationDate": "/Date(1781170523128)/"
+    },
+    {
+      "ProcessId": 10820,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=edge_search_indexer.mojom.SearchIndexerInterfaceBroker --lang=zh-CN --service-sandbox-type=search_indexer --message-loop-type-ui --skip-read-main-dll --metrics-shmem-handle=7396,i,11862380174183079765,3662347461261502125,524288 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709005989750323 --mojo-platform-channel-handle=8540 /prefetch:14",
+      "CreationDate": "/Date(1781170582845)/"
+    },
+    {
+      "ProcessId": 10444,
+      "ParentProcessId": 13632,
+      "Name": "Codex.exe",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.608.1337.0_x64__2p2nqsd0c76g0\\app\\Codex.exe\" --type=crashpad-handler --user-data-dir=C:\\Users\\wuxia\\AppData\\Roaming\\Codex\\web\\Codex /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler --database=C:\\Users\\wuxia\\AppData\\Roaming\\Codex\\web\\Codex\\Crashpad --annotation=plat=Win64 --annotation=prod=Codex --annotation=ver=149.0.7827.54 --initial-client-data=0x11c,0x120,0x124,0xf8,0x128,0x7ffdc676cfa0,0x7ffdc676cfac,0x7ffdc676cfb8",
+      "CreationDate": "/Date(1781170705342)/"
+    },
+    {
+      "ProcessId": 18380,
+      "ParentProcessId": 13632,
+      "Name": "Codex.exe",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.608.1337.0_x64__2p2nqsd0c76g0\\app\\Codex.exe\" --type=gpu-process --no-pre-read-main-dll --start-stack-profiler --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --metrics-shmem-handle=2036,i,1980602062491683026,8723170503227844064,262144 --field-trial-handle=2168,i,3129864026964551210,5074053475819201488,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=2172,i,9432803384025158660,17322459046886397510,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=2148 /prefetch:2",
+      "CreationDate": "/Date(1781170705675)/"
+    },
+    {
+      "ProcessId": 21348,
+      "ParentProcessId": 13632,
+      "Name": "Codex.exe",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.608.1337.0_x64__2p2nqsd0c76g0\\app\\Codex.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --standard-schemes=app --secure-schemes=app,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,sentry-ipc --cors-schemes=sentry-ipc --streaming-schemes=app --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2244,i,6841227038956113900,10496599637770943901,524288 --field-trial-handle=2168,i,3129864026964551210,5074053475819201488,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=2172,i,9432803384025158660,17322459046886397510,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2520 /prefetch:11",
+      "CreationDate": "/Date(1781170705679)/"
+    },
+    {
+      "ProcessId": 14852,
+      "ParentProcessId": 13632,
+      "Name": "Codex.exe",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.608.1337.0_x64__2p2nqsd0c76g0\\app\\Codex.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=service --standard-schemes=app --secure-schemes=app,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,sentry-ipc --cors-schemes=sentry-ipc --streaming-schemes=app --no-pre-read-main-dll --metrics-shmem-handle=2628,i,5907650800090762618,3889515223722650986,524288 --field-trial-handle=2168,i,3129864026964551210,5074053475819201488,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=2172,i,9432803384025158660,17322459046886397510,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2644 /prefetch:13",
+      "CreationDate": "/Date(1781170705709)/"
+    },
+    {
+      "ProcessId": 2012,
+      "ParentProcessId": 13632,
+      "Name": "Codex.exe",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.608.1337.0_x64__2p2nqsd0c76g0\\app\\Codex.exe\" --type=renderer --standard-schemes=app --secure-schemes=app,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,sentry-ipc --cors-schemes=sentry-ipc --streaming-schemes=app --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=402872243 --metrics-shmem-handle=4328,i,14016918826647579845,13906257346562732755,2097152 --field-trial-handle=2168,i,3129864026964551210,5074053475819201488,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=2172,i,9432803384025158660,17322459046886397510,4 --trace-process-track-uuid=3190708991934122588 --mojo-platform-channel-handle=4104 /prefetch:1",
+      "CreationDate": "/Date(1781170710608)/"
+    },
+    {
+      "ProcessId": 2368,
+      "ParentProcessId": 13632,
+      "Name": "Codex.exe",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.608.1337.0_x64__2p2nqsd0c76g0\\app\\Codex.exe\" --type=renderer --standard-schemes=app --secure-schemes=app,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,sentry-ipc --cors-schemes=sentry-ipc --streaming-schemes=app --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=402873056 --metrics-shmem-handle=3740,i,154625154320805829,15789255855462307730,2097152 --field-trial-handle=2168,i,3129864026964551210,5074053475819201488,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=2172,i,9432803384025158660,17322459046886397510,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=4360 /prefetch:1",
+      "CreationDate": "/Date(1781170710609)/"
+    },
+    {
+      "ProcessId": 22060,
+      "ParentProcessId": 3340,
+      "Name": "powershell.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoLogo -NoProfile -NonInteractive -EncodedCommand JABFAHIAcgBvAHIAQQBjAHQAaQBvAG4AUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAdABvAHAAJwANAAoAJABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwANAAoADQAKACMAIABMAG8AbgBnAC0AbABpAHYAZQBkACAAUABvAHcAZQByAFMAaABlAGwAbAAgAEEAUwBUACAAcABhAHIAcwBlAHIAIAB1AHMAZQBkACAAYgB5ACAAdABoAGUAIABSAHUAcwB0ACAAYwBvAG0AbQBhAG4AZAAtAHMAYQBmAGUAdAB5ACAAbABhAHkAZQByACAAbwBuACAAVwBpAG4AZABvAHcAcwAuAA0ACgAjACAAVABoAGUAIABjAGEAbABsAGUAcgAgAHMAdABhAHIAdABzACAAbwBuAGUAIABjAGgAaQBsAGQAIABwAHIAbwBjAGUAcwBzACAAcABlAHIAIABQAG8AdwBlAHIAUwBoAGUAbABsACAAZQB4AGUAYwB1AHQAYQBiAGwAZQAgAHYAYQByAGkAYQBuAHQAIABhAG4AZAAgAHQAaABlAG4AIABzAGUAbgBkAHMADQAKACMAIABuAGUAdwBsAGkAbgBlAC0AZABlAGwAaQBtAGkAdABlAGQAIABKAFMATwBOACAAcgBlAHEAdQBlAHMAdABzACAAbwB2AGUAcgAgAHMAdABkAGkAbgA6AA0ACgAjACAAIAAgAHsAIAAiAGkAZAAiADoAIAA8AHUANgA0AD4ALAAgACIAcABhAHkAbABvAGEAZAAiADoAIAAiADwAYgBhAHMAZQA2ADQALQBlAG4AYwBvAGQAZQBkACAAVQBUAEYALQAxADYATABFACAAcwBjAHIAaQBwAHQAPgAiACAAfQANAAoAIwAgAFcAZQAgAGEAbgBzAHcAZQByACAAdwBpAHQAaAAgAG8AbgBlACAAYwBvAG0AcABhAGMAdAAgAEoAUwBPAE4AIABsAGkAbgBlACAAcABlAHIAIAByAGUAcQB1AGUAcwB0ADoADQAKACMAIAAgACAAewAgACIAaQBkACIAOgAgADwAcwBhAG0AZQA+ACwAIAAiAHMAdABhAHQAdQBzACIAOgAgACIAbwBrACIALAAgACIAYwBvAG0AbQBhAG4AZABzACIAOgAgAFsAWwAiAEcAZQB0AC0AQwBvAG4AdABlAG4AdAAiACwAIAAiAGYAbwBvAC4AdAB4AHQAIgBdAF0AIAB9AA0ACgAjACAAbwByADoADQAKACMAIAAgACAAewAgACIAaQBkACIAOgAgADwAcwBhAG0AZQA+ACwAIAAiAHMAdABhAHQAdQBzACIAOgAgACIAcABhAHIAcwBlAF8AZgBhAGkAbABlAGQAIgAgAHwAIAAiAHAAYQByAHMAZQBfAGUAcgByAG8AcgBzACIAIAB8ACAAIgB1AG4AcwB1AHAAcABvAHIAdABlAGQAIgAgAH0ADQAKACMADQAKACMAIAAiAHUAbgBzAHUAcABwAG8AcgB0AGUAZAAiACAAaQBzACAAaQBuAHQAZQBuAHQAaQBvAG4AYQBsADoAIABpAHQAIABtAGUAYQBuAHMAIAB0AGgAZQAgAHMAYwByAGkAcAB0ACAAcABhAHIAcwBlAGQAIABzAHUAYwBjAGUAcwBzAGYAdQBsAGwAeQAsACAAYgB1AHQAIAB0AGgAZQAgAEEAUwBUAA0ACgAjACAAaQBuAGMAbAB1AGQAZQBkACAAYwBvAG4AcwB0AHIAdQBjAHQAcwAgAHQAaABhAHQAIAB3AGUAIABjAG8AbgBzAGUAcgB2AGEAdABpAHYAZQBsAHkAIAByAGUAZgB1AHMAZQAgAHQAbwAgAGwAbwB3AGUAcgAgAGkAbgB0AG8AIABhAHIAZwB2AC0AbABpAGsAZQAgAGMAbwBtAG0AYQBuAGQAIAB3AG8AcgBkAHMALgANAAoAIwAgAFQAaABlACAAUgB1AHMAdAAgAHMAaQBkAGUAIAB0AHIAZQBhAHQAcwAgAHQAaABhAHQAIAB0AGgAZQAgAHMAYQBtAGUAIAB3AGEAeQAgAGEAcwAgAGEAbgAgAHUAbgBzAGEAZgBlACAAYwBvAG0AbQBhAG4AZAAuAA0ACgANAAoAIwAgAFUAcwBlACAAQgBPAE0ALQBmAHIAZQBlACAAVQBUAEYALQA4ACAAbwBuACAAdABoAGUAIABwAHIAbwB0AG8AYwBvAGwAIABzAHQAcgBlAGEAbQAgAHMAbwAgAFIAdQBzAHQAIABzAGUAZQBzACAAYwBsAGUAYQBuACAASgBTAE8ATgAgAGwAaQBuAGUAcwAgAHcAaQB0AGgAIABuAG8ADQAKACMAIABsAGUAYQBkAGkAbgBnACAAQgBPAE0AIABiAHkAdABlAHMAIABvAG4AIAB0AGgAZQAgAGYAaQByAHMAdAAgAHIAZQBzAHAAbwBuAHMAZQAuAA0ACgAkAHUAdABmADgAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAFQAZQB4AHQALgBVAFQARgA4AEUAbgBjAG8AZABpAG4AZwBdADoAOgBuAGUAdwAoACQAZgBhAGwAcwBlACkADQAKACQAcwB0AGQAaQBuACAAPQAgAFsAUwB5AHMAdABlAG0ALgBJAE8ALgBTAHQAcgBlAGEAbQBSAGUAYQBkAGUAcgBdADoAOgBuAGUAdwAoAFsAQwBvAG4AcwBvAGwAZQBdADoAOgBPAHAAZQBuAFMAdABhAG4AZABhAHIAZABJAG4AcAB1AHQAKAApACwAIAAkAHUAdABmADgALAAgACQAZgBhAGwAcwBlACkADQAKACQAcwB0AGQAbwB1AHQAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAFMAdAByAGUAYQBtAFcAcgBpAHQAZQByAF0AOgA6AG4AZQB3ACgAWwBDAG8AbgBzAG8AbABlAF0AOgA6AE8AcABlAG4AUwB0AGEAbgBkAGEAcgBkAE8AdQB0AHAAdQB0ACgAKQAsACAAJAB1AHQAZgA4ACkADQAKACQAcwB0AGQAbwB1AHQALgBBAHUAdABvAEYAbAB1AHMAaAAgAD0AIAAkAHQAcgB1AGUADQAKAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABJAG4AdgBvAGsAZQAtAFAAYQByAHMAZQBSAGUAcQB1AGUAcwB0ACAAewANAAoAIAAgACAAIABwAGEAcgBhAG0AKAAkAFIAZQBxAHUAZQBzAHQASQBkACwAIAAkAFMAbwB1AHIAYwBlACkADQAKAA0ACgAgACAAIAAgACQAdABvAGsAZQBuAHMAIAA9ACAAJABuAHUAbABsAA0ACgAgACAAIAAgACQAZQByAHIAbwByAHMAIAA9ACAAJABuAHUAbABsAA0ACgANAAoAIAAgACAAIAAkAGEAcwB0ACAAPQAgACQAbgB1AGwAbAANAAoAIAAgACAAIAB0AHIAeQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAGEAcwB0ACAAPQAgAFsAUwB5AHMAdABlAG0ALgBNAGEAbgBhAGcAZQBtAGUAbgB0AC4AQQB1AHQAbwBtAGEAdABpAG8AbgAuAEwAYQBuAGcAdQBhAGcAZQAuAFAAYQByAHMAZQByAF0AOgA6AFAAYQByAHMAZQBJAG4AcAB1AHQAKAANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAJABTAG8AdQByAGMAZQAsAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIABbAHIAZQBmAF0AJAB0AG8AawBlAG4AcwAsAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIABbAHIAZQBmAF0AJABlAHIAcgBvAHIAcwANAAoAIAAgACAAIAAgACAAIAAgACkADQAKACAAIAAgACAAfQAgAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgAEAAewAgAGkAZAAgAD0AIAAkAFIAZQBxAHUAZQBzAHQASQBkADsAIABzAHQAYQB0AHUAcwAgAD0AIAAnAHAAYQByAHMAZQBfAGYAYQBpAGwAZQBkACcAIAB9AA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAGkAZgAgACgAJABlAHIAcgBvAHIAcwAuAEMAbwB1AG4AdAAgAC0AZwB0ACAAMAApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAQAB7ACAAaQBkACAAPQAgACQAUgBlAHEAdQBlAHMAdABJAGQAOwAgAHMAdABhAHQAdQBzACAAPQAgACcAcABhAHIAcwBlAF8AZQByAHIAbwByAHMAJwAgAH0ADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAIwAgAFAAbwB3AGUAcgBTAGgAZQBsAGwAJwBzACAAcwB0AG8AcAAtAHAAYQByAHMAaQBuAGcAIABtAGEAcgBrAGUAcgAgAGgAYQBuAGQAcwAgAHQAaABlACAAcgBlAG0AYQBpAG4AaQBuAGcAIABzAG8AdQByAGMAZQAgAHQAZQB4AHQAIAB0AG8AIABuAGEAdABpAHYAZQANAAoAIAAgACAAIAAjACAAYwBvAG0AbQBhAG4AZABzACAAdwBpAHQAaAAgAHIAdQBuAHQAaQBtAGUAIABhAHIAZwB1AG0AZQBuAHQAIABoAGEAbgBkAGwAaQBuAGcAIAB0AGgAYQB0ACAAZABvAGUAcwAgAG4AbwB0ACAAbQBhAHQAYwBoACAAdABoAGUAIABBAFMAVAAgAHMAaABhAHAAZQAgAHcAZQANAAoAIAAgACAAIAAjACAAZgBsAGEAdAB0AGUAbgAgAGIAZQBsAG8AdwAuACAASwBlAGUAcAAgAHQAaABhAHQAIABmAG8AcgBtACAAbwB1AHQAIABvAGYAIAB0AGgAZQAgAGEAcgBnAHYALQBsAGkAawBlACAAbABvAHcAZQByAGkAbgBnACAAcABhAHQAaAAgAGUAbgB0AGkAcgBlAGwAeQAuAA0ACgAgACAAIAAgAGYAbwByAGUAYQBjAGgAIAAoACQAdABvAGsAZQBuACAAaQBuACAAJAB0AG8AawBlAG4AcwApACAAewANAAoAIAAgACAAIAAgACAAIAAgAGkAZgAgACgAJAB0AG8AawBlAG4ALgBUAGUAeAB0ACAALQBlAHEAIAAnAC0ALQAlACcAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAQAB7ACAAaQBkACAAPQAgACQAUgBlAHEAdQBlAHMAdABJAGQAOwAgAHMAdABhAHQAdQBzACAAPQAgACcAdQBuAHMAdQBwAHAAbwByAHQAZQBkACcAIAB9AA0ACgAgACAAIAAgACAAIAAgACAAfQANAAoAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIAAjACAATwBuAGwAeQAgAGEAYwBjAGUAcAB0ACAAQQBTAFQAIABzAGgAYQBwAGUAcwAgAHcAZQAgAGMAYQBuACAAZgBsAGEAdAB0AGUAbgAgAGkAbgB0AG8AIABhACAAbABpAHMAdAAgAG8AZgAgAGEAcgBnAHYALQBsAGkAawBlACAAYwBvAG0AbQBhAG4AZAAgAHcAbwByAGQAcwAuAA0ACgAgACAAIAAgACMAIABBAG4AeQB0AGgAaQBuAGcAIABtAG8AcgBlACAAZAB5AG4AYQBtAGkAYwAgAHQAaABhAG4AIAB0AGgAYQB0ACAAYgBlAGMAbwBtAGUAcwAgACIAdQBuAHMAdQBwAHAAbwByAHQAZQBkACIAIABpAG4AcwB0AGUAYQBkACAAbwBmACAAYgBlAGkAbgBnACAAZwB1AGUAcwBzAGUAZAAgAGEAdAAuAA0ACgAgACAAIAAgACQAYwBvAG0AbQBhAG4AZABzACAAPQAgAFsAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBBAHIAcgBhAHkATABpAHMAdABdADoAOgBuAGUAdwAoACkADQAKAA0ACgAgACAAIAAgAGYAbwByAGUAYQBjAGgAIAAoACQAcwB0AGEAdABlAG0AZQBuAHQAIABpAG4AIAAkAGEAcwB0AC4ARQBuAGQAQgBsAG8AYwBrAC4AUwB0AGEAdABlAG0AZQBuAHQAcwApACAAewANAAoAIAAgACAAIAAgACAAIAAgAGkAZgAgACgALQBuAG8AdAAgACgAQQBkAGQALQBDAG8AbQBtAGEAbgBkAHMARgByAG8AbQBQAGkAcABlAGwAaQBuAGUAQgBhAHMAZQAgACQAcwB0AGEAdABlAG0AZQBuAHQAIAAkAGMAbwBtAG0AYQBuAGQAcwApACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAkAGMAbwBtAG0AYQBuAGQAcwAgAD0AIAAkAG4AdQBsAGwADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAGIAcgBlAGEAawANAAoAIAAgACAAIAAgACAAIAAgAH0ADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAaQBmACAAKAAkAGMAbwBtAG0AYQBuAGQAcwAgAC0AbgBlACAAJABuAHUAbABsACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAJABuAG8AcgBtAGEAbABpAHoAZQBkACAAPQAgAFsAUwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBBAHIAcgBhAHkATABpAHMAdABdADoAOgBuAGUAdwAoACkADQAKACAAIAAgACAAIAAgACAAIABmAG8AcgBlAGEAYwBoACAAKAAkAGMAbQBkACAAaQBuACAAJABjAG8AbQBtAGEAbgBkAHMAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACMAIABDAG8AbgB2AGUAcgB0ACAAZQB2AGUAcgB5ACAAcwB1AGMAYwBlAHMAcwBmAHUAbAAgAHAAYQByAHMAZQAgAHIAZQBzAHUAbAB0ACAAdABvACAAYQBuACAAYQByAHIAYQB5AC0AbwBmAC0AYQByAHIAYQB5AHMAIABzAGgAYQBwAGUAIABzAG8AIAB0AGgAZQAgAFIAdQBzAHQADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACMAIABzAGkAZABlACAAYwBhAG4AIABkAGUAcwBlAHIAaQBhAGwAaQB6AGUAIABvAG4AZQAgAHUAbgBpAGYAbwByAG0AIAByAGUAcAByAGUAcwBlAG4AdABhAHQAaQBvAG4ALgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAGMAbQBkACAALQBpAHMAIABbAHMAdAByAGkAbgBnAF0AKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAJABuAHUAbABsACAAPQAgACQAbgBvAHIAbQBhAGwAaQB6AGUAZAAuAEEAZABkACgAQAAoACQAYwBtAGQAKQApAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgAGMAbwBuAHQAaQBuAHUAZQANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAGkAZgAgACgAJABjAG0AZAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAEEAcgByAGEAeQBdACAALQBvAHIAIAAkAGMAbQBkACAALQBpAHMAIABbAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ASQBFAG4AdQBtAGUAcgBhAGIAbABlAF0AKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAJABuAHUAbABsACAAPQAgACQAbgBvAHIAbQBhAGwAaQB6AGUAZAAuAEEAZABkACgAQAAoACQAYwBtAGQAKQApAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgAGMAbwBuAHQAaQBuAHUAZQANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACQAbgBvAHIAbQBhAGwAaQB6AGUAZAAgAD0AIAAkAG4AdQBsAGwADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAGIAcgBlAGEAawANAAoAIAAgACAAIAAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgACAAIAAgACAAJABjAG8AbQBtAGEAbgBkAHMAIAA9ACAAJABuAG8AcgBtAGEAbABpAHoAZQBkAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAGkAZgAgACgAJABjAG8AbQBtAGEAbgBkAHMAIAAtAGUAcQAgACQAbgB1AGwAbAApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAQAB7ACAAaQBkACAAPQAgACQAUgBlAHEAdQBlAHMAdABJAGQAOwAgAHMAdABhAHQAdQBzACAAPQAgACcAdQBuAHMAdQBwAHAAbwByAHQAZQBkACcAIAB9AA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAHIAZQB0AHUAcgBuACAAQAB7ACAAaQBkACAAPQAgACQAUgBlAHEAdQBlAHMAdABJAGQAOwAgAHMAdABhAHQAdQBzACAAPQAgACcAbwBrACcAOwAgAGMAbwBtAG0AYQBuAGQAcwAgAD0AIAAkAGMAbwBtAG0AYQBuAGQAcwAgAH0ADQAKAH0ADQAKAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABXAHIAaQB0AGUALQBSAGUAcwBwAG8AbgBzAGUAIAB7AA0ACgAgACAAIAAgAHAAYQByAGEAbQAoACQAUgBlAHMAcABvAG4AcwBlACkADQAKAA0ACgAgACAAIAAgACQAcwB0AGQAbwB1AHQALgBXAHIAaQB0AGUATABpAG4AZQAoACgAJABSAGUAcwBwAG8AbgBzAGUAIAB8ACAAQwBvAG4AdgBlAHIAdABUAG8ALQBKAHMAbwBuACAALQBDAG8AbQBwAHIAZQBzAHMAIAAtAEQAZQBwAHQAaAAgADMAKQApAA0ACgB9AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAAQwBvAG4AdgBlAHIAdAAtAEMAbwBtAG0AYQBuAGQARQBsAGUAbQBlAG4AdAAgAHsADQAKACAAIAAgACAAcABhAHIAYQBtACgAJABlAGwAZQBtAGUAbgB0ACkADQAKAA0ACgAgACAAIAAgACMAIABBAGMAYwBlAHAAdAAgAG8AbgBsAHkAIABsAGkAdABlAHIAYQBsAC0AaQBzAGgAIABjAG8AbQBtAGEAbgBkACAAZQBsAGUAbQBlAG4AdABzAC4AIABWAGEAcgBpAGEAYgBsAGUAIABlAHgAcABhAG4AcwBpAG8AbgAsACAAcwB1AGIAZQB4AHAAcgBlAHMAcwBpAG8AbgBzACwAIABzAHAAbABhAHQAcwAsAA0ACgAgACAAIAAgACMAIABhAG4AZAAgAG8AdABoAGUAcgAgAGQAeQBuAGEAbQBpAGMAIABmAG8AcgBtAHMAIAByAGUAdAB1AHIAbgAgACQAbgB1AGwAbAAgAHMAbwAgAHQAaABlACAAdwBoAG8AbABlACAAcgBlAHEAdQBlAHMAdAAgAGIAZQBjAG8AbQBlAHMAIAB1AG4AcwB1AHAAcABvAHIAdABlAGQALgANAAoAIAAgACAAIABpAGYAIAAoACQAZQBsAGUAbQBlAG4AdAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4ATABhAG4AZwB1AGEAZwBlAC4AUwB0AHIAaQBuAGcAQwBvAG4AcwB0AGEAbgB0AEUAeABwAHIAZQBzAHMAaQBvAG4AQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAQAAoACQAZQBsAGUAbQBlAG4AdAAuAFYAYQBsAHUAZQApAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAGkAZgAgACgAJABlAGwAZQBtAGUAbgB0ACAALQBpAHMAIABbAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBMAGEAbgBnAHUAYQBnAGUALgBFAHgAcABhAG4AZABhAGIAbABlAFMAdAByAGkAbgBnAEUAeABwAHIAZQBzAHMAaQBvAG4AQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgAGkAZgAgACgAJABlAGwAZQBtAGUAbgB0AC4ATgBlAHMAdABlAGQARQB4AHAAcgBlAHMAcwBpAG8AbgBzAC4AQwBvAHUAbgB0ACAALQBnAHQAIAAwACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgACQAbgB1AGwAbAANAAoAIAAgACAAIAAgACAAIAAgAH0ADQAKACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgAEAAKAAkAGUAbABlAG0AZQBuAHQALgBWAGEAbAB1AGUAKQANAAoAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIABpAGYAIAAoACQAZQBsAGUAbQBlAG4AdAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4ATABhAG4AZwB1AGEAZwBlAC4AQwBvAG4AcwB0AGEAbgB0AEUAeABwAHIAZQBzAHMAaQBvAG4AQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAQAAoACQAZQBsAGUAbQBlAG4AdAAuAFYAYQBsAHUAZQAuAFQAbwBTAHQAcgBpAG4AZwAoACkAKQANAAoAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIABpAGYAIAAoACQAZQBsAGUAbQBlAG4AdAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4ATABhAG4AZwB1AGEAZwBlAC4AQwBvAG0AbQBhAG4AZABQAGEAcgBhAG0AZQB0AGUAcgBBAHMAdABdACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAGUAbABlAG0AZQBuAHQALgBBAHIAZwB1AG0AZQBuAHQAIAAtAGUAcQAgACQAbgB1AGwAbAApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIABAACgAJwAtACcAIAArACAAJABlAGwAZQBtAGUAbgB0AC4AUABhAHIAYQBtAGUAdABlAHIATgBhAG0AZQApAA0ACgAgACAAIAAgACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAIAAgACAAIABpAGYAIAAoACQAZQBsAGUAbQBlAG4AdAAuAEEAcgBnAHUAbQBlAG4AdAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4ATABhAG4AZwB1AGEAZwBlAC4AUwB0AHIAaQBuAGcAQwBvAG4AcwB0AGEAbgB0AEUAeABwAHIAZQBzAHMAaQBvAG4AQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIABAACgAJwAtACcAIAArACAAJABlAGwAZQBtAGUAbgB0AC4AUABhAHIAYQBtAGUAdABlAHIATgBhAG0AZQAsACAAJABlAGwAZQBtAGUAbgB0AC4AQQByAGcAdQBtAGUAbgB0AC4AVgBhAGwAdQBlACkADQAKACAAIAAgACAAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIAAgACAAIAAgAGkAZgAgACgAJABlAGwAZQBtAGUAbgB0AC4AQQByAGcAdQBtAGUAbgB0ACAALQBpAHMAIABbAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBMAGEAbgBnAHUAYQBnAGUALgBDAG8AbgBzAHQAYQBuAHQARQB4AHAAcgBlAHMAcwBpAG8AbgBBAHMAdABdACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgAEAAKAAnAC0AJwAgACsAIAAkAGUAbABlAG0AZQBuAHQALgBQAGEAcgBhAG0AZQB0AGUAcgBOAGEAbQBlACwAIAAkAGUAbABlAG0AZQBuAHQALgBBAHIAZwB1AG0AZQBuAHQALgBWAGEAbAB1AGUALgBUAG8AUwB0AHIAaQBuAGcAKAApACkADQAKACAAIAAgACAAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABuAHUAbABsAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABuAHUAbABsAA0ACgB9AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAAQwBvAG4AdgBlAHIAdAAtAFAAaQBwAGUAbABpAG4AZQBFAGwAZQBtAGUAbgB0ACAAewANAAoAIAAgACAAIABwAGEAcgBhAG0AKAAkAGUAbABlAG0AZQBuAHQAKQANAAoADQAKACAAIAAgACAAaQBmACAAKAAkAGUAbABlAG0AZQBuAHQAIAAtAGkAcwAgAFsAUwB5AHMAdABlAG0ALgBNAGEAbgBhAGcAZQBtAGUAbgB0AC4AQQB1AHQAbwBtAGEAdABpAG8AbgAuAEwAYQBuAGcAdQBhAGcAZQAuAEMAbwBtAG0AYQBuAGQAQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgACMAIABSAGUAZABpAHIAZQBjAHQAaQBvAG4AcwAgAGEAbgBkACAAaQBuAHYAbwBjAGEAdABpAG8AbgAgAG8AcABlAHIAYQB0AG8AcgBzACAAbQBhAGsAZQAgAHQAaABlACAAYwBvAG0AbQBhAG4AZAAgAGgAYQByAGQAZQByACAAdABvACAAYwBsAGEAcwBzAGkAZgB5ACAAcwBhAGYAZQBsAHkALAANAAoAIAAgACAAIAAgACAAIAAgACMAIABzAG8AIAByAGUAagBlAGMAdAAgAHQAaABlAG0AIAByAGEAdABoAGUAcgAgAHQAaABhAG4AIAB0AHIAeQBpAG4AZwAgAHQAbwAgAG4AbwByAG0AYQBsAGkAegBlACAAdABoAGUAbQAuAA0ACgAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAGUAbABlAG0AZQBuAHQALgBSAGUAZABpAHIAZQBjAHQAaQBvAG4AcwAuAEMAbwB1AG4AdAAgAC0AZwB0ACAAMAApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAG4AdQBsAGwADQAKACAAIAAgACAAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIAAgACAAIAAgAGkAZgAgACgADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACQAZQBsAGUAbQBlAG4AdAAuAEkAbgB2AG8AYwBhAHQAaQBvAG4ATwBwAGUAcgBhAHQAbwByACAALQBuAGUAIAAkAG4AdQBsAGwAIAAtAGEAbgBkAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAkAGUAbABlAG0AZQBuAHQALgBJAG4AdgBvAGMAYQB0AGkAbwBuAE8AcABlAHIAYQB0AG8AcgAgAC0AbgBlACAAWwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4ATABhAG4AZwB1AGEAZwBlAC4AVABvAGsAZQBuAEsAaQBuAGQAXQA6ADoAVQBuAGsAbgBvAHcAbgANAAoAIAAgACAAIAAgACAAIAAgACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgACQAbgB1AGwAbAANAAoAIAAgACAAIAAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgACAAIAAgACAAJABwAGEAcgB0AHMAIAA9ACAAQAAoACkADQAKACAAIAAgACAAIAAgACAAIABmAG8AcgBlAGEAYwBoACAAKAAkAGMAbwBtAG0AYQBuAGQARQBsAGUAbQBlAG4AdAAgAGkAbgAgACQAZQBsAGUAbQBlAG4AdAAuAEMAbwBtAG0AYQBuAGQARQBsAGUAbQBlAG4AdABzACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAkAGMAbwBuAHYAZQByAHQAZQBkACAAPQAgAEMAbwBuAHYAZQByAHQALQBDAG8AbQBtAGEAbgBkAEUAbABlAG0AZQBuAHQAIAAkAGMAbwBtAG0AYQBuAGQARQBsAGUAbQBlAG4AdAANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAGMAbwBuAHYAZQByAHQAZQBkACAALQBlAHEAIAAkAG4AdQBsAGwAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAG4AdQBsAGwADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAH0ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACQAcABhAHIAdABzACAAKwA9ACAAJABjAG8AbgB2AGUAcgB0AGUAZAANAAoAIAAgACAAIAAgACAAIAAgAH0ADQAKACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgACQAcABhAHIAdABzAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAGkAZgAgACgAJABlAGwAZQBtAGUAbgB0ACAALQBpAHMAIABbAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBMAGEAbgBnAHUAYQBnAGUALgBDAG8AbQBtAGEAbgBkAEUAeABwAHIAZQBzAHMAaQBvAG4AQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgAGkAZgAgACgAJABlAGwAZQBtAGUAbgB0AC4AUgBlAGQAaQByAGUAYwB0AGkAbwBuAHMALgBDAG8AdQBuAHQAIAAtAGcAdAAgADAAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABuAHUAbABsAA0ACgAgACAAIAAgACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAIAAgACAAIAAjACAAQQBsAGwAbwB3ACAAYQAgAHAAYQByAGUAbgB0AGgAZQBzAGkAegBlAGQAIABzAGkAbgBnAGwAZQAgAHAAaQBwAGUAbABpAG4AZQAgAGUAbABlAG0AZQBuAHQAIABsAGkAawBlACAAIgAoAEcAZQB0AC0AQwBvAG4AdABlAG4AdAAgAGYAbwBvAC4AcgBzACAALQBSAGEAdwApACIAIABzAG8ADQAKACAAIAAgACAAIAAgACAAIAAjACAAdABoAGUAIABjAGEAbABsAGUAcgAgAHMAdABpAGwAbAAgAHMAZQBlAHMAIAB0AGgAZQAgAGkAbgBuAGUAcgAgAGMAbwBtAG0AYQBuAGQAIAB3AG8AcgBkAHMALgAgAE0AbwByAGUAIABjAG8AbQBwAGwAZQB4ACAAZQB4AHAAcgBlAHMAcwBpAG8AbgBzACAAcwB0AGEAeQAgAHUAbgBzAHUAcABwAG8AcgB0AGUAZAAuAA0ACgAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAGUAbABlAG0AZQBuAHQALgBFAHgAcAByAGUAcwBzAGkAbwBuACAALQBpAHMAIABbAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBMAGEAbgBnAHUAYQBnAGUALgBQAGEAcgBlAG4ARQB4AHAAcgBlAHMAcwBpAG8AbgBBAHMAdABdACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAkAGkAbgBuAGUAcgBQAGkAcABlAGwAaQBuAGUAIAA9ACAAJABlAGwAZQBtAGUAbgB0AC4ARQB4AHAAcgBlAHMAcwBpAG8AbgAuAFAAaQBwAGUAbABpAG4AZQANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAGkAbgBuAGUAcgBQAGkAcABlAGwAaQBuAGUAIAAtAGEAbgBkACAAJABpAG4AbgBlAHIAUABpAHAAZQBsAGkAbgBlAC4AUABpAHAAZQBsAGkAbgBlAEUAbABlAG0AZQBuAHQAcwAuAEMAbwB1AG4AdAAgAC0AZQBxACAAMQApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgAEMAbwBuAHYAZQByAHQALQBQAGkAcABlAGwAaQBuAGUARQBsAGUAbQBlAG4AdAAgACQAaQBuAG4AZQByAFAAaQBwAGUAbABpAG4AZQAuAFAAaQBwAGUAbABpAG4AZQBFAGwAZQBtAGUAbgB0AHMAWwAwAF0ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgAH0ADQAKACAAIAAgACAAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABuAHUAbABsAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABuAHUAbABsAA0ACgB9AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAAQQBkAGQALQBDAG8AbQBtAGEAbgBkAHMARgByAG8AbQBQAGkAcABlAGwAaQBuAGUAQQBzAHQAIAB7AA0ACgAgACAAIAAgAHAAYQByAGEAbQAoACQAcABpAHAAZQBsAGkAbgBlACwAIAAkAGMAbwBtAG0AYQBuAGQAcwApAA0ACgANAAoAIAAgACAAIABpAGYAIAAoACQAcABpAHAAZQBsAGkAbgBlAC4AUABpAHAAZQBsAGkAbgBlAEUAbABlAG0AZQBuAHQAcwAuAEMAbwB1AG4AdAAgAC0AZQBxACAAMAApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABmAGEAbABzAGUADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAZgBvAHIAZQBhAGMAaAAgACgAJABlAGwAZQBtAGUAbgB0ACAAaQBuACAAJABwAGkAcABlAGwAaQBuAGUALgBQAGkAcABlAGwAaQBuAGUARQBsAGUAbQBlAG4AdABzACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAJAB3AG8AcgBkAHMAIAA9ACAAQwBvAG4AdgBlAHIAdAAtAFAAaQBwAGUAbABpAG4AZQBFAGwAZQBtAGUAbgB0ACAAJABlAGwAZQBtAGUAbgB0AA0ACgAgACAAIAAgACAAIAAgACAAaQBmACAAKAAkAHcAbwByAGQAcwAgAC0AZQBxACAAJABuAHUAbABsACAALQBvAHIAIAAkAHcAbwByAGQAcwAuAEMAbwB1AG4AdAAgAC0AZQBxACAAMAApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAGYAYQBsAHMAZQANAAoAIAAgACAAIAAgACAAIAAgAH0ADQAKACAAIAAgACAAIAAgACAAIAAkAG4AdQBsAGwAIAA9ACAAJABjAG8AbQBtAGEAbgBkAHMALgBBAGQAZAAoACQAdwBvAHIAZABzACkADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAHQAcgB1AGUADQAKAH0ADQAKAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABBAGQAZAAtAEMAbwBtAG0AYQBuAGQAcwBGAHIAbwBtAFAAaQBwAGUAbABpAG4AZQBDAGgAYQBpAG4AIAB7AA0ACgAgACAAIAAgAHAAYQByAGEAbQAoACQAYwBoAGEAaQBuACwAIAAkAGMAbwBtAG0AYQBuAGQAcwApAA0ACgANAAoAIAAgACAAIABpAGYAIAAoAC0AbgBvAHQAIAAoAEEAZABkAC0AQwBvAG0AbQBhAG4AZABzAEYAcgBvAG0AUABpAHAAZQBsAGkAbgBlAEIAYQBzAGUAIAAkAGMAaABhAGkAbgAuAEwAaABzAFAAaQBwAGUAbABpAG4AZQBDAGgAYQBpAG4AIAAkAGMAbwBtAG0AYQBuAGQAcwApACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAGYAYQBsAHMAZQANAAoAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIABpAGYAIAAoAC0AbgBvAHQAIAAoAEEAZABkAC0AQwBvAG0AbQBhAG4AZABzAEYAcgBvAG0AUABpAHAAZQBsAGkAbgBlAEEAcwB0ACAAJABjAGgAYQBpAG4ALgBSAGgAcwBQAGkAcABlAGwAaQBuAGUAIAAkAGMAbwBtAG0AYQBuAGQAcwApACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAGYAYQBsAHMAZQANAAoAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIAByAGUAdAB1AHIAbgAgACQAdAByAHUAZQANAAoAfQANAAoADQAKAGYAdQBuAGMAdABpAG8AbgAgAEEAZABkAC0AQwBvAG0AbQBhAG4AZABzAEYAcgBvAG0AUABpAHAAZQBsAGkAbgBlAEIAYQBzAGUAIAB7AA0ACgAgACAAIAAgAHAAYQByAGEAbQAoACQAcABpAHAAZQBsAGkAbgBlACwAIAAkAGMAbwBtAG0AYQBuAGQAcwApAA0ACgANAAoAIAAgACAAIABpAGYAIAAoACQAcABpAHAAZQBsAGkAbgBlACAALQBpAHMAIABbAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBMAGEAbgBnAHUAYQBnAGUALgBQAGkAcABlAGwAaQBuAGUAQQBzAHQAXQApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAQQBkAGQALQBDAG8AbQBtAGEAbgBkAHMARgByAG8AbQBQAGkAcABlAGwAaQBuAGUAQQBzAHQAIAAkAHAAaQBwAGUAbABpAG4AZQAgACQAYwBvAG0AbQBhAG4AZABzAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgACMAIABXAGkAbgBkAG8AdwBzACAAUABvAHcAZQByAFMAaABlAGwAbAAgADUALgAxACAAZABvAGUAcwAgAG4AbwB0ACAAZABlAGYAaQBuAGUAIABQAGkAcABlAGwAaQBuAGUAQwBoAGEAaQBuAEEAcwB0ACwAIABzAG8AIABhAHYAbwBpAGQAIABhACAAZABpAHIAZQBjAHQAIAB0AHkAcABlAA0ACgAgACAAIAAgACMAIAByAGUAZgBlAHIAZQBuAGMAZQAgAGgAZQByAGUAIABhAG4AZAAgAGkAbgBzAHQAZQBhAGQAIABjAGgAZQBjAGsAIAB0AGgAZQAgAHIAdQBuAHQAaQBtAGUAIAB0AHkAcABlACAAbgBhAG0AZQAuAA0ACgAgACAAIAAgAGkAZgAgACgAJABwAGkAcABlAGwAaQBuAGUALgBHAGUAdABUAHkAcABlACgAKQAuAEYAdQBsAGwATgBhAG0AZQAgAC0AZQBxACAAJwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4ATABhAG4AZwB1AGEAZwBlAC4AUABpAHAAZQBsAGkAbgBlAEMAaABhAGkAbgBBAHMAdAAnACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIABBAGQAZAAtAEMAbwBtAG0AYQBuAGQAcwBGAHIAbwBtAFAAaQBwAGUAbABpAG4AZQBDAGgAYQBpAG4AIAAkAHAAaQBwAGUAbABpAG4AZQAgACQAYwBvAG0AbQBhAG4AZABzAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABmAGEAbABzAGUADQAKAH0ADQAKAA0ACgAjACAAVABoAGkAcwAgAHMAYwByAGkAcAB0ACAAcwB0AGEAeQBzACAAYQBsAGkAdgBlACAAcwBvACAAdABoAGUAIABSAHUAcwB0ACAAYwBhAGwAbABlAHIAIABjAGEAbgAgAGEAbQBvAHIAdABpAHoAZQAgAFAAbwB3AGUAcgBTAGgAZQBsAGwAIABzAHQAYQByAHQAdQBwACAAYQBjAHIAbwBzAHMADQAKACMAIABtAGEAbgB5ACAAcABhAHIAcwBlACAAcgBlAHEAdQBlAHMAdABzAC4AIABFAGEAYwBoACAAcgBlAHEAdQBlAHMAdAAgAGEAbgBkACAAcgBlAHMAcABvAG4AcwBlACAAaQBzACAAbwBuAGUAIABjAG8AbQBwAGEAYwB0ACAASgBTAE8ATgAgAGwAaQBuAGUALgANAAoAdwBoAGkAbABlACAAKAAoACQAcgBlAHEAdQBlAHMAdABMAGkAbgBlACAAPQAgACQAcwB0AGQAaQBuAC4AUgBlAGEAZABMAGkAbgBlACgAKQApACAALQBuAGUAIAAkAG4AdQBsAGwAKQAgAHsADQAKACAAIAAgACAAJAByAGUAcQB1AGUAcwB0ACAAPQAgACQAbgB1AGwAbAANAAoAIAAgACAAIAB0AHIAeQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAHIAZQBxAHUAZQBzAHQAIAA9ACAAJAByAGUAcQB1AGUAcwB0AEwAaQBuAGUAIAB8ACAAQwBvAG4AdgBlAHIAdABGAHIAbwBtAC0ASgBzAG8AbgANAAoAIAAgACAAIAB9ACAAYwBhAHQAYwBoACAAewANAAoAIAAgACAAIAAgACAAIAAgAFcAcgBpAHQAZQAtAFIAZQBzAHAAbwBuAHMAZQAgAEAAewAgAGkAZAAgAD0AIAAkAG4AdQBsAGwAOwAgAHMAdABhAHQAdQBzACAAPQAgACcAcABhAHIAcwBlAF8AZgBhAGkAbABlAGQAJwAgAH0ADQAKACAAIAAgACAAIAAgACAAIABjAG8AbgB0AGkAbgB1AGUADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAIwAgAFcAZQAgAHAAcgBvAGMAZQBzAHMAIAByAGUAcQB1AGUAcwB0AHMAIABzAGUAcgBpAGEAbABsAHkALAAgAGIAdQB0ACAAcwB0AGkAbABsACAAZQBjAGgAbwAgAHQAaABlACAAaQBkACAAYgBhAGMAawAgAHMAbwAgAHQAaABlACAAUgB1AHMAdAAgAHMAaQBkAGUAIABjAGEAbgANAAoAIAAgACAAIAAjACAAZABlAHQAZQBjAHQAIABwAHIAbwB0AG8AYwBvAGwAIABkAGUAcwB5AG4AYwBzACAAaQBuAHMAdABlAGEAZAAgAG8AZgAgAHMAaQBsAGUAbgB0AGwAeQAgAHQAcgB1AHMAdABpAG4AZwAgAG0AaQB4AGUAZAAgAHMAdABkAG8AdQB0AC4ADQAKACAAIAAgACAAJAByAGUAcQB1AGUAcwB0AEkAZAAgAD0AIAAkAHIAZQBxAHUAZQBzAHQALgBpAGQADQAKACAAIAAgACAAJABwAGEAeQBsAG8AYQBkACAAPQAgACQAcgBlAHEAdQBlAHMAdAAuAHAAYQB5AGwAbwBhAGQADQAKACAAIAAgACAAaQBmACAAKABbAHMAdAByAGkAbgBnAF0AOgA6AEkAcwBOAHUAbABsAE8AcgBFAG0AcAB0AHkAKAAkAHAAYQB5AGwAbwBhAGQAKQApACAAewANAAoAIAAgACAAIAAgACAAIAAgAFcAcgBpAHQAZQAtAFIAZQBzAHAAbwBuAHMAZQAgAEAAewAgAGkAZAAgAD0AIAAkAHIAZQBxAHUAZQBzAHQASQBkADsAIABzAHQAYQB0AHUAcwAgAD0AIAAnAHAAYQByAHMAZQBfAGYAYQBpAGwAZQBkACcAIAB9AA0ACgAgACAAIAAgACAAIAAgACAAYwBvAG4AdABpAG4AdQBlAA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAHQAcgB5ACAAewANAAoAIAAgACAAIAAgACAAIAAgACQAcwBvAHUAcgBjAGUAIAA9AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIABbAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBVAG4AaQBjAG8AZABlAC4ARwBlAHQAUwB0AHIAaQBuAGcAKAANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIABbAFMAeQBzAHQAZQBtAC4AQwBvAG4AdgBlAHIAdABdADoAOgBGAHIAbwBtAEIAYQBzAGUANgA0AFMAdAByAGkAbgBnACgAJABwAGEAeQBsAG8AYQBkACkADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACkADQAKACAAIAAgACAAfQAgAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAIAAgACAAIABXAHIAaQB0AGUALQBSAGUAcwBwAG8AbgBzAGUAIABAAHsAIABpAGQAIAA9ACAAJAByAGUAcQB1AGUAcwB0AEkAZAA7ACAAcwB0AGEAdAB1AHMAIAA9ACAAJwBwAGEAcgBzAGUAXwBmAGEAaQBsAGUAZAAnACAAfQANAAoAIAAgACAAIAAgACAAIAAgAGMAbwBuAHQAaQBuAHUAZQANAAoAIAAgACAAIAB9AA0ACgANAAoAIAAgACAAIABXAHIAaQB0AGUALQBSAGUAcwBwAG8AbgBzAGUAIAAoAEkAbgB2AG8AawBlAC0AUABhAHIAcwBlAFIAZQBxAHUAZQBzAHQAIAAtAFIAZQBxAHUAZQBzAHQASQBkACAAJAByAGUAcQB1AGUAcwB0AEkAZAAgAC0AUwBvAHUAcgBjAGUAIAAkAHMAbwB1AHIAYwBlACkADQAKAH0ADQAKAA==",
+      "CreationDate": "/Date(1781171141309)/"
+    },
+    {
+      "ProcessId": 6996,
+      "ParentProcessId": 22008,
+      "Name": "Obsidian.exe",
+      "CommandLine": "\"D:\\Program Files\\Obsidian\\Obsidian.exe\" --type=gpu-process --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\obsidian\" --gpu-preferences=UAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --field-trial-handle=1708,i,1593273225065614288,8586101131522902221,262144 --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --log-level=3 --mojo-platform-channel-handle=1684 /prefetch:2",
+      "CreationDate": "/Date(1781171450898)/"
+    },
+    {
+      "ProcessId": 15752,
+      "ParentProcessId": 22008,
+      "Name": "Obsidian.exe",
+      "CommandLine": "\"D:\\Program Files\\Obsidian\\Obsidian.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\obsidian\" --standard-schemes=app --secure-schemes=app --fetch-schemes=app --streaming-schemes=app --code-cache-schemes=app --field-trial-handle=1988,i,1593273225065614288,8586101131522902221,262144 --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --log-level=3 --mojo-platform-channel-handle=1984 /prefetch:11",
+      "CreationDate": "/Date(1781171450908)/"
+    },
+    {
+      "ProcessId": 9992,
+      "ParentProcessId": 22008,
+      "Name": "Obsidian.exe",
+      "CommandLine": "\"D:\\Program Files\\Obsidian\\Obsidian.exe\" --type=renderer --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\obsidian\" --standard-schemes=app --secure-schemes=app --fetch-schemes=app --streaming-schemes=app --code-cache-schemes=app --app-path=\"D:\\Program Files\\Obsidian\\resources\\app.asar\" --no-sandbox --no-zygote --node-integration-in-worker --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1781170307731258 --launch-time-ticks=1143199724 --field-trial-handle=2544,i,1593273225065614288,8586101131522902221,262144 --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --log-level=3 --mojo-platform-channel-handle=2540 /prefetch:1",
+      "CreationDate": "/Date(1781171450936)/"
+    },
+    {
+      "ProcessId": 4936,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=zh-CN --service-sandbox-type=none --skip-read-main-dll --metrics-shmem-handle=4772,i,11533994231248799019,15808183125231123125,524288 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709024730587303 --mojo-platform-channel-handle=4904 /prefetch:14",
+      "CreationDate": "/Date(1781171832037)/"
+    },
+    {
+      "ProcessId": 19880,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=audio.mojom.AudioService --lang=zh-CN --service-sandbox-type=audio --skip-read-main-dll --metrics-shmem-handle=9280,i,13233323324451040802,290995571771243656,524288 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709023793545454 --mojo-platform-channel-handle=8976 /prefetch:12",
+      "CreationDate": "/Date(1781171832037)/"
+    },
+    {
+      "ProcessId": 2200,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=45 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=5501052847 --skip-read-main-dll --metrics-shmem-handle=11252,i,7970648849249947163,7752361467179903919,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709028478754699 --mojo-platform-channel-handle=9864 /prefetch:1",
+      "CreationDate": "/Date(1781175808786)/"
+    },
+    {
+      "ProcessId": 21172,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=49 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=5507234103 --skip-read-main-dll --metrics-shmem-handle=9820,i,628381582243541808,680578229715784933,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709032226922095 --mojo-platform-channel-handle=10444 /prefetch:1",
+      "CreationDate": "/Date(1781175814968)/"
+    },
+    {
+      "ProcessId": 19132,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=50 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=5508296585 --skip-read-main-dll --metrics-shmem-handle=10112,i,16607599292479095618,2666480134932428825,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709033163963944 --mojo-platform-channel-handle=8620 /prefetch:1",
+      "CreationDate": "/Date(1781175816030)/"
+    },
+    {
+      "ProcessId": 24404,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --product-id=1002 --disable-mojo-broker --field-trial-handle=2432,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=2416 /prefetch:11",
+      "CreationDate": "/Date(1781182161419)/"
+    },
+    {
+      "ProcessId": 21364,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=gpu-process --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --product-id=1002 --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --disable-mojo-broker --field-trial-handle=2380,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=2444 /prefetch:2",
+      "CreationDate": "/Date(1781182161430)/"
+    },
+    {
+      "ProcessId": 4032,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=utility --utility-sub-type=flue.mojom.ILinkServiceHost --lang=zh-CN --service-sandbox-type=none --video-capture-use-gpu-memory-buffer --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --product-id=1002 --disable-mojo-broker --field-trial-handle=3804,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=3800 /prefetch:14",
+      "CreationDate": "/Date(1781182165109)/"
+    },
+    {
+      "ProcessId": 24956,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=renderer --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --wmpf-render-type=7 --product-id=1002 --disable-notifications --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1781170307732057 --disable-mojo-broker --launch-time-ticks=11857865234 --field-trial-handle=4088,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=4084 /prefetch:1",
+      "CreationDate": "/Date(1781182165616)/"
+    },
+    {
+      "ProcessId": 25032,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=renderer --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --wmpf-render-type=6 --product-id=1002 --disable-notifications --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1781170307732057 --disable-mojo-broker --launch-time-ticks=11857943858 --field-trial-handle=4236,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=4232 /prefetch:1",
+      "CreationDate": "/Date(1781182165680)/"
+    },
+    {
+      "ProcessId": 25828,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=renderer --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --wmpf-render-type=7 --product-id=1002 --disable-notifications --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1781170307732057 --disable-mojo-broker --launch-time-ticks=11879531475 --field-trial-handle=5240,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=5368 /prefetch:1",
+      "CreationDate": "/Date(1781182187265)/"
+    },
+    {
+      "ProcessId": 26604,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=renderer --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --wmpf-render-type=4 --wmpf-appid=preload-9 --product-id=1002 --disable-notifications --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1781170307732057 --disable-mojo-broker --launch-time-ticks=11886619033 --field-trial-handle=5548,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=5544 /prefetch:1",
+      "CreationDate": "/Date(1781182194353)/"
+    },
+    {
+      "ProcessId": 26044,
+      "ParentProcessId": 17056,
+      "Name": "WeChatAppEx.exe",
+      "CommandLine": "\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\RadiumWMPF\\19921\\extracted\\runtime\\WeChatAppEx.exe\" --type=renderer --client_version=4065597983 --enable-crash-reporter --wmpf_root_dir=\"C:\\Users\\wuxia\\AppData\\Roaming\\Tencent\\xwechat\\radium\" --instance-index=0 --wmpf-render-type=7 --product-id=1002 --disable-notifications --video-capture-use-gpu-memory-buffer --lang=zh-CN --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1781170307732057 --disable-mojo-broker --launch-time-ticks=11909231229 --field-trial-handle=5928,i,16212830000863614912,9702597738136115714,262144 --enable-features=OverlayScrollbar,WinSystemLocationPermission,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=5924 /prefetch:1",
+      "CreationDate": "/Date(1781182216971)/"
+    },
+    {
+      "ProcessId": 14772,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=85 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=12930235917 --skip-read-main-dll --metrics-shmem-handle=9200,i,9245761784826858908,11944274313511882540,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709065960428659 --mojo-platform-channel-handle=10120 /prefetch:1",
+      "CreationDate": "/Date(1781183237969)/"
+    },
+    {
+      "ProcessId": 23064,
+      "ParentProcessId": 1716,
+      "Name": "GameBarPresenceWriter.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\GameBarPresenceWriter.exe\" -ServerName:Windows.Gaming.GameBar.Internal.PresenceWriterServer",
+      "CreationDate": "/Date(1781187921411)/"
+    },
+    {
+      "ProcessId": 5240,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=99 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=17615000425 --ssd-no-pressure-read-main-dll --metrics-shmem-handle=10380,i,13861863966830304239,15329198874823218849,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709079079014545 --mojo-platform-channel-handle=10204 /prefetch:1",
+      "CreationDate": "/Date(1781187922734)/"
+    },
+    {
+      "ProcessId": 3740,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=100 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=17615011315 --skip-read-main-dll --metrics-shmem-handle=11728,i,5849555977686276069,1370368065688711811,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709080016056394 --mojo-platform-channel-handle=10804 /prefetch:1",
+      "CreationDate": "/Date(1781187922745)/"
+    },
+    {
+      "ProcessId": 23992,
+      "ParentProcessId": 2756,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=crashpad-handler --user-data-dir=C:\\Users\\wuxia\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView /prefetch:4 /pfhostedapp:35d8661f51c1dd2f0ee7f787d3a8eb031b25173e --monitor-self-annotation=ptype=crashpad-handler --database=C:\\Users\\wuxia\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=149.0.7827.103 \"--annotation=exe=C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --annotation=plat=Win64 \"--annotation=prod=Edge WebView2\" --annotation=ver=149.0.4022.62 --initial-client-data=0x180,0x184,0x188,0x15c,0x190,0x7ffdd5eb9c38,0x7ffdd5eb9c44,0x7ffdd5eb9c50",
+      "CreationDate": "/Date(1781194711068)/"
+    },
+    {
+      "ProcessId": 20096,
+      "ParentProcessId": 2756,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=gpu-process --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\" --webview-exe-name=clash-verge.exe --webview-exe-version=2.5.1 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=d3d11-warp-webgl --startup-read-main-dll --metrics-shmem-handle=1872,i,9147182948736610642,13347357737446763382,262144 --field-trial-handle=1916,i,10890507187392258278,15785753860259627654,262144 --disable-features=msPdfOOUI,msSmartScreenProtection,msWebOOUI --variations-seed-version --pseudonymization-salt-handle=1920,i,6752154541478889499,5237011653162868313,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=1912 /prefetch:2 /pfhostedapp:35d8661f51c1dd2f0ee7f787d3a8eb031b25173e",
+      "CreationDate": "/Date(1781194711219)/"
+    },
+    {
+      "ProcessId": 22824,
+      "ParentProcessId": 2756,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\" --webview-exe-name=clash-verge.exe --webview-exe-version=2.5.1 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --startup-read-main-dll --metrics-shmem-handle=2072,i,9634152644100897789,2490069783792556854,524288 --field-trial-handle=1916,i,10890507187392258278,15785753860259627654,262144 --disable-features=msPdfOOUI,msSmartScreenProtection,msWebOOUI --variations-seed-version --pseudonymization-salt-handle=1920,i,6752154541478889499,5237011653162868313,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2076 /prefetch:11 /pfhostedapp:35d8661f51c1dd2f0ee7f787d3a8eb031b25173e",
+      "CreationDate": "/Date(1781194711222)/"
+    },
+    {
+      "ProcessId": 2040,
+      "ParentProcessId": 2756,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=service --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\" --webview-exe-name=clash-verge.exe --webview-exe-version=2.5.1 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --startup-read-main-dll --metrics-shmem-handle=2396,i,2706035000179154586,2644349151224233613,524288 --field-trial-handle=1916,i,10890507187392258278,15785753860259627654,262144 --disable-features=msPdfOOUI,msSmartScreenProtection,msWebOOUI --variations-seed-version --pseudonymization-salt-handle=1920,i,6752154541478889499,5237011653162868313,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2420 /prefetch:13 /pfhostedapp:35d8661f51c1dd2f0ee7f787d3a8eb031b25173e",
+      "CreationDate": "/Date(1781194711247)/"
+    },
+    {
+      "ProcessId": 19876,
+      "ParentProcessId": 2756,
+      "Name": "msedgewebview2.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe\" --type=renderer --noerrdialogs --user-data-dir=\"C:\\Users\\wuxia\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\" --webview-exe-name=clash-verge.exe --webview-exe-version=2.5.1 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --autoplay-policy=no-user-gesture-required --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--expose-gc --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1781170307732052 --launch-time-ticks=24403587149 --ssd-no-pressure-read-main-dll --metrics-shmem-handle=3868,i,11917272705789794760,7963110715599036851,2097152 --field-trial-handle=1916,i,10890507187392258278,15785753860259627654,262144 --disable-features=msPdfOOUI,msSmartScreenProtection,msWebOOUI --variations-seed-version --pseudonymization-salt-handle=1920,i,6752154541478889499,5237011653162868313,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=3884 /pfhostedapp:35d8661f51c1dd2f0ee7f787d3a8eb031b25173e /prefetch:1",
+      "CreationDate": "/Date(1781194711320)/"
+    },
+    {
+      "ProcessId": 27792,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --instant-process --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=127 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=24753842393 --skip-read-main-dll --metrics-shmem-handle=8656,i,622216797809276876,18354768832219545867,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709105316186317 --mojo-platform-channel-handle=8708 /prefetch:1",
+      "CreationDate": "/Date(1781195061578)/"
+    },
+    {
+      "ProcessId": 17468,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=134 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=27432022806 --skip-read-main-dll --metrics-shmem-handle=10760,i,12289578391582650286,14816201575773805404,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709111875479260 --mojo-platform-channel-handle=8020 /prefetch:1",
+      "CreationDate": "/Date(1781197739758)/"
+    },
+    {
+      "ProcessId": 10660,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=154 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=28852582986 --ssd-no-pressure-read-main-dll --metrics-shmem-handle=11440,i,7776432204953451311,5082657423066877827,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709130616316240 --mojo-platform-channel-handle=11424 /prefetch:1",
+      "CreationDate": "/Date(1781199160316)/"
+    },
+    {
+      "ProcessId": 11172,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=159 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=29261341449 --skip-read-main-dll --metrics-shmem-handle=10508,i,12135483181633236655,15623234871181893662,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709135301525485 --mojo-platform-channel-handle=11004 /prefetch:1",
+      "CreationDate": "/Date(1781199569075)/"
+    },
+    {
+      "ProcessId": 25124,
+      "ParentProcessId": 5504,
+      "Name": "msedge.exe",
+      "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=160 --time-ticks-at-unix-epoch=-1781170307732051 --launch-time-ticks=29272878104 --skip-read-main-dll --metrics-shmem-handle=11168,i,15800987369121922092,10312527751601538280,2097152 --field-trial-handle=2432,i,5712577297353676503,4747500230786810327,262144 --variations-seed-version --pseudonymization-salt-handle=2440,i,8185873277926704632,5903704352978476840,4 --trace-process-track-uuid=3190709136238567334 --mojo-platform-channel-handle=10752 /prefetch:1",
+      "CreationDate": "/Date(1781199580611)/"
+    },
+    {
+      "ProcessId": 27052,
+      "ParentProcessId": 3340,
+      "Name": "powershell.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Command \"try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\n@'\nimport json, os, re, subprocess\nfrom pathlib import Path\nfrom datetime import datetime\n\nroot = Path(r'E:\\Projects\\RL-LAM-ScanOpt')\ncase_dir = root / 'cae_model' / 'stage3_true_variable_N_probe60_v01' / 'N24' / 'N24_A07_regular_jump_coprime'\nout_dir = root / 'outputs' / 'stage3_cae_probe60_generation'\nout_dir.mkdir(parents=True, exist_ok=True)\nkeywords = ['abaqus','standard','explicit','pre','package','solver','analysis','abq']\n\nps = r'''\n$procs = Get-CimInstance Win32_Process | Select-Object ProcessId,ParentProcessId,Name,CommandLine,CreationDate\n$procs | ConvertTo-Json -Depth 4\n'''\ncp = subprocess.run(['powershell','-NoProfile','-Command',ps], capture_output=True, text=True, errors='replace')\ntry:\n    proc_data = json.loads(cp.stdout) if cp.stdout.strip() else []\nexcept Exception:\n    proc_data = []\nif isinstance(proc_data, dict): proc_data = [proc_data]\nmatched=[]\ncase_hit=[]\ncase_str = str(case_dir).lower()\njob = 'j2d_n24_n24_a07_regular_jump_coprime'\nfor p in proc_data:\n    name = str(p.get('Name',''))\n    cmd = str(p.get('CommandLine','') or '')\n    blob = (name + ' ' + cmd).lower()\n    if any(k in blob for k in keywords):\n        matched.append(p)\n    if case_str in blob or job in blob:\n        case_hit.append(p)\n\nfiles = {}\nfor ext in ['inp','cae','jnl','odb','sim','sta','dat','msg','lck','prt','com','log','res','mdl','stt']:\n    paths = sorted(case_dir.glob(f'*.{ext}'))\n    files[ext] = [{'path': str(p), 'size': p.stat().st_size, 'mtime': datetime.fromtimestamp(p.stat().st_mtime).isoformat(timespec='seconds')} for p in paths]\n\nsummary = {\n    'timestamp': datetime.now().isoformat(timespec='seconds'),\n    'case_dir': str(case_dir),\n    'process_audit_command_returncode': cp.returncode,\n    'process_audit_stderr': cp.stderr[-2000:],\n    'matched_abaqus_related_processes': matched,\n    'matched_case_processes': case_hit,\n    'abaqus_related_process_count': len(matched),\n    'case_process_count': len(case_hit),\n    'file_inventory': files,\n    'lck_count': len(files['lck']),\n}\npath = out_dir / 'N24_A07_process_lock_audit.json'\npath.write_text(json.dumps(summary, indent=2), encoding='utf-8')\nprint(json.dumps({'abaqus_related_process_count': len(matched), 'case_process_count': len(case_hit), 'lck_count': len(files['lck']), 'audit_path': str(path), 'matched': matched[:10], 'case_matched': case_hit}, indent=2))\n'@ | & \\\"D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe\\\" -\"",
+      "CreationDate": "/Date(1781199670507)/"
+    }
+  ],
+  "matched_case_processes": [
+    {
+      "ProcessId": 27052,
+      "ParentProcessId": 3340,
+      "Name": "powershell.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Command \"try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\n@'\nimport json, os, re, subprocess\nfrom pathlib import Path\nfrom datetime import datetime\n\nroot = Path(r'E:\\Projects\\RL-LAM-ScanOpt')\ncase_dir = root / 'cae_model' / 'stage3_true_variable_N_probe60_v01' / 'N24' / 'N24_A07_regular_jump_coprime'\nout_dir = root / 'outputs' / 'stage3_cae_probe60_generation'\nout_dir.mkdir(parents=True, exist_ok=True)\nkeywords = ['abaqus','standard','explicit','pre','package','solver','analysis','abq']\n\nps = r'''\n$procs = Get-CimInstance Win32_Process | Select-Object ProcessId,ParentProcessId,Name,CommandLine,CreationDate\n$procs | ConvertTo-Json -Depth 4\n'''\ncp = subprocess.run(['powershell','-NoProfile','-Command',ps], capture_output=True, text=True, errors='replace')\ntry:\n    proc_data = json.loads(cp.stdout) if cp.stdout.strip() else []\nexcept Exception:\n    proc_data = []\nif isinstance(proc_data, dict): proc_data = [proc_data]\nmatched=[]\ncase_hit=[]\ncase_str = str(case_dir).lower()\njob = 'j2d_n24_n24_a07_regular_jump_coprime'\nfor p in proc_data:\n    name = str(p.get('Name',''))\n    cmd = str(p.get('CommandLine','') or '')\n    blob = (name + ' ' + cmd).lower()\n    if any(k in blob for k in keywords):\n        matched.append(p)\n    if case_str in blob or job in blob:\n        case_hit.append(p)\n\nfiles = {}\nfor ext in ['inp','cae','jnl','odb','sim','sta','dat','msg','lck','prt','com','log','res','mdl','stt']:\n    paths = sorted(case_dir.glob(f'*.{ext}'))\n    files[ext] = [{'path': str(p), 'size': p.stat().st_size, 'mtime': datetime.fromtimestamp(p.stat().st_mtime).isoformat(timespec='seconds')} for p in paths]\n\nsummary = {\n    'timestamp': datetime.now().isoformat(timespec='seconds'),\n    'case_dir': str(case_dir),\n    'process_audit_command_returncode': cp.returncode,\n    'process_audit_stderr': cp.stderr[-2000:],\n    'matched_abaqus_related_processes': matched,\n    'matched_case_processes': case_hit,\n    'abaqus_related_process_count': len(matched),\n    'case_process_count': len(case_hit),\n    'file_inventory': files,\n    'lck_count': len(files['lck']),\n}\npath = out_dir / 'N24_A07_process_lock_audit.json'\npath.write_text(json.dumps(summary, indent=2), encoding='utf-8')\nprint(json.dumps({'abaqus_related_process_count': len(matched), 'case_process_count': len(case_hit), 'lck_count': len(files['lck']), 'audit_path': str(path), 'matched': matched[:10], 'case_matched': case_hit}, indent=2))\n'@ | & \\\"D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe\\\" -\"",
+      "CreationDate": "/Date(1781199670507)/"
+    }
+  ],
+  "abaqus_related_process_count": 80,
+  "case_process_count": 1,
+  "file_inventory": {
+    "inp": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.inp",
+        "size": 84577,
+        "mtime": "2026-06-11T14:21:59"
+      }
+    ],
+    "cae": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.cae",
+        "size": 339968,
+        "mtime": "2026-06-11T14:21:59"
+      }
+    ],
+    "jnl": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.jnl",
+        "size": 35684,
+        "mtime": "2026-06-11T14:21:59"
+      }
+    ],
+    "odb": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.odb",
+        "size": 102760448,
+        "mtime": "2026-06-11T17:31:10"
+      }
+    ],
+    "sim": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.sim",
+        "size": 343,
+        "mtime": "2026-06-11T17:24:38"
+      }
+    ],
+    "sta": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.sta",
+        "size": 64157,
+        "mtime": "2026-06-11T17:31:12"
+      }
+    ],
+    "dat": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.dat",
+        "size": 171498,
+        "mtime": "2026-06-11T17:31:12"
+      }
+    ],
+    "msg": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.msg",
+        "size": 4824615,
+        "mtime": "2026-06-11T17:31:13"
+      }
+    ],
+    "lck": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.lck",
+        "size": 99,
+        "mtime": "2026-06-11T17:24:39"
+      }
+    ],
+    "prt": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.prt",
+        "size": 5875,
+        "mtime": "2026-06-11T17:24:39"
+      }
+    ],
+    "com": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.com",
+        "size": 4134,
+        "mtime": "2026-06-11T17:24:29"
+      }
+    ],
+    "log": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.log",
+        "size": 2315,
+        "mtime": "2026-06-11T17:24:26"
+      }
+    ],
+    "res": [],
+    "mdl": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.mdl",
+        "size": 5567684,
+        "mtime": "2026-06-11T17:24:38"
+      }
+    ],
+    "stt": [
+      {
+        "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.stt",
+        "size": 3080272,
+        "mtime": "2026-06-11T17:30:54"
+      }
+    ]
+  },
+  "lck_count": 1
+}

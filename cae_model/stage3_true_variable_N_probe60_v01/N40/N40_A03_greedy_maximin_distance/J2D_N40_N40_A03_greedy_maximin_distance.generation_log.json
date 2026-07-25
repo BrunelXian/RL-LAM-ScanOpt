@@ -1,0 +1,450 @@
+{
+  "status": "GENERATED_PARTIAL_N16_N24_N40_CASE",
+  "case": {
+    "n": 40,
+    "strategy_name": "N40_A03_greedy_maximin_distance",
+    "job_name": "J2D_N40_N40_A03_greedy_maximin_distance",
+    "expected_cae": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.cae",
+    "expected_inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.inp"
+  },
+  "notes": {
+    "sequence_records": [
+      {
+        "seq": 0,
+        "track": 0,
+        "scan_step": "step_scan_00",
+        "cool_step": "step_cool_00"
+      },
+      {
+        "seq": 1,
+        "track": 39,
+        "scan_step": "step_scan_01",
+        "cool_step": "step_cool_01"
+      },
+      {
+        "seq": 2,
+        "track": 19,
+        "scan_step": "step_scan_02",
+        "cool_step": "step_cool_02"
+      },
+      {
+        "seq": 3,
+        "track": 29,
+        "scan_step": "step_scan_03",
+        "cool_step": "step_cool_03"
+      },
+      {
+        "seq": 4,
+        "track": 9,
+        "scan_step": "step_scan_04",
+        "cool_step": "step_cool_04"
+      },
+      {
+        "seq": 5,
+        "track": 14,
+        "scan_step": "step_scan_05",
+        "cool_step": "step_cool_05"
+      },
+      {
+        "seq": 6,
+        "track": 24,
+        "scan_step": "step_scan_06",
+        "cool_step": "step_cool_06"
+      },
+      {
+        "seq": 7,
+        "track": 34,
+        "scan_step": "step_scan_07",
+        "cool_step": "step_cool_07"
+      },
+      {
+        "seq": 8,
+        "track": 4,
+        "scan_step": "step_scan_08",
+        "cool_step": "step_cool_08"
+      },
+      {
+        "seq": 9,
+        "track": 2,
+        "scan_step": "step_scan_09",
+        "cool_step": "step_cool_09"
+      },
+      {
+        "seq": 10,
+        "track": 6,
+        "scan_step": "step_scan_10",
+        "cool_step": "step_cool_10"
+      },
+      {
+        "seq": 11,
+        "track": 11,
+        "scan_step": "step_scan_11",
+        "cool_step": "step_cool_11"
+      },
+      {
+        "seq": 12,
+        "track": 16,
+        "scan_step": "step_scan_12",
+        "cool_step": "step_cool_12"
+      },
+      {
+        "seq": 13,
+        "track": 21,
+        "scan_step": "step_scan_13",
+        "cool_step": "step_cool_13"
+      },
+      {
+        "seq": 14,
+        "track": 26,
+        "scan_step": "step_scan_14",
+        "cool_step": "step_cool_14"
+      },
+      {
+        "seq": 15,
+        "track": 31,
+        "scan_step": "step_scan_15",
+        "cool_step": "step_cool_15"
+      },
+      {
+        "seq": 16,
+        "track": 36,
+        "scan_step": "step_scan_16",
+        "cool_step": "step_cool_16"
+      },
+      {
+        "seq": 17,
+        "track": 1,
+        "scan_step": "step_scan_17",
+        "cool_step": "step_cool_17"
+      },
+      {
+        "seq": 18,
+        "track": 3,
+        "scan_step": "step_scan_18",
+        "cool_step": "step_cool_18"
+      },
+      {
+        "seq": 19,
+        "track": 5,
+        "scan_step": "step_scan_19",
+        "cool_step": "step_cool_19"
+      },
+      {
+        "seq": 20,
+        "track": 7,
+        "scan_step": "step_scan_20",
+        "cool_step": "step_cool_20"
+      },
+      {
+        "seq": 21,
+        "track": 8,
+        "scan_step": "step_scan_21",
+        "cool_step": "step_cool_21"
+      },
+      {
+        "seq": 22,
+        "track": 10,
+        "scan_step": "step_scan_22",
+        "cool_step": "step_cool_22"
+      },
+      {
+        "seq": 23,
+        "track": 12,
+        "scan_step": "step_scan_23",
+        "cool_step": "step_cool_23"
+      },
+      {
+        "seq": 24,
+        "track": 13,
+        "scan_step": "step_scan_24",
+        "cool_step": "step_cool_24"
+      },
+      {
+        "seq": 25,
+        "track": 15,
+        "scan_step": "step_scan_25",
+        "cool_step": "step_cool_25"
+      },
+      {
+        "seq": 26,
+        "track": 17,
+        "scan_step": "step_scan_26",
+        "cool_step": "step_cool_26"
+      },
+      {
+        "seq": 27,
+        "track": 18,
+        "scan_step": "step_scan_27",
+        "cool_step": "step_cool_27"
+      },
+      {
+        "seq": 28,
+        "track": 20,
+        "scan_step": "step_scan_28",
+        "cool_step": "step_cool_28"
+      },
+      {
+        "seq": 29,
+        "track": 22,
+        "scan_step": "step_scan_29",
+        "cool_step": "step_cool_29"
+      },
+      {
+        "seq": 30,
+        "track": 23,
+        "scan_step": "step_scan_30",
+        "cool_step": "step_cool_30"
+      },
+      {
+        "seq": 31,
+        "track": 25,
+        "scan_step": "step_scan_31",
+        "cool_step": "step_cool_31"
+      },
+      {
+        "seq": 32,
+        "track": 27,
+        "scan_step": "step_scan_32",
+        "cool_step": "step_cool_32"
+      },
+      {
+        "seq": 33,
+        "track": 28,
+        "scan_step": "step_scan_33",
+        "cool_step": "step_cool_33"
+      },
+      {
+        "seq": 34,
+        "track": 30,
+        "scan_step": "step_scan_34",
+        "cool_step": "step_cool_34"
+      },
+      {
+        "seq": 35,
+        "track": 32,
+        "scan_step": "step_scan_35",
+        "cool_step": "step_cool_35"
+      },
+      {
+        "seq": 36,
+        "track": 33,
+        "scan_step": "step_scan_36",
+        "cool_step": "step_cool_36"
+      },
+      {
+        "seq": 37,
+        "track": 35,
+        "scan_step": "step_scan_37",
+        "cool_step": "step_cool_37"
+      },
+      {
+        "seq": 38,
+        "track": 37,
+        "scan_step": "step_scan_38",
+        "cool_step": "step_cool_38"
+      },
+      {
+        "seq": 39,
+        "track": 38,
+        "scan_step": "step_scan_39",
+        "cool_step": "step_cool_39"
+      }
+    ],
+    "deactivation_records": [
+      {
+        "load": "load_body_hflux_00",
+        "deactivated_in": "step_cool_00"
+      },
+      {
+        "load": "load_body_hflux_01",
+        "deactivated_in": "step_cool_01"
+      },
+      {
+        "load": "load_body_hflux_02",
+        "deactivated_in": "step_cool_02"
+      },
+      {
+        "load": "load_body_hflux_03",
+        "deactivated_in": "step_cool_03"
+      },
+      {
+        "load": "load_body_hflux_04",
+        "deactivated_in": "step_cool_04"
+      },
+      {
+        "load": "load_body_hflux_05",
+        "deactivated_in": "step_cool_05"
+      },
+      {
+        "load": "load_body_hflux_06",
+        "deactivated_in": "step_cool_06"
+      },
+      {
+        "load": "load_body_hflux_07",
+        "deactivated_in": "step_cool_07"
+      },
+      {
+        "load": "load_body_hflux_08",
+        "deactivated_in": "step_cool_08"
+      },
+      {
+        "load": "load_body_hflux_09",
+        "deactivated_in": "step_cool_09"
+      },
+      {
+        "load": "load_body_hflux_10",
+        "deactivated_in": "step_cool_10"
+      },
+      {
+        "load": "load_body_hflux_11",
+        "deactivated_in": "step_cool_11"
+      },
+      {
+        "load": "load_body_hflux_12",
+        "deactivated_in": "step_cool_12"
+      },
+      {
+        "load": "load_body_hflux_13",
+        "deactivated_in": "step_cool_13"
+      },
+      {
+        "load": "load_body_hflux_14",
+        "deactivated_in": "step_cool_14"
+      },
+      {
+        "load": "load_body_hflux_15",
+        "deactivated_in": "step_cool_15"
+      },
+      {
+        "load": "load_body_hflux_16",
+        "deactivated_in": "step_cool_16"
+      },
+      {
+        "load": "load_body_hflux_17",
+        "deactivated_in": "step_cool_17"
+      },
+      {
+        "load": "load_body_hflux_18",
+        "deactivated_in": "step_cool_18"
+      },
+      {
+        "load": "load_body_hflux_19",
+        "deactivated_in": "step_cool_19"
+      },
+      {
+        "load": "load_body_hflux_20",
+        "deactivated_in": "step_cool_20"
+      },
+      {
+        "load": "load_body_hflux_21",
+        "deactivated_in": "step_cool_21"
+      },
+      {
+        "load": "load_body_hflux_22",
+        "deactivated_in": "step_cool_22"
+      },
+      {
+        "load": "load_body_hflux_23",
+        "deactivated_in": "step_cool_23"
+      },
+      {
+        "load": "load_body_hflux_24",
+        "deactivated_in": "step_cool_24"
+      },
+      {
+        "load": "load_body_hflux_25",
+        "deactivated_in": "step_cool_25"
+      },
+      {
+        "load": "load_body_hflux_26",
+        "deactivated_in": "step_cool_26"
+      },
+      {
+        "load": "load_body_hflux_27",
+        "deactivated_in": "step_cool_27"
+      },
+      {
+        "load": "load_body_hflux_28",
+        "deactivated_in": "step_cool_28"
+      },
+      {
+        "load": "load_body_hflux_29",
+        "deactivated_in": "step_cool_29"
+      },
+      {
+        "load": "load_body_hflux_30",
+        "deactivated_in": "step_cool_30"
+      },
+      {
+        "load": "load_body_hflux_31",
+        "deactivated_in": "step_cool_31"
+      },
+      {
+        "load": "load_body_hflux_32",
+        "deactivated_in": "step_cool_32"
+      },
+      {
+        "load": "load_body_hflux_33",
+        "deactivated_in": "step_cool_33"
+      },
+      {
+        "load": "load_body_hflux_34",
+        "deactivated_in": "step_cool_34"
+      },
+      {
+        "load": "load_body_hflux_35",
+        "deactivated_in": "step_cool_35"
+      },
+      {
+        "load": "load_body_hflux_36",
+        "deactivated_in": "step_cool_36"
+      },
+      {
+        "load": "load_body_hflux_37",
+        "deactivated_in": "step_cool_37"
+      },
+      {
+        "load": "load_body_hflux_38",
+        "deactivated_in": "step_cool_38"
+      },
+      {
+        "load": "load_body_hflux_39",
+        "deactivated_in": "step_cool_39"
+      }
+    ],
+    "resolved_values": {
+      "body_heat_flux_magnitude": 80000000000.0,
+      "scan_duration_seconds": 0.2,
+      "cool_duration_seconds": 3.4,
+      "final_cooling_duration_seconds": 1200.0,
+      "final_cooling_initial_increment": 0.01,
+      "final_cooling_max_increment_size": 60.0,
+      "config_magnitude_used": 80000000000.0,
+      "object_magnitude_readable": false,
+      "object_magnitude": null,
+      "attempted_attribute_names": [
+        "magnitude"
+      ],
+      "load_object_type": "BodyHeatFlux",
+      "load_object_repr": "mdb.models['Model-1'].loads['load_body_hflux_00']",
+      "final_magnitude_source": "confirmed_config",
+      "scan_duration_source": "confirmed_config",
+      "cool_duration_source": "confirmed_config",
+      "final_cooling_duration_source": "confirmed_config",
+      "final_cooling_initial_increment_source": "confirmed_config",
+      "final_cooling_max_increment_source": "confirmed_config"
+    },
+    "final_cooling": {
+      "final_cooling_step_name": "step_final_cooling",
+      "final_cooling_step_created": true,
+      "final_cooling_timePeriod": 1200.0,
+      "final_cooling_initialInc": 0.01,
+      "final_cooling_maxInc": 60.0,
+      "final_cooling_previous": "step_cool_39",
+      "final_cooling_heat_loads_inactive": true
+    }
+  },
+  "solver_submitted": false,
+  "datacheck_run": false,
+  "abqjobpilot_run": false
+}

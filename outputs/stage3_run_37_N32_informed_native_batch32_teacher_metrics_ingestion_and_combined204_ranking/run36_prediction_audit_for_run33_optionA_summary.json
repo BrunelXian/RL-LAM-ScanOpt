@@ -1,0 +1,13 @@
+{
+  "primary_prediction_column": "hybrid_score",
+  "overall_spearman_pred_vs_combined204_reward": 0.722507331378299,
+  "per_N_spearman": {
+    "12": 0.7999999999999999,
+    "16": 0.39999999999999997,
+    "24": 0.7832167832167832,
+    "40": 0.7412587412587414
+  },
+  "uncertainty_vs_abs_error_correlation": -0.5168785708239803,
+  "disagreement_vs_abs_error_correlation": 0.4190349034337971,
+  "novelty_vs_combined204_reward_correlation": -0.43470786594308236
+}

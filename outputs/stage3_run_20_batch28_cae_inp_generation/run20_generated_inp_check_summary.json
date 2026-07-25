@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS_RUN20_BATCH28_28_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 28,
+  "pass_count": 28,
+  "per_n_pass_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 10,
+    "40": 10
+  },
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_20_batch28_cae_inp_generation\\run20_generated_inp_check.csv"
+}

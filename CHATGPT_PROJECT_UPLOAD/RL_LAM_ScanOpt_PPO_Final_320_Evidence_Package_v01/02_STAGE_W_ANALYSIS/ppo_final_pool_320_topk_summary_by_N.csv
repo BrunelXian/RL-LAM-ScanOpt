@@ -1,0 +1,5 @@
+N,ppo_count,top10pct_U2,top25pct_U2,top10pct_PEEQ,top25pct_PEEQ,top10pct_SurfaceT,top25pct_SurfaceT,top10pct_lex,top25pct_lex,primary_top10_any_unique,primary_top25_any_unique,diagnostic_Mises_top10,diagnostic_Mises_top25
+12,40,6,15,0,3,0,0,6,15,6,18,1,7
+16,40,6,12,0,2,0,0,6,12,6,14,0,9
+24,120,0,0,7,16,6,13,0,0,13,29,13,17
+40,120,0,0,5,5,39,40,0,0,44,45,25,40

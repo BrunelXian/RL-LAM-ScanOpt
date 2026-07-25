@@ -1,0 +1,15 @@
+{
+  "cae": 60,
+  "inp": 60,
+  "jnl": 60,
+  "generation_logs": 60,
+  "scan_order_json": 60,
+  "odb": 1,
+  "sim": 0,
+  "sta": 1,
+  "dat": 1,
+  "msg": 1,
+  "lck": 0,
+  "case_directories": 60,
+  "bad_schema_paths": []
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "n": 12,
+    "existing_best_teacher_strategy": "N12_A08_block_interleaved_quarters",
+    "existing_best_teacher_reward_mean_all": 0.9042857142857142,
+    "top_predicted_batch20_candidate": "S3B20_N12_B01_surrogate_top",
+    "top_predicted_batch20_reward": 0.7767226608929189,
+    "predicted_gap": -0.1275630533927954,
+    "batch20_predicted_exceeds_existing_best": false,
+    "note": "Surrogate-only prediction, not teacher validation."
+  },
+  {
+    "n": 16,
+    "existing_best_teacher_strategy": "N16_A03_greedy_maximin_distance",
+    "existing_best_teacher_reward_mean_all": 0.8614285714285714,
+    "top_predicted_batch20_candidate": "S3B20_N16_B01_surrogate_top",
+    "top_predicted_batch20_reward": 0.8064539049176901,
+    "predicted_gap": -0.05497466651088134,
+    "batch20_predicted_exceeds_existing_best": false,
+    "note": "Surrogate-only prediction, not teacher validation."
+  },
+  {
+    "n": 24,
+    "existing_best_teacher_strategy": "N24_A04_method_c_u2_first_engineering",
+    "existing_best_teacher_reward_mean_all": 0.9785714285714286,
+    "top_predicted_batch20_candidate": "S3B20_N24_B01_surrogate_top",
+    "top_predicted_batch20_reward": 0.8347378384911193,
+    "predicted_gap": -0.14383359008030938,
+    "batch20_predicted_exceeds_existing_best": false,
+    "note": "Surrogate-only prediction, not teacher validation."
+  },
+  {
+    "n": 40,
+    "existing_best_teacher_strategy": "N40_A04_method_c_u2_first_engineering",
+    "existing_best_teacher_reward_mean_all": 0.9928571428571429,
+    "top_predicted_batch20_candidate": "S3B20_N40_B01_surrogate_top",
+    "top_predicted_batch20_reward": 0.8395447829355638,
+    "predicted_gap": -0.1533123599215791,
+    "batch20_predicted_exceeds_existing_best": false,
+    "note": "Surrogate-only prediction, not teacher validation."
+  }
+]

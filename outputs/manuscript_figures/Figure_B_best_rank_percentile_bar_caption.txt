@@ -1,0 +1,1 @@
+Figure B. Best PPO rank percentile across native track-count settings. The best PPO lexicographic rank in each N-specific native reference pool is normalized by the corresponding pool size. Lower values indicate stronger competitiveness. PPO rank concentration is strongest in the smaller-N regimes and weakens substantially as N increases.

@@ -1,0 +1,122 @@
+{
+  "best_overall": {
+    "regime": "plus_N32_balanced",
+    "target": "target_reward_combined520_plus_N32_N12_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.749023722101642,
+    "macro_top5_overlap": 1.2,
+    "macro_top10_overlap": 2.2,
+    "mean_mae": 0.12586970558540278,
+    "protocols": 5
+  },
+  "best_native": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_variable_N_bounded",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7370454245203283,
+    "macro_top5_overlap": 1.75,
+    "macro_top10_overlap": 3.0,
+    "mean_mae": 0.08902802737817876,
+    "protocols": 4
+  },
+  "best_plus_N32": {
+    "regime": "plus_N32_balanced",
+    "target": "target_reward_combined520_plus_N32_N12_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.749023722101642,
+    "macro_top5_overlap": 1.2,
+    "macro_top10_overlap": 2.2,
+    "mean_mae": 0.12586970558540278,
+    "protocols": 5
+  },
+  "best_N12_final_diagnostic": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N12_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.7134747049753849,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.25,
+    "mean_mae": 0.13085149925211448,
+    "protocols": 4
+  },
+  "best_N16_final_diagnostic": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N16_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.7134747049753849,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.25,
+    "mean_mae": 0.13085149925211448,
+    "protocols": 4
+  },
+  "best_smallN_final_diagnostic": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_smallN_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.6858602570563503,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.75,
+    "mean_mae": 0.13104370081385963,
+    "protocols": 4
+  },
+  "best_variable_N_bounded": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_variable_N_bounded",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7370454245203283,
+    "macro_top5_overlap": 1.75,
+    "macro_top10_overlap": 3.0,
+    "mean_mae": 0.08902802737817876,
+    "protocols": 4
+  },
+  "best_N24_anchor": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N24_anchor",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.6643422418254278,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.25,
+    "mean_mae": 0.17677065563954683,
+    "protocols": 4
+  },
+  "best_N40_anchor": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N40_anchor",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.6292934807667472,
+    "macro_top5_overlap": 0.75,
+    "macro_top10_overlap": 2.0,
+    "mean_mae": 0.12791202161054616,
+    "protocols": 4
+  },
+  "best_N40_u2_reward_retention": {},
+  "best_N40_penalty_repair": {},
+  "best_N24_maintenance": {},
+  "best_penalty_repair": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_penalty_repair",
+    "feature_set": "F07_F01_no_n",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.6393933730951744,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 1.75,
+    "mean_mae": 0.11052625938815651,
+    "protocols": 4
+  },
+  "n32_augmented_better_than_native": true,
+  "run68_reference": {
+    "best_native_spearman": 0.7385,
+    "best_N12_recovery_spearman": 0.7385,
+    "best_N16_recovery_spearman": 0.7385,
+    "run71_prediction_u2_primary_spearman": 0.3348
+  }
+}

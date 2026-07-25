@@ -1,0 +1,18 @@
+{
+  "verdict": "RUN33_MODEL_UPDATE_AND_CANDIDATE_GENERATION_ONLY_NO_TEACHER_VALIDATION_WITH_N32_LEGACY_WARNINGS",
+  "safe_claims": [
+    "Run33 updates offline surrogate, GNN reward, and graph-pointer models using combined172_plus_N32.",
+    "Run33 explicitly evaluates the effect of adding N32 legacy-compatible teacher labels.",
+    "Run33 uses per-N balancing to avoid N32 dominance.",
+    "Run33 generates new N32-informed candidate batches for future teacher validation."
+  ],
+  "unsafe_claims": [
+    "Run33 candidates are teacher-validated.",
+    "N32 is native Stage 3 teacher validation.",
+    "PEEQ/Mises are semantically identical across Stage 2 and Stage 3.",
+    "GNN-RL superiority.",
+    "online RL.",
+    "arbitrary-N generalization.",
+    "physical superiority."
+  ]
+}

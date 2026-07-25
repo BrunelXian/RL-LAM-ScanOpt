@@ -1,0 +1,9 @@
+{
+  "best_regime_by_mean_nll": "native_combined432",
+  "mean_nll_by_regime": {
+    "native_combined432": 1.4081103989265285,
+    "plus_N32_balanced": 1.5311151073156215,
+    "plus_N32_unweighted": 1.5311151073156215
+  },
+  "headline": "Offline transition-frequency graph-pointer diagnostic fitted with reward-weighted teacher sequences; no online RL was run."
+}

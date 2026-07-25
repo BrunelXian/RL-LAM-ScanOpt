@@ -1,0 +1,27 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-29T07:56:24",
+  "namespace": "stage3_ppo_final_expansion_224_to_320",
+  "current_validated_count_by_source": {
+    "ppo_v01": 32,
+    "ppo_v02K2": 32,
+    "ppo_v03": 32
+  },
+  "current_PPO_teacher_validated_count": 96,
+  "target_PPO_teacher_validated_count": 320,
+  "remaining_required_count": 224,
+  "source_inventory_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\checks\\stageT_source_inventory.csv",
+  "selection_protocol_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_SELECTION_PROTOCOL.md",
+  "required_missing": [],
+  "warnings": [],
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_CAE_INP_JNL": true,
+  "no_training": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_STAGET_FINAL_EXPANSION_PREFLIGHT_READY"
+}

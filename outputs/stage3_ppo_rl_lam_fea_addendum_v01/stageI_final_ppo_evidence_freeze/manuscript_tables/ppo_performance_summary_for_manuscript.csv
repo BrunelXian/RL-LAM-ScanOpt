@@ -1,0 +1,6 @@
+N,PPO count,best PPO lex candidate,best PPO ref lex rank,top-k count,new records count,main interpretation
+12,8,PPOV01_N12_B08_stochastic_highreward,6,5,0,Small-N top-k competitive; best lexicographic reference rank 6.
+16,8,PPOV01_N16_B02_surrogate_top,2,4,0,Small-N top-k competitive; best lexicographic reference rank 2.
+24,8,PPOV01_N24_B08_stochastic_highreward,134,3,0,"Some metric-level top-k hits, but weak primary lexicographic position."
+40,8,PPOV01_N40_B07_novelty_tophalf,147,0,0,Not competitive under primary metrics; only diagnostic Mises top-k hits were observed.
+All,32,N-specific,N-specific,12,0,"Teacher-validated and bounded competitive, with competitiveness concentrated in N12/N16."

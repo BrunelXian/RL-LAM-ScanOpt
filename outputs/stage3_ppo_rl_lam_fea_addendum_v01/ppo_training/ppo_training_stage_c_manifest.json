@@ -1,0 +1,28 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-23T10:28:01.779632+00:00",
+  "surrogate_model_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\surrogate_reward_model\\models\\ppo_surrogate_reward_model_best.joblib",
+  "ppo_config_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\ppo_training_config.json",
+  "ppo_checkpoint_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\checkpoints\\maskable_ppo_lam_scan_order_final.zip",
+  "training_log_paths": {
+    "monitor_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\logs\\ppo_training_monitor.csv",
+    "training_summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\reports\\ppo_training_summary.json"
+  },
+  "evaluation_output_paths": {
+    "orders_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\tables\\ppo_internal_eval_orders.csv",
+    "summary_by_N_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\tables\\ppo_internal_eval_summary_by_N.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\reports\\ppo_internal_eval_summary.json",
+    "baseline_comparison_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\tables\\ppo_internal_eval_baseline_comparison.csv",
+    "legality_audit_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\tables\\ppo_internal_eval_legality_audit.csv"
+  },
+  "parameter_count_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_training\\reports\\ppo_parameter_count.json",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_TRAINING_STAGE_C_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_TRAINING_CLAIM_BOUNDARY.md",
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_final_candidate_generation": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_PPO_TRAINING_READY_FOR_POLICY_ONLY_CANDIDATE_GENERATION"
+}

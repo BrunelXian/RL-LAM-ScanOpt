@@ -1,0 +1,19 @@
+{
+  "overall_spearman_predicted_vs_realized_reward": 0.7373566246580882,
+  "per_n_spearman_predicted_vs_realized_reward": {
+    "N12": 0.7142857142857143,
+    "N16": 0.6428571428571429,
+    "N24": 0.688695652173913,
+    "N40": 0.8271363535389596
+  },
+  "mean_top5_overlap": 3.0,
+  "mean_top10_overlap": 8.25,
+  "top1_hits": 1,
+  "top1_possible": 4,
+  "uncertainty_abs_error_spearman": -0.3825256743180588,
+  "model_std_abs_error_spearman": 0.38228021978021975,
+  "disagreement_f03_abs_error_spearman": 0.36066849816849816,
+  "disagreement_f06_abs_error_spearman": 0.36327838827838826,
+  "novelty_realized_reward_spearman": -0.6029081850650818,
+  "interpretation": "Run23 active-learning prediction audit only; Run27 is not GNN-policy validation."
+}

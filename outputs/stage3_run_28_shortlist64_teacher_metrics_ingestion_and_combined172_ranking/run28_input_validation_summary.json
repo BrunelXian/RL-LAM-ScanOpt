@@ -1,0 +1,32 @@
+{
+  "verdict": "PASS_RUN28_SHORTLIST64_TEACHER_METRICS_64_OF_64_READY",
+  "errors": [],
+  "warnings": [],
+  "run27_row_count": 64,
+  "run27_per_n_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "combined108_row_count": 108,
+  "combined108_per_n_counts": {
+    "12": 24,
+    "16": 24,
+    "24": 30,
+    "40": 30
+  },
+  "run24_metadata_direct_matches": 64,
+  "run24_metadata_fallback_matches": 0,
+  "run24_metadata_unmatched": [],
+  "patched_n40_case_prefixes_present": {
+    "S3R24L64_N40_B02": true,
+    "S3R24L64_N40_B03": true,
+    "S3R24L64_N40_B04": true,
+    "S3R24L64_N40_B05": true
+  },
+  "run27_summary_verdict": "PASS_RUN27_SHORTLIST64_ODB_TEACHER_VALIDATION_64_OF_64",
+  "solver_audit_status": null,
+  "lck_count": 0,
+  "important_boundary": "Run27 validates Run23/Run24 active-learning shortlist64 only; it is not Run26 GNN-policy validation."
+}

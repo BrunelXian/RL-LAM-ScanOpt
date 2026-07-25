@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-10T15:17:44.303450+00:00",
+  "run_id": "run_06_variable_n_probe60_candidate_order_generation",
+  "n_values": [
+    12,
+    16,
+    24,
+    40
+  ],
+  "cases_per_n": 15,
+  "total_cases": 60,
+  "teacher_validated": false,
+  "policy_candidate_source": "proxy_policy",
+  "trained_policy_used": false,
+  "no_abaqus_jobs": true,
+  "no_cae_inp_jnl_generated": true
+}

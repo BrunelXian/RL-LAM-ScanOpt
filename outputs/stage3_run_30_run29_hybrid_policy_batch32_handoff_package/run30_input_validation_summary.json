@@ -1,0 +1,33 @@
+{
+  "verdict": "PASS_RUN30_HYBRID_BATCH32_INPUT_READY",
+  "errors": [],
+  "warnings": [],
+  "warning_count": 0,
+  "selected_batch": "run29_hybrid_policy_batch32",
+  "row_count": 32,
+  "per_n_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 12,
+    "40": 12
+  },
+  "candidate_source_composition": {
+    "graph_pointer_beam_search": 5,
+    "gnn_reward_local_search": 2,
+    "surrogate_known_best_local_search": 13,
+    "N16_new_best_neighborhood": 4,
+    "sentinel_control": 1,
+    "N24_surfaceT_best_neighborhood": 3,
+    "N40_new_best_neighborhood": 4
+  },
+  "selection_bucket_composition": {
+    "gnn_policy_top_candidates": 5,
+    "hybrid_gnn_surrogate_agreement": 3,
+    "hybrid_gnn_surrogate_disagreement": 5,
+    "surrogate_known_best_local_search": 5,
+    "new_best_local_search": 8,
+    "N24_surfaceT_best_neighborhood": 3,
+    "uncertainty_calibration": 3
+  },
+  "selected_batch_confirmed_not_batch64_or_focused48": true
+}

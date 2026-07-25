@@ -1,0 +1,5 @@
+{
+  "headline": "Run71 was compared with Run61, Run56, Run51, Run46, Run41, Run36, Run27, and recomputed combined520 best records.",
+  "run71_complements_prior_n24_n40_freeze": true,
+  "full_variable_n_maturity_warning": "N12/N16 improved to 64 rows each, but remain less dense than N24/N40; avoid claiming full variable-N maturity as solved."
+}

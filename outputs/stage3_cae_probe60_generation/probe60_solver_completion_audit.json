@@ -1,0 +1,1979 @@
+{
+  "timestamp": "2026-06-12T00:50:45",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01",
+  "summary": {
+    "N12": {
+      "total": 15,
+      "status_counts": {
+        "INCOMPLETE_OR_INTERRUPTED": 15
+      },
+      "solver_counts": {
+        "odb": 15,
+        "sim": 0,
+        "sta": 15,
+        "dat": 15,
+        "msg": 15,
+        "lck": 0
+      }
+    },
+    "N16": {
+      "total": 15,
+      "status_counts": {
+        "INCOMPLETE_OR_INTERRUPTED": 15
+      },
+      "solver_counts": {
+        "odb": 15,
+        "sim": 0,
+        "sta": 15,
+        "dat": 15,
+        "msg": 15,
+        "lck": 0
+      }
+    },
+    "N24": {
+      "total": 15,
+      "status_counts": {
+        "INCOMPLETE_OR_INTERRUPTED": 14,
+        "LOCK_PRESENT_POSSIBLY_RUNNING_OR_STALE": 1
+      },
+      "solver_counts": {
+        "odb": 15,
+        "sim": 1,
+        "sta": 15,
+        "dat": 15,
+        "msg": 15,
+        "lck": 1
+      }
+    },
+    "N40": {
+      "total": 15,
+      "status_counts": {
+        "INCOMPLETE_OR_INTERRUPTED": 15
+      },
+      "solver_counts": {
+        "odb": 15,
+        "sim": 0,
+        "sta": 15,
+        "dat": 15,
+        "msg": 15,
+        "lck": 0
+      }
+    }
+  },
+  "not_complete_count": 60,
+  "not_complete": [
+    {
+      "n": "N12",
+      "case": "N12_A01_raster_left_to_right",
+      "stem": "J2D_N12_N12_A01_raster_left_to_right",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A02_odd_even_interlaced",
+      "stem": "J2D_N12_N12_A02_odd_even_interlaced",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced\\J2D_N12_N12_A02_odd_even_interlaced.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A02_odd_even_interlaced"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A03_greedy_maximin_distance",
+      "stem": "J2D_N12_N12_A03_greedy_maximin_distance",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance\\J2D_N12_N12_A03_greedy_maximin_distance.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A03_greedy_maximin_distance"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A04_method_c_u2_first_engineering",
+      "stem": "J2D_N12_N12_A04_method_c_u2_first_engineering",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering\\J2D_N12_N12_A04_method_c_u2_first_engineering.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A04_method_c_u2_first_engineering"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A05_center_out",
+      "stem": "J2D_N12_N12_A05_center_out",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out\\J2D_N12_N12_A05_center_out.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A05_center_out"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A06_edge_in_alternating",
+      "stem": "J2D_N12_N12_A06_edge_in_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating\\J2D_N12_N12_A06_edge_in_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A06_edge_in_alternating"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A07_regular_jump_coprime",
+      "stem": "J2D_N12_N12_A07_regular_jump_coprime",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime\\J2D_N12_N12_A07_regular_jump_coprime.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A07_regular_jump_coprime"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A08_block_interleaved_quarters",
+      "stem": "J2D_N12_N12_A08_block_interleaved_quarters",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters\\J2D_N12_N12_A08_block_interleaved_quarters.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A08_block_interleaved_quarters"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A09_center_edge_alternating",
+      "stem": "J2D_N12_N12_A09_center_edge_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating\\J2D_N12_N12_A09_center_edge_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A09_center_edge_alternating"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "stem": "J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N12_N12_A10_graph_pointer_policy_zero_shot_or_proxy_best.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A10_graph_pointer_policy_zero_shot_or_proxy_best"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A11_graph_pointer_policy_diverse_01",
+      "stem": "J2D_N12_N12_A11_graph_pointer_policy_diverse_01",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01\\J2D_N12_N12_A11_graph_pointer_policy_diverse_01.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A11_graph_pointer_policy_diverse_01"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A12_graph_pointer_policy_diverse_02",
+      "stem": "J2D_N12_N12_A12_graph_pointer_policy_diverse_02",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02\\J2D_N12_N12_A12_graph_pointer_policy_diverse_02.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A12_graph_pointer_policy_diverse_02"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "stem": "J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N12_N12_A13_graph_pointer_policy_anti_odd_even_novelty.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A13_graph_pointer_policy_anti_odd_even_novelty"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A14_graph_pointer_policy_u2first_proxy",
+      "stem": "J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy\\J2D_N12_N12_A14_graph_pointer_policy_u2first_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A14_graph_pointer_policy_u2first_proxy"
+    },
+    {
+      "n": "N12",
+      "case": "N12_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "stem": "J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N12_N12_A15_graph_pointer_policy_balanced_dispersion_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A15_graph_pointer_policy_balanced_dispersion_proxy"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A01_raster_left_to_right",
+      "stem": "J2D_N16_N16_A01_raster_left_to_right",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A02_odd_even_interlaced",
+      "stem": "J2D_N16_N16_A02_odd_even_interlaced",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced\\J2D_N16_N16_A02_odd_even_interlaced.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A02_odd_even_interlaced"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A03_greedy_maximin_distance",
+      "stem": "J2D_N16_N16_A03_greedy_maximin_distance",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance\\J2D_N16_N16_A03_greedy_maximin_distance.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A03_greedy_maximin_distance"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A04_method_c_u2_first_engineering",
+      "stem": "J2D_N16_N16_A04_method_c_u2_first_engineering",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering\\J2D_N16_N16_A04_method_c_u2_first_engineering.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A04_method_c_u2_first_engineering"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A05_center_out",
+      "stem": "J2D_N16_N16_A05_center_out",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out\\J2D_N16_N16_A05_center_out.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A05_center_out"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A06_edge_in_alternating",
+      "stem": "J2D_N16_N16_A06_edge_in_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating\\J2D_N16_N16_A06_edge_in_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A06_edge_in_alternating"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A07_regular_jump_coprime",
+      "stem": "J2D_N16_N16_A07_regular_jump_coprime",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime\\J2D_N16_N16_A07_regular_jump_coprime.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A07_regular_jump_coprime"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A08_block_interleaved_quarters",
+      "stem": "J2D_N16_N16_A08_block_interleaved_quarters",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters\\J2D_N16_N16_A08_block_interleaved_quarters.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A08_block_interleaved_quarters"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A09_center_edge_alternating",
+      "stem": "J2D_N16_N16_A09_center_edge_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating\\J2D_N16_N16_A09_center_edge_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A09_center_edge_alternating"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "stem": "J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N16_N16_A10_graph_pointer_policy_zero_shot_or_proxy_best.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A10_graph_pointer_policy_zero_shot_or_proxy_best"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A11_graph_pointer_policy_diverse_01",
+      "stem": "J2D_N16_N16_A11_graph_pointer_policy_diverse_01",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01\\J2D_N16_N16_A11_graph_pointer_policy_diverse_01.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A11_graph_pointer_policy_diverse_01"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A12_graph_pointer_policy_diverse_02",
+      "stem": "J2D_N16_N16_A12_graph_pointer_policy_diverse_02",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02\\J2D_N16_N16_A12_graph_pointer_policy_diverse_02.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A12_graph_pointer_policy_diverse_02"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "stem": "J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N16_N16_A13_graph_pointer_policy_anti_odd_even_novelty.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A13_graph_pointer_policy_anti_odd_even_novelty"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A14_graph_pointer_policy_u2first_proxy",
+      "stem": "J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy\\J2D_N16_N16_A14_graph_pointer_policy_u2first_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A14_graph_pointer_policy_u2first_proxy"
+    },
+    {
+      "n": "N16",
+      "case": "N16_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "stem": "J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N16_N16_A15_graph_pointer_policy_balanced_dispersion_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A15_graph_pointer_policy_balanced_dispersion_proxy"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A01_raster_left_to_right",
+      "stem": "J2D_N24_N24_A01_raster_left_to_right",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A02_odd_even_interlaced",
+      "stem": "J2D_N24_N24_A02_odd_even_interlaced",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced\\J2D_N24_N24_A02_odd_even_interlaced.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A02_odd_even_interlaced"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A03_greedy_maximin_distance",
+      "stem": "J2D_N24_N24_A03_greedy_maximin_distance",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance\\J2D_N24_N24_A03_greedy_maximin_distance.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A03_greedy_maximin_distance"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A04_method_c_u2_first_engineering",
+      "stem": "J2D_N24_N24_A04_method_c_u2_first_engineering",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering\\J2D_N24_N24_A04_method_c_u2_first_engineering.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A04_method_c_u2_first_engineering"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A05_center_out",
+      "stem": "J2D_N24_N24_A05_center_out",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out\\J2D_N24_N24_A05_center_out.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A05_center_out"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A06_edge_in_alternating",
+      "stem": "J2D_N24_N24_A06_edge_in_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating\\J2D_N24_N24_A06_edge_in_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A06_edge_in_alternating"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A07_regular_jump_coprime",
+      "stem": "J2D_N24_N24_A07_regular_jump_coprime",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 1,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 1,
+      "completed_text": false,
+      "problem_text": true,
+      "status": "LOCK_PRESENT_POSSIBLY_RUNNING_OR_STALE",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime\\J2D_N24_N24_A07_regular_jump_coprime.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A07_regular_jump_coprime"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A08_block_interleaved_quarters",
+      "stem": "J2D_N24_N24_A08_block_interleaved_quarters",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters\\J2D_N24_N24_A08_block_interleaved_quarters.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A08_block_interleaved_quarters"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A09_center_edge_alternating",
+      "stem": "J2D_N24_N24_A09_center_edge_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating\\J2D_N24_N24_A09_center_edge_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A09_center_edge_alternating"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "stem": "J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N24_N24_A10_graph_pointer_policy_zero_shot_or_proxy_best.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A10_graph_pointer_policy_zero_shot_or_proxy_best"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A11_graph_pointer_policy_diverse_01",
+      "stem": "J2D_N24_N24_A11_graph_pointer_policy_diverse_01",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01\\J2D_N24_N24_A11_graph_pointer_policy_diverse_01.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A11_graph_pointer_policy_diverse_01"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A12_graph_pointer_policy_diverse_02",
+      "stem": "J2D_N24_N24_A12_graph_pointer_policy_diverse_02",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02\\J2D_N24_N24_A12_graph_pointer_policy_diverse_02.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A12_graph_pointer_policy_diverse_02"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "stem": "J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N24_N24_A13_graph_pointer_policy_anti_odd_even_novelty.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A13_graph_pointer_policy_anti_odd_even_novelty"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A14_graph_pointer_policy_u2first_proxy",
+      "stem": "J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy\\J2D_N24_N24_A14_graph_pointer_policy_u2first_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A14_graph_pointer_policy_u2first_proxy"
+    },
+    {
+      "n": "N24",
+      "case": "N24_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "stem": "J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N24_N24_A15_graph_pointer_policy_balanced_dispersion_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A15_graph_pointer_policy_balanced_dispersion_proxy"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A01_raster_left_to_right",
+      "stem": "J2D_N40_N40_A01_raster_left_to_right",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A02_odd_even_interlaced",
+      "stem": "J2D_N40_N40_A02_odd_even_interlaced",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced\\J2D_N40_N40_A02_odd_even_interlaced.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A02_odd_even_interlaced"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A03_greedy_maximin_distance",
+      "stem": "J2D_N40_N40_A03_greedy_maximin_distance",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance\\J2D_N40_N40_A03_greedy_maximin_distance.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A03_greedy_maximin_distance"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A04_method_c_u2_first_engineering",
+      "stem": "J2D_N40_N40_A04_method_c_u2_first_engineering",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering\\J2D_N40_N40_A04_method_c_u2_first_engineering.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A04_method_c_u2_first_engineering"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A05_center_out",
+      "stem": "J2D_N40_N40_A05_center_out",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out\\J2D_N40_N40_A05_center_out.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A05_center_out"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A06_edge_in_alternating",
+      "stem": "J2D_N40_N40_A06_edge_in_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating\\J2D_N40_N40_A06_edge_in_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A06_edge_in_alternating"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A07_regular_jump_coprime",
+      "stem": "J2D_N40_N40_A07_regular_jump_coprime",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime\\J2D_N40_N40_A07_regular_jump_coprime.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A07_regular_jump_coprime"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A08_block_interleaved_quarters",
+      "stem": "J2D_N40_N40_A08_block_interleaved_quarters",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters\\J2D_N40_N40_A08_block_interleaved_quarters.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A08_block_interleaved_quarters"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A09_center_edge_alternating",
+      "stem": "J2D_N40_N40_A09_center_edge_alternating",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating\\J2D_N40_N40_A09_center_edge_alternating.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A09_center_edge_alternating"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "stem": "J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best\\J2D_N40_N40_A10_graph_pointer_policy_zero_shot_or_proxy_best.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A10_graph_pointer_policy_zero_shot_or_proxy_best"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A11_graph_pointer_policy_diverse_01",
+      "stem": "J2D_N40_N40_A11_graph_pointer_policy_diverse_01",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01\\J2D_N40_N40_A11_graph_pointer_policy_diverse_01.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A11_graph_pointer_policy_diverse_01"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A12_graph_pointer_policy_diverse_02",
+      "stem": "J2D_N40_N40_A12_graph_pointer_policy_diverse_02",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02\\J2D_N40_N40_A12_graph_pointer_policy_diverse_02.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A12_graph_pointer_policy_diverse_02"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "stem": "J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty\\J2D_N40_N40_A13_graph_pointer_policy_anti_odd_even_novelty.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A13_graph_pointer_policy_anti_odd_even_novelty"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A14_graph_pointer_policy_u2first_proxy",
+      "stem": "J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy\\J2D_N40_N40_A14_graph_pointer_policy_u2first_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A14_graph_pointer_policy_u2first_proxy"
+    },
+    {
+      "n": "N40",
+      "case": "N40_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "stem": "J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy",
+      "count_inp": 1,
+      "count_cae": 1,
+      "count_jnl": 1,
+      "count_odb": 1,
+      "count_sim": 0,
+      "count_sta": 1,
+      "count_dat": 1,
+      "count_msg": 1,
+      "count_lck": 0,
+      "completed_text": true,
+      "problem_text": true,
+      "status": "INCOMPLETE_OR_INTERRUPTED",
+      "snippets": [
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.sta",
+          "match": "THE ANALYSIS HAS COMPLETED SUCCESSFULLY"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.dat",
+          "match": "ANALYSIS COMPLETE"
+        },
+        {
+          "file": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy\\J2D_N40_N40_A15_graph_pointer_policy_balanced_dispersion_proxy.msg",
+          "match": "ERROR"
+        }
+      ],
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A15_graph_pointer_policy_balanced_dispersion_proxy"
+    }
+  ],
+  "all_rows_count": 60
+}

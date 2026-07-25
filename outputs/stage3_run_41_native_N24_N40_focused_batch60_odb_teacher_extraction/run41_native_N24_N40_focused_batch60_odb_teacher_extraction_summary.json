@@ -1,0 +1,77 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-14T06:16:36.084792+00:00",
+    "verdict": "WARNING_RUN41_NATIVE_N24_N40_FOCUSED_BATCH60_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 60,
+    "total_audited": 60,
+    "total_complete": 60,
+    "total_warning": 60,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "patched_cases": [],
+    "generation_details": {
+      "includes_N12": false,
+      "includes_N16": false,
+      "includes_N24": true,
+      "includes_N32_cases": false,
+      "includes_N40": true,
+      "generated_CAE_INP_JNL_only_in_run40": true,
+      "final_step_required_for_metrics": "step_final_cooling",
+      "n40_step_cool_initialInc": 0.001,
+      "step_final_cooling_initialInc": 0.01,
+      "step_final_cooling_timePeriod": 1200.0
+    },
+    "run40_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_40_native_N24_N40_focused_batch60_cae_inp_generation\\RUN_40_NATIVE_N24_N40_FOCUSED_BATCH60_CAE_INP_GENERATION_REPORT.md",
+    "by_N": {
+      "N24": {
+        "expected": 30,
+        "audited": 30,
+        "complete": 30,
+        "warning": 30,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 30,
+        "audited": 30,
+        "complete": 30,
+        "warning": 30,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-14T06:17:50.312841+00:00",
+    "verdict": "PASS_RUN41_NATIVE_N24_N40_FOCUSED_BATCH60_ODB_TEACHER_EXTRACTION_60_OF_60",
+    "total_expected": 60,
+    "total_extracted": 60,
+    "total_pass": 60,
+    "total_failed": 0,
+    "by_N": {
+      "N24": {
+        "expected": 30,
+        "extracted": 30,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 30,
+        "extracted": 30,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

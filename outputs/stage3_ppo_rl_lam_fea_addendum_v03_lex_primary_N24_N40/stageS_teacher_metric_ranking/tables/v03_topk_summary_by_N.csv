@@ -1,0 +1,3 @@
+n,v03_count,top10pct_U2_count,top25pct_U2_count,top10pct_PEEQ_count,top25pct_PEEQ_count,top10pct_SurfaceT_count,top25pct_SurfaceT_count,top10pct_lex_count,top25pct_lex_count,diagnostic_Mises_topk_count,total_unique_primary_topk_candidates,total_unique_any_topk_candidates
+24,16,0,0,0,0,3,5,0,0,0,5,5
+40,16,0,0,0,0,0,0,0,0,6,0,6

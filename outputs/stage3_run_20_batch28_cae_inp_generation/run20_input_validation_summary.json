@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS_RUN20_BATCH28_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_19_run18_candidate_handoff_review_package\\batch28\\stage3_run19_batch28_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_19_run18_candidate_handoff_review_package\\batch28\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run19_batch28_combined80_surrogate_screened_v01",
+  "row_count": 28,
+  "per_n_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 10,
+    "40": 10
+  },
+  "normalized_manifest": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_20_batch28_cae_inp_generation\\run20_generation_plan.csv",
+  "errors": [],
+  "warnings": []
+}

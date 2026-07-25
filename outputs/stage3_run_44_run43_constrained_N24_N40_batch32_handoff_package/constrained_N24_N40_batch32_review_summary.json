@@ -1,0 +1,72 @@
+{
+  "total_count": 32,
+  "per_N_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "only_N24_N40": true,
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "candidate_source_composition": {
+    "reward_balanced_local_search": 4,
+    "constrained_surrogate_top": 4,
+    "PEEQ_guarded_candidates": 4,
+    "SurfaceT_guarded_candidates": 4,
+    "U2_guarded_local_search": 4,
+    "hybrid_agreement": 4,
+    "hybrid_disagreement": 4,
+    "uncertainty_calibration": 4
+  },
+  "selection_bucket_composition": {
+    "reward_balanced_local_search": 4,
+    "constrained_surrogate_top": 4,
+    "PEEQ_guarded_candidates": 4,
+    "SurfaceT_guarded_candidates": 4,
+    "U2_guarded_local_search": 4,
+    "hybrid_agreement": 4,
+    "hybrid_disagreement": 4,
+    "uncertainty_calibration": 4
+  },
+  "per_N_numeric_means": [
+    {
+      "n": 24,
+      "count": 16,
+      "mean_surrogate_prediction": 0.8310158159069536,
+      "mean_constrained_reward_prediction": 0.8270800487361911,
+      "mean_u2_guarded_prediction": 0.83129936978219,
+      "mean_predicted_peeq_guarded_score": 0.8085158159069536,
+      "mean_predicted_surfaceT_guarded_score": 0.8310158159069536,
+      "mean_gnn_reward_prediction": 0.7995143137054581,
+      "mean_hybrid_score": 0.8288508820695244,
+      "mean_uncertainty_score": 0.030782952481570282,
+      "mean_gnn_vs_surrogate_disagreement": 0.03150150220149553,
+      "mean_novelty_distance": 0.3828125
+    },
+    {
+      "n": 40,
+      "count": 16,
+      "mean_surrogate_prediction": 0.8553583910949263,
+      "mean_constrained_reward_prediction": 0.8547524985899955,
+      "mean_u2_guarded_prediction": 0.8585470827451565,
+      "mean_predicted_peeq_guarded_score": 0.8553583910949263,
+      "mean_predicted_surfaceT_guarded_score": 0.8553583910949263,
+      "mean_gnn_reward_prediction": 0.8226825169895908,
+      "mean_hybrid_score": 0.8563149985899954,
+      "mean_uncertainty_score": 0.011950350586173643,
+      "mean_gnn_vs_surrogate_disagreement": 0.032675874105335505,
+      "mean_novelty_distance": 0.284375
+    }
+  ],
+  "expected_abaqus_cost": "32 jobs total, with 16 N24 and 16 N40",
+  "overlap_status": {
+    "overlap_combined264_teacher_orders": 0,
+    "overlap_run41": 0,
+    "overlap_run36": 0,
+    "overlap_run27": 0,
+    "overlap_superseded_run31": 0
+  },
+  "headline": "Run44 packages a quick constrained U2 plus reward-balanced N24/N40 validation loop after pure U2-near batch60 saturation.",
+  "teacher_validated": false,
+  "cae_inp_generated": false
+}

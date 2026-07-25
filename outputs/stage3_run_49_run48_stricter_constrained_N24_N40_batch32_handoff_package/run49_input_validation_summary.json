@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-15T01:34:30.108169+00:00",
+  "verdict": "PASS_RUN49_STRICTER_CONSTRAINED_N24_N40_BATCH32_INPUT_READY",
+  "errors": [],
+  "input_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_48_combined296_stricter_constrained_N24_N40_candidate_generation\\run48_stricter_constrained_N24_N40_batch32_candidate_orders.csv",
+  "row_count": 32,
+  "per_N_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "comparison_overlap_status": {
+    "overlap_combined296_teacher_orders": 0,
+    "overlap_run46": 0,
+    "overlap_run41": 0,
+    "overlap_run36": 0,
+    "overlap_run27": 0,
+    "overlap_superseded_run31": 0
+  }
+}

@@ -1,0 +1,8 @@
+final_expansion_batch,total_count,N12,N16,N24,N40,pass
+final_expansion_batch01,32,16,16,0,0,True
+final_expansion_batch02,32,16,16,0,0,True
+final_expansion_batch03,32,0,0,32,0,True
+final_expansion_batch04,32,0,0,32,0,True
+final_expansion_batch05,32,0,0,16,16,True
+final_expansion_batch06,32,0,0,0,32,True
+final_expansion_batch07,32,0,0,0,32,True

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-17T08:53:01.328878+00:00",
+  "run_id": "run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation",
+  "batch_name": "stage3_run64_variable_N_recovery_anchor_batch48_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run64_variable_N_recovery_anchor_batch48_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_RUN66_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_ODB_TEACHER_VALIDATION_48_OF_48",
+  "inputs": {
+    "run65_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\stage3_run65_variable_N_recovery_anchor_batch48_cae_generation_manifest.csv",
+    "run65_report_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_65_variable_N_recovery_anchor_batch48_cae_inp_generation\\RUN_65_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_CAE_INP_GENERATION_REPORT.md"
+  },
+  "generation_details": {
+    "includes_N12": true,
+    "includes_N16": true,
+    "includes_N24": true,
+    "includes_N32_cases": false,
+    "includes_N40": true,
+    "generated_CAE_INP_JNL_only_in_run65": true,
+    "final_step_required_for_metrics": "step_final_cooling",
+    "n40_step_cool_initialInc": 0.001,
+    "step_final_cooling_initialInc": 0.01,
+    "step_final_cooling_timePeriod": 1200.0
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_solver_completion_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_solver_completion_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_odb_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_teacher_metrics_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\run66_variable_N_recovery_anchor_batch48_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_66_variable_N_recovery_anchor_batch48_odb_teacher_validation\\RUN_66_VARIABLE_N_RECOVERY_ANCHOR_BATCH48_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_66_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

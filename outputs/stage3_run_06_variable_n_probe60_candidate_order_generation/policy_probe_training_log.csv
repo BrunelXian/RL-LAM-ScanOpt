@@ -1,0 +1,4 @@
+step,event,status,notes
+0,probe_start,ok,Small text-only policy probe.
+1,training_decision,skipped,Proxy-only: no true variable-N teacher labels available.
+2,candidate_policy_source,proxy_policy,GraphPointerPolicyPrototype deterministic decoders used.

@@ -1,0 +1,21 @@
+{
+  "verdict": "RUN67_INGESTION_AND_ANALYSIS_ONLY_NO_SOLVER_OR_CANDIDATE_GENERATION",
+  "safe_claims": [
+    "Run67 ingests 48/48 teacher-validated Run66 variable-N recovery anchor batch48 cases.",
+    "Run67 builds native combined480 with N12=48, N16=48, N24=184, N40=200.",
+    "Run67 builds combined480_plus_N32 with N12=48, N16=48, N24=184, N32=332, N40=200.",
+    "Run67 evaluates whether the variable-N recovery anchor batch improved small-N evidence and preserved N24/N40 anchor behavior.",
+    "Run66 is teacher validation of native N12/N16/N24/N40 recovery-anchor candidates, not N32 cases.",
+    "Run67 updates the full variable-N maturity and claim boundary."
+  ],
+  "unsafe_claims": [
+    "Do not claim N32 itself was newly teacher-validated in Run66.",
+    "Do not claim N32 caused Run66 improvements.",
+    "Do not claim GNN-RL superiority unless supported.",
+    "Do not claim online RL.",
+    "Do not claim arbitrary-N generalization.",
+    "Do not claim physical optimum.",
+    "Do not claim solver/ODB extraction happened in Run67.",
+    "Do not claim full variable-N RL maturity while N12/N16 remain under-sampled."
+  ]
+}

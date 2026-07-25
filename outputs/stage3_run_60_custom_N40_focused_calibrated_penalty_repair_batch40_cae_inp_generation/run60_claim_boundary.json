@@ -1,0 +1,29 @@
+{
+  "run_id": "run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation",
+  "safe_claims": [
+    "Run60 generated CAE/INP/JNL handoff files for the selected Run59 custom N40-focused calibrated penalty-repair batch40 only.",
+    "Generated files correspond to N24=16 and N40=24.",
+    "No N12, N16, or N32 cases were generated.",
+    "Generated INPs passed text, mesh, final-cooling, heat-load, and N40 cooling-increment checks.",
+    "A validated custom abqjobpilot command file was created for user-controlled submission.",
+    "No solver job was submitted by Codex."
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical metric improvement",
+    "ODB results exist",
+    "solver completion",
+    "RL policy training",
+    "GNN-RL superiority",
+    "N32 caused improvement",
+    "arbitrary-N generalization",
+    "abqjobpilot was executed"
+  ],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true
+}

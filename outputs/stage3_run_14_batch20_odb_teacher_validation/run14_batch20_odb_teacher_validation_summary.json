@@ -1,0 +1,87 @@
+{
+  "audit_summary": {
+    "timestamp": "2026-06-12T05:36:55.464161+00:00",
+    "verdict": "WARNING_RUN14_BATCH20_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+    "total_expected": 20,
+    "total_audited": 20,
+    "total_complete": 20,
+    "total_warning": 20,
+    "total_failed_or_incomplete": 0,
+    "total_lck_present": 0,
+    "by_N": {
+      "N12": {
+        "expected": 5,
+        "audited": 5,
+        "complete": 5,
+        "warning": 5,
+        "failed_or_incomplete": 0
+      },
+      "N16": {
+        "expected": 5,
+        "audited": 5,
+        "complete": 5,
+        "warning": 5,
+        "failed_or_incomplete": 0
+      },
+      "N24": {
+        "expected": 5,
+        "audited": 5,
+        "complete": 5,
+        "warning": 5,
+        "failed_or_incomplete": 0
+      },
+      "N40": {
+        "expected": 5,
+        "audited": 5,
+        "complete": 5,
+        "warning": 5,
+        "failed_or_incomplete": 0
+      }
+    }
+  },
+  "extraction_summary": {
+    "timestamp": "2026-06-12T05:37:01.572997+00:00",
+    "verdict": "PASS_RUN14_BATCH20_ODB_TEACHER_VALIDATION_20_OF_20",
+    "total_expected": 20,
+    "total_extracted": 20,
+    "total_pass": 20,
+    "total_failed": 0,
+    "by_N": {
+      "N12": {
+        "expected": 5,
+        "extracted": 5,
+        "failed": 0
+      },
+      "N16": {
+        "expected": 5,
+        "extracted": 5,
+        "failed": 0
+      },
+      "N24": {
+        "expected": 5,
+        "extracted": 5,
+        "failed": 0
+      },
+      "N40": {
+        "expected": 5,
+        "extracted": 5,
+        "failed": 0
+      }
+    },
+    "required_fields": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "final_step_name": "step_final_cooling",
+    "peeq_threshold": 0.002
+  },
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_modified": false,
+    "mixed_with_probe60_or_run08_run12": false
+  }
+}

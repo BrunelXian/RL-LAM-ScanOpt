@@ -1,0 +1,33 @@
+{
+  "run_id": "run_19_run18_candidate_handoff_review_package",
+  "batch_option": "batch28",
+  "batch_name": "stage3_run19_batch28_combined80_surrogate_screened_v01",
+  "n": 12,
+  "handoff_strategy_name": "S3R19B28_N12_B04_method_c_inspired",
+  "original_run18_candidate_id": "R18_N12_C00197",
+  "candidate_family": "known_best_mutation",
+  "selection_bucket": "method_c_or_known_best_inspired",
+  "predicted_reward_combined80_u2_primary": 0.7379424687550663,
+  "predicted_rank_within_n": 6,
+  "predicted_uncertainty_std": 0.06704374412839009,
+  "novelty_distance_to_combined80": 0.015151515151515152,
+  "nearest_existing_teacher_strategy": "S3B20_N12_B02_diversity_top",
+  "scan_order": [
+    1,
+    9,
+    11,
+    7,
+    5,
+    3,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "order_hash": "dd8d2d38519a3101",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "notes": "Run19 handoff only. Not teacher-validated. Do not claim physical superiority."
+}

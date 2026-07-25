@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-16T23:50:34.761542+00:00",
+  "run_id": "run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation",
+  "batch_name": "stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_RUN61_CUSTOM_N40_FOCUSED_BATCH40_ODB_TEACHER_VALIDATION_40_OF_40",
+  "inputs": {
+    "run60_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\stage3_run60_custom_N40_focused_batch40_cae_generation_manifest.csv",
+    "run60_report_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\RUN_60_CUSTOM_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_CAE_INP_GENERATION_REPORT.md"
+  },
+  "generation_details": {
+    "includes_N12": false,
+    "includes_N16": false,
+    "includes_N24": true,
+    "includes_N32_cases": false,
+    "includes_N40": true,
+    "generated_CAE_INP_JNL_only_in_run60": true,
+    "final_step_required_for_metrics": "step_final_cooling",
+    "n40_step_cool_initialInc": 0.001,
+    "step_final_cooling_initialInc": 0.01,
+    "step_final_cooling_timePeriod": 1200.0
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_solver_completion_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_solver_completion_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_odb_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_teacher_metrics_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\run61_custom_N40_focused_batch40_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_61_custom_N40_focused_calibrated_penalty_repair_batch40_odb_teacher_validation\\RUN_61_CUSTOM_N40_FOCUSED_CALIBRATED_PENALTY_REPAIR_BATCH40_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_61_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

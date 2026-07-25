@@ -1,0 +1,19 @@
+{
+  "total_overlap_with_run24_shortlist64": 0,
+  "total_distinct_from_run24_shortlist64": 64,
+  "mostly_distinct_from_run23_run24_shortlist64": true,
+  "n_distribution": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "bucket_composition": {
+    "gnn_policy_top_predicted": 1,
+    "gnn_policy_beam_search": 4,
+    "gnn_policy_temperature_diverse": 6,
+    "gnn_reward_local_search": 9,
+    "known_best_neighborhood": 44
+  },
+  "note": "Exact duplicate orders against run23/run24 were avoided during generation; comparison is retained for audit."
+}

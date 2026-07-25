@@ -1,0 +1,49 @@
+{
+  "final_verdict": "PASS_STAGE3_FINAL_EVIDENCE_FREEZE_READY_WITH_BOUNDED_NATIVE_N_CLAIMS",
+  "final_native_dataset": "combined552",
+  "final_plus_N32_auxiliary_dataset": "combined552_plus_N32",
+  "native_per_N_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "combined552_rows": 552,
+  "combined552_plus_N32_rows": 884,
+  "N32_legacy_auxiliary_count": 332,
+  "final_best_strategy_highlights": {
+    "12": {
+      "U2": "S3R69SNR_N12_B16_n12_uncertainty",
+      "u2_primary": "S3R74FSD_N12_B02_n12_penalty",
+      "constrained_reward": "S3R74FSD_N12_B02_n12_penalty",
+      "strict_penalty_guard": "S3R74FSD_N12_B02_n12_penalty",
+      "penalty_repair": "S3R74FSD_N12_B01_n12_penalty"
+    },
+    "16": {
+      "U2": "S3R74FSD_N16_B13_n16_run71_local",
+      "u2_primary": "S3R74FSD_N16_B01_n16_penalty",
+      "constrained_reward": "S3R74FSD_N16_B01_n16_penalty",
+      "strict_penalty_guard": "S3R74FSD_N16_B01_n16_penalty",
+      "penalty_repair": "S3R74FSD_N16_B01_n16_penalty"
+    },
+    "24": {
+      "U2": "S3R49SCN_N24_B09_median_guard",
+      "u2_primary": "S3R44CNS_N24_B16_uncertainty",
+      "constrained_reward": "S3R44CNS_N24_B16_uncertainty",
+      "strict_penalty_guard": "S3R44CNS_N24_B16_uncertainty",
+      "penalty_repair": "S3R69SNR_N24_B04_n24_uncertainty"
+    },
+    "40": {
+      "U2": "S3R64VNR_N40_B15_n40_u2ret_anchor",
+      "u2_primary": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "constrained_reward": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "strict_penalty_guard": "S3R64VNR_N40_B03_n40_penalty_anchor",
+      "penalty_repair": "S3R64VNR_N40_B03_n40_penalty_anchor"
+    }
+  },
+  "N12_N16_recovery_summary": "N12/N16 reached 78 native teacher rows each after recovery and final diagnostic loops.",
+  "N24_N40_maturity_summary": "N24/N40 remain mature anchors with 190 and 206 native teacher rows respectively.",
+  "GNN_pointer_summary": "GNN and graph-pointer diagnostics remain auxiliary only.",
+  "final_claim_boundary": "Bounded teacher-validated claims over tested native N values N12/N16/N24/N40 only.",
+  "recommended_next_step": "Prepare paper/report/ARA package; do not generate more Stage 3 candidates by default."
+}

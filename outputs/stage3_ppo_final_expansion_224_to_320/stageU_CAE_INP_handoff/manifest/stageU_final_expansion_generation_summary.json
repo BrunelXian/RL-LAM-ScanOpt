@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS_STAGEU_FINAL_EXPANSION_GENERATION_COMPLETE",
+  "generated_count": 224,
+  "per_n_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "per_batch_counts": {
+    "final_expansion_batch01": 32,
+    "final_expansion_batch02": 32,
+    "final_expansion_batch03": 32,
+    "final_expansion_batch04": 32,
+    "final_expansion_batch05": 32,
+    "final_expansion_batch06": 32,
+    "final_expansion_batch07": 32
+  },
+  "manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\manifest\\stageU_final_expansion_CAE_generation_manifest.csv",
+  "manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\manifest\\stageU_final_expansion_CAE_generation_manifest.json",
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_odb_opened": true,
+  "no_teacher_validation": true
+}

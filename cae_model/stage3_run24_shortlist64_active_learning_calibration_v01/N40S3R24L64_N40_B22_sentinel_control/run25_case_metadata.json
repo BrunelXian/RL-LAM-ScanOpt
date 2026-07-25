@@ -1,0 +1,22 @@
+{
+  "run_id": "run_25_shortlist64_active_learning_cae_inp_generation",
+  "batch_name": "stage3_run24_shortlist64_active_learning_calibration_v01",
+  "selected_batch": "shortlist64",
+  "n": 40,
+  "handoff_strategy_name": "S3R24L64_N40_B22_sentinel_control",
+  "original_run23_candidate_id": "R23_N40_C02282",
+  "original_run23_strategy_name": "N40_R23_N40_C02282_known_best_mutation",
+  "candidate_family": "known_best_mutation",
+  "candidate_source": "combined108_known_best_mutation",
+  "generation_method": "biased_random_perturbation_151",
+  "selection_bucket": "sentinel_control",
+  "priority_role": "model_disagreement",
+  "model_prediction_mean": "0.20575963921710927",
+  "model_prediction_std": "0.07477855863013833",
+  "predicted_gap_vs_combined108_best": "-0.5989530732209238",
+  "novelty_distance_to_combined108": "0.46282051282051284",
+  "nearest_existing_teacher_strategy": "S3R19B28_N40_B03_geometry_signal_top",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

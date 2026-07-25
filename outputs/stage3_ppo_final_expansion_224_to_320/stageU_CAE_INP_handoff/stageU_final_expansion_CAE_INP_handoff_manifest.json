@@ -1,0 +1,66 @@
+﻿{
+    "branch":  "stage3-variable-n-graph-pointer-init-v01",
+    "timestamp":  "2026-06-29T08:41:12+08:00",
+    "namespace":  "stage3_ppo_final_expansion_224_to_320",
+    "input_selected_master_csv":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\PPO_FINAL_EXPANSION_224_SELECTED_MASTER.csv",
+    "input_per_batch_csv_directory":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches",
+    "input_scan_order_json_directory":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\scan_orders",
+    "case_root":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_final_expansion_224_to_320_batch224_v01",
+    "base_cae_paths":  {
+                           "N12":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\12track_full\\sanity_base\\12track_sanity_base.cae",
+                           "N16":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\16track_full\\sanity_base\\16track_sanity_base.cae",
+                           "N24":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\24track_full\\sanity_base\\24track_sanity_base.cae",
+                           "N40":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\40track_full\\sanity_base\\40track_sanity_base.cae"
+                       },
+    "stageT_repair_manifest":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageT_repair_duplicate_orders_manifest.json",
+    "stageT_repair_report":  "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_224_STAGE_T_REPAIR_REPORT.md",
+    "stageT_repair_duplicate_groups":  9,
+    "stageT_repair_replacements":  21,
+    "case_manifest":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\manifest\\stageU_final_expansion_case_manifest.csv",
+    "audit_outputs":  {
+                          "csv":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\checks\\stageU_generated_CAE_INP_audit.csv",
+                          "summary_json":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\checks\\stageU_generated_CAE_INP_audit_summary.json",
+                          "verdict":  "PASS_STAGEU_FINAL_EXPANSION_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER"
+                      },
+    "per_batch_command_file_paths":  {
+                                         "final_expansion_batch01":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch01_abqjobpilot_commands_READY_TO_RUN.txt",
+                                         "final_expansion_batch02":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch02_abqjobpilot_commands_READY_TO_RUN.txt",
+                                         "final_expansion_batch03":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch03_abqjobpilot_commands_READY_TO_RUN.txt",
+                                         "final_expansion_batch04":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch04_abqjobpilot_commands_READY_TO_RUN.txt",
+                                         "final_expansion_batch05":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch05_abqjobpilot_commands_READY_TO_RUN.txt",
+                                         "final_expansion_batch06":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch06_abqjobpilot_commands_READY_TO_RUN.txt",
+                                         "final_expansion_batch07":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_batch07_abqjobpilot_commands_READY_TO_RUN.txt"
+                                     },
+    "all_batch_command_file_path":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\commands\\stageU_final_expansion_all224_abqjobpilot_commands_READY_TO_RUN.txt",
+    "report_path":  "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_STAGEU_CAE_INP_HANDOFF_REPORT.md",
+    "claim_boundary_path":  "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_STAGEU_CLAIM_BOUNDARY.md",
+    "current_validated_total":  96,
+    "expansion_case_count":  224,
+    "target_total_after_validation":  320,
+    "generated_counts_by_n":  {
+                                  "N12":  32,
+                                  "N16":  32,
+                                  "N24":  80,
+                                  "N40":  80
+                              },
+    "generated_counts_by_batch":  {
+                                      "final_expansion_batch01":  32,
+                                      "final_expansion_batch02":  32,
+                                      "final_expansion_batch03":  32,
+                                      "final_expansion_batch04":  32,
+                                      "final_expansion_batch05":  32,
+                                      "final_expansion_batch06":  32,
+                                      "final_expansion_batch07":  32
+                                  },
+    "no_solver":  true,
+    "no_datacheck":  true,
+    "no_enqueue":  true,
+    "no_ODB_opening":  true,
+    "no_ODB_extraction":  true,
+    "no_teacher_validation":  true,
+    "no_scan_order_mutation":  true,
+    "no_training":  true,
+    "no_candidate_generation":  true,
+    "no_commit_or_push":  true,
+    "final_verdict":  "PASS_STAGEU_FINAL_EXPANSION_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER"
+}

@@ -1,0 +1,30 @@
+{
+  "verdict": "PASS_STAGEH_INPUTS_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "stageG_rows": 32,
+  "stageD_rows": 32,
+  "combined552_rows": 552,
+  "stageG_counts_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "stageD_counts_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "combined552_counts_by_N": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "audit_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\checks\\stageH_input_integrity_audit.csv",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

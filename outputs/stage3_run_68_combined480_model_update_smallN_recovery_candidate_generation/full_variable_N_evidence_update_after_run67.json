@@ -1,0 +1,283 @@
+{
+  "verdict": "RUN68_FULL_VARIABLE_N_EVIDENCE_STRENGTHENED_SMALLN_RECOVERY_STILL_PRIMARY",
+  "headline": "Run67/Run66 strengthened full variable-N evidence to N12=48 and N16=48 while N24=184 and N40=200 remain mature anchors; the next validation should continue small-N recovery rather than broad N24/N40 exploitation.",
+  "native_combined480_counts": {
+    "12": 48,
+    "16": 48,
+    "24": 184,
+    "40": 200
+  },
+  "run67_maturity_context": {
+    "headline": "After Run66, combined480 has N12=48, N16=48, N24=184, and N40=200; full variable-N evidence is stronger, but N12/N16 remain the limiting under-sampled regimes relative to mature N24/N40 anchors.",
+    "n24_teacher_rows": 184,
+    "n40_teacher_rows": 200,
+    "n32_legacy_teacher_rows": 332,
+    "n12_teacher_rows": 48,
+    "n16_teacher_rows": 48,
+    "run66_new_best_count_vs_combined432": 14,
+    "full_variable_n_evidence_stronger_after_run66": true,
+    "n24_n40_evidence_frozen_anchor_status": true,
+    "gnn_pointer_auxiliary_only": true,
+    "n24_n40_mature_for_bounded_active_learning_evidence": true,
+    "full_variable_n_rl_maturity_limited_by_n12_n16": true,
+    "safe_paper_claim": "Run66 strengthens small-N evidence while preserving mature N24/N40 anchors; full variable-N maturity should still be bounded by N12/N16 evidence density.",
+    "prediction_calibration_summary": {
+      "headline": "Run63/Run64 prediction calibration was evaluated on realized Run66 variable-N labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+      "overall_reward_spearman": 0.49114899232462417,
+      "overall_penalty_repair_spearman": 0.4037723685342585,
+      "mean_top5_overlap": 1.0909090909090908,
+      "top1_hits": 1,
+      "by_candidate_source": {
+        "N12_diversity_coverage": {
+          "count": 1,
+          "mean_abs_error": 0.16265379688010284,
+          "mean_realized_reward": 0.36223404255319147
+        },
+        "N12_penalty_aware_repair": {
+          "count": 1,
+          "mean_abs_error": 0.11392436383732352,
+          "mean_realized_reward": 0.6260638297872341
+        },
+        "N12_recovery_anchor_local_search": {
+          "count": 3,
+          "mean_abs_error": 0.13339071566731145,
+          "mean_realized_reward": 0.7106382978723405
+        },
+        "N12_recovery_anchor_top": {
+          "count": 4,
+          "mean_abs_error": 0.07397100696810877,
+          "mean_realized_reward": 0.6627659574468086
+        },
+        "N12_u2_safe_exploitation": {
+          "count": 2,
+          "mean_abs_error": 0.1517433006883827,
+          "mean_realized_reward": 0.575
+        },
+        "N12_uncertainty_calibration": {
+          "count": 1,
+          "mean_abs_error": 0.012039990956818625,
+          "mean_realized_reward": 0.8021276595744681
+        },
+        "N16_diversity_coverage": {
+          "count": 1,
+          "mean_abs_error": 0.2265343775087061,
+          "mean_realized_reward": 0.43138297872340425
+        },
+        "N16_penalty_aware_repair": {
+          "count": 1,
+          "mean_abs_error": 0.017350422154677636,
+          "mean_realized_reward": 0.7111702127659574
+        },
+        "N16_recovery_anchor_local_search": {
+          "count": 3,
+          "mean_abs_error": 0.022955808294716624,
+          "mean_realized_reward": 0.7549645390070922
+        },
+        "N16_recovery_anchor_top": {
+          "count": 4,
+          "mean_abs_error": 0.09971793063929452,
+          "mean_realized_reward": 0.7519946808510638
+        },
+        "N16_u2_safe_exploitation": {
+          "count": 2,
+          "mean_abs_error": 0.13093924349881791,
+          "mean_realized_reward": 0.7555851063829788
+        },
+        "N16_uncertainty_calibration": {
+          "count": 1,
+          "mean_abs_error": 0.1476065252656117,
+          "mean_realized_reward": 0.9367021276595746
+        },
+        "N24_frozen_diversity_coverage": {
+          "count": 1,
+          "mean_abs_error": 0.23808321417134815,
+          "mean_realized_reward": 0.3284153005464482
+        },
+        "N24_frozen_penalty_diagnostic": {
+          "count": 2,
+          "mean_abs_error": 0.0946523407582689,
+          "mean_realized_reward": 0.6031420765027322
+        },
+        "N24_frozen_reference_maintenance": {
+          "count": 3,
+          "mean_abs_error": 0.07236859534459084,
+          "mean_realized_reward": 0.688615664845173
+        },
+        "N24_frozen_uncertainty_calibration": {
+          "count": 2,
+          "mean_abs_error": 0.059478235782831845,
+          "mean_realized_reward": 0.7435792349726776
+        },
+        "N40_followup_median_guard": {
+          "count": 2,
+          "mean_abs_error": 0.09748184506076574,
+          "mean_realized_reward": 0.8337939698492463
+        },
+        "N40_followup_penalty_repair": {
+          "count": 5,
+          "mean_abs_error": 0.12005691450715891,
+          "mean_realized_reward": 0.8021608040201006
+        },
+        "N40_followup_two_stage_repair": {
+          "count": 4,
+          "mean_abs_error": 0.15119178495597146,
+          "mean_realized_reward": 0.7051193467336684
+        },
+        "N40_followup_u2_reward_retention": {
+          "count": 5,
+          "mean_abs_error": 0.19900866285076094,
+          "mean_realized_reward": 0.7091959798994976
+        }
+      },
+      "by_selection_bucket": {
+        "N12_diversity_coverage": {
+          "count": 1,
+          "mean_abs_error": 0.16265379688010284,
+          "mean_realized_reward": 0.36223404255319147
+        },
+        "N12_penalty_aware_repair": {
+          "count": 1,
+          "mean_abs_error": 0.11392436383732352,
+          "mean_realized_reward": 0.6260638297872341
+        },
+        "N12_recovery_anchor_local_search": {
+          "count": 3,
+          "mean_abs_error": 0.13339071566731145,
+          "mean_realized_reward": 0.7106382978723405
+        },
+        "N12_recovery_anchor_top": {
+          "count": 4,
+          "mean_abs_error": 0.07397100696810877,
+          "mean_realized_reward": 0.6627659574468086
+        },
+        "N12_u2_safe_exploitation": {
+          "count": 2,
+          "mean_abs_error": 0.1517433006883827,
+          "mean_realized_reward": 0.575
+        },
+        "N12_uncertainty_calibration": {
+          "count": 1,
+          "mean_abs_error": 0.012039990956818625,
+          "mean_realized_reward": 0.8021276595744681
+        },
+        "N16_diversity_coverage": {
+          "count": 1,
+          "mean_abs_error": 0.2265343775087061,
+          "mean_realized_reward": 0.43138297872340425
+        },
+        "N16_penalty_aware_repair": {
+          "count": 1,
+          "mean_abs_error": 0.017350422154677636,
+          "mean_realized_reward": 0.7111702127659574
+        },
+        "N16_recovery_anchor_local_search": {
+          "count": 3,
+          "mean_abs_error": 0.022955808294716624,
+          "mean_realized_reward": 0.7549645390070922
+        },
+        "N16_recovery_anchor_top": {
+          "count": 4,
+          "mean_abs_error": 0.09971793063929452,
+          "mean_realized_reward": 0.7519946808510638
+        },
+        "N16_u2_safe_exploitation": {
+          "count": 2,
+          "mean_abs_error": 0.13093924349881791,
+          "mean_realized_reward": 0.7555851063829788
+        },
+        "N16_uncertainty_calibration": {
+          "count": 1,
+          "mean_abs_error": 0.1476065252656117,
+          "mean_realized_reward": 0.9367021276595746
+        },
+        "N24_frozen_diversity_coverage": {
+          "count": 1,
+          "mean_abs_error": 0.23808321417134815,
+          "mean_realized_reward": 0.3284153005464482
+        },
+        "N24_frozen_penalty_diagnostic": {
+          "count": 2,
+          "mean_abs_error": 0.0946523407582689,
+          "mean_realized_reward": 0.6031420765027322
+        },
+        "N24_frozen_reference_maintenance": {
+          "count": 3,
+          "mean_abs_error": 0.07236859534459084,
+          "mean_realized_reward": 0.688615664845173
+        },
+        "N24_frozen_uncertainty_calibration": {
+          "count": 2,
+          "mean_abs_error": 0.059478235782831845,
+          "mean_realized_reward": 0.7435792349726776
+        },
+        "N40_followup_median_guard": {
+          "count": 2,
+          "mean_abs_error": 0.09748184506076574,
+          "mean_realized_reward": 0.8337939698492463
+        },
+        "N40_followup_penalty_repair": {
+          "count": 5,
+          "mean_abs_error": 0.12005691450715891,
+          "mean_realized_reward": 0.8021608040201006
+        },
+        "N40_followup_two_stage_repair": {
+          "count": 4,
+          "mean_abs_error": 0.15119178495597146,
+          "mean_realized_reward": 0.7051193467336684
+        },
+        "N40_followup_u2_reward_retention": {
+          "count": 5,
+          "mean_abs_error": 0.19900866285076094,
+          "mean_realized_reward": 0.7091959798994976
+        }
+      },
+      "disagreement_vs_abs_error_spearman": -0.2769490275411377,
+      "uncertainty_vs_abs_error_spearman": -0.02941815023881893,
+      "novelty_vs_realized_reward_spearman": -0.37384526467684526,
+      "by_generation_method": {
+        "existing_pool_selection": {
+          "count": 8,
+          "mean_abs_error": 0.08684446880370164,
+          "mean_realized_reward": 0.7073803191489361
+        },
+        "offline_mutation_or_pointer_proxy": {
+          "count": 40,
+          "mean_abs_error": 0.12182557517215162,
+          "mean_realized_reward": 0.7015053434683007
+        }
+      }
+    }
+  },
+  "run66_prediction_audit_context": {
+    "reward_spearman": 0.49114899232462417,
+    "penalty_repair_spearman": 0.4037723685342585,
+    "mean_top5_overlap": 1.0909090909090908
+  },
+  "evidence_decision": {
+    "N24_N40_remain_frozen_anchors": true,
+    "pivot_primary_generation_to_N12_N16_recovery": true,
+    "keep_N24_N40_anchor_counts_low": true,
+    "continue_full_variable_N_claim_boundary": "improved_but_still_limited_by_N12_N16_density"
+  },
+  "timeline": [
+    {
+      "stage": "combined432_before_Run66",
+      "native_rows": 432,
+      "N12": 36,
+      "N16": 36,
+      "N24": 176,
+      "N40": 184,
+      "interpretation": "N24/N40 evidence frozen; full variable-N claim limited by N12/N16 density"
+    },
+    {
+      "stage": "Run66_variable_N_recovery_anchor_batch48",
+      "native_rows": 480,
+      "N12": 48,
+      "N16": 48,
+      "N24": 184,
+      "N40": 200,
+      "interpretation": "small-N evidence strengthened, especially N16; N24/N40 remain mature anchors"
+    }
+  ],
+  "validation_verdict": "PASS_RUN68_COMBINED480_AND_PLUS_N32_INPUTS_READY"
+}

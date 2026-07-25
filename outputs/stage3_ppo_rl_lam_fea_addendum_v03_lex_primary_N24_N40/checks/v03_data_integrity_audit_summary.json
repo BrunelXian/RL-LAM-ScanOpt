@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-06-28T08:20:25.038814+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "verdict": "PASS_V03_LEX_PRIMARY_DATA_READY",
+  "fail_count": 0,
+  "warning_count": 0,
+  "row_count": 444,
+  "counts_by_N_source": {
+    "ppo_v01_teacher_validated_N24": 8,
+    "ppo_v01_teacher_validated_N40": 8,
+    "ppo_v02K2_teacher_validated_N24": 16,
+    "ppo_v02K2_teacher_validated_N40": 16,
+    "stage3_native_combined552_N24": 190,
+    "stage3_native_combined552_N40": 206
+  },
+  "dataset_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\data\\v03_N24_N40_teacher_dataset.csv",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

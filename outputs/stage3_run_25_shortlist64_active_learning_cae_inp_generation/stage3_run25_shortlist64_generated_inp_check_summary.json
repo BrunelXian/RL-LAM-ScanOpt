@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS_RUN25_SHORTLIST64_64_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 64,
+  "pass_count": 64,
+  "per_n_pass_counts": {
+    "12": 8,
+    "16": 8,
+    "24": 24,
+    "40": 24
+  },
+  "total_cae_count": 64,
+  "total_inp_count": 64,
+  "solver_output_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_25_shortlist64_active_learning_cae_inp_generation\\stage3_run25_shortlist64_generated_inp_check.csv"
+}

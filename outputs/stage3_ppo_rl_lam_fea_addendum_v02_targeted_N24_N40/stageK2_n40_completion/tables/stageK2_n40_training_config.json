@@ -1,0 +1,30 @@
+{
+  "algorithm": "MaskablePPO",
+  "policy": "MlpPolicy",
+  "fixed_n": 40,
+  "learning_rate": 0.0002,
+  "n_steps": 2048,
+  "batch_size": 256,
+  "gamma": 1.0,
+  "gae_lambda": 1.0,
+  "ent_coef": 0.03,
+  "clip_range": 0.2,
+  "seed_targets": {
+    "20260624": {
+      "target_total_timesteps": 500000,
+      "source": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\ppo_training_v02\\checkpoints\\N40_seed20260624_maskable_ppo_v02.zip",
+      "train": true
+    },
+    "20260625": {
+      "target_total_timesteps": 300000,
+      "source": null,
+      "train": false
+    },
+    "20260626": {
+      "target_total_timesteps": 300000,
+      "source": null,
+      "train": false
+    }
+  },
+  "note": "Stage K2 trains seed 20260624 to 500k total; extra seeds are deferred unless runtime budget is extended."
+}

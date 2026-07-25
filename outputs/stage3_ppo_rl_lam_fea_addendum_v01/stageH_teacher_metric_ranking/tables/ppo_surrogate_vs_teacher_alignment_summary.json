@@ -1,0 +1,36 @@
+{
+  "overall_spearman_predicted_vs_teacher_reward": 0.27898451221561293,
+  "overall_pearson_predicted_vs_teacher_reward": 0.20916044507779732,
+  "false_positive_count": 1,
+  "true_positive_count": 2,
+  "by_N": {
+    "12": {
+      "count": 8,
+      "spearman": 0.261904761904762,
+      "pearson": 0.3745693976086739,
+      "false_positive_count": 0,
+      "true_positive_count": 0
+    },
+    "16": {
+      "count": 8,
+      "spearman": 0.2142857142857143,
+      "pearson": 0.40046515683064654,
+      "false_positive_count": 0,
+      "true_positive_count": 2
+    },
+    "24": {
+      "count": 8,
+      "spearman": 0.5476190476190477,
+      "pearson": 0.6459309250093125,
+      "false_positive_count": 1,
+      "true_positive_count": 0
+    },
+    "40": {
+      "count": 8,
+      "spearman": 0.19047619047619052,
+      "pearson": 0.7803708526823466,
+      "false_positive_count": 0,
+      "true_positive_count": 0
+    }
+  }
+}

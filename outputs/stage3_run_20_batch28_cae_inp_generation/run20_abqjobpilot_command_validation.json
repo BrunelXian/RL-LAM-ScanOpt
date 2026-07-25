@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS_RUN20_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_20_batch28_cae_inp_generation\\stage3_run20_batch28_abqjobpilot_commands_READY_TO_RUN.txt",
+  "command_count": 28,
+  "errors": [],
+  "executed": false,
+  "manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_20_batch28_cae_inp_generation\\stage3_run20_batch28_cae_generation_manifest.csv"
+}

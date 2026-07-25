@@ -1,0 +1,5 @@
+n,candidate_count,top_predicted_strategy,top_predicted_realized_rank,best_realized_strategy,top1_hit,top5_overlap,top5_possible,top10_overlap,top10_possible,spearman_predicted_vs_realized
+12,8,S3R24L64_N12_B01_top_region,1.0,S3R24L64_N12_B01_top_region,True,4,5,8,8,0.7142857142857143
+16,8,S3R24L64_N16_B01_top_region,5.0,S3R24L64_N16_B02_top_region,False,4,5,8,8,0.6428571428571429
+24,24,S3R24L64_N24_B01_top_region,8.0,S3R24L64_N24_B23_exploitation_reference,False,1,5,8,10,0.688695652173913
+40,24,S3R24L64_N40_B01_top_region,6.0,S3R24L64_N40_B23_exploitation_reference,False,3,5,9,10,0.8271363535389596

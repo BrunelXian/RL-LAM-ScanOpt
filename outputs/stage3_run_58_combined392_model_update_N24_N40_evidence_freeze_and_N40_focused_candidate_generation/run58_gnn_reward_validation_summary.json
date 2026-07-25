@@ -1,0 +1,16 @@
+{
+  "best_regime": {
+    "regime": "plus_N32_balanced",
+    "macro_spearman": 0.479670379106346,
+    "macro_top5_overlap": 0.2,
+    "protocols": 5
+  },
+  "run38_best_gnn_reference": {
+    "regime": "plus_N32_unweighted",
+    "macro_spearman": 0.8078,
+    "top5": 1.4,
+    "N40_spearman": 0.8514
+  },
+  "improved_vs_run38_macro": false,
+  "note": "GNN diagnostic is an offline order-graph MLP proxy; it is not online RL or teacher validation."
+}

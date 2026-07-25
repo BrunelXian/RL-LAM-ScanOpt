@@ -1,0 +1,27 @@
+{
+  "run36_rows": 32,
+  "run36_top5_u2_total": 5,
+  "run36_top10_u2_total": 8,
+  "run36_top5_reward_total": 5,
+  "run36_top10_reward_total": 8,
+  "run36_new_metric_best_records_vs_combined172": 2,
+  "new_best_records": [
+    {
+      "n": 24,
+      "metric": "U2",
+      "run36_best_strategy": "S3R34N32INF_N24_B10_n24_calibration",
+      "absolute_improvement": 7.270562491612509e-06,
+      "relative_improvement_fraction": 0.18171876162513384
+    },
+    {
+      "n": 40,
+      "metric": "U2",
+      "run36_best_strategy": "S3R34N32INF_N40_B08_n40_best_near",
+      "absolute_improvement": 2.6148172764806077e-06,
+      "relative_improvement_fraction": 0.043886852469711815
+    }
+  ],
+  "n24_top10_reward_count": 3,
+  "n40_top10_reward_count": 4,
+  "interpretation": "Run36 is evaluated as N32-informed native-N candidate validation; it contains no N32 cases."
+}

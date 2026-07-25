@@ -1,0 +1,109 @@
+{
+  "run_id": "run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking",
+  "run_name": "constrained N24/N40 batch32 teacher metrics ingestion and combined296 ranking",
+  "timestamp": "2026-06-14T18:03:29.491809+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_47_ingest_constrained_N24_N40_batch32_and_build_combined296.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_46_constrained_N24_N40_batch32_odb_teacher_validation\\run46_constrained_N24_N40_batch32_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_46_constrained_N24_N40_batch32_odb_teacher_validation\\run46_constrained_N24_N40_batch32_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_46_constrained_N24_N40_batch32_odb_teacher_validation\\run46_constrained_N24_N40_batch32_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_46_constrained_N24_N40_batch32_odb_teacher_validation\\run46_constrained_N24_N40_batch32_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_44_run43_constrained_N24_N40_batch32_handoff_package\\stage3_run44_constrained_N24_N40_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_43_combined264_constrained_N24_N40_reward_balanced_candidate_generation\\run43_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run47_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_constrained_N24_N40_batch32_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_constrained_N24_N40_batch32_teacher_dataset_enriched.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_constrained_N24_N40_batch32_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_constrained_N24_N40_batch32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_plus_N32_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_plus_N32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\combined296_plus_N32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_vs_combined264_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_vs_combined264_best_comparison.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_vs_prior_key_records.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_vs_prior_key_records_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_constrained_batch32_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_constrained_batch32_effectiveness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_prediction_audit_for_run43_batch32.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_prediction_audit_for_run43_batch32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run46_u2_gain_vs_penalty_analysis.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run47_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run47_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\RUN_47_CONSTRAINED_N24_N40_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED296_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_47_manifest.json"
+  ],
+  "run46_teacher_rows": 32,
+  "combined296_rows": 296,
+  "combined296_plus_N32_rows": 628,
+  "per_N_combined296_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 112,
+    "40": 112
+  },
+  "per_N_combined296_plus_N32_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 112,
+    "32": 332,
+    "40": 112
+  },
+  "new_best_counts": {
+    "run46_vs_combined264_metric_level_records": 5
+  },
+  "prediction_audit_summary": {
+    "prediction_column_used_for_reward": "constrained_reward_prediction",
+    "prediction_column_used_for_u2": "surrogate_prediction",
+    "overall_reward_spearman": -0.11305355146557049,
+    "overall_constrained_reward_spearman": -0.09118973917481546,
+    "overall_u2_spearman": -0.033369120731641264,
+    "top1_hit": "1/2",
+    "mean_top5_overlap": 2.5,
+    "per_n": {
+      "N24": {
+        "count": 16,
+        "reward_spearman": -0.09533273239401217,
+        "constrained_reward_spearman": 0.03536536846874646,
+        "top5_overlap": 2,
+        "predicted_top1": "S3R44CNS_N24_B01_reward_balanced",
+        "realized_top1": "S3R44CNS_N24_B16_uncertainty",
+        "u2_spearman": -0.02116130293527289
+      },
+      "N40": {
+        "count": 16,
+        "reward_spearman": -0.3675385261144965,
+        "constrained_reward_spearman": -0.3617352862284781,
+        "top5_overlap": 3,
+        "predicted_top1": "S3R44CNS_N40_B01_reward_balanced",
+        "realized_top1": "S3R44CNS_N40_B01_reward_balanced",
+        "u2_spearman": -0.08401680504168059
+      }
+    },
+    "by_selection_bucket": {},
+    "gnn_vs_surrogate_disagreement_vs_abs_error_spearman": 0.04214019789892494,
+    "uncertainty_score_vs_abs_error_spearman": 0.05058651026392961,
+    "novelty_distance_vs_abs_error_spearman": 0.5939756055857847
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\RUN_47_CONSTRAINED_N24_N40_BATCH32_TEACHER_METRICS_INGESTION_AND_COMBINED296_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_47_constrained_N24_N40_batch32_teacher_metrics_ingestion_and_combined296_ranking\\run47_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation_performed_by_run47": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true
+}

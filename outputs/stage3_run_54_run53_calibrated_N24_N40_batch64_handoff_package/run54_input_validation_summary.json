@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-15T13:02:57.067125+00:00",
+  "verdict": "PASS_RUN54_CALIBRATED_N24_N40_BATCH64_INPUT_READY",
+  "errors": [],
+  "input_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_53_combined328_calibrated_N24_N40_batch64_candidate_generation\\run53_calibrated_N24_N40_batch64_candidate_orders.csv",
+  "row_count": 64,
+  "per_N_counts": {
+    "24": 32,
+    "40": 32
+  },
+  "contains_N12": false,
+  "contains_N16": false,
+  "contains_N32": false,
+  "comparison_overlap_status": {
+    "overlap_combined328_teacher_orders": 0,
+    "overlap_run51": 0,
+    "overlap_run46": 0,
+    "overlap_run41": 0,
+    "overlap_run36": 0,
+    "overlap_run27": 0,
+    "overlap_superseded_run31": 0
+  }
+}

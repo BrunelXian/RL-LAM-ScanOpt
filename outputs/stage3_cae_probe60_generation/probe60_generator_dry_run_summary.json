@@ -1,0 +1,37 @@
+{
+  "mode": "dry_run",
+  "allow_generic_export_without_reorder": false,
+  "case_count": 60,
+  "heat_load_mapping_status": "MANUAL_OBJECT_MAPPING_REQUIRED",
+  "heat_mapping_evidence": {
+    "12": {
+      "heat_sets": 12,
+      "scan_steps": 1,
+      "cool_steps": 1,
+      "body_heat_loads": 1
+    },
+    "16": {
+      "heat_sets": 16,
+      "scan_steps": 1,
+      "cool_steps": 1,
+      "body_heat_loads": 1
+    },
+    "24": {
+      "heat_sets": 24,
+      "scan_steps": 1,
+      "cool_steps": 1,
+      "body_heat_loads": 1
+    },
+    "40": {
+      "heat_sets": 40,
+      "scan_steps": 1,
+      "cool_steps": 1,
+      "body_heat_loads": 1
+    }
+  },
+  "generate_mode_safe": false,
+  "generic_export_blocked": true,
+  "would_generate_cae_count": 60,
+  "would_generate_inp_count": 0,
+  "note": "Dry run only. No CAE, INP, JNL, ODB, datacheck, solver, enqueue, or abqjobpilot actions were run."
+}

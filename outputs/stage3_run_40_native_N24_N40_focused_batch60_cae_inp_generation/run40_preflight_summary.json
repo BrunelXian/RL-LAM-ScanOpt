@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_RUN40_NATIVE_N24_N40_FOCUSED_BATCH60_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_39_run38_native_N24_N40_focused_batch60_handoff_package\\stage3_run39_native_N24_N40_focused_batch60_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_39_run38_native_N24_N40_focused_batch60_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run39_native_N24_N40_focused_batch60_v01",
+  "row_count": 60,
+  "per_n_counts": {
+    "24": 30,
+    "40": 30
+  },
+  "selected_batch": "run38_native_N24_N40_focused_batch60",
+  "batch_name": "stage3_run39_native_N24_N40_focused_batch60_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\run40_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN40_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

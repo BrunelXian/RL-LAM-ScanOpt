@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-10T15:17:43.910134+00:00",
+  "verdict": "PASS_TRUE_VARIABLE_N_BASE_MODEL_INVENTORY_READY",
+  "n_values": [
+    12,
+    16,
+    24,
+    40
+  ],
+  "all_cae_present": true,
+  "all_jnl_present": true,
+  "fixed32_leftover_warning_count": 0,
+  "guardrails": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_opened": true,
+    "no_cae_modified": true,
+    "no_inp_jnl_generated": true,
+    "no_abqjobpilot_execution": true,
+    "no_teacher_validation": true
+  }
+}

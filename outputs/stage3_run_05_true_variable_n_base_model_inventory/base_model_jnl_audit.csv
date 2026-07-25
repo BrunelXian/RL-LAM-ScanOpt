@@ -1,0 +1,5 @@
+n,jnl_path,jnl_exists,contains_n_track_name,contains_heat_step_reference,contains_track_set_reference,contains_surface_reference,contains_job_or_model_name,contains_fixed32_leftover,warning_count,warnings
+12,E:\Projects\RL-LAM-ScanOpt\cae_model\12track_full\sanity_base\12track_sanity_base.jnl,True,False,True,False,True,True,False,1,missing_expected_ntrack_name
+16,E:\Projects\RL-LAM-ScanOpt\cae_model\16track_full\sanity_base\16track_sanity_base.jnl,True,False,True,False,True,True,False,1,missing_expected_ntrack_name
+24,E:\Projects\RL-LAM-ScanOpt\cae_model\24track_full\sanity_base\24track_sanity_base.jnl,True,False,True,False,True,True,False,1,missing_expected_ntrack_name
+40,E:\Projects\RL-LAM-ScanOpt\cae_model\40track_full\sanity_base\40track_sanity_base.jnl,True,False,True,False,True,True,False,1,missing_expected_ntrack_name

@@ -1,0 +1,7 @@
+{
+  "verdict": "PASS_ABQJOBPILOT_COMMAND_FILE_VALID",
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_manual_probe60_handoff\\variable_N_probe60_abqjobpilot_commands_FIXED.txt",
+  "command_count": 60,
+  "errors": [],
+  "executed": false
+}

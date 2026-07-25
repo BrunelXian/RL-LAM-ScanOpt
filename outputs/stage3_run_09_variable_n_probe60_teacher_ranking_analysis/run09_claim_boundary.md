@@ -1,0 +1,18 @@
+# Run 09 Claim Boundary
+
+## Safe Claims
+
+- True variable-N teacher validation completed for N=12/16/24/40 with 60/60 ODB-extracted labels.
+- Within-N ranking is now possible for U2, PEEQ, and SurfaceT proxy.
+- Cross-N diagnostic comparison is now possible using ranks, percentiles, and normalized scores.
+- N-specific ranking is required because raw objective magnitudes are N-dependent.
+- The run provides a teacher-labelled variable-N benchmark dataset for later variable-N policy training/evaluation.
+
+## Unsafe Claims
+
+- Do not claim trained variable-N RL policy superiority.
+- Do not claim arbitrary-N generalization.
+- Do not claim a physical optimum.
+- Do not claim fixed-32 U2 guard transfer to variable-N.
+- Do not claim SurfaceT optimization outside U2/PEEQ feasible or near-feasible regions unless supported.
+- Do not claim proxy/fallback policy is equivalent to trained RL.

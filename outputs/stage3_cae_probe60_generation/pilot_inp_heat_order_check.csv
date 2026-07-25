@@ -1,0 +1,10 @@
+check,status,details
+file_exists,PASS,
+nonzero_size,PASS,
+contains_step_final_cooling,PASS,
+contains_heat_load_keywords,PASS,
+contains_all_expected_scan_step_names,PASS,
+contains_all_expected_cool_step_names,PASS,
+contains_all_expected_heat_set_names,PASS,
+step_final_cooling_after_last_scan_or_cool_name,PASS,"final_pos=43787, last_scan_pos=42511, last_cool_pos=43163"
+first_unique_heat_set_order_matches_scan_order,PASS,"expected=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], found_first_unique=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"

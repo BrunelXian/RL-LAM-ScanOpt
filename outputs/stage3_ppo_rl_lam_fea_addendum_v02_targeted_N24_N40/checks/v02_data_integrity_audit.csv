@@ -1,0 +1,14 @@
+check,passed,severity,detail
+combined552_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv
+ppo_v01_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv
+row_count_412,True,WARNING,412
+only_N24_N40,True,FAIL,"[np.int64(24), np.int64(40)]"
+no_N12_N16_N32,True,FAIL,"[np.int64(24), np.int64(40)]"
+expected_source_counts,True,WARNING,"{(24, 'ppo_v01_teacher_validated'): 8, (24, 'stage3_native_combined552'): 190, (40, 'ppo_v01_teacher_validated'): 8, (40, 'stage3_native_combined552'): 206}"
+metric_u2_range_present,True,FAIL,u2_range
+metric_peeq_max_present,True,FAIL,peeq_max
+metric_surface_t_proxy_present,True,FAIL,surface_t_proxy
+metric_mises_max_present,True,FAIL,mises_max
+valid_orders_all,True,FAIL,legal permutation check
+unique_strategy_names,True,FAIL,0
+ppo_v01_teacher_metric_extracted,True,FAIL,16

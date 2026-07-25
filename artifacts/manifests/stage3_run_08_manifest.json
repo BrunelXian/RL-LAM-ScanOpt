@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-11T18:10:13.076228+00:00",
+  "run_id": "run_08_variable_n_probe60_odb_teacher_validation",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_STAGE3_RUN08_PROBE60_ODB_TEACHER_VALIDATION_60_OF_60",
+  "inputs": {
+    "solver_completion_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_cae_probe60_generation\\probe60_solver_completion_audit_after_N24_A07_rerun.json"
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_08_probe60_odb_teacher_validation\\probe60_odb_teacher_labels.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_08_probe60_odb_teacher_validation\\probe60_odb_teacher_labels.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_08_probe60_odb_teacher_validation\\probe60_odb_teacher_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_08_variable_n_probe60_odb_teacher_validation\\RUN_08_VARIABLE_N_PROBE60_ODB_TEACHER_VALIDATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_08_manifest.json"
+  ],
+  "guardrails": {
+    "read_only_odb_open": true,
+    "abaqus_solver_run": false,
+    "datacheck_run": false,
+    "job_submission": false,
+    "solver_outputs_modified": false,
+    "shared_full32_u2_guard_used": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "verdict": "N32_LEGACY_AUXILIARY_ONLY_NOT_NATIVE_STAGE3_TEACHER_VALIDATION",
+  "n32_rows": 332,
+  "source": "Stage 2 legacy teacher-labelled data",
+  "not_newly_validated_in_stage3_runs": [
+    "Run66",
+    "Run71",
+    "Run76"
+  ],
+  "not_part_of_native_combined552": true,
+  "auxiliary_dataset": "combined552_plus_N32",
+  "semantic_caveats": [
+    "N32 peeq_max mapped from legacy peeq_guard/proxy semantics where applicable.",
+    "N32 mises_max mapped from legacy mises_P95_top_band/proxy semantics where applicable.",
+    "N32 is legacy-compatible, not native Stage 3 teacher validation."
+  ],
+  "native_claim_basis": [
+    "N12",
+    "N16",
+    "N24",
+    "N40"
+  ],
+  "not_for_arbitrary_N_generalization_claims": true
+}

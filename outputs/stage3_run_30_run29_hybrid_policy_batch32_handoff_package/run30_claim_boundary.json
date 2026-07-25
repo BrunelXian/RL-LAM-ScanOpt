@@ -1,0 +1,20 @@
+{
+  "verdict": "RUN30_HYBRID_BATCH32_HANDOFF_ONLY_NO_CAE_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "Run30 packages selected Run29 hybrid-policy batch32 candidates for human review and future CAE generation.",
+    "The selected batch contains N12=4, N16=4, N24=12, N40=12.",
+    "The candidates originate from the Run29 combined172 surrogate/GNN/hybrid policy update.",
+    "Handoff files include scan orders, metadata, future CAE manifest template, and abqjobpilot command template.",
+    "No CAE/INP files were generated."
+  ],
+  "unsafe_claims": [
+    "candidates are teacher-validated.",
+    "physical superiority.",
+    "GNN-RL has beaten baselines.",
+    "online RL with Abaqus.",
+    "arbitrary-N generalization.",
+    "surrogate/GNN/hybrid predictions are ground truth.",
+    "abqjobpilot commands are ready to execute.",
+    "CAE/INP files exist."
+  ]
+}

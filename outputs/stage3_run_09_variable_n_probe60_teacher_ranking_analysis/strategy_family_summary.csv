@@ -1,0 +1,11 @@
+strategy_family,count,mean_u2_rank_within_n,median_u2_rank_within_n,mean_peeq_rank_within_n,median_peeq_rank_within_n,mean_surfaceT_rank_within_n,median_surfaceT_rank_within_n,mean_simple_mean_rank,top3_u2_count,top5_u2_count,top3_peeq_count,top5_peeq_count,top3_surfaceT_count,top5_surfaceT_count,stability_across_n_core_count
+method_c,4,2.0,2.0,2.0,2.0,4.0,4.0,2.6666666666666665,4,4,4,4,2,2,1
+odd_even,4,2.0,2.0,4.25,4.0,12.0,12.5,6.083333333333334,4,4,0,4,0,0,1
+graph_pointer_proxy,24,7.333333333333333,7.0,7.541666666666667,8.0,6.666666666666667,6.5,7.180555555555556,2,8,4,5,5,11,6
+maximin,4,5.0,5.5,7.25,7.5,10.0,11.0,7.416666666666667,1,2,0,2,0,1,1
+block_interleaved,4,9.0,10.5,2.25,2.5,11.25,11.0,7.5,1,1,4,4,0,0,1
+regular_jump,4,10.0,10.0,6.75,6.5,8.25,7.0,8.333333333333334,0,1,0,1,0,1,1
+center_edge,4,12.25,12.5,12.25,12.5,3.75,2.0,9.416666666666666,0,0,0,0,3,3,1
+center_out,4,14.25,15.0,11.0,11.0,8.75,9.5,11.333333333333334,0,0,0,0,1,1,1
+edge_in,4,10.0,10.0,14.75,15.0,9.5,10.5,11.416666666666666,0,0,0,0,1,1,1
+raster,4,11.5,12.5,14.25,14.0,12.5,13.5,12.75,0,0,0,0,0,0,1

@@ -1,0 +1,22 @@
+{
+  "run_id": "run_31_hybrid_policy_batch32_cae_inp_generation",
+  "batch_name": "stage3_run30_hybrid_policy_batch32_v01",
+  "selected_batch": "run29_hybrid_policy_batch32",
+  "n": 40,
+  "handoff_strategy_name": "S3R30H32_N40_B08_hybrid_disagreement",
+  "original_run23_candidate_id": "",
+  "original_run23_strategy_name": "",
+  "candidate_family": "",
+  "candidate_source": "surrogate_known_best_local_search",
+  "generation_method": "block_swap",
+  "selection_bucket": "hybrid_gnn_surrogate_disagreement",
+  "priority_role": "",
+  "model_prediction_mean": "",
+  "model_prediction_std": "",
+  "predicted_gap_vs_combined108_best": "",
+  "novelty_distance_to_combined108": "",
+  "nearest_existing_teacher_strategy": "S3B20_N40_B02_diversity_top",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

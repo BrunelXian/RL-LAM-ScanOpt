@@ -1,0 +1,56 @@
+{
+  "headline": "All Run48 options were checked for exact order overlap and strict-guard/novelty composition against combined296, Run46, Run41, Run36, Run27, and superseded Run31.",
+  "rows": [
+    {
+      "batch_option": "A_batch32",
+      "count": 32,
+      "per_N_counts": "{\"24\": 16, \"40\": 16}",
+      "mean_constrained_score": 0.7263554151155549,
+      "mean_surrogate_prediction": 0.7324397699637346,
+      "mean_predicted_u2_guarded_score": 0.7333491060512007,
+      "mean_penalty_guard_score": 0.7288482844564882,
+      "mean_novelty_distance": 0.24765625000000002,
+      "candidate_source_composition": "{\"strict_penalty_guard_top\": 4, \"strict_penalty_guard_local_search\": 4, \"two_stage_guarded_top\": 4, \"two_stage_guarded_local_search\": 4, \"no_penalty_worse_than_median\": 4, \"PEEQ_repair_candidates\": 4, \"SurfaceT_repair_candidates\": 4, \"Mises_repair_candidates\": 4}",
+      "overlap_combined296_teacher_orders": 0,
+      "overlap_run46": 0,
+      "overlap_run41": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0
+    },
+    {
+      "batch_option": "B_batch60",
+      "count": 60,
+      "per_N_counts": "{\"24\": 30, \"40\": 30}",
+      "mean_constrained_score": 0.7271947297477527,
+      "mean_surrogate_prediction": 0.7335645781692764,
+      "mean_predicted_u2_guarded_score": 0.7343572414380195,
+      "mean_penalty_guard_score": 0.7299111965267642,
+      "mean_novelty_distance": 0.22166666666666668,
+      "candidate_source_composition": "{\"strict_penalty_guard_top\": 6, \"strict_penalty_guard_local_search\": 6, \"two_stage_guarded_top\": 6, \"two_stage_guarded_local_search\": 6, \"no_penalty_worse_than_median\": 6, \"PEEQ_repair_candidates\": 6, \"SurfaceT_repair_candidates\": 6, \"Mises_repair_candidates\": 6, \"U2_top_region_penalty_repair\": 6, \"constrained_surrogate_top\": 6}",
+      "overlap_combined296_teacher_orders": 0,
+      "overlap_run46": 0,
+      "overlap_run41": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0
+    },
+    {
+      "batch_option": "C_batch40",
+      "count": 40,
+      "per_N_counts": "{\"12\": 4, \"16\": 4, \"24\": 16, \"40\": 16}",
+      "mean_constrained_score": 0.7343400002134077,
+      "mean_surrogate_prediction": 0.7419467207530019,
+      "mean_predicted_u2_guarded_score": 0.7419765220380345,
+      "mean_penalty_guard_score": 0.7381288173399897,
+      "mean_novelty_distance": 0.2189583333333333,
+      "candidate_source_composition": "{\"strict_penalty_guard_top\": 6, \"strict_penalty_guard_local_search\": 6, \"two_stage_guarded_top\": 6, \"two_stage_guarded_local_search\": 6, \"no_penalty_worse_than_median\": 4, \"PEEQ_repair_candidates\": 4, \"SurfaceT_repair_candidates\": 4, \"Mises_repair_candidates\": 4}",
+      "overlap_combined296_teacher_orders": 0,
+      "overlap_run46": 0,
+      "overlap_run41": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0
+    }
+  ]
+}

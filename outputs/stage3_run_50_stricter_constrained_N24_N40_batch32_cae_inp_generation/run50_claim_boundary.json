@@ -1,0 +1,29 @@
+{
+  "run_id": "run_50_stricter_constrained_N24_N40_batch32_cae_inp_generation",
+  "safe_claims": [
+    "Run50 generated CAE/INP/JNL handoff files for the selected Run49 stricter constrained N24/N40 batch32 only.",
+    "Generated files correspond to N24=16 and N40=16.",
+    "No N12, N16, or N32 cases were generated.",
+    "Generated INPs passed text, mesh, final-cooling, heat-load, and N40 cooling-increment checks.",
+    "A validated custom abqjobpilot command file was created for user-controlled submission.",
+    "No solver job was submitted by Codex."
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical metric improvement",
+    "ODB results exist",
+    "solver completion",
+    "RL policy training",
+    "GNN-RL superiority",
+    "N32 caused improvement",
+    "arbitrary-N generalization",
+    "abqjobpilot was executed"
+  ],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true
+}

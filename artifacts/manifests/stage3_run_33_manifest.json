@@ -1,0 +1,110 @@
+{
+  "run_id": "run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation",
+  "run_name": "combined172 plus N32 balanced surrogate GNN candidate generation",
+  "timestamp": "2026-06-13T07:10:41.169924+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\combined172_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_28_shortlist64_teacher_metrics_ingestion_and_combined172_ranking\\combined172_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\RUN_32A_STAGE2_N32_LEGACY_TEACHER_LABEL_INGESTION_FOR_STAGE3_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_29_combined172_surrogate_gnn_hybrid_policy_update_and_candidate_generation\\RUN_29_COMBINED172_SURROGATE_GNN_HYBRID_POLICY_UPDATE_AND_CANDIDATE_GENERATION_REPORT.md"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\combined172_plus_N32_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_surrogate_validation_results_detailed.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_best_surrogate_configurations.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_surrogate_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_gnn_reward_validation_results.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_gnn_reward_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_graph_pointer_policy_training_log.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_graph_pointer_policy_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_N32_informed_native_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_N32_included_variableN_batch40_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_focused_N24_N32_N40_batch36_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_comparison_to_superseded_run31_batch32.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_comparison_to_superseded_run31_batch32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\RUN_33_COMBINED172_PLUS_N32_BALANCED_SURROGATE_GNN_CANDIDATE_GENERATION_REPORT.md"
+  ],
+  "row_counts": {
+    "combined172_plus_N32": 504,
+    "native_combined172": 172
+  },
+  "per_N_counts": {
+    "12": 32,
+    "16": 32,
+    "24": 54,
+    "32": 332,
+    "40": 54
+  },
+  "best_model_summaries": {
+    "surrogate": {
+      "regime": "native_only_combined172",
+      "target": "target_reward_combined172_plus_N32_mapped_u2_primary",
+      "feature_set": "F01_basic_order",
+      "model_name": "MeanBaseline",
+      "macro_spearman_leave_N_out": NaN,
+      "macro_top5_overlap_leave_N_out": 0.5,
+      "macro_top10_overlap_leave_N_out": 1.5,
+      "n24_spearman": NaN,
+      "n32_spearman": NaN,
+      "n40_spearman": NaN
+    },
+    "gnn": {
+      "regime": "plus_N32_unweighted",
+      "macro_spearman": 0.7850523406848685,
+      "macro_top5_overlap": 1.6,
+      "n40_spearman": 0.8321515760427128
+    },
+    "pointer": "RUN33_GRAPH_POINTER_POLICY_WEIGHTED_BC_TRAINED"
+  },
+  "candidate_pool_counts": {
+    "12": 800,
+    "16": 800,
+    "24": 2500,
+    "32": 2500,
+    "40": 3000
+  },
+  "batch_options": {
+    "option_a_native_batch32": {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_N32_informed_native_batch32_candidate_orders.csv",
+      "counts": {
+        "12": 4,
+        "16": 4,
+        "24": 12,
+        "40": 12
+      }
+    },
+    "option_b_variableN_batch40": {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_N32_included_variableN_batch40_candidate_orders.csv",
+      "counts": {
+        "12": 4,
+        "16": 4,
+        "24": 10,
+        "32": 10,
+        "40": 12
+      }
+    },
+    "option_c_focused_batch36": {
+      "path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_focused_N24_N32_N40_batch36_candidate_orders.csv",
+      "counts": {
+        "24": 12,
+        "32": 12,
+        "40": 12
+      }
+    }
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\RUN_33_COMBINED172_PLUS_N32_BALANCED_SURROGATE_GNN_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_33_combined172_plus_N32_balanced_surrogate_gnn_candidate_generation\\run33_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation": true,
+  "no_online_rl": true,
+  "no_commit_or_push": true
+}

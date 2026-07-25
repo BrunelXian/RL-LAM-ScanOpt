@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-18T05:40:45.975763+00:00",
+  "verdict": "PASS_RUN78_STAGE3_FINAL_EVIDENCE_INPUTS_READY",
+  "errors": [],
+  "native_combined552_rows": 552,
+  "native_combined552_per_N_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "combined552_plus_N32_rows": 884,
+  "combined552_plus_N32_per_N_counts": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "32": 332,
+    "40": 206
+  },
+  "n32_legacy_warning_columns": [
+    "nonfatal_warning_flag",
+    "metric_semantic_warning",
+    "legacy_compatibility_status",
+    "legacy_source_category",
+    "peeq_metric_semantics",
+    "mises_metric_semantics",
+    "target_reward_n32_legacy_mapped_u2_primary",
+    "reward_n32_legacy_mapped_rank"
+  ]
+}

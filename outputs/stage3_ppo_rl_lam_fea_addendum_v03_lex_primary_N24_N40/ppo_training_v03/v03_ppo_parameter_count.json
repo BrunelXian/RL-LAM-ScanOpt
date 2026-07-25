@@ -1,0 +1,10 @@
+{
+  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N24_seed20260627_maskable_ppo_v03.zip": {
+    "total_parameters": 72937,
+    "trainable_parameters": 72937
+  },
+  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N40_seed20260627_maskable_ppo_v03.zip": {
+    "total_parameters": 72937,
+    "trainable_parameters": 72937
+  }
+}

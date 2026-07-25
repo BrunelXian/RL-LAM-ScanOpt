@@ -1,0 +1,12 @@
+metric,value
+ppo_candidate_count,32
+new_record_any_primary_metric_or_lex_count,0
+top10_any_primary_metric_or_lex_count,6
+top25_any_primary_metric_or_lex_count,12
+total_beats_reference_best_u2_range,0
+total_beats_reference_best_peeq_max,0
+total_beats_reference_best_surface_t_proxy,0
+total_beats_reference_best_mises_max,0
+total_beats_reference_lex_best,0
+N_with_top25_lex,2
+N_with_top10_lex,2

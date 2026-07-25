@@ -1,0 +1,44 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-29T08:01:35",
+  "target_total": 320,
+  "current_validated_total": 96,
+  "selected_expansion_total": 224,
+  "selected_master_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\PPO_FINAL_EXPANSION_224_SELECTED_MASTER.csv",
+  "per_batch_csv_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch01.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch02.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch03.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch04.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch05.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch06.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches\\PPO_FINAL_EXPANSION_batch07.csv"
+  ],
+  "scan_order_JSON_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\scan_orders",
+  "audit_paths": {
+    "legality": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_legality_audit.csv",
+    "novelty": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_novelty_audit.csv",
+    "bucket_balance": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_bucket_balance_audit.csv",
+    "batch_count": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_batch_count_audit.csv"
+  },
+  "handoff_preview": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\handoff_preview\\PPO_FINAL_EXPANSION_224_CAE_INP_HANDOFF_PREVIEW.csv",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_224_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_224_CLAIM_BOUNDARY.md",
+  "selected_counts_by_N": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_CAE_INP_JNL": true,
+  "no_teacher_validation": true,
+  "no_training": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_PPO_FINAL_EXPANSION_224_READY_FOR_BATCHED_CAE_INP_HANDOFF"
+}

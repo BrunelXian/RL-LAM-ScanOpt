@@ -1,0 +1,49 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-28T08:25:12+08:00",
+  "namespace": "stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40",
+  "batch_name": "stage3_ppo_v02K2_targeted_N24_N40_batch32_v01",
+  "input_selected_batch": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\v02K2_ppo_targeted_N24_N40_candidate_batch32.csv",
+  "scan_order_json_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageK2_n40_completion\\selected_batch32_K2\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v02K2_targeted_N24_N40_batch32_v01",
+  "base_cae_paths": {
+    "N24": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\24track_full\\sanity_base\\24track_sanity_base.cae",
+    "N40": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\40track_full\\sanity_base\\40track_sanity_base.cae"
+  },
+  "case_manifest": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\manifest\\stageL_v02K2_case_manifest.csv",
+  "preflight_outputs": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\checks\\stageL_preflight_v02K2_CAE_INP_handoff.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\checks\\stageL_preflight_v02K2_CAE_INP_handoff_summary.json",
+    "verdict": "PASS_STAGEL_V02K2_CAE_INP_PREFLIGHT_READY"
+  },
+  "generation_outputs": {
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\manifest\\stageL_v02K2_generation_summary.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\manifest\\stageL_v02K2_CAE_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\manifest\\stageL_v02K2_CAE_generation_manifest.json",
+    "generated_cae_count": 32,
+    "generated_inp_count": 32,
+    "generated_counts_by_n": {
+      "N24": 16,
+      "N40": 16
+    }
+  },
+  "audit_outputs": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\checks\\stageL_generated_CAE_INP_audit.csv",
+    "summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\checks\\stageL_generated_CAE_INP_audit_summary.json",
+    "verdict": "PASS_STAGEL_V02K2_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER"
+  },
+  "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageL_CAE_INP_handoff\\commands\\stageL_v02K2_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEL_CAE_INP_HANDOFF_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\PPO_V02K2_STAGEL_CLAIM_BOUNDARY.md",
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_teacher_validation": true,
+  "no_scan_order_mutation": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_STAGEL_V02K2_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER"
+}

@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN40_NATIVE_N24_N40_FOCUSED_BATCH60_60_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 60,
+  "pass_count": 60,
+  "per_n_pass_counts": {
+    "24": 30,
+    "40": 30
+  },
+  "total_cae_count": 60,
+  "total_inp_count": 60,
+  "solver_output_count": 0,
+  "forbidden_N12_N16_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\stage3_run40_native_N24_N40_focused_batch60_generated_inp_check.csv"
+}

@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN16_BATCH20_TEACHER_METRICS_20_OF_20_READY",
+  "errors": [],
+  "row_count": 20,
+  "per_n_counts": {
+    "12": 5,
+    "16": 5,
+    "24": 5,
+    "40": 5
+  },
+  "solver_completion_verdict": "WARNING_RUN14_BATCH20_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+  "extraction_verdict": "PASS_RUN14_BATCH20_ODB_TEACHER_VALIDATION_20_OF_20",
+  "total_lck_present": 0,
+  "repaired_case_present_and_pass": true
+}

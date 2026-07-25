@@ -1,0 +1,11 @@
+family_keyword,matched_rows,reliable,search_columns
+raster,4,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+odd_even,8,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+edge_in,4,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+center_out,6,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+center_edge,4,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+method_c,12,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+regular_jump,28,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+engineering,4,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+heuristic,0,False,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"
+random,21,True,"strategy_name,candidate_family,candidate_source,generation_method,selection_bucket,batch_name,priority_role"

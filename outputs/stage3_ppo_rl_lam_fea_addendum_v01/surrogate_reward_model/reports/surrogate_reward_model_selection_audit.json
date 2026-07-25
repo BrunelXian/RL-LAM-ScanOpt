@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-06-23T09:51:22.908580+00:00",
+  "candidate_model_metrics": [
+    {
+      "model_type": "ExtraTreesRegressor",
+      "spearman": 0.8539363040455538,
+      "pearson": 0.8646576175602522,
+      "mae": 0.09870291352186453,
+      "rmse": 0.14922688397728437
+    },
+    {
+      "model_type": "RandomForestRegressor",
+      "spearman": 0.8639274681668632,
+      "pearson": 0.8740731273374911,
+      "mae": 0.09888403304051746,
+      "rmse": 0.14426622138841863
+    },
+    {
+      "model_type": "GradientBoostingRegressor",
+      "spearman": 0.8719779354181744,
+      "pearson": 0.8808215361749712,
+      "mae": 0.09821130853506341,
+      "rmse": 0.14032459571006436
+    },
+    {
+      "model_type": "HistGradientBoostingRegressor",
+      "spearman": 0.878558039393863,
+      "pearson": 0.8863107612337054,
+      "mae": 0.09416472314732778,
+      "rmse": 0.13792435602768863
+    },
+    {
+      "model_type": "Ridge",
+      "spearman": 0.7775048117866511,
+      "pearson": 0.8125997553404865,
+      "mae": 0.13930960785654015,
+      "rmse": 0.17329912697253108
+    },
+    {
+      "model_type": "ElasticNet",
+      "spearman": 0.7805825287051896,
+      "pearson": 0.8143417066951893,
+      "mae": 0.1389428824822092,
+      "rmse": 0.1723806497872585
+    }
+  ],
+  "selected_model_type": "HistGradientBoostingRegressor",
+  "selection_rule": [
+    "validation Spearman for reward_lex_u2_peeq_surfacet",
+    "within-N top-k quality",
+    "stability across N",
+    "no catastrophic failure for any N"
+  ]
+}

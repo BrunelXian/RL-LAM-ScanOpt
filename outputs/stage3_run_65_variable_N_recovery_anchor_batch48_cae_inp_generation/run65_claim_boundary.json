@@ -1,0 +1,29 @@
+{
+  "run_id": "run_65_variable_N_recovery_anchor_batch48_cae_inp_generation",
+  "safe_claims": [
+    "Run65 generated CAE/INP/JNL handoff files for the selected Run64 variable-N recovery anchor batch48 only.",
+    "Generated files correspond to N12=12, N16=12, N24=8, and N40=16.",
+    "No N32 cases were generated.",
+    "Generated INPs passed text, mesh, final-cooling, heat-load, and N40 cooling-increment checks.",
+    "A validated custom abqjobpilot command file was created for user-controlled submission.",
+    "No solver job was submitted by Codex."
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical metric improvement",
+    "ODB results exist",
+    "solver completion",
+    "RL policy training",
+    "GNN-RL superiority",
+    "N32 caused improvement",
+    "arbitrary-N generalization",
+    "abqjobpilot was executed"
+  ],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true
+}

@@ -1,0 +1,22 @@
+{
+  "run_id": "run_25_shortlist64_active_learning_cae_inp_generation",
+  "batch_name": "stage3_run24_shortlist64_active_learning_calibration_v01",
+  "selected_batch": "shortlist64",
+  "n": 12,
+  "handoff_strategy_name": "S3R24L64_N12_B07_sentinel_control",
+  "original_run23_candidate_id": "R23_N12_C00720",
+  "original_run23_strategy_name": "N12_R23_N12_C00720_negative_control_low_adjacent",
+  "candidate_family": "negative_control_low_adjacent",
+  "candidate_source": "geometry_first_random_sweep",
+  "generation_method": "low_adjacent_seeded",
+  "selection_bucket": "sentinel_control",
+  "priority_role": "sentinel",
+  "model_prediction_mean": "0.20821525756415382",
+  "model_prediction_std": "0.07012865257965505",
+  "predicted_gap_vs_combined108_best": "-0.5334248363839673",
+  "novelty_distance_to_combined108": "0.4696969696969697",
+  "nearest_existing_teacher_strategy": "N12_A15_graph_pointer_policy_balanced_dispersion_proxy",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

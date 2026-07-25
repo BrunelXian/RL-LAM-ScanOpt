@@ -1,0 +1,57 @@
+{
+  "status": "RUN38_BATCH_OPTIONS_COMPARED_TO_PREVIOUS",
+  "superseded_run31_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_30_run29_hybrid_policy_batch32_handoff_package\\stage3_run30_hybrid_policy_batch32_candidate_orders.csv",
+  "run31_superseded_note_exists": true,
+  "options": {
+    "option_a_native_batch32": {
+      "rows": 32,
+      "counts": {
+        "12": 4,
+        "16": 4,
+        "24": 12,
+        "40": 12
+      },
+      "overlap_combined204_teacher": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0,
+      "mean_surrogate_pred": 0.6600366155180658,
+      "mean_hybrid_score": 0.5496204706021643,
+      "mean_novelty": 0.1666383209182122,
+      "n24_n40_rows": 24
+    },
+    "option_b_N24_N40_batch32": {
+      "rows": 32,
+      "counts": {
+        "24": 16,
+        "40": 16
+      },
+      "overlap_combined204_teacher": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0,
+      "mean_surrogate_pred": 0.70966026109684,
+      "mean_hybrid_score": 0.582797958910863,
+      "mean_novelty": 0.14397644927536232,
+      "n24_n40_rows": 32
+    },
+    "option_c_native_batch40": {
+      "rows": 40,
+      "counts": {
+        "12": 4,
+        "16": 4,
+        "24": 16,
+        "40": 16
+      },
+      "overlap_combined204_teacher": 0,
+      "overlap_run36": 0,
+      "overlap_run27": 0,
+      "overlap_superseded_run31": 0,
+      "mean_surrogate_pred": 0.6844627280727261,
+      "mean_hybrid_score": 0.5651732153637096,
+      "mean_novelty": 0.14699934123847166,
+      "n24_n40_rows": 32
+    }
+  },
+  "headline": "Run38 options are checked for exact overlap against combined204 teachers, Run36, Run27, and the superseded old Run31 batch; selected options remain candidate orders only."
+}

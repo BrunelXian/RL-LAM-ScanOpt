@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-06-28T09:43:15.174960+00:00",
+  "verdict": "WARNING_V03_PPO_TRAINING_PARTIAL_REVIEW",
+  "config_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\v03_ppo_training_config.json",
+  "checkpoints": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N24_seed20260627_maskable_ppo_v03.zip",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N40_seed20260627_maskable_ppo_v03.zip"
+  ],
+  "summaries": [
+    {
+      "n": 24,
+      "seed": 20260627,
+      "checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N24_seed20260627_maskable_ppo_v03.zip",
+      "mode": "interrupted_long_run_intermediate_frozen_from_N24_seed20260627_checkpoint_100000_steps.zip",
+      "target_timesteps": 100000,
+      "timesteps_completed": 100000,
+      "parameter_count": {
+        "total_parameters": 72937,
+        "trainable_parameters": 72937
+      }
+    },
+    {
+      "n": 40,
+      "seed": 20260627,
+      "checkpoint": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\checkpoints\\N40_seed20260627_maskable_ppo_v03.zip",
+      "mode": "fresh_one_seed_training",
+      "target_timesteps": 60000,
+      "timesteps_completed": 61440,
+      "parameter_count": {
+        "total_parameters": 72937,
+        "trainable_parameters": 72937
+      }
+    }
+  ],
+  "mask_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\tables\\v03_action_mask_audit.csv",
+  "monitor_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\logs\\v03_ppo_training_monitor.csv",
+  "parameter_count_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\v03_ppo_parameter_count.json",
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true
+}

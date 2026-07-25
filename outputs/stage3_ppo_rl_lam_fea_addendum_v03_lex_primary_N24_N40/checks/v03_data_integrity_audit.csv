@@ -1,0 +1,16 @@
+check,passed,severity,detail
+combined552_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_run_78_final_evidence_freeze_package\FROZEN_stage3_native_combined552_teacher_dataset.csv
+v01_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metrics.csv
+v01_ranking_exists,True,WARNING,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\stageI_final_ppo_evidence_freeze\frozen_tables\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv
+v02K2_metrics_exists,True,FAIL,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageM_ODB_teacher_metric_extraction\stageM_v02K2_teacher_metrics.csv
+v02K2_ranking_exists,True,WARNING,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\stageN_teacher_metric_ranking\tables\v02K2_teacher_metric_ranking_full.csv
+row_count_444,True,FAIL,444
+only_N24_N40,True,FAIL,"[np.int64(24), np.int64(40)]"
+no_N12_N16_N32,True,FAIL,"[np.int64(24), np.int64(40)]"
+counts_by_source_N_expected,True,FAIL,"{('ppo_v01_teacher_validated', 24): 8, ('ppo_v01_teacher_validated', 40): 8, ('ppo_v02K2_teacher_validated', 24): 16, ('ppo_v02K2_teacher_validated', 40): 16, ('stage3_native_combined552', 24): 190, ('stage3_native_combined552', 40): 206}"
+metric_u2_range_complete,True,FAIL,0
+metric_peeq_max_complete,True,FAIL,0
+metric_surface_t_proxy_complete,True,FAIL,0
+metric_mises_max_complete,True,FAIL,0
+all_orders_legal,True,FAIL,order_json legality
+target_columns_created,True,FAIL,v03 reward targets

@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_RUN60_CUSTOM_N40_FOCUSED_BATCH40_INPUT_READY_FOR_CAE_GENERATION",
+  "input_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\stage3_run59_N40_focused_calibrated_penalty_repair_batch40_candidate_orders.csv",
+  "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_59_run58_N40_focused_calibrated_penalty_repair_batch40_handoff_package\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+  "row_count": 40,
+  "per_n_counts": {
+    "24": 16,
+    "40": 24
+  },
+  "selected_batch": "custom_run58_N40_focused_calibrated_penalty_repair_batch40",
+  "batch_name": "stage3_run59_N40_focused_calibrated_penalty_repair_batch40_v01",
+  "generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_generation_plan.csv",
+  "preflight_cases_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_preflight_cases.csv",
+  "future_cae_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_60_custom_N40_focused_calibrated_penalty_repair_batch40_cae_inp_generation\\run60_future_cae_root_safety_audit.json",
+  "future_cae_root_safety_verdict": "PASS_RUN60_FUTURE_CAE_ROOT_SAFE",
+  "errors": [],
+  "warnings": []
+}

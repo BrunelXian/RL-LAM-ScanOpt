@@ -1,0 +1,58 @@
+{
+  "run_id": "run_45",
+  "run_name": "run_45_constrained_N24_N40_batch32_cae_inp_generation",
+  "timestamp": "2026-06-14T15:32:42",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_paths": {
+    "preflight": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_45_preflight_constrained_N24_N40_batch32_cae_generation_inputs.py",
+    "base_mesh_audit": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_45_audit_base_mesh_nogui.py",
+    "generator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_45_generate_constrained_N24_N40_batch32_from_sanity_base_nogui.py",
+    "inp_checker": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_45_check_constrained_N24_N40_batch32_generated_inps.py",
+    "command_validator": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_45_validate_constrained_N24_N40_batch32_abqjobpilot_commands.py"
+  },
+  "input_files": {
+    "candidate_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_44_run43_constrained_N24_N40_batch32_handoff_package\\stage3_run44_constrained_N24_N40_batch32_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_44_run43_constrained_N24_N40_batch32_handoff_package\\scan_orders"
+  },
+  "output_files": {
+    "preflight_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\run45_preflight_summary.json",
+    "future_root_safety_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\run45_future_cae_root_safety_audit.json",
+    "base_mesh_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\run45_base_mesh_audit_summary.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run45_constrained_N24_N40_batch32_cae_generation_manifest.csv",
+    "generated_inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run45_constrained_N24_N40_batch32_generated_inp_check_summary.json",
+    "command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run45_constrained_N24_N40_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "command_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run45_constrained_N24_N40_batch32_abqjobpilot_command_validation_summary.json",
+    "claim_boundary_md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\run45_claim_boundary.md",
+    "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_45_constrained_N24_N40_batch32_cae_inp_generation\\RUN_45_CONSTRAINED_N24_N40_BATCH32_CAE_INP_GENERATION_REPORT.md"
+  },
+  "selected_batch": "run43_constrained_N24_N40_batch32",
+  "batch_name": "stage3_run44_constrained_N24_N40_batch32_v01",
+  "generated_case_count": 32,
+  "per_N_generated_counts": {
+    "N24": 16,
+    "N40": 16
+  },
+  "includes_N12": false,
+  "includes_N16": false,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "constrained_reward_balanced": true,
+  "generated_CAE_count": 32,
+  "generated_INP_count": 32,
+  "generated_JNL_count": 32,
+  "generation_log_count": 32,
+  "generated_command_file_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\stage3_run45_constrained_N24_N40_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_45_constrained_N24_N40_batch32_cae_inp_generation\\RUN_45_CONSTRAINED_N24_N40_BATCH32_CAE_INP_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_45_constrained_N24_N40_batch32_cae_inp_generation\\run45_claim_boundary.md",
+  "forbidden_case_dirs": [],
+  "solver_output_files": [],
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

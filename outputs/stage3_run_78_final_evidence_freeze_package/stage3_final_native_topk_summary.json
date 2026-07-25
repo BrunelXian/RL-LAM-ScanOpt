@@ -1,0 +1,22 @@
+{
+  "top5_rows": 160,
+  "top10_rows": 320,
+  "objectives": [
+    "U2",
+    "PEEQ",
+    "SurfaceT",
+    "Mises",
+    "u2_primary",
+    "constrained_reward",
+    "strict_penalty_guard",
+    "penalty_repair"
+  ],
+  "n_values": [
+    12,
+    16,
+    24,
+    40
+  ],
+  "top5_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\stage3_final_native_top5_by_N_and_objective.csv",
+  "top10_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\stage3_final_native_top10_by_N_and_objective.csv"
+}

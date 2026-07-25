@@ -1,0 +1,20 @@
+# Run73 Claim Boundary
+
+## Safe claims
+- Run73 updates offline models using native combined520 and combined520_plus_N32.
+- Run73 generates candidate-order batches for future teacher validation.
+- Run73 identifies a final small-N diagnostic, especially N12/N16, as the main follow-up direction.
+- N12/N16 now have 64 native teacher rows each.
+- N24/N40 remain mature teacher-labelled anchor groups with 188 and 204 native rows respectively.
+- Full variable-N evidence is near freeze, but Run73 preserves a bounded claim boundary until the final small-N diagnostic is teacher-validated or explicitly skipped.
+- Run73 does not include teacher validation for new candidates.
+
+## Unsafe claims
+- Do not claim new candidates are teacher-validated.
+- Do not claim N32 itself was newly validated.
+- Do not claim N32 caused improvement.
+- Do not claim GNN-RL superiority unless supported.
+- Do not claim online RL.
+- Do not claim arbitrary-N generalization.
+- Do not claim physical optimum.
+- Do not claim Abaqus was run.

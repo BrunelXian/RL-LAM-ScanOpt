@@ -1,0 +1,6 @@
+n,teacher_rows,native_stage3_rows,legacy_compatible_rows,maturity_note
+12,36,36,0,under-sampled native anchor
+16,36,36,0,under-sampled native anchor
+24,160,160,0,mature N24/N40 focused native teacher-label density
+32,332,0,332,legacy N32 auxiliary data; not native Stage 3
+40,160,160,0,mature N24/N40 focused native teacher-label density

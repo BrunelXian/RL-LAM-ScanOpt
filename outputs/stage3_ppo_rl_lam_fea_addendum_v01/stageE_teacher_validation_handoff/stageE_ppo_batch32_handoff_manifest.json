@@ -1,0 +1,57 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-23T19:25:50.8812775+08:00",
+  "input_selected_batch_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\ppo_policy_only_candidate_batch32.csv",
+  "input_scan_order_json_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\scan_orders",
+  "batch_name": "stage3_ppo_policy_only_batch32_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_policy_only_batch32_v01",
+  "manifest_paths": {
+    "case_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\manifest\\stageE_ppo_batch32_case_manifest.csv",
+    "case_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\manifest\\stageE_ppo_batch32_case_manifest.json",
+    "generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\manifest\\stageE_ppo_batch32_cae_generation_manifest.csv",
+    "generation_manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\manifest\\stageE_ppo_batch32_cae_generation_manifest.json",
+    "generation_summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\manifest\\stageE_ppo_batch32_generation_summary.json"
+  },
+  "generated_CAE_count_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "generated_INP_count_by_N": {
+    "12": 8,
+    "16": 8,
+    "24": 8,
+    "40": 8
+  },
+  "total_CAE_count": 32,
+  "total_INP_count": 32,
+  "check_outputs": {
+    "preflight_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\checks\\stageE_preflight_ppo_batch32.csv",
+    "preflight_summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\checks\\stageE_preflight_ppo_batch32_summary.json",
+    "generated_inp_check_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\checks\\stageE_ppo_batch32_generated_inp_check.csv",
+    "generated_inp_check_summary_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\checks\\stageE_ppo_batch32_generated_inp_check_summary.json"
+  },
+  "preflight_verdict": "PASS_STAGEE_PPO_BATCH32_PREFLIGHT_READY",
+  "generated_inp_cae_audit_verdict": "PASS_STAGEE_PPO_BATCH32_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER",
+  "final_cooling_controls_verified": true,
+  "output_fields_U_PEEQ_S_NT11_verified": true,
+  "command_file_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\commands\\stageE_ppo_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+  "command_file_command_count": 32,
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEE_CAE_INP_HANDOFF_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_STAGEE_CLAIM_BOUNDARY.md",
+  "duplicate_recovery_anchor": {
+    "strategy_name": "PPOV01_N12_B02_surrogate_top",
+    "n": 12,
+    "duplicate_vs_combined552": true,
+    "duplicate_role": "recovery_anchor"
+  },
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_ODB": true,
+  "no_teacher_validation": true,
+  "no_abqjobpilot_execution": true,
+  "no_enqueue_execution": true,
+  "no_commit_or_push": true,
+  "verdict": "PASS_STAGEE_PPO_BATCH32_READY_FOR_USER_CONTROLLED_ABAQUS_TEACHER_VALIDATION"
+}

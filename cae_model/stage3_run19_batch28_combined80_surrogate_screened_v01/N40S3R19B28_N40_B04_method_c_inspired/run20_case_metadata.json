@@ -1,0 +1,19 @@
+{
+  "run_id": "run_20_batch28_cae_inp_generation",
+  "batch_name": "stage3_run19_batch28_combined80_surrogate_screened_v01",
+  "n": 40,
+  "handoff_strategy_name": "S3R19B28_N40_B04_method_c_inspired",
+  "original_run18_candidate_id": "R18_N40_C02031",
+  "candidate_family": "known_best_mutation",
+  "candidate_source": "combined80_known_best_mutation",
+  "selection_bucket": "method_c_or_known_best_inspired",
+  "priority_role": "exploitation",
+  "predicted_reward_combined80_u2_primary": "0.8439639216139437",
+  "predicted_rank_within_n": "5",
+  "predicted_uncertainty_std": "0.047780106689599325",
+  "novelty_distance_to_combined80": "0.11282051282051282",
+  "nearest_existing_teacher_strategy": "N40_A04_method_c_u2_first_engineering",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

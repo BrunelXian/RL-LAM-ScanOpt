@@ -1,0 +1,10 @@
+category,item,value,assessment
+native_teacher_rows,N12,78,small-N evidence substantially strengthened
+native_teacher_rows,N16,78,small-N evidence substantially strengthened
+native_teacher_rows,N24,190,mature frozen anchor
+native_teacher_rows,N40,206,mature frozen anchor
+legacy_auxiliary_rows,N32,332,legacy-compatible auxiliary only; not newly teacher-validated
+new_best_records,Run76_vs_combined520,11,final diagnostic compared against pre-Run76 native bests
+prediction_calibration,u2_primary_spearman,0.13112050398039282,calibration supports reporting but remains non-teacher evidence
+gnn_pointer,status,auxiliary_only,no GNN-RL superiority or online RL claim
+claim_boundary,full_variable_N,bounded_ready,"bounded to tested N values, tested strategy space, and current 2D Abaqus teacher model"

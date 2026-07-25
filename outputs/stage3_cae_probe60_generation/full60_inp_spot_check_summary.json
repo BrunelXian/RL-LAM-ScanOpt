@@ -1,0 +1,73 @@
+{
+  "verdict": "PASS_FULL60_SPOT_CHECKS",
+  "rows": [
+    {
+      "n": 12,
+      "strategy": "N12_A01_raster_left_to_right",
+      "inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N12\\N12_A01_raster_left_to_right\\J2D_N12_N12_A01_raster_left_to_right.inp",
+      "exists": true,
+      "scan_steps_all_present": true,
+      "cool_steps_all_present": true,
+      "loads_all_present": true,
+      "heat_sets_all_present": true,
+      "step_final_cooling_present": true,
+      "step_final_cooling_after_last_cool": true,
+      "final_cooling_duration_1200": true,
+      "final_cooling_duration_line": "0.01, 1200., 3.4e-30, 0.2",
+      "body_heat_flux_text_present": true,
+      "heat_load_in_final_cooling_block": false,
+      "verdict": "PASS"
+    },
+    {
+      "n": 16,
+      "strategy": "N16_A01_raster_left_to_right",
+      "inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N16\\N16_A01_raster_left_to_right\\J2D_N16_N16_A01_raster_left_to_right.inp",
+      "exists": true,
+      "scan_steps_all_present": true,
+      "cool_steps_all_present": true,
+      "loads_all_present": true,
+      "heat_sets_all_present": true,
+      "step_final_cooling_present": true,
+      "step_final_cooling_after_last_cool": true,
+      "final_cooling_duration_1200": true,
+      "final_cooling_duration_line": "0.01, 1200., 3.4e-30, 0.2",
+      "body_heat_flux_text_present": true,
+      "heat_load_in_final_cooling_block": false,
+      "verdict": "PASS"
+    },
+    {
+      "n": 24,
+      "strategy": "N24_A01_raster_left_to_right",
+      "inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N24\\N24_A01_raster_left_to_right\\J2D_N24_N24_A01_raster_left_to_right.inp",
+      "exists": true,
+      "scan_steps_all_present": true,
+      "cool_steps_all_present": true,
+      "loads_all_present": true,
+      "heat_sets_all_present": true,
+      "step_final_cooling_present": true,
+      "step_final_cooling_after_last_cool": true,
+      "final_cooling_duration_1200": true,
+      "final_cooling_duration_line": "0.01, 1200., 3.4e-30, 0.2",
+      "body_heat_flux_text_present": true,
+      "heat_load_in_final_cooling_block": false,
+      "verdict": "PASS"
+    },
+    {
+      "n": 40,
+      "strategy": "N40_A01_raster_left_to_right",
+      "inp": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_true_variable_N_probe60_v01\\N40\\N40_A01_raster_left_to_right\\J2D_N40_N40_A01_raster_left_to_right.inp",
+      "exists": true,
+      "scan_steps_all_present": true,
+      "cool_steps_all_present": true,
+      "loads_all_present": true,
+      "heat_sets_all_present": true,
+      "step_final_cooling_present": true,
+      "step_final_cooling_after_last_cool": true,
+      "final_cooling_duration_1200": true,
+      "final_cooling_duration_line": "0.1, 1200., 3.4e-30, 0.2",
+      "body_heat_flux_text_present": true,
+      "heat_load_in_final_cooling_block": false,
+      "verdict": "PASS"
+    }
+  ]
+}

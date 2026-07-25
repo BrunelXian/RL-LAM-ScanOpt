@@ -1,0 +1,56 @@
+{
+  "run_id": "run_14_batch20_cae_inp_generation",
+  "run_name": "run_14_batch20_cae_inp_generation",
+  "timestamp": "2026-06-12T09:36:38",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "input_files": {
+    "candidate_order_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_13_batch20_surrogate_screened_teacher_handoff\\stage3_run13_batch20_candidate_orders.csv",
+    "scan_order_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_13_batch20_surrogate_screened_teacher_handoff\\scan_orders",
+    "run14_generation_plan": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_generation_plan.csv"
+  },
+  "output_files": {
+    "input_validation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_input_validation_summary.json",
+    "base_mesh_audit_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_base_mesh_audit.csv",
+    "base_mesh_audit_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_base_mesh_audit_summary.json",
+    "generation_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_generation_summary.json",
+    "inp_check_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_generated_inp_check.csv",
+    "inp_check_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_generated_inp_check_summary.json",
+    "cae_generation_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\stage3_run14_batch20_cae_generation_manifest.csv",
+    "abqjobpilot_command_file": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\stage3_run14_batch20_abqjobpilot_commands_READY_TO_RUN.txt",
+    "abqjobpilot_command_validation": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\run14_abqjobpilot_command_validation.json"
+  },
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_14_generate_batch20_cae_inp_from_sanity_base_nogui.py",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01",
+  "generated_cae_count": 20,
+  "generated_inp_count": 20,
+  "per_n_counts": {
+    "12": {
+      "case_dirs": 5,
+      "cae": 5,
+      "inp": 5
+    },
+    "16": {
+      "case_dirs": 5,
+      "cae": 5,
+      "inp": 5
+    },
+    "24": {
+      "case_dirs": 5,
+      "cae": 5,
+      "inp": 5
+    },
+    "40": {
+      "case_dirs": 5,
+      "cae": 5,
+      "inp": 5
+    }
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_14_batch20_cae_inp_generation\\RUN_14_BATCH20_CAE_INP_GENERATION_REPORT.md",
+  "command_file_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_14_batch20_cae_inp_generation\\stage3_run14_batch20_abqjobpilot_commands_READY_TO_RUN.txt",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_teacher_validation": true,
+  "no_rl_policy_training": true,
+  "no_commit_or_push": true
+}

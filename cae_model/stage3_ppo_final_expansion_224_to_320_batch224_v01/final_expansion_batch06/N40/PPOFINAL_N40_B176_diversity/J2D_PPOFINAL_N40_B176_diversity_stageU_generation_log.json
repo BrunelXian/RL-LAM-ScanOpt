@@ -1,0 +1,484 @@
+{
+  "status": "GENERATED",
+  "run_id": "stageU_final_expansion_CAE_INP_handoff",
+  "batch_name": "stage3_ppo_final_expansion_224_to_320_batch224_v01",
+  "final_expansion_batch": "final_expansion_batch06",
+  "case": {
+    "n": 40,
+    "strategy_name": "PPOFINAL_N40_B176_diversity",
+    "job_name": "J2D_PPOFINAL_N40_B176_diversity",
+    "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_final_expansion_224_to_320_batch224_v01\\final_expansion_batch06\\N40\\PPOFINAL_N40_B176_diversity\\J2D_PPOFINAL_N40_B176_diversity.cae",
+    "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_final_expansion_224_to_320_batch224_v01\\final_expansion_batch06\\N40\\PPOFINAL_N40_B176_diversity\\J2D_PPOFINAL_N40_B176_diversity.inp"
+  },
+  "sequence_records": [
+    {
+      "seq": 0,
+      "track": 11,
+      "scan_step": "step_scan_00",
+      "cool_step": "step_cool_00",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 1,
+      "track": 1,
+      "scan_step": "step_scan_01",
+      "cool_step": "step_cool_01",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 2,
+      "track": 3,
+      "scan_step": "step_scan_02",
+      "cool_step": "step_cool_02",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 3,
+      "track": 15,
+      "scan_step": "step_scan_03",
+      "cool_step": "step_cool_03",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 4,
+      "track": 23,
+      "scan_step": "step_scan_04",
+      "cool_step": "step_cool_04",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 5,
+      "track": 21,
+      "scan_step": "step_scan_05",
+      "cool_step": "step_cool_05",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 6,
+      "track": 19,
+      "scan_step": "step_scan_06",
+      "cool_step": "step_cool_06",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 7,
+      "track": 25,
+      "scan_step": "step_scan_07",
+      "cool_step": "step_cool_07",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 8,
+      "track": 27,
+      "scan_step": "step_scan_08",
+      "cool_step": "step_cool_08",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 9,
+      "track": 33,
+      "scan_step": "step_scan_09",
+      "cool_step": "step_cool_09",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 10,
+      "track": 31,
+      "scan_step": "step_scan_10",
+      "cool_step": "step_cool_10",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 11,
+      "track": 37,
+      "scan_step": "step_scan_11",
+      "cool_step": "step_cool_11",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 12,
+      "track": 35,
+      "scan_step": "step_scan_12",
+      "cool_step": "step_cool_12",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 13,
+      "track": 39,
+      "scan_step": "step_scan_13",
+      "cool_step": "step_cool_13",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 14,
+      "track": 13,
+      "scan_step": "step_scan_14",
+      "cool_step": "step_cool_14",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 15,
+      "track": 29,
+      "scan_step": "step_scan_15",
+      "cool_step": "step_cool_15",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 16,
+      "track": 5,
+      "scan_step": "step_scan_16",
+      "cool_step": "step_cool_16",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 17,
+      "track": 7,
+      "scan_step": "step_scan_17",
+      "cool_step": "step_cool_17",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 18,
+      "track": 0,
+      "scan_step": "step_scan_18",
+      "cool_step": "step_cool_18",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 19,
+      "track": 17,
+      "scan_step": "step_scan_19",
+      "cool_step": "step_cool_19",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 20,
+      "track": 20,
+      "scan_step": "step_scan_20",
+      "cool_step": "step_cool_20",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 21,
+      "track": 9,
+      "scan_step": "step_scan_21",
+      "cool_step": "step_cool_21",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 22,
+      "track": 36,
+      "scan_step": "step_scan_22",
+      "cool_step": "step_cool_22",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 23,
+      "track": 32,
+      "scan_step": "step_scan_23",
+      "cool_step": "step_cool_23",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 24,
+      "track": 16,
+      "scan_step": "step_scan_24",
+      "cool_step": "step_cool_24",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 25,
+      "track": 24,
+      "scan_step": "step_scan_25",
+      "cool_step": "step_cool_25",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 26,
+      "track": 22,
+      "scan_step": "step_scan_26",
+      "cool_step": "step_cool_26",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 27,
+      "track": 30,
+      "scan_step": "step_scan_27",
+      "cool_step": "step_cool_27",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 28,
+      "track": 34,
+      "scan_step": "step_scan_28",
+      "cool_step": "step_cool_28",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 29,
+      "track": 38,
+      "scan_step": "step_scan_29",
+      "cool_step": "step_cool_29",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 30,
+      "track": 28,
+      "scan_step": "step_scan_30",
+      "cool_step": "step_cool_30",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 31,
+      "track": 26,
+      "scan_step": "step_scan_31",
+      "cool_step": "step_cool_31",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 32,
+      "track": 2,
+      "scan_step": "step_scan_32",
+      "cool_step": "step_cool_32",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 33,
+      "track": 4,
+      "scan_step": "step_scan_33",
+      "cool_step": "step_cool_33",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 34,
+      "track": 6,
+      "scan_step": "step_scan_34",
+      "cool_step": "step_cool_34",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 35,
+      "track": 8,
+      "scan_step": "step_scan_35",
+      "cool_step": "step_cool_35",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 36,
+      "track": 14,
+      "scan_step": "step_scan_36",
+      "cool_step": "step_cool_36",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 37,
+      "track": 18,
+      "scan_step": "step_scan_37",
+      "cool_step": "step_cool_37",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 38,
+      "track": 12,
+      "scan_step": "step_scan_38",
+      "cool_step": "step_cool_38",
+      "cool_initialInc": 0.001
+    },
+    {
+      "seq": 39,
+      "track": 10,
+      "scan_step": "step_scan_39",
+      "cool_step": "step_cool_39",
+      "cool_initialInc": 0.001
+    }
+  ],
+  "deactivation_records": [
+    {
+      "load": "load_body_hflux_00",
+      "deactivated_in": "step_cool_00"
+    },
+    {
+      "load": "load_body_hflux_01",
+      "deactivated_in": "step_cool_01"
+    },
+    {
+      "load": "load_body_hflux_02",
+      "deactivated_in": "step_cool_02"
+    },
+    {
+      "load": "load_body_hflux_03",
+      "deactivated_in": "step_cool_03"
+    },
+    {
+      "load": "load_body_hflux_04",
+      "deactivated_in": "step_cool_04"
+    },
+    {
+      "load": "load_body_hflux_05",
+      "deactivated_in": "step_cool_05"
+    },
+    {
+      "load": "load_body_hflux_06",
+      "deactivated_in": "step_cool_06"
+    },
+    {
+      "load": "load_body_hflux_07",
+      "deactivated_in": "step_cool_07"
+    },
+    {
+      "load": "load_body_hflux_08",
+      "deactivated_in": "step_cool_08"
+    },
+    {
+      "load": "load_body_hflux_09",
+      "deactivated_in": "step_cool_09"
+    },
+    {
+      "load": "load_body_hflux_10",
+      "deactivated_in": "step_cool_10"
+    },
+    {
+      "load": "load_body_hflux_11",
+      "deactivated_in": "step_cool_11"
+    },
+    {
+      "load": "load_body_hflux_12",
+      "deactivated_in": "step_cool_12"
+    },
+    {
+      "load": "load_body_hflux_13",
+      "deactivated_in": "step_cool_13"
+    },
+    {
+      "load": "load_body_hflux_14",
+      "deactivated_in": "step_cool_14"
+    },
+    {
+      "load": "load_body_hflux_15",
+      "deactivated_in": "step_cool_15"
+    },
+    {
+      "load": "load_body_hflux_16",
+      "deactivated_in": "step_cool_16"
+    },
+    {
+      "load": "load_body_hflux_17",
+      "deactivated_in": "step_cool_17"
+    },
+    {
+      "load": "load_body_hflux_18",
+      "deactivated_in": "step_cool_18"
+    },
+    {
+      "load": "load_body_hflux_19",
+      "deactivated_in": "step_cool_19"
+    },
+    {
+      "load": "load_body_hflux_20",
+      "deactivated_in": "step_cool_20"
+    },
+    {
+      "load": "load_body_hflux_21",
+      "deactivated_in": "step_cool_21"
+    },
+    {
+      "load": "load_body_hflux_22",
+      "deactivated_in": "step_cool_22"
+    },
+    {
+      "load": "load_body_hflux_23",
+      "deactivated_in": "step_cool_23"
+    },
+    {
+      "load": "load_body_hflux_24",
+      "deactivated_in": "step_cool_24"
+    },
+    {
+      "load": "load_body_hflux_25",
+      "deactivated_in": "step_cool_25"
+    },
+    {
+      "load": "load_body_hflux_26",
+      "deactivated_in": "step_cool_26"
+    },
+    {
+      "load": "load_body_hflux_27",
+      "deactivated_in": "step_cool_27"
+    },
+    {
+      "load": "load_body_hflux_28",
+      "deactivated_in": "step_cool_28"
+    },
+    {
+      "load": "load_body_hflux_29",
+      "deactivated_in": "step_cool_29"
+    },
+    {
+      "load": "load_body_hflux_30",
+      "deactivated_in": "step_cool_30"
+    },
+    {
+      "load": "load_body_hflux_31",
+      "deactivated_in": "step_cool_31"
+    },
+    {
+      "load": "load_body_hflux_32",
+      "deactivated_in": "step_cool_32"
+    },
+    {
+      "load": "load_body_hflux_33",
+      "deactivated_in": "step_cool_33"
+    },
+    {
+      "load": "load_body_hflux_34",
+      "deactivated_in": "step_cool_34"
+    },
+    {
+      "load": "load_body_hflux_35",
+      "deactivated_in": "step_cool_35"
+    },
+    {
+      "load": "load_body_hflux_36",
+      "deactivated_in": "step_cool_36"
+    },
+    {
+      "load": "load_body_hflux_37",
+      "deactivated_in": "step_cool_37"
+    },
+    {
+      "load": "load_body_hflux_38",
+      "deactivated_in": "step_cool_38"
+    },
+    {
+      "load": "load_body_hflux_39",
+      "deactivated_in": "step_cool_39"
+    }
+  ],
+  "final_cooling": {
+    "final_cooling_step_name": "step_final_cooling",
+    "final_cooling_previous": "step_cool_39",
+    "final_cooling_timePeriod": 1200.0,
+    "final_cooling_initialInc": 0.01,
+    "final_cooling_maxInc": 60.0,
+    "final_cooling_heat_loads_inactive": true
+  },
+  "output_field_request": {
+    "requested_variables": [
+      "U",
+      "PEEQ",
+      "S",
+      "NT11"
+    ],
+    "updated_requests": [],
+    "created_request": false,
+    "warnings": [
+      "FieldOutputRequest creator unavailable; relying on base output requests"
+    ]
+  },
+  "solver_submitted": false,
+  "datacheck_run": false,
+  "abqjobpilot_run": false,
+  "enqueue_run": false,
+  "odb_opened": false,
+  "teacher_validation_run": false
+}

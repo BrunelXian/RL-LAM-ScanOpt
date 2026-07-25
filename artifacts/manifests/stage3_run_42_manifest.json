@@ -1,0 +1,106 @@
+{
+  "run_id": "run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking",
+  "run_name": "native N24/N40 focused batch60 teacher metrics ingestion and combined264 ranking",
+  "timestamp": "2026-06-14T06:33:16.567368+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_42_ingest_native_N24_N40_focused_batch60_and_build_combined264.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_odb_teacher_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_39_run38_native_N24_N40_focused_batch60_handoff_package\\stage3_run39_native_N24_N40_focused_batch60_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_38_combined204_and_combined204_plus_N32_model_update_candidate_generation\\run38_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_37_N32_informed_native_batch32_teacher_metrics_ingestion_and_combined204_ranking\\combined204_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_32a_stage2_n32_legacy_teacher_label_ingestion_for_stage3\\n32_legacy_teacher_dataset_dedup_training_332.csv"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run42_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_native_N24_N40_focused_batch60_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_native_N24_N40_focused_batch60_teacher_dataset_enriched.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_native_N24_N40_focused_batch60_ranked_within_batch.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_native_N24_N40_focused_batch60_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_plus_N32_teacher_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_plus_N32_per_N_leaderboard.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\combined264_plus_N32_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_vs_combined204_best_comparison.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_vs_combined204_best_comparison.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_vs_prior_key_records.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_vs_prior_key_records_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_N24_N40_focused_batch60_effectiveness_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_N24_N40_focused_batch60_effectiveness_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_prediction_audit_for_run38_batch60.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_prediction_audit_for_run38_batch60_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run41_u2_gain_vs_penalty_analysis.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run42_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run42_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\RUN_42_NATIVE_N24_N40_FOCUSED_BATCH60_TEACHER_METRICS_INGESTION_AND_COMBINED264_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_42_manifest.json"
+  ],
+  "run41_teacher_rows": 60,
+  "combined264_rows": 264,
+  "combined264_plus_N32_rows": 596,
+  "per_N_combined264_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 96,
+    "40": 96
+  },
+  "per_N_combined264_plus_N32_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 96,
+    "32": 332,
+    "40": 96
+  },
+  "new_best_counts": {
+    "run41_vs_combined204_metric_level_records": 1
+  },
+  "prediction_audit_summary": {
+    "prediction_column_used_for_reward": "hybrid_score",
+    "prediction_column_used_for_u2": "surrogate_prediction",
+    "overall_reward_spearman": 0.9123898969129455,
+    "overall_u2_spearman": 0.8563604503964999,
+    "top1_hit": "0/2",
+    "mean_top5_overlap": 4.0,
+    "per_n": {
+      "N24": {
+        "count": 30,
+        "reward_spearman": 0.9269106743306323,
+        "top5_overlap": 4,
+        "predicted_top1": "S3R39N2440B60_N24_B01_n24_u2_near",
+        "realized_top1": "S3R39N2440B60_N24_B07_n24_u2_near",
+        "u2_spearman": 0.8663922625644461
+      },
+      "N40": {
+        "count": 30,
+        "reward_spearman": 0.8803114571746384,
+        "top5_overlap": 4,
+        "predicted_top1": "S3R39N2440B60_N40_B01_n40_u2_near",
+        "realized_top1": "S3R39N2440B60_N40_B04_n40_u2_near",
+        "u2_spearman": 0.8364899430074236
+      }
+    },
+    "by_selection_bucket": {},
+    "gnn_vs_surrogate_disagreement_vs_abs_error_spearman": -0.030652512653764764,
+    "uncertainty_score_vs_abs_error_spearman": 0.012644508846294622,
+    "novelty_distance_vs_abs_error_spearman": -0.24806524786298695
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\RUN_42_NATIVE_N24_N40_FOCUSED_BATCH60_TEACHER_METRICS_INGESTION_AND_COMBINED264_RANKING_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_42_native_N24_N40_focused_batch60_teacher_metrics_ingestion_and_combined264_ranking\\run42_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation_performed_by_run42": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true
+}

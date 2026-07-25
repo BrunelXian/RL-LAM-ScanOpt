@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-15T11:34:37.324745+00:00",
+  "verdict": "PASS_RUN52_STRICTER_CONSTRAINED_N24_N40_BATCH32_TEACHER_METRICS_32_OF_32_READY",
+  "errors": [],
+  "run51_rows": 32,
+  "run51_per_N_counts": {
+    "24": 16,
+    "40": 16
+  },
+  "combined296_rows": 296,
+  "combined296_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 112,
+    "40": 112
+  },
+  "combined296_plus_N32_rows": 628,
+  "combined296_plus_N32_per_N_counts": {
+    "12": 36,
+    "16": 36,
+    "24": 112,
+    "32": 332,
+    "40": 112
+  },
+  "run51_has_N12": false,
+  "run51_has_N16": false,
+  "run51_has_N32": false,
+  "run51_rows_matched_to_run49_handoff": 32,
+  "n32_semantic_warning_column": "metric_semantic_warning"
+}

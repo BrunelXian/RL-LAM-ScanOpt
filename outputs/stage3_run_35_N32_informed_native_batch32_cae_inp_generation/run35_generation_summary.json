@@ -1,0 +1,212 @@
+{
+  "verdict": "PASS_RUN35_N32_INFORMED_NATIVE_BATCH32_GENERATION_COMPLETE",
+  "generated_count": 32,
+  "per_n_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 12,
+    "40": 12
+  },
+  "generated": [
+    {
+      "n": 12,
+      "handoff_strategy_name": "S3R34N32INF_N12_B01_graph_pointer",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B01_graph_pointer\\J2D_S3R34N32INF_N12_B01_graph_pointer.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B01_graph_pointer\\J2D_S3R34N32INF_N12_B01_graph_pointer.inp"
+    },
+    {
+      "n": 12,
+      "handoff_strategy_name": "S3R34N32INF_N12_B02_surrogate_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B02_surrogate_top\\J2D_S3R34N32INF_N12_B02_surrogate_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B02_surrogate_top\\J2D_S3R34N32INF_N12_B02_surrogate_top.inp"
+    },
+    {
+      "n": 12,
+      "handoff_strategy_name": "S3R34N32INF_N12_B03_hybrid_agree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B03_hybrid_agree\\J2D_S3R34N32INF_N12_B03_hybrid_agree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B03_hybrid_agree\\J2D_S3R34N32INF_N12_B03_hybrid_agree.inp"
+    },
+    {
+      "n": 12,
+      "handoff_strategy_name": "S3R34N32INF_N12_B04_hybrid_disagree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B04_hybrid_disagree\\J2D_S3R34N32INF_N12_B04_hybrid_disagree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N12S3R34N32INF_N12_B04_hybrid_disagree\\J2D_S3R34N32INF_N12_B04_hybrid_disagree.inp"
+    },
+    {
+      "n": 16,
+      "handoff_strategy_name": "S3R34N32INF_N16_B01_graph_pointer",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B01_graph_pointer\\J2D_S3R34N32INF_N16_B01_graph_pointer.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B01_graph_pointer\\J2D_S3R34N32INF_N16_B01_graph_pointer.inp"
+    },
+    {
+      "n": 16,
+      "handoff_strategy_name": "S3R34N32INF_N16_B02_surrogate_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B02_surrogate_top\\J2D_S3R34N32INF_N16_B02_surrogate_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B02_surrogate_top\\J2D_S3R34N32INF_N16_B02_surrogate_top.inp"
+    },
+    {
+      "n": 16,
+      "handoff_strategy_name": "S3R34N32INF_N16_B03_hybrid_agree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B03_hybrid_agree\\J2D_S3R34N32INF_N16_B03_hybrid_agree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B03_hybrid_agree\\J2D_S3R34N32INF_N16_B03_hybrid_agree.inp"
+    },
+    {
+      "n": 16,
+      "handoff_strategy_name": "S3R34N32INF_N16_B04_hybrid_disagree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B04_hybrid_disagree\\J2D_S3R34N32INF_N16_B04_hybrid_disagree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N16S3R34N32INF_N16_B04_hybrid_disagree\\J2D_S3R34N32INF_N16_B04_hybrid_disagree.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B01_graph_pointer",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B01_graph_pointer\\J2D_S3R34N32INF_N24_B01_graph_pointer.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B01_graph_pointer\\J2D_S3R34N32INF_N24_B01_graph_pointer.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B02_surrogate_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B02_surrogate_top\\J2D_S3R34N32INF_N24_B02_surrogate_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B02_surrogate_top\\J2D_S3R34N32INF_N24_B02_surrogate_top.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B03_hybrid_agree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B03_hybrid_agree\\J2D_S3R34N32INF_N24_B03_hybrid_agree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B03_hybrid_agree\\J2D_S3R34N32INF_N24_B03_hybrid_agree.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B04_hybrid_disagree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B04_hybrid_disagree\\J2D_S3R34N32INF_N24_B04_hybrid_disagree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B04_hybrid_disagree\\J2D_S3R34N32INF_N24_B04_hybrid_disagree.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B05_uncertainty",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B05_uncertainty\\J2D_S3R34N32INF_N24_B05_uncertainty.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B05_uncertainty\\J2D_S3R34N32INF_N24_B05_uncertainty.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B06_diversity",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B06_diversity\\J2D_S3R34N32INF_N24_B06_diversity.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B06_diversity\\J2D_S3R34N32INF_N24_B06_diversity.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B07_sentinel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B07_sentinel\\J2D_S3R34N32INF_N24_B07_sentinel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B07_sentinel\\J2D_S3R34N32INF_N24_B07_sentinel.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B08_n24_calibration",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B08_n24_calibration\\J2D_S3R34N32INF_N24_B08_n24_calibration.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B08_n24_calibration\\J2D_S3R34N32INF_N24_B08_n24_calibration.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B09_n24_calibration",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B09_n24_calibration\\J2D_S3R34N32INF_N24_B09_n24_calibration.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B09_n24_calibration\\J2D_S3R34N32INF_N24_B09_n24_calibration.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B10_n24_calibration",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B10_n24_calibration\\J2D_S3R34N32INF_N24_B10_n24_calibration.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B10_n24_calibration\\J2D_S3R34N32INF_N24_B10_n24_calibration.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B11_n24_calibration",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B11_n24_calibration\\J2D_S3R34N32INF_N24_B11_n24_calibration.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B11_n24_calibration\\J2D_S3R34N32INF_N24_B11_n24_calibration.inp"
+    },
+    {
+      "n": 24,
+      "handoff_strategy_name": "S3R34N32INF_N24_B12_n24_calibration",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B12_n24_calibration\\J2D_S3R34N32INF_N24_B12_n24_calibration.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N24S3R34N32INF_N24_B12_n24_calibration\\J2D_S3R34N32INF_N24_B12_n24_calibration.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B01_graph_pointer",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B01_graph_pointer\\J2D_S3R34N32INF_N40_B01_graph_pointer.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B01_graph_pointer\\J2D_S3R34N32INF_N40_B01_graph_pointer.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B02_surrogate_top",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B02_surrogate_top\\J2D_S3R34N32INF_N40_B02_surrogate_top.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B02_surrogate_top\\J2D_S3R34N32INF_N40_B02_surrogate_top.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B03_hybrid_agree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B03_hybrid_agree\\J2D_S3R34N32INF_N40_B03_hybrid_agree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B03_hybrid_agree\\J2D_S3R34N32INF_N40_B03_hybrid_agree.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B04_hybrid_disagree",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B04_hybrid_disagree\\J2D_S3R34N32INF_N40_B04_hybrid_disagree.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B04_hybrid_disagree\\J2D_S3R34N32INF_N40_B04_hybrid_disagree.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B05_uncertainty",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B05_uncertainty\\J2D_S3R34N32INF_N40_B05_uncertainty.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B05_uncertainty\\J2D_S3R34N32INF_N40_B05_uncertainty.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B06_diversity",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B06_diversity\\J2D_S3R34N32INF_N40_B06_diversity.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B06_diversity\\J2D_S3R34N32INF_N40_B06_diversity.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B07_sentinel",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B07_sentinel\\J2D_S3R34N32INF_N40_B07_sentinel.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B07_sentinel\\J2D_S3R34N32INF_N40_B07_sentinel.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B08_n40_best_near",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B08_n40_best_near\\J2D_S3R34N32INF_N40_B08_n40_best_near.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B08_n40_best_near\\J2D_S3R34N32INF_N40_B08_n40_best_near.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B09_n40_best_near",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B09_n40_best_near\\J2D_S3R34N32INF_N40_B09_n40_best_near.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B09_n40_best_near\\J2D_S3R34N32INF_N40_B09_n40_best_near.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B10_n40_best_near",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B10_n40_best_near\\J2D_S3R34N32INF_N40_B10_n40_best_near.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B10_n40_best_near\\J2D_S3R34N32INF_N40_B10_n40_best_near.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B11_n40_best_near",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B11_n40_best_near\\J2D_S3R34N32INF_N40_B11_n40_best_near.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B11_n40_best_near\\J2D_S3R34N32INF_N40_B11_n40_best_near.inp"
+    },
+    {
+      "n": 40,
+      "handoff_strategy_name": "S3R34N32INF_N40_B12_n40_best_near",
+      "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B12_n40_best_near\\J2D_S3R34N32INF_N40_B12_n40_best_near.cae",
+      "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run34_N32_informed_native_batch32_v01\\N40S3R34N32INF_N40_B12_n40_best_near\\J2D_S3R34N32INF_N40_B12_n40_best_near.inp"
+    }
+  ],
+  "manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_cae_generation_manifest.csv",
+  "manifest_json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_35_N32_informed_native_batch32_cae_inp_generation\\stage3_run35_N32_informed_native_batch32_cae_generation_manifest.json",
+  "no_solver_run": true,
+  "no_datacheck_run": true,
+  "no_abqjobpilot_run": true,
+  "no_enqueue_run": true,
+  "no_odb_opened": true,
+  "no_teacher_validation": true
+}

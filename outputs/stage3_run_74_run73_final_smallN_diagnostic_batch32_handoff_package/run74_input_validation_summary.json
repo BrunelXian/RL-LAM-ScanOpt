@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-06-17T17:13:59.901015+00:00",
+  "verdict": "PASS_RUN74_FINAL_SMALLN_DIAGNOSTIC_BATCH32_INPUT_READY",
+  "errors": [],
+  "selected_batch": "run73_final_smallN_diagnostic_batch32",
+  "row_count": 32,
+  "per_N_counts": {
+    "12": 14,
+    "16": 14,
+    "24": 2,
+    "40": 2
+  },
+  "includes_N12": true,
+  "includes_N16": true,
+  "includes_N24": true,
+  "includes_N32": false,
+  "includes_N40": true,
+  "exact_overlap_counts": {
+    "combined520": 0,
+    "run71": 0,
+    "run66": 0,
+    "run61": 0,
+    "run56": 0,
+    "run51": 0,
+    "run46": 0,
+    "run41": 0,
+    "run36": 0,
+    "run27": 0,
+    "superseded_run31": 0
+  },
+  "input_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_final_smallN_diagnostic_batch32_candidate_orders.csv"
+}

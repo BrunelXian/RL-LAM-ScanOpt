@@ -1,0 +1,15 @@
+{
+  "status": "EXTRA_TREES_F01_BASELINE_FIT",
+  "features": [
+    "n",
+    "first_track_norm",
+    "last_track_norm",
+    "normalized_mean_jump",
+    "normalized_max_jump",
+    "adjacent_jump_count",
+    "long_jump_count",
+    "parity_switch_rate",
+    "monotonicity_fraction",
+    "direction_reversal_count"
+  ]
+}

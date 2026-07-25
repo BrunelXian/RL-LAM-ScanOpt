@@ -1,0 +1,2 @@
+selected_model_type,primary_target,spearman,pearson,mae,rmse,train_rows,validation_rows
+HistGradientBoostingRegressor,reward_lex_u2_peeq_surfacet,0.878558039393863,0.8863107612337054,0.09416472314732778,0.13792435602768863,414,138

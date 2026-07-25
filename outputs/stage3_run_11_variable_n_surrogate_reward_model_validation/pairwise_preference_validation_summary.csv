@@ -1,0 +1,10 @@
+status,pair_count,j,i,tie,protocol,split_name,model_name,accuracy,roc_auc
+PAIRWISE_CLASS_BALANCE,420,218,201,1,,,,,
+OK,105,,,,pairwise_leave_N_out,leave_N_out_test_N12,LogisticRegression,0.7333333333333333,0.8261973875181422
+OK,105,,,,pairwise_leave_N_out,leave_N_out_test_N12,RandomForestClassifier,0.6571428571428571,0.8131349782293178
+OK,104,,,,pairwise_leave_N_out,leave_N_out_test_N16,LogisticRegression,0.8269230769230769,0.9070548712206047
+OK,104,,,,pairwise_leave_N_out,leave_N_out_test_N16,RandomForestClassifier,0.8269230769230769,0.9130272489734975
+OK,105,,,,pairwise_leave_N_out,leave_N_out_test_N24,LogisticRegression,0.8,0.8801169590643275
+OK,105,,,,pairwise_leave_N_out,leave_N_out_test_N24,RandomForestClassifier,0.7619047619047619,0.8717105263157895
+OK,105,,,,pairwise_leave_N_out,leave_N_out_test_N40,LogisticRegression,0.8285714285714286,0.8777213352685052
+OK,105,,,,pairwise_leave_N_out,leave_N_out_test_N40,RandomForestClassifier,0.7333333333333333,0.8472423802612482

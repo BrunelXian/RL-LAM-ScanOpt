@@ -1,0 +1,9 @@
+claim,status,evidence_or_boundary
+320 PPO-generated scan orders were teacher-metric extracted.,SAFE,Supported by final PPO pool table.
+PPO generated legal and executable scan-order permutations.,SAFE,Legality was audited before handoff and metrics extracted after solver completion.
+PPO showed bounded small-N competitiveness.,SAFE_BOUNDED,Best N12/N16 lex ranks were 6 and 2.
+PPO showed SurfaceT-related signals but not U2/lex dominance.,SAFE_BOUNDED,SurfaceT top10 enrichment was observed; primary bootstrap was weak.
+PPO did not beat combined552 best records.,SAFE,New-record audit has zero rows.
+PPO did not outperform the mature surrogate-assisted optimiser.,SAFE,No new records and weak random-reference enrichment.
+"Final physical claims are based on Abaqus teacher metrics, not surrogate scores.",SAFE,Stage X freezes teacher-metric evidence.
+Industrial-efficiency descriptors remain proxies only.,SAFE_BOUNDARY,No physical industrial-efficiency validation.

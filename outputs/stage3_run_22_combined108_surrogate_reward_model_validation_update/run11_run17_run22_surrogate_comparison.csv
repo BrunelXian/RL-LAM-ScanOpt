@@ -1,0 +1,5 @@
+metric,run11_value,run17_value,run22_value,delta_run22_minus_run17,delta_run22_minus_run11,interpretation
+leave_N_out_macro_spearman,0.7678571428571428,0.8349624060150375,0.865143154229337,0.030180748214299502,0.09728601137219417,improved_vs_run17
+leave_N_out_macro_top5_overlap,3.75,3.75,2.5,-1.25,-1.25,degraded_or_similar_vs_run17
+best_top5_overlap_config,nan,4.25,2.5,-1.75,nan,diagnostic_top5_overlap
+pairwise_best_auc,0.913,0.9504,0.9438654129375779,-0.006534587062422159,0.03086541293757783,pairwise_diagnostic

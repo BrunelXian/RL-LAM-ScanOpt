@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN21_BATCH28_TEACHER_METRICS_28_OF_28_READY",
+  "errors": [],
+  "row_count": 28,
+  "per_n_counts": {
+    "12": 4,
+    "16": 4,
+    "24": 10,
+    "40": 10
+  },
+  "solver_completion_verdict": "WARNING_RUN20_BATCH28_SOLVER_COMPLETION_WITH_NONFATAL_WARNINGS",
+  "extraction_verdict": "PASS_RUN20_BATCH28_ODB_TEACHER_VALIDATION_28_OF_28",
+  "total_lck_present": 0,
+  "special_case_present_and_pass": true
+}

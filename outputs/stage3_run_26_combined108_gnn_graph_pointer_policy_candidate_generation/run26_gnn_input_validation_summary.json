@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS_RUN26_GNN_INPUTS_READY_108_ROWS",
+  "row_count": 108,
+  "per_n_counts": {
+    "12": 24,
+    "16": 24,
+    "24": 30,
+    "40": 30
+  },
+  "run23_candidate_pool_exists": true,
+  "run24_shortlist64_exists": true,
+  "errors": []
+}

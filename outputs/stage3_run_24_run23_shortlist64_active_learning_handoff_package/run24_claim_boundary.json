@@ -1,0 +1,18 @@
+{
+  "verdict": "RUN24_SHORTLIST64_HANDOFF_ONLY_NO_TEACHER_VALIDATION",
+  "safe_claims": [
+    "shortlist64 handoff package created for human review and future CAE generation",
+    "N24/N40-heavy active-learning coverage included",
+    "scan orders, metadata, future CAE manifest template, and abqjobpilot command template written",
+    "no CAE/INP files generated"
+  ],
+  "unsafe_claims": [
+    "teacher validation",
+    "physical superiority",
+    "surrogate predictions as ground truth",
+    "trained variable-N RL success",
+    "arbitrary-N generalization",
+    "abqjobpilot commands ready to execute",
+    "CAE/INP files exist"
+  ]
+}

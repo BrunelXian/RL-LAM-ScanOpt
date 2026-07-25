@@ -1,0 +1,38 @@
+# Stage 3 Final Metric/Reward Record Timeline
+
+This table identifies the source run/category for every final native combined552 best record.
+
+| n | objective | final_best_strategy | value | source_run | dataset_source | supports_mature_N24_N40_evidence | supports_N12_N16_recovery_evidence | supports_full_bounded_variable_N_evidence | record_category |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 12 | U2 | S3R69SNR_N12_B16_n12_uncertainty | 2.20100214392005e-05 | Run71 | run71_smallN_recovery_focused_batch40 | False | True | True | small-N recovery |
+| 12 | PEEQ | N12_A13_graph_pointer_policy_anti_odd_even_novelty | 0.1403219699859619 | Run08 | probe60_run08 | False | True | True | baseline / early strategy |
+| 12 | SurfaceT | N12_A09_center_edge_alternating | 580752832.0 | Run08 | probe60_run08 | False | True | True | baseline / early strategy |
+| 12 | Mises | N12_A06_edge_in_alternating | 579937984.0 | Run08 | probe60_run08 | False | True | True | baseline / early strategy |
+| 12 | u2_primary | S3R74FSD_N12_B02_n12_penalty | 0.8977272727272728 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 12 | constrained_reward | S3R74FSD_N12_B02_n12_penalty | 0.859090909090909 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 12 | strict_penalty_guard | S3R74FSD_N12_B02_n12_penalty | 0.8538961038961039 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 12 | penalty_repair | S3R74FSD_N12_B01_n12_penalty | 0.8275974025974026 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | U2 | S3R74FSD_N16_B13_n16_run71_local | 2.926077831943985e-05 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | PEEQ | S3R74FSD_N16_B01_n16_penalty | 0.1457871496677398 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | SurfaceT | S3R74FSD_N16_B03_n16_reward_bal | 580887040.0 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | Mises | N16_A07_regular_jump_coprime | 579946752.0 | Run08 | probe60_run08 | False | True | True | baseline / early strategy |
+| 16 | u2_primary | S3R74FSD_N16_B01_n16_penalty | 0.9233766233766234 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | constrained_reward | S3R74FSD_N16_B01_n16_penalty | 0.8805194805194806 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | strict_penalty_guard | S3R74FSD_N16_B01_n16_penalty | 0.8818181818181817 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 16 | penalty_repair | S3R74FSD_N16_B01_n16_penalty | 0.837012987012987 | Run76 | run76_final_smallN_diagnostic_batch32 | False | True | True | final small-N diagnostic |
+| 24 | U2 | S3R49SCN_N24_B09_median_guard | 2.9523077955673216e-05 | Run51 | run51_stricter_constrained_N24_N40_batch32 | True | False | True | constrained batch |
+| 24 | PEEQ | S3R59N40PR40_N24_B09_n24_diversity | 0.1492166519165039 | Run61 | run61_custom_N40_focused_batch40 | True | False | True | N40-focused batch |
+| 24 | SurfaceT | S3R24L64_N24_B06_model_disagreement | 580875968.0 | Run27 | shortlist64_run27 | True | False | True | baseline / early strategy |
+| 24 | Mises | N24_A06_edge_in_alternating | 579942784.0 | Run08 | probe60_run08 | True | False | True | baseline / early strategy |
+| 24 | u2_primary | S3R44CNS_N24_B16_uncertainty | 0.8718253968253968 | Run46 | run46_constrained_N24_N40_batch32 | True | False | True | constrained batch |
+| 24 | constrained_reward | S3R44CNS_N24_B16_uncertainty | 0.8558201058201058 | Run46 | run46_constrained_N24_N40_batch32 | True | False | True | constrained batch |
+| 24 | strict_penalty_guard | S3R44CNS_N24_B16_uncertainty | 0.8505291005291007 | Run46 | run46_constrained_N24_N40_batch32 | True | False | True | constrained batch |
+| 24 | penalty_repair | S3R69SNR_N24_B04_n24_uncertainty | 0.8466931216931217 | Run71 | run71_smallN_recovery_focused_batch40 | True | False | True | small-N recovery |
+| 40 | U2 | S3R64VNR_N40_B15_n40_u2ret_anchor | 4.5779268475598656e-05 | Run66 | run66_variable_N_recovery_anchor_batch48 | True | False | True | variable-N recovery anchor |
+| 40 | PEEQ | S3R39N2440B60_N40_B10_surrogate_top | 0.1440253555774688 | Run41 | run41_native_N24_N40_focused_batch60 | True | False | True | focused N24/N40 batch |
+| 40 | SurfaceT | S3R19B28_N40_B06_uncertainty_calibration | 581119040.0 | Run20 | batch28_run20 | True | False | True | baseline / early strategy |
+| 40 | Mises | N40_A07_regular_jump_coprime | 579924032.0 | Run08 | probe60_run08 | True | False | True | baseline / early strategy |
+| 40 | u2_primary | S3R64VNR_N40_B03_n40_penalty_anchor | 0.9395121951219512 | Run66 | run66_variable_N_recovery_anchor_batch48 | True | False | True | variable-N recovery anchor |
+| 40 | constrained_reward | S3R64VNR_N40_B03_n40_penalty_anchor | 0.9097560975609756 | Run66 | run66_variable_N_recovery_anchor_batch48 | True | False | True | variable-N recovery anchor |
+| 40 | strict_penalty_guard | S3R64VNR_N40_B03_n40_penalty_anchor | 0.8985365853658538 | Run66 | run66_variable_N_recovery_anchor_batch48 | True | False | True | variable-N recovery anchor |
+| 40 | penalty_repair | S3R64VNR_N40_B03_n40_penalty_anchor | 0.8760975609756098 | Run66 | run66_variable_N_recovery_anchor_batch48 | True | False | True | variable-N recovery anchor |

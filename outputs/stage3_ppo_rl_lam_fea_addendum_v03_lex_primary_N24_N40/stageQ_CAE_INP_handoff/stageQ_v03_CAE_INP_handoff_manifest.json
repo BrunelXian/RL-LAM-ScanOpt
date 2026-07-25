@@ -1,0 +1,51 @@
+﻿{
+    "branch":  "stage3-variable-n-graph-pointer-init-v01",
+    "timestamp":  "2026-06-28T20:56:29+08:00",
+    "namespace":  "stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40",
+    "batch_name":  "stage3_ppo_v03_lex_primary_N24_N40_batch32_v01",
+    "input_selected_batch":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\v03_ppo_lex_primary_N24_N40_candidate_batch32.csv",
+    "scan_order_json_dir":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\candidate_generation_v03\\selected_batch32\\scan_orders",
+    "case_root":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_v03_lex_primary_N24_N40_batch32_v01",
+    "base_cae_paths":  {
+                           "N24":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\24track_full\\sanity_base\\24track_sanity_base.cae",
+                           "N40":  "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\40track_full\\sanity_base\\40track_sanity_base.cae"
+                       },
+    "case_manifest":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_case_manifest.csv",
+    "preflight_outputs":  {
+                              "csv":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\checks\\stageQ_preflight_v03_CAE_INP_handoff.csv",
+                              "summary_json":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\checks\\stageQ_preflight_v03_CAE_INP_handoff_summary.json",
+                              "verdict":  "PASS_STAGEQ_V03_CAE_INP_PREFLIGHT_READY"
+                          },
+    "generation_outputs":  {
+                               "summary_json":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_generation_summary.json",
+                               "generation_manifest_csv":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_CAE_generation_manifest.csv",
+                               "generation_manifest_json":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\manifest\\stageQ_v03_CAE_generation_manifest.json",
+                               "generated_cae_count":  32,
+                               "generated_inp_count":  32,
+                               "generated_counts_by_n":  {
+                                                             "N24":  16,
+                                                             "N40":  16
+                                                         }
+                           },
+    "audit_outputs":  {
+                          "csv":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\checks\\stageQ_generated_CAE_INP_audit.csv",
+                          "summary_json":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\checks\\stageQ_generated_CAE_INP_audit_summary.json",
+                          "verdict":  "PASS_STAGEQ_V03_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER"
+                      },
+    "command_file":  "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageQ_CAE_INP_handoff\\commands\\stageQ_v03_batch32_abqjobpilot_commands_READY_TO_RUN.txt",
+    "report_path":  "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_STAGEQ_CAE_INP_HANDOFF_REPORT.md",
+    "claim_boundary_path":  "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\PPO_V03_STAGEQ_CLAIM_BOUNDARY.md",
+    "no_solver":  true,
+    "no_datacheck":  true,
+    "no_enqueue":  true,
+    "no_ODB_opening":  true,
+    "no_ODB_extraction":  true,
+    "no_teacher_validation":  true,
+    "no_scan_order_mutation":  true,
+    "no_training":  true,
+    "no_candidate_generation":  true,
+    "partial_training_caveat":  true,
+    "partial_training_caveat_text":  "PPO v03 training was partial: N24 seed 20260627 reached 100000 timesteps from an interrupted checkpoint; N40 seed 20260627 reached 61440 timesteps. Training verdict: WARNING_V03_PPO_TRAINING_PARTIAL_REVIEW.",
+    "no_commit_or_push":  true,
+    "final_verdict":  "PASS_STAGEQ_V03_CAE_INP_READY_FOR_USER_CONTROLLED_SOLVER"
+}

@@ -1,0 +1,65 @@
+{
+  "headline": "Run68 defines N12/N16 recovery as the primary candidate-generation objective, keeps N24/N40 as low-count frozen anchors, and preserves N32 metric-semantic warnings for diagnostic plus_N32 regimes.",
+  "targets": [
+    {
+      "target": "target_reward_combined480_u2_primary",
+      "definition": "0.65 U2 + 0.20 PEEQ + 0.10 SurfaceT + 0.05 Mises",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_constrained_u2_reward_balanced",
+      "definition": "0.50 U2 + 0.25 PEEQ + 0.15 SurfaceT + 0.10 Mises",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_strict_penalty_guard",
+      "definition": "0.40 U2 + 0.30 PEEQ + 0.20 SurfaceT + 0.10 Mises",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_penalty_repair",
+      "definition": "0.30 U2 + 0.30 PEEQ + 0.25 SurfaceT + 0.15 Mises",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_N12_recovery",
+      "definition": "N12 recovery target: 0.55 U2 + 0.20 PEEQ + 0.15 SurfaceT + 0.10 Mises",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_N16_recovery",
+      "definition": "N16 recovery target: 0.55 U2 + 0.20 PEEQ + 0.15 SurfaceT + 0.10 Mises",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_smallN_recovery",
+      "definition": "N12/N16-preferential small-N recovery target using within-N ranks; N24/N40 are not allowed to dominate",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_variable_N_balanced",
+      "definition": "Variable-N balanced target with N12/N16 recovery emphasis and N24/N40 frozen-anchor treatment",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_N24_anchor",
+      "definition": "N24 frozen-anchor diagnostic target; preserve high-performing region without broad N24 exploitation",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_N40_anchor",
+      "definition": "N40 frozen-anchor diagnostic target; preserve U2/reward region without broad N40 exploitation",
+      "dataset": "native_combined480"
+    },
+    {
+      "target": "target_reward_combined480_plus_N32_mapped_u2_primary",
+      "definition": "mapped U2-primary target with N32 semantic warnings preserved",
+      "dataset": "combined480_plus_N32"
+    },
+    {
+      "target": "target_reward_combined480_plus_N32_strict_u2_surfaceT",
+      "definition": "strict U2 + SurfaceT target for safer N32 metric semantics",
+      "dataset": "combined480_plus_N32"
+    }
+  ]
+}

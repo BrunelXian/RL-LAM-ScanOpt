@@ -1,0 +1,22 @@
+{
+  "run_id": "run_25_shortlist64_active_learning_cae_inp_generation",
+  "batch_name": "stage3_run24_shortlist64_active_learning_calibration_v01",
+  "selected_batch": "shortlist64",
+  "n": 40,
+  "handoff_strategy_name": "S3R24L64_N40_B17_diversity_coverage",
+  "original_run23_candidate_id": "R23_N40_C02669",
+  "original_run23_strategy_name": "N40_R23_N40_C02669_geometry_signal_parity_switch",
+  "candidate_family": "geometry_signal_parity_switch",
+  "candidate_source": "geometry_first_random_sweep",
+  "generation_method": "parity_balanced_seeded",
+  "selection_bucket": "diversity_coverage",
+  "priority_role": "calibration",
+  "model_prediction_mean": "0.23288933415621474",
+  "model_prediction_std": "0.11689361593143972",
+  "predicted_gap_vs_combined108_best": "-0.4425729531688313",
+  "novelty_distance_to_combined108": "0.4282051282051282",
+  "nearest_existing_teacher_strategy": "S3R19B28_N40_B03_geometry_signal_top",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

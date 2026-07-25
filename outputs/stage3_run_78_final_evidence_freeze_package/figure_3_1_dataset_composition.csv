@@ -1,0 +1,6 @@
+dataset_scope,N,teacher_label_count,claim_role
+native_combined552,N12,78,native_within_N_claim_scope
+native_combined552,N16,78,native_within_N_claim_scope
+native_combined552,N24,190,native_within_N_claim_scope
+native_combined552,N40,206,native_within_N_claim_scope
+combined552_plus_N32,N32,332,auxiliary_legacy_compatible_context

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-10T15:17:43.911110+00:00",
+  "run_id": "run_05_true_variable_n_base_model_inventory",
+  "target_root": "E:\\Projects\\RL-LAM-ScanOpt",
+  "python_executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "verdict": "PASS_TRUE_VARIABLE_N_BASE_MODEL_INVENTORY_READY",
+  "n_values": [
+    12,
+    16,
+    24,
+    40
+  ],
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_05_true_variable_n_base_model_inventory\\base_model_inventory.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_05_true_variable_n_base_model_inventory\\base_model_jnl_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_05_true_variable_n_base_model_inventory\\base_model_readiness_summary.json"
+  ],
+  "forbidden_actions_confirmed": {
+    "no_abaqus_jobs": true,
+    "no_datacheck": true,
+    "no_odb_opened": true,
+    "no_cae_opened": true,
+    "no_cae_modified": true,
+    "no_inp_jnl_generated": true,
+    "no_abqjobpilot_execution": true,
+    "no_teacher_validation": true
+  }
+}

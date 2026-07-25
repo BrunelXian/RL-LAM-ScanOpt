@@ -1,0 +1,221 @@
+{
+  "status": "PATCHED",
+  "case_dir": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top",
+  "job_name": "J2D_S3B20_N40_B02_diversity_top",
+  "cae_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.cae",
+  "inp_path": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run13_batch20_surrogate_screened_v01\\N40S3B20_N40_B02_diversity_top\\J2D_S3B20_N40_B02_diversity_top.inp",
+  "target_initialInc": 0.01,
+  "patched_cool_step_count": 40,
+  "records": [
+    {
+      "step": "step_cool_00",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_01",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_02",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_03",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_04",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_05",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_06",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_07",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_08",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_09",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_10",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_11",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_12",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_13",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_14",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_15",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_16",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_17",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_18",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_19",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_20",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_21",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_22",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_23",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_24",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_25",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_26",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_27",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_28",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_29",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_30",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_31",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_32",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_33",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_34",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_35",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_36",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_37",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_38",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    },
+    {
+      "step": "step_cool_39",
+      "initialInc_before": 0.1,
+      "initialInc_after": 0.01
+    }
+  ],
+  "final_cooling_unchanged_observed_values": {
+    "timePeriod": 1200.0,
+    "initialInc": 0.01,
+    "maxInc": 60.0
+  },
+  "solver_submitted": false,
+  "datacheck_run": false,
+  "abqjobpilot_run": false,
+  "enqueue_run": false,
+  "odb_opened": false
+}

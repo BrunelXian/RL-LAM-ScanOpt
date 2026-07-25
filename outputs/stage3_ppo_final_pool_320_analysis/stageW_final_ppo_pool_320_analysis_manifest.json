@@ -1,0 +1,71 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-07-01T08:27:58",
+  "input_paths": {
+    "combined552": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\FROZEN_stage3_native_combined552_teacher_dataset.csv",
+    "v01_metrics": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metrics.csv",
+    "v01_ranking": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageI_final_ppo_evidence_freeze\\frozen_tables\\FROZEN_PPO_batch32_teacher_metric_ranking_full.csv",
+    "v02K2_metrics": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageM_ODB_teacher_metric_extraction\\stageM_v02K2_teacher_metrics.csv",
+    "v02K2_ranking": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\\stageN_teacher_metric_ranking\\tables\\v02K2_teacher_metric_ranking_full.csv",
+    "v03_metrics": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageR_ODB_teacher_metric_extraction\\stageR_v03_teacher_metrics.csv",
+    "v03_ranking": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\stageS_teacher_metric_ranking\\tables\\v03_teacher_metric_ranking_full.csv",
+    "final_expansion_metrics": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageV_ODB_teacher_metric_extraction\\stageV_ppo_final_expansion_224_ODB_metrics.csv",
+    "final_expansion_selected": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\PPO_FINAL_EXPANSION_224_SELECTED_MASTER.csv",
+    "stageV_report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_STAGEV_ODB_TEACHER_METRIC_EXTRACTION_REPORT.md"
+  },
+  "output_datasets": {
+    "ppo_final_pool_320": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metrics.csv",
+    "combined552_plus_ppo": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\combined552_plus_ppo_final_pool_320_analysis_dataset.csv",
+    "final_expansion_joined_metadata": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_expansion_224_metrics_with_candidate_metadata.csv"
+  },
+  "ranking_tables": {
+    "full_ranking": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_teacher_metric_ranking_full.csv",
+    "new_records": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_new_record_candidates.csv",
+    "topk_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_topk_competitive_candidates.csv",
+    "best_candidates": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_best_candidates_by_N.csv"
+  },
+  "summary_tables": {
+    "version_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_version_summary.csv",
+    "topk_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_topk_summary_by_N.csv",
+    "topk_by_version": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_topk_summary_by_version.csv",
+    "final_expansion_vs_prior": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\final_expansion_vs_prior_ppo_by_N.csv",
+    "bootstrap_by_N": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_vs_bootstrap_random_reference_by_N.csv",
+    "bootstrap_global": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_vs_bootstrap_random_reference_global.csv",
+    "baseline_comparison": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_vs_identified_baseline_families.csv",
+    "baseline_inventory": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_identified_baseline_family_inventory.csv",
+    "industrial_proxy_summary": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_industrial_efficiency_proxy_summary.csv",
+    "industrial_proxy_vs_teacher": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_efficiency_proxy_vs_teacher_metrics.csv",
+    "claim_decision": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\tables\\ppo_final_pool_320_claim_decision_table.csv"
+  },
+  "plot_directory": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots",
+  "plot_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo320_vs_combined552_u2_range.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo320_vs_combined552_peeq_max.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo320_vs_combined552_surface_t_proxy.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo320_vs_combined552_mises_max.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo320_lex_rank_percentile_by_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo_topk_count_by_version_and_N.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\final_expansion_vs_prior_ppo_best_lex_rank.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo320_vs_bootstrap_random_reference_topk_count.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_pool_320_analysis\\plots\\ppo_pool_size_progression_32_64_96_320.png"
+  ],
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_RANKING_AND_COMPARISON_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_pool_320_analysis\\PPO_FINAL_POOL_320_STAGEW_CLAIM_BOUNDARY.md",
+  "final_PPO_pool_count": 320,
+  "by_N_counts": {
+    "12": 40,
+    "16": 40,
+    "24": 120,
+    "40": 120
+  },
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_ODB_extraction": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_STAGEW_PPO_FINAL_POOL_320_BOUNDED_NO_NEW_RECORDS"
+}

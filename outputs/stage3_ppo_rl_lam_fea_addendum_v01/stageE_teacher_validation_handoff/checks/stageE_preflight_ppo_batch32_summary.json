@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS_STAGEE_PPO_BATCH32_PREFLIGHT_READY",
+  "blockers": [],
+  "warnings": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageE_teacher_validation_handoff\\checks\\stageE_preflight_ppo_batch32.csv",
+  "selected_batch": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_candidate_generation\\selected_batch32\\ppo_policy_only_candidate_batch32.csv",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_policy_only_batch32_v01",
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_ODB": true,
+  "no_abqjobpilot_execution": true,
+  "no_enqueue_execution": true
+}

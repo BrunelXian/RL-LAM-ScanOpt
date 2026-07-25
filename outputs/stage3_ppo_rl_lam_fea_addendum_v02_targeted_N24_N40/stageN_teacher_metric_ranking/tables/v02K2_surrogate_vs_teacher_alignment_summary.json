@@ -1,0 +1,26 @@
+{
+  "overall_predicted_spearman": 0.2650085511200842,
+  "overall_predicted_pearson": 0.20426510253105226,
+  "overall_conservative_spearman": 0.2655335729747552,
+  "overall_conservative_pearson": 0.11914607872268174,
+  "false_positive_count": 9,
+  "true_positive_count": 0,
+  "by_N": {
+    "24": {
+      "predicted_spearman": -0.16807188974083,
+      "predicted_pearson": -0.21516394873840863,
+      "conservative_spearman": 0.1127239796203913,
+      "conservative_pearson": -0.19130977515446407,
+      "false_positive_count": 9,
+      "true_positive_count": 0
+    },
+    "40": {
+      "predicted_spearman": 0.3630300947210887,
+      "predicted_pearson": 0.34147677334321946,
+      "conservative_spearman": 0.32979494520436925,
+      "conservative_pearson": 0.3769785877640921,
+      "false_positive_count": 0,
+      "true_positive_count": 0
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-06-23T09:36:15.892530+00:00",
+  "namespace": "stage3_ppo_rl_lam_fea_addendum_v01",
+  "files_created": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\scripts\\audit_ppo_dependencies_and_data.py",
+    "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\src\\ppo_scan_order_env.py",
+    "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\tests\\test_ppo_scan_order_env.py",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_SCAN_ORDER_ENVIRONMENT_SPEC.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_TRAINING_PLAN.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_CLAIM_BOUNDARY.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_MANUSCRIPT_INTEGRATION_MEMO.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_ADDENDUM_FOUNDATION_PREFLIGHT_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\preflight\\ppo_dependency_and_data_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\preflight\\ppo_dependency_and_data_audit.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\ppo_addendum_foundation_manifest.json"
+  ],
+  "scripts_created": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\scripts\\audit_ppo_dependencies_and_data.py"
+  ],
+  "docs_created": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_SCAN_ORDER_ENVIRONMENT_SPEC.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_TRAINING_PLAN.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_CLAIM_BOUNDARY.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_MANUSCRIPT_INTEGRATION_MEMO.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_rl_lam_fea_addendum_v01\\PPO_ADDENDUM_FOUNDATION_PREFLIGHT_REPORT.md"
+  ],
+  "tests_created": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\stage3_ppo_rl_lam_fea_addendum_v01\\tests\\test_ppo_scan_order_env.py"
+  ],
+  "dependency_audit_verdict": "PASS_PPO_ADDENDUM_DEPENDENCIES_AND_DATA_READY",
+  "maskable_ppo_available": true,
+  "native_combined552_available": true,
+  "native_combined552_rows": 552,
+  "native_row_counts_by_n": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206
+  },
+  "plus_n32_available": true,
+  "plus_n32_rows": 884,
+  "plus_n32_row_counts_by_n": {
+    "12": 78,
+    "16": 78,
+    "24": 190,
+    "40": 206,
+    "32": 332
+  },
+  "pytest_verdict": "PYTEST_NOT_AVAILABLE_IN_TORCH_GPU_ENVIRONMENT",
+  "environment_smoke_test_verdict": "PASS_ENVIRONMENT_DIRECT_SMOKE",
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_PPO_training": true,
+  "no_candidate_generation": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_PPO_ADDENDUM_FOUNDATION_READY_FOR_TRAINING_PLAN"
+}

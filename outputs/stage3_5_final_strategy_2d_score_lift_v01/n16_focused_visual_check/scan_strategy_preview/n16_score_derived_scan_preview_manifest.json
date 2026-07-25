@@ -1,0 +1,47 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "input_table": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_78_final_evidence_freeze_package\\stage3_final_native_best_strategy_table.csv",
+  "n": 16,
+  "objective": "best_u2_primary",
+  "final_strategy_name": "S3R74FSD_N16_B01_n16_penalty",
+  "source_order_column": "best_u2_primary_order_json",
+  "final_order": [
+    14,
+    6,
+    10,
+    12,
+    8,
+    4,
+    2,
+    0,
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15
+  ],
+  "coordinate_count": 256,
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\scan_strategy_preview\\N16_best_u2_primary_score_sorted_coordinate_order.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\scan_strategy_preview\\N16_best_u2_primary_score_sorted_coordinate_order.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\scan_strategy_preview\\N16_best_u2_primary_score_sorted_coordinate_order_array.txt",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\scan_strategy_preview\\reports\\N16_BEST_U2_PRIMARY_SCORE_DERIVED_SCAN_PREVIEW.md"
+  ],
+  "plots": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\scan_strategy_preview\\plots\\N16_best_u2_primary_score_sorted_step_map.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_5_final_strategy_2d_score_lift_v01\\n16_focused_visual_check\\scan_strategy_preview\\plots\\N16_best_u2_primary_score_sorted_polyline_preview.png"
+  ],
+  "timestamp": "2026-06-21T12:31:04.161193+00:00",
+  "scan_order_generated_by_user_request": true,
+  "score_sorted_cells": true,
+  "teacher_validated": false,
+  "no_Abaqus": true,
+  "no_ODB": true,
+  "no_solver": true,
+  "no_CAE_INP_JNL": true,
+  "no_training": true,
+  "no_commit_or_push": true
+}

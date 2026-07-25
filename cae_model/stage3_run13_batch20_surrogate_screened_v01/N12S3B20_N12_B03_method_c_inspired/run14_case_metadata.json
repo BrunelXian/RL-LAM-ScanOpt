@@ -1,0 +1,14 @@
+{
+  "run_id": "run_14_batch20_cae_inp_generation",
+  "batch_name": "stage3_run13_batch20_surrogate_screened_v01",
+  "n": 12,
+  "handoff_strategy_name": "S3B20_N12_B03_method_c_inspired",
+  "original_run12_candidate_id": "RUN12_N12_C00134",
+  "candidate_family": "method_c_inspired",
+  "selection_bucket": "method_c_inspired",
+  "predicted_reward_mean_all": "0.5524798939236236",
+  "predicted_rank_within_n": "343",
+  "teacher_validated": false,
+  "teacher_validation_status": "NOT_RUN",
+  "solver_status": "NOT_SUBMITTED"
+}

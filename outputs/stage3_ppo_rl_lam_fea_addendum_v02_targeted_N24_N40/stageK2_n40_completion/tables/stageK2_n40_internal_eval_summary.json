@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-06-27T23:42:38.558512+00:00",
+  "checkpoint_count": 1,
+  "rollout_count": 501,
+  "all_legal": true,
+  "unique_orders": 501,
+  "mean_reward": 0.584360873921502,
+  "max_reward": 0.6336436014802017,
+  "by_seed": [
+    {
+      "ppo_seed": 20260624,
+      "count": 501,
+      "mean_reward": 0.584360873921502,
+      "max_reward": 0.6336436014802017,
+      "unique_orders": 501,
+      "legal_all": true
+    }
+  ],
+  "simple_baselines": [
+    {
+      "comparison_group": "simple_baseline",
+      "name": "raster",
+      "reward": 0.10619646453885553,
+      "best_model_reward": 0.0909170676838809,
+      "mean_pred_reward": 0.14886153403935565,
+      "std_pred_reward": 0.08533013900100023,
+      "conservative_reward": 0.10619646453885553
+    },
+    {
+      "comparison_group": "simple_baseline",
+      "name": "odd_even",
+      "reward": 0.44887934911672245,
+      "best_model_reward": 0.4331815532081375,
+      "mean_pred_reward": 0.46332145813586356,
+      "std_pred_reward": 0.028884218038282203,
+      "conservative_reward": 0.44887934911672245
+    },
+    {
+      "comparison_group": "simple_baseline",
+      "name": "center_out",
+      "reward": 0.030697104121631347,
+      "best_model_reward": 0.025896801643192566,
+      "mean_pred_reward": 0.03265655021022691,
+      "std_pred_reward": 0.003918892177191128,
+      "conservative_reward": 0.030697104121631347
+    }
+  ],
+  "reference_surrogate_space": {
+    "combined_plus_v01_N40_count": 214,
+    "reference_mean_reward": 0.5466443294154246,
+    "reference_median_reward": 0.5397416504608414,
+    "reference_max_reward": 1.0552230125538924
+  },
+  "original_stageK_N40_selected_mean_conservative_reward": 0.39308702498049547,
+  "original_stageK_N40_selected_max_conservative_reward": 0.4191116585071167,
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

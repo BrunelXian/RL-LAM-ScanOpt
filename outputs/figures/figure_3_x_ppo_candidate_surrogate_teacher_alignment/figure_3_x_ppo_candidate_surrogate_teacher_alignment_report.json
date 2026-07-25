@@ -1,0 +1,23 @@
+{
+  "input_data_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_surrogate_vs_teacher_alignment.csv",
+  "input_summary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v01\\stageH_teacher_metric_ranking\\tables\\ppo_surrogate_vs_teacher_alignment_summary.json",
+  "candidate_count_used": 32,
+  "n_wise_counts": {
+    "N12": 8,
+    "N16": 8,
+    "N24": 8,
+    "N40": 8
+  },
+  "surrogate_reward_column": "predicted_surrogate_reward_lex",
+  "teacher_performance_column": "teacher_lex_reward_rank_normalized",
+  "spearman_correlation": 0.27898451221561293,
+  "pearson_correlation": 0.20916044507779735,
+  "generated_outputs": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_x_ppo_candidate_surrogate_teacher_alignment\\figure_3_x_ppo_candidate_surrogate_teacher_alignment.png",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_x_ppo_candidate_surrogate_teacher_alignment\\figure_3_x_ppo_candidate_surrogate_teacher_alignment.pdf",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_x_ppo_candidate_surrogate_teacher_alignment\\figure_3_x_ppo_candidate_surrogate_teacher_alignment.svg",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_x_ppo_candidate_surrogate_teacher_alignment\\figure_3_x_ppo_candidate_surrogate_teacher_alignment_plot_data.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\figures\\figure_3_x_ppo_candidate_surrogate_teacher_alignment\\figure_3_x_ppo_candidate_surrogate_teacher_alignment_report.md"
+  ],
+  "interpretation": "The weak but positive surrogate-to-teacher alignment indicates that the surrogate provides a useful prioritisation signal for PPO-generated candidates, but final physical evaluation must remain grounded in independent Abaqus teacher validation."
+}

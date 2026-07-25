@@ -1,0 +1,47 @@
+{
+  "verdict": "PASS_STAGEU_FINAL_EXPANSION_CAE_INP_PREFLIGHT_READY",
+  "selected_master": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\PPO_FINAL_EXPANSION_224_SELECTED_MASTER.csv",
+  "batch_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\batches",
+  "scan_json_dir": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\scan_orders",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_ppo_final_expansion_224_to_320_batch224_v01",
+  "row_count": 224,
+  "counts_by_n": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "expected_batch_allocation": {
+    "final_expansion_batch01": {
+      "12": 16,
+      "16": 16
+    },
+    "final_expansion_batch02": {
+      "12": 16,
+      "16": 16
+    },
+    "final_expansion_batch03": {
+      "24": 32
+    },
+    "final_expansion_batch04": {
+      "24": 32
+    },
+    "final_expansion_batch05": {
+      "24": 16,
+      "40": 16
+    },
+    "final_expansion_batch06": {
+      "40": 32
+    },
+    "final_expansion_batch07": {
+      "40": 32
+    }
+  },
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageU_CAE_INP_handoff\\checks\\stageU_preflight_CAE_INP.csv",
+  "blockers": [],
+  "warnings": [],
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_ODB": true
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-06-29T08:37:23.507797",
+  "selected_master": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\selected_candidates\\PPO_FINAL_EXPANSION_224_SELECTED_MASTER.csv",
+  "rollout_pool": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\rollout_pools\\ppo_final_expansion_rollout_pool.csv",
+  "duplicate_group_count": 9,
+  "replacement_count": 21,
+  "counts_by_n": {
+    "12": 32,
+    "16": 32,
+    "24": 80,
+    "40": 80
+  },
+  "batch_counts": {
+    "final_expansion_batch01": 32,
+    "final_expansion_batch02": 32,
+    "final_expansion_batch03": 32,
+    "final_expansion_batch04": 32,
+    "final_expansion_batch05": 32,
+    "final_expansion_batch06": 32,
+    "final_expansion_batch07": 32
+  },
+  "duplicate_groups_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageT_repair_duplicate_orders\\stageT_repair_duplicate_groups.csv",
+  "replacements_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\stageT_repair_duplicate_orders\\stageT_repair_replacements.csv",
+  "legality_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_legality_audit.csv",
+  "novelty_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_novelty_audit.csv",
+  "duplicate_audit": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_final_expansion_224_to_320\\audits\\final_expansion_duplicate_audit.csv",
+  "report": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_ppo_final_expansion_224_to_320\\PPO_FINAL_EXPANSION_224_STAGE_T_REPAIR_REPORT.md",
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_ODB": true,
+  "no_training": true,
+  "no_candidate_generation": true,
+  "final_verdict": "PASS_STAGE_T_REPAIR_DUPLICATES_REMOVED"
+}

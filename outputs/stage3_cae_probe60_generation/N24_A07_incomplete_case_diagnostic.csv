@@ -1,0 +1,29 @@
+key,value
+diagnostic_status,INCOMPLETE_STALE_LCK
+strict_abaqus_process_count,1
+case_process_count,0
+no_active_case_process,True
+lck_present,True
+lck_appears_stale,True
+sta_success_marker_present,False
+sta_termination_marker_present,False
+error_abort_marker_present,False
+last_visible_sta_step_increment_line,  27    34   1     0     2     2  47.0       0.200      0.001111
+odb_count,1
+odb_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.odb | 102760448 | 2026-06-11T17:31:10
+sim_count,1
+sim_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.sim | 343 | 2026-06-11T17:24:38
+sta_count,1
+sta_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.sta | 64157 | 2026-06-11T17:31:12
+dat_count,1
+dat_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.dat | 171498 | 2026-06-11T17:31:12
+msg_count,1
+msg_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.msg | 4824615 | 2026-06-11T17:31:13
+lck_count,1
+lck_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.lck | 99 | 2026-06-11T17:24:39
+inp_count,1
+inp_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.inp | 84577 | 2026-06-11T14:21:59
+cae_count,1
+cae_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.cae | 339968 | 2026-06-11T14:21:59
+jnl_count,1
+jnl_file,E:\Projects\RL-LAM-ScanOpt\cae_model\stage3_true_variable_N_probe60_v01\N24\N24_A07_regular_jump_coprime\J2D_N24_N24_A07_regular_jump_coprime.jnl | 35684 | 2026-06-11T14:21:59

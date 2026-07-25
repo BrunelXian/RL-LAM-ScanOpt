@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-14T06:17:50.322407+00:00",
+  "run_id": "run_41_native_N24_N40_focused_batch60_odb_teacher_extraction",
+  "batch_name": "stage3_run39_native_N24_N40_focused_batch60_v01",
+  "case_root": "E:\\Projects\\RL-LAM-ScanOpt\\cae_model\\stage3_run39_native_N24_N40_focused_batch60_v01",
+  "python_executable": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "verdict": "PASS_RUN41_NATIVE_N24_N40_FOCUSED_BATCH60_ODB_TEACHER_EXTRACTION_60_OF_60",
+  "inputs": {
+    "run40_manifest_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_40_native_N24_N40_focused_batch60_cae_inp_generation\\stage3_run40_native_N24_N40_focused_batch60_cae_generation_manifest.csv",
+    "run40_report_md": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_40_native_N24_N40_focused_batch60_cae_inp_generation\\RUN_40_NATIVE_N24_N40_FOCUSED_BATCH60_CAE_INP_GENERATION_REPORT.md"
+  },
+  "generation_details": {
+    "includes_N12": false,
+    "includes_N16": false,
+    "includes_N24": true,
+    "includes_N32_cases": false,
+    "includes_N40": true,
+    "generated_CAE_INP_JNL_only_in_run40": true,
+    "final_step_required_for_metrics": "step_final_cooling",
+    "n40_step_cool_initialInc": 0.001,
+    "step_final_cooling_initialInc": 0.01,
+    "step_final_cooling_timePeriod": 1200.0
+  },
+  "outputs_written": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_solver_completion_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_solver_completion_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_odb_extraction_summary.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_teacher_metrics.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\run41_native_N24_N40_focused_batch60_odb_teacher_extraction_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_41_native_N24_N40_focused_batch60_odb_teacher_extraction\\RUN_41_NATIVE_N24_N40_FOCUSED_BATCH60_ODB_TEACHER_EXTRACTION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_41_manifest.json"
+  ],
+  "guardrails": {
+    "solver_run": false,
+    "datacheck_run": false,
+    "abqjobpilot_or_enqueue_run": false,
+    "cae_inp_jnl_base_modified": false,
+    "commit_or_push": false
+  }
+}

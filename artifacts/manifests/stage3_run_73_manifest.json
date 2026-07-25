@@ -1,0 +1,573 @@
+{
+  "run_id": "run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation",
+  "run_name": "combined520 model update final small-N diagnostic candidate generation",
+  "timestamp": "2026-06-17T16:58:21.114320+00:00",
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "script_path": "E:\\Projects\\RL-LAM-ScanOpt\\scripts\\stage3\\run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation.py",
+  "input_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\combined520_plus_N32_RL_ready_dataset.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_smallN_recovery_focused_batch40_teacher_dataset_enriched.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\run71_prediction_audit_for_run68_batch40_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\full_variable_N_updated_maturity_and_claim_boundary_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_72_smallN_recovery_focused_batch40_teacher_metrics_ingestion_and_combined520_ranking\\RUN_72_SMALLN_RECOVERY_FOCUSED_BATCH40_TEACHER_METRICS_INGESTION_AND_COMBINED520_RANKING_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_72_manifest.json"
+  ],
+  "output_files": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_input_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\combined520_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\combined520_plus_N32_scan_order_features.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_target_reward_definition_audit.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_target_reward_definition_audit.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_surrogate_validation_results_detailed.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_best_surrogate_configurations.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_surrogate_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_gnn_reward_validation_results.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_gnn_reward_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_graph_pointer_policy_training_log.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_graph_pointer_policy_validation_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_candidate_pool_scored.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_final_smallN_diagnostic_batch32_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_final_smallN_diagnostic_batch24_candidate_orders.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_optionC_stop_and_freeze_evidence_package_only.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_batch_options_comparison_to_previous.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_batch_options_comparison_summary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_claim_boundary.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_claim_boundary.json",
+    "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\RUN_73_COMBINED520_MODEL_UPDATE_FINAL_SMALLN_DIAGNOSTIC_CANDIDATE_GENERATION_REPORT.md",
+    "E:\\Projects\\RL-LAM-ScanOpt\\artifacts\\manifests\\stage3_run_73_manifest.json"
+  ],
+  "native_combined520_rows": 520,
+  "combined520_plus_N32_rows": 852,
+  "best_surrogate_summary": {
+    "best_overall": {
+      "regime": "plus_N32_balanced",
+      "target": "target_reward_combined520_plus_N32_N12_final_diagnostic",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.749023722101642,
+      "macro_top5_overlap": 1.2,
+      "macro_top10_overlap": 2.2,
+      "mean_mae": 0.12586970558540278,
+      "protocols": 5
+    },
+    "best_native": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_variable_N_bounded",
+      "feature_set": "F01_basic_order",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.7370454245203283,
+      "macro_top5_overlap": 1.75,
+      "macro_top10_overlap": 3.0,
+      "mean_mae": 0.08902802737817876,
+      "protocols": 4
+    },
+    "best_plus_N32": {
+      "regime": "plus_N32_balanced",
+      "target": "target_reward_combined520_plus_N32_N12_final_diagnostic",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.749023722101642,
+      "macro_top5_overlap": 1.2,
+      "macro_top10_overlap": 2.2,
+      "mean_mae": 0.12586970558540278,
+      "protocols": 5
+    },
+    "best_N12_final_diagnostic": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_N12_final_diagnostic",
+      "feature_set": "F07_F01_no_n",
+      "model": "Ridge",
+      "macro_spearman": 0.7134747049753849,
+      "macro_top5_overlap": 1.25,
+      "macro_top10_overlap": 2.25,
+      "mean_mae": 0.13085149925211448,
+      "protocols": 4
+    },
+    "best_N16_final_diagnostic": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_N16_final_diagnostic",
+      "feature_set": "F07_F01_no_n",
+      "model": "Ridge",
+      "macro_spearman": 0.7134747049753849,
+      "macro_top5_overlap": 1.25,
+      "macro_top10_overlap": 2.25,
+      "mean_mae": 0.13085149925211448,
+      "protocols": 4
+    },
+    "best_smallN_final_diagnostic": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_smallN_final_diagnostic",
+      "feature_set": "F07_F01_no_n",
+      "model": "Ridge",
+      "macro_spearman": 0.6858602570563503,
+      "macro_top5_overlap": 1.25,
+      "macro_top10_overlap": 2.75,
+      "mean_mae": 0.13104370081385963,
+      "protocols": 4
+    },
+    "best_variable_N_bounded": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_variable_N_bounded",
+      "feature_set": "F01_basic_order",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.7370454245203283,
+      "macro_top5_overlap": 1.75,
+      "macro_top10_overlap": 3.0,
+      "mean_mae": 0.08902802737817876,
+      "protocols": 4
+    },
+    "best_N24_anchor": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_N24_anchor",
+      "feature_set": "F07_F01_no_n",
+      "model": "Ridge",
+      "macro_spearman": 0.6643422418254278,
+      "macro_top5_overlap": 1.25,
+      "macro_top10_overlap": 2.25,
+      "mean_mae": 0.17677065563954683,
+      "protocols": 4
+    },
+    "best_N40_anchor": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_N40_anchor",
+      "feature_set": "F01_basic_order",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.6292934807667472,
+      "macro_top5_overlap": 0.75,
+      "macro_top10_overlap": 2.0,
+      "mean_mae": 0.12791202161054616,
+      "protocols": 4
+    },
+    "best_N40_u2_reward_retention": {},
+    "best_N40_penalty_repair": {},
+    "best_N24_maintenance": {},
+    "best_penalty_repair": {
+      "regime": "native_combined520",
+      "target": "target_reward_combined520_penalty_repair",
+      "feature_set": "F07_F01_no_n",
+      "model": "ExtraTreesRegressor",
+      "macro_spearman": 0.6393933730951744,
+      "macro_top5_overlap": 1.25,
+      "macro_top10_overlap": 1.75,
+      "mean_mae": 0.11052625938815651,
+      "protocols": 4
+    },
+    "n32_augmented_better_than_native": true,
+    "run68_reference": {
+      "best_native_spearman": 0.7385,
+      "best_N12_recovery_spearman": 0.7385,
+      "best_N16_recovery_spearman": 0.7385,
+      "run71_prediction_u2_primary_spearman": 0.3348
+    }
+  },
+  "best_N12_final_diagnostic_model_summary": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N12_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.7134747049753849,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.25,
+    "mean_mae": 0.13085149925211448,
+    "protocols": 4
+  },
+  "best_N16_final_diagnostic_model_summary": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N16_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.7134747049753849,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.25,
+    "mean_mae": 0.13085149925211448,
+    "protocols": 4
+  },
+  "best_smallN_final_diagnostic_model_summary": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_smallN_final_diagnostic",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.6858602570563503,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.75,
+    "mean_mae": 0.13104370081385963,
+    "protocols": 4
+  },
+  "best_variable_N_bounded_model_summary": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_variable_N_bounded",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.7370454245203283,
+    "macro_top5_overlap": 1.75,
+    "macro_top10_overlap": 3.0,
+    "mean_mae": 0.08902802737817876,
+    "protocols": 4
+  },
+  "best_N24_anchor_summary": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N24_anchor",
+    "feature_set": "F07_F01_no_n",
+    "model": "Ridge",
+    "macro_spearman": 0.6643422418254278,
+    "macro_top5_overlap": 1.25,
+    "macro_top10_overlap": 2.25,
+    "mean_mae": 0.17677065563954683,
+    "protocols": 4
+  },
+  "best_N40_anchor_summary": {
+    "regime": "native_combined520",
+    "target": "target_reward_combined520_N40_anchor",
+    "feature_set": "F01_basic_order",
+    "model": "ExtraTreesRegressor",
+    "macro_spearman": 0.6292934807667472,
+    "macro_top5_overlap": 0.75,
+    "macro_top10_overlap": 2.0,
+    "mean_mae": 0.12791202161054616,
+    "protocols": 4
+  },
+  "best_gnn_summary": {
+    "best_regime": {
+      "regime": "plus_N32_balanced",
+      "macro_spearman": 0.3690334897160547,
+      "macro_top5_overlap": 0.0,
+      "protocols": 5
+    },
+    "run38_best_gnn_reference": {
+      "regime": "plus_N32_unweighted",
+      "macro_spearman": 0.8078,
+      "top5": 1.4,
+      "N40_spearman": 0.8514
+    },
+    "improved_vs_run38_macro": false,
+    "note": "GNN diagnostic is an offline order-graph MLP proxy; it is not online RL or teacher validation."
+  },
+  "pointer_summary": {
+    "best_regime_by_mean_nll": "native_combined520",
+    "mean_nll_by_regime": {
+      "native_combined520": 1.3308394424241872,
+      "plus_N32_balanced": 1.4692983421137487,
+      "plus_N32_unweighted": 1.4692983421137487
+    },
+    "headline": "Offline transition-frequency graph-pointer diagnostic fitted with reward-weighted teacher sequences; no online RL was run."
+  },
+  "evidence_update_summary": {
+    "verdict": "RUN73_FULL_VARIABLE_N_EVIDENCE_NEAR_FREEZE_FINAL_SMALLN_DIAGNOSTIC_RECOMMENDED",
+    "headline": "Run72/Run71 strengthened full variable-N evidence to N12=64 and N16=64 while N24=188 and N40=204 remain mature anchors; Run73 recommends a final small-N diagnostic loop before declaring an evidence freeze, with stop-and-freeze kept as an explicit option.",
+    "native_combined520_counts": {
+      "12": 64,
+      "16": 64,
+      "24": 188,
+      "40": 204
+    },
+    "run72_maturity_context": {
+      "headline": "After Run71, combined520 has N12=64, N16=64, N24=188, and N40=204; full variable-N evidence is stronger, but N12/N16 remain the limiting under-sampled regimes relative to mature N24/N40 anchors.",
+      "n24_teacher_rows": 188,
+      "n40_teacher_rows": 204,
+      "n32_legacy_teacher_rows": 332,
+      "n12_teacher_rows": 64,
+      "n16_teacher_rows": 64,
+      "run71_new_best_count_vs_combined480": 13,
+      "full_variable_n_evidence_stronger_after_run71": true,
+      "n24_n40_evidence_frozen_anchor_status": true,
+      "gnn_pointer_auxiliary_only": true,
+      "n24_n40_mature_for_bounded_active_learning_evidence": true,
+      "full_variable_n_rl_maturity_limited_by_n12_n16": true,
+      "safe_paper_claim": "Run71 strengthens small-N evidence while preserving mature N24/N40 anchors; full variable-N maturity should still be bounded by N12/N16 evidence density.",
+      "prediction_calibration_summary": {
+        "headline": "Run68/Run69 prediction calibration was evaluated on realized Run71 variable-N labels; use these diagnostics as calibration evidence, not teacher-validation claims for future candidates.",
+        "overall_reward_spearman": 0.33477244418029467,
+        "overall_penalty_repair_spearman": 0.34292152652139085,
+        "mean_top5_overlap": 0.4444444444444444,
+        "top1_hits": 1,
+        "by_candidate_source": {
+          "N12_local_search_around_Run66_best": {
+            "count": 3,
+            "mean_abs_error": 0.04458844001226173,
+            "mean_realized_reward": 0.737037037037037
+          },
+          "N12_recovery_diversity": {
+            "count": 1,
+            "mean_abs_error": 0.12732966879509033,
+            "mean_realized_reward": 0.8873015873015874
+          },
+          "N12_recovery_penalty_aware": {
+            "count": 2,
+            "mean_abs_error": 0.08837173236493867,
+            "mean_realized_reward": 0.6968253968253968
+          },
+          "N12_recovery_reward_balanced": {
+            "count": 2,
+            "mean_abs_error": 0.19973734057584,
+            "mean_realized_reward": 0.5196428571428572
+          },
+          "N12_recovery_surrogate_top": {
+            "count": 4,
+            "mean_abs_error": 0.05392209480238461,
+            "mean_realized_reward": 0.7165674603174602
+          },
+          "N12_recovery_u2_safe": {
+            "count": 3,
+            "mean_abs_error": 0.1399393141689038,
+            "mean_realized_reward": 0.6063492063492063
+          },
+          "N12_recovery_uncertainty": {
+            "count": 1,
+            "mean_abs_error": 0.1426670944378715,
+            "mean_realized_reward": 0.89484126984127
+          },
+          "N16_local_search_around_Run66_best": {
+            "count": 3,
+            "mean_abs_error": 0.07420142420987064,
+            "mean_realized_reward": 0.8501322751322752
+          },
+          "N16_recovery_diversity": {
+            "count": 1,
+            "mean_abs_error": 0.013337989491808866,
+            "mean_realized_reward": 0.8376984126984127
+          },
+          "N16_recovery_penalty_aware": {
+            "count": 2,
+            "mean_abs_error": 0.1377437689969605,
+            "mean_realized_reward": 0.7603174603174603
+          },
+          "N16_recovery_reward_balanced": {
+            "count": 2,
+            "mean_abs_error": 0.21554856467409655,
+            "mean_realized_reward": 0.6851190476190476
+          },
+          "N16_recovery_surrogate_top": {
+            "count": 4,
+            "mean_abs_error": 0.08604126678648225,
+            "mean_realized_reward": 0.6918650793650793
+          },
+          "N16_recovery_u2_safe": {
+            "count": 3,
+            "mean_abs_error": 0.13013211752786233,
+            "mean_realized_reward": 0.7230158730158731
+          },
+          "N16_recovery_uncertainty": {
+            "count": 1,
+            "mean_abs_error": 0.1285230665315772,
+            "mean_realized_reward": 0.7968253968253968
+          },
+          "N24_frozen_top_density_reference": {
+            "count": 2,
+            "mean_abs_error": 0.058684788275264466,
+            "mean_realized_reward": 0.7090909090909091
+          },
+          "N24_uncertainty_anchor": {
+            "count": 2,
+            "mean_abs_error": 0.052807486631015976,
+            "mean_realized_reward": 0.732620320855615
+          },
+          "N40_frozen_u2_reward_reference": {
+            "count": 2,
+            "mean_abs_error": 0.1523399014778325,
+            "mean_realized_reward": 0.7605911330049261
+          },
+          "N40_sentinel_control": {
+            "count": 1,
+            "mean_abs_error": 0.07772852375232558,
+            "mean_realized_reward": 0.07118226600985222
+          },
+          "N40_uncertainty_anchor": {
+            "count": 1,
+            "mean_abs_error": 0.19233676316470943,
+            "mean_realized_reward": 0.4543103448275862
+          }
+        },
+        "by_selection_bucket": {
+          "N12_local_search_around_Run66_best": {
+            "count": 3,
+            "mean_abs_error": 0.04458844001226173,
+            "mean_realized_reward": 0.737037037037037
+          },
+          "N12_recovery_diversity": {
+            "count": 1,
+            "mean_abs_error": 0.12732966879509033,
+            "mean_realized_reward": 0.8873015873015874
+          },
+          "N12_recovery_penalty_aware": {
+            "count": 2,
+            "mean_abs_error": 0.08837173236493867,
+            "mean_realized_reward": 0.6968253968253968
+          },
+          "N12_recovery_reward_balanced": {
+            "count": 2,
+            "mean_abs_error": 0.19973734057584,
+            "mean_realized_reward": 0.5196428571428572
+          },
+          "N12_recovery_surrogate_top": {
+            "count": 4,
+            "mean_abs_error": 0.05392209480238461,
+            "mean_realized_reward": 0.7165674603174602
+          },
+          "N12_recovery_u2_safe": {
+            "count": 3,
+            "mean_abs_error": 0.1399393141689038,
+            "mean_realized_reward": 0.6063492063492063
+          },
+          "N12_recovery_uncertainty": {
+            "count": 1,
+            "mean_abs_error": 0.1426670944378715,
+            "mean_realized_reward": 0.89484126984127
+          },
+          "N16_local_search_around_Run66_best": {
+            "count": 3,
+            "mean_abs_error": 0.07420142420987064,
+            "mean_realized_reward": 0.8501322751322752
+          },
+          "N16_recovery_diversity": {
+            "count": 1,
+            "mean_abs_error": 0.013337989491808866,
+            "mean_realized_reward": 0.8376984126984127
+          },
+          "N16_recovery_penalty_aware": {
+            "count": 2,
+            "mean_abs_error": 0.1377437689969605,
+            "mean_realized_reward": 0.7603174603174603
+          },
+          "N16_recovery_reward_balanced": {
+            "count": 2,
+            "mean_abs_error": 0.21554856467409655,
+            "mean_realized_reward": 0.6851190476190476
+          },
+          "N16_recovery_surrogate_top": {
+            "count": 4,
+            "mean_abs_error": 0.08604126678648225,
+            "mean_realized_reward": 0.6918650793650793
+          },
+          "N16_recovery_u2_safe": {
+            "count": 3,
+            "mean_abs_error": 0.13013211752786233,
+            "mean_realized_reward": 0.7230158730158731
+          },
+          "N16_recovery_uncertainty": {
+            "count": 1,
+            "mean_abs_error": 0.1285230665315772,
+            "mean_realized_reward": 0.7968253968253968
+          },
+          "N24_frozen_top_density_reference": {
+            "count": 2,
+            "mean_abs_error": 0.058684788275264466,
+            "mean_realized_reward": 0.7090909090909091
+          },
+          "N24_uncertainty_anchor": {
+            "count": 2,
+            "mean_abs_error": 0.052807486631015976,
+            "mean_realized_reward": 0.732620320855615
+          },
+          "N40_frozen_u2_reward_reference": {
+            "count": 2,
+            "mean_abs_error": 0.1523399014778325,
+            "mean_realized_reward": 0.7605911330049261
+          },
+          "N40_sentinel_control": {
+            "count": 1,
+            "mean_abs_error": 0.07772852375232558,
+            "mean_realized_reward": 0.07118226600985222
+          },
+          "N40_uncertainty_anchor": {
+            "count": 1,
+            "mean_abs_error": 0.19233676316470943,
+            "mean_realized_reward": 0.4543103448275862
+          }
+        },
+        "disagreement_vs_abs_error_spearman": 0.297554849582433,
+        "uncertainty_vs_abs_error_spearman": 0.0150093808630394,
+        "novelty_vs_realized_reward_spearman": -0.2455179689579943,
+        "by_generation_method": {
+          "existing_pool_selection": {
+            "count": 8,
+            "mean_abs_error": 0.06998168079443343,
+            "mean_realized_reward": 0.7042162698412698
+          },
+          "offline_mutation_or_pointer_proxy": {
+            "count": 32,
+            "mean_abs_error": 0.11434294249756174,
+            "mean_realized_reward": 0.7006305219318658
+          }
+        }
+      }
+    },
+    "run71_prediction_audit_context": {
+      "reward_spearman": 0.33477244418029467,
+      "penalty_repair_spearman": 0.34292152652139085,
+      "mean_top5_overlap": 0.4444444444444444
+    },
+    "evidence_decision": {
+      "N24_N40_remain_frozen_anchors": true,
+      "pivot_primary_generation_to_N12_N16_recovery": true,
+      "keep_N24_N40_anchor_counts_low": true,
+      "continue_full_variable_N_claim_boundary": "near_freeze_but_final_smallN_diagnostic_recommended"
+    },
+    "timeline": [
+      {
+        "stage": "combined480_before_Run71",
+        "native_rows": 480,
+        "N12": 48,
+        "N16": 48,
+        "N24": 184,
+        "N40": 200,
+        "interpretation": "small-N recovery was primary; N24/N40 were mature anchors"
+      },
+      {
+        "stage": "Run71_smallN_recovery_focused_batch40",
+        "native_rows": 520,
+        "N12": 64,
+        "N16": 64,
+        "N24": 188,
+        "N40": 204,
+        "interpretation": "small-N evidence strengthened again; one final small-N diagnostic loop is reasonable before evidence freeze"
+      }
+    ],
+    "validation_verdict": "PASS_RUN73_COMBINED520_AND_PLUS_N32_INPUTS_READY"
+  },
+  "evidence_update_paths": {
+    "csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.csv",
+    "json": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.json",
+    "md": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\stage3_evidence_freeze_readiness_after_run72.md"
+  },
+  "candidate_pool_count": 9000,
+  "candidate_pool_counts": {
+    "12": 4000,
+    "16": 4000,
+    "24": 500,
+    "40": 500
+  },
+  "recommended_option": "option_A_final_smallN_diagnostic_batch32",
+  "batch_option_paths": {
+    "option_A_final_smallN_diagnostic_batch32": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_final_smallN_diagnostic_batch32_candidate_orders.csv",
+    "option_B_final_smallN_diagnostic_batch24": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_final_smallN_diagnostic_batch24_candidate_orders.csv",
+    "option_C_stop_and_freeze_evidence_package_only": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_optionC_stop_and_freeze_evidence_package_only.json"
+  },
+  "batch_option_counts": {
+    "option_A_final_smallN_diagnostic_batch32": {
+      "12": 14,
+      "16": 14,
+      "24": 2,
+      "40": 2
+    },
+    "option_B_final_smallN_diagnostic_batch24": {
+      "12": 10,
+      "16": 10,
+      "24": 2,
+      "40": 2
+    },
+    "option_C_stop_and_freeze_evidence_package_only": {}
+  },
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3\\runs\\run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\RUN_73_COMBINED520_MODEL_UPDATE_FINAL_SMALLN_DIAGNOSTIC_CANDIDATE_GENERATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_73_combined520_model_update_final_smallN_diagnostic_candidate_generation\\run73_claim_boundary.md",
+  "no_solver_run": true,
+  "no_odb_opened": true,
+  "no_abqjobpilot_run": true,
+  "no_cae_inp_generated": true,
+  "no_teacher_validation": true,
+  "no_online_rl": true,
+  "no_commit_or_push": true
+}

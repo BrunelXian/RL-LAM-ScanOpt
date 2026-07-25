@@ -1,0 +1,28 @@
+{
+  "status": "GRAPH_POINTER_POLICY_WEIGHTED_IMITATION_TRAINED",
+  "training_method": "offline weighted behavior cloning on combined108 teacher sequences",
+  "epochs": 30,
+  "validation": [
+    {
+      "n": 12,
+      "mean_teacher_action_nll": 1.4040964940407623,
+      "teacher_rows": 24
+    },
+    {
+      "n": 16,
+      "mean_teacher_action_nll": 1.5695406757489156,
+      "teacher_rows": 24
+    },
+    {
+      "n": 24,
+      "mean_teacher_action_nll": 1.9444539626982684,
+      "teacher_rows": 30
+    },
+    {
+      "n": 40,
+      "mean_teacher_action_nll": 2.297282641635587,
+      "teacher_rows": 30
+    }
+  ],
+  "note": "No online Abaqus RL or policy-gradient teacher interaction."
+}

@@ -1,0 +1,21 @@
+{
+  "verdict": "RUN72_INGESTION_AND_ANALYSIS_ONLY_NO_SOLVER_OR_CANDIDATE_GENERATION",
+  "safe_claims": [
+    "Run72 ingests 40/40 teacher-validated Run71 small-N recovery-focused batch40 cases.",
+    "Run72 builds native combined520 with N12=64, N16=64, N24=188, N40=204.",
+    "Run72 builds combined520_plus_N32 with N12=64, N16=64, N24=188, N32=332, N40=204.",
+    "Run72 evaluates whether the small-N recovery-focused batch40 improved N12/N16 recovery and full variable-N evidence balance.",
+    "Run71 is teacher validation of native N12/N16/N24/N40 small-N recovery-focused candidates, not N32 cases.",
+    "Run72 updates the full variable-N maturity and claim boundary."
+  ],
+  "unsafe_claims": [
+    "Do not claim N32 itself was newly teacher-validated in Run71.",
+    "Do not claim N32 caused Run71 improvements.",
+    "Do not claim GNN-RL superiority unless supported.",
+    "Do not claim online RL.",
+    "Do not claim arbitrary-N generalization.",
+    "Do not claim physical optimum.",
+    "Do not claim solver/ODB extraction happened in Run72.",
+    "Do not claim full variable-N RL maturity while N12/N16 remain under-sampled."
+  ]
+}

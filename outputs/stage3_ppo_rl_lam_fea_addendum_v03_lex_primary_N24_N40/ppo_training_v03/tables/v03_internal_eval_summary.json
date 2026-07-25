@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-06-28T10:56:06.830784+00:00",
+  "verdict": "PASS_V03_PPO_READY_FOR_CANDIDATE_GENERATION",
+  "rollout_csv": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\\ppo_training_v03\\tables\\v03_internal_eval_by_N_seed.csv",
+  "summary_by_N_seed": [
+    {
+      "n": 24,
+      "seed": 20260627,
+      "rollout_count": 1001,
+      "all_legal": true,
+      "unique_order_count": 1001,
+      "mean_terminal_reward": 0.37500354395367314,
+      "max_terminal_reward": 0.47210196553140915,
+      "mean_lex_primary_score": 0.65445620397937,
+      "max_lex_primary_score": 0.8922907323371718,
+      "mean_u2_guarded_score": 0.22145171812576983,
+      "max_u2_guarded_score": 0.31021591213443744,
+      "surfaceT_false_positive_penalty_count": 390
+    },
+    {
+      "n": 40,
+      "seed": 20260627,
+      "rollout_count": 1001,
+      "all_legal": true,
+      "unique_order_count": 1001,
+      "mean_terminal_reward": 0.1732208158451726,
+      "max_terminal_reward": 0.2710858740571433,
+      "mean_lex_primary_score": 0.2850189158651621,
+      "max_lex_primary_score": 0.45896571261430263,
+      "mean_u2_guarded_score": 0.14765946010779807,
+      "max_u2_guarded_score": 0.25857722271276395,
+      "surfaceT_false_positive_penalty_count": 0
+    }
+  ],
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true
+}

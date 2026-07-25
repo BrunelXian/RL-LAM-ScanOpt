@@ -1,0 +1,28 @@
+{
+  "algorithm": "MaskablePPO",
+  "policy": "MlpPolicy",
+  "seed_base": 20260624,
+  "seeds_by_N": {
+    "24": [
+      20260624
+    ],
+    "40": [
+      20260624
+    ]
+  },
+  "training_seed_policy": "one_seed_per_N_v02_initial_pass; N40 frozen at 100k partial checkpoint after long-run timeout",
+  "total_timesteps_by_N": {
+    "24": 300000,
+    "40": 100000
+  },
+  "learning_rate": 0.0003,
+  "n_steps": 1024,
+  "batch_size": 256,
+  "gamma": 1.0,
+  "gae_lambda": 1.0,
+  "clip_range": 0.2,
+  "ent_coef": 0.02,
+  "vf_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "verbose": 1
+}

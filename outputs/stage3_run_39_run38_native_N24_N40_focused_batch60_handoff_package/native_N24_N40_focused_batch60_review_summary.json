@@ -1,0 +1,41 @@
+{
+  "total_count": 60,
+  "per_N_counts": {
+    "24": 30,
+    "40": 30
+  },
+  "only_N24_N40": true,
+  "includes_N12": false,
+  "includes_N16": false,
+  "includes_N32": false,
+  "candidate_source_composition": {
+    "surrogate_top_predicted": 12,
+    "graph_pointer_temperature_sampled": 10,
+    "N24_calibration_neighborhood": 8,
+    "N40_new_best_neighborhood": 8,
+    "diversity_coverage": 6,
+    "uncertainty_calibration": 6,
+    "hybrid_gnn_surrogate_agreement": 4,
+    "hybrid_gnn_surrogate_disagreement": 4,
+    "sentinel_control": 2
+  },
+  "selection_bucket_composition": {
+    "diversity_coverage": 16,
+    "surrogate_top_predicted": 12,
+    "N24_calibration_neighborhood": 8,
+    "N40_new_best_neighborhood": 8,
+    "uncertainty_calibration": 6,
+    "hybrid_gnn_surrogate_agreement": 4,
+    "hybrid_gnn_surrogate_disagreement": 4,
+    "sentinel_control": 2
+  },
+  "expected_abaqus_cost": "60 jobs total, with 30 N24 and 30 N40",
+  "overlap_status": {
+    "combined204_teacher": 0,
+    "run36_teacher": 0,
+    "run27_shortlist64": 0,
+    "superseded_old_run31": 0,
+    "run38_option_b_batch32_reference": 0
+  },
+  "headline": "Selected batch60 focuses directly on N24/N40 U2 gains from Run36 and has no exact overlap with the checked prior/reference sets."
+}

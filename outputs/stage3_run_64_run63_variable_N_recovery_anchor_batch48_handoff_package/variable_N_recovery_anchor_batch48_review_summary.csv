@@ -1,0 +1,30 @@
+metric,value
+timestamp,2026-06-17T00:41:54.989858+00:00
+headline,Run64 packages the recommended full variable-N recovery follow-up after N24/N40 evidence freeze: N12/N16 recovery is primary while N24/N40 mature anchors are preserved.
+total_count,48
+per_N_counts,"{""12"": 12, ""16"": 12, ""24"": 8, ""40"": 16}"
+includes_N12,True
+includes_N16,True
+includes_N24,True
+includes_N32,False
+includes_N40,True
+candidate_source_composition,"{""N12_diversity_coverage"": 1, ""N12_penalty_aware_repair"": 1, ""N12_recovery_anchor_local_search"": 3, ""N12_recovery_anchor_top"": 4, ""N12_u2_safe_exploitation"": 2, ""N12_uncertainty_calibration"": 1, ""N16_diversity_coverage"": 1, ""N16_penalty_aware_repair"": 1, ""N16_recovery_anchor_local_search"": 3, ""N16_recovery_anchor_top"": 4, ""N16_u2_safe_exploitation"": 2, ""N16_uncertainty_calibration"": 1, ""N24_frozen_diversity_coverage"": 1, ""N24_frozen_penalty_diagnostic"": 2, ""N24_frozen_reference_maintenance"": 3, ""N24_frozen_uncertainty_calibration"": 2, ""N40_followup_median_guard"": 2, ""N40_followup_penalty_repair"": 5, ""N40_followup_two_stage_repair"": 4, ""N40_followup_u2_reward_retention"": 5}"
+selection_bucket_composition,"{""N12_diversity_coverage"": 1, ""N12_penalty_aware_repair"": 1, ""N12_recovery_anchor_local_search"": 3, ""N12_recovery_anchor_top"": 4, ""N12_u2_safe_exploitation"": 2, ""N12_uncertainty_calibration"": 1, ""N16_diversity_coverage"": 1, ""N16_penalty_aware_repair"": 1, ""N16_recovery_anchor_local_search"": 3, ""N16_recovery_anchor_top"": 4, ""N16_u2_safe_exploitation"": 2, ""N16_uncertainty_calibration"": 1, ""N24_frozen_diversity_coverage"": 1, ""N24_frozen_penalty_diagnostic"": 2, ""N24_frozen_reference_maintenance"": 3, ""N24_frozen_uncertainty_calibration"": 2, ""N40_followup_median_guard"": 2, ""N40_followup_penalty_repair"": 5, ""N40_followup_two_stage_repair"": 4, ""N40_followup_u2_reward_retention"": 5}"
+mean_surrogate_prediction_per_N,"{""12"": 0.6999412243039292, ""16"": 0.7564109972677596, ""24"": 0.6531870535714284, ""40"": 0.6964301993884987}"
+mean_N12_recovery_prediction_per_N,"{""12"": 0.6979488620449761, ""16"": 0.7549992327174949, ""24"": 0.6530387961388799, ""40"": 0.6980054130637124}"
+mean_N16_recovery_prediction_per_N,"{""12"": 0.6976745851854719, ""16"": 0.7546877697545321, ""24"": 0.6524811401842485, ""40"": 0.697944827922358}"
+mean_variable_N_recovery_prediction_per_N,"{""12"": 0.6978254374581992, ""16"": 0.7548590743841617, ""24"": 0.6514995408974293, ""40"": 0.6977630724982948}"
+mean_N24_frozen_anchor_prediction_per_N,"{""12"": 0.6975725776097144, ""16"": 0.7545594761037383, ""24"": 0.6568725169779415, ""40"": 0.697944827922358}"
+mean_N40_followup_prediction_per_N,"{""12"": 0.6970748542970422, ""16"": 0.7540354608920982, ""24"": 0.6510854633014077, ""40"": 0.6973844153648301}"
+mean_u2_primary_prediction_per_N,"{""12"": 0.7017043097033783, ""16"": 0.7591369231936854, ""24"": 0.6612872426073453, ""40"": 0.6994594564562173}"
+mean_constrained_reward_prediction_per_N,"{""12"": 0.6913462649891909, ""16"": 0.7514220410905108, ""24"": 0.6449362613170676, ""40"": 0.6863101381623318}"
+mean_strict_penalty_guard_prediction_per_N,"{""12"": 0.6967112311909817, ""16"": 0.7536436295428919, ""24"": 0.6504821193043723, ""40"": 0.6976419022155862}"
+mean_penalty_repair_prediction_per_N,"{""12"": 0.6964474226510365, ""16"": 0.7533701440931564, ""24"": 0.6496695435825987, ""40"": 0.6973389765088143}"
+mean_gnn_reward_prediction_per_N,"{""12"": 0.6752769086651055, ""16"": 0.729043446265938, ""24"": 0.6310813105590061, ""40"": 0.670079401669369}"
+mean_hybrid_score_per_N,"{""12"": 0.6991000741661882, ""16"": 0.7559422671090293, ""24"": 0.6536337357762746, ""40"": 0.6973389765088143}"
+mean_disagreement_per_N,"{""12"": 0.024892887067395217, ""16"": 0.027367551001821516, ""24"": 0.022111457298136645, ""40"": 0.026350797719129664}"
+mean_novelty_distance_per_N,"{""12"": 0.18055555555555555, ""16"": 0.21875, ""24"": 0.20312499999999997, ""40"": 0.09375}"
+expected_abaqus_cost,"{""N12"": 12, ""N16"": 12, ""N24"": 8, ""N40"": 16, ""total_jobs"": 48}"
+exact_overlap_status,"{""combined432"": 0, ""run27"": 0, ""run36"": 0, ""run41"": 0, ""run46"": 0, ""run51"": 0, ""run56"": 0, ""run61"": 0, ""superseded_run31"": 0}"
+not_teacher_validated_until_future_abaqus_validation,True
+run64_created_cae_inp_files,False

@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS_RUN55_CALIBRATED_N24_N40_BATCH64_64_INPS_READY_FOR_USER_REVIEW",
+  "checked_count": 64,
+  "pass_count": 64,
+  "per_n_pass_counts": {
+    "24": 32,
+    "40": 32
+  },
+  "total_cae_count": 64,
+  "total_inp_count": 64,
+  "solver_output_count": 0,
+  "forbidden_N12_N16_N32_inp_count": 0,
+  "failed": [],
+  "csv_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_run_55_calibrated_N24_N40_batch64_cae_inp_generation\\stage3_run55_calibrated_N24_N40_batch64_generated_inp_check.csv"
+}
