@@ -1,0 +1,14 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-08-30T22:59:19",
+  "search_roots": [
+    "E:\\Projects\\RL-LAM-ScanOpt",
+    "D:\\Projects\\RL-LAM-ScanOpt"
+  ],
+  "policy_checkpoint_count": 28,
+  "surrogate_model_count": 6,
+  "N32_N64_artifact_count": 764,
+  "N32_capability": "READY",
+  "N64_capability": "BLOCKED",
+  "verdict": "WARNING_STAGEY_POLICY_CAPABILITY_PARTIAL"
+}

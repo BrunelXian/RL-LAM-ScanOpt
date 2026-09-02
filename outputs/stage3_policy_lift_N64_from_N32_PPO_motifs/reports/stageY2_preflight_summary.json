@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-08-30T23:25:06",
+  "checks": {
+    "N32_rollout_pool_exists": true,
+    "N32_ranked_table_exists": true,
+    "StageY_manifest_exists": true,
+    "transformation_only": true,
+    "direct_N64_PPO": false,
+    "no_Abaqus": true,
+    "StageY_N64_blocked": true,
+    "legal_N32_orders": 2048
+  },
+  "stageY_status": {
+    "branch": "stage3-variable-n-graph-pointer-init-v01",
+    "timestamp": "2026-08-30T23:05:21",
+    "search_roots": [
+      "E:\\Projects\\RL-LAM-ScanOpt",
+      "D:\\Projects\\RL-LAM-ScanOpt"
+    ],
+    "policy_inventory_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\inventory\\policy_checkpoint_inventory.csv",
+    "surrogate_inventory_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\inventory\\surrogate_model_inventory.csv",
+    "artifact_inventory_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\inventory\\N32_N64_existing_artifact_inventory.csv",
+    "capability_audit_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\tables\\N32_N64_policy_capability_audit.csv",
+    "N32_rollout_pool_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\rollouts\\N32_policy_inference_rollout_pool.csv",
+    "N64_rollout_pool_or_blocked_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\rollouts\\N64_policy_inference_BLOCKED.csv",
+    "N32_ranked_table_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\tables\\N32_predicted_optima_ranked.csv",
+    "N64_ranked_table_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\tables\\N64_predicted_optima_ranked.csv",
+    "top_JSON_directories": {
+      "N32": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\scan_orders\\N32",
+      "N64": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\scan_orders\\N64"
+    },
+    "summary_table_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\tables\\N32_N64_predicted_best_summary.csv",
+    "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\N32_N64_POLICY_EXTRAPOLATION_REPORT.md",
+    "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\N32_N64_POLICY_EXTRAPOLATION_CLAIM_BOUNDARY.md",
+    "N32_status": "RAN",
+    "N64_status": "BLOCKED: no safe variable-N / graph-pointer / pointer-policy checkpoint with explicit N64 or max_N>=64 support found",
+    "N32_rollout_pool_size": 2048,
+    "N32_unique_count": 2048,
+    "N64_rollout_pool_size": 0,
+    "N64_unique_count": 0,
+    "no_Abaqus": true,
+    "no_ODB_opening": true,
+    "no_solver": true,
+    "no_datacheck": true,
+    "no_enqueue": true,
+    "no_training": true,
+    "no_scan_order_mutation": true,
+    "no_commit_or_push": true,
+    "final_verdict": "PASS_N32_COMPLETED_N64_BLOCKED_BY_ARCHITECTURE"
+  },
+  "verdict": "PASS_STAGEY2_N64_POLICY_LIFT_PREFLIGHT_READY"
+}

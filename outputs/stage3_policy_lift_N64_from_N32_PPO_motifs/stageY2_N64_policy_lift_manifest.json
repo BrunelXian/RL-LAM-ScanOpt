@@ -1,0 +1,36 @@
+{
+  "branch": "stage3-variable-n-graph-pointer-init-v01",
+  "timestamp": "2026-08-30T23:25:07",
+  "input_N32_rollout_pool": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\rollouts\\N32_policy_inference_rollout_pool.csv",
+  "input_N32_ranked_table": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_extrapolation_N32_N64_predicted_optima\\tables\\N32_predicted_optima_ranked.csv",
+  "N32_seed_order_count": 173,
+  "generated_pool_path": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\tables\\N64_policy_lift_generated_pool.csv",
+  "N64_generated_count": 1905,
+  "N64_unique_count": 1905,
+  "ranking_table_paths": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\tables\\N64_predicted_by_inherited_N32_reward.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\tables\\N64_predicted_by_physical_dispersion_proxy.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\tables\\N64_predicted_by_industrial_efficiency_proxy.csv",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\tables\\N64_predicted_balanced_top_candidates.csv"
+  ],
+  "top_JSON_directories": [
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\scan_orders\\N64_balanced_top20",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\scan_orders\\N64_by_inherited_reward_top10",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\scan_orders\\N64_by_dispersion_top10",
+    "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\scan_orders\\N64_by_efficiency_top10"
+  ],
+  "best_summary_table": "E:\\Projects\\RL-LAM-ScanOpt\\outputs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\tables\\N64_policy_lift_best_candidate_summary.csv",
+  "report_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\N64_POLICY_LIFT_EXTRAPOLATION_REPORT.md",
+  "claim_boundary_path": "E:\\Projects\\RL-LAM-ScanOpt\\docs\\stage3_policy_lift_N64_from_N32_PPO_motifs\\N64_POLICY_LIFT_CLAIM_BOUNDARY.md",
+  "direct_N64_PPO": false,
+  "N32_policy_lift": true,
+  "teacher_metrics_available": false,
+  "no_Abaqus": true,
+  "no_ODB_opening": true,
+  "no_solver": true,
+  "no_datacheck": true,
+  "no_enqueue": true,
+  "no_training": true,
+  "no_commit_or_push": true,
+  "final_verdict": "PASS_STAGEY2_N64_POLICY_LIFT_EXTRAPOLATION_COMPLETED"
+}

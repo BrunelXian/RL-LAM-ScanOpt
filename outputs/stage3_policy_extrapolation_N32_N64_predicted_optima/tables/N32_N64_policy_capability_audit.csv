@@ -1,0 +1,3 @@
+N,policy_type,status,reason,checkpoint
+32,Final MaskablePPO Discrete(40),READY,Discrete(40) can infer N32 with custom N32 action mask,E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\ppo_training\checkpoints\maskable_ppo_lam_scan_order_final.zip
+64,Variable-N / graph-pointer / pointer-policy,BLOCKED,no explicit variable-N policy checkpoint/inference evidence with max_N>=64 found; final Discrete(40) PPO is blocked for N64,

@@ -1,0 +1,7 @@
+path,extension,file_size_bytes,notes
+E:\Projects\RL-LAM-ScanOpt\assets\models\maskable_ppo_twi.zip,.zip,32544364,existing model artifact; scoring only if compatible
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v01\surrogate_reward_model\models\ppo_surrogate_reward_model_best.joblib,.joblib,1461857,existing model artifact; scoring only if compatible
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\surrogate_v02\models\N24_surrogate_reward_v02.joblib,.joblib,6458439,existing model artifact; scoring only if compatible
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v02_targeted_N24_N40\surrogate_v02\models\N40_surrogate_reward_v02.joblib,.joblib,6840394,existing model artifact; scoring only if compatible
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\surrogate_v03\models\N24_v03_lex_primary_surrogate.joblib,.joblib,26210043,existing model artifact; scoring only if compatible
+E:\Projects\RL-LAM-ScanOpt\outputs\stage3_ppo_rl_lam_fea_addendum_v03_lex_primary_N24_N40\surrogate_v03\models\N40_v03_lex_primary_surrogate.joblib,.joblib,26836667,existing model artifact; scoring only if compatible
