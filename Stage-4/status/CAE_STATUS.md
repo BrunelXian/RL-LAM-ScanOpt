@@ -4,7 +4,7 @@
 
 ARCHIVED: tested CAE production route. Agent diagnostic workflow: positive result within the bounded experiment.
 See `status/STAGE4_ARCHIVED.md` and `README.md`. No further model/solver/training work; Stage 5 not started.
-Documentation Run: run_006; Git publication pending repository information.
+Documentation Run: run_006; Archive commit 8e02d2c62494216f939df280c430151c592d21e3 pushed to stage4-cae-failure-agent-diagnostics; closure metadata follows on that branch.
 Earlier entries below are retained as historical state and do not authorize resumed work.
 
 Latest module run: `run_005` — stage4_cae / diagnose_n32_numerical_stability_ablation.

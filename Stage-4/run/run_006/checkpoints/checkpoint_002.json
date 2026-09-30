@@ -1,0 +1,11 @@
+{
+  "run_id": "run_006",
+  "created_at": "2026-09-30T16:38:30.024330+08:00",
+  "phase": "archive_commit_pushed",
+  "archive_commit": "8e02d2c62494216f939df280c430151c592d21e3",
+  "branch": "stage4-cae-failure-agent-diagnostics",
+  "source_project_has_git": false,
+  "publication_checkout": "E:\\Projects\\Stage4-publication-run006",
+  "no_force_push": true,
+  "next_action": "publish closure metadata only, then stop"
+}

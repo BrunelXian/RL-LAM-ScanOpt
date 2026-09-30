@@ -72,7 +72,9 @@
 
 **Agent:** stage4_master  
 **Operation:** archive_stage4_cae_route_and_document_agent_diagnostic_evidence  
-**Status:** running — documentation completed, publication pending  
+**Status:** completed  
+**Validation:** passed (documentation/evidence/preservation)  
+**Publication:** archive commit pushed; branch stage4-cae-failure-agent-diagnostics  
 **Input runs:** run_003, run_004, run_005  
 **Case IDs:** []  
 **Result:** CAE route archived; bounded Agent diagnostic capability documented with evidence and limitations.  

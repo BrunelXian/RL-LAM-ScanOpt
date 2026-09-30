@@ -4,14 +4,14 @@
 
 ARCHIVED: tested CAE production route. Agent diagnostic workflow: positive result within the bounded experiment.
 See `status/STAGE4_ARCHIVED.md` and `README.md`. No further model/solver/training work; Stage 5 not started.
-Documentation Run: run_006; Git publication pending repository information.
+Documentation Run: run_006; Archive commit 8e02d2c62494216f939df280c430151c592d21e3 pushed to stage4-cae-failure-agent-diagnostics; closure metadata follows on that branch.
 Earlier entries below are retained as historical state and do not authorize resumed work.
 
 Project: RL-LAM-ScanOpt Stage 4
 Current orchestration protocol: `docs/Agent_File_Communication_Protocol.md`
-Latest completed run: `run_005`
+Latest completed run: `run_006`
 Architecture baseline: `run_001`
-Run record: `run/run_005/run.json`
+Run record: `run/run_006/run.json`
 
 ## Stage4 RL
 status = not yet migrated / not yet started under Stage 4

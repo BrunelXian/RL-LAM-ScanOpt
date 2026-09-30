@@ -15,7 +15,9 @@
   "created": [
     "docs/Stage4_Failure_Analysis.md",
     "docs/Stage4_to_Stage5_Handoff.md",
-    "status/STAGE4_ARCHIVED.md"
+    "status/STAGE4_ARCHIVED.md",
+    "docs/Stage4_Git_Archive_Scope.md",
+    "outputs/diagnostics/stage4_run_006_baseline_log_excerpt.txt"
   ],
   "local_links_checked": 45,
   "evidence_checks": {
@@ -30,6 +32,13 @@
     "universal_root_cause_claim": false,
     "invalid_B_attempt_disclosed": true
   },
-  "git_publication": "pending",
+  "git_publication": {
+    "archive_commit": "8e02d2c62494216f939df280c430151c592d21e3",
+    "push": "succeeded",
+    "branch": "stage4-cae-failure-agent-diagnostics",
+    "repository": "https://github.com/BrunelXian/RL-LAM-ScanOpt",
+    "checkout": "E:\\Projects\\Stage4-publication-run006",
+    "force_push": false
+  },
   "forbidden_engineering_execution": false
 }
