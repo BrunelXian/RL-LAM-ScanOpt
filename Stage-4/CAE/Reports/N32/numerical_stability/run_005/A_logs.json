@@ -1,0 +1,713 @@
+{
+  "job_name": "stage4_diag_A_baseline_run_005",
+  "solver_status": "FAILED",
+  "last_accepted": {
+    "step": 39,
+    "increment": 19,
+    "attempt": "1",
+    "severe_discontinuity_iterations": 0,
+    "equilibrium_iterations": 4,
+    "total_iterations": 4,
+    "total_time": 42.9,
+    "step_time": 0.1,
+    "time_increment": 0.003848
+  },
+  "last_observed_step": 40,
+  "last_observed_step_name": "Step-10-react",
+  "fatal_step": 40,
+  "fatal_increment": 1,
+  "total_increments": 732,
+  "cutbacks": 59,
+  "total_iterations": 2247,
+  "negative_eigenvalue_warnings": 9,
+  "excessive_distortion_warnings": 5,
+  "area_error": true,
+  "minimum_time_increment_reached": false,
+  "wallclock_seconds": 342,
+  "per_step": {
+    "1": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 10,
+      "area_errors": 0
+    },
+    "2": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 14,
+      "area_errors": 0
+    },
+    "3": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 25,
+      "area_errors": 0
+    },
+    "4": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 20,
+      "area_errors": 0
+    },
+    "5": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 36,
+      "area_errors": 0
+    },
+    "6": {
+      "negative_eigenvalue_warnings": 2,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 85,
+      "area_errors": 0
+    },
+    "7": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 36,
+      "area_errors": 0
+    },
+    "8": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 21,
+      "area_errors": 0
+    },
+    "9": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 0,
+      "attempt_retries": 1,
+      "equilibrium_checks": 54,
+      "area_errors": 0
+    },
+    "10": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 4,
+      "divergence": 2,
+      "attempt_retries": 4,
+      "equilibrium_checks": 129,
+      "area_errors": 0
+    },
+    "11": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 48,
+      "area_errors": 0
+    },
+    "12": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 21,
+      "area_errors": 0
+    },
+    "13": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 57,
+      "area_errors": 0
+    },
+    "14": {
+      "negative_eigenvalue_warnings": 2,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 2,
+      "attempt_retries": 4,
+      "equilibrium_checks": 131,
+      "area_errors": 0
+    },
+    "15": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 55,
+      "area_errors": 0
+    },
+    "16": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 21,
+      "area_errors": 0
+    },
+    "17": {
+      "negative_eigenvalue_warnings": 2,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 1,
+      "attempt_retries": 2,
+      "equilibrium_checks": 63,
+      "area_errors": 0
+    },
+    "18": {
+      "negative_eigenvalue_warnings": 1,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 0,
+      "attempt_retries": 1,
+      "equilibrium_checks": 96,
+      "area_errors": 0
+    },
+    "19": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 53,
+      "area_errors": 0
+    },
+    "20": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 22,
+      "area_errors": 0
+    },
+    "21": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 40,
+      "area_errors": 0
+    },
+    "22": {
+      "negative_eigenvalue_warnings": 1,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 92,
+      "area_errors": 0
+    },
+    "23": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 55,
+      "area_errors": 0
+    },
+    "24": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 21,
+      "area_errors": 0
+    },
+    "25": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 41,
+      "area_errors": 0
+    },
+    "26": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 6,
+      "divergence": 1,
+      "attempt_retries": 4,
+      "equilibrium_checks": 123,
+      "area_errors": 0
+    },
+    "27": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 61,
+      "area_errors": 0
+    },
+    "28": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 21,
+      "area_errors": 0
+    },
+    "29": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 0,
+      "attempt_retries": 1,
+      "equilibrium_checks": 44,
+      "area_errors": 0
+    },
+    "30": {
+      "negative_eigenvalue_warnings": 1,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 127,
+      "area_errors": 0
+    },
+    "31": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 58,
+      "area_errors": 0
+    },
+    "32": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 22,
+      "area_errors": 0
+    },
+    "33": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 44,
+      "area_errors": 0
+    },
+    "34": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 3,
+      "attempt_retries": 3,
+      "equilibrium_checks": 123,
+      "area_errors": 0
+    },
+    "35": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 62,
+      "area_errors": 0
+    },
+    "36": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 21,
+      "area_errors": 0
+    },
+    "37": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 1,
+      "attempt_retries": 1,
+      "equilibrium_checks": 58,
+      "area_errors": 0
+    },
+    "38": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 0,
+      "divergence": 3,
+      "attempt_retries": 4,
+      "equilibrium_checks": 152,
+      "area_errors": 0
+    },
+    "39": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 64,
+      "area_errors": 0
+    },
+    "40": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 0,
+      "area_errors": 4
+    }
+  },
+  "sta_accepted_increments": 732,
+  "sta_unsuccessful_attempts": 59,
+  "evidence": [
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 44007,
+      "text": " ***WARNING: ELEMENT 849 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 40.778 DEGREES.\n\n ***WARNING: ELEMENT 851 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 41.351 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 44011,
+      "text": " ***WARNING: ELEMENT 851 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 41.351 DEGREES.\n\n ***WARNING: ELEMENT 853 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 44.752 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 44015,
+      "text": " ***WARNING: ELEMENT 853 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 44.752 DEGREES.\n\n ***WARNING: 3 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted."
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 44018,
+      "text": "\n ***WARNING: 3 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 44021,
+      "text": "             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n\n*** Error initializing the CUDA Driver NO_DEVICE\n*** WARNING: GPU Acceleration is disabled\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 52898,
+      "text": " ***WARNING: ELEMENT 817 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 31.135 DEGREES.\n\n ***WARNING: ELEMENT 819 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 31.226 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 52902,
+      "text": " ***WARNING: ELEMENT 819 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 31.226 DEGREES.\n\n ***WARNING: ELEMENT 821 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 34.118 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 52906,
+      "text": " ***WARNING: ELEMENT 821 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 34.118 DEGREES.\n\n ***WARNING: ELEMENT 823 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 37.688 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 52910,
+      "text": " ***WARNING: ELEMENT 823 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 37.688 DEGREES.\n\n ***WARNING: 4 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted."
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 52913,
+      "text": "\n ***WARNING: 4 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 52916,
+      "text": "             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n\n*** Error initializing the CUDA Driver NO_DEVICE\n*** WARNING: GPU Acceleration is disabled\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 61960,
+      "text": " ***WARNING: ELEMENT 785 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 20.797 DEGREES.\n\n ***WARNING: ELEMENT 787 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 20.307 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 61964,
+      "text": " ***WARNING: ELEMENT 787 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 20.307 DEGREES.\n\n ***WARNING: ELEMENT 789 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 22.875 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 61968,
+      "text": " ***WARNING: ELEMENT 789 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 22.875 DEGREES.\n\n ***WARNING: ELEMENT 791 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 27.013 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 61972,
+      "text": " ***WARNING: ELEMENT 791 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 27.013 DEGREES.\n\n ***WARNING: 4 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted."
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 61975,
+      "text": "\n ***WARNING: 4 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 61978,
+      "text": "             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n\n*** Error initializing the CUDA Driver NO_DEVICE\n*** WARNING: GPU Acceleration is disabled\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 70947,
+      "text": " ***WARNING: ELEMENT 753 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 10.110 DEGREES.\n\n ***WARNING: ELEMENT 755 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 8.7945 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 70951,
+      "text": " ***WARNING: ELEMENT 755 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 8.7945 DEGREES.\n\n ***WARNING: ELEMENT 757 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 11.274 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 70955,
+      "text": " ***WARNING: ELEMENT 757 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 11.274 DEGREES.\n\n ***WARNING: ELEMENT 759 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 15.846 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 70959,
+      "text": " ***WARNING: ELEMENT 759 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 15.846 DEGREES.\n\n ***WARNING: 4 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted."
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 70962,
+      "text": "\n ***WARNING: 4 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 70965,
+      "text": "             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS\n\n*** Error initializing the CUDA Driver NO_DEVICE\n*** WARNING: GPU Acceleration is disabled\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81486,
+      "text": "\n ***ERROR: THE AREA OF ELEMENT 721 INSTANCE INST_PLATE IS VERY SMALL OR \n           NEGATIVE.\n\n ***WARNING: ELEMENT 721 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 0.27893 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81490,
+      "text": " ***WARNING: ELEMENT 721 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 0.27893 DEGREES.\n\n ***ERROR: THE AREA OF ELEMENT 723 INSTANCE INST_PLATE IS VERY SMALL OR \n           NEGATIVE.\n\n ***ERROR: THE AREA OF ELEMENT 725 INSTANCE INST_PLATE IS VERY SMALL OR "
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81493,
+      "text": "\n ***ERROR: THE AREA OF ELEMENT 723 INSTANCE INST_PLATE IS VERY SMALL OR \n           NEGATIVE.\n\n ***ERROR: THE AREA OF ELEMENT 725 INSTANCE INST_PLATE IS VERY SMALL OR \n           NEGATIVE.\n\n ***WARNING: ELEMENT 725 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN "
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81496,
+      "text": "\n ***ERROR: THE AREA OF ELEMENT 725 INSTANCE INST_PLATE IS VERY SMALL OR \n           NEGATIVE.\n\n ***WARNING: ELEMENT 725 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 1.9637 DEGREES.\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81500,
+      "text": " ***WARNING: ELEMENT 725 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 1.9637 DEGREES.\n\n ***WARNING: ELEMENT 727 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 4.5306 DEGREES.\n   ELEMENT INST_PLATE.721 IS DISTORTING EXCESSIVELY."
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81504,
+      "text": " ***WARNING: ELEMENT 727 INSTANCE INST_PLATE IS DISTORTED. THE ANGLE BETWEEN \n             THE ISOPARAMETRIC LINES IS LESS THAN 45 DEGREES OR GREATER THAN \n             135 DEGREES. THE MIN/MAX ANGLE IS 4.5306 DEGREES.\n   ELEMENT INST_PLATE.721 IS DISTORTING EXCESSIVELY.\n   ELEMENT INST_PLATE.721 IS DISTORTING EXCESSIVELY.\n   ELEMENT INST_PLATE.721 IS DISTORTING EXCESSIVELY.\n   ELEMENT INST_PLATE.721 IS DISTORTING EXCESSIVELY.\n   ELEMENT INST_PLATE.721 IS DISTORTING EXCESSIVELY."
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81527,
+      "text": "\n ***WARNING: 3 elements are distorted. Either the isoparametric angles are out \n             of the suggested limits or the triangular or tetrahedral quality \n             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n ***ERROR: The area of 3 elements is zero, small, or negative. Check \n           coordinates or node numbering, or modify the mesh seed. The elements "
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81530,
+      "text": "             measure is bad. The elements have been identified in element set \n             WarnElemDistorted.\n\n ***ERROR: The area of 3 elements is zero, small, or negative. Check \n           coordinates or node numbering, or modify the mesh seed. The elements \n           have been identified in element set ErrElemAreaSmallNegZero.\n\n ***ERROR: CHECKS ON ELEMENT REACTIVATION HAVE REVEALED 4 ERRORS.  EXAMINE THE "
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81532,
+      "text": "\n ***ERROR: The area of 3 elements is zero, small, or negative. Check \n           coordinates or node numbering, or modify the mesh seed. The elements \n           have been identified in element set ErrElemAreaSmallNegZero.\n\n ***ERROR: CHECKS ON ELEMENT REACTIVATION HAVE REVEALED 4 ERRORS.  EXAMINE THE \n           COORDINATES/NORMALS LISTED ABOVE, WHICH ARE BASED ON THE \n           DISPLACEMENTS/ROTATIONS OF THE NODES OF THESE ELEMENTS IN THE LAST "
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81534,
+      "text": "           coordinates or node numbering, or modify the mesh seed. The elements \n           have been identified in element set ErrElemAreaSmallNegZero.\n\n ***ERROR: CHECKS ON ELEMENT REACTIVATION HAVE REVEALED 4 ERRORS.  EXAMINE THE \n           COORDINATES/NORMALS LISTED ABOVE, WHICH ARE BASED ON THE \n           DISPLACEMENTS/ROTATIONS OF THE NODES OF THESE ELEMENTS IN THE LAST \n           GENERAL STEP\n"
+    },
+    {
+      "file": "stage4_diag_A_baseline_run_005.msg",
+      "line": 81536,
+      "text": "\n ***ERROR: CHECKS ON ELEMENT REACTIVATION HAVE REVEALED 4 ERRORS.  EXAMINE THE \n           COORDINATES/NORMALS LISTED ABOVE, WHICH ARE BASED ON THE \n           DISPLACEMENTS/ROTATIONS OF THE NODES OF THESE ELEMENTS IN THE LAST \n           GENERAL STEP\n\n\n"
+    }
+  ],
+  "log_files": {
+    ".msg": {
+      "exists": true,
+      "bytes": 4601345
+    },
+    ".dat": {
+      "exists": true,
+      "bytes": 377492
+    },
+    ".sta": {
+      "exists": true,
+      "bytes": 54159
+    },
+    ".log": {
+      "exists": false,
+      "bytes": 0
+    }
+  },
+  "fatal_step_equilibrium_checks": 0,
+  "area_error_labels": [
+    721,
+    723,
+    725
+  ],
+  "distorted_element_labels": [
+    721,
+    723,
+    725,
+    727,
+    753,
+    754,
+    755,
+    756,
+    757,
+    759,
+    785,
+    787,
+    789,
+    791,
+    817,
+    819,
+    820,
+    821,
+    822,
+    823,
+    849,
+    850,
+    851,
+    853,
+    881,
+    882,
+    883,
+    885,
+    886,
+    978
+  ],
+  "isoparametric_angle_warnings": [
+    {
+      "element": 849,
+      "reported_min_or_max_angle_degrees": 40.778
+    },
+    {
+      "element": 851,
+      "reported_min_or_max_angle_degrees": 41.351
+    },
+    {
+      "element": 853,
+      "reported_min_or_max_angle_degrees": 44.752
+    },
+    {
+      "element": 817,
+      "reported_min_or_max_angle_degrees": 31.135
+    },
+    {
+      "element": 819,
+      "reported_min_or_max_angle_degrees": 31.226
+    },
+    {
+      "element": 821,
+      "reported_min_or_max_angle_degrees": 34.118
+    },
+    {
+      "element": 823,
+      "reported_min_or_max_angle_degrees": 37.688
+    },
+    {
+      "element": 785,
+      "reported_min_or_max_angle_degrees": 20.797
+    },
+    {
+      "element": 787,
+      "reported_min_or_max_angle_degrees": 20.307
+    },
+    {
+      "element": 789,
+      "reported_min_or_max_angle_degrees": 22.875
+    },
+    {
+      "element": 791,
+      "reported_min_or_max_angle_degrees": 27.013
+    },
+    {
+      "element": 753,
+      "reported_min_or_max_angle_degrees": 10.11
+    },
+    {
+      "element": 755,
+      "reported_min_or_max_angle_degrees": 8.7945
+    },
+    {
+      "element": 757,
+      "reported_min_or_max_angle_degrees": 11.274
+    },
+    {
+      "element": 759,
+      "reported_min_or_max_angle_degrees": 15.846
+    },
+    {
+      "element": 721,
+      "reported_min_or_max_angle_degrees": 0.27893
+    },
+    {
+      "element": 725,
+      "reported_min_or_max_angle_degrees": 1.9637
+    },
+    {
+      "element": 727,
+      "reported_min_or_max_angle_degrees": 4.5306
+    }
+  ],
+  "material_calculation_warnings": 88,
+  "divergence_warnings": 13,
+  "equilibrium_checks": 2226,
+  "sta_equilibrium_iterations": 2272,
+  "sta_total_iterations": 2272,
+  "iteration_count_note": "Native total_iterations includes contact; sta_equilibrium_iterations sums equilibrium column over all accepted/unsuccessful attempts. equilibrium_checks counts printed convergence-check headings.",
+  "excessive_element_distortion_lines": 142,
+  "adaptive_mesh": {
+    "smoothing_calls": 0,
+    "reported_mesh_sweeps": [],
+    "warning_lines": []
+  },
+  "last_successful_reactivation": {
+    "step": 36,
+    "name": "Step-09-react"
+  },
+  "failure_phase": "reactivation_geometry_before_equilibrium",
+  "too_many_attempts": false,
+  "automatic_starting_damping_factors": [],
+  "failure_start_step_time": "0 (before first equilibrium iteration)"
+}

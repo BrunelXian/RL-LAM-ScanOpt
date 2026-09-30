@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "case_id": "S4C999999",
+  "N": 12,
+  "process_config_id": "stage4_example_only_v00",
+  "created_at": "2026-09-27T00:00:00+08:00",
+  "example_only": true,
+  "extensions": {
+    "notice": "EXAMPLE ONLY: no real case, run, process config or solver output allocated. Timestamp is illustrative."
+  },
+  "metric_schema_version": "1.0",
+  "odb_run_id": "run_999993",
+  "cae_job_manifest_path": "docs/examples/cae_job_manifest_example.json",
+  "abaqus_job_name": "S4C999999",
+  "odb_path": "__EXAMPLE_ONLY__/CAE/ODB/S4C999999.odb",
+  "solver_status": "not_run",
+  "extraction_status": "not_run",
+  "u2": null,
+  "peeq": null,
+  "surface_t": null,
+  "mises": null,
+  "thermal_metrics": {
+    "tmax": null,
+    "preheat_interface_temperature": null,
+    "coheat_peak_temperature": null,
+    "cooling_rate": null
+  },
+  "bottom_layer_metrics": {
+    "s11_max": null,
+    "s22_max": null,
+    "mises_max": null,
+    "peeq_max": null,
+    "spatial_profile_path": null,
+    "history_path": null
+  },
+  "warnings": [
+    "EXAMPLE ONLY; no extraction performed."
+  ],
+  "teacher_validation": {
+    "status": "not_run",
+    "report_path": null
+  },
+  "teacher_ready": false
+}

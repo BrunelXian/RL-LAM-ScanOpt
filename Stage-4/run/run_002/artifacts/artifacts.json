@@ -1,0 +1,134 @@
+{
+  "run_id": "run_002",
+  "path_base": "run_directory",
+  "artifacts": [
+    {
+      "artifact_id": "docs_Stage4_Interface_Contract_md",
+      "type": "project_document",
+      "role": "interface_delivery",
+      "path": "../../docs/Stage4_Interface_Contract.md",
+      "change": "created",
+      "sha256_at_handoff": "7001ae346e4635edc6a55801b549db1a1d24eacd59fdba5ba45609d21501df5e"
+    },
+    {
+      "artifact_id": "configs_schemas_case_schema_json",
+      "type": "json_schema",
+      "role": "interface_delivery",
+      "path": "../../configs/schemas/case.schema.json",
+      "change": "created",
+      "sha256_at_handoff": "4dbe7d469d42c5bb2664e597d93c5dde852f01502d8cfdfa3fd262734f22f61a"
+    },
+    {
+      "artifact_id": "configs_schemas_cae_job_manifest_schema_json",
+      "type": "json_schema",
+      "role": "interface_delivery",
+      "path": "../../configs/schemas/cae_job_manifest.schema.json",
+      "change": "created",
+      "sha256_at_handoff": "202b612f510d33b1834f71b7278a9516fa6f13f3c9038d71b1a29d181eb4abb0"
+    },
+    {
+      "artifact_id": "configs_schemas_teacher_metrics_schema_json",
+      "type": "json_schema",
+      "role": "interface_delivery",
+      "path": "../../configs/schemas/teacher_metrics.schema.json",
+      "change": "created",
+      "sha256_at_handoff": "00f858f14a31d01636ed1a2786714743e138bff40b82a15334abef816b70e1fa"
+    },
+    {
+      "artifact_id": "docs_examples_case_example_json",
+      "type": "example_fixture",
+      "role": "interface_delivery",
+      "path": "../../docs/examples/case_example.json",
+      "change": "created",
+      "sha256_at_handoff": "4dba46498e453b42974616a92052061b08eeb34cdbdb1aa7cb34f11c985f7e24"
+    },
+    {
+      "artifact_id": "docs_examples_cae_job_manifest_example_json",
+      "type": "example_fixture",
+      "role": "interface_delivery",
+      "path": "../../docs/examples/cae_job_manifest_example.json",
+      "change": "created",
+      "sha256_at_handoff": "7eef3f1da58c98d7ea9cd6f26c0e7231f08ff6612710c46342fbac679a287ed7"
+    },
+    {
+      "artifact_id": "docs_examples_teacher_metrics_example_json",
+      "type": "example_fixture",
+      "role": "interface_delivery",
+      "path": "../../docs/examples/teacher_metrics_example.json",
+      "change": "created",
+      "sha256_at_handoff": "d64794cdce9c94eaa1082cb41cb4cb2b0d48fc1bf209b0fa106cef41cfce5321"
+    },
+    {
+      "artifact_id": "outputs_diagnostics_stage4_run_002_layout_before_json",
+      "type": "audit_metadata",
+      "role": "supporting_output",
+      "path": "../../outputs/diagnostics/stage4_run_002_layout_before.json",
+      "change": "created",
+      "sha256_at_handoff": "7209908e3c6d0649e4819fc25cd25a76246219208a151c3b67414450ff394d06"
+    },
+    {
+      "artifact_id": "outputs_diagnostics_stage4_run_002_validation_json",
+      "type": "audit_metadata",
+      "role": "supporting_output",
+      "path": "../../outputs/diagnostics/stage4_run_002_validation.json",
+      "change": "created",
+      "sha256_at_handoff": "9032a2fb671f6184f3de2e6052a8b1b2607f7fdeec6e3c92b4af058c93b18307"
+    },
+    {
+      "artifact_id": "AGENTS_md",
+      "type": "project_document",
+      "role": "supporting_output",
+      "path": "../../AGENTS.md",
+      "change": "modified",
+      "sha256_at_handoff": "d9fc75648534cc6d8550bc48ac70d7a42fe9b83a0087be4a325cff523212a4d0"
+    },
+    {
+      "artifact_id": "README_md",
+      "type": "project_document",
+      "role": "supporting_output",
+      "path": "../../README.md",
+      "change": "modified",
+      "sha256_at_handoff": "a61dccd7c7d28b38d7c98d4a5e0542ae571dcf75191d517d514667136830ed9a"
+    },
+    {
+      "artifact_id": "status_MASTER_STATUS_md",
+      "type": "status_document",
+      "role": "supporting_output",
+      "path": "../../status/MASTER_STATUS.md",
+      "change": "modified",
+      "sha256_at_handoff": "cc307dad931d87efc05c0ae3ad18579e42033dc33e38ecd52d575f5c1a2b46cb"
+    },
+    {
+      "artifact_id": "status_RL_STATUS_md",
+      "type": "status_document",
+      "role": "supporting_output",
+      "path": "../../status/RL_STATUS.md",
+      "change": "modified",
+      "sha256_at_handoff": "a23dede1c58aaf42209a3b396ff6a4fa3f857b4d58bb986637799cde41721497"
+    },
+    {
+      "artifact_id": "status_CAE_STATUS_md",
+      "type": "status_document",
+      "role": "supporting_output",
+      "path": "../../status/CAE_STATUS.md",
+      "change": "modified",
+      "sha256_at_handoff": "5f0735c705e52d9ecc3e6676c186a16f72c85e8e2a55188890688854f286a7c1"
+    },
+    {
+      "artifact_id": "status_ODB_STATUS_md",
+      "type": "status_document",
+      "role": "supporting_output",
+      "path": "../../status/ODB_STATUS.md",
+      "change": "modified",
+      "sha256_at_handoff": "d87d18edbb02f9093874f2b05352609dc242c83b063d1013889bc5e3af6e9e30"
+    },
+    {
+      "artifact_id": "run_README_md",
+      "type": "project_document",
+      "role": "supporting_output",
+      "path": "../../run/README.md",
+      "change": "modified",
+      "sha256_at_handoff": "2427f588046e99e34431416d59a7093bcec5f984530d2be1ea73b6b38c53254e"
+    }
+  ]
+}

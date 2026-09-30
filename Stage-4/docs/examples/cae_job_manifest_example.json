@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "case_id": "S4C999999",
+  "N": 12,
+  "process_config_id": "stage4_example_only_v00",
+  "created_at": "2026-09-27T00:00:00+08:00",
+  "example_only": true,
+  "extensions": {
+    "notice": "EXAMPLE ONLY: no real case, run, process config or solver output allocated. Timestamp is illustrative."
+  },
+  "scan_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "cae_run_id": "run_999992",
+  "candidate_manifest_path": "docs/examples/case_example.json",
+  "cae_model_path": "__EXAMPLE_ONLY__/CAE/Models/S4C999999.cae",
+  "inp_path": "__EXAMPLE_ONLY__/CAE/INP/S4C999999.inp",
+  "abaqus_job_name": "S4C999999",
+  "odb_path": "__EXAMPLE_ONLY__/CAE/ODB/S4C999999.odb",
+  "build_status": "not_built",
+  "solver_status": "not_run",
+  "model_template": "__EXAMPLE_ONLY__/templates/deposition_event_v00",
+  "warnings": []
+}

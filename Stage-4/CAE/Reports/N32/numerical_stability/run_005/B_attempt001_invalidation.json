@@ -1,0 +1,5 @@
+{
+  "status": "INVALID_DIAGNOSTIC_IMPLEMENTATION",
+  "reason": "CAE cleared ALE domain after first preheat. Terminated before completed test; preserved all outputs. Corrected lifecycle only; region/frequency/smoothing unchanged.",
+  "parameter_sweep": false
+}

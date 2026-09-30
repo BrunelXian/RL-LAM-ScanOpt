@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stage4CAEJobManifest",
+  "description": "Stage 4 interface v1.0. Example validation is not engineering or scientific validation.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "case_id": {
+      "type": "string",
+      "pattern": "^S4C(?!000000$)[0-9]{6}$"
+    },
+    "N": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "process_config_id": {
+      "type": "string",
+      "pattern": "^stage4_[a-z][a-z0-9_]*_v[0-9]{2,}$",
+      "description": "Immutable configuration identity; example IDs are not registered configurations."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "example_only": {
+      "type": "boolean"
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "scan_order": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "description": "1-based spatial drop IDs; semantic audit MUST check len=N and values<=N. Not executed by this run."
+    },
+    "cae_run_id": {
+      "type": "string",
+      "pattern": "^run_(?!0+$)[0-9]{3,}$"
+    },
+    "candidate_manifest_path": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+      "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+    },
+    "cae_model_path": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+          "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "inp_path": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+          "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "abaqus_job_name": {
+      "type": "string",
+      "pattern": "^S4C(?!000000(?:_|$))[0-9]{6}(?:_[A-Za-z0-9]+)*$",
+      "description": "Default case_id; optional suffix; prefix must equal case_id (semantic identity check)."
+    },
+    "odb_path": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+          "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "build_status": {
+      "enum": [
+        "not_built",
+        "built",
+        "build_warning",
+        "build_failed"
+      ]
+    },
+    "solver_status": {
+      "enum": [
+        "not_run",
+        "submitted",
+        "running",
+        "completed",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "model_template": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Versioned template identifier or root-relative template path; no current model internal validation implied."
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "case_id",
+    "N",
+    "scan_order",
+    "process_config_id",
+    "cae_run_id",
+    "candidate_manifest_path",
+    "cae_model_path",
+    "inp_path",
+    "abaqus_job_name",
+    "odb_path",
+    "build_status",
+    "solver_status",
+    "model_template",
+    "created_at",
+    "example_only"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "example_only": {
+            "const": true
+          }
+        },
+        "required": [
+          "example_only"
+        ]
+      },
+      "then": {
+        "properties": {
+          "case_id": {
+            "const": "S4C999999"
+          },
+          "process_config_id": {
+            "const": "stage4_example_only_v00"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "case_id": {
+            "not": {
+              "const": "S4C999999"
+            }
+          },
+          "process_config_id": {
+            "not": {
+              "const": "stage4_example_only_v00"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "build_status": {
+            "enum": [
+              "built",
+              "build_warning"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cae_model_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+            "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+          },
+          "inp_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+            "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "solver_status": {
+            "not": {
+              "const": "not_run"
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "build_status": {
+            "enum": [
+              "built",
+              "build_warning"
+            ]
+          },
+          "odb_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+            "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+          }
+        }
+      }
+    }
+  ]
+}

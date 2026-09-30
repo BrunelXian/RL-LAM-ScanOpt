@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "diagnostic_only": true,
+  "case_id": null,
+  "process_config_id": null,
+  "N": 32,
+  "scan_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "config": {
+    "project": {
+      "stage": 4
+    },
+    "stage3_reference": {
+      "root": "E:/Projects/RL-LAM-ScanOpt",
+      "read_only": true
+    },
+    "model": {
+      "N": 32,
+      "sanity_model": "CAE/Models/N32/Sanity/N32_sanity.cae"
+    },
+    "timing": {
+      "preheat": 0.1,
+      "react": 1e-06,
+      "coheat": 0.1,
+      "cool": 4.0,
+      "final_cooling": 1200.0
+    },
+    "heat": {
+      "preheat_pool_mag": 80000000000.0,
+      "coheat_pool_mag": 40000000000.0,
+      "coheat_drop_mag": 40000000000.0
+    },
+    "environment": {
+      "temperature": 25.0,
+      "film_coefficient": 46.3,
+      "emissivity": 0.285
+    },
+    "model_change": {
+      "include_strain": false
+    }
+  },
+  "config_path": "E:\\Projects\\Stage-4\\configs\\stage4_sanity.yaml",
+  "config_sha256": "4a7312fabd121982504d3e0f65ab17501eaec1cb4e89971db5451d0e2351ab1f",
+  "base_cae_path": "E:\\Projects\\Stage-4\\CAE\\Models\\N32\\Sanity\\N32_sanity.cae",
+  "base_sha256": "1500483e486c983ef3d2c583655368a5bc37ca5147a2b7318efd2f4172a8ce1e",
+  "output_cae_path": "E:\\Projects\\Stage-4\\CAE\\Models\\N32\\Generated\\diagnostic\\stage4_N32_diag_identity_order.cae"
+}

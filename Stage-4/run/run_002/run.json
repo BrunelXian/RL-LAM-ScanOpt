@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_002",
+  "agent": "stage4_master",
+  "operation": "define_cross_agent_interface_contract",
+  "status": "completed",
+  "started_at": "2026-09-27T23:06:27.256782+08:00",
+  "completed_at": "2026-09-27T23:13:22.784457+08:00",
+  "input_runs": [
+    "run_001"
+  ],
+  "case_ids": [],
+  "artifacts_manifest": "./artifacts/artifacts.json",
+  "validation": {
+    "status": "passed",
+    "report": "../../outputs/diagnostics/stage4_run_002_validation.json",
+    "warnings": []
+  },
+  "handoff": {
+    "ready": true,
+    "target_agents": [
+      "stage4_rl",
+      "stage4_cae",
+      "stage4_odb"
+    ],
+    "scope": "identity/schema/interface contract only; no real cases or engineering execution"
+  },
+  "error": null
+}

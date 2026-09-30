@@ -1,3 +1,9 @@
+> **Stage 4 archive branch — CAE failure analysis and Agent diagnostic evidence**
+>
+> Read the [Stage 4 final README](Stage-4/README.md), [failure analysis](Stage-4/docs/Stage4_Failure_Analysis.md), and [Stage 5 handoff](Stage-4/docs/Stage4_to_Stage5_Handoff.md).
+> The tested CAE route is archived; the bounded, evidence-driven diagnostic workflow is a positive outcome. No Stage 5 execution is included.
+> Original repository content below is retained; this branch does not update the default branch.
+
 # RL-LAM-ScanOpt
 
 [![Project Type](https://img.shields.io/badge/project-research%20radar-blue)](#)

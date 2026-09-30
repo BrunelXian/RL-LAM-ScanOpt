@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": 69765,
+  "counts": {
+    "steps_including_initial": 132,
+    "analysis_steps": 131,
+    "events": 32,
+    "reactivations": 32,
+    "model_change_total": 33,
+    "film": 65,
+    "radiation": 65,
+    "heat_loads": 96
+  },
+  "mapping": [
+    {
+      "event_k": 1,
+      "spatial_i": 12,
+      "react_step": "Step-01-react",
+      "coheat_step": "Step-01-coheat"
+    },
+    {
+      "event_k": 2,
+      "spatial_i": 2,
+      "react_step": "Step-02-react",
+      "coheat_step": "Step-02-coheat"
+    },
+    {
+      "event_k": 3,
+      "spatial_i": 4,
+      "react_step": "Step-03-react",
+      "coheat_step": "Step-03-coheat"
+    },
+    {
+      "event_k": 4,
+      "spatial_i": 16,
+      "react_step": "Step-04-react",
+      "coheat_step": "Step-04-coheat"
+    },
+    {
+      "event_k": 5,
+      "spatial_i": 22,
+      "react_step": "Step-05-react",
+      "coheat_step": "Step-05-coheat"
+    },
+    {
+      "event_k": 6,
+      "spatial_i": 24,
+      "react_step": "Step-06-react",
+      "coheat_step": "Step-06-coheat"
+    },
+    {
+      "event_k": 7,
+      "spatial_i": 32,
+      "react_step": "Step-07-react",
+      "coheat_step": "Step-07-coheat"
+    },
+    {
+      "event_k": 8,
+      "spatial_i": 26,
+      "react_step": "Step-08-react",
+      "coheat_step": "Step-08-coheat"
+    },
+    {
+      "event_k": 9,
+      "spatial_i": 30,
+      "react_step": "Step-09-react",
+      "coheat_step": "Step-09-coheat"
+    },
+    {
+      "event_k": 10,
+      "spatial_i": 20,
+      "react_step": "Step-10-react",
+      "coheat_step": "Step-10-coheat"
+    },
+    {
+      "event_k": 11,
+      "spatial_i": 28,
+      "react_step": "Step-11-react",
+      "coheat_step": "Step-11-coheat"
+    },
+    {
+      "event_k": 12,
+      "spatial_i": 18,
+      "react_step": "Step-12-react",
+      "coheat_step": "Step-12-coheat"
+    },
+    {
+      "event_k": 13,
+      "spatial_i": 14,
+      "react_step": "Step-13-react",
+      "coheat_step": "Step-13-coheat"
+    },
+    {
+      "event_k": 14,
+      "spatial_i": 10,
+      "react_step": "Step-14-react",
+      "coheat_step": "Step-14-coheat"
+    },
+    {
+      "event_k": 15,
+      "spatial_i": 6,
+      "react_step": "Step-15-react",
+      "coheat_step": "Step-15-coheat"
+    },
+    {
+      "event_k": 16,
+      "spatial_i": 1,
+      "react_step": "Step-16-react",
+      "coheat_step": "Step-16-coheat"
+    },
+    {
+      "event_k": 17,
+      "spatial_i": 8,
+      "react_step": "Step-17-react",
+      "coheat_step": "Step-17-coheat"
+    },
+    {
+      "event_k": 18,
+      "spatial_i": 25,
+      "react_step": "Step-18-react",
+      "coheat_step": "Step-18-coheat"
+    },
+    {
+      "event_k": 19,
+      "spatial_i": 29,
+      "react_step": "Step-19-react",
+      "coheat_step": "Step-19-coheat"
+    },
+    {
+      "event_k": 20,
+      "spatial_i": 21,
+      "react_step": "Step-20-react",
+      "coheat_step": "Step-20-coheat"
+    },
+    {
+      "event_k": 21,
+      "spatial_i": 23,
+      "react_step": "Step-21-react",
+      "coheat_step": "Step-21-coheat"
+    },
+    {
+      "event_k": 22,
+      "spatial_i": 31,
+      "react_step": "Step-22-react",
+      "coheat_step": "Step-22-coheat"
+    },
+    {
+      "event_k": 23,
+      "spatial_i": 27,
+      "react_step": "Step-23-react",
+      "coheat_step": "Step-23-coheat"
+    },
+    {
+      "event_k": 24,
+      "spatial_i": 19,
+      "react_step": "Step-24-react",
+      "coheat_step": "Step-24-coheat"
+    },
+    {
+      "event_k": 25,
+      "spatial_i": 17,
+      "react_step": "Step-25-react",
+      "coheat_step": "Step-25-coheat"
+    },
+    {
+      "event_k": 26,
+      "spatial_i": 7,
+      "react_step": "Step-26-react",
+      "coheat_step": "Step-26-coheat"
+    },
+    {
+      "event_k": 27,
+      "spatial_i": 5,
+      "react_step": "Step-27-react",
+      "coheat_step": "Step-27-coheat"
+    },
+    {
+      "event_k": 28,
+      "spatial_i": 3,
+      "react_step": "Step-28-react",
+      "coheat_step": "Step-28-coheat"
+    },
+    {
+      "event_k": 29,
+      "spatial_i": 9,
+      "react_step": "Step-29-react",
+      "coheat_step": "Step-29-coheat"
+    },
+    {
+      "event_k": 30,
+      "spatial_i": 11,
+      "react_step": "Step-30-react",
+      "coheat_step": "Step-30-coheat"
+    },
+    {
+      "event_k": 31,
+      "spatial_i": 15,
+      "react_step": "Step-31-react",
+      "coheat_step": "Step-31-coheat"
+    },
+    {
+      "event_k": 32,
+      "spatial_i": 13,
+      "react_step": "Step-32-react",
+      "coheat_step": "Step-32-coheat"
+    }
+  ],
+  "final_state": {
+    "addi_active": 32,
+    "in_film_off": 32,
+    "in_rad_off": 32,
+    "addi_film_on": 32,
+    "addi_rad_on": 32,
+    "heat_loads_on": 0
+  },
+  "bottom_layer_elements": 136,
+  "scope": "All actual CAE states at every analysis step; removal is a one-time command, propagated removal is not re-applied.",
+  "cae_sha256": "36d970255d1f43027b028c95fedb8b1eab4aaaebf23e70dd77ade2561648f47a",
+  "config_sha256": "4a7312fabd121982504d3e0f65ab17501eaec1cb4e89971db5451d0e2351ab1f"
+}

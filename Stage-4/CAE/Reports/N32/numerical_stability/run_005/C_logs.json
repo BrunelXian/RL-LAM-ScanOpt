@@ -1,0 +1,141 @@
+{
+  "job_name": "stage4_diag_C_STAB_run_005",
+  "solver_status": "FAILED",
+  "last_accepted": {
+    "step": 6,
+    "increment": 1,
+    "attempt": "1",
+    "severe_discontinuity_iterations": 0,
+    "equilibrium_iterations": 4,
+    "total_iterations": 4,
+    "total_time": 5.21,
+    "step_time": 0.01,
+    "time_increment": 0.01
+  },
+  "last_observed_step": 6,
+  "last_observed_step_name": "Step-01-cool",
+  "fatal_step": 6,
+  "fatal_increment": 2,
+  "total_increments": 60,
+  "cutbacks": 5,
+  "total_iterations": 132,
+  "negative_eigenvalue_warnings": 0,
+  "excessive_distortion_warnings": 0,
+  "area_error": false,
+  "minimum_time_increment_reached": false,
+  "wallclock_seconds": 22,
+  "per_step": {
+    "1": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 10,
+      "area_errors": 0
+    },
+    "2": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 14,
+      "area_errors": 0
+    },
+    "3": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 25,
+      "area_errors": 0
+    },
+    "4": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 20,
+      "area_errors": 0
+    },
+    "5": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 0,
+      "attempt_retries": 0,
+      "equilibrium_checks": 36,
+      "area_errors": 0
+    },
+    "6": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 4,
+      "attempt_retries": 4,
+      "equilibrium_checks": 26,
+      "area_errors": 0
+    }
+  },
+  "sta_accepted_increments": 59,
+  "sta_unsuccessful_attempts": 6,
+  "evidence": [
+    {
+      "file": "stage4_diag_C_STAB_run_005.msg",
+      "line": 5796,
+      "text": "\n ***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT\n\n ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT \n           REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.\n\n\n"
+    },
+    {
+      "file": "stage4_diag_C_STAB_run_005.msg",
+      "line": 5798,
+      "text": "\n ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT \n           REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.\n\n\n\n     ANALYSIS SUMMARY:\n     TOTAL OF         60  INCREMENTS"
+    }
+  ],
+  "log_files": {
+    ".msg": {
+      "exists": true,
+      "bytes": 323042
+    },
+    ".dat": {
+      "exists": true,
+      "bytes": 201566
+    },
+    ".sta": {
+      "exists": true,
+      "bytes": 4791
+    },
+    ".log": {
+      "exists": true,
+      "bytes": 786
+    }
+  },
+  "fatal_step_equilibrium_checks": 26,
+  "area_error_labels": [],
+  "distorted_element_labels": [],
+  "isoparametric_angle_warnings": [],
+  "material_calculation_warnings": 2,
+  "divergence_warnings": 4,
+  "equilibrium_checks": 131,
+  "sta_equilibrium_iterations": 136,
+  "sta_total_iterations": 136,
+  "iteration_count_note": "Native total_iterations includes contact; sta_equilibrium_iterations sums equilibrium column over all accepted/unsuccessful attempts. equilibrium_checks counts printed convergence-check headings.",
+  "excessive_element_distortion_lines": 0,
+  "adaptive_mesh": {
+    "smoothing_calls": 0,
+    "reported_mesh_sweeps": [],
+    "warning_lines": []
+  },
+  "last_successful_reactivation": {
+    "step": 4,
+    "name": "Step-01-react"
+  },
+  "failure_phase": "analysis_failure",
+  "too_many_attempts": true,
+  "automatic_starting_damping_factors": [
+    720271000000.0
+  ],
+  "failure_start_step_time": 0.01
+}

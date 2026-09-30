@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_003",
+  "agent": "stage4_cae",
+  "operation": "build_n32_deposition_event_generator",
+  "status": "completed",
+  "started_at": "2026-09-27T23:30:39.124815+08:00",
+  "completed_at": "2026-09-27T23:43:47.067591+08:00",
+  "input_runs": [
+    "run_001",
+    "run_002"
+  ],
+  "case_ids": [],
+  "artifacts_manifest": "./artifacts/artifacts.json",
+  "validation": {
+    "status": "passed",
+    "report": "../../CAE/Reports/N32/diagnostic/run_003/run_validation.json",
+    "warnings": []
+  },
+  "handoff": {
+    "ready": true,
+    "target_agents": [
+      "stage4_master",
+      "stage4_cae"
+    ],
+    "scope": "N32 diagnostic generator and saved CAE state-machine correctness; no solver or production nonidentity authorization"
+  },
+  "error": null,
+  "verdict": "PASS_STAGE4_N32_DEPOSITION_EVENT_GENERATOR_READY"
+}

@@ -1,0 +1,20 @@
+{
+  "time": "2026-09-30T16:07:45.963115+08:00",
+  "protected_sha256_after": {
+    "CAE/Models/N32/Generated/diagnostic/stage4_N32_diag_identity_order.cae": "0b612e7baac43a4f3aa076673bb057c8ecb41924d6b9786fb30beaf608a580c6",
+    "CAE/Models/N32/Sanity/N32_sanity.cae": "407a36afc3f0687bf611869e9f3d54a631e5072076adff720036377f5af23fed",
+    "configs/stage4_sanity.yaml": "4a7312fabd121982504d3e0f65ab17501eaec1cb4e89971db5451d0e2351ab1f",
+    "status/RL_STATUS.md": "a23dede1c58aaf42209a3b396ff6a4fa3f857b4d58bb986637799cde41721497",
+    "status/ODB_STATUS.md": "d87d18edbb02f9093874f2b05352609dc242c83b063d1013889bc5e3af6e9e30"
+  },
+  "protected_hashes_unchanged": true,
+  "stage3_inventory_files": 17209,
+  "stage3_inventory_changed_paths": [],
+  "stage3_check_method": "Relative path, size, mtime_ns inventory; no content hashes of Stage3 tree. No Stage3 write commands executed.",
+  "no_real_case_created": true,
+  "case_ids": [],
+  "active_matrix_job_locks": [],
+  "source_generator_sha256": "91ae6ab43174bed60b1932cc385825ad8862b099db841d4c96e6e45ae6ebb134",
+  "source_audit_sha256": "b80406cef43f7df1df8f450820b2dd3b6f12564c5e4b3626d283027e65970fb6",
+  "stage3_inventory_unchanged": true
+}

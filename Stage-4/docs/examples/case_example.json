@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "case_id": "S4C999999",
+  "N": 12,
+  "process_config_id": "stage4_example_only_v00",
+  "created_at": "2026-09-27T00:00:00+08:00",
+  "example_only": true,
+  "extensions": {
+    "notice": "EXAMPLE ONLY: no real case, run, process config or solver output allocated. Timestamp is illustrative."
+  },
+  "scan_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source": "manual",
+  "source_run_id": "run_999991",
+  "parent_case_ids": [],
+  "candidate_metadata": {
+    "notes": "Schema fixture only; no prediction or measured teacher values."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "run_id": "run_006",
+  "path_base": "run_directory",
+  "artifacts": [
+    {
+      "artifact_id": "README_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../README.md"
+    },
+    {
+      "artifact_id": "AGENTS_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../AGENTS.md"
+    },
+    {
+      "artifact_id": "status_MASTER_STATUS_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../status/MASTER_STATUS.md"
+    },
+    {
+      "artifact_id": "status_CAE_STATUS_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../status/CAE_STATUS.md"
+    },
+    {
+      "artifact_id": "run_README_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../run/README.md"
+    },
+    {
+      "artifact_id": "docs_Stage4_Failure_Analysis_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../docs/Stage4_Failure_Analysis.md"
+    },
+    {
+      "artifact_id": "docs_Stage4_to_Stage5_Handoff_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../docs/Stage4_to_Stage5_Handoff.md"
+    },
+    {
+      "artifact_id": "status_STAGE4_ARCHIVED_md",
+      "type": "archive_document",
+      "role": "archive_delivery",
+      "path": "../../status/STAGE4_ARCHIVED.md"
+    },
+    {
+      "artifact_id": "outputs_diagnostics_stage4_run_006_before_json",
+      "type": "audit_metadata",
+      "role": "archive_delivery",
+      "path": "../../outputs/diagnostics/stage4_run_006_before.json"
+    },
+    {
+      "artifact_id": "outputs_diagnostics_stage4_run_006_validation_json",
+      "type": "audit_metadata",
+      "role": "archive_delivery",
+      "path": "../../outputs/diagnostics/stage4_run_006_validation.json"
+    }
+  ]
+}

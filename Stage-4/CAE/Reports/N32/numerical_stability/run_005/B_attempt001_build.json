@@ -1,0 +1,1106 @@
+{
+  "case": "B",
+  "baseline": "E:\\Projects\\Stage-4\\CAE\\Models\\N32\\Generated\\diagnostic\\stage4_N32_diag_identity_order.cae",
+  "baseline_sha256": "0b612e7baac43a4f3aa076673bb057c8ecb41924d6b9786fb30beaf608a580c6",
+  "solver": "Abaqus/Standard",
+  "job_name": "stage4_diag_B_ALE_run_005",
+  "cae_path": "E:\\Projects\\Stage-4\\CAE\\Models\\N32\\Generated\\diagnostic\\numerical_stability\\run_005\\stage4_N32_diag_B_ALE.cae",
+  "job_dir": "E:\\Projects\\Stage-4\\CAE\\Jobs\\run_005\\B_ALE",
+  "ale": {
+    "region": "diag_ALE_pool_band",
+    "source_sets": [
+      "set_pool_1",
+      "set_pool_2",
+      "set_pool_3",
+      "set_pool_4",
+      "set_pool_5",
+      "set_pool_6",
+      "set_pool_7",
+      "set_pool_8",
+      "set_pool_9",
+      "set_pool_10",
+      "set_pool_11",
+      "set_pool_12",
+      "set_pool_13",
+      "set_pool_14",
+      "set_pool_15",
+      "set_pool_16",
+      "set_pool_17",
+      "set_pool_18",
+      "set_pool_19",
+      "set_pool_20",
+      "set_pool_21",
+      "set_pool_22",
+      "set_pool_23",
+      "set_pool_24",
+      "set_pool_25",
+      "set_pool_26",
+      "set_pool_27",
+      "set_pool_28",
+      "set_pool_29",
+      "set_pool_30",
+      "set_pool_31",
+      "set_pool_32"
+    ],
+    "labels": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      825,
+      826,
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      857,
+      858,
+      859,
+      860,
+      861,
+      862,
+      863,
+      864,
+      889,
+      890,
+      891,
+      892,
+      893,
+      894,
+      895,
+      896,
+      921,
+      922,
+      923,
+      924,
+      925,
+      926,
+      927,
+      928,
+      953,
+      954,
+      955,
+      956,
+      957,
+      958,
+      959,
+      960,
+      985,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+    ],
+    "start_step": "Step-01-preheat",
+    "frequency": 10,
+    "meshSweeps": 1,
+    "controls": "default",
+    "initialMeshSweeps": "API default 5 (Explicit-only keyword parameter; Standard ignores initial-sweep control)",
+    "removed_element_overlap": 0,
+    "purpose": "always-active substrate pool strip next to reactivation interface; no deposit removal/addition in ALE domain"
+  },
+  "stabilization": null,
+  "physical_snapshot_unchanged": true,
+  "step_controls": {
+    "Step-initial-remove": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-initial-equilibration": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-01-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {
+        "Step-01-preheat": "({'controls': '', 'frequency': 10, 'initialMeshSweeps': 2147483647, 'meshSweeps': 1, 'name': 'Step-01-preheat', 'region': ('diag_ALE_pool_band', 'Assembly', 2, 2, 0)})"
+      }
+    },
+    "Step-01-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-01-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-01-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-02-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-02-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-02-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-02-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-03-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-03-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-03-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-03-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-04-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-04-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-04-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-04-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-05-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-05-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-05-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-05-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-06-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-06-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-06-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-06-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-07-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-07-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-07-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-07-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-08-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-08-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-08-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-08-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-09-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-09-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-09-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-09-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-10-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-10-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-10-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-10-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-11-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-11-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-11-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-11-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-12-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-12-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-12-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-12-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-13-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-13-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-13-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-13-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-14-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-14-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-14-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-14-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-15-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-15-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-15-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-15-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-16-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-16-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-16-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-16-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-17-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-17-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-17-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-17-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-18-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-18-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-18-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-18-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-19-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-19-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-19-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-19-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-20-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-20-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-20-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-20-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-21-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-21-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-21-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-21-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-22-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-22-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-22-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-22-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-23-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-23-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-23-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-23-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-24-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-24-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-24-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-24-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-25-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-25-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-25-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-25-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-26-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-26-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-26-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-26-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-27-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-27-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-27-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-27-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-28-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-28-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-28-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-28-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-29-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-29-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-29-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-29-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-30-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-30-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-30-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-30-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-31-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-31-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-31-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-31-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-32-preheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-32-react": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-32-coheat": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-32-cool": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    },
+    "Step-final-cooling": {
+      "stabilizationMethod": "NONE",
+      "stabilizationMagnitude": 1.7976931348623157e+308,
+      "adaptiveDampingRatio": 1.7976931348623157e+308,
+      "adaptiveMeshDomains": {}
+    }
+  },
+  "cae_sha256": "b932525a7f202205e458cfa2cc766e3ca299faf6f333b193df76705b2e70c9d8",
+  "inp_sha256": "e7e02079515ef93d7f4f795170aa01ad872d4ad791e55fb87e5d633d866e4b12",
+  "status": "built"
+}

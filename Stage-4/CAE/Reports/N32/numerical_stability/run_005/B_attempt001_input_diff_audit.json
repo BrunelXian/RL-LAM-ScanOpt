@@ -1,0 +1,11 @@
+{
+  "case": "B",
+  "status": "passed",
+  "allowed_numerical_changes": [
+    "*Elset, elset=diag_ALE_pool_band, instance=inst_plate",
+    "*Adaptive Mesh, elset=diag_ALE_pool_band, op=NEW",
+    "*Adaptive Mesh, op=NEW"
+  ],
+  "unexpected_diff": [],
+  "meaning": "All input lines identical after removal of job comments and explicitly allowed ALE/stabilization definitions; original mesh/material/BC/load/interaction/duration/output data unchanged."
+}

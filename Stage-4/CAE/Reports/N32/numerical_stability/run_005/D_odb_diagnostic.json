@@ -1,0 +1,3854 @@
+{
+  "case": "D",
+  "odb_path": "E:\\Projects\\Stage-4\\CAE\\Jobs\\run_005\\D_ALE_STAB\\stage4_diag_D_ALE_STAB_run_005.odb",
+  "read_only": true,
+  "available": true,
+  "steps": [
+    {
+      "name": "Step-initial-remove",
+      "number": 1,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 11,
+      "last_frame_time": 9.999999974752427e-07
+    },
+    {
+      "name": "Step-initial-equilibration",
+      "number": 2,
+      "timePeriod": 5.0,
+      "frames": 15,
+      "last_frame_time": 5.0
+    },
+    {
+      "name": "Step-01-preheat",
+      "number": 3,
+      "timePeriod": 0.10000000149011612,
+      "frames": 13,
+      "last_frame_time": 0.10000000149011612
+    },
+    {
+      "name": "Step-01-react",
+      "number": 4,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 11,
+      "last_frame_time": 9.999999974752427e-07
+    },
+    {
+      "name": "Step-01-coheat",
+      "number": 5,
+      "timePeriod": 0.10000000149011612,
+      "frames": 13,
+      "last_frame_time": 0.10000000149011612
+    },
+    {
+      "name": "Step-01-cool",
+      "number": 6,
+      "timePeriod": 0.009999999776482582,
+      "frames": 3,
+      "last_frame_time": 0.009999999776482582
+    },
+    {
+      "name": "Step-02-preheat",
+      "number": 7,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-02-react",
+      "number": 8,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-02-coheat",
+      "number": 9,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-02-cool",
+      "number": 10,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-03-preheat",
+      "number": 11,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-03-react",
+      "number": 12,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-03-coheat",
+      "number": 13,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-03-cool",
+      "number": 14,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-04-preheat",
+      "number": 15,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-04-react",
+      "number": 16,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-04-coheat",
+      "number": 17,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-04-cool",
+      "number": 18,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-05-preheat",
+      "number": 19,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-05-react",
+      "number": 20,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-05-coheat",
+      "number": 21,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-05-cool",
+      "number": 22,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-06-preheat",
+      "number": 23,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-06-react",
+      "number": 24,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-06-coheat",
+      "number": 25,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-06-cool",
+      "number": 26,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-07-preheat",
+      "number": 27,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-07-react",
+      "number": 28,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-07-coheat",
+      "number": 29,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-07-cool",
+      "number": 30,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-08-preheat",
+      "number": 31,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-08-react",
+      "number": 32,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-08-coheat",
+      "number": 33,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-08-cool",
+      "number": 34,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-09-preheat",
+      "number": 35,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-09-react",
+      "number": 36,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-09-coheat",
+      "number": 37,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-09-cool",
+      "number": 38,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-10-preheat",
+      "number": 39,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-10-react",
+      "number": 40,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-10-coheat",
+      "number": 41,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-10-cool",
+      "number": 42,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-11-preheat",
+      "number": 43,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-11-react",
+      "number": 44,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-11-coheat",
+      "number": 45,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-11-cool",
+      "number": 46,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-12-preheat",
+      "number": 47,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-12-react",
+      "number": 48,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-12-coheat",
+      "number": 49,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-12-cool",
+      "number": 50,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-13-preheat",
+      "number": 51,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-13-react",
+      "number": 52,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-13-coheat",
+      "number": 53,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-13-cool",
+      "number": 54,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-14-preheat",
+      "number": 55,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-14-react",
+      "number": 56,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-14-coheat",
+      "number": 57,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-14-cool",
+      "number": 58,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-15-preheat",
+      "number": 59,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-15-react",
+      "number": 60,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-15-coheat",
+      "number": 61,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-15-cool",
+      "number": 62,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-16-preheat",
+      "number": 63,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-16-react",
+      "number": 64,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-16-coheat",
+      "number": 65,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-16-cool",
+      "number": 66,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-17-preheat",
+      "number": 67,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-17-react",
+      "number": 68,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-17-coheat",
+      "number": 69,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-17-cool",
+      "number": 70,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-18-preheat",
+      "number": 71,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-18-react",
+      "number": 72,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-18-coheat",
+      "number": 73,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-18-cool",
+      "number": 74,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-19-preheat",
+      "number": 75,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-19-react",
+      "number": 76,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-19-coheat",
+      "number": 77,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-19-cool",
+      "number": 78,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-20-preheat",
+      "number": 79,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-20-react",
+      "number": 80,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-20-coheat",
+      "number": 81,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-20-cool",
+      "number": 82,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-21-preheat",
+      "number": 83,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-21-react",
+      "number": 84,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-21-coheat",
+      "number": 85,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-21-cool",
+      "number": 86,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-22-preheat",
+      "number": 87,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-22-react",
+      "number": 88,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-22-coheat",
+      "number": 89,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-22-cool",
+      "number": 90,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-23-preheat",
+      "number": 91,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-23-react",
+      "number": 92,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-23-coheat",
+      "number": 93,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-23-cool",
+      "number": 94,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-24-preheat",
+      "number": 95,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-24-react",
+      "number": 96,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-24-coheat",
+      "number": 97,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-24-cool",
+      "number": 98,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-25-preheat",
+      "number": 99,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-25-react",
+      "number": 100,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-25-coheat",
+      "number": 101,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-25-cool",
+      "number": 102,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-26-preheat",
+      "number": 103,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-26-react",
+      "number": 104,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-26-coheat",
+      "number": 105,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-26-cool",
+      "number": 106,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-27-preheat",
+      "number": 107,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-27-react",
+      "number": 108,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-27-coheat",
+      "number": 109,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-27-cool",
+      "number": 110,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-28-preheat",
+      "number": 111,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-28-react",
+      "number": 112,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-28-coheat",
+      "number": 113,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-28-cool",
+      "number": 114,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-29-preheat",
+      "number": 115,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-29-react",
+      "number": 116,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-29-coheat",
+      "number": 117,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-29-cool",
+      "number": 118,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-30-preheat",
+      "number": 119,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-30-react",
+      "number": 120,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-30-coheat",
+      "number": 121,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-30-cool",
+      "number": 122,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-31-preheat",
+      "number": 123,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-31-react",
+      "number": 124,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-31-coheat",
+      "number": 125,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-31-cool",
+      "number": 126,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-32-preheat",
+      "number": 127,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-32-react",
+      "number": 128,
+      "timePeriod": 9.999999974752427e-07,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-32-coheat",
+      "number": 129,
+      "timePeriod": 0.10000000149011612,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-32-cool",
+      "number": 130,
+      "timePeriod": 4.0,
+      "frames": 0,
+      "last_frame_time": null
+    },
+    {
+      "name": "Step-final-cooling",
+      "number": 131,
+      "timePeriod": 1200.0,
+      "frames": 0,
+      "last_frame_time": null
+    }
+  ],
+  "history_curves": [
+    {
+      "step": "Step-initial-remove",
+      "time_offset": 0.0,
+      "histories": {
+        "ALLAE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLIE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLKE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLPD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLSD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLSE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLWK": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ETOTAL": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "step": "Step-initial-equilibration",
+      "time_offset": 9.999999974752427e-07,
+      "histories": {
+        "ALLAE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.20000000298023224,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.8999999761581421,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.0
+          ],
+          [
+            1.899999976158142,
+            0.0
+          ],
+          [
+            2.4000000953674316,
+            0.0
+          ],
+          [
+            2.9000000953674316,
+            0.0
+          ],
+          [
+            3.4000000953674316,
+            0.0
+          ],
+          [
+            3.9000000953674316,
+            0.0
+          ],
+          [
+            4.400000095367432,
+            0.0
+          ],
+          [
+            4.900000095367432,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ]
+        ],
+        "ALLIE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            8.486518199959968e-34
+          ],
+          [
+            0.20000000298023224,
+            5.87777885201059e-33
+          ],
+          [
+            0.30000001192092896,
+            1.6217344877238873e-32
+          ],
+          [
+            0.5,
+            3.055214730657936e-32
+          ],
+          [
+            0.8999999761581421,
+            2.913288775349118e-32
+          ],
+          [
+            1.399999976158142,
+            3.177128776264768e-32
+          ],
+          [
+            1.899999976158142,
+            4.564991169116075e-32
+          ],
+          [
+            2.4000000953674316,
+            5.998218533827903e-32
+          ],
+          [
+            2.9000000953674316,
+            6.762345697844054e-32
+          ],
+          [
+            3.4000000953674316,
+            7.816329197621841e-32
+          ],
+          [
+            3.9000000953674316,
+            9.159674737786745e-32
+          ],
+          [
+            4.400000095367432,
+            9.752943210163701e-32
+          ],
+          [
+            4.900000095367432,
+            1.0180989486313655e-31
+          ],
+          [
+            5.0,
+            9.206507608217856e-32
+          ]
+        ],
+        "ALLKE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.20000000298023224,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.8999999761581421,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.0
+          ],
+          [
+            1.899999976158142,
+            0.0
+          ],
+          [
+            2.4000000953674316,
+            0.0
+          ],
+          [
+            2.9000000953674316,
+            0.0
+          ],
+          [
+            3.4000000953674316,
+            0.0
+          ],
+          [
+            3.9000000953674316,
+            0.0
+          ],
+          [
+            4.400000095367432,
+            0.0
+          ],
+          [
+            4.900000095367432,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ]
+        ],
+        "ALLPD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.20000000298023224,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.8999999761581421,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.0
+          ],
+          [
+            1.899999976158142,
+            0.0
+          ],
+          [
+            2.4000000953674316,
+            0.0
+          ],
+          [
+            2.9000000953674316,
+            0.0
+          ],
+          [
+            3.4000000953674316,
+            0.0
+          ],
+          [
+            3.9000000953674316,
+            0.0
+          ],
+          [
+            4.400000095367432,
+            0.0
+          ],
+          [
+            4.900000095367432,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ]
+        ],
+        "ALLSD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.20000000298023224,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.8999999761581421,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.0
+          ],
+          [
+            1.899999976158142,
+            0.0
+          ],
+          [
+            2.4000000953674316,
+            0.0
+          ],
+          [
+            2.9000000953674316,
+            0.0
+          ],
+          [
+            3.4000000953674316,
+            0.0
+          ],
+          [
+            3.9000000953674316,
+            0.0
+          ],
+          [
+            4.400000095367432,
+            0.0
+          ],
+          [
+            4.900000095367432,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ]
+        ],
+        "ALLSE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            8.486518199959968e-34
+          ],
+          [
+            0.20000000298023224,
+            5.87777885201059e-33
+          ],
+          [
+            0.30000001192092896,
+            1.6217344877238873e-32
+          ],
+          [
+            0.5,
+            3.055214730657936e-32
+          ],
+          [
+            0.8999999761581421,
+            2.913288775349118e-32
+          ],
+          [
+            1.399999976158142,
+            3.177128776264768e-32
+          ],
+          [
+            1.899999976158142,
+            4.564991169116075e-32
+          ],
+          [
+            2.4000000953674316,
+            5.998218533827903e-32
+          ],
+          [
+            2.9000000953674316,
+            6.762345697844054e-32
+          ],
+          [
+            3.4000000953674316,
+            7.816329197621841e-32
+          ],
+          [
+            3.9000000953674316,
+            9.159674737786745e-32
+          ],
+          [
+            4.400000095367432,
+            9.752943210163701e-32
+          ],
+          [
+            4.900000095367432,
+            1.0180989486313655e-31
+          ],
+          [
+            5.0,
+            9.206507608217856e-32
+          ]
+        ],
+        "ALLWK": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.20000000298023224,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            0.0
+          ],
+          [
+            0.5,
+            -0.0
+          ],
+          [
+            0.8999999761581421,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.0
+          ],
+          [
+            1.899999976158142,
+            0.0
+          ],
+          [
+            2.4000000953674316,
+            0.0
+          ],
+          [
+            2.9000000953674316,
+            0.0
+          ],
+          [
+            3.4000000953674316,
+            0.0
+          ],
+          [
+            3.9000000953674316,
+            0.0
+          ],
+          [
+            4.400000095367432,
+            0.0
+          ],
+          [
+            4.900000095367432,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ]
+        ],
+        "ETOTAL": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            8.486518199959968e-34
+          ],
+          [
+            0.20000000298023224,
+            5.87777885201059e-33
+          ],
+          [
+            0.30000001192092896,
+            1.6217344877238873e-32
+          ],
+          [
+            0.5,
+            3.055214730657936e-32
+          ],
+          [
+            0.8999999761581421,
+            2.913288775349118e-32
+          ],
+          [
+            1.399999976158142,
+            3.177128776264768e-32
+          ],
+          [
+            1.899999976158142,
+            4.564991169116075e-32
+          ],
+          [
+            2.4000000953674316,
+            5.998218533827903e-32
+          ],
+          [
+            2.9000000953674316,
+            6.762345697844054e-32
+          ],
+          [
+            3.4000000953674316,
+            7.816329197621841e-32
+          ],
+          [
+            3.9000000953674316,
+            9.159674737786745e-32
+          ],
+          [
+            4.400000095367432,
+            9.752943210163701e-32
+          ],
+          [
+            4.900000095367432,
+            1.0180989486313655e-31
+          ],
+          [
+            5.0,
+            9.206507608217856e-32
+          ]
+        ]
+      }
+    },
+    {
+      "step": "Step-01-preheat",
+      "time_offset": 5.0000009999999975,
+      "histories": {
+        "ALLAE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            0.0
+          ],
+          [
+            0.032499998807907104,
+            0.0
+          ],
+          [
+            0.042500000447034836,
+            0.0
+          ],
+          [
+            0.05249999836087227,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0
+          ],
+          [
+            0.07249999791383743,
+            0.0
+          ],
+          [
+            0.08250000327825546,
+            0.0
+          ],
+          [
+            0.0925000011920929,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ]
+        ],
+        "ALLIE": [
+          [
+            0.0,
+            9.206507608217856e-32
+          ],
+          [
+            0.004999999888241291,
+            0.42725834250450134
+          ],
+          [
+            0.009999999776482582,
+            1.5820019245147705
+          ],
+          [
+            0.014999999664723873,
+            3.1193416118621826
+          ],
+          [
+            0.02250000089406967,
+            5.557461738586426
+          ],
+          [
+            0.032499998807907104,
+            8.861433029174805
+          ],
+          [
+            0.042500000447034836,
+            12.063737869262695
+          ],
+          [
+            0.05249999836087227,
+            15.05830192565918
+          ],
+          [
+            0.0625,
+            17.8299617767334
+          ],
+          [
+            0.07249999791383743,
+            20.420940399169922
+          ],
+          [
+            0.08250000327825546,
+            22.826557159423828
+          ],
+          [
+            0.0925000011920929,
+            25.084117889404297
+          ],
+          [
+            0.10000000149011612,
+            26.718402862548828
+          ]
+        ],
+        "ALLKE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            0.0
+          ],
+          [
+            0.032499998807907104,
+            0.0
+          ],
+          [
+            0.042500000447034836,
+            0.0
+          ],
+          [
+            0.05249999836087227,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0
+          ],
+          [
+            0.07249999791383743,
+            0.0
+          ],
+          [
+            0.08250000327825546,
+            0.0
+          ],
+          [
+            0.0925000011920929,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ]
+        ],
+        "ALLPD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.1710754632949829
+          ],
+          [
+            0.014999999664723873,
+            1.1203253269195557
+          ],
+          [
+            0.02250000089406967,
+            2.8390891551971436
+          ],
+          [
+            0.032499998807907104,
+            5.361273288726807
+          ],
+          [
+            0.042500000447034836,
+            8.144143104553223
+          ],
+          [
+            0.05249999836087227,
+            10.755844116210938
+          ],
+          [
+            0.0625,
+            13.293349266052246
+          ],
+          [
+            0.07249999791383743,
+            15.667988777160645
+          ],
+          [
+            0.08250000327825546,
+            17.914621353149414
+          ],
+          [
+            0.0925000011920929,
+            20.054157257080078
+          ],
+          [
+            0.10000000149011612,
+            21.595731735229492
+          ]
+        ],
+        "ALLSD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            0.0
+          ],
+          [
+            0.032499998807907104,
+            0.0
+          ],
+          [
+            0.042500000447034836,
+            0.0
+          ],
+          [
+            0.05249999836087227,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0
+          ],
+          [
+            0.07249999791383743,
+            0.0
+          ],
+          [
+            0.08250000327825546,
+            0.0
+          ],
+          [
+            0.0925000011920929,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ]
+        ],
+        "ALLSE": [
+          [
+            0.0,
+            9.206507608217856e-32
+          ],
+          [
+            0.004999999888241291,
+            0.42725834250450134
+          ],
+          [
+            0.009999999776482582,
+            1.410926342010498
+          ],
+          [
+            0.014999999664723873,
+            1.999016284942627
+          ],
+          [
+            0.02250000089406967,
+            2.7183728218078613
+          ],
+          [
+            0.032499998807907104,
+            3.500159502029419
+          ],
+          [
+            0.042500000447034836,
+            3.9195945262908936
+          ],
+          [
+            0.05249999836087227,
+            4.302457332611084
+          ],
+          [
+            0.0625,
+            4.536612033843994
+          ],
+          [
+            0.07249999791383743,
+            4.7529520988464355
+          ],
+          [
+            0.08250000327825546,
+            4.9119367599487305
+          ],
+          [
+            0.0925000011920929,
+            5.029962062835693
+          ],
+          [
+            0.10000000149011612,
+            5.122671604156494
+          ]
+        ],
+        "ALLWK": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            -0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            -0.0
+          ],
+          [
+            0.032499998807907104,
+            -1.2970676424707943e-38
+          ],
+          [
+            0.042500000447034836,
+            -2.772858012120347e-38
+          ],
+          [
+            0.05249999836087227,
+            -5.192432426322222e-38
+          ],
+          [
+            0.0625,
+            -7.505845029386234e-38
+          ],
+          [
+            0.07249999791383743,
+            -9.700266653611797e-38
+          ],
+          [
+            0.08250000327825546,
+            -1.134636411238276e-37
+          ],
+          [
+            0.0925000011920929,
+            -1.1349540015222305e-37
+          ],
+          [
+            0.10000000149011612,
+            -7.26328923352178e-38
+          ]
+        ],
+        "ETOTAL": [
+          [
+            0.0,
+            9.206507608217856e-32
+          ],
+          [
+            0.004999999888241291,
+            0.42725834250450134
+          ],
+          [
+            0.009999999776482582,
+            1.5820019245147705
+          ],
+          [
+            0.014999999664723873,
+            3.1193416118621826
+          ],
+          [
+            0.02250000089406967,
+            5.557461738586426
+          ],
+          [
+            0.032499998807907104,
+            8.861433029174805
+          ],
+          [
+            0.042500000447034836,
+            12.063737869262695
+          ],
+          [
+            0.05249999836087227,
+            15.05830192565918
+          ],
+          [
+            0.0625,
+            17.8299617767334
+          ],
+          [
+            0.07249999791383743,
+            20.420940399169922
+          ],
+          [
+            0.08250000327825546,
+            22.826557159423828
+          ],
+          [
+            0.0925000011920929,
+            25.084117889404297
+          ],
+          [
+            0.10000000149011612,
+            26.718402862548828
+          ]
+        ]
+      }
+    },
+    {
+      "step": "Step-01-react",
+      "time_offset": 5.100001001490114,
+      "histories": {
+        "ALLAE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLIE": [
+          [
+            0.0,
+            26.718402862548828
+          ],
+          [
+            1.0000000116860974e-07,
+            26.718353271484375
+          ],
+          [
+            2.0000000233721948e-07,
+            26.718353271484375
+          ],
+          [
+            3.000000106112566e-07,
+            26.718353271484375
+          ],
+          [
+            4.0000000467443897e-07,
+            26.718351364135742
+          ],
+          [
+            4.999999987376214e-07,
+            26.718353271484375
+          ],
+          [
+            6.000000212225132e-07,
+            26.718353271484375
+          ],
+          [
+            6.999999868639861e-07,
+            26.718353271484375
+          ],
+          [
+            8.000000093488779e-07,
+            26.718353271484375
+          ],
+          [
+            8.999999749903509e-07,
+            26.718355178833008
+          ],
+          [
+            9.999999974752427e-07,
+            26.71835708618164
+          ]
+        ],
+        "ALLKE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLPD": [
+          [
+            0.0,
+            21.595731735229492
+          ],
+          [
+            1.0000000116860974e-07,
+            21.598068237304688
+          ],
+          [
+            2.0000000233721948e-07,
+            21.59807014465332
+          ],
+          [
+            3.000000106112566e-07,
+            21.598072052001953
+          ],
+          [
+            4.0000000467443897e-07,
+            21.598073959350586
+          ],
+          [
+            4.999999987376214e-07,
+            21.59807586669922
+          ],
+          [
+            6.000000212225132e-07,
+            21.59807777404785
+          ],
+          [
+            6.999999868639861e-07,
+            21.598079681396484
+          ],
+          [
+            8.000000093488779e-07,
+            21.598081588745117
+          ],
+          [
+            8.999999749903509e-07,
+            21.59808349609375
+          ],
+          [
+            9.999999974752427e-07,
+            21.598085403442383
+          ]
+        ],
+        "ALLSD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0000000116860974e-07,
+            0.0
+          ],
+          [
+            2.0000000233721948e-07,
+            0.0
+          ],
+          [
+            3.000000106112566e-07,
+            0.0
+          ],
+          [
+            4.0000000467443897e-07,
+            0.0
+          ],
+          [
+            4.999999987376214e-07,
+            0.0
+          ],
+          [
+            6.000000212225132e-07,
+            0.0
+          ],
+          [
+            6.999999868639861e-07,
+            0.0
+          ],
+          [
+            8.000000093488779e-07,
+            0.0
+          ],
+          [
+            8.999999749903509e-07,
+            0.0
+          ],
+          [
+            9.999999974752427e-07,
+            0.0
+          ]
+        ],
+        "ALLSE": [
+          [
+            0.0,
+            5.122671604156494
+          ],
+          [
+            1.0000000116860974e-07,
+            5.1202850341796875
+          ],
+          [
+            2.0000000233721948e-07,
+            5.120283126831055
+          ],
+          [
+            3.000000106112566e-07,
+            5.120281219482422
+          ],
+          [
+            4.0000000467443897e-07,
+            5.120279312133789
+          ],
+          [
+            4.999999987376214e-07,
+            5.120277404785156
+          ],
+          [
+            6.000000212225132e-07,
+            5.120275497436523
+          ],
+          [
+            6.999999868639861e-07,
+            5.120274066925049
+          ],
+          [
+            8.000000093488779e-07,
+            5.120272636413574
+          ],
+          [
+            8.999999749903509e-07,
+            5.120271682739258
+          ],
+          [
+            9.999999974752427e-07,
+            5.120270729064941
+          ]
+        ],
+        "ALLWK": [
+          [
+            0.0,
+            -7.26328923352178e-38
+          ],
+          [
+            1.0000000116860974e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            2.0000000233721948e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            3.000000106112566e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            4.0000000467443897e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            4.999999987376214e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            6.000000212225132e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            6.999999868639861e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            8.000000093488779e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            8.999999749903509e-07,
+            -6.760669818779597e-38
+          ],
+          [
+            9.999999974752427e-07,
+            -6.760669818779597e-38
+          ]
+        ],
+        "ETOTAL": [
+          [
+            0.0,
+            26.718402862548828
+          ],
+          [
+            1.0000000116860974e-07,
+            26.718353271484375
+          ],
+          [
+            2.0000000233721948e-07,
+            26.718353271484375
+          ],
+          [
+            3.000000106112566e-07,
+            26.718353271484375
+          ],
+          [
+            4.0000000467443897e-07,
+            26.718351364135742
+          ],
+          [
+            4.999999987376214e-07,
+            26.718353271484375
+          ],
+          [
+            6.000000212225132e-07,
+            26.718353271484375
+          ],
+          [
+            6.999999868639861e-07,
+            26.718353271484375
+          ],
+          [
+            8.000000093488779e-07,
+            26.718353271484375
+          ],
+          [
+            8.999999749903509e-07,
+            26.718355178833008
+          ],
+          [
+            9.999999974752427e-07,
+            26.71835708618164
+          ]
+        ]
+      }
+    },
+    {
+      "step": "Step-01-coheat",
+      "time_offset": 5.100002001490111,
+      "histories": {
+        "ALLAE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            0.0
+          ],
+          [
+            0.032499998807907104,
+            0.0
+          ],
+          [
+            0.042500000447034836,
+            0.0
+          ],
+          [
+            0.05249999836087227,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0
+          ],
+          [
+            0.07249999791383743,
+            0.0
+          ],
+          [
+            0.08250000327825546,
+            0.0
+          ],
+          [
+            0.0925000011920929,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ]
+        ],
+        "ALLIE": [
+          [
+            0.0,
+            26.71835708618164
+          ],
+          [
+            0.004999999888241291,
+            27.39068031311035
+          ],
+          [
+            0.009999999776482582,
+            28.08949089050293
+          ],
+          [
+            0.014999999664723873,
+            28.798603057861328
+          ],
+          [
+            0.02250000089406967,
+            29.86981773376465
+          ],
+          [
+            0.032499998807907104,
+            31.302453994750977
+          ],
+          [
+            0.042500000447034836,
+            32.75458908081055
+          ],
+          [
+            0.05249999836087227,
+            34.19816970825195
+          ],
+          [
+            0.0625,
+            35.64213180541992
+          ],
+          [
+            0.07249999791383743,
+            37.08139419555664
+          ],
+          [
+            0.08250000327825546,
+            38.53240203857422
+          ],
+          [
+            0.0925000011920929,
+            39.99123764038086
+          ],
+          [
+            0.10000000149011612,
+            41.10662078857422
+          ]
+        ],
+        "ALLKE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            0.0
+          ],
+          [
+            0.032499998807907104,
+            0.0
+          ],
+          [
+            0.042500000447034836,
+            0.0
+          ],
+          [
+            0.05249999836087227,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0
+          ],
+          [
+            0.07249999791383743,
+            0.0
+          ],
+          [
+            0.08250000327825546,
+            0.0
+          ],
+          [
+            0.0925000011920929,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ]
+        ],
+        "ALLPD": [
+          [
+            0.0,
+            21.598085403442383
+          ],
+          [
+            0.004999999888241291,
+            22.228485107421875
+          ],
+          [
+            0.009999999776482582,
+            22.888587951660156
+          ],
+          [
+            0.014999999664723873,
+            23.565826416015625
+          ],
+          [
+            0.02250000089406967,
+            24.55549430847168
+          ],
+          [
+            0.032499998807907104,
+            25.853981018066406
+          ],
+          [
+            0.042500000447034836,
+            27.126842498779297
+          ],
+          [
+            0.05249999836087227,
+            28.394895553588867
+          ],
+          [
+            0.0625,
+            29.678918838500977
+          ],
+          [
+            0.07249999791383743,
+            30.972431182861328
+          ],
+          [
+            0.08250000327825546,
+            32.25275421142578
+          ],
+          [
+            0.0925000011920929,
+            33.5220947265625
+          ],
+          [
+            0.10000000149011612,
+            34.49126434326172
+          ]
+        ],
+        "ALLSD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.004999999888241291,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.014999999664723873,
+            0.0
+          ],
+          [
+            0.02250000089406967,
+            0.0
+          ],
+          [
+            0.032499998807907104,
+            0.0
+          ],
+          [
+            0.042500000447034836,
+            0.0
+          ],
+          [
+            0.05249999836087227,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0
+          ],
+          [
+            0.07249999791383743,
+            0.0
+          ],
+          [
+            0.08250000327825546,
+            0.0
+          ],
+          [
+            0.0925000011920929,
+            0.0
+          ],
+          [
+            0.10000000149011612,
+            0.0
+          ]
+        ],
+        "ALLSE": [
+          [
+            0.0,
+            5.120270729064941
+          ],
+          [
+            0.004999999888241291,
+            5.162195682525635
+          ],
+          [
+            0.009999999776482582,
+            5.200901508331299
+          ],
+          [
+            0.014999999664723873,
+            5.232777118682861
+          ],
+          [
+            0.02250000089406967,
+            5.314323902130127
+          ],
+          [
+            0.032499998807907104,
+            5.448473930358887
+          ],
+          [
+            0.042500000447034836,
+            5.627746105194092
+          ],
+          [
+            0.05249999836087227,
+            5.8032732009887695
+          ],
+          [
+            0.0625,
+            5.963213920593262
+          ],
+          [
+            0.07249999791383743,
+            6.108962059020996
+          ],
+          [
+            0.08250000327825546,
+            6.279648780822754
+          ],
+          [
+            0.0925000011920929,
+            6.469143390655518
+          ],
+          [
+            0.10000000149011612,
+            6.6153564453125
+          ]
+        ],
+        "ALLWK": [
+          [
+            0.0,
+            -6.760669818779597e-38
+          ],
+          [
+            0.004999999888241291,
+            -6.761312173995644e-38
+          ],
+          [
+            0.009999999776482582,
+            -6.761232019723484e-38
+          ],
+          [
+            0.014999999664723873,
+            -6.621121230950117e-38
+          ],
+          [
+            0.02250000089406967,
+            -6.109018949240156e-38
+          ],
+          [
+            0.032499998807907104,
+            -5.469786386691561e-38
+          ],
+          [
+            0.042500000447034836,
+            -5.469705671900016e-38
+          ],
+          [
+            0.05249999836087227,
+            -4.863220333423921e-38
+          ],
+          [
+            0.0625,
+            -4.191783970347292e-38
+          ],
+          [
+            0.07249999791383743,
+            -4.247876266316057e-38
+          ],
+          [
+            0.08250000327825546,
+            -4.279939656737966e-38
+          ],
+          [
+            0.0925000011920929,
+            -4.678144959786992e-38
+          ],
+          [
+            0.10000000149011612,
+            -4.2833380857736466e-38
+          ]
+        ],
+        "ETOTAL": [
+          [
+            0.0,
+            26.71835708618164
+          ],
+          [
+            0.004999999888241291,
+            27.39068031311035
+          ],
+          [
+            0.009999999776482582,
+            28.08949089050293
+          ],
+          [
+            0.014999999664723873,
+            28.798603057861328
+          ],
+          [
+            0.02250000089406967,
+            29.86981773376465
+          ],
+          [
+            0.032499998807907104,
+            31.302453994750977
+          ],
+          [
+            0.042500000447034836,
+            32.75458908081055
+          ],
+          [
+            0.05249999836087227,
+            34.19816970825195
+          ],
+          [
+            0.0625,
+            35.64213180541992
+          ],
+          [
+            0.07249999791383743,
+            37.08139419555664
+          ],
+          [
+            0.08250000327825546,
+            38.53240203857422
+          ],
+          [
+            0.0925000011920929,
+            39.99123764038086
+          ],
+          [
+            0.10000000149011612,
+            41.10662078857422
+          ]
+        ]
+      }
+    },
+    {
+      "step": "Step-01-cool",
+      "time_offset": 5.200002002980227,
+      "histories": {
+        "ALLAE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ]
+        ],
+        "ALLIE": [
+          [
+            0.0,
+            41.10662078857422
+          ],
+          [
+            0.009999999776482582,
+            42.10337448120117
+          ],
+          [
+            0.009999999776482582,
+            42.10679626464844
+          ]
+        ],
+        "ALLKE": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.0
+          ]
+        ],
+        "ALLPD": [
+          [
+            0.0,
+            34.49126434326172
+          ],
+          [
+            0.009999999776482582,
+            35.301170349121094
+          ],
+          [
+            0.009999999776482582,
+            35.30451202392578
+          ]
+        ],
+        "ALLSD": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.009999999776482582,
+            0.004204799886792898
+          ],
+          [
+            0.009999999776482582,
+            0.046457547694444656
+          ]
+        ],
+        "ALLSE": [
+          [
+            0.0,
+            6.6153564453125
+          ],
+          [
+            0.009999999776482582,
+            6.8022027015686035
+          ],
+          [
+            0.009999999776482582,
+            6.802281856536865
+          ]
+        ],
+        "ALLWK": [
+          [
+            0.0,
+            -4.2833380857736466e-38
+          ],
+          [
+            0.009999999776482582,
+            4.6347109145576955e-32
+          ],
+          [
+            0.009999999776482582,
+            4.6347109145576955e-32
+          ]
+        ],
+        "ETOTAL": [
+          [
+            0.0,
+            41.10662078857422
+          ],
+          [
+            0.009999999776482582,
+            42.10757827758789
+          ],
+          [
+            0.009999999776482582,
+            42.15325164794922
+          ]
+        ]
+      }
+    },
+    {
+      "step": "Step-02-preheat",
+      "time_offset": 5.21000200275671,
+      "histories": {}
+    },
+    {
+      "step": "Step-02-react",
+      "time_offset": 5.310002004246826,
+      "histories": {}
+    },
+    {
+      "step": "Step-02-coheat",
+      "time_offset": 5.310003004246823,
+      "histories": {}
+    },
+    {
+      "step": "Step-02-cool",
+      "time_offset": 5.4100030057369395,
+      "histories": {}
+    },
+    {
+      "step": "Step-03-preheat",
+      "time_offset": 9.41000300573694,
+      "histories": {}
+    },
+    {
+      "step": "Step-03-react",
+      "time_offset": 9.510003007227056,
+      "histories": {}
+    },
+    {
+      "step": "Step-03-coheat",
+      "time_offset": 9.510004007227053,
+      "histories": {}
+    },
+    {
+      "step": "Step-03-cool",
+      "time_offset": 9.61000400871717,
+      "histories": {}
+    },
+    {
+      "step": "Step-04-preheat",
+      "time_offset": 13.61000400871717,
+      "histories": {}
+    },
+    {
+      "step": "Step-04-react",
+      "time_offset": 13.710004010207285,
+      "histories": {}
+    },
+    {
+      "step": "Step-04-coheat",
+      "time_offset": 13.710005010207283,
+      "histories": {}
+    },
+    {
+      "step": "Step-04-cool",
+      "time_offset": 13.810005011697399,
+      "histories": {}
+    },
+    {
+      "step": "Step-05-preheat",
+      "time_offset": 17.8100050116974,
+      "histories": {}
+    },
+    {
+      "step": "Step-05-react",
+      "time_offset": 17.910005013187515,
+      "histories": {}
+    },
+    {
+      "step": "Step-05-coheat",
+      "time_offset": 17.910006013187513,
+      "histories": {}
+    },
+    {
+      "step": "Step-05-cool",
+      "time_offset": 18.01000601467763,
+      "histories": {}
+    },
+    {
+      "step": "Step-06-preheat",
+      "time_offset": 22.01000601467763,
+      "histories": {}
+    },
+    {
+      "step": "Step-06-react",
+      "time_offset": 22.110006016167745,
+      "histories": {}
+    },
+    {
+      "step": "Step-06-coheat",
+      "time_offset": 22.110007016167742,
+      "histories": {}
+    },
+    {
+      "step": "Step-06-cool",
+      "time_offset": 22.21000701765786,
+      "histories": {}
+    },
+    {
+      "step": "Step-07-preheat",
+      "time_offset": 26.21000701765786,
+      "histories": {}
+    },
+    {
+      "step": "Step-07-react",
+      "time_offset": 26.310007019147974,
+      "histories": {}
+    },
+    {
+      "step": "Step-07-coheat",
+      "time_offset": 26.310008019147972,
+      "histories": {}
+    },
+    {
+      "step": "Step-07-cool",
+      "time_offset": 26.410008020638088,
+      "histories": {}
+    },
+    {
+      "step": "Step-08-preheat",
+      "time_offset": 30.410008020638088,
+      "histories": {}
+    },
+    {
+      "step": "Step-08-react",
+      "time_offset": 30.510008022128204,
+      "histories": {}
+    },
+    {
+      "step": "Step-08-coheat",
+      "time_offset": 30.5100090221282,
+      "histories": {}
+    },
+    {
+      "step": "Step-08-cool",
+      "time_offset": 30.610009023618318,
+      "histories": {}
+    },
+    {
+      "step": "Step-09-preheat",
+      "time_offset": 34.61000902361832,
+      "histories": {}
+    },
+    {
+      "step": "Step-09-react",
+      "time_offset": 34.710009025108434,
+      "histories": {}
+    },
+    {
+      "step": "Step-09-coheat",
+      "time_offset": 34.71001002510843,
+      "histories": {}
+    },
+    {
+      "step": "Step-09-cool",
+      "time_offset": 34.81001002659855,
+      "histories": {}
+    },
+    {
+      "step": "Step-10-preheat",
+      "time_offset": 38.81001002659855,
+      "histories": {}
+    },
+    {
+      "step": "Step-10-react",
+      "time_offset": 38.910010028088664,
+      "histories": {}
+    },
+    {
+      "step": "Step-10-coheat",
+      "time_offset": 38.91001102808866,
+      "histories": {}
+    },
+    {
+      "step": "Step-10-cool",
+      "time_offset": 39.01001102957878,
+      "histories": {}
+    },
+    {
+      "step": "Step-11-preheat",
+      "time_offset": 43.01001102957878,
+      "histories": {}
+    },
+    {
+      "step": "Step-11-react",
+      "time_offset": 43.11001103106889,
+      "histories": {}
+    },
+    {
+      "step": "Step-11-coheat",
+      "time_offset": 43.11001203106889,
+      "histories": {}
+    },
+    {
+      "step": "Step-11-cool",
+      "time_offset": 43.21001203255901,
+      "histories": {}
+    },
+    {
+      "step": "Step-12-preheat",
+      "time_offset": 47.21001203255901,
+      "histories": {}
+    },
+    {
+      "step": "Step-12-react",
+      "time_offset": 47.31001203404912,
+      "histories": {}
+    },
+    {
+      "step": "Step-12-coheat",
+      "time_offset": 47.31001303404912,
+      "histories": {}
+    },
+    {
+      "step": "Step-12-cool",
+      "time_offset": 47.41001303553924,
+      "histories": {}
+    },
+    {
+      "step": "Step-13-preheat",
+      "time_offset": 51.41001303553924,
+      "histories": {}
+    },
+    {
+      "step": "Step-13-react",
+      "time_offset": 51.51001303702935,
+      "histories": {}
+    },
+    {
+      "step": "Step-13-coheat",
+      "time_offset": 51.51001403702935,
+      "histories": {}
+    },
+    {
+      "step": "Step-13-cool",
+      "time_offset": 51.610014038519466,
+      "histories": {}
+    },
+    {
+      "step": "Step-14-preheat",
+      "time_offset": 55.610014038519466,
+      "histories": {}
+    },
+    {
+      "step": "Step-14-react",
+      "time_offset": 55.71001404000958,
+      "histories": {}
+    },
+    {
+      "step": "Step-14-coheat",
+      "time_offset": 55.71001504000958,
+      "histories": {}
+    },
+    {
+      "step": "Step-14-cool",
+      "time_offset": 55.810015041499696,
+      "histories": {}
+    },
+    {
+      "step": "Step-15-preheat",
+      "time_offset": 59.810015041499696,
+      "histories": {}
+    },
+    {
+      "step": "Step-15-react",
+      "time_offset": 59.91001504298981,
+      "histories": {}
+    },
+    {
+      "step": "Step-15-coheat",
+      "time_offset": 59.91001604298981,
+      "histories": {}
+    },
+    {
+      "step": "Step-15-cool",
+      "time_offset": 60.010016044479926,
+      "histories": {}
+    },
+    {
+      "step": "Step-16-preheat",
+      "time_offset": 64.01001604447993,
+      "histories": {}
+    },
+    {
+      "step": "Step-16-react",
+      "time_offset": 64.11001604597004,
+      "histories": {}
+    },
+    {
+      "step": "Step-16-coheat",
+      "time_offset": 64.11001704597004,
+      "histories": {}
+    },
+    {
+      "step": "Step-16-cool",
+      "time_offset": 64.21001704746016,
+      "histories": {}
+    },
+    {
+      "step": "Step-17-preheat",
+      "time_offset": 68.21001704746016,
+      "histories": {}
+    },
+    {
+      "step": "Step-17-react",
+      "time_offset": 68.31001704895027,
+      "histories": {}
+    },
+    {
+      "step": "Step-17-coheat",
+      "time_offset": 68.31001804895027,
+      "histories": {}
+    },
+    {
+      "step": "Step-17-cool",
+      "time_offset": 68.41001805044039,
+      "histories": {}
+    },
+    {
+      "step": "Step-18-preheat",
+      "time_offset": 72.41001805044039,
+      "histories": {}
+    },
+    {
+      "step": "Step-18-react",
+      "time_offset": 72.5100180519305,
+      "histories": {}
+    },
+    {
+      "step": "Step-18-coheat",
+      "time_offset": 72.5100190519305,
+      "histories": {}
+    },
+    {
+      "step": "Step-18-cool",
+      "time_offset": 72.61001905342061,
+      "histories": {}
+    },
+    {
+      "step": "Step-19-preheat",
+      "time_offset": 76.61001905342061,
+      "histories": {}
+    },
+    {
+      "step": "Step-19-react",
+      "time_offset": 76.71001905491073,
+      "histories": {}
+    },
+    {
+      "step": "Step-19-coheat",
+      "time_offset": 76.71002005491073,
+      "histories": {}
+    },
+    {
+      "step": "Step-19-cool",
+      "time_offset": 76.81002005640084,
+      "histories": {}
+    },
+    {
+      "step": "Step-20-preheat",
+      "time_offset": 80.81002005640084,
+      "histories": {}
+    },
+    {
+      "step": "Step-20-react",
+      "time_offset": 80.91002005789096,
+      "histories": {}
+    },
+    {
+      "step": "Step-20-coheat",
+      "time_offset": 80.91002105789096,
+      "histories": {}
+    },
+    {
+      "step": "Step-20-cool",
+      "time_offset": 81.01002105938107,
+      "histories": {}
+    },
+    {
+      "step": "Step-21-preheat",
+      "time_offset": 85.01002105938107,
+      "histories": {}
+    },
+    {
+      "step": "Step-21-react",
+      "time_offset": 85.11002106087119,
+      "histories": {}
+    },
+    {
+      "step": "Step-21-coheat",
+      "time_offset": 85.11002206087119,
+      "histories": {}
+    },
+    {
+      "step": "Step-21-cool",
+      "time_offset": 85.2100220623613,
+      "histories": {}
+    },
+    {
+      "step": "Step-22-preheat",
+      "time_offset": 89.2100220623613,
+      "histories": {}
+    },
+    {
+      "step": "Step-22-react",
+      "time_offset": 89.31002206385142,
+      "histories": {}
+    },
+    {
+      "step": "Step-22-coheat",
+      "time_offset": 89.31002306385142,
+      "histories": {}
+    },
+    {
+      "step": "Step-22-cool",
+      "time_offset": 89.41002306534153,
+      "histories": {}
+    },
+    {
+      "step": "Step-23-preheat",
+      "time_offset": 93.41002306534153,
+      "histories": {}
+    },
+    {
+      "step": "Step-23-react",
+      "time_offset": 93.51002306683165,
+      "histories": {}
+    },
+    {
+      "step": "Step-23-coheat",
+      "time_offset": 93.51002406683165,
+      "histories": {}
+    },
+    {
+      "step": "Step-23-cool",
+      "time_offset": 93.61002406832176,
+      "histories": {}
+    },
+    {
+      "step": "Step-24-preheat",
+      "time_offset": 97.61002406832176,
+      "histories": {}
+    },
+    {
+      "step": "Step-24-react",
+      "time_offset": 97.71002406981188,
+      "histories": {}
+    },
+    {
+      "step": "Step-24-coheat",
+      "time_offset": 97.71002506981188,
+      "histories": {}
+    },
+    {
+      "step": "Step-24-cool",
+      "time_offset": 97.810025071302,
+      "histories": {}
+    },
+    {
+      "step": "Step-25-preheat",
+      "time_offset": 101.810025071302,
+      "histories": {}
+    },
+    {
+      "step": "Step-25-react",
+      "time_offset": 101.91002507279211,
+      "histories": {}
+    },
+    {
+      "step": "Step-25-coheat",
+      "time_offset": 101.9100260727921,
+      "histories": {}
+    },
+    {
+      "step": "Step-25-cool",
+      "time_offset": 102.01002607428222,
+      "histories": {}
+    },
+    {
+      "step": "Step-26-preheat",
+      "time_offset": 106.01002607428222,
+      "histories": {}
+    },
+    {
+      "step": "Step-26-react",
+      "time_offset": 106.11002607577234,
+      "histories": {}
+    },
+    {
+      "step": "Step-26-coheat",
+      "time_offset": 106.11002707577234,
+      "histories": {}
+    },
+    {
+      "step": "Step-26-cool",
+      "time_offset": 106.21002707726245,
+      "histories": {}
+    },
+    {
+      "step": "Step-27-preheat",
+      "time_offset": 110.21002707726245,
+      "histories": {}
+    },
+    {
+      "step": "Step-27-react",
+      "time_offset": 110.31002707875257,
+      "histories": {}
+    },
+    {
+      "step": "Step-27-coheat",
+      "time_offset": 110.31002807875257,
+      "histories": {}
+    },
+    {
+      "step": "Step-27-cool",
+      "time_offset": 110.41002808024268,
+      "histories": {}
+    },
+    {
+      "step": "Step-28-preheat",
+      "time_offset": 114.41002808024268,
+      "histories": {}
+    },
+    {
+      "step": "Step-28-react",
+      "time_offset": 114.5100280817328,
+      "histories": {}
+    },
+    {
+      "step": "Step-28-coheat",
+      "time_offset": 114.5100290817328,
+      "histories": {}
+    },
+    {
+      "step": "Step-28-cool",
+      "time_offset": 114.61002908322291,
+      "histories": {}
+    },
+    {
+      "step": "Step-29-preheat",
+      "time_offset": 118.61002908322291,
+      "histories": {}
+    },
+    {
+      "step": "Step-29-react",
+      "time_offset": 118.71002908471303,
+      "histories": {}
+    },
+    {
+      "step": "Step-29-coheat",
+      "time_offset": 118.71003008471303,
+      "histories": {}
+    },
+    {
+      "step": "Step-29-cool",
+      "time_offset": 118.81003008620314,
+      "histories": {}
+    },
+    {
+      "step": "Step-30-preheat",
+      "time_offset": 122.81003008620314,
+      "histories": {}
+    },
+    {
+      "step": "Step-30-react",
+      "time_offset": 122.91003008769326,
+      "histories": {}
+    },
+    {
+      "step": "Step-30-coheat",
+      "time_offset": 122.91003108769326,
+      "histories": {}
+    },
+    {
+      "step": "Step-30-cool",
+      "time_offset": 123.01003108918337,
+      "histories": {}
+    },
+    {
+      "step": "Step-31-preheat",
+      "time_offset": 127.01003108918337,
+      "histories": {}
+    },
+    {
+      "step": "Step-31-react",
+      "time_offset": 127.11003109067349,
+      "histories": {}
+    },
+    {
+      "step": "Step-31-coheat",
+      "time_offset": 127.11003209067349,
+      "histories": {}
+    },
+    {
+      "step": "Step-31-cool",
+      "time_offset": 127.2100320921636,
+      "histories": {}
+    },
+    {
+      "step": "Step-32-preheat",
+      "time_offset": 131.2100320921636,
+      "histories": {}
+    },
+    {
+      "step": "Step-32-react",
+      "time_offset": 131.31003209365372,
+      "histories": {}
+    },
+    {
+      "step": "Step-32-coheat",
+      "time_offset": 131.31003309365371,
+      "histories": {}
+    },
+    {
+      "step": "Step-32-cool",
+      "time_offset": 131.41003309514383,
+      "histories": {}
+    },
+    {
+      "step": "Step-final-cooling",
+      "time_offset": 135.41003309514383,
+      "histories": {}
+    }
+  ],
+  "energy_audit": {
+    "available_variables": [
+      "ALLAE",
+      "ALLIE",
+      "ALLKE",
+      "ALLPD",
+      "ALLSD",
+      "ALLSE",
+      "ALLWK",
+      "ETOTAL"
+    ],
+    "samples": 66,
+    "ratio_definition": "abs(ALLSD)/abs(ALLIE); companion abs(ALLSD)/(abs(ALLSE)+abs(ALLPD))",
+    "threshold": 0.05,
+    "last": {
+      "step": "Step-01-cool",
+      "time": 5.21000200275671,
+      "ALLSD": 0.046457547694444656,
+      "ALLIE": 42.10679626464844,
+      "ALLSE": 6.802281856536865,
+      "ALLPD": 35.30451202392578,
+      "SD_IE_ratio": 0.0011033265842039133,
+      "SD_SE_PD_ratio": 0.0011033266466768618
+    },
+    "max_ratio": 0.0011033265842039133,
+    "fraction_samples_above_5pct": 0.0,
+    "denominator_screen": "abs(ALLIE) > 1% of peak abs(ALLIE); avoids zero-energy start-up singularity",
+    "dominated_or_suspect": false
+  },
+  "error_element_sets": {},
+  "last_saved_geometry": {
+    "step": "Step-01-cool",
+    "frame_time": 0.009999999776482582,
+    "elements": [
+      {
+        "element": 721,
+        "signed_area": 6.408045010175556e-07,
+        "minimum_sampled_jacobian": 1.5854971269755637e-07,
+        "minimum_isoparametric_line_angle_deg": 82.81100589926973,
+        "maximum_sampled_angle_deg": 97.18899410073027
+      },
+      {
+        "element": 723,
+        "signed_area": 6.30388967692852e-07,
+        "minimum_sampled_jacobian": 1.5594623962219417e-07,
+        "minimum_isoparametric_line_angle_deg": 82.71152345559968,
+        "maximum_sampled_angle_deg": 97.28847654440032
+      },
+      {
+        "element": 725,
+        "signed_area": 6.199679773999378e-07,
+        "minimum_sampled_jacobian": 1.5334158902011435e-07,
+        "minimum_isoparametric_line_angle_deg": 82.6087731315396,
+        "maximum_sampled_angle_deg": 97.3912268684604
+      }
+    ],
+    "method": "Bilinear Q4 Jacobian at corners and center using initial coordinates + saved U. This is a diagnostic reconstruction, not the internal solver reactivation check."
+  }
+}

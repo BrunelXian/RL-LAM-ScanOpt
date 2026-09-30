@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stage4Case",
+  "description": "Stage 4 interface v1.0. Example validation is not engineering or scientific validation.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "case_id": {
+      "type": "string",
+      "pattern": "^S4C(?!000000$)[0-9]{6}$"
+    },
+    "N": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "process_config_id": {
+      "type": "string",
+      "pattern": "^stage4_[a-z][a-z0-9_]*_v[0-9]{2,}$",
+      "description": "Immutable configuration identity; example IDs are not registered configurations."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "example_only": {
+      "type": "boolean"
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "scan_order": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "description": "1-based spatial drop IDs; semantic audit MUST check len=N and values<=N. Not executed by this run."
+    },
+    "source": {
+      "anyOf": [
+        {
+          "enum": [
+            "baseline",
+            "heuristic",
+            "surrogate_search",
+            "ppo",
+            "manual",
+            "diagnostic"
+          ]
+        },
+        {
+          "type": "string",
+          "pattern": "^x_[a-z][a-z0-9_]*$"
+        }
+      ]
+    },
+    "source_run_id": {
+      "type": "string",
+      "pattern": "^run_(?!0+$)[0-9]{3,}$"
+    },
+    "parent_case_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^S4C(?!000000$)[0-9]{6}$"
+      }
+    },
+    "candidate_metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Predictions/rewards/novelty/strategy/notes only; never substitute for FEA labels."
+    }
+  },
+  "required": [
+    "schema_version",
+    "case_id",
+    "N",
+    "scan_order",
+    "source",
+    "source_run_id",
+    "process_config_id",
+    "parent_case_ids",
+    "candidate_metadata",
+    "created_at",
+    "example_only"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "example_only": {
+            "const": true
+          }
+        },
+        "required": [
+          "example_only"
+        ]
+      },
+      "then": {
+        "properties": {
+          "case_id": {
+            "const": "S4C999999"
+          },
+          "process_config_id": {
+            "const": "stage4_example_only_v00"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "case_id": {
+            "not": {
+              "const": "S4C999999"
+            }
+          },
+          "process_config_id": {
+            "not": {
+              "const": "stage4_example_only_v00"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "example_only": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "parent_case_ids": {
+            "items": {
+              "not": {
+                "const": "S4C999999"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

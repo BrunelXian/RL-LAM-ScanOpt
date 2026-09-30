@@ -1,0 +1,160 @@
+{
+  "run_id": "run_003",
+  "path_base": "run_directory",
+  "artifacts": [
+    {
+      "artifact_id": "generator",
+      "type": "python_script",
+      "role": "primary_output",
+      "path": "../../CAE/scripts/generate/stage4_generate_n32_deposition_model.py",
+      "sha256_at_handoff": "91ae6ab43174bed60b1932cc385825ad8862b099db841d4c96e6e45ae6ebb134"
+    },
+    {
+      "artifact_id": "audit",
+      "type": "python_script",
+      "role": "primary_output",
+      "path": "../../CAE/scripts/audit/stage4_audit_n32_deposition_model.py",
+      "sha256_at_handoff": "b80406cef43f7df1df8f450820b2dd3b6f12564c5e4b3626d283027e65970fb6"
+    },
+    {
+      "artifact_id": "config_bridge",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/generate/stage4_prepare_deposition_request.py",
+      "sha256_at_handoff": "59896359f221fea8135656493708a317dba2427b735d07fa65142bd6ca54ba49"
+    },
+    {
+      "artifact_id": "audit_regression",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/audit/stage4_test_deposition_audit.py",
+      "sha256_at_handoff": "c995b2ee4988b498fb01d6401b53773dfe2eb82e3c84517536e4123914a47ffb"
+    },
+    {
+      "artifact_id": "master_inspection_script",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/audit/stage4_inspect_master_copy.py",
+      "sha256_at_handoff": "c59e993e9297ac4967c7bec73ad2a59cbabb046b079031c90148151ccc48ae36"
+    },
+    {
+      "artifact_id": "usage",
+      "type": "document",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/generate/README.md",
+      "sha256_at_handoff": "54fef6e49fd4e863faada01dd4f4c1662b1335913d01dbe3b590428e499786f1"
+    },
+    {
+      "artifact_id": "diagnostic_cae",
+      "type": "abaqus_cae",
+      "role": "primary_output",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/stage4_N32_diag_identity_order.cae",
+      "sha256_at_handoff": "2c554c33fccb4894cb7bc9c33a834ed20d4e4d472acca7c6dd1903da351d2197"
+    },
+    {
+      "artifact_id": "cae_status",
+      "type": "status_document",
+      "role": "supporting_output",
+      "path": "../../status/CAE_STATUS.md",
+      "sha256_at_handoff": "1eceaae4fb2db12e4feeb9c916df2a0fb7cd594eef2c482cf645fc1bb9e0e6bb"
+    },
+    {
+      "artifact_id": "master_status",
+      "type": "status_document",
+      "role": "supporting_output",
+      "path": "../../status/MASTER_STATUS.md",
+      "sha256_at_handoff": "fe52b1d52c4b5067b6e3cc676224bc2fa0e3e812cad1a761026c5023296e3f2a"
+    },
+    {
+      "artifact_id": "run_index",
+      "type": "project_document",
+      "role": "supporting_output",
+      "path": "../README.md",
+      "sha256_at_handoff": "fb8b271fe52fa055a2401a6bc1c760acd0d8299b9c01983ef4f82521a0183d08"
+    },
+    {
+      "artifact_id": "build_request_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/build_request.json",
+      "sha256_at_handoff": "0fe53c93b88dced25af744984507b244aaff80098c144ab3ebbabe66e28c4a72"
+    },
+    {
+      "artifact_id": "master_inspection_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/master_inspection.json",
+      "sha256_at_handoff": "a39e0a92050648538c9ecaa018216b4891166210659411eca065321ffbb757d3"
+    },
+    {
+      "artifact_id": "deposition_audit_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/deposition_audit.json",
+      "sha256_at_handoff": "e55ffdcf6d094cc60a65ec8273776c1e8f942216b3d9b59f35e73326dc585c1b"
+    },
+    {
+      "artifact_id": "deposition_audit_json_snapshot_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/deposition_audit.json.snapshot.json",
+      "sha256_at_handoff": "df3b30af52747f39fab7a05ce53cdac49a50f9ce3aa29f3d9de593d32b179afa"
+    },
+    {
+      "artifact_id": "audit_regression_tests_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/audit_regression_tests.json",
+      "sha256_at_handoff": "f9b1a814fe7dc4d5c313d632613e48da397964833a6d43c57b792660c524a09d"
+    },
+    {
+      "artifact_id": "safety_before_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/safety_before.json",
+      "sha256_at_handoff": "5da9f12a4564212943e052a9895978133898435578733b15ae4190591bc4c1e5"
+    },
+    {
+      "artifact_id": "safety_after_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/safety_after.json",
+      "sha256_at_handoff": "ba8f1a9d43f9ecf757740dbd6e9f4da695df15543caa03f30dcd4a6c225746d0"
+    },
+    {
+      "artifact_id": "run_validation_json",
+      "type": "validation_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/diagnostic/run_003/run_validation.json",
+      "sha256_at_handoff": "70fb20df3375bfe6ee0f5320adeea44738366c4a915093b52567ef6731837d39"
+    },
+    {
+      "artifact_id": "build_json",
+      "type": "build_evidence",
+      "role": "supporting_output",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/stage4_N32_diag_identity_order.cae.build.json",
+      "sha256_at_handoff": "441aa91c6129cee2ef5dfac0f37f9ac7d2e62dc35380ce327ee7d3c75e48a6bf"
+    },
+    {
+      "artifact_id": "baseline_json",
+      "type": "build_evidence",
+      "role": "supporting_output",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/stage4_N32_diag_identity_order.cae.baseline.json",
+      "sha256_at_handoff": "e40c1ac966543e6b8f4e56c613bf98b70e0e0720be9ecfbabf1d7d147b9e56f6"
+    },
+    {
+      "artifact_id": "template_audit_json",
+      "type": "build_evidence",
+      "role": "supporting_output",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/stage4_N32_diag_identity_order.cae.template_audit.json",
+      "sha256_at_handoff": "1e529bdecea51c565014eafd3d51a2d6fc8e13e6612942ffef1ad66145b3c1fc"
+    },
+    {
+      "artifact_id": "presave_audit_json",
+      "type": "build_evidence",
+      "role": "supporting_output",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/stage4_N32_diag_identity_order.cae.presave_audit.json",
+      "sha256_at_handoff": "86f295749cf9904b19f8889d0a435f8a64e6f809c2c2cf9a1c1c53eaee625c4b"
+    }
+  ]
+}

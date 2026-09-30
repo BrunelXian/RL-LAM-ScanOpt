@@ -1,0 +1,10 @@
+{
+  "case": "A",
+  "status": "passed",
+  "allowed_numerical_changes": [],
+  "unexpected_diff": [],
+  "meaning": "All input lines identical after removal of job comments and explicitly allowed ALE/stabilization definitions; original mesh/material/BC/load/interaction/duration/output data unchanged.",
+  "ale_effective_steps": [],
+  "stabilized_steps": [],
+  "numerical_control_failures": []
+}

@@ -1,0 +1,7 @@
+{
+  "run_id": "run_002",
+  "phase": "baseline_saved",
+  "path_base": "run_directory",
+  "audit_path": "../../outputs/diagnostics/stage4_run_002_layout_before.json",
+  "next_action": "define schemas and example-only records"
+}

@@ -1,0 +1,7 @@
+{
+  "stage": "saved_reopened_and_validated",
+  "path_base": "run_directory",
+  "validation_report": "../../CAE/Reports/N32/diagnostic/run_004/run_validation.json",
+  "solver_status": "not_run",
+  "case_ids": []
+}

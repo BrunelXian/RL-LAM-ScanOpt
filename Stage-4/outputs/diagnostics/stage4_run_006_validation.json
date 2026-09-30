@@ -1,0 +1,35 @@
+{
+  "run_id": "run_006",
+  "document_validation": "passed",
+  "engineering_preservation": "passed",
+  "stage3_preservation": "all recorded path/size/mtime unchanged; not full binary hash",
+  "master_sha256": "407a36afc3f0687bf611869e9f3d54a631e5072076adff720036377f5af23fed",
+  "diagnostic_baseline_sha256": "0b612e7baac43a4f3aa076673bb057c8ecb41924d6b9786fb30beaf608a580c6",
+  "changed": [
+    "README.md",
+    "AGENTS.md",
+    "status/MASTER_STATUS.md",
+    "status/CAE_STATUS.md",
+    "run/README.md"
+  ],
+  "created": [
+    "docs/Stage4_Failure_Analysis.md",
+    "docs/Stage4_to_Stage5_Handoff.md",
+    "status/STAGE4_ARCHIVED.md"
+  ],
+  "local_links_checked": 45,
+  "evidence_checks": {
+    "fatal_steps": [
+      40,
+      42,
+      6,
+      6
+    ],
+    "baseline_pre_equilibrium": true,
+    "different_element_groups_explicit": true,
+    "universal_root_cause_claim": false,
+    "invalid_B_attempt_disclosed": true
+  },
+  "git_publication": "pending",
+  "forbidden_engineering_execution": false
+}

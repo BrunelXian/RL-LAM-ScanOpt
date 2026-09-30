@@ -1,0 +1,18 @@
+{
+  "case": "A",
+  "command": [
+    "D:/ABAQUS2024/commands/abaqus.bat",
+    "job=stage4_diag_A_baseline_run_005",
+    "input=stage4_diag_A_baseline_run_005.inp",
+    "cpus=14",
+    "gpus=1",
+    "interactive"
+  ],
+  "input_processor_started_at": "2026-09-30T15:39:54+08:00",
+  "standard_started_at": "2026-09-30T15:40:02+08:00",
+  "standard_ended_at": "2026-09-30T15:45:58+08:00",
+  "completed_at": "2026-09-30T15:46:00+08:00",
+  "returncode": 0,
+  "evidence": "A_launcher_console.txt + native .msg/.dat/.sta; direct interactive launcher did not create a .log",
+  "solver_status": "FAILED"
+}

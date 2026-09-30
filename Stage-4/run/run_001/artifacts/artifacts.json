@@ -1,0 +1,94 @@
+{
+  "run_id": "run_001",
+  "path_base": "run_directory",
+  "artifacts": [
+    {
+      "artifact_id": "agent_protocol",
+      "type": "project_document",
+      "role": "authoritative_reference",
+      "path": "../../docs/Agent_File_Communication_Protocol.md",
+      "change": "reference",
+      "sha256_at_handoff": "1d8b0777fd9ab74f42e9feb460090e5a302f5f9cddc2a4a679dbdb1dfe67fd18"
+    },
+    {
+      "artifact_id": "agents_root",
+      "type": "project_document",
+      "role": "project_instruction",
+      "path": "../../AGENTS.md",
+      "change": "modified",
+      "sha256_at_handoff": "998c1b94465f3bf21e4f2effaf50a922ba87e845ed5a776f4b29cdda64ed003c"
+    },
+    {
+      "artifact_id": "readme",
+      "type": "project_document",
+      "role": "project_overview",
+      "path": "../../README.md",
+      "change": "modified",
+      "sha256_at_handoff": "5c8b95f8cea22e1034f86fdfb61d9d35b695dce2e4ea3253a0adcde08fd8fc4d"
+    },
+    {
+      "artifact_id": "architecture",
+      "type": "project_document",
+      "role": "architecture",
+      "path": "../../docs/Stage4_Orchestration_Architecture.md",
+      "change": "created",
+      "sha256_at_handoff": "fc3731bd652e6e5600059a40c043b3e895acc84ca2df296e6efa398dcaaed57c"
+    },
+    {
+      "artifact_id": "run_index",
+      "type": "project_document",
+      "role": "run_index",
+      "path": "../../run/README.md",
+      "change": "created",
+      "sha256_at_handoff": "b7dc3156aab47e8ab90c5dc0c74c5cb101c9e9b409c8421cbb60b15083b324f1"
+    },
+    {
+      "artifact_id": "layout_before",
+      "type": "audit_metadata",
+      "role": "pre_change_audit",
+      "path": "../../outputs/diagnostics/stage4_run_001_layout_before.json",
+      "change": "created",
+      "sha256_at_handoff": "32549c9b5b66c677656298475f0565268ba5d02f09260f53628dff2616b4ef1b"
+    },
+    {
+      "artifact_id": "master_status",
+      "type": "status_document",
+      "role": "project_status",
+      "path": "../../status/MASTER_STATUS.md",
+      "change": "created",
+      "sha256_at_handoff": "ea9a5e0f831f09189b4f598c2f40699e72ceca52b48fa75e1e6ec3fd0415e807"
+    },
+    {
+      "artifact_id": "rl_status",
+      "type": "status_document",
+      "role": "project_status",
+      "path": "../../status/RL_STATUS.md",
+      "change": "created",
+      "sha256_at_handoff": "03c0eced6e37ca392eb92ceb7dff871558b3ce938b3d1c01318a735b9c7be7d0"
+    },
+    {
+      "artifact_id": "cae_status",
+      "type": "status_document",
+      "role": "project_status",
+      "path": "../../status/CAE_STATUS.md",
+      "change": "created",
+      "sha256_at_handoff": "210aa0245d10ea434322f08353a4b1ef343518ecc81b0a8f83badbceda399a0e"
+    },
+    {
+      "artifact_id": "odb_status",
+      "type": "status_document",
+      "role": "project_status",
+      "path": "../../status/ODB_STATUS.md",
+      "change": "created",
+      "sha256_at_handoff": "c76c48c6f58f0015c1b15b03eca5e8fd93a544c7d1e12d9db61e3f0560f2621d"
+    },
+    {
+      "artifact_id": "validation_report",
+      "type": "validation_report",
+      "role": "validation_evidence",
+      "path": "../../outputs/diagnostics/stage4_run_001_validation.json",
+      "change": "created",
+      "sha256_at_handoff": "df3b6d8573dfe0125507c7d8a55eadbfc0ca370b00058f1ab2b6f41515a696c3"
+    }
+  ]
+}

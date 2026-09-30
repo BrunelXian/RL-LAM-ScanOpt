@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_004",
+  "agent": "stage4_cae",
+  "operation": "build_n32_custom_order_diagnostic_model",
+  "status": "completed",
+  "started_at": "2026-09-28T09:27:18.112224+08:00",
+  "completed_at": "2026-09-28T09:32:11.394737+08:00",
+  "input_runs": [
+    "run_003"
+  ],
+  "case_ids": [],
+  "artifacts_manifest": "./artifacts/artifacts.json",
+  "validation": {
+    "status": "passed",
+    "report": "../../CAE/Reports/N32/diagnostic/run_004/run_validation.json",
+    "warnings": [],
+    "provenance_notices": [
+      "Existing identity CAE differed from run_003 handoff SHA256 before this run; not used as build input. Its current bytes are unchanged by run_004. Cause not investigated."
+    ]
+  },
+  "handoff": {
+    "ready": true,
+    "target_agents": [
+      "stage4_master",
+      "stage4_cae"
+    ],
+    "scope": "Specified custom-order N32 diagnostic CAE build and state-machine audit only; no solver/teacher authorization"
+  },
+  "error": null,
+  "verdict": "PASS_STAGE4_N32_CUSTOM_ORDER_CAE_READY"
+}

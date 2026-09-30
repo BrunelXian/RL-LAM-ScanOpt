@@ -1,0 +1,612 @@
+{
+  "run_id": "run_005",
+  "path_base": "run_directory",
+  "artifacts": [
+    {
+      "artifact_id": "artifact_001",
+      "type": "abaqus_cae",
+      "role": "diagnostic_model",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/numerical_stability/run_005/stage4_N32_diag_A_baseline.cae",
+      "bytes": 1097728,
+      "sha256_at_handoff": "98ed3402109e6df296603cd6d198095a9a334c99e2dd03546a05811bbaa9119d"
+    },
+    {
+      "artifact_id": "artifact_002",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/A_baseline/stage4_diag_A_baseline_run_005.inp",
+      "bytes": 415358,
+      "sha256_at_handoff": "d156eb056c8500f740d42c9a60cfd9882fafe45ade2c4b452db6e8a20760e49b"
+    },
+    {
+      "artifact_id": "artifact_003",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/A_baseline/stage4_diag_A_baseline_run_005.msg",
+      "bytes": 4601345,
+      "sha256_at_handoff": "365d24ede5bd7d6641df2a7cfc0396b78ef55ee2a7d0d7baa9af0e13d8bd4adf"
+    },
+    {
+      "artifact_id": "artifact_004",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/A_baseline/stage4_diag_A_baseline_run_005.dat",
+      "bytes": 377492,
+      "sha256_at_handoff": "f5c1cf4b8405cd81fee7a34fb6587beb669f62640f3ac1840a2adc127f452278"
+    },
+    {
+      "artifact_id": "artifact_005",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/A_baseline/stage4_diag_A_baseline_run_005.sta",
+      "bytes": 54159,
+      "sha256_at_handoff": "24b7596f84e856e99d189c7781f8815566b2c7e556a9dda9401f517f8972ca8f"
+    },
+    {
+      "artifact_id": "artifact_006",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/A_baseline/stage4_diag_A_baseline_run_005.odb",
+      "bytes": 120895744,
+      "sha256_at_handoff": "d0833e051950d25bbb5c0c430673a84160e38c6f4b4ab408c722d74d40c094d3"
+    },
+    {
+      "artifact_id": "artifact_007",
+      "type": "abaqus_cae",
+      "role": "diagnostic_model",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/numerical_stability/run_005/stage4_N32_diag_B_ALE_02.cae",
+      "bytes": 1122304,
+      "sha256_at_handoff": "1f41a65003bdc6c4270939b4dfa266069a9a00800203c3d2f59a59684a0e45e3"
+    },
+    {
+      "artifact_id": "artifact_008",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/B_ALE_02/stage4_diag_B_ALE_02_run_005.inp",
+      "bytes": 423413,
+      "sha256_at_handoff": "f59d4af4c0ae0d9d7709584662981f622e70675b8229e294a7383dd6bae8afae"
+    },
+    {
+      "artifact_id": "artifact_009",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/B_ALE_02/stage4_diag_B_ALE_02_run_005.msg",
+      "bytes": 5956922,
+      "sha256_at_handoff": "f903c2a9182201fa9550a99bc1f079e6f937e3e66fedeac7b5cd0054680c6adb"
+    },
+    {
+      "artifact_id": "artifact_010",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/B_ALE_02/stage4_diag_B_ALE_02_run_005.dat",
+      "bytes": 400123,
+      "sha256_at_handoff": "526103e346cc4edad9e94216d8424654913b48c96f5a74c42cc54421487caad4"
+    },
+    {
+      "artifact_id": "artifact_011",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/B_ALE_02/stage4_diag_B_ALE_02_run_005.sta",
+      "bytes": 69663,
+      "sha256_at_handoff": "759bfe3c17b88fd7680b2940dc0dcb726cd5b85c2644599d5104dae98392b809"
+    },
+    {
+      "artifact_id": "artifact_012",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/B_ALE_02/stage4_diag_B_ALE_02_run_005.log",
+      "bytes": 788,
+      "sha256_at_handoff": "f30de71259b73123f7bc067fbf4743b0ad0f60ca1330f6818e50ed13d9610a66"
+    },
+    {
+      "artifact_id": "artifact_013",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/B_ALE_02/stage4_diag_B_ALE_02_run_005.odb",
+      "bytes": 150751116,
+      "sha256_at_handoff": "3a04d8bec214817957db4f1ce0327d090cf62968624646bba5325eaf4396b294"
+    },
+    {
+      "artifact_id": "artifact_014",
+      "type": "abaqus_cae",
+      "role": "diagnostic_model",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/numerical_stability/run_005/stage4_N32_diag_C_stabilization.cae",
+      "bytes": 1781760,
+      "sha256_at_handoff": "a65d19c8fd45b344d4915312101a05ba10074dc384b4a99416d94211ed74aee0"
+    },
+    {
+      "artifact_id": "artifact_015",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/C_STAB/stage4_diag_C_STAB_run_005.inp",
+      "bytes": 416412,
+      "sha256_at_handoff": "ce5c9d8746e0b62eb83ebaf80ef7972b581bb67a44860b1668baec909de879f1"
+    },
+    {
+      "artifact_id": "artifact_016",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/C_STAB/stage4_diag_C_STAB_run_005.msg",
+      "bytes": 323042,
+      "sha256_at_handoff": "a2b47a319066675e85349dbb9097f41b9fb79f4ee05421c7f1339bb355cf374b"
+    },
+    {
+      "artifact_id": "artifact_017",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/C_STAB/stage4_diag_C_STAB_run_005.dat",
+      "bytes": 201566,
+      "sha256_at_handoff": "a5c0903f906df739095b8f3331c47b309edfc2b82a112d75962730dfb017a100"
+    },
+    {
+      "artifact_id": "artifact_018",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/C_STAB/stage4_diag_C_STAB_run_005.sta",
+      "bytes": 4791,
+      "sha256_at_handoff": "16922560afb7fdd4b9288565fdecc11d2ce29590b0b9a14ffec12091832c908d"
+    },
+    {
+      "artifact_id": "artifact_019",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/C_STAB/stage4_diag_C_STAB_run_005.log",
+      "bytes": 786,
+      "sha256_at_handoff": "b617614205437802e67f7a7cc98e5f937f93f5c908e8dc736f138971f4138ba0"
+    },
+    {
+      "artifact_id": "artifact_020",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/C_STAB/stage4_diag_C_STAB_run_005.odb",
+      "bytes": 13915092,
+      "sha256_at_handoff": "cd3e9d2cc3069501d5f636598e4e9a422a51e9ced3d94298ac3fcd90ffb681ef"
+    },
+    {
+      "artifact_id": "artifact_021",
+      "type": "abaqus_cae",
+      "role": "diagnostic_model",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/numerical_stability/run_005/stage4_N32_diag_D_ALE_stabilization.cae",
+      "bytes": 1789952,
+      "sha256_at_handoff": "1ec3991f18ba4d52d5c734fb2c89271fceb3d9de574e86865ebc7ffd30470778"
+    },
+    {
+      "artifact_id": "artifact_022",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/D_ALE_STAB/stage4_diag_D_ALE_STAB_run_005.inp",
+      "bytes": 424473,
+      "sha256_at_handoff": "b6e37ac587adef42f7118f7bfcf52765aa1fe92f1229d8c9e7be483a610b928b"
+    },
+    {
+      "artifact_id": "artifact_023",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/D_ALE_STAB/stage4_diag_D_ALE_STAB_run_005.msg",
+      "bytes": 328537,
+      "sha256_at_handoff": "ca332533d0b7fda00531e26001f3376bf7285bb32dced9cf9c453eb027bc3f00"
+    },
+    {
+      "artifact_id": "artifact_024",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/D_ALE_STAB/stage4_diag_D_ALE_STAB_run_005.dat",
+      "bytes": 209351,
+      "sha256_at_handoff": "1748abb9b8a055f375fd079e2802c6bce3f680fa5e8008ffab45018ce8b8532c"
+    },
+    {
+      "artifact_id": "artifact_025",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/D_ALE_STAB/stage4_diag_D_ALE_STAB_run_005.sta",
+      "bytes": 4791,
+      "sha256_at_handoff": "051a90434c5c3bd9fea6ff7da32c772f8ccc09d48569ed7dad58c98ff6d7d7f5"
+    },
+    {
+      "artifact_id": "artifact_026",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/D_ALE_STAB/stage4_diag_D_ALE_STAB_run_005.log",
+      "bytes": 790,
+      "sha256_at_handoff": "f2584869658872984520e5f428bf7385f653a52227531764534cb46b44712fa1"
+    },
+    {
+      "artifact_id": "artifact_027",
+      "type": "solver_evidence",
+      "role": "diagnostic_evidence",
+      "path": "../../CAE/Jobs/run_005/D_ALE_STAB/stage4_diag_D_ALE_STAB_run_005.odb",
+      "bytes": 13929020,
+      "sha256_at_handoff": "33f647ca37f5dd81bcbf5e283f725bda86006c82e5670bcc94a7233de3c3aaa3"
+    },
+    {
+      "artifact_id": "artifact_028",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/A_build.json",
+      "bytes": 29337,
+      "sha256_at_handoff": "a7e29735cf54e27fa398fe0af96dc1f2a3e01cfa103b796720f734f334e4d2cb"
+    },
+    {
+      "artifact_id": "artifact_029",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/A_execution.json",
+      "bytes": 609,
+      "sha256_at_handoff": "940540df456f3cb2ed4c885b08a463c2f86265b95550346ebea2ad3aedb5c8fe"
+    },
+    {
+      "artifact_id": "artifact_030",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/A_input_diff_audit.json",
+      "bytes": 400,
+      "sha256_at_handoff": "ab0be3dbc417b3d3a98784cccc53be46581c4e1e994dbafdb319ef2dc39469f6"
+    },
+    {
+      "artifact_id": "artifact_031",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/A_logs.json",
+      "bytes": 31323,
+      "sha256_at_handoff": "ea581d6c289534a65f45ef4f2fa88fe008f296c80f1fe4b85a135400d084e532"
+    },
+    {
+      "artifact_id": "artifact_032",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/A_odb_diagnostic.json",
+      "bytes": 581135,
+      "sha256_at_handoff": "155e895ebc114a44ec3e763a39e9bb317299bb51f19b9f733723296bd4ef5437"
+    },
+    {
+      "artifact_id": "artifact_033",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/ale_capability_audit.json",
+      "bytes": 5834,
+      "sha256_at_handoff": "9e282274ea91601c95c42e1d87795e51df25330e5e59367fd457230c8c712775"
+    },
+    {
+      "artifact_id": "artifact_034",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_adaptive_warning_audit.json",
+      "bytes": 90,
+      "sha256_at_handoff": "5c6477ad304e45d9909ca33b3c3cb63d6fba2ff5a4588a330b530d39ae92d3a5"
+    },
+    {
+      "artifact_id": "artifact_035",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_attempt001_build.json",
+      "bytes": 33776,
+      "sha256_at_handoff": "fe082c0aff2cca28462ccf6b73c29974e38aa96071ca474945c1e3108d99aeaf"
+    },
+    {
+      "artifact_id": "artifact_036",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_attempt001_execution.json",
+      "bytes": 346,
+      "sha256_at_handoff": "67b3da16c7d463ae3e6edce664e03e40fc3cb07158b7cf50f1faaf5b876566bc"
+    },
+    {
+      "artifact_id": "artifact_037",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_attempt001_input_diff_audit.json",
+      "bytes": 459,
+      "sha256_at_handoff": "0b88be4043698f536ee461edff7d1833b9b76860e1fecf738ea2d4d9218e7016"
+    },
+    {
+      "artifact_id": "artifact_038",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_attempt001_invalidation.json",
+      "bytes": 263,
+      "sha256_at_handoff": "5c6842fcfb3761a7877c5de9b1b33a981dc8c6201d150f9af5cda675c2907ef2"
+    },
+    {
+      "artifact_id": "artifact_039",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_build.json",
+      "bytes": 62963,
+      "sha256_at_handoff": "ec20392f278e3e7d434f106d81cde27201efc7a29fd14980916fec9f78506323"
+    },
+    {
+      "artifact_id": "artifact_040",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_execution.json",
+      "bytes": 352,
+      "sha256_at_handoff": "06149dd7f567bf367631ad311de0dc2bdba78f6bfcdfa54cec3ead289f3f059e"
+    },
+    {
+      "artifact_id": "artifact_041",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_input_diff_audit.json",
+      "bytes": 10728,
+      "sha256_at_handoff": "186805d2e509c1cdb1d6bfd61f53f7d743851b990ebbf40eedd5d7cab3cd862c"
+    },
+    {
+      "artifact_id": "artifact_042",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_logs.json",
+      "bytes": 27327,
+      "sha256_at_handoff": "4c2b371a030dd053750ccd16b913a63b77e4148ec7d9f8f24479b0d9cdd00c49"
+    },
+    {
+      "artifact_id": "artifact_043",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/B_odb_diagnostic.json",
+      "bytes": 710429,
+      "sha256_at_handoff": "3017d815eb6ea6d5ecb9e6fac00572407141a55973cee9fbbdca617194bf4b31"
+    },
+    {
+      "artifact_id": "artifact_044",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/baseline_inspection.json",
+      "bytes": 629919,
+      "sha256_at_handoff": "9fa03da7cfeaab16772dfe810f86398eed0879f9be00bbe25d86137302d6906e"
+    },
+    {
+      "artifact_id": "artifact_045",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/C_build.json",
+      "bytes": 29746,
+      "sha256_at_handoff": "b2a78a8cb6336baf65e711d0ae160ddbce4c0b4a11943c13e31999413b160e56"
+    },
+    {
+      "artifact_id": "artifact_046",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/C_execution.json",
+      "bytes": 348,
+      "sha256_at_handoff": "41ba3fba403806071d4022fc4b210e4d2841bd0825b8188f5891edfecfdf79f3"
+    },
+    {
+      "artifact_id": "artifact_047",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/C_input_diff_audit.json",
+      "bytes": 3525,
+      "sha256_at_handoff": "1be89bccf30293a6496e4c44177672854e3edce4be825f3b9da87a55bfb69d5e"
+    },
+    {
+      "artifact_id": "artifact_048",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/C_logs.json",
+      "bytes": 4194,
+      "sha256_at_handoff": "492b6b3305c1885039224f5c1e565499a893d424b06a6192edc8333a58fd27e3"
+    },
+    {
+      "artifact_id": "artifact_049",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/C_odb_diagnostic.json",
+      "bytes": 83306,
+      "sha256_at_handoff": "476ce8e56581099e01289605db881acab6527590731cf32bf8bc03a0a8b740f5"
+    },
+    {
+      "artifact_id": "artifact_050",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/D_adaptive_warning_audit.json",
+      "bytes": 90,
+      "sha256_at_handoff": "464024b148a9e6baf68fd7941bc3f99efe226517586daa31bf20d6643f0e4121"
+    },
+    {
+      "artifact_id": "artifact_051",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/D_build.json",
+      "bytes": 63390,
+      "sha256_at_handoff": "8aa88f9c65dd1e96a3c30a9f168e7c9185a929aa223eb6f39b2bc385c031d252"
+    },
+    {
+      "artifact_id": "artifact_052",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/D_execution.json",
+      "bytes": 356,
+      "sha256_at_handoff": "4a7ddfe9b1a89c32ba6586643d332e5d3f5ce63aadcf185debf4f7e07664a5da"
+    },
+    {
+      "artifact_id": "artifact_053",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/D_input_diff_audit.json",
+      "bytes": 13850,
+      "sha256_at_handoff": "37d6a90b6a19bb9f47314c36596073ec5e49dce95a718b8c5dc147a25bf4959c"
+    },
+    {
+      "artifact_id": "artifact_054",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/D_logs.json",
+      "bytes": 4235,
+      "sha256_at_handoff": "04c428b3673e2c7117b0a46ef67311940bfb92ce88b1439f98db2cee84c4f0ca"
+    },
+    {
+      "artifact_id": "artifact_055",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/D_odb_diagnostic.json",
+      "bytes": 83331,
+      "sha256_at_handoff": "48feab2e0747fcb7178bb18875560b920edd73269bb4deac016d74857e91f8bb"
+    },
+    {
+      "artifact_id": "artifact_056",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/matrix_results.json",
+      "bytes": 43221,
+      "sha256_at_handoff": "ba140e917a256737da8c590070ccc7f5a10c9e50998c214d082e7a1b32f044af"
+    },
+    {
+      "artifact_id": "artifact_057",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/plan.json",
+      "bytes": 553,
+      "sha256_at_handoff": "1e9a34aeca9663a6964aaba40c402880056c275be2d8cae19c7b1c7eaf10814b"
+    },
+    {
+      "artifact_id": "artifact_058",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/run_validation.json",
+      "bytes": 1355,
+      "sha256_at_handoff": "4ad761c1fb87ccb8a6fd41985a4f18a3220f270a31a8c570b7aba591a94a4280"
+    },
+    {
+      "artifact_id": "artifact_059",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/safety_after.json",
+      "bytes": 1214,
+      "sha256_at_handoff": "434c21e6df90291035b2e83d35b9c0a00565fd449fcb4b5c3281493aa01c3364"
+    },
+    {
+      "artifact_id": "artifact_060",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/safety_before.json",
+      "bytes": 3364587,
+      "sha256_at_handoff": "54f339b637a5e3e29bd536addf29bd252f872d51d8dc329ca3a75cd5811fc6d5"
+    },
+    {
+      "artifact_id": "artifact_061",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/stabilization_selection.json",
+      "bytes": 6861,
+      "sha256_at_handoff": "7c0d2418db2a0d55986f0fa6c2133f90b6a48ffd39ec84a17a54b793a7bd12a2"
+    },
+    {
+      "artifact_id": "artifact_062",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/A_launcher_console.txt",
+      "bytes": 709,
+      "sha256_at_handoff": "7d8b42a2f9703f7b3bf71ae907fa72eb6a07e8c6942e510a95dff8e5e30dd690"
+    },
+    {
+      "artifact_id": "artifact_063",
+      "type": "diagnostic_report",
+      "role": "supporting_output",
+      "path": "../../CAE/Reports/N32/numerical_stability/run_005/comparison_table.md",
+      "bytes": 682,
+      "sha256_at_handoff": "0b5fc03652bb51e574cf4a50432f4e8300b984e8611a16cee69c4abcba104dd7"
+    },
+    {
+      "artifact_id": "artifact_064",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_audit_stability_input.py",
+      "bytes": 3462,
+      "sha256_at_handoff": "2b59b8343b8db700888eac963ba2a0cf3e316065e041703871fede6331568d8b"
+    },
+    {
+      "artifact_id": "artifact_065",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_inspect_stability_baseline.py",
+      "bytes": 1545,
+      "sha256_at_handoff": "b67e6795d01db74879bde4bb28c1833c6235dcf29279fb1b3ec5c2335eab5016"
+    },
+    {
+      "artifact_id": "artifact_066",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_numerical_stability_ablation.py",
+      "bytes": 5264,
+      "sha256_at_handoff": "690cc8d10a648ed836d4545936cb0684989528a0d833d3f362b510b96aad6b3b"
+    },
+    {
+      "artifact_id": "artifact_067",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_parse_stability_logs.py",
+      "bytes": 7881,
+      "sha256_at_handoff": "767fd9a7b3a11f13bf558692a0cfcd922fed8d463713accd6578b6b66390242a"
+    },
+    {
+      "artifact_id": "artifact_068",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_read_stability_odb.py",
+      "bytes": 5292,
+      "sha256_at_handoff": "5e65ee1a75721853558eb1dbf45c74e53731a6238468627558c37c0340d30978"
+    },
+    {
+      "artifact_id": "artifact_069",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_run_stability_case.py",
+      "bytes": 1136,
+      "sha256_at_handoff": "475230b09d562fbd7b17d11338e4b3524eada3f04cae00569b9c4664ef2eda8e"
+    },
+    {
+      "artifact_id": "artifact_070",
+      "type": "python_script",
+      "role": "supporting_output",
+      "path": "../../CAE/scripts/debug/stage4_summarize_stability_matrix.py",
+      "bytes": 5128,
+      "sha256_at_handoff": "50d89b6d1d656f73f88f90570e8aa5a66c01063a8c390dc2500a765a6a87514e"
+    },
+    {
+      "artifact_id": "artifact_071",
+      "type": "abaqus_cae",
+      "role": "invalidated_attempt_not_a_matrix_result",
+      "path": "../../CAE/Models/N32/Generated/diagnostic/numerical_stability/run_005/stage4_N32_diag_B_ALE.cae",
+      "bytes": 1118208,
+      "sha256_at_handoff": "b932525a7f202205e458cfa2cc766e3ca299faf6f333b193df76705b2e70c9d8"
+    },
+    {
+      "artifact_id": "artifact_072",
+      "type": "directory",
+      "role": "invalidated_attempt_not_a_matrix_result",
+      "path": "../../CAE/Jobs/run_005/B_ALE"
+    },
+    {
+      "artifact_id": "artifact_073",
+      "type": "status_or_summary",
+      "role": "run_record",
+      "path": "../../status/CAE_STATUS.md",
+      "bytes": 2802,
+      "sha256_at_handoff": "784312c9b9b508f4c5f061988c53bf62ff534819e28763d5d576d36347f67962"
+    },
+    {
+      "artifact_id": "artifact_074",
+      "type": "status_or_summary",
+      "role": "run_record",
+      "path": "../../status/MASTER_STATUS.md",
+      "bytes": 2099,
+      "sha256_at_handoff": "6c9319d563ad89cd790f8b8692d838bba3b45f13c5c39b01034274985b41c829"
+    },
+    {
+      "artifact_id": "artifact_075",
+      "type": "status_or_summary",
+      "role": "run_record",
+      "path": "../README.md",
+      "bytes": 3460,
+      "sha256_at_handoff": "6520e6ce836a1cdec3799bf0ae4c23ec5eb58348fcf7434eb4fc53161b039d2e"
+    },
+    {
+      "artifact_id": "artifact_076",
+      "type": "status_or_summary",
+      "role": "run_record",
+      "path": "summary.md",
+      "bytes": 17927,
+      "sha256_at_handoff": "654d282b0428f0af139b0240da9a6cf933320e82d2f920be17461a25ccd29359"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "stage": "A_running_after_capability_audit",
+  "path_base": "run_directory",
+  "capability_audit": "../../CAE/Reports/N32/numerical_stability/run_005/ale_capability_audit.json",
+  "completed_cases": [],
+  "active_case": "A",
+  "planned_next": "B only after A completion and result recording",
+  "solver_jobs_in_parallel": 1
+}

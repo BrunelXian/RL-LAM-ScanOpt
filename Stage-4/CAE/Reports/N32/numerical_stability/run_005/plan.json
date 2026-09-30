@@ -1,0 +1,18 @@
+{
+  "run_id": "run_005",
+  "baseline": "E:\\Projects\\Stage-4\\CAE\\Models\\N32\\Generated\\diagnostic\\stage4_N32_diag_identity_order.cae",
+  "report_dir": "E:\\Projects\\Stage-4\\CAE\\Reports\\N32\\numerical_stability\\run_005",
+  "model_dir": "E:\\Projects\\Stage-4\\CAE\\Models\\N32\\Generated\\diagnostic\\numerical_stability\\run_005",
+  "job_root": "E:\\Projects\\Stage-4\\CAE\\Jobs\\run_005",
+  "sequence": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "case_ids": [],
+  "parameter_sweeps": false,
+  "attempts": {
+    "B": 2
+  }
+}

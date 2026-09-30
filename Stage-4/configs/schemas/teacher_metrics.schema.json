@@ -1,0 +1,563 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stage4TeacherMetrics",
+  "description": "Stage 4 interface v1.0. Example validation is not engineering or scientific validation.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "case_id": {
+      "type": "string",
+      "pattern": "^S4C(?!000000$)[0-9]{6}$"
+    },
+    "N": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "process_config_id": {
+      "type": "string",
+      "pattern": "^stage4_[a-z][a-z0-9_]*_v[0-9]{2,}$",
+      "description": "Immutable configuration identity; example IDs are not registered configurations."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "example_only": {
+      "type": "boolean"
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "metric_schema_version": {
+      "const": "1.0"
+    },
+    "odb_run_id": {
+      "type": "string",
+      "pattern": "^run_(?!0+$)[0-9]{3,}$"
+    },
+    "cae_job_manifest_path": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+      "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+    },
+    "abaqus_job_name": {
+      "type": "string",
+      "pattern": "^S4C(?!000000(?:_|$))[0-9]{6}(?:_[A-Za-z0-9]+)*$",
+      "description": "Default case_id; optional suffix; prefix must equal case_id (semantic identity check)."
+    },
+    "odb_path": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+          "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "solver_status": {
+      "enum": [
+        "not_run",
+        "submitted",
+        "running",
+        "completed",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "extraction_status": {
+      "enum": [
+        "not_run",
+        "running",
+        "completed",
+        "partial",
+        "failed"
+      ]
+    },
+    "thermal_metrics": {
+      "type": "object",
+      "properties": {
+        "tmax": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "preheat_interface_temperature": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "coheat_peak_temperature": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "cooling_rate": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        }
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/$defs/metric"
+          }
+        ]
+      }
+    },
+    "bottom_layer_metrics": {
+      "type": "object",
+      "properties": {
+        "s11_max": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "s22_max": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "mises_max": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "peeq_max": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/physical_metric"
+            }
+          ]
+        },
+        "spatial_profile_path": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+              "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "history_path": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+              "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/$defs/metric"
+          }
+        ]
+      }
+    },
+    "derived_metrics": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/metric"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "teacher_ready": {
+      "type": "boolean"
+    },
+    "teacher_validation": {
+      "type": "object",
+      "required": [
+        "status",
+        "report_path"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_run",
+            "passed",
+            "warning",
+            "failed"
+          ]
+        },
+        "report_path": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+              "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "passed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "report_path": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+                "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+              }
+            }
+          }
+        }
+      ]
+    },
+    "u2": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/physical_metric"
+        }
+      ]
+    },
+    "peeq": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/physical_metric"
+        }
+      ]
+    },
+    "surface_t": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/physical_metric"
+        }
+      ]
+    },
+    "mises": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/physical_metric"
+        }
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "metric_schema_version",
+    "case_id",
+    "N",
+    "process_config_id",
+    "odb_run_id",
+    "cae_job_manifest_path",
+    "abaqus_job_name",
+    "odb_path",
+    "solver_status",
+    "extraction_status",
+    "u2",
+    "peeq",
+    "surface_t",
+    "mises",
+    "thermal_metrics",
+    "bottom_layer_metrics",
+    "warnings",
+    "teacher_validation",
+    "teacher_ready",
+    "created_at",
+    "example_only"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "example_only": {
+            "const": true
+          }
+        },
+        "required": [
+          "example_only"
+        ]
+      },
+      "then": {
+        "properties": {
+          "case_id": {
+            "const": "S4C999999"
+          },
+          "process_config_id": {
+            "const": "stage4_example_only_v00"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "case_id": {
+            "not": {
+              "const": "S4C999999"
+            }
+          },
+          "process_config_id": {
+            "not": {
+              "const": "stage4_example_only_v00"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "teacher_ready": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "example_only": {
+            "const": false
+          },
+          "solver_status": {
+            "const": "completed"
+          },
+          "extraction_status": {
+            "const": "completed"
+          },
+          "teacher_validation": {
+            "properties": {
+              "status": {
+                "const": "passed"
+              }
+            }
+          },
+          "odb_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$",
+            "description": "Forward-slash path relative to Stage 4 root. Planned paths do not imply file existence."
+          },
+          "u2": {
+            "$ref": "#/$defs/physical_metric"
+          },
+          "peeq": {
+            "$ref": "#/$defs/physical_metric"
+          },
+          "surface_t": {
+            "$ref": "#/$defs/physical_metric"
+          },
+          "mises": {
+            "$ref": "#/$defs/physical_metric"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "teacher_validation": {
+            "properties": {
+              "status": {
+                "const": "passed"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "solver_status": {
+            "const": "completed"
+          },
+          "extraction_status": {
+            "const": "completed"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "required": [
+        "value",
+        "unit",
+        "category",
+        "definition_id",
+        "aggregation",
+        "region",
+        "time_selection"
+      ],
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "enum": [
+            "raw_physical",
+            "normalized",
+            "ranking",
+            "diagnostic"
+          ]
+        },
+        "definition_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aggregation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "region": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_selection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transform_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis_metric_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "category": {
+                "enum": [
+                  "normalized",
+                  "ranking"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "transform_id",
+              "reference_id",
+              "basis_metric_ids"
+            ]
+          }
+        }
+      ]
+    },
+    "physical_metric": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/metric"
+        },
+        {
+          "properties": {
+            "category": {
+              "const": "raw_physical"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

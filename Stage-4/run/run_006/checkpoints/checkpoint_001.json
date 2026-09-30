@@ -1,0 +1,6 @@
+{
+  "phase": "evidence_review_and_baseline_saved",
+  "path_base": "run_directory",
+  "audit": "../../outputs/diagnostics/stage4_run_006_before.json",
+  "publication_blocker": "Stage4 is not a Git repository; user is supplying repository information."
+}

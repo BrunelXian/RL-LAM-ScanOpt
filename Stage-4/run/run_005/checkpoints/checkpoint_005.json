@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-30T16:14:29.343938+08:00",
+  "state": "all_four_cases_finished_and_audited",
+  "solver_jobs_active": false,
+  "case_verdicts": {
+    "A": "BASELINE_FAILURE_CONFIRMED",
+    "B": "ALE_GEOMETRY_IMPROVED_BUT_NOT_SOLVED",
+    "C": "STABILIZATION_NO_MEANINGFUL_IMPROVEMENT",
+    "D": "ALE_STAB_NO_MEANINGFUL_IMPROVEMENT"
+  },
+  "protected_files_unchanged": true,
+  "parameter_sweeps": false,
+  "stopped": true
+}

@@ -1,0 +1,5 @@
+{
+  "stage": "completed_and_independently_validated",
+  "report": "../../../CAE/Reports/N32/diagnostic/run_003/run_validation.json",
+  "note": "Checkpoint paths here are relative to this checkpoint file; no engineering files copied."
+}

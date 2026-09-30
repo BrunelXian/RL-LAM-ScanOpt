@@ -1,0 +1,241 @@
+{
+  "steps": [
+    "Step-01-cool",
+    "Step-02-preheat",
+    "Step-02-coheat",
+    "Step-02-cool",
+    "Step-03-preheat",
+    "Step-03-coheat",
+    "Step-03-cool",
+    "Step-04-preheat",
+    "Step-04-coheat",
+    "Step-04-cool",
+    "Step-05-preheat",
+    "Step-05-cool",
+    "Step-06-preheat",
+    "Step-06-cool",
+    "Step-07-preheat",
+    "Step-07-coheat",
+    "Step-07-cool",
+    "Step-08-preheat",
+    "Step-08-cool",
+    "Step-09-preheat",
+    "Step-09-coheat",
+    "Step-09-cool",
+    "Step-10-preheat"
+  ],
+  "basis": "Actual A steps with cutbacks/retries, negative eigenvalues, plasticity failure, or divergence; fixed before C/D. Geometry-only fatal step not misclassified as equilibrium convergence failure.",
+  "method": "DISSIPATED_ENERGY_FRACTION",
+  "magnitude": 0.0002,
+  "adaptiveDampingRatio": 0.05,
+  "continued_damping": false,
+  "basis_by_step": {
+    "Step-01-cool": {
+      "negative_eigenvalue_warnings": 2,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 85,
+      "area_errors": 0
+    },
+    "Step-02-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 36,
+      "area_errors": 0
+    },
+    "Step-02-coheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 0,
+      "attempt_retries": 1,
+      "equilibrium_checks": 54,
+      "area_errors": 0
+    },
+    "Step-02-cool": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 4,
+      "divergence": 2,
+      "attempt_retries": 4,
+      "equilibrium_checks": 129,
+      "area_errors": 0
+    },
+    "Step-03-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 48,
+      "area_errors": 0
+    },
+    "Step-03-coheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 57,
+      "area_errors": 0
+    },
+    "Step-03-cool": {
+      "negative_eigenvalue_warnings": 2,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 2,
+      "attempt_retries": 4,
+      "equilibrium_checks": 131,
+      "area_errors": 0
+    },
+    "Step-04-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 55,
+      "area_errors": 0
+    },
+    "Step-04-coheat": {
+      "negative_eigenvalue_warnings": 2,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 1,
+      "attempt_retries": 2,
+      "equilibrium_checks": 63,
+      "area_errors": 0
+    },
+    "Step-04-cool": {
+      "negative_eigenvalue_warnings": 1,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 0,
+      "attempt_retries": 1,
+      "equilibrium_checks": 96,
+      "area_errors": 0
+    },
+    "Step-05-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 53,
+      "area_errors": 0
+    },
+    "Step-05-cool": {
+      "negative_eigenvalue_warnings": 1,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 92,
+      "area_errors": 0
+    },
+    "Step-06-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 55,
+      "area_errors": 0
+    },
+    "Step-06-cool": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 6,
+      "divergence": 1,
+      "attempt_retries": 4,
+      "equilibrium_checks": 123,
+      "area_errors": 0
+    },
+    "Step-07-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 61,
+      "area_errors": 0
+    },
+    "Step-07-coheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 2,
+      "divergence": 0,
+      "attempt_retries": 1,
+      "equilibrium_checks": 44,
+      "area_errors": 0
+    },
+    "Step-07-cool": {
+      "negative_eigenvalue_warnings": 1,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 127,
+      "area_errors": 0
+    },
+    "Step-08-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 6,
+      "divergence": 0,
+      "attempt_retries": 3,
+      "equilibrium_checks": 58,
+      "area_errors": 0
+    },
+    "Step-08-cool": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 3,
+      "attempt_retries": 3,
+      "equilibrium_checks": 123,
+      "area_errors": 0
+    },
+    "Step-09-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 62,
+      "area_errors": 0
+    },
+    "Step-09-coheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 0,
+      "divergence": 1,
+      "attempt_retries": 1,
+      "equilibrium_checks": 58,
+      "area_errors": 0
+    },
+    "Step-09-cool": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 1,
+      "material_failures": 0,
+      "divergence": 3,
+      "attempt_retries": 4,
+      "equilibrium_checks": 152,
+      "area_errors": 0
+    },
+    "Step-10-preheat": {
+      "negative_eigenvalue_warnings": 0,
+      "excessive_distortion_warnings": 0,
+      "material_failures": 4,
+      "divergence": 0,
+      "attempt_retries": 2,
+      "equilibrium_checks": 64,
+      "area_errors": 0
+    }
+  }
+}

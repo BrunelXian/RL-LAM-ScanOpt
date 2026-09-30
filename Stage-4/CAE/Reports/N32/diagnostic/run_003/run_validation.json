@@ -1,0 +1,51 @@
+{
+  "run_id": "run_003",
+  "status": "passed",
+  "verdict": "PASS_STAGE4_N32_DEPOSITION_EVENT_GENERATOR_READY",
+  "execution_status": "completed",
+  "checks": {
+    "generator_exists": true,
+    "diagnostic_cae_built": true,
+    "master_unchanged": true,
+    "events_32_complete": true,
+    "mapping": "passed",
+    "interaction_lifecycle": "passed",
+    "load_lifecycle": "passed",
+    "final_state": "passed",
+    "bottom_layer_preserved": true,
+    "solver_not_run": true,
+    "no_real_case_created": true,
+    "cae_status_updated": true
+  },
+  "independent_audit": "deposition_audit.json",
+  "independent_assertion_count": 70276,
+  "counts": {
+    "steps_including_initial": 132,
+    "analysis_steps": 131,
+    "events": 32,
+    "reactivations": 32,
+    "model_change_total": 33,
+    "film": 65,
+    "radiation": 65,
+    "heat_loads": 96
+  },
+  "final_state": {
+    "addi_active": 32,
+    "in_film_off": 32,
+    "in_rad_off": 32,
+    "addi_film_on": 32,
+    "addi_rad_on": 32,
+    "heat_loads_on": 0
+  },
+  "bottom_layer_elements": 136,
+  "regression_report": "audit_regression_tests.json",
+  "safety_report": "safety_after.json",
+  "warnings": [],
+  "limitations": [
+    "Actual CAE build coverage is diagnostic identity order [1..32] only; nonidentity first-event remap is implemented but not CAE-tested in this run.",
+    "Build-only validation does not establish solver convergence, thermal predictions or experimental calibration.",
+    "Future formal Stage4Case/config registry/workflow integration remains outside this run."
+  ],
+  "handoff_ready": true,
+  "handoff_scope": "N32 diagnostic generator and saved CAE state-machine correctness; no solver or production nonidentity authorization"
+}

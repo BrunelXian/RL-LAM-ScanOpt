@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_005",
+  "agent": "stage4_cae",
+  "operation": "diagnose_n32_numerical_stability_ablation",
+  "status": "completed",
+  "started_at": "2026-09-30T15:35:46.746184+08:00",
+  "completed_at": "2026-09-30T16:14:29.343938+08:00",
+  "input_runs": [
+    "run_003",
+    "run_004"
+  ],
+  "case_ids": [],
+  "diagnostic_cases": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "artifacts_manifest": "./artifacts/artifacts.json",
+  "validation": {
+    "status": "passed",
+    "scope": "diagnostic matrix execution, allowed-change isolation, evidence integrity and protected-file checks only",
+    "all_four_cases_executed": true,
+    "all_four_input_diff_audits_passed": true,
+    "baseline_and_master_unchanged": true,
+    "stage3_inventory_unchanged": true,
+    "formal_model_validation": "failed",
+    "formal_model_ready": false,
+    "teacher_candidate_ready": false,
+    "warnings": [
+      "B attempt001 was invalidated because ALE was reset after the first step; terminated and preserved. B valid attempt002 repairs only ALE lifecycle with unchanged region/default settings.",
+      "A direct interactive launcher did not create native .log; native .msg/.dat/.sta and transcribed launcher console are preserved.",
+      "ALE CAE API values frequency=10/meshSweeps=1 are omitted in emitted keyword; actual Standard .msg reports five sweeps. Actual behavior, not API value, is authoritative.",
+      "C/D failed at Step6; their lower total warning/cutback counts do not demonstrate improvement, and they did not test Step40.",
+      "C/D energy ratios cover converged history only, including only the first converged stabilized increment.",
+      "Stage3 unchanged check is path/size/mtime_ns inventory, not full content hashing."
+    ],
+    "diagnostic_verdict": "NO_COMPLETE_NUMERICAL_RESCUE_IN_TESTED_MATRIX"
+  },
+  "handoff": {
+    "ready": true,
+    "scope": "Numerical stability diagnostic report for review only; no model/solver/teacher readiness",
+    "formal_model_ready": false,
+    "teacher_candidate_ready": false,
+    "next_action": "Stopped after full matrix; no follow-on execution authorized by this run."
+  },
+  "error": null,
+  "diagnostic_verdict": "NO_COMPLETE_NUMERICAL_RESCUE_IN_TESTED_MATRIX",
+  "case_results": {
+    "A": {
+      "solver_status": "FAILED",
+      "verdict": "BASELINE_FAILURE_CONFIRMED",
+      "fatal_step": 40
+    },
+    "B": {
+      "solver_status": "FAILED",
+      "verdict": "ALE_GEOMETRY_IMPROVED_BUT_NOT_SOLVED",
+      "fatal_step": 42
+    },
+    "C": {
+      "solver_status": "FAILED",
+      "verdict": "STABILIZATION_NO_MEANINGFUL_IMPROVEMENT",
+      "fatal_step": 6
+    },
+    "D": {
+      "solver_status": "FAILED",
+      "verdict": "ALE_STAB_NO_MEANINGFUL_IMPROVEMENT",
+      "fatal_step": 6
+    }
+  },
+  "warnings": [
+    "B attempt001 was invalidated because ALE was reset after the first step; terminated and preserved. B valid attempt002 repairs only ALE lifecycle with unchanged region/default settings.",
+    "A direct interactive launcher did not create native .log; native .msg/.dat/.sta and transcribed launcher console are preserved.",
+    "ALE CAE API values frequency=10/meshSweeps=1 are omitted in emitted keyword; actual Standard .msg reports five sweeps. Actual behavior, not API value, is authoritative.",
+    "C/D failed at Step6; their lower total warning/cutback counts do not demonstrate improvement, and they did not test Step40.",
+    "C/D energy ratios cover converged history only, including only the first converged stabilized increment.",
+    "Stage3 unchanged check is path/size/mtime_ns inventory, not full content hashing."
+  ]
+}

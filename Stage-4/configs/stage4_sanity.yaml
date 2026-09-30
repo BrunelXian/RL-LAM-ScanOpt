@@ -1,0 +1,32 @@
+# Recorded sanity parameters only; does not modify or execute the CAE model.
+# Effective heat-source values, pending final experimental IR calibration.
+project:
+  stage: 4
+
+stage3_reference:
+  root: "E:/Projects/RL-LAM-ScanOpt"
+  read_only: true
+
+model:
+  N: 32
+  sanity_model: "CAE/Models/N32/Sanity/N32_sanity.cae"
+
+timing:
+  preheat: 0.1
+  react: 1.0e-6
+  coheat: 0.1
+  cool: 4.0
+  final_cooling: 1200.0
+
+heat:
+  preheat_pool_mag: 8.0e+10
+  coheat_pool_mag: 4.0e+10
+  coheat_drop_mag: 4.0e+10
+
+environment:
+  temperature: 25.0
+  film_coefficient: 46.3
+  emissivity: 0.285
+
+model_change:
+  include_strain: false

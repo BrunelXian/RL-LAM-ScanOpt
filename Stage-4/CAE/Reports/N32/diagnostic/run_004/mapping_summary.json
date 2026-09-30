@@ -1,0 +1,362 @@
+{
+  "status": "passed",
+  "scan_order": [
+    12,
+    2,
+    4,
+    16,
+    22,
+    24,
+    32,
+    26,
+    30,
+    20,
+    28,
+    18,
+    14,
+    10,
+    6,
+    1,
+    8,
+    25,
+    29,
+    21,
+    23,
+    31,
+    27,
+    19,
+    17,
+    7,
+    5,
+    3,
+    9,
+    11,
+    15,
+    13
+  ],
+  "observed_mapping": [
+    {
+      "k": 1,
+      "i": 12,
+      "mc": "set_addi_12",
+      "pre": "set_pool_12",
+      "co_pool": "set_pool_12",
+      "co_drop": "set_addi_12",
+      "film": "Surf_addi_12",
+      "rad": "Surf_addi_12"
+    },
+    {
+      "k": 2,
+      "i": 2,
+      "mc": "set_addi_2",
+      "pre": "set_pool_2",
+      "co_pool": "set_pool_2",
+      "co_drop": "set_addi_2",
+      "film": "Surf_addi_2",
+      "rad": "Surf_addi_2"
+    },
+    {
+      "k": 3,
+      "i": 4,
+      "mc": "set_addi_4",
+      "pre": "set_pool_4",
+      "co_pool": "set_pool_4",
+      "co_drop": "set_addi_4",
+      "film": "Surf_addi_4",
+      "rad": "Surf_addi_4"
+    },
+    {
+      "k": 4,
+      "i": 16,
+      "mc": "set_addi_16",
+      "pre": "set_pool_16",
+      "co_pool": "set_pool_16",
+      "co_drop": "set_addi_16",
+      "film": "Surf_addi_16",
+      "rad": "Surf_addi_16"
+    },
+    {
+      "k": 5,
+      "i": 22,
+      "mc": "set_addi_22",
+      "pre": "set_pool_22",
+      "co_pool": "set_pool_22",
+      "co_drop": "set_addi_22",
+      "film": "Surf_addi_22",
+      "rad": "Surf_addi_22"
+    },
+    {
+      "k": 6,
+      "i": 24,
+      "mc": "set_addi_24",
+      "pre": "set_pool_24",
+      "co_pool": "set_pool_24",
+      "co_drop": "set_addi_24",
+      "film": "Surf_addi_24",
+      "rad": "Surf_addi_24"
+    },
+    {
+      "k": 7,
+      "i": 32,
+      "mc": "set_addi_32",
+      "pre": "set_pool_32",
+      "co_pool": "set_pool_32",
+      "co_drop": "set_addi_32",
+      "film": "Surf_addi_32",
+      "rad": "Surf_addi_32"
+    },
+    {
+      "k": 8,
+      "i": 26,
+      "mc": "set_addi_26",
+      "pre": "set_pool_26",
+      "co_pool": "set_pool_26",
+      "co_drop": "set_addi_26",
+      "film": "Surf_addi_26",
+      "rad": "Surf_addi_26"
+    },
+    {
+      "k": 9,
+      "i": 30,
+      "mc": "set_addi_30",
+      "pre": "set_pool_30",
+      "co_pool": "set_pool_30",
+      "co_drop": "set_addi_30",
+      "film": "Surf_addi_30",
+      "rad": "Surf_addi_30"
+    },
+    {
+      "k": 10,
+      "i": 20,
+      "mc": "set_addi_20",
+      "pre": "set_pool_20",
+      "co_pool": "set_pool_20",
+      "co_drop": "set_addi_20",
+      "film": "Surf_addi_20",
+      "rad": "Surf_addi_20"
+    },
+    {
+      "k": 11,
+      "i": 28,
+      "mc": "set_addi_28",
+      "pre": "set_pool_28",
+      "co_pool": "set_pool_28",
+      "co_drop": "set_addi_28",
+      "film": "Surf_addi_28",
+      "rad": "Surf_addi_28"
+    },
+    {
+      "k": 12,
+      "i": 18,
+      "mc": "set_addi_18",
+      "pre": "set_pool_18",
+      "co_pool": "set_pool_18",
+      "co_drop": "set_addi_18",
+      "film": "Surf_addi_18",
+      "rad": "Surf_addi_18"
+    },
+    {
+      "k": 13,
+      "i": 14,
+      "mc": "set_addi_14",
+      "pre": "set_pool_14",
+      "co_pool": "set_pool_14",
+      "co_drop": "set_addi_14",
+      "film": "Surf_addi_14",
+      "rad": "Surf_addi_14"
+    },
+    {
+      "k": 14,
+      "i": 10,
+      "mc": "set_addi_10",
+      "pre": "set_pool_10",
+      "co_pool": "set_pool_10",
+      "co_drop": "set_addi_10",
+      "film": "Surf_addi_10",
+      "rad": "Surf_addi_10"
+    },
+    {
+      "k": 15,
+      "i": 6,
+      "mc": "set_addi_6",
+      "pre": "set_pool_6",
+      "co_pool": "set_pool_6",
+      "co_drop": "set_addi_6",
+      "film": "Surf_addi_6",
+      "rad": "Surf_addi_6"
+    },
+    {
+      "k": 16,
+      "i": 1,
+      "mc": "set_addi_1",
+      "pre": "set_pool_1",
+      "co_pool": "set_pool_1",
+      "co_drop": "set_addi_1",
+      "film": "Surf_addi_1",
+      "rad": "Surf_addi_1"
+    },
+    {
+      "k": 17,
+      "i": 8,
+      "mc": "set_addi_8",
+      "pre": "set_pool_8",
+      "co_pool": "set_pool_8",
+      "co_drop": "set_addi_8",
+      "film": "Surf_addi_8",
+      "rad": "Surf_addi_8"
+    },
+    {
+      "k": 18,
+      "i": 25,
+      "mc": "set_addi_25",
+      "pre": "set_pool_25",
+      "co_pool": "set_pool_25",
+      "co_drop": "set_addi_25",
+      "film": "Surf_addi_25",
+      "rad": "Surf_addi_25"
+    },
+    {
+      "k": 19,
+      "i": 29,
+      "mc": "set_addi_29",
+      "pre": "set_pool_29",
+      "co_pool": "set_pool_29",
+      "co_drop": "set_addi_29",
+      "film": "Surf_addi_29",
+      "rad": "Surf_addi_29"
+    },
+    {
+      "k": 20,
+      "i": 21,
+      "mc": "set_addi_21",
+      "pre": "set_pool_21",
+      "co_pool": "set_pool_21",
+      "co_drop": "set_addi_21",
+      "film": "Surf_addi_21",
+      "rad": "Surf_addi_21"
+    },
+    {
+      "k": 21,
+      "i": 23,
+      "mc": "set_addi_23",
+      "pre": "set_pool_23",
+      "co_pool": "set_pool_23",
+      "co_drop": "set_addi_23",
+      "film": "Surf_addi_23",
+      "rad": "Surf_addi_23"
+    },
+    {
+      "k": 22,
+      "i": 31,
+      "mc": "set_addi_31",
+      "pre": "set_pool_31",
+      "co_pool": "set_pool_31",
+      "co_drop": "set_addi_31",
+      "film": "Surf_addi_31",
+      "rad": "Surf_addi_31"
+    },
+    {
+      "k": 23,
+      "i": 27,
+      "mc": "set_addi_27",
+      "pre": "set_pool_27",
+      "co_pool": "set_pool_27",
+      "co_drop": "set_addi_27",
+      "film": "Surf_addi_27",
+      "rad": "Surf_addi_27"
+    },
+    {
+      "k": 24,
+      "i": 19,
+      "mc": "set_addi_19",
+      "pre": "set_pool_19",
+      "co_pool": "set_pool_19",
+      "co_drop": "set_addi_19",
+      "film": "Surf_addi_19",
+      "rad": "Surf_addi_19"
+    },
+    {
+      "k": 25,
+      "i": 17,
+      "mc": "set_addi_17",
+      "pre": "set_pool_17",
+      "co_pool": "set_pool_17",
+      "co_drop": "set_addi_17",
+      "film": "Surf_addi_17",
+      "rad": "Surf_addi_17"
+    },
+    {
+      "k": 26,
+      "i": 7,
+      "mc": "set_addi_7",
+      "pre": "set_pool_7",
+      "co_pool": "set_pool_7",
+      "co_drop": "set_addi_7",
+      "film": "Surf_addi_7",
+      "rad": "Surf_addi_7"
+    },
+    {
+      "k": 27,
+      "i": 5,
+      "mc": "set_addi_5",
+      "pre": "set_pool_5",
+      "co_pool": "set_pool_5",
+      "co_drop": "set_addi_5",
+      "film": "Surf_addi_5",
+      "rad": "Surf_addi_5"
+    },
+    {
+      "k": 28,
+      "i": 3,
+      "mc": "set_addi_3",
+      "pre": "set_pool_3",
+      "co_pool": "set_pool_3",
+      "co_drop": "set_addi_3",
+      "film": "Surf_addi_3",
+      "rad": "Surf_addi_3"
+    },
+    {
+      "k": 29,
+      "i": 9,
+      "mc": "set_addi_9",
+      "pre": "set_pool_9",
+      "co_pool": "set_pool_9",
+      "co_drop": "set_addi_9",
+      "film": "Surf_addi_9",
+      "rad": "Surf_addi_9"
+    },
+    {
+      "k": 30,
+      "i": 11,
+      "mc": "set_addi_11",
+      "pre": "set_pool_11",
+      "co_pool": "set_pool_11",
+      "co_drop": "set_addi_11",
+      "film": "Surf_addi_11",
+      "rad": "Surf_addi_11"
+    },
+    {
+      "k": 31,
+      "i": 15,
+      "mc": "set_addi_15",
+      "pre": "set_pool_15",
+      "co_pool": "set_pool_15",
+      "co_drop": "set_addi_15",
+      "film": "Surf_addi_15",
+      "rad": "Surf_addi_15"
+    },
+    {
+      "k": 32,
+      "i": 13,
+      "mc": "set_addi_13",
+      "pre": "set_pool_13",
+      "co_pool": "set_pool_13",
+      "co_drop": "set_addi_13",
+      "film": "Surf_addi_13",
+      "rad": "Surf_addi_13"
+    }
+  ],
+  "heat_off_before_final_cooling": true,
+  "bottom_layer_members_unchanged": true,
+  "bottom_layer_elements": 136
+}

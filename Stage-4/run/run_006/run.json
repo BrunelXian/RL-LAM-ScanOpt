@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_006",
+  "agent": "stage4_master",
+  "operation": "archive_stage4_cae_route_and_document_agent_diagnostic_evidence",
+  "status": "running",
+  "started_at": "2026-09-30T16:28:18.079832+08:00",
+  "completed_at": null,
+  "input_runs": [
+    "run_003",
+    "run_004",
+    "run_005"
+  ],
+  "case_ids": [],
+  "artifacts_manifest": "./artifacts/artifacts.json",
+  "validation": {
+    "status": "not_run"
+  },
+  "handoff": {
+    "ready": false,
+    "target_agents": [
+      "stage4_master"
+    ]
+  },
+  "error": null
+}
